@@ -1,0 +1,196 @@
+{
+  "article_id": "54bb3fdf-b8f7-45f6-8890-2f9a2e9fded3",
+  "source_article_id": "51e2d3da-2c0f-482e-b51f-2d8aba6d36a1",
+  "topic": "history",
+  "title": {
+    "text": "The Silk Road: A Bridge Between Worlds",
+    "level": 2
+  },
+  "article": [
+    "The Silk Road was not a single paved street but a vast network of trade routes that linked the East and the West for many centuries. It stretched over thousands of miles from the ancient cities of China all the way to the Mediterranean Sea. This path allowed different cultures to exchange goods, ideas, and inventions long before modern technology existed. While the name suggests that only silk was traded, many other items moved along these paths. Traders carried spices, tea, gold, and precious stones across deserts and high mountains. These journeys were often very dangerous due to harsh weather and bandits, so merchants traveled in large groups called caravans for safety.",
+    "One of the most important aspects of the Silk Road was the exchange of knowledge. As people from different lands met at busy marketplaces, they shared their stories and beliefs. This led to the spread of religions and new ways of thinking across many borders. For example, Buddhism traveled from India to China because of these connections. Scientific discoveries also moved along the routes. Paper making and gunpowder were invented in China and eventually reached Europe through trade. This sharing of information helped various societies grow and change more quickly than they would have alone. The Silk Road acted as a giant school where the whole world could learn from one another.",
+    "Cities located along the trade routes became very wealthy and powerful. Places like Samarkand and Constantinople grew into major centers of art and learning. These cities had large markets where people could buy exotic fruits and beautiful fabrics from distant lands. However, the Silk Road was not just about riches and beautiful things. It also had some negative effects, such as the spread of diseases. Some historians believe that the plague moved from Asia to Europe along these same paths. Despite these challenges, the legacy of the Silk Road remains important today. It showed that different nations could work together for mutual benefit.",
+    "By the middle of the fifteenth century, the Silk Road began to lose its importance. New sea routes were discovered by explorers who wanted a faster way to reach the spice markets of Asia. Traveling by ship was often cheaper and safer than crossing vast deserts on camels. Even though the physical paths are no longer the main way we trade, the spirit of the Silk Road lives on. Today, we have global networks and the internet to connect us, but the ancient trade routes were the first step toward our modern world. They proved that humans have always had a strong desire to explore and connect with people from far away."
+  ],
+  "judgement_questions": [
+    {
+      "number": 1,
+      "question": "The Silk Road consisted of one main road that was paved for easier travel.",
+      "answer": "FALSE",
+      "evidence_sentence_indices": [
+        0
+      ]
+    },
+    {
+      "number": 2,
+      "question": "Silk was the only product that merchants were allowed to trade on these routes.",
+      "answer": "FALSE",
+      "evidence_sentence_indices": [
+        3
+      ]
+    },
+    {
+      "number": 3,
+      "question": "Buddhism was introduced to China from India via the Silk Road.",
+      "answer": "TRUE",
+      "evidence_sentence_indices": [
+        9
+      ]
+    },
+    {
+      "number": 4,
+      "question": "The city of Samarkand was destroyed by bandits during the peak of the Silk Road.",
+      "answer": "NOT GIVEN",
+      "evidence_sentence_indices": []
+    },
+    {
+      "number": 5,
+      "question": "The Silk Road helped some diseases spread from one continent to another.",
+      "answer": "TRUE",
+      "evidence_sentence_indices": [
+        18,
+        19
+      ]
+    }
+  ],
+  "single_choice_questions": [
+    {
+      "number": 1,
+      "question": "Why did merchants choose to travel in caravans?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To carry more silk at once"
+        },
+        {
+          "label": "B",
+          "text": "To protect themselves from bandits and weather"
+        },
+        {
+          "label": "C",
+          "text": "To share the cost of the camels"
+        },
+        {
+          "label": "D",
+          "text": "To reach the Mediterranean Sea faster"
+        }
+      ],
+      "answer": "B",
+      "evidence_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "number": 2,
+      "question": "Which of these inventions originated in China and spread to Europe via the Silk Road?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The internet"
+        },
+        {
+          "label": "B",
+          "text": "Modern ships"
+        },
+        {
+          "label": "C",
+          "text": "Paper making and gunpowder"
+        },
+        {
+          "label": "D",
+          "text": "The wheel"
+        }
+      ],
+      "answer": "C",
+      "evidence_sentence_indices": [
+        11
+      ]
+    },
+    {
+      "number": 3,
+      "question": "What happened to cities that were located along the trade routes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They became poor due to high taxes"
+        },
+        {
+          "label": "B",
+          "text": "They were ignored by most travelers"
+        },
+        {
+          "label": "C",
+          "text": "They became powerful centers of art and wealth"
+        },
+        {
+          "label": "D",
+          "text": "They were only used as military bases"
+        }
+      ],
+      "answer": "C",
+      "evidence_sentence_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "number": 4,
+      "question": "When did the Silk Road start to become less significant?",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the early fifteenth century"
+        },
+        {
+          "label": "B",
+          "text": "During the middle of the fifteenth century"
+        },
+        {
+          "label": "C",
+          "text": "After the invention of the internet"
+        },
+        {
+          "label": "D",
+          "text": "When silk was no longer popular"
+        }
+      ],
+      "answer": "B",
+      "evidence_sentence_indices": [
+        22
+      ]
+    },
+    {
+      "number": 5,
+      "question": "Why did explorers prefer the new sea routes over the Silk Road?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They were faster, cheaper, and safer"
+        },
+        {
+          "label": "B",
+          "text": "They wanted to avoid meeting other people"
+        },
+        {
+          "label": "C",
+          "text": "They did not like crossing mountains"
+        },
+        {
+          "label": "D",
+          "text": "There was no more gold left in China"
+        }
+      ],
+      "answer": "A",
+      "evidence_sentence_indices": [
+        23,
+        24
+      ]
+    }
+  ],
+  "validation": {
+    "is_valid": true,
+    "issues": []
+  },
+  "repair_rounds_used": 0,
+  "generated_at": "2026-02-18T12:56:07.479Z"
+}

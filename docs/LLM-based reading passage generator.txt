@@ -1,0 +1,51 @@
+
+
+===== PAGE 1 =====
+
+LLM-based reading passage generator
+
+===== PAGE 2 =====
+
+Motivation
+Static English reading materials
+• Slow updates
+• Discrete difficulty levels (A2/B1/B2…)
+• Difficulty in personalizing and adapting to learner abilities
+Could LLM serve as a "dynamic reading material engine" to automatically generate 
+and adjust the difficulty of reading texts for reading comprehension training?
+
+===== PAGE 3 =====
+
+Research Questions
+• Can LLM generate stable reading articles based on specified topics, lengths, and levels?
+• Input parameter: topic, target words, model
+• How can "language difficulty" be converted into a calculable metric?
+• Using quantitative evaluation with classic readability metrics like Flesch Reading Ease.
+• Can LLM rewriting (simplify / complexify) reflect differences in metrics?
+• How to build a complete pipeline?
+
+===== PAGE 4 =====
+
+Improvement
+• Automated reading passage generation with OpenAI’s large language model (Ummugul Bezirhan)
+• Limitation: It used an old model, lacked quantifiable and computationally readable methods, and employed human evaluation.
+• Free-text Rationale Generation under Readability Level Control (Yi-Sheng Hsu)
+• Limitation: It merely tested the readability of different models in explaining the problem, lacking readability control.
+• Generating Educational Materials with Different Levels of Readability using LLMs (Huang)
+• Limitation: Using descriptions to generate articles results in information distortion and uneven distribution of difficulty modifications.
+Points for improvement that can be generally found in relevant research
+The difficulty metrics have been increased:
+• Information density, the ratio of different word counts to total word count, 
+• Ratio of keywords by using TF-IDF
+• Average abstraction level, based on the concreteness ratings database.
+
+===== PAGE 5 =====
+
+Pipeline
+
+
+===== PAGE 6 =====
+
+System Results
+• The readability of real reading material
+• The readability of generated reading material.

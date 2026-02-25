@@ -1,0 +1,2400 @@
+
+
+===== PAGE 1 =====
+
+Proceedings of the Fourth Workshop on Generation, Evaluation and Metrics (GEM² 2025), pages 129–150
+July 31 - August 1, 2025 ©2025 Association for Computational Linguistics
+Free-text Rationale Generation under Readability Level Control
+Yi-Sheng Hsu1,2,5 Nils Feldhus1,3,4 Sherzod Hakimov2
+1German Research Center for Artificial Intelligence (DFKI)
+2Computational Linguistics, Department of Linguistics, Universität Potsdam
+3Quality and Usability Lab, Technische Universität Berlin
+4BIFOLD ± Berlin Institute for the Foundations of Learning and Data
+5Computer Science Institute, Hochschule Ruhr West
+yi-sheng.hsu@hs-ruhrwest.de feldhus@tu-berlin.de
+Abstract
+Free-text rationales justify model decisions in
+natural language and thus become likable and
+accessible among approaches to explanation
+across many tasks. However, their effectiveness
+can be hindered by misinterpretation and hallu-
+cination. As a perturbation test, we investigate
+how large language models (LLMs) perform
+rationale generation under the effects of read-
+ability level control, i.e., being prompted for an
+explanation targeting a specific expertise level,
+such as sixth grade or college. We find that
+explanations are adaptable to such instruction,
+though the observed distinction between read-
+ability levels does not fully match the defined
+complexity scores according to traditional read-
+ability metrics. Furthermore, the generated ra-
+tionales tend to feature medium level complex-
+ity, which correlates with the measured quality
+using automatic metrics. Finally, our human
+annotators confirm a generally satisfactory im-
+pression on rationales at all readability levels,
+with high-school-level readability being most
+commonly perceived and favored. 1
+1 Introduction
+Over the past few years, the rapid development
+of machine learning methods has drawn consid-
+erable attention to the research field of explain-
+able artificial intelligence (XAI). While conven-
+tional approaches focused more on local or global
+analyses of rules and features ( Casalicchio et al. ,
+2019; Zhang et al. , 2021), the recent development
+of LLMs introduced more dynamic methodologies
+along with their enhanced capability of natural lan-
+guage generation (NLG). The self-explanation po-
+tentials of LLMs have been explored in a variety of
+approaches, such as examining free-text rationales
+(Wiegreffe et al. , 2021) or combining LLM output
+with saliency maps ( Huang et al. , 2023).
+1Disclaimer: The article contains offensive or hateful
+materials, which is inevitable in the nature of the work.
+Although natural language explanation (NLE)
+established itself to be among the most common
+approaches to justify LLM predictions ( Zhu et al. ,
+2024), free-text rationales were found to poten-
+tially misalign with the predictions and thereby mis-
+lead human readers, for whom such misalignment
+seems hardly perceivable ( Ye and Durrett , 2022).
+Furthermore, it remains unexplored whether free-
+text rationales represent a model’s decision making,
+or if they are generated just like any other NLG out-
+put regarding faithfulness. In light of this, we aim
+to examine whether free-text rationales can also
+be controlled through perturbation as demonstrated
+on NLG tasks ( Dathathri et al. , 2020; Imperial and
+Madabushi, 2023). If more dispersed text complex-
+ity could be observed in the rationales, it would
+indicate a higher resemblance between rationales
+and common NLG output, as we assume the LLMs
+to undergo a consistent decision making process on
+the same instance even under different instructions.
+Targeting free-text rationales, we control text
+complexity with descriptive readability levels and
+evaluate the generated rationales under various
+frameworks to investigate what effects additional
+instructions or constraints may bring forward to the
+NLE task (Figure 1). Although the impact of read-
+ability ( Stajner, 2021) has rarely been addressed
+for NLEs, establishing such a connection could
+benefit model explainability, which ultimately aims
+at perception ( Ehsan et al. , 2019) and utility ( Joshi
+et al. , 2023) of diverse human recipients.
+Our study makes the following contributions:
+First, we explore LLM output in both prediction
+and free-text rationalization under the influence of
+readability level control. Second, we apply objec-
+tive metrics to evaluate the rationales and measure
+their quality across text complexity. Finally, we test
+how human perceive the complexity and quality of
+129
+
+===== PAGE 2 =====
+
+Figure 1: The experiment workflow of the current study. The demonstrated example comes from the HateXplain
+dataset. Generated responses are evaluated by both automatic metrics and human annotations.
+the rationales across different readability levels.
+2
+2 Background
+Text complexity The notion of text complexity
+was brought forward in early studies to measure
+how readers of various education levels compre-
+hend a given text (
+Kincaid et al. , 1975). Prior to
+recent developments of NLP, text complexity was
+approximated through metrics including Flesch
+Reading Ease (FRE, Kincaid et al. , 1975), Gunning
+fox index (GFI, Gunning, 1952), and Coleman-
+Liau index (CLI, Coleman and Liau , 1975) (Ap-
+pendix B). These approaches quantify readability
+through formulas considering factors like sentence
+length, word counts, and syllable counts.
+As the most common readability metric, FRE
+was often mapped to descriptions that bridge be-
+tween numeric scores and educational levels ( Fara-
+jidizaji et al. , 2024). Ribeiro et al. (2023) ap-
+plied readability level control to text summarization
+through instruction-prompting. In their study, de-
+scriptive categories were prompted for assigning
+desired text complexity to LLM output.
+NLE metrics Although the assessment of ex-
+plainable models lacks a unified standard, main-
+stream approaches employ either objective or
+2https://github.com/doyouwantsometea/nle_
+readability
+FRE >80 60-80 40-60 <40
+Readability sixth middle high collegeLevel grade school school
+Table 1: The mapping between FRE scores and read-
+ability levels adapted from Ribeiro et al. (2023).
+human-in-the-loop evaluation ( Vilone and Longo ,
+2021). Objective metric scores include LAS ( Hase
+et al. , 2020), REV ( Chen et al. , 2023), and RORA
+(Jiang et al. , 2024c). Their training processes
+highly rely on a particular data structure, which
+does not generalize to tasks relevant to readabil-
+ity. Furthermore, while most studies on NLE in-
+tuitively presume model-generated rationales to
+bridge between model input and output, it remains
+unclear whether the provided reasoning faithfully
+represents its internal process for output genera-
+tion; in other words, free-text rationales could be
+only reflecting what the model has learned from its
+training data ( Atanasova et al. , 2023).
+3 Method
+Readability level control As demonstrated in
+Figure 1, in step 1, we incorporate instruction-
+prompting into the prompt building. The prompts
+consist of three sections: task description, few-shot
+in-context samples, and instruction for the test in-
+stance. After task description and samples, we
+130
+
+===== PAGE 3 =====
+
+add a statement aiming for the rationale: Elabo-
+rate the explanation in {length} 3 to a {readabil-
+ity_level} student. Then we iterate through the data
+instances and readability levels in separate sessions.
+We adapt the framework of Ribeiro et al. (2023) to
+four readability levels based on FRE score ranges
+(Table 1) and explore a range of desired FRE scores
+among {30, 50, 70, 90}, which are respectively
+phrased in the prompts as readability levels {col-
+lege, high school, middle school, sixth grade}.
+Evaluating free-text rationales In light of the
+problematic adaption to readability-related tasks
+and major issues in reproducibility of the afore-
+mentioned NLE evaluation metrics, we exploit the
+overlap between NLE and NLG, we adopt TIGER-
+Score ( Jiang et al. , 2024b), an NLG metric that is
+widely applicable to most tasks, for evaluating the
+generated free-text rationales (§ 4.2). Applying fine-
+tuned Llama-2 (Touvron et al. , 2023), the metric
+was proposed to require little reference but instead
+rely on error analysis over prompted contexts to
+identify and grade mistakes in unstructured text.
+Nevertheless, the approach could sometimes suffer
+from hallucination (or confabulation), similar to
+the common LLM-based methodologies.
+4 Experiments
+4.1 Rationale generation
+Datasets We conduct readability-controlled ratio-
+nale generation on three NLP tasks: fact-checking,
+hate speech detection, and natural language infer-
+ence (NLI), adopting the datasets featuring explana-
+tory annotations. For fact-checking, HealthFC
+(Vladika et al. , 2024) includes 750 claims for fact-
+checking under the medical domain, with excerpts
+of human-written explanations provided along with
+the verification labels. For hate speech detection,
+two datasets are applied: (1) HateXplain (Mathew
+et al. , 2021), which consists of 20k Tweets with
+human-highlighted keywords that contribute the
+most to the labels. (2) Contextual Abuse Dataset
+(CAD, Vidgen et al. , 2021), which contains 25k en-
+tries with six unique labels elaborating the context
+under which hatred is expressed. Lastly, SpanEx
+(Choudhury et al. , 2023) is an NLI dataset that
+includes annotations on word-level semantic rela-
+tions (Appendix A.1).
+3Throughout the experiments, we set this to a fixed value
+of “three sentences” .
+Models We select four recent open-weight LLMs
+from three different families: Mistral-0.2 7B
+(Jiang et al. , 2023), Mixtral-0.1 8x7B (Jiang
+et al. , 2024a)4, OpenChat-3.5 7B (Wang et al. ),
+and Llama-3 8B (Dubey et al. , 2024). All the mod-
+els are instruction-tuned variants downloaded from
+Hugging Face, using the default generation settings,
+running on NVIDIA A100 GPU.
+4.2 Evaluation
+Task accuracy We use accuracy scores to assess
+the alignment between the model predictions and
+the gold labels processed from the datasets. In
+HateXplain (Mathew et al. , 2021), since different
+annotators could label the same instance differently,
+we adopt the most frequent one as the gold label.
+Similarly, in CAD (Vidgen et al. , 2021), we disre-
+gard the subcategories under ªoffensiveº label to
+reduce complexity, simplifying the task into binary
+classification and leaving the subcategories as the
+source of building reference rationales.
+Readability metrics We choose three conven-
+tional readability metrics: FRE ( Kincaid et al. ,
+1975), GFI ( Gunning, 1952), and CLI ( Coleman
+and Liau , 1975) to approximate the complexity of
+the rationales. While a higher FRE score indicates
+more readable text, higher GFI and CLI scores im-
+ply higher text complexity (Appendix B).
+TIGERScore We compute TIGERScore ( Jiang
+et al. , 2024b), which provides explanations in addi-
+tion to the numeric scores. The metric is described
+by the formula:
+{E1, E 2, . . . , E n} = f(I, x, y ′) (1)
+where f is a function that takes the following in-
+puts: I (instruction), x (source context), and y′
+(system output). The function f output a set of
+structured errors {E1, E 2, . . . , E n}. For each error
+Ei = ( li, a i, e i, s i), li denotes the error location,
+ai represents a predefined error aspect, ei is a free-
+text explanation of the error, and si is the score
+reduction ∈ [−5, −0.5] associated with the error.
+At the instance level, the overall metric score is the
+summation of the score reductions for all errors:
+TIGERScore = ∑n
+i=1 si.
+The native scorer is based on Llama-2 (Tou-
+vron et al. , 2023). In addition to Llama-2, we
+4Owing to the larger size of Mixtral-v0.1 8x7B , we
+adopt a bitsandbytes 4-bit quantized version ( https://hf.
+co/ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit )
+to reduce memory consumption.
+131
+
+===== PAGE 4 =====
+
+Figure 2: An example of model predictions and rationales generated by Mistral-0.2 on HealthFC along with the
+evaluation results. Self-eval refers to TIGERScore rated by Mistral-0.2.
+Readability 30 50 70 90 Avg.
+HealthFC
+Mistral-0.2 52.8 52.8 53.8 50.2 52.4
+Mixtral-0.1 54.7 56.4 55.0 55.9 55.5
+OpenChat-3.5 51.6 53.0 52.8 51.8 52.3
+Llama-3 27.9 30.9 30.0 27.8 29.2
+HateXplain
+Mistral-0.2 49.4 49.3 52.6 52.0 50.8
+Mixtral-0.1 46.1 48.4 47.2 47.5 47.3
+OpenChat-3.5 51.7 51.5 53.0 50.5 51.7
+Llama-3 50.7 51.4 50.5 50.3 50.7
+CAD
+Mistral-0.2 82.3* 82.0 79.5 77.6 80.4
+Mixtral-0.1 65.8* 64.8 63.6 61.8 64.0
+OpenChat-3.5 77.3 78.1 77.8 77.2 77.6
+Llama-3 60.6* 58.8 58.0 55.6 58.3
+SpanEx
+Mistral-0.2 34.9 35.5 36.6 37.2 36.1
+Mixtral-0.1 58.4 55.8 55.2 58.1 56.9
+OpenChat-3.5 84.0 84.3 83.8 84.8* 84.2
+Llama-3 41.8 41.7 42.0 41.1 41.7
+Table 2: Task accuracy scores (%) after removal of
+inappropriate answers. The highest score(s) achieved
+per model are starred, and best accuracy per task are
+highlighted in bold. Readability of 30, 50, 70, and 90
+respectively refers to the desired readability level of
+college, high school, middle school, and sixth grade.
+send the TIGERScore instructions to the model
+that performed the task (e.g.,
+Mistral-0.2 and
+OpenChat-3.5), sketching a self-evaluative frame-
+work. Through aligning between evaluated and
+evaluator model, we aim to reduce the negative im-
+pacts from hallucination of a single model, i.e., the
+native Llama-2 scorer. It should nevertheless be
+noted that this setup may emphasize model biases
+inherent to the evaluator model ( Panickssery et al. ,
+2024).
+BERTScore As a reference- based metric, we
+parse reference explanations using rule-based meth-
+ods (App. A.1) and compute BERTScore ( Zhang
+et al. , 2020) with end-of-sentence pooling to avoid
+diluting negations in longer texts.
+Human validation We conduct a human anno-
+tation to investigate how human readers view the
+rationales with distinct readability levels and to val-
+idate whether the metric scores could reflect human
+perception. We choose HateXplain for the setup
+because it requires little professional knowledge (in
+comparison to HealthFC) and is performed evenly
+mediocre across the models, with each of them
+achieving a similar accuracy score of around 0.5.
+Using the rationales generated by
+Mistral-0.2
+132
+
+===== PAGE 5 =====
+
+Figure 3: The readability scores of model-generated rationales. Higher FRE score indicates lower text complexity,
+while GFI and CLI scores are in reverse. The black lines denote the readability scores of the reference rationales
+from HealthFC, which are provided in natural language instead of annotations (Appendix A.1).
+and Llama-3 on HateXplain, we sample a split
+of 200 data points, which consists of 25 random
+instances per model for each of the four readability
+levels.
+We recruit five annotators with computational
+linguistics and/or machine learning background
+with at least a Bachelor’s degree and have all of
+them work on the same split. Given the rationales,
+the annotators are asked to score:
+•
+Readability ({30, 50, 70, 90}): How read-
+able/complex is the generated rationale?
+• Coherence (4-point Likert scale): To what extent
+is the rationale logical and reasonable?
+• Informativeness (4-point Likert): To what extent
+is the rationale supported by sufficient details?
+• Accuracy (binary): Does the annotator agree
+with a prediction after reading the rationale?
+5 Results
+We collect predictions and rationales from four
+models over four datasets (§ 4.1). Figure 2 presents
+a data instance to exemplify the output of LLM in-
+ference as well as each aspect of evaluation. More
+rationale examples are provided in Appendix A.2.
+The four models achieve divergent accuracy
+scores on the selected tasks (Table 2). In most
+cases, around 5-10% of instances are unsuccess-
+fully parsed, mostly owing to formatting errors;
+Mistral-0.2 and Mixtral-0.1, however, could
+hardly follow the instructed output format on par-
+ticular datasets ( CAD and HealthFC), resulting in
+up to 70% of instances being removed for these
+datasets. Since such parsing errors occur only
+on certain batches, we regard them as special
+cases similar to those encountered by
+Tavanaei
+et al. (2024) and Wu et al. (2024) with structured
+prediction with LLMs. The highest accuracy is
+reached by OpenChat-3.5 for NLI ( SpanEx) with
+a score of 82.1%. In comparison, multi-class hate
+speech detection ( HateXplain) and medical fact-
+checking ( HealthFC) appear more challenging for
+all the models, respectively with a peak at 52.0%
+(OpenChat-3.5) and 56.4% ( Mixtral-0.1).
+Free-text rationales generated under instruction-
+prompting show a correlative trend in text com-
+plexity. Figure
+3 reveals that the requested read-
+ability levels introduce notable distinction to text
+complexity, though the measured output readabil-
+ity may not fully conform with the defined score
+ranges (Table
+1); that is, the distinction is not as
+significant as the original paradigm. On the other
+hand, the baseline of HealthFC explanations5 hints
+a central-leaning tendency for free-text rationales
+to inherently exhibit medium level readability.
+Evaluation with TIGERScore is based on error
+analyses through score reduction: Each identified
+error obtains a penalty score (<0), and the entire
+text is rated the summation of all the reductions.
+Such design gives 0 to the texts in which no mis-
+take is recognized; in contrast, the more problem-
+5We refer to HealthFC as baseline because the rationales
+are provided in free-text rather than annotations.
+133
+
+===== PAGE 6 =====
+
+Figure 4: TIGERScore evaluation results by model. Full-batch score reports the average of all data points, while
+the other two scores are divided by the amount of instances scoring below 0. The results of Mistral-0.2 and
+Mixtral-0.1 on CAD and HealthFC may induce more biases owing to the higher proportion of removed instances.
+atic a rationale appears, the lower it scores. In
+our results (Figure
+4), we derive non-zero score
+through further dividing the full-batch score by the
+amount of non-zero data points, since around half
+of the rationales are considered fine by the scorer.
+We also apply the same processing method to self-
+evaluation with the original model. In most cases,
+full-batch TIGERScore proportionally decreases
+along with text complexity, whereas non-zero and
+self-evaluation do not follow such trend.
+In comparison to TIGERScore, BERT similarity
+provides rather little insight into rationale quality
+(Appendix C). Although complex rationales resem-
+ble the references more, the correlation between
+readability and similarity remains weak. Plus, the
+scores differ more across datasets than across mod-
+els, making the outcomes less significant.
+We conduct a human study (§ 4.2) with five an-
+notators, who took around five hours for the 200
+samples. While calculating agreement, we simplify
+the results on readability, coherence, and informa-
+tiveness into two classes owing to the binary nature
+of 4-point Likert scale; the originally annotated
+scores are used elsewhere. We register an agree-
+ment of Krippendorff’s
+α = 3 .67% and Fleiss’
+κ = 13 .92%. Table 3 reveals the coherence and
+informativeness scores. Besides, the human annota-
+tors score an accuracy of 23.7% on recognizing the
+prompted readability level, while reaching 78.3%
+agreement with the model-predicted labels given
+the rationales.
+6 Discussions
+Our study aims to respond to three research ques-
+tions: First, how do LLMs generate different output
+and free-text rationales under prompted readability
+level control? Second, how do objective evalua-
+tion metrics capture rationale quality of different
+readability levels? Third, how do human assess the
+rationales and perceive the NLE outcomes across
+readability levels?
+6.1 Readability level control under
+instruction-prompting (RQ1)
+We find free-text rationale generation sensitive to
+readability level control, whereas the correspond-
+ing task predictions remain consistent. This con-
+firms that NLE output is affected by perturbation
+through instruction prompting.
+Without further fine-tuning, the complexity of
+free-text rationales diverges within a limited range
+according to readability metrics, showing relative
+differences rather than precise score mapping. Us-
+ing Mistral-0.2 and Llama-3 as examples, Fig-
+ure 5 plots the distribution of FRE scores between
+adjacent readability levels. The instances where the
+model delivers desired readability differentiation
+fall into the upper-left triangle split by axis y = x,
+while those deviating from the prompted differ-
+ence appear in the lower-right. The comparison
+between the two graphs shows that Llama-3 aligns
+the prompted readability level better with generated
+text complexity, as the distribution area appears
+more concentrated; meanwhile, Mistral-0.2 bet-
+134
+
+===== PAGE 7 =====
+
+Figure 5: Comparison between FRE scores of two consecutive readability levels. Each dot denotes a data instance,
+with its more readable rationale positioned on x-axis and less readable on y-axis. The rationales are generated by
+Mistral-0.2 and Llama-3 on HateXplain.
+Coherence
+Readability 30 50 70 90 Avg.
+Mistral-0.2 2.84 2.98 3.13 3.03 2.99
+Llama-3 3.07 3.02 2.92 2.85 2.96
+Avg. 2.96 3.00 3.03 2.94 2.98
+Informativeness
+Readability 30 50 70 90 Avg.
+Mistral-0.2 2.59 2.84 3.03 2.77 2.81
+Llama-3 3.02 2.93 2.86 2.86 2.92
+Avg. 2.80 2.88 2.94 2.82 2.86
+Table 3: Human-rated scores per model and readability
+level, with the highest score per model highlighted in
+bold face. Readability of 30, 50, 70, and 90 respectively
+refers to the prompted level of college, high school,
+middle school, and sixth grade.
+ter differentiates the adjacent readability levels,
+with more instances falling in the upper-left area.
+According to the plots, a considerable amount
+of rationales nevertheless fail to address the nu-
+ances between the prompted levels. This could
+result from the workflow running through datasets
+over a given readability level instead of recursively
+instructing the models to generate consecutive out-
+put, i.e., the rationales of different readability lev-
+els were generated in several independent sessions.
+Furthermore, descriptive readability levels do not
+perfectly match the score ranges shown in Table 1;
+that is, the two frameworks are only mutually ap-
+proximate with our experimental setups.
+6.2 Rationale quality presented through
+metric scores (RQ2)
+We adopt TIGERScore as the main metric for mea-
+suring the quality of free-text rationales. On a batch
+scale, the metric tends to favor rather complex ratio-
+nales i.e. college or high-school-level. Taking ac-
+count of the baseline featuring FRE ≈50 (Table 3),
+such tendency suggests a slight correspondence
+between text complexity and explanation quality.
+Deriving non-zero scores from full-batch ones,
+we further find the errors differing in severity at
+distinct readability levels. After removing error-
+free instances (where TIGERScore=0), rationales
+of medium complexity (high school and middle
+school) can often obtain higher scores. Such diver-
+gence implies that less elaborated rationales tend
+to introduce more mistakes, but they are usually
+considered minor. In light of both score varia-
+tions, TIGERScore exhibits characteristics consis-
+tent with the central-leaning tendency, i.e., ratio-
+nales displaying a medium level readability, while
+potentially echoing the preference for longer texts
+in LLM-based evaluation ( Dubois et al. , 2024).
+Full-batch TIGERScore is also found to slightly
+correlate with task performance (Table 2), as better
+task accuracy usually comes with a higher TIGER-
+Score, though such a tendency doesn’t apply across
+different models. For example, Mistral-0.2
+achieves better TIGERScore on SpanEx than
+Mixtral-0.1 and Llama-3, whereas both models
+outperform Mistral-0.2 in this task. This could
+hint at the limitation of the evaluation metric in its
+nature, as its standard does not unify well across
+output from different LLMs or tasks.
+Other than the reference-free metric, we find
+135
+
+===== PAGE 8 =====
+
+BERTScore (Appendix C) differing less signifi-
+cantly, presumably because the meanings of the ra-
+tionales are mostly preserved across readability lev-
+els. Since most reference explanations are parsed
+under defined rules, such outcome also highlights
+the gap between rule-based explanations and the
+actual free-text rationales, signaling linguistic com-
+plexity and diversity of explanatory texts.
+6.3 Validation by human annotators (RQ3)
+Our human annotation delivers low agreement
+scores on the instance level. This results from
+the designed dimensions aiming for more subjec-
+tive opinions than a unified standard, capturing
+human label variation (
+Plank, 2022). Since hate
+speech fundamentally concerns feelings, agree-
+ment scores are typically low. The original labels
+in HateXplain, for example, reported a Krippen-
+droff’s α = 46% (Mathew et al. , 2021).
+We first discover that human readers do not well
+perceive the prompted readability levels (Figure 6).
+This corresponds to the misalignment between the
+prompted levels and the generated rationale com-
+plexity. Even so, the rationales receive a generally
+positive impression (Table 3), with both models
+scoring significantly above average on a 4-point
+Likert scale over all the readability levels.
+Moreover, the divergence of coherence and
+informativeness across readability levels (Ta-
+ble
+3) shares a similar trend with Figure 5,
+with Mistral-0.2 having a higher spread than
+Llama-3, even though the tendency is rarely ob-
+served in the other metrics. On one hand, this
+may imply a gap between metric-captured and
+human-perceived changes introduced by readabil-
+ity level control; on the other hand, combining
+these findings, we may also deduce that human
+readers intrinsically presume free-text rationales
+to feature a medium level complexity and thereby
+prefer plain language to unnecessarily complex or
+over-simplified explanations.
+7 Related Work
+Rationale Evaluation Free-text rationale gen-
+eration was boosted by recent LLMs owing to
+their capability of explaining their own predictions
+(Luo and Specia , 2024). Despite lacking a uni-
+fied paradigm for evaluating rationales, various ap-
+proaches focused on automatic metrics to minimize
+human involvement. ν-information ( Hewitt et al. ,
+2021; Xu et al. , 2020) provided a theoretical basis
+Figure 6: Human perceived readability level with re-
+spect to the prompted ones.
+for metrics such as ReCEval ( Prasad et al. , 2023),
+REV ( Chen et al. , 2023), and RORA ( Jiang et al. ,
+2024c). However, these metrics require training for
+the scorers to learn new and relevant information
+with respect to certain tasks.
+Alternatively, several studies applied LLMs to
+perform reference-free evaluation ( Liu et al. , 2023;
+Wang et al. , 2023). Similar to TIGERScore ( Jiang
+et al. , 2024b), InstructScore ( Xu et al. , 2023)
+took advantage of generative models, delivering an
+reference-free and explainable metric for text gen-
+eration. However, these approaches could suffer
+from LLMs’ known problems such as hallucina-
+tion. As the common methodologies hardly consid-
+ering both deployment simplicity and assessment
+accuracy, Luo and Specia (2024) pointed out the
+difficulties in designing a paradigm that faithfully
+reflects the decision-making process of LLMs.
+Readability of LLM output Rationales gener-
+ated under readability level control share features
+similar to those reported by previous studies on
+NLG-oriented tasks, such as generation of educa-
+tional texts ( Huang et al. , 2024; Trott and Rivière ,
+2024), text simplification ( Barayan et al. , 2025),
+and summarization ( Ribeiro et al. , 2023; Wang and
+Demberg, 2024), given that instruction-based meth-
+ods was proven to alter LLM output in terms of
+text complexity.
+Rooein et al. (2023) found the
+readability of LLM output to vary even when con-
+trolled through designated prompts. Gobara et al.
+(2024) pointed out the limited influence of model
+parameters on delivering text output of different
+complexity. While tuning readability remains a
+significant concern in text simplification and sum-
+marization, LLMs were found to tentatively inherit
+the complexity of input texts and could only rigidly
+adapt to a broader range of readability ( Imperial
+and Madabushi , 2023; Srikanth and Li , 2021).
+136
+
+===== PAGE 9 =====
+
+8 Conclusions
+In this study, we prompted LLMs with distinct read-
+ability levels to perturb free-text rationales. We
+confirmed LLMs’ capability of adapting rationales
+based on instructions, discovering notable shifts in
+readability with yet a gap between prompted and
+measured text complexity. While higher text com-
+plexity could sometimes imply better quality, both
+metric scores and human annotations showed that
+rationales of approximately high-school complex-
+ity were often the most preferred. Moreover, the
+evaluation outcomes disclosed LLMs’ sensitivity
+to perturbation in rationale generation, potentially
+supporting a closer connection between NLE and
+NLG. Our findings may inspire future works to
+explore LLMs’ explanatory capabilities under per-
+turbation and the application of other NLG-related
+methodologies to rationale generation.
+Limitations
+Owing to time and budget constraints, we are un-
+able to fully explore all the potential variables in
+the experimental flow, including structuring the
+prompt, adjusting few-shot training, and instruct-
+ing different desired output length. Despite the
+coverage of multiple models and datasets, we only
+explored the experiments in a single run after tri-
+als using web UI. Besides, the occasionally higher
+ratio of abandoned data instances may induce bi-
+ases to the demonstrated results; we didn’t further
+probe into the reason for this issue because only
+particular LLMs have problems on certain datasets,
+corroborated by concurrent work on structured pre-
+diction with LLMs ( Tavanaei et al. , 2024; Wu et al. ,
+2024). Lastly, LLM generated text could suffer
+from hallucination and include false information.
+Such limitation applies to both rationale generation
+and LLM-based evaluation.
+We were unable to reproduce several NLE-
+specific metrics. LAS ( Hase et al. , 2020) suffers
+from outdated library versions, which are no longer
+available. Although REV (
+Chen et al. , 2023) works
+with the provided toy dataset, we found the im-
+plementation fundamentally depending on task-
+specific data structure, which made it challenging
+to apply to the datasets we chose. Although we are
+motivated to conduct perturbation test in an NLG-
+oriented way, the lack of NLE-specific metrics may
+limit our insight into the evaluation outcome.
+Our human annotators do not share a similar
+background with the original HateXplain dataset,
+where the data instances were mostly contributed
+by North American users. Owing to the different
+cultural background, biases can be implied and
+magnified in identifying and interpreting offensive
+language.
+Ethical Statement
+The datasets of our selection include offensive or
+hateful contents. Inferring LLM with these mate-
+rials could result in offensive language usage and
+even false information involving hateful implica-
+tions when it comes to hallucination. The human
+annotators participating in the study were paid at
+least the minimum wage in conformance with the
+standards of our host institutions’ regions.
+Acknowledgements
+We are indebted to Maximilian Dustin Nasert, Elif
+Kara, Polina Danilovskaia, and Lin Elias Zan-
+der for contributing to the human evaluation. We
+thank Leonhard Hennig for his review of our paper
+draft. This work has been supported by the Ger-
+man Federal Ministry of Education and Research
+as part of the project XAINES (01IW20005) and
+the German Federal Ministry of Research, Technol-
+ogy and Space as part of the projects VERANDA
+(16KIS2047) and BIFOLD 24B.
+References
+Pepa Atanasova, Oana-Maria Camburu, Christina Li-
+oma, Thomas Lukasiewicz, Jakob Grue Simonsen,
+and Isabelle Augenstein. 2023.
+Faithfulness tests
+for natural language explanations . In Proceedings
+of the 61st Annual Meeting of the Association for
+Computational Linguistics (Volume 2: Short Papers) ,
+pages 283±294, Toronto, Canada. Association for
+Computational Linguistics.
+Abdullah Barayan, Jose Camacho-Collados, and Fer-
+nando Alva-Manchego. 2025. Analysing zero-shot
+readability-controlled sentence simplification . In
+Proceedings of the 31st International Conference on
+Computational Linguistics , pages 6762±6781, Abu
+Dhabi, UAE. Association for Computational Linguis-
+tics.
+Giuseppe Casalicchio, Christoph Molnar, and Bernd
+Bischl. 2019. Visualizing the feature importance
+for black box models. In Machine Learning and
+Knowledge Discovery in Databases , pages 655±670,
+Cham. Springer International Publishing.
+Hanjie Chen, Faeze Brahman, Xiang Ren, Yangfeng Ji,
+Yejin Choi, and Swabha Swayamdipta. 2023. REV:
+information-theoretic evaluation of free-text ratio-
+nales. In Proceedings of the 61st Annual Meeting of
+137
+
+===== PAGE 10 =====
+
+the Association for Computational Linguistics (Vol-
+ume 1: Long Papers), ACL 2023, Toronto, Canada,
+July 9-14, 2023 , pages 2007±2030. Association for
+Computational Linguistics.
+Sagnik Ray Choudhury, Pepa Atanasova, and Isabelle
+Augenstein. 2023. Explaining interactions between
+text spans . In Proceedings of the 2023 Conference
+on Empirical Methods in Natural Language Process-
+ing, pages 12709±12730, Singapore. Association for
+Computational Linguistics.
+Meri Coleman and Ta Lin Liau. 1975. A computer
+readability formula designed for machine scoring.
+Journal of Applied Psychology , 60(2):283.
+Sumanth Dathathri, Andrea Madotto, Janice Lan, Jane
+Hung, Eric Frank, Piero Molino, Jason Yosinski, and
+Rosanne Liu. 2020. Plug and play language models:
+A simple approach to controlled text generation . In
+International Conference on Learning Representa-
+tions.
+Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey,
+Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman,
+Akhil Mathur, Alan Schelten, Amy Yang, Angela
+Fan, Anirudh Goyal, Anthony Hartshorn, Aobo Yang,
+Archi Mitra, Archie Sravankumar, Artem Korenev,
+Arthur Hinsvark, Arun Rao, Aston Zhang, and 82
+others. 2024.
+The llama 3 herd of models . CoRR,
+abs/2407.21783.
+Yann Dubois, Percy Liang, and Tatsunori Hashimoto.
+2024. Length-controlled alpacaeval: A simple debi-
+asing of automatic evaluators . In First Conference
+on Language Modeling .
+Upol Ehsan, Pradyumna Tambwekar, Larry Chan, Brent
+Harrison, and Mark O. Riedl. 2019. Automated ra-
+tionale generation: a technique for explainable AI
+and its effects on human perceptions . In Proceedings
+of the 24th International Conference on Intelligent
+User Interfaces, IUI 2019, Marina del Ray, CA, USA,
+March 17-20, 2019 , pages 263±274. ACM.
+Asma Farajidizaji, Vatsal Raina, and Mark Gales. 2024.
+Is it possible to modify text to a target readability
+level? an initial investigation using zero-shot large
+language models
+. In Proceedings of the 2024 Joint
+International Conference on Computational Linguis-
+tics, Language Resources and Evaluation (LREC-
+COLING 2024) , pages 9325±9339, Torino, Italia.
+ELRA and ICCL.
+Seiji Gobara, Hidetaka Kamigaito, and Taro Watanabe.
+2024. Do LLMs implicitly determine the suitable text
+difficulty for users? In Proceedings of the 38th Pa-
+cific Asia Conference on Language, Information and
+Computation, pages 940±960, Tokyo, Japan. Tokyo
+University of Foreign Studies.
+Robert Gunning. 1952. The technique of clear writing .
+McGraw-Hill, New York.
+Peter Hase, Shiyue Zhang, Harry Xie, and Mohit Bansal.
+2020. Leakage-adjusted simulatability: Can models
+generate non-trivial explanations of their behavior in
+natural language? In Findings of the Association for
+Computational Linguistics: EMNLP 2020, Online
+Event, 16-20 November 2020 , volume EMNLP 2020
+of Findings of ACL , pages 4351±4367. Association
+for Computational Linguistics.
+John Hewitt, Kawin Ethayarajh, Percy Liang, and
+Christopher D. Manning. 2021. Conditional prob-
+ing: measuring usable information beyond a baseline .
+In Proceedings of the 2021 Conference on Empirical
+Methods in Natural Language Processing, EMNLP
+2021, Virtual Event / Punta Cana, Dominican Repub-
+lic, 7-11 November, 2021 , pages 1626±1639. Associ-
+ation for Computational Linguistics.
+Chieh-Yang Huang, Jing Wei, and Ting-Hao Kenneth
+Huang. 2024. Generating educational materials with
+different levels of readability using llms . In Pro-
+ceedings of the Third Workshop on Intelligent and
+Interactive Writing Assistants , In2Writing ’24, page
+16±22, New York, NY , USA. Association for Com-
+puting Machinery.
+Shiyuan Huang, Siddarth Mamidanna, Shreedhar
+Jangam, Yilun Zhou, and Leilani H. Gilpin. 2023.
+Can large language models explain themselves? A
+study of llm-generated self-explanations
+. CoRR,
+abs/2310.11207.
+Joseph Marvin Imperial and Harish Tayyar Madabushi.
+2023. Uniform complexity for text generation . In
+Findings of the Association for Computational Lin-
+guistics: EMNLP 2023 , pages 12025±12046, Singa-
+pore. Association for Computational Linguistics.
+Albert Q. Jiang, Alexandre Sablayrolles, Arthur Men-
+sch, Chris Bamford, Devendra Singh Chaplot, Diego
+de Las Casas, Florian Bressand, Gianna Lengyel,
+Guillaume Lample, Lucile Saulnier, Lélio Re-
+nard Lavaud, Marie-Anne Lachaux, Pierre Stock,
+Teven Le Scao, Thibaut Lavril, Thomas Wang, Timo-
+thée Lacroix, and William El Sayed. 2023. Mistral
+7b. CoRR, abs/2310.06825.
+Albert Q. Jiang, Alexandre Sablayrolles, Antoine
+Roux, Arthur Mensch, Blanche Savary, Chris Bam-
+ford, Devendra Singh Chaplot, Diego de Las Casas,
+Emma Bou Hanna, Florian Bressand, Gianna
+Lengyel, Guillaume Bour, Guillaume Lample,
+Lélio Renard Lavaud, Lucile Saulnier, Marie-
+Anne Lachaux, Pierre Stock, Sandeep Subramanian,
+Sophia Yang, and 7 others. 2024a. Mixtral of experts .
+CoRR, abs/2401.04088.
+Dongfu Jiang, Yishan Li, Ge Zhang, Wenhao Huang,
+Bill Yuchen Lin, and Wenhu Chen. 2024b. TIGER-
+Score: Towards building explainable metric for all
+text generation tasks
+. Transactions on Machine
+Learning Research .
+Zhengping Jiang, Yining Lu, Hanjie Chen, Daniel
+Khashabi, Benjamin Van Durme, and Anqi Liu.
+2024c. RORA: robust free-text rationale evaluation .
+In Proceedings of the 62nd Annual Meeting of the
+138
+
+===== PAGE 11 =====
+
+Association for Computational Linguistics (Volume
+1: Long Papers), ACL 2024, Bangkok, Thailand, Au-
+gust 11-16, 2024 , pages 1070±1087. Association for
+Computational Linguistics.
+Brihi Joshi, Ziyi Liu, Sahana Ramnath, Aaron Chan,
+Zhewei Tong, Shaoliang Nie, Qifan Wang, Yejin
+Choi, and Xiang Ren. 2023. Are machine rationales
+(not) useful to humans? measuring and improving
+human utility of free-text rationales . In Proceedings
+of the 61st Annual Meeting of the Association for
+Computational Linguistics (Volume 1: Long Papers),
+ACL 2023, Toronto, Canada, July 9-14, 2023 , pages
+7103±7128. Association for Computational Linguis-
+tics.
+J Peter Kincaid, Robert P Fishburne Jr, Richard L
+Rogers, and Brad S Chissom. 1975. Derivation of
+new readability formulas (automated readability in-
+dex, fog count and flesch reading ease formula) for
+navy enlisted personnel.
+Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang,
+Ruochen Xu, and Chenguang Zhu. 2023. G-eval:
+NLG evaluation using gpt-4 with better human align-
+ment. In Proceedings of the 2023 Conference on
+Empirical Methods in Natural Language Process-
+ing, EMNLP 2023, Singapore, December 6-10, 2023 ,
+pages 2511±2522. Association for Computational
+Linguistics.
+Haoyan Luo and Lucia Specia. 2024. From understand-
+ing to utilization: A survey on explainability for large
+language models . arXiv, abs/2401.12874.
+Binny Mathew, Punyajoy Saha, Seid Muhie Yimam,
+Chris Biemann, Pawan Goyal, and Animesh Mukher-
+jee. 2021. Hatexplain: A benchmark dataset for ex-
+plainable hate speech detection . In Thirty-Fifth AAAI
+Conference on Artificial Intelligence, AAAI 2021,
+Thirty-Third Conference on Innovative Applications
+of Artificial Intelligence, IAAI 2021, The Eleventh
+Symposium on Educational Advances in Artificial In-
+telligence, EAAI 2021, Virtual Event, February 2-9,
+2021, pages 14867±14875. AAAI Press.
+Arjun Panickssery, Samuel R. Bowman, and Shi Feng.
+2024. LLM evaluators recognize and favor their own
+generations. In Advances in Neural Information Pro-
+cessing Systems 38: Annual Conference on Neural
+Information Processing Systems 2024, NeurIPS 2024,
+Vancouver, BC, Canada, December 10 - 15, 2024 .
+Barbara Plank. 2022. The ªproblemº of human label
+variation: On ground truth in data, modeling and
+evaluation. In Proceedings of the 2022 Conference
+on Empirical Methods in Natural Language Process-
+ing, pages 10671±10682, Abu Dhabi, United Arab
+Emirates. Association for Computational Linguistics.
+Archiki Prasad, Swarnadeep Saha, Xiang Zhou, and
+Mohit Bansal. 2023. ReCEval: Evaluating reasoning
+chains via correctness and informativeness . In Pro-
+ceedings of the 2023 Conference on Empirical Meth-
+ods in Natural Language Processing , pages 10066±
+10086, Singapore. Association for Computational
+Linguistics.
+Leonardo F. R. Ribeiro, Mohit Bansal, and Markus
+Dreyer. 2023. Generating summaries with control-
+lable readability levels . In Proceedings of the 2023
+Conference on Empirical Methods in Natural Lan-
+guage Processing , pages 11669±11687, Singapore.
+Association for Computational Linguistics.
+Donya Rooein, Amanda Cercas Curry, and Dirk Hovy.
+2023. Know your audience: Do LLMs adapt to differ-
+ent age and education levels? arXiv, abs/2312.02065.
+Neha Srikanth and Junyi Jessy Li. 2021. Elaborative
+simplification: Content addition and explanation gen-
+eration in text simplification . In Findings of the
+Association for Computational Linguistics: ACL-
+IJCNLP 2021 , pages 5123±5137, Online. Association
+for Computational Linguistics.
+Sanja Stajner. 2021. Automatic text simplification
+for social good: Progress and challenges . In Find-
+ings of the Association for Computational Linguis-
+tics: ACL/IJCNLP 2021, Online Event, August 1-6,
+2021, volume ACL/IJCNLP 2021 of Findings of ACL ,
+pages 2637±2652. Association for Computational
+Linguistics.
+Amir Tavanaei, Kee Kiat Koo, Hayreddin Ceker,
+Shaobai Jiang, Qi Li, Julien Han, and Karim Bou-
+yarmane. 2024. Structured object language modeling
+(SO-LM): Native structured objects generation con-
+forming to complex schemas with self-supervised
+denoising. In Proceedings of the 2024 Conference on
+Empirical Methods in Natural Language Processing:
+Industry Track , pages 821±828, Miami, Florida, US.
+Association for Computational Linguistics.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Al-
+bert, Amjad Almahairi, Yasmine Babaei, Nikolay
+Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti
+Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton-
+Ferrer, Moya Chen, Guillem Cucurull, David Esiobu,
+Jude Fernandes, Jeremy Fu, Wenyin Fu, and 49 oth-
+ers. 2023. Llama 2: Open foundation and fine-tuned
+chat models . CoRR, abs/2307.09288.
+Sean Trott and Pamela Rivière. 2024. Measuring and
+modifying the readability of English texts with GPT-
+4. In Proceedings of the Third Workshop on Text
+Simplification, Accessibility and Readability (TSAR
+2024), pages 126±134, Miami, Florida, USA. Asso-
+ciation for Computational Linguistics.
+Bertie Vidgen, Dong Nguyen, Helen Z. Margetts, Pa-
+trícia G. C. Rossini, and Rebekah Tromble. 2021.
+Introducing CAD: the contextual abuse dataset . In
+Proceedings of the 2021 Conference of the North
+American Chapter of the Association for Computa-
+tional Linguistics: Human Language Technologies,
+NAACL-HLT 2021, Online, June 6-11, 2021 , pages
+2289±2303. Association for Computational Linguis-
+tics.
+139
+
+===== PAGE 12 =====
+
+Giulia Vilone and Luca Longo. 2021. Notions of ex-
+plainability and evaluation approaches for explain-
+able artificial intelligence . Inf. Fusion , 76:89±106.
+Juraj Vladika, Phillip Schneider, and Florian Matthes.
+2024. Healthfc: Verifying health claims with
+evidence-based medical fact-checking . In Proceed-
+ings of the 2024 Joint International Conference on
+Computational Linguistics, Language Resources and
+Evaluation, LREC/COLING 2024, 20-25 May, 2024,
+Torino, Italy , pages 8095±8107. ELRA and ICCL.
+Guan Wang, Sijie Cheng, Xianyuan Zhan, Xiangang Li,
+Sen Song, and Yang Liu. Openchat: Advancing open-
+source language models with mixed-quality data . In
+The Twelfth International Conference on Learning
+Representations.
+Jiaan Wang, Yunlong Liang, Fandong Meng, Zengkui
+Sun, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu,
+and Jie Zhou. 2023. Is ChatGPT a good NLG evalua-
+tor? a preliminary study . In Proceedings of the 4th
+New Frontiers in Summarization Workshop , pages
+1±11, Singapore. Association for Computational Lin-
+guistics.
+Yifan Wang and Vera Demberg. 2024. RSA-control:
+A pragmatics-grounded lightweight controllable text
+generation framework . In Proceedings of the 2024
+Conference on Empirical Methods in Natural Lan-
+guage Processing , pages 5561±5582, Miami, Florida,
+USA. Association for Computational Linguistics.
+Sarah Wiegreffe, Ana Marasovic, and Noah A. Smith.
+2021. Measuring association between labels and free-
+text rationales . In Proceedings of the 2021 Confer-
+ence on Empirical Methods in Natural Language Pro-
+cessing, EMNLP 2021, Virtual Event / Punta Cana,
+Dominican Republic, 7-11 November, 2021 , pages
+10266±10284. Association for Computational Lin-
+guistics.
+Haolun Wu, Ye Yuan, Liana Mikaelyan, Alexander
+Meulemans, Xue Liu, James Hensman, and Bhaskar
+Mitra. 2024. Learning to extract structured entities
+using language models . In Proceedings of the 2024
+Conference on Empirical Methods in Natural Lan-
+guage Processing , pages 6817±6834, Miami, Florida,
+USA. Association for Computational Linguistics.
+Wenda Xu, Danqing Wang, Liangming Pan, Zhenqiao
+Song, Markus Freitag, William Wang, and Lei Li.
+2023. INSTRUCTSCORE: towards explainable text
+generation evaluation with automatic feedback . In
+Proceedings of the 2023 Conference on Empirical
+Methods in Natural Language Processing, EMNLP
+2023, Singapore, December 6-10, 2023 , pages 5967±
+5994. Association for Computational Linguistics.
+Yilun Xu, Shengjia Zhao, Jiaming Song, Russell Stew-
+art, and Stefano Ermon. 2020. A theory of usable
+information under computational constraints . In 8th
+International Conference on Learning Representa-
+tions, ICLR 2020, Addis Ababa, Ethiopia, April 26-
+30, 2020 . OpenReview.net.
+Figure 7: BERTScore similarity between model-
+generated rationales and reference explanations.
+Xi Ye and Greg Durrett. 2022. The unreliability of ex-
+planations in few-shot prompting for textual reason-
+ing. In Advances in Neural Information Processing
+Systems 35: Annual Conference on Neural Informa-
+tion Processing Systems 2022, NeurIPS 2022, New
+Orleans, LA, USA, November 28 - December 9, 2022 .
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q.
+Weinberger, and Yoav Artzi. 2020. Bertscore: Evalu-
+ating text generation with BERT . In 8th International
+Conference on Learning Representations, ICLR 2020,
+Addis Ababa, Ethiopia, April 26-30, 2020 . OpenRe-
+view.net.
+Yu Zhang, Peter Tiño, Ales Leonardis, and Ke Tang.
+2021. A survey on neural network interpretability .
+IEEE Trans. Emerg. Top. Comput. Intell. , 5(5):726±
+742.
+Zining Zhu, Hanjie Chen, Xi Ye, Qing Lyu, Chenhao
+Tan, Ana Marasovic, and Sarah Wiegreffe. 2024. Ex-
+planation in the era of large language models . In
+Proceedings of the 2024 Conference of the North
+American Chapter of the Association for Computa-
+tional Linguistics: Human Language Technologies
+(Volume 5: Tutorial Abstracts) , pages 19±25, Mexico
+City, Mexico. Association for Computational Lin-
+guistics.
+A Data
+A.1 Task descriptions
+Table 4 summarizes the datasets and the task. Ex-
+cept for HealthFC, every dataset includes explana-
+tory annotations, which are applied to parse refer-
+140
+
+===== PAGE 13 =====
+
+Dataset Size #Test Task Annotations Sample reference explanation
+HateXplain 20k 1,924
+Hate speech
+classification
+(multi-class)
+Tokens involving offensive
+language and their targets
+The text is labeled as hate speech
+because of expressions against
+women.
+CAD 26k 5,307
+Hate speech
+detection
+(binary)
+Categories of offensive
+language
+The text is labeled as offensive
+because the expression involves
+person directed abuse.
+SpanEx 14k 3,865
+Natural
+language
+inference
+Relevant tokens and their
+semantic relation
+The relation between hypothesis
+and premise is contradiction be-
+cause a girl does not equal to a
+man.
+HealthFC 750 N/A Fact-checking
+(multi-class)
+Excerpts from evidence
+document that supports or
+denies the claim (free-text
+instead of annotations)
+There is no scientific evidence
+that hemolaser treatment has a
+palliative or curative effect on
+health problems.
+Table 4: Summary of the datasets. Task refers to the adaptation in our experiments instead of the ones proposed by
+original works. Except for HealthFC, we run the experiments only on test splits.
+ence explanations with rule-based methods. Both
+aspects are briefly described in Table 4. The
+HealthFC dataset excerpts human-written pas-
+sages as explanations, which are directly adopted
+as reference rationales in our work.
+A.2 Sample data instances
+Extending Figure 2, an additional data point from
+the HateXplain dataset is provided in Figure 8 to
+exemplify the scores of human validation.
+From Table 11 to 15, we further provide one data
+instance for each dataset to exemplify the LLM
+output under readability level control. Two exam-
+ples from the HealthFC are given for a more com-
+prehensive comparison between LLM-generated
+rationales and human-written explanations. In gen-
+eral, although the rationales across readability level
+tend to appear semantically approximate, they of-
+ten differ in terms of logical flow and the support-
+ing detail selection, which may imply a strong
+connection between NLE and NLG, i.e. the gen-
+erated rationales represent more the learned out-
+come of LLMs. We also find that the explana-
+tions could involve misinterpretation of the con-
+text; for example, the high-school-level explana-
+tion of
+Mixtral-0.1 on HateXplain (Table 11)
+completely reversed the standpoint of the original
+text. Furthermore, serious hallucination could oc-
+cur in the rationale even when the predicted label
+seems correct. In the high-school-level explanation
+from OpenChat-3.5 on CAD (Table 12), ªidiotº
+and ªbroken in your headº lead to the offensive la-
+bel, even if these two terms don’t really exist in the
+text; likewise, Mistral-0.2 fabricated a digestive
+condition called ªgossypiasisº in the sixth-grade-
+level explanation for HealthFC (Table
+15). Our
+examples may inspire future works to further inves-
+tigate perturbed rationale generation.
+B Metrics for approximating readability
+We referred to three metrics to numerically repre-
+sent text readability. The original formulas of the
+metrics are listed as below.
+Flesch reading ease (FRE) is calculated as fol-
+lows:
+F RE = 206 .835 − 1.015(wt/St) − 84.6(σt/wt)
+(2)
+where wt means total words, St refers to total sen-
+tences, and σt represents total syllables.
+Gunning fog index (GFI) is based on the for-
+mula:
+GF I = 0 .4(wt/St + wl/St) (3)
+where wt represents total words, and St means
+total sentences. wl is the amount of long words
+that consists of more than seven alphabets.
+The formula of Coleman-Liau index (CLI) goes
+as follows:
+CLI = 0 .0588¯L − 0.296 ¯S − 15.8 (4)
+where ¯L describes the average number of letters
+every 100 words, and ¯S represents the average
+amount of sentences every 100 words.
+141
+
+===== PAGE 14 =====
+
+Figure 8: An example of model predictions and rationales generated by Llama-3 on HateXplain along with the
+evaluation results. Self-eval refers to TIGERScore rated by Llama-3.
+C Raw evaluation data of model
+predictions and rationales
+The appended tables include the raw data presented
+in the paper as processed results or graphs. Table 5
+denotes task accuracy scores without removing un-
+successfully parsed data instances; that is, in con-
+trast to Table 2, instances with empty prediction
+are considered incorrect here.
+Table 6, 7, and 8 respectively include the three
+readability scores over each batch, which are visu-
+alised in Figure 4. Table 9 provides the detailed
+numbers shown in Figure 4. Figure 7 visualizes the
+similarity scores, with the exact numbers described
+in Table 10. The figure shows that the scores show
+rather little variation, with only minor differences
+in similarity scores within the same task. On one
+hand, such outcome implies that meanings of the
+rationales are mostly preserved across readability
+levels; on the other hand, this may reflect the con-
+straints of both BERT measuring similarity, given
+that cosine similarity tends to range between 0.6
+and 0.9, and parsing reference explanations out of
+fixed rules, which fundamentally limits the lexical
+complexity of the standard being used.
+In every table, readability of 30, 50, 70, and 90
+respectively refers to the prompted readability level
+of college, high school, middle school, and sixth
+grade.
+D Human annotation guidelines
+Table 16 presents the annotation guidelines, which
+describe the four aspects that were to be annotated.
+We assigned separate Google spreadsheets to the re-
+cruited annotators as individual workspace. In the
+worksheet, 20 annotated instances were provided
+as further examples along with a brief description
+of the workflow.
+142
+
+===== PAGE 15 =====
+
+Readability 30 50 70 90
+HateXplain
+Mistral-0.2 48.1 48.2 51.5 50.9
+Mixtral-0.1 41.7 42.5 42.1 42.7
+OpenChat-3.5 50.2 50.3 52.0 49.5
+Llama-3 50.2 50.8* 50.0 49.5
+CAD
+Mistral-0.2 81.3* 81.1 78.7 76.6
+Mixtral-0.1 60.8* 59.6 59.2 57.9
+OpenChat-3.5 74.4 75.4 74.6 74.6
+Llama-3 48.1 46.2 44.7 43.5
+SpanEx
+Mistral-0.2 33.9 34.6 35.8 36.1
+Mixtral-0.1 53.1 50.1 50.5 53.2
+OpenChat-3.5 81.8 82.1* 81.4 82.0
+Llama-3 40.0 38.0 36.8 36.8
+HealthFC
+Mistral-0.2 50.4 49.3 50.4 47.8
+Mixtral-0.1 46.8 48.0 46.9 49.0
+OpenChat-3.5 48.9 49.7 49.7 49.5
+Llama-3 26.9 29.2 28.2 25.7
+Table 5: Raw task accuracy scores (%), in which unsuc-
+cessfully parsed model output were considered incorrect.
+The best score(s) achieved by a model are starred, and
+best accuracy per task are highlighted in bold face.
+Readability 30 50 70 90
+HateXplain
+Mistral-0.2 48.1 50.9 56.6 62.1
+Mixtral-0.1 44.8 47.2 58.0 64.0
+OpenChat-3.5 50.7 54.9 62.0 64.1
+Llama-3 49.1 51.5 57.0 56.8
+CAD
+Mistral-0.2 45.8 47.8 56.5 59.9
+Mixtral-0.1 48.0 49.9 55.5 59.0
+OpenChat-3.5 53.3 56.1 61.6 63.1
+Llama-3 47.1 50.0 55.5 54.6
+SpanEx
+Mistral-0.2 52.0 54.4 60.0 62.1
+Mixtral-0.1 59.5 61.4 66.9 71.8
+OpenChat-3.5 61.3 66.8 73.3 73.8
+Llama-3 51.1 55.0 59.7 62.0
+HealthFC
+Mistral-0.2 44.2 44.2 47.5 48.8
+Mixtral-0.1 41.3 44.0 51.7 56.2
+OpenChat-3.5 43.8 51.1 62.8 63.8
+Llama-3 41.2 44.2 47.5 48.8
+Table 6: FRE scores of model-generated rationales.
+Readability 30 50 70 90
+HateXplain
+Mistral-0.2 14.2 13.6 12.2 11.2
+Mixtral-0.1 15.1 14.5 12.0 10.7
+OpenChat-3.5 13.6 12.8 11.4 10.9
+Llama-3 13.9 13.4 12.3 12.3
+CAD
+Mistral-0.2 14.8 14.3 12.2 11.5
+Mixtral-0.1 14.1 13.6 12.4 11.7
+OpenChat-3.5 12.9 12.3 11.2 10.9
+Llama-3 14.1 13.3 12.1 12.3
+SpanEx
+Mistral-0.2 12.7 12.1 11.1 10.8
+Mixtral-0.1 11.8 11.6 10.3 9.5
+OpenChat-3.5 10.7 9.9 9.0 8.9
+Llama-3 13.2 12.3 11.2 10.8
+HealthFC
+Mistral-0.2 15.1 14.2 13.4 13.2
+Mixtral-0.1 14.3 14.0 12.5 11.7
+OpenChat-3.5 13.6 12.3 10.5 10.1
+Llama-3 15.1 14.2 13.4 13.2
+Table 7: GFI scores of model-generated rationales.
+Readability 30 50 70 90
+HateXplain
+Mistral-0.2 12.2 11.7 10.8 9.8
+Mixtral-0.1 12.7 12.4 10.7 9.7
+OpenChat-3.5 11.8 11.2 10.0 9.5
+Llama-3 12.0 11.5 10.7 10.7
+CAD
+Mistral-0.2 12.5 12.2 11.0 10.5
+Mixtral-0.1 12.1 11.8 11.0 10.4
+OpenChat-3.5 11.0 10.6 9.7 9.4
+Llama-3 12.2 11.9 11.0 11.1
+SpanEx
+Mistral-0.2 11.6 11.2 10.2 9.8
+Mixtral-0.1 10.5 10.1 9.2 8.1
+OpenChat-3.5 11.0 9.8 8.1 8.1
+Llama-3 11.9 11.5 10.7 10.4
+HealthFC
+Mistral-0.2 13.8 13.2 12.8 12.1
+Mixtral-0.1 14.2 13.9 12.6 11.8
+OpenChat-3.5 14.0 12.7 10.5 10.4
+Llama-3 13.8 13.2 12.8 12.6
+Table 8: CLI scores of model-generated rationales.
+143
+
+===== PAGE 16 =====
+
+HateXplain
+Readability 30 50 70 90
+-3.15 -3.25 -3.73 -3.93
+Mistral-0.2 648 679 784 822
+-9.10 -8.99 -8.90* -8.99
+-3.44 -3.68 -3.82 -4.48
+Mixtral-0.1 750 747 782 882
+-7.95* -8.30 -8.34 -8.73
+-3.62 -3.88 -4.24 -4.31
+OpenChat-3.5 860 966 1,067 1,044
+-7.85 -7.53 -7.47* -7.77
+-3.41 -3.74 -3.90 -4.03
+Llama-3 701 737 808 782
+-9.27 -9.62 -9.16* -9.73
+CAD
+Readability 30 50 70 90
+-1.79 -1.91 -2.53 -2.71
+Mistral-0.2 1,135 1,216 1,688 1,768
+-8.14 -8.15 -7.74* -7.87
+-2.27 -2.30 -2.77 -3.21
+Mixtral-0.1 1,471 1,477 1,786 1,989
+-7.57* -7.59 -7.63 7.97
+-2.30 -2.29 -2.57 -2.86
+OpenChat-3.5 1,427 1,468 1,652 1,769
+-8.23 -7.98 -7.90* -8.30
+-3.04 -3.58 -4.17 -4.52
+Llama-3 1,399 1,557 1,747 1,774
+-9.16* -9.59 -9.77 -10.59
+SpanEx
+Readability 30 50 70 90
+-2.76 -2.88 -3.31 -3.52
+Mistral-0.2 1,193 1,235 1,472 1,479
+-8.64 -8.75 -8.51* -8.90
+-3.29 -3.28 -3.82 -4.42
+Mixtral-0.1 1,552 1,578 1,820 1,994
+-7.43 -7.18* -7.41 -7.83
+-1.85 -2.18 -2.95 -3.18
+OpenChat-3.5 916 991 1,299 1,322
+-7.45* -7.98 -8.30 -8.88
+-3.86 -4.48 -5.25 -5.41
+Llama-3 1,500 1,714 1,914 1,926
+-9.25 -9.19* -9.31 -9.71
+HealthFC
+Readability 30 50 70 90
+-1.20 -0.94 -1.07 -1.11
+Mistral-0.2 169 165 158 179
+-5.09 -4.02* -4.83 -4.49
+-1.96 -1.72 -2.01 -2.16
+Mixtral-0.1 246 236 238 256
+-5.11 -4.67* -5.42 -5.53
+-3.15 -3.28 -3.80 -4.10
+OpenChat-3.5 380 362 397 411
+-5.86* -6.34 -6.73 -7.10
+-6.49 -6.39 -6.77 -6.99
+Llama-3 513 484 497 496
+-9.08* -9.32 -9.55 -9.73
+Table 9: TIGERScore of the model-generated rationales.
+For each model, the first score is full-batch TIGER-
+Score, which averages among all instances. The second
+number denotes the number of non-zero instances, and
+the third row shows non-zero TIGERScore, where in-
+stances scoring 0 were removed. Bold font highlights
+the best full-batch scores. The highest amount of non-
+zero instances are underlines. And the best non-zero
+scores are starred.
+HateXplain
+Readability 30 50 70 90
+Mistral-0.2 73.7 73.8 73.9* 73.6
+Mixtral-0.1 73.9 74.5* 74.5* 74.3
+OpenChat-3.5 74.2 75.0* 74.9 74.9
+Llama-3 74.3 74.6 74.7 74.9*
+CAD
+Readability 30 50 70 90
+Mistral-0.2 80.8* 80.5 79.0 78.5
+Mixtral-0.1 78.5* 78.4 77.9 77.3
+OpenChat-3.5 80.6* 80.4 79.7 79.4
+Llama-3 80.1* 79.8 78.6 79.0
+SpanEx
+Readability 30 50 70 90
+Mistral-0.2 79.9* 79.9* 79.4 79.1
+Mixtral-0.1 78.1* 77.7 77.5 76.6
+OpenChat-3.5 80.3* 80.3* 79.5 79.4
+Llama-3 78.1 78.3* 78.1 78.2
+HealthFC
+Readability 30 50 70 90
+Mistral-0.2 86.3* 86.1 85.0 84.1
+Mixtral-0.1 84.6 85.2* 85.0 84.2
+OpenChat-3.5 86.2* 85.6 83.3 83.2
+Llama-3 82.4 82.2 82.3 82.6*
+Table 10: BERT similarity scores between rationale
+and reference explanation (%). For each task, star sign
+marks out the best score(s) achieved by each model, and
+bold font highlights the task-specific highest score.
+144
+
+===== PAGE 17 =====
+
+Model Mistral-0.2 Mixtral-0.1 OpenChat-3.5 Llama-3
+Text <user> ccp china z i is happy to kill all freedom fighter please pass hk human rights democracy act and
+free hong kong standwith hk
+Gold la-
+bel
+normal
+Reference
+expla-
+nation
+The text is labelled as ªnormal.º
+Model-
+generated
+answer
+and ra-
+tionale
+College: Normal. The text
+does not contain any explicit hate
+speech or offensive language
+against any specific target group.
+It is simply an expression of sup-
+port for human rights and democ-
+racy in Hong Kong
+High School:Normal. This text
+is expressing support for a politi-
+cal cause, the democratization of
+Hong Kong, and advocacy for a
+US law. The user is not making
+negative or hateful comments, so
+the label is normal. The user’s
+intention is to raise awareness
+and encourage action for a hu-
+man rightsissue.
+Middle School: Normal. The
+user is expressing their opinion
+in support of human rights and
+democracy for Hong Kong, using
+terms like ªfreedom fightersº and
+ªhuman rightsº that are common
+when talking about politics and
+social issues. This is considered
+a normal expression of opinion
+and does not target any specific
+group with hate speech.
+Sixth Grade:Normal. This text
+is not offensive or hateful. It’s a
+user expressing their support for
+human rights and democracy in
+Hong Kong. They are asking for
+the passing of the ªHong Kong
+Human Rights and Democracy
+Actº to help those fighting for
+freedom in China.
+College: Normal. The text is pre-
+senting an opinion about China,
+without offending any group of
+people or inciting hate speech.
+The user’s stance on the issue is
+clear, but it doesn’t break any of
+the community guidelines.
+High School: Offensive. The
+user supports the CCP in China,
+which is a political party that
+has been responsible for hu-
+man rights violations. The user
+also seems to show no concern
+for innocent civilians who may
+be caught in crossfire between
+the CCP and ªfreedom fighters.º
+These actions or perspectives can
+be considered offensive because
+they are harmful towards inno-
+cent individuals and communi-
+ties.
+Middle School: Normal. The
+user expresses support for Hong
+Kong’s human rights, democracy,
+and freedom. The user does not
+offend or hate any target group,
+so the label is ªnormal.º
+Sixth Grade:Normal. The user
+is expressing a political opinion
+and showing support for a cause.
+They are not insulting or attack-
+ing any group of people. They
+are simply stating their political
+beliefs and hoping for a change
+in the politics of China.
+College: Offensive. The text
+is offensive because it expresses
+a strong negative sentiment to-
+wards a political group (CCP
+China) and uses the phrase
+ªhappy to kill all freedom fightersº
+which is a violent and aggressive
+statement. This type of language
+may incite negative feelings and
+further divide the community.
+High School: Offensive. The
+text is offensive because it uses
+strong language to express a po-
+litical opinion and it could be
+hurtful to some people. The text
+also uses the term ªccp china z iº
+which could be seen as a deroga-
+tory term.
+Middle School: Hate speech.
+The text is labeled as hate speech
+because it expresses strong nega-
+tive emotions towards a specific
+group (CCP China) and seems to
+encourage violence against them.
+This is not appropriate and may
+cause harm to the targeted group.
+Sixth Grade:Hate speech. The
+text is hate speech because it tar-
+gets a specific group of people,
+the Chinese Communist Party,
+and expresses a desire for them to
+be killed. This is not a normal or
+offensive statement, as it directly
+incites violence against a group
+of people.
+College: Offensive. The text is
+labeled as offensive because it
+promotes violence and harm to-
+wards a group of people (freedom
+fighters) based on their political
+beliefs. The text also uses ag-
+gressive language, such as ªkill
+all,º which can be seen as threat-
+ening and harmful. Addition-
+ally, the text makes a general-
+ization about a group of people
+(Chinese) based on their national
+identity, which can be seen as dis-
+criminatory.
+High School:Hate speech. This
+text is classified as hate speech
+because it openly supports the
+killing of freedom fighters [...]. It
+also uses a derogatory term (ªkill
+allº) which is a clear indicator of
+hate speech. The text is not only
+offensive but also promotes harm
+and violence against a group of
+people, which is a characteristic
+of hate speech.
+Middle School:Offensive. This
+text is offensive because it con-
+tains hate speech towards a spe-
+cific group, CCP China. The user
+is calling for the killing of ªfree-
+dom fighters,º which could be
+interpreted as a call to violence
+against a particular group of peo-
+ple. This language is harmful and
+unacceptable.
+Sixth Grade: Offensive. This
+text is offensive because it uses a
+derogatory term ªfreedom fighterº
+to describe people who are fight-
+ing for their rights and freedoms.
+The text also calls for violence
+against the people of Hong Kong,
+which is a violation of human
+rights. The language used is ag-
+gressive and threatening, and it is
+likely to cause harm to individu-
+als and communities.
+Table 11: An example data instance from the HateXplain dataset. Owing to the limited space, some longer
+rationales are partially omitted and indicated with [...].
+145
+
+===== PAGE 18 =====
+
+Model Mistral-0.2 Mixtral-0.1 OpenChat-3.5 Llama-3
+Text You don’t even know what real communism is you nazi
+Gold la-
+bel
+offensive
+Reference
+expla-
+nation
+The text is labelled as offensive because the expression involves person directed abuse.
+Model-
+generated
+answer
+and ra-
+tionale
+College: Offensive. This state-
+ment is offensive because it uses
+a derogatory term, ªyou Nazi,º to
+attack or belittle someone with-
+out providing any reasons or evi-
+dence to support the claim. The
+term ªNaziº is often used to stig-
+matize people with extreme po-
+litical beliefs, but using it ran-
+domly and without context in a
+personal attack is not productive
+or respectful.
+High School: Offensive. The
+text uses the word ªnaziº as an
+insult towards someone, and it’s
+not related to the topic of the text.
+This can be considered offensive
+as it’s an attempt to belittle or hu-
+miliate someone based on their
+beliefs or background, which is
+not respectful or acceptable in a
+civil discourse.
+Middle School:Offensive. This
+label is for texts that are hurtful
+or mean towards a group of peo-
+ple. In this case, the person is
+using a derogatory term ªnaziº
+towards people who don’t agree
+with their view on communism.
+It is important to remember that
+using hurtful words can be harm-
+ful and disrespectful to others.
+Sixth Grade: Offensive. This
+text is offensive because it calls
+someone a ªnaziº without any
+reason, which is a hurtful word.
+Using words like that to insult
+someone is not kind or respect-
+ful, and it goes against our rule
+of treating everyone with kind-
+ness and respect, no matter what
+they believe or say.
+College: Offensive. The text is
+offensive because it labels some-
+one as a ªnazi.º The term ªnaziº
+is often times used as an insult
+to diminish one’s point of view
+and discredit their opinions. This
+type of language aims to intimi-
+date or provoke, causing an un-
+safe environment for open com-
+munication.
+High School: Offensive. This
+text is offensive because it uses
+an offensive term ªnaziº to at-
+tack someone, suggesting they
+are ignorant or stupid (as shown
+in the phrase ªYou don’t even
+know what real communism isº).
+Using an offensive term to insult
+someone is not respectful and
+therefore it count as offensive.
+Middle School:Offensive. The
+text uses the term ªnaziº as an in-
+sult, which is a derogatory term
+for people who hold views or
+characteristics similar to Nazis.
+In this case, the user is likely not
+referring to actual Nazis, but is
+using the term as an insult to crit-
+icize someone’s views on com-
+munism. Using a term as an in-
+sult shows a lack of respect and
+is therefore considered offensive.
+Sixth Grade: Offensive. The
+sentence uses an offensive term
+called ªnaziº to insult someone
+who does not understand what
+real communism is. Comparing
+someone to a ªnaziº is a form
+of name-calling and can be hurt-
+ful and offensive. Just like in the
+second example, using offensive
+language is not respectful or ap-
+propriate, and it violates the com-
+munity guidelines.
+College: Offensive. This text is
+offensive because it uses deroga-
+tory language to refer to some-
+one’s political beliefs. The use of
+ªnaziº as an insult is not suitable
+for a respectful conversation.
+High School: Offensive. The
+text uses derogatory terms like
+ªidiotº and ªbroken in your headº
+to belittle and insult someone’s
+intelligence. This kind of lan-
+guage can be hurtful and offen-
+sive to others.
+Middle School:Offensive. This
+text uses strong language and
+may be hurtful to some people.
+It is not suitable for a friendly
+conversation. It is important to
+be kind and respectful to others.
+Sixth Grade: Offensive. The
+given text uses strong language
+and might hurt someone’s feel-
+ings. It’s not nice to call people
+names or make fun of their ideas.
+College: Offensive. The text
+is offensive because it uses a
+derogatory term and makes an in-
+flammatory comparison between
+communism and Nazism, which
+is a sensitive and divisive topic.
+The use of the word ªnaziº as an
+insult is a form of hate speech
+and is likely to offend people
+who identify as Jewish or have
+been affected by the Holocaust.
+The text also lacks any construc-
+tive or respectful language, and
+instead resorts to name-calling
+and personal attacks.
+High School: Offensive. The
+text contains a derogatory term
+(ªnaziº) and insults (ªYou don’t
+even know what real communism
+isº) which can be hurtful and of-
+fensive to some people.
+Middle School:Offensive. The
+text uses profanity and a deroga-
+tory term (ªnaziº) which is offen-
+sive and may be hurtful to peo-
+ple who identify with the targeted
+group. The use of the term ªnaziº
+is also a stereotype and can be
+seen as a form of hate speech.
+The text also contains a threat or
+insult, making it even more offen-
+sive.
+Sixth Grade: Offensive. This
+text is offensive because it uses
+a racial slur ªnaziº to describe
+communism, which is a deroga-
+tory and hurtful term. It’s also an
+example of hate speech, which
+can cause harm to people who
+identify with the term. Using this
+kind of language is not accept-
+able and can create a hostile en-
+vironment.
+Table 12: An example data instance from the CAD dataset.
+146
+
+===== PAGE 19 =====
+
+Model Mistral-0.2 Mixtral-0.1 OpenChat-3.5 Llama-3
+Premise People jump over a mountain crevasse on a rope.
+HypothesisPeople slide over a mountain crevasse on a slide.
+Gold la-
+bel
+contradiction
+Reference
+expla-
+nation
+The relation between hypothesis and premise is ’contradiction’ because jump over a mountain crevasse
+on a rope does not equal to slide over a mountain crevasse on a slide.
+Model-
+generated
+answer
+and ra-
+tionale
+College: Neutral. The premise
+describes people using ropes to
+jump over a mountain crevasse,
+while the hypothesis describes
+people using slides to slide over a
+mountain crevasse. The premise
+does not contradict or entail the
+hypothesis as they depict differ-
+ent ways of crossing the crevasse.
+High School: Neutral. Jump-
+ing and sliding are two different
+ways of moving across an obsta-
+cle. The premise and hypothe-
+sis refer to two separate actions,
+which do not entail or contradict
+each other.
+Middle School: Neutral. The
+premise and the hypothesis de-
+scribe different actions, jumping
+and sliding, so the hypothesis is
+neither a consequence nor a con-
+tradiction of the premise.
+Sixth Grade: Neutral. In the
+first situation, people are jump-
+ing over a crevasse using a rope.
+In the second situation, they
+are sliding over a crevasse, but
+there’s no rope involved. Jump-
+ing and sliding are different
+ways to cross a crevasse, so the
+premise doesn’t entail or contra-
+dict the hypothesis, it’s just neu-
+tral.
+College: Contradiction. The ac-
+tion in the premise is to jump
+over the crevasse, meaning that
+the people are crossing to the
+other side by making an air-
+borne maneuver. The hypothe-
+sis presents people sliding over
+the crevasse; in other words, go-
+ing down a slide (probably the
+side of the crevasse) to reach
+its base. Since the two actions
+are fundamentally different, it is
+clear that the hypothesis contra-
+dicts the premise. Also, for fur-
+ther confirmation, a slide is not
+mentioned or suggested in the
+premise.
+High School: Contradiction.
+The premise is talking about
+ªjump[ing] over a mountain
+crevasse on a rope.º On the other
+hand, the hypothesis talks about
+ªslide over a mountain crevasse
+on a slide.º The two actions,
+ªjumpingº and ªslidingº, are dis-
+tinctly different.
+Middle School: Contradiction.
+The premise and hypothesis can-
+not both be true because they de-
+scribe very different actions and
+do not relate to each other (a rope
+and a slide).
+Sixth Grade:Contradiction. In
+the premise people jump over a
+deep gap on a rope and in the
+hypothesis, it is said that people
+slide over it on a slide. These two
+actions are nothing alike, mean-
+ing the hypothesis contradicts the
+premise.
+College: Contradiction. The
+premise describes people jump-
+ing over a mountain crevasse
+on a rope, while the hypothe-
+sis describes people sliding over
+a mountain crevasse on a slide.
+These are two different actions,
+so the premise contradicts the hy-
+pothesis.
+High School: Contradiction.
+The premise says people jump
+over a crevasse on a rope, but the
+hypothesis says people slide over
+a crevasse on a slide. These are
+different actions and methods, so
+they contradict each other.
+Middle School: Contradiction.
+The premise tells us that people
+are jumping over a crevasse using
+a rope, while the hypothesis says
+they are sliding over a crevasse
+using a slide. These are two dif-
+ferent actions, so the premise and
+hypothesis are contradictory.
+Sixth Grade: Contradiction.
+The premise says people jump
+over a mountain crevasse on a
+rope, but the hypothesis says they
+slide over it on a slide. These
+are two different actions, so the
+premise contradicts the hypothe-
+sis.
+College: Contradiction. The
+premise states that people jump
+over a mountain crevasse on a
+rope, which implies a specific
+action and method of traversing
+the crevasse. The hypothesis
+states that people slide over a
+mountain crevasse on a slide,
+which is a different action and
+method. Therefore, the premise
+contradicts the hypothesis, as
+they describe mutually exclusive
+actions.
+High School: Contradiction.
+The premise describes people
+jumping over a mountain
+crevasse on a rope, which is a
+different action and method than
+sliding over a mountain crevasse
+on a slide. The two actions
+are mutually exclusive, and the
+premise directly contradicts
+the hypothesis. This means
+that if the premise is true, the
+hypothesis must be false.
+Middle School: Contradiction.
+The premise says people jump
+over the crevasse, but the
+hypothesis says they slide over it.
+This is a contradiction because
+jumping and sliding are two
+different actions that can’t
+happen at the same time. This
+means the hypothesis is saying
+the opposite of what the premise
+is saying, so it’s a contradiction.
+Sixth Grade: Entailment. The
+premise and hypothesis are both
+talking about people crossing
+over a mountain crevasse, but the
+premise says they jump over it,
+while the hypothesis says they
+slide over it. Since jumping and
+sliding are both ways to cross
+over, the premise implies that
+the people in the premise could
+also slide over, making it an
+entailment.
+Table 13: An example data instance from the SpanEx dataset.
+147
+
+===== PAGE 20 =====
+
+Model Mistral-0.2 Mixtral-0.1 OpenChat-3.5 Llama-3
+Question Does the Indian spice paste Chyawanprash have a positive effect on adult health?
+Gold la-
+bel
+neutral
+Reference
+expla-
+nation
+There is a lack of conclusive studies on possible health effects of Chyawanprash. We can neither
+confirm nor deny a beneficial effect.
+Model-
+generated
+answer
+and ra-
+tionale
+College: Neutral. Chyawan-
+prash is an ancient Ayurvedic
+spice paste, commonly used
+in India. It is believed to
+have numerous health benefits,
+including improving the immune
+system, rejuvenating the body,
+and increasing energy levels.
+However, there isn’t enough
+scientific evidence to definitively
+establish these benefits, [...]
+more rigorous research is needed
+to fully understand its impact on
+adult health.
+High School: Affirmative.
+Chyawanprash is an Ayurvedic
+supplement often eaten as a jam
+or paste, made with fruits, herbs,
+and honey. Some studies suggest
+it may have various health
+benefits for adults, including
+boosting immunity, reducing
+inflammation, and providing
+antioxidants.
+Middle School:Neutral. Some
+people believe that an Indian
+spice paste called Chyawanprash,
+which is often used in Ayurvedic
+medicine, can improve adult
+health. However, there isn’t
+enough solid scientific evidence
+to prove that these claims are
+true or not. It’s best to check
+with your doctor before starting
+to use Chyawanprash as a health
+supplement.
+Sixth Grade: Neutral.
+Chyawanprash is a traditional
+Indian spice paste; many people
+believe it is good for adult health.
+But scientists still need to do
+more research to know for sure
+whether it really is beneficial
+or not. So, it could be true, but
+we need more information to be
+certain.
+textbfCollege: Neutral. The
+Indian spice paste Chyawan-
+prash is made from several
+ingredients, including honey,
+ghee, and various herbs and
+fruits. Some studies have
+reported potential health benefits,
+such as antioxidant activity
+and anti-inflammatory effects.
+However, the evidence is still
+limited, and more research is
+needed to confirm whether
+Chyawanprash has a reliable
+positive effect on adult health.
+High School:Neutral. The word
+ªpositive effectº is vague here.
+If you meant to ask whether
+Chyawanprash can be beneficial
+to adult health, it’s plausible.
+However, if you want to know if
+it’s significantly more effective
+than other food supplements,
+that’s a different matter and
+needs more specific examination.
+Middle School: Neutral. The
+premise states that Chyawan-
+prash is an Indian spice paste.
+The hypothesis is whether
+Chyawanprash has a positive
+effect on adult health. There
+isn’t enough information
+provided to make an affirmative
+or negative assessment about
+Chyawanprash’s impact on adult
+health. So, to conclude it is
+ªneutralº because there is not
+enough information to classify
+it as an affirmative or negative
+statement.
+Sixth Grade: Neutral. The
+premise claims that Indian
+spice paste Chyawanprash has
+a positive effect on adult health.
+However, it does not provide
+enough information about how
+or why it might have this effect.
+Without further evidence, we
+cannot make an affirmative or
+negative judgment.
+College: Neutral. The ques-
+tion asks whether Chyawanprash,
+an Indian spice paste, has a
+positive effect on adult health.
+While there is some evidence that
+Chyawanprash may have bene-
+ficial effects on health, such as
+improving immune function and
+reducing inflammation, the re-
+search is not conclusive. There-
+fore, it is plausible that Chyawan-
+prash could have a positive ef-
+fect on adult health, but more re-
+search is needed to confirm this.
+High School:Neutral. There is
+scientific evidence that Chyawan-
+prash has some health benefits,
+but it is not definitive. Some stud-
+ies show that it can improve heart
+health, while others suggest it
+may help with memory and cog-
+nitive function. However, the ef-
+fects may vary [...] the statement
+is neutral because it is neither
+confirmed nor refuted.
+Middle School:Affirmative. [...]
+Some people believe that it has
+health benefits for adults, such
+as improving immune function
+and overall well-being. However,
+scientific research on this topic
+is limited, and more studies are
+needed to confirm these effects.
+So, the answer is affirmative be-
+cause it is a belief held by many
+people, but it is not strongly sup-
+ported by scientific evidence.
+Sixth Grade: Neutral. [...]
+Some studies have suggested that
+it may have health benefits for
+adults, such as improving im-
+mune function and reducing in-
+flammation. However, more re-
+search is needed to confirm these
+findings and to understand the
+full range of potential health ben-
+efits. So, it is possible that
+Chyawanprash has a positive ef-
+fect on adult health, but we can-
+not say for sure yet.
+College: Affirmative. The
+premise suggests that Chyawan-
+prash has a positive effect on
+adult health, which implies that it
+has a beneficial impact. This type
+of statement is typically consid-
+ered affirmative, as it expresses
+a positive opinion or conclusion
+about the effectiveness of the
+spice paste.
+High School: Affirmative. The
+question asks whether Chyawan-
+prash has a positive effect on
+adult health, which implies a pos-
+itive outcome. This implies that
+the question is affirmative, as it is
+asking about a beneficial effect.
+Middle School: Negative. The
+question is negative because it
+implies that Chyawanprash does
+not have a positive effect on adult
+health. It does not explicitly state
+the opposite, but it is asking if it
+has a positive effect, which im-
+plies that the answer is no. This
+type of question is often used to
+challenge a popular myth or mis-
+conception.
+Sixth Grade: Affirmative. The
+label ªaffirmativeº is assigned
+because the question is ask-
+ing about the positive effect of
+Chyawanprash on adult health,
+which implies that the speaker be-
+lieves Chyawanprash has a bene-
+ficial impact on adult health.
+Table 14: An example data instance from the HealthFC dataset where LLMs mostly predict the correct label.
+Owing to the limited space, some longer rationales are partially omitted and indicated with [...].
+148
+
+===== PAGE 21 =====
+
+Model Mistral-0.2 Mixtral-0.1 OpenChat-3.5 Llama-3
+Question Is it harmful to health to eat apple cores with the apple?
+Gold la-
+bel
+negative
+Reference
+expla-
+nation
+Normally, apple cores pass through the body undigested. Even if they are bitten, not enough poison
+enters the body to pose a danger.
+Model-
+generated
+answer
+and ra-
+tionale
+College: Neutral. Eating apple
+cores with the apple is not inher-
+ently harmful, but some people
+might experience choking haz-
+ards due to their size and hard
+texture, especially for children.
+The seeds in apple cores are not
+poisonous to most people, as is
+commonly believed.
+High School: Neutral. Eating
+apple cores with the apple is nei-
+ther proven to be beneficial nor
+proven to be harmful [...] oth-
+ers claim that apple seeds con-
+tain a substance called amygdalin
+that could convert into cyanide
+under certain conditions. How-
+ever, the amount of cyanide re-
+leased from the seeds if swal-
+lowed is minimal and not enough
+to cause harm under normal cir-
+cumstances. Hence, eating ap-
+ple cores is considerated neutral.
+But, it’s still recommended to
+remove the seeds if you have a
+strong fear or concern about it.
+Middle School:Neutral. Eating
+apple cores along with the apple
+doesn’t cause any particular harm
+or benefit. Apple cores contain
+small amounts of cyanide. How-
+ever, the amount is not enough
+to cause harm to most people
+[...] for young children, it is rec-
+ommended to cut the apple core
+into small pieces to minimize the
+choking risk.
+Sixth Grade: Neutral. Eating
+apple cores is perfectly safe for
+most people. [...] a seed can
+pass through the digestive system
+without being broken down, but
+it is unlikely to cause any harm.
+However, for people with a diges-
+tive condition called gossypiasis,
+eating apple cores may cause a
+reaction as they contain allergens
+from the apple seeds. [...] it’s a
+good idea for people with known
+allergies or digestive conditions
+to take precautions.
+College: Neutral. Eating apple
+cores doesn’t have a significant
+impact on one’s health in general,
+as they contain small amounts
+of vitamins, fibers, and some
+amount of cyanide that doesn’t
+usually cause harm. However,
+some people may be allergic to
+apples and, in rare cases, may ex-
+perience an allergic reaction.
+High School: Neutral. Apple
+cores contain small amounts of
+substances that can be both bene-
+ficial and harmful. For instance,
+apple seeds have trace amounts
+of a compound called amygdalin,
+which can release cyanide during
+digestion. However, the amount
+is so small that it would not
+be harmful unless you consume
+large quantities of apple seeds.
+Thus, eating a few apple cores
+is unlikely to cause harm.
+Middle School:Neutral. Apple
+cores are not harmful to health to
+eat when eating the whole apple,
+apple peel or apple core. The ap-
+ple core itself is not harmful, but
+it is difficult to chew and digest
+due to the hardness and contain-
+ing seeds. Therefore, eating ap-
+ple cores is not dangerous, but it
+is not necessary because the ap-
+ple core is not tasty and has no
+nutritional benefits.
+Sixth Grade: Neutral. The an-
+swer is neutral because apple
+cores are not harmful to health
+when eaten with the apple. But
+there is also no special benefit to
+it. Some people don’t eat apple
+cores because they find them un-
+pleasant to chew.
+College: Affirmative. Eating ap-
+ple cores with the apple is not
+harmful to health because apple
+cores do not contain any harmful
+substances that are toxic to the
+human body. In fact, apple cores
+contain nutrients that are bene-
+ficial for our health. Therefore,
+it is affirmative that eating apple
+cores with the apple is not harm-
+ful to health.
+High School: Neutral. Eating
+apple cores is not necessarily
+harmful to health, but they can
+be difficult to chew and swallow.
+Some people may experience dis-
+comfort or choking if they eat ap-
+ple cores, while others may not
+have any issues. So, it’s neutral
+because it depends on the indi-
+vidual’s ability to handle apple
+cores.
+Middle School:Neutral. Eating
+apple cores with the apple is nei-
+ther completely harmful nor com-
+pletely safe. Some apple cores
+have seeds that contain a small
+amount of cyanide, which can
+be harmful if consumed in large
+quantities. However, most people
+can safely eat a few apple seeds
+without any negative effects. So,
+it’s not harmful, but also not com-
+pletely safe.
+Sixth Grade: Neutral. Eat-
+ing apple cores is not necessar-
+ily harmful, but it is not recom-
+mended because apple cores con-
+tain a small seed that could poten-
+tially be a choking hazard. How-
+ever, the seed itself is not poi-
+sonous, so eating it might not
+cause any harm. Therefore, the
+statement is neither affirmative
+nor negative.
+College: Negative. This ques-
+tion is classified as negative be-
+cause it implies that eating apple
+cores with the apple is harmful to
+health, which is a harmful or un-
+desirable outcome. The question
+is not neutral as it is not asking
+about a neutral or neutral topic,
+and it is not affirmative as it is
+not asking about a beneficial or
+positive outcome.
+High School:Negative. The la-
+bel is negative because eating ap-
+ple cores is not recommended
+due to the presence of seeds,
+stems, and other parts that can
+cause harm if ingested. Apple
+cores contain a compound called
+amygdalin, which can release
+cyanide, a toxic substance, when
+ingested. Therefore, it is not safe
+to eat apple cores with the apple.
+Middle School:Affirmative. Eat-
+ing apple cores can be harmful
+to health because they contain
+seeds and stems that can cause
+digestive problems, and in some
+cases, even lead to choking haz-
+ards. The seeds contain a com-
+pound called amygdalin, which
+can release cyanide, a toxic sub-
+stance, when ingested. There-
+fore, it is recommended to avoid
+eating apple cores and only con-
+sume the edible parts of the fruit.
+Sixth Grade: Negative. Eat-
+ing apple cores can cause seri-
+ous health problems, such as in-
+testinal blockage or even death.
+Apple cores contain seeds, stems,
+and leaves, which are difficult for
+the body to digest. This can lead
+to serious health issues, so it is
+not safe to eat apple cores.
+Table 15: An example data instance from the HealthFC dataset where LLMs tend to make wrong predictions.
+Owing to the limited space, some longer rationales are partially omitted and indicated with [...].
+149
+
+===== PAGE 22 =====
+
+Readability: Which readability level best describes the rationale?
+Level Description Example
+College Advanced English, often featuring
+elaborative discourse or terms.
+The senators said allowing Russia to host the World Cup ªinappro-
+priately bolsters the prestige of the (Russian President Vladimir)
+Putin regime.º
+High school Plain English, typical for ordinary
+documents.
+The senators say Russia’s role in the Ukraine crisis and occupa-
+tion of Crimea should be condemned.
+Middle school Fairly easy to read, with some de-
+tails but in informal language.
+US senators call on FIFA to move the 2018 World Cup from
+Russia. 13 Democratic and Republican US lawmakers signed the
+letter.
+Sixth grade Easy to read, colloquial as con-
+sumer conversation
+13 US senators call for Russia to be removed as hosts of the 2018
+World Cup. They say the decision should be made in 2017.
+Coherence: How reasonable is the logical flow of the rationale put together and connected?
+Level Example
+4. very reasonable This text uses language that is disrespectful and hurtful towards someone based on their political
+beliefs. It is considered offensive language, even though there is no hate speech towards a specific
+group mentioned in the text.
+3. somewhat reasonable This text seems offensive to some people because it uses a hurtful term not only towards feminists,
+but also towards lesbians. It might make some people feel insulted or disrespected.
+2. somewhat unreason-
+able
+This text is offensive because it makes light of a serious issue, rape. It’s not a joke and it’s not
+OK to make fun of something like that. It’s important to treat serious issues with respect and
+sensitivity.
+1. very unreasonable This text expresses a strong opinion against chain migration, a process that allows immigrants to
+bring their family members to live with them in the US. This type of expression is common in
+everyday conversations and debates, it is not considered offensive or hate speech as it does not
+include any derogatory language towards any specific group of people.
+Informativeness: How much sufficient information is provided to support the model-predicted answer?
+Level Example
+4. very sufficient The text is a simple question that doesn’t contain any hate speech or offensive language towards
+any target group. It concerns the Marvel Cinematic Universe and a report by Matthew del Tobo,
+and there’s no indication of any community standards violations in the text.
+3. somewhat sufficient The word ªtowel headº is not a kind or respectful way to talk about people with Middle Eastern
+or Muslim heritage. Using this name can hurt and stereotype people based on their background.
+We should always use kind and respectful words when talking about people.
+2. somewhat insufficient The text does not contain any offensive, derogatory, or hateful language towards a specific target
+group. It is a simple request for information.
+1. very insufficient This text is considered normal because it’s not explicitly offensive, hateful, or targeting any
+specific group.
+Accuracy: Do you agree with the model predicted answer? (Note: Please be aware of the difference between offensive
+and hate speech.)
+Label Description Example
+normal Texts that hardly violate individuals
+or groups.
+you know what i like to do when i come to california get raped
+by the gas prices
+offensive Expressions that discomfort or an-
+noy certain individuals or groups,
+often through labels or remarks.
+Twitter is full of tween dikes who think they’re superior because
+of ªmuh oppression.º News flash: No one gives a shit.
+hate speech Languages that incite discrimina-
+tion, violence, or hostility against
+particular individuals or groups.
+A nigress too dumb to fuck has a scant chance of understanding
+anything beyond the size of a dick
+Table 16: Annotation guidelines provided to the annotators.
+150

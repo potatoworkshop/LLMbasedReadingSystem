@@ -1,0 +1,298 @@
+===== PAGE 1 =====
+Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 13291–13309
+December 6-10, 2023 ©2023 Association for Computational Linguistics
+BLESS: Benchmarking Large Language Models on Sentence Simplification
+Tannon Kew1,†, Alison Chi2,†, Laura Vásquez-Rodríguez3,4,†,∗,
+Sweta Agrawal5, Dennis Aumiller6, Fernando Alva-Manchego7, Matthew Shardlow8
+1University of Zurich, Switzerland 2National Tsing Hua University, Taiwan
+3Idiap Research Institute, Switzerland 4University of Manchester, UK
+5University of Maryland, US 6Cohere, US 7Cardiff University, UK
+8Manchester Metropolitan University, UK
+kew@cl.uzh.ch, achi@gapp.nthu.edu.tw, laura.vasquez@idiap.ch
+sweagraw@umd.edu, dennisaumiller@cohere.com
+alvamanchegof@cardiff.ac.uk, m.shardlow@mmu.ac.uk
+Abstract
+We present BLESS, a comprehensive perfor-
+mance benchmark of the most recent state-of-
+the-art large language models (LLMs) on the
+task of text simplification ( TS). We examine
+how well off-the-shelf LLMs can solve this
+challenging task, assessing a total of 44 mod-
+els, differing in size, architecture, pre-training
+methods, and accessibility, on three test sets
+from different domains (Wikipedia, news, and
+medical) under a few-shot setting. Our anal-
+ysis considers a suite of automatic metrics as
+well as a large-scale quantitative investigation
+into the types of common edit operations per-
+formed by the different models. Furthermore,
+we perform a manual qualitative analysis on
+a subset of model outputs to better gauge the
+quality of the generated simplifications. Our
+evaluation indicates that the best LLMs, despite
+not being trained on TS, perform comparably
+with state-of-the-art TS baselines. Addition-
+ally, we find that certain LLMs demonstrate a
+greater range and diversity of edit operations.
+Our performance benchmark will be available
+as a resource for the development of future TS
+methods and evaluation metrics.1
+1 Introduction
+Large pre-trained language models (LLMs) have
+demonstrated strong performance on a wide range
+of NLP tasks without the need for task-specific
+fine-tuning, leading to a prevailing conventional
+wisdom that LLMs can solve any task. This has
+motivated the development of benchmarks to better
+understand the abilities of LLMs in specific do-
+mains such as healthcare (Sallam, 2023), finance
+(Dowling and Lucey, 2023), education (Baidoo-
+Anu and Owusu Ansah, 2023), engineering (Soba-
+1We make our code and the generated system outputs
+available at https://github.com/ZurichNLP/BLESS.
+†These authors contributed equally.
+*Work done as a PhD student at the University of Manch-
+ester, United Kingdom.
+nia et al., 2023), and ethics (Zhuo et al., 2023),
+as well as for specific NLP tasks (Li et al., 2022;
+Wang et al., 2023; Liu et al., 2023).
+However, it remains unclear how well current
+LLMs can perform on the challenging task of text
+simplification (TS). In this paper, we focus on sen-
+tence simplification in English, which typically
+involves rephrasing part or all of a sentence into
+language which is more accessible and easier to
+understand. While recent work has focused on
+evaluating TS abilities of select models, such as
+GPT-3.5-Turbo (Feng et al., 2023) and mT5 (Ryan
+et al., 2023), there is currently no large-scale and
+detailed analysis of the simplification capabilities
+of different LLMs.
+In this study, we expand both the breadth and
+depth of the knowledge base on TS with LLMs,
+evaluating a wider variety of models on three dif-
+ferent TS datasets: ASSET (Alva-Manchego et al.,
+2020a), NEWSELA (Jiang et al., 2020) and MED-
+EAS I (Basu et al., 2023). We select these datasets
+to cover a variety of domains (Wikipedia, news,
+and medical) and a diverse set of TS operations
+(e.g. paraphrasing, splitting, and elaboration).
+Specifically, we use in-context learning (ICL)
+and assess LLMs in a few-shot setting, experi-
+menting with three different prompts. We select
+44 widely used generative models (both open and
+closed-weight) and evaluate their abilities from
+three distinct angles. First, we rely on automatic
+evaluation metrics commonly used in the TS liter-
+ature. Second, we quantify and compare the edit
+operations performed by the LLMs during simplifi-
+cation. Finally, we perform a targeted qualitative
+analysis to validate our findings and to better under-
+stand the quality of the generated simplifications.
+Our findings reveal that closed-weight models pro-
+vide significant gains over open-weight alternatives
+under a few-shot setting, establishing them as a
+13291
+
+===== PAGE 2 =====
+strong baseline for future work on TS. We summa-
+rize our contributions as follows:
+1. BLESS ( Benchmarking Large language
+modEls on Sentence Simplification), a per-
+formance evaluation benchmark of 44 LLMs
+in a few-shot setting (Section 3).
+2. An evaluation that includes both widely used
+automatic metrics and an analysis of the TS
+edit operations performed by the models (Sec-
+tion 4).
+3. A qualitative analysis of the results, with man-
+ual annotation of simplification operations and
+an examination of the relationships between
+selected evaluation metrics (Section 5).
+2 Related Work
+Text Simplification Benchmarks Most simpli-
+fication work treats the task as a monolingual
+machine translation problem, training models
+on datasets containing complex-simple sentence
+pairs (Zhu et al., 2010). Alva-Manchego et al.
+(2020b) performed a standardized evaluation of
+general data-driven simplification systems, using
+Wikipedia-based datasets and NEWSELA . At the
+document level, Alva-Manchego et al. (2019b) con-
+ducted a systematic analysis of simplification op-
+erations to demonstrate the limitations and disrup-
+tions that occur when multiple sentences are in-
+volved. Benchmarks have also been established for
+more specific kinds of simplification: for example,
+both non-neural (Paetzold and Specia, 2016) and
+neural (Stajner et al., 2022; Saggion et al., 2022)
+approaches to lexical simplification, which aims to
+replace complex words with simpler alternatives.
+LLM-based Simplification LLMs such as
+GPT-3.5-Turbo, the model behind early versions
+of ChatGPT2, are often used out-of-the-box with-
+out any further training for a given domain or
+task. Some previous works have investigated sim-
+plification capabilities of select LLMs in order
+to benchmark performance against dedicated ap-
+proaches (Aumiller and Gertz, 2022; Vásquez-
+Rodríguez et al., 2022; Ryan et al., 2023; Sun et al.,
+2023; Chi et al., 2023). Meanwhile, Feng et al.
+(2023) explored the TS abilities of the two strong-
+performing OpenAI models, GPT-3.5-Turbo and
+Davinci-003. However, despite these efforts, we
+only have results from a very limited number of
+LLMs and evaluation metrics. Thus, it remains un-
+2https://chat.openai.com/
+Dataset Domain Size # Words # R TER
+C S
+ASSET Wikipedia 359 22.57 18.87 10 16.79
+MED-EASI Medical 300 26.48 27.42 1 25.03
+NEWSELA News 256 26.44 24.82 4 23.17
+Table 1: Dataset Statistics. C: Complex; S: Simple; R:
+References. TER refers to Translation Error Rate, a
+measurement of the average edit distance between the
+source and reference texts (see https://www.cs.umd.
+edu/~snover/tercom).
+clear how a wider spectrum of models, differing in
+architecture and training strategy, perform on differ-
+ent domains and in response to different prompts.
+We aim to fill this gap and study the simplification
+abilities of 44 LLMs in order to highlight potential
+weaknesses and determine areas for further devel-
+opment. To the best of our knowledge, we are the
+first to focus on establishing the performance of
+recent LLMs on the task of TS.
+3 BLESS: Benchmarking Large
+Language Models on Sentence
+Simplification
+3.1 Datasets
+Our assessment establishes the performance of cur-
+rent LLMs on TS according to three datasets, cov-
+ering different domains and styles. Table 1 summa-
+rizes these datasets.
+ASSET (Alva-Manchego et al., 2020a) com-
+prises 2,359 sentences from English Wikipedia
+paired with 10 simplified references. We use the
+official test split (359 sentences) for evaluation.
+These references were created by crowdworkers
+who were instructed to use edit operations such as
+replacement, splitting, and deletion.
+MED-EAS I (Basu et al., 2023) is a simplifica-
+tion dataset for short medical texts containing 1,979
+complex (expert) - simple (layman) pairs. Each
+text contains one or more sentences. In this dataset,
+simplified texts are composed using four types of
+operations: elaboration, replacement, deletion, and
+insertion. We use the released test split (300 in-
+stances) for our evaluation. Unlike the other two
+datasets, simplifications in MED-EAS I are slightly
+longer than the complex source texts, due to ex-
+planation and decomposition of complex medical
+terms.
+NEWSELA (Xu et al., 2015) contains 1,130 long-
+form news articles that have been professionally
+13292
+
+===== PAGE 3 =====
+rewritten according to four different graded read-
+ability levels. For our benchmarking experiments,
+we opt for the Newsela-Manual test set (Jiang et al.,
+2020). We extract all aligned and partially aligned
+sentence pairs between a complex source sentence
+(level 0) and the four simplified article versions
+(levels 1-4), keeping only those sentences for which
+we have a reference for all four simplification lev-
+els.3 This results in 256 test examples. Using
+this small subset of NEWSELA data ensures that
+sentence-level alignments are of high quality and
+capture important edit operations such as splitting.
+3.2 LLM Types
+We investigate a total of 44 LLMs with different
+sizes, architectures, and training objectives. The
+models we consider range from 60 million to 176
+billion parameters and are all based on the trans-
+former architecture (Vaswani et al., 2017), consist-
+ing of either an encoder-decoder or a standalone
+decoder. Furthermore, all have undergone a self-
+supervised pre-training stage. Nine of these mod-
+els leverage instruction-tuning, which fine-tunes
+a pre-trained base model on labeled instruction-
+response pairs from a diverse set of tasks. Finally,
+just three of these models have received additional
+training through reinforcement learning with hu-
+man feedback (RLHF) to better align the model’s
+responses with human preferences (Stiennon et al.,
+2020; Ouyang et al., 2022). Evaluating a wide vari-
+ety of currently available models should serve as a
+broad baseline and give sufficient information on
+which models perform best in which domains as
+well as where key challenges remain.
+We broadly distinguish between open- and
+closed-weight models. The former pertains to mod-
+els for which the trained weights are accessible and
+thus allow for self-hosting. Typically, these models
+are considered to be “open-source.” However, we
+note that this obfuscates specific licensing agree-
+ments attached to some models and whether or not
+the training data and code are also made available.
+In comparison, closed-weight models refer to those
+whose weights are kept private and can be queried
+only through APIs. Our open-weight models in-
+clude variants of the T5 family (Raffel et al., 2020),
+GPT-style models (Radford et al., 2019; Wang and
+Komatsuzaki, 2021), OPT (Zhang et al., 2022c)
+3These articles are simplified as a whole to match the
+desired school grade; therefore, there is no guarantee that
+there will be an exact match for all the sentences in the text
+across all grade levels.
+and LLaMA models (Touvron et al., 2023), and the
+BLOOM family (Scao et al., 2022). For closed-weight
+models, we focus on those developed by OpenAI.
+Details on each model family are provided in Ap-
+pendix A.
+3.3 Prompts
+To simplify sentences with LLMs without addi-
+tional fine-tuning, we use in-context learning (ICL).
+ICL is a prompting technique that utilizes a small
+number of input-output examples to demonstrate a
+task (Brown et al., 2020). Previous work on related
+tasks has demonstrated that LLMs are sensitive to
+which input prompts and few-shot examples are
+used (Zhang et al., 2022b; Lu et al., 2022; Agrawal
+et al., 2023). To account for this, we construct
+three stylistically distinct prompts that consist of
+a task instruction and N few-shot examples (see
+Figure 1). For all generation settings, we set N=3
+and randomly sample complex-source pairs from
+the corresponding validation sets. We leave a de-
+tailed investigation of optimal in-context learning
+strategies for TS to future work.
+3.4 Inference Settings
+For open-weight models, we run inference on local
+GPUs using the Transformers library (Wolf et al.,
+2020). We load the models with 8-bit quantiza-
+tion (Dettmers et al., 2022), which allows us to run
+inference efficiently on as few as 5 A100 80GB
+GPUs. For closed-weight models, we use the APIs
+provided by OpenAI. As generation hyperparam-
+eters, we use Nucleus Sampling (Holtzman et al.,
+2020) with a probability threshold of 0.9, a temper-
+ature of 1.0, and a maximum output length of 100
+tokens. To account for the stochastic generation
+settings, we perform each inference run with 3 dif-
+ferent random seeds and aggregate the results for
+each metric.
+3.5 Baselines
+We use the MUSS (Martin et al., 2022) model
+as our main baseline since it has been shown
+to achieve state-of-the-art performance. MUSS
+fine-tunes a BART-large (Lewis et al., 2020)
+model with ACCESS control tokens (Martin
+et al., 2020) extracted from labeled TS datasets
+and/or mined paraphrases to train both su-
+pervised ( MUSS-wiki-mined) and unsupervised
+(MUSS-mined) TS systems. We use the suggested
+hyperparameters from the original paper to set the
+control tokens for simplification generation.
+13293

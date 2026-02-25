@@ -1,0 +1,164 @@
+{
+  "article_id": "12c21411-653d-4052-a189-a8aef6e34209",
+  "mode": "difficulty_adjust",
+  "original_article": "The Industrial Revolution brought profound changes to everyday life in Britain and, later, across much of Europe and North America. From the late eighteenth century, new machines and organised factories transformed production, but they also altered where people lived, how they spent their time, and what they expected from work and consumption. Historians have increasingly focused on these lived experiences to understand the Revolution not merely as a set of technical innovations but as a social and cultural process. This shift emphasises continuity as well as change: many traditional patterns persisted, yet the pace and scale of transformation introduced novel pressures and opportunities that reshaped family arrangements, gender roles, and social relations over decades rather than overnight.\n\nOne of the most visible shifts occurred in the realm of work. Cottage industries and artisanal workshops gave way to factory systems that concentrated labour, especially in textiles and metalworking. Time became more regimented; the abstract measurement of hours and minutes replaced the flexible rhythms of agricultural seasons and craft guild deadlines. Employers relied increasingly on wages rather than reciprocal obligations, which altered power dynamics between workers and patrons. Women and children entered the workforce in large numbers, often performing long hours under strict supervision and for lower pay than adult men. Migration from rural areas accelerated as families sought steady income in towns, producing rapid urban expansion and a new class of wage-dependent labourers whose lives were shaped by the factory bell and the timetable of trains and canals.\n\nDomestic life and consumption also changed in significant ways. Urban housing often lagged behind population growth, leading to overcrowded courts and tenements with inadequate sanitation. These conditions heightened the risk of disease and prompted public interventions such as improved water supplies and sewage systems in the nineteenth century. At the same time, mass production made a wider range of goods available and affordable for ordinary households. Textiles, cheap pottery, and processed foods gradually entered domestic inventories, altering patterns of dress, diet, and domestic labour. The spread of newspapers, cheap print, and later education fostered new forms of leisure and civic engagement, creating shared reference points that extended beyond local communities. Transport innovations, including canals and railways, reduced the time needed to travel and widened the geographical horizons of work and leisure.\n\nThe long-term consequences of these changes were complex and uneven. Economic growth created unprecedented wealth, yet benefits were distributed unevenly across regions and social groups. Legislative reforms, trade unionism, and philanthropic initiatives responded to industrial-era problems but did not eliminate them. Contemporary debates among historians have emphasised that industrialisation was neither inexorable nor uniformly experienced; cultural values, local traditions, and political institutions mediated its effects. Nevertheless, the period marked a decisive step towards modernity by embedding wage labour, market consumption, and urban living into many people's daily expectations. Understanding this era requires attention to both macro-level processes and the ordinary practices that defined how people organised their days, cared for families, and imagined the future. These micro-level perspectives reveal the human dimension of a transformation that reshaped societies across the globe.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "article": "The Industrial Revolution brought big changes to daily life in Britain. It then spread across much of Europe and North America. From the late eighteenth century, new machines and organised factories changed how goods were made. They also changed where people lived and how they spent time. They changed what people expected from work and shopping. Historians now study daily life. They see the Revolution not only as new technology but also as a social and cultural process. This view shows both continuity and change. Many old patterns stayed the same. But the speed and size of the changes created new pressures and chances. These changes altered family life, gender roles, and social ties over decades rather than overnight.\n\nOne of the clearest shifts was in work. Cottage industries and artisanal workshops gave way to factory systems. Factories concentrated labour, especially in textiles and metalworking. Time became more regular. Hours and minutes replaced the flexible rhythms of farm seasons and craft guild deadlines. Employers paid wages rather than relying on reciprocal obligations. This shifted the balance of power between workers and patrons. Women and children joined the workforce in large numbers. They often worked long hours under strict supervision and earned less than adult men. Migration from rural areas grew as families looked for steady pay in towns. This caused rapid urban expansion. It also created a new class of wage-dependent labourers. Their lives were set by the factory bell and the timetable of trains and canals.\n\nHome life and buying habits also changed. Urban housing often fell behind population growth. This led to overcrowded courts and tenements with poor sanitation. These conditions raised the risk of disease. They led to public actions such as better water supplies and sewage systems in the nineteenth century. At the same time, mass production made more goods available and cheaper for ordinary households. Textiles, cheap pottery, and processed foods slowly became part of many homes. This changed how people dressed, what they ate, and the work done at home. The spread of newspapers, cheap print, and later education created new forms of leisure and civic life. People found shared topics that went beyond their local area. Transport innovations, including canals and railways, cut travel time and widened where people could work and relax.\n\nThe long-term effects of these changes were complex and uneven. Economic growth created great wealth, yet gains were not shared equally across regions and social groups. Legislative reforms, trade unionism, and philanthropic initiatives tried to deal with industrial-era problems. They did not remove all the problems. Contemporary debates among historians stress that industrialisation was not inevitable and was not the same everywhere. Cultural values, local traditions, and political institutions shaped its effects. Still, the period was a clear step toward modern life. It made wage labour, market consumption, and urban living part of many people's daily expectations. To understand this era, we must look at both large-scale processes and small daily practices. These practices show how people organised their days, cared for families, and imagined the future. The small-scale views reveal the human side of a change that reshaped societies across the globe.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 514,
+    "sentence_count": 24,
+    "avg_sentence_len": 21.42,
+    "avg_word_len": 5.92,
+    "syllable_count": 1021,
+    "complex_word_count": 52,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 17.05,
+    "flesch_kincaid_grade": 16.2,
+    "ari": 17.18,
+    "coleman_liau": 17.65,
+    "gunning_fog": 12.61
+  },
+  "final_metrics": {
+    "word_count": 528,
+    "sentence_count": 46,
+    "avg_sentence_len": 11.48,
+    "avg_word_len": 5.23,
+    "syllable_count": 879,
+    "complex_word_count": 27,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 54.34,
+    "flesch_kincaid_grade": 8.53,
+    "ari": 8.97,
+    "coleman_liau": 12.4,
+    "gunning_fog": 6.64
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 522,
+        "sentence_count": 39,
+        "avg_sentence_len": 13.38,
+        "avg_word_len": 5.2,
+        "syllable_count": 868,
+        "complex_word_count": 28,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 52.57,
+        "flesch_kincaid_grade": 9.25,
+        "ari": 9.75,
+        "coleman_liau": 12.56,
+        "gunning_fog": 7.5
+      },
+      "distance_to_target": 0.2176,
+      "fidelity": {
+        "overall": 0.9157,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 525,
+        "sentence_count": 39,
+        "avg_sentence_len": 13.46,
+        "avg_word_len": 5.19,
+        "syllable_count": 872,
+        "complex_word_count": 28,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 52.65,
+        "flesch_kincaid_grade": 9.26,
+        "ari": 9.76,
+        "coleman_liau": 12.53,
+        "gunning_fog": 7.52
+      },
+      "distance_to_target": 0.2175,
+      "fidelity": {
+        "overall": 0.9157,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 528,
+        "sentence_count": 46,
+        "avg_sentence_len": 11.48,
+        "avg_word_len": 5.23,
+        "syllable_count": 879,
+        "complex_word_count": 27,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 54.34,
+        "flesch_kincaid_grade": 8.53,
+        "ari": 8.97,
+        "coleman_liau": 12.4,
+        "gunning_fog": 6.64
+      },
+      "distance_to_target": 0.0981,
+      "fidelity": {
+        "overall": 0.9157,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9157,
+    "entity_recall": 0.8571,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 21,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "transformed_at": "2026-02-18T13:21:12.451Z"
+}

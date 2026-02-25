@@ -1,0 +1,150 @@
+{
+  "url": "https://ielts.kmf.com/question/0/e290aj.html",
+  "title": {
+    "text": "Test 3-Passage 3: Is the era of artificial speech translation upon us",
+    "name": "Is the era of artificial speech translation upon us",
+    "test": 3,
+    "passage": 3
+  },
+  "article": [
+    "Once the stuff of science fiction, technology that enables people to talk using different languages is now here. But how effective is it?",
+    "Noise, Alex Waibel tells me, is one of the major challenges that artificial speech translation has to meet. A device may be able to recognise speech in a laboratory, or a meeting room, but will struggle to cope with the kind of background noise I can hear in my office surrounding Professor Waibel as he speaks to me from Kyoto station in Japan. I'm struggling to follow him in English, on a scratchy line that reminds me we are nearly 10,000 kilometres apart – and that distance is still an obstacle to communication even if you're speaking the same language, as we are. We haven't reached the future yet. If we had, Waibel would have been able to speak more comfortably in his native German and I would have been able to hear his words in English.",
+    "At Karlsruhe Institute of Technology, where he is a professor of computer science, Waibel and his colleagues already give lectures in German that their students can follow in English via an electronic translator. The system generates text that students can read on their laptops or phones, so the process is somewhat similar to subtitling. It helps that lecturers speak clearly, don't have to compete with background chatter, and say much the same thing each year.",
+    "The idea of artificial speech translation has been around for a long time. Douglas Adams' science fiction novel, The Hitchhiker's Guide to the Galaxy, published in 1979, featured a life form called the 'Babel fish' which, when placed in the ear, enabled a listener to understand any language in the universe. It came to represent one of those devices that technology enthusiasts dream of long before they become practically realisable, like TVs flat enough to hang on walls: objects that we once could only dream of having but that are now commonplace. Now devices that look like prototype Babel fish have started to appear, riding a wave of advances in artificial translation and voice recognition.",
+    "At this stage, however, they seem to be regarded as eye-catching novelties rather than steps towards what Waibel calls 'making a language-transparent society'. They tend to be domestic devices or applications suitable for hotel check-ins, for example, providing a practical alternative to speaking traveller's English. The efficiency of the translator is less important than the social function. However, 'Professionals are less inclined to be patient in a conversation,' founder and CEO at Waverly Labs, Andrew Ochoa, observes. To redress this, Waverly is now preparing a new model for professional applications, which entails performance improvements in speech recognition, translation accuracy and the time it takes to deliver the translated speech.",
+    "For a conversation, both speakers need to have devices called Pilots (translator earpieces) in their ears. 'We find that there's a barrier with sharing one of the earphones with a stranger,' says Ochoa. That can't have been totally unexpected. The problem would be solved if earpiece translators became sufficiently prevalent that strangers would be likely to already have their own in their ears. Whether that happens, and how quickly, will probably depend not so much on the earpieces themselves, but on the prevalence of voice-controlled devices and artificial translation in general.",
+    "Waibel highlights the significance of certain Asian nations, noting that voice translation has really taken off in countries such as Japan with a range of systems. There is still a long way to go, though. A translation system needs to be simultaneous, like the translator's voice speaking over the foreign politician being interviewed on the TV, rather than in sections that oblige speakers to pause after every few remarks and wait for the translation to be delivered. It needs to work offline, for situations where internet access isn't possible, and to address apprehensions about the amount of private speech data accumulating in the cloud, having been sent to servers for processing.",
+    "Systems not only need to cope with physical challenges such as noise, they will also need to be socially aware by addressing people in the right way. Some cultural traditions demand solemn respect for academic status, for example, and it is only polite to respect this. Etiquette-sensitive artificial translators could relieve people of the need to know these differing cultural norms. At the same time, they might help to preserve local customs, slowing the spread of habits associated with international English, such as its readiness to get on first-name terms.",
+    "Professors and other professionals will not outsource language awareness to software, though. If the technology matures into seamless, ubiquitous artificial speech translation, it will actually add value to language skills. Whether it will help people conduct their family lives or relationships is open to question – though one noteworthy possibility is that it could overcome the language barriers that often arise between generations after migration, leaving children and their grandparents without a shared language.",
+    "Whatever uses it is put to, though, it will never be as good as the real thing. Even if voice- morphing technology simulates the speaker's voice, their lip movements won't match, and they will look like they are in a dubbed movie. The contrast will underline the value of shared languages, and the value of learning them. Sharing a language can promote a sense of belonging and community, as with the international scientists who use English as a lingua franca, where their predecessors used Latin. Though the practical need for a common language will diminish, the social value of sharing one will persist. And software will never be a substitute for the subtle but vital understanding that comes with knowledge of a language."
+  ],
+  "judgement_questions": [
+    {
+      "number": 35,
+      "question": "Language translation systems will be seen as very useful throughout the academic and professional worlds.",
+      "answer": "NO"
+    },
+    {
+      "number": 36,
+      "question": "The overall value of automated translation to family life is yet to be shown.",
+      "answer": "YES"
+    },
+    {
+      "number": 37,
+      "question": "Automated translation could make life more difficult for immigrant families.",
+      "answer": "NO"
+    },
+    {
+      "number": 38,
+      "question": "Visual aspects of language translation are being considered by scientists.",
+      "answer": "NOT GIVEN"
+    },
+    {
+      "number": 39,
+      "question": "International scientists have found English easier to translate into otherlanguages than Latin.",
+      "answer": "NOT GIVEN"
+    },
+    {
+      "number": 40,
+      "question": "As far as language is concerned, there is a difference between people's social and practical needs.",
+      "answer": "YES"
+    }
+  ],
+  "single_choice_questions": [
+    {
+      "number": 27,
+      "question": "What does the reader learn about the conversation in the first paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The speakers are communicating in different languages."
+        },
+        {
+          "label": "B",
+          "text": "Neither of the speakers is familiar with their environment."
+        },
+        {
+          "label": "C",
+          "text": "The topic of the conversation is difficult for both speakers."
+        },
+        {
+          "label": "D",
+          "text": "Aspects of the conversation are challenging for both speakers."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "number": 28,
+      "question": "What assists the electronic translator during lectures at Karlsruhe Institute of Technology?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the repeated content of lectures"
+        },
+        {
+          "label": "B",
+          "text": "the students' reading skills"
+        },
+        {
+          "label": "C",
+          "text": "the languages used"
+        },
+        {
+          "label": "D",
+          "text": "the lecturers' technical ability"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "number": 29,
+      "question": "When referring to The Hitchhiker's Guide to the Galaxy, the writer suggests that",
+      "options": [
+        {
+          "label": "A",
+          "text": "the Babel fish was considered undesirable at the time."
+        },
+        {
+          "label": "B",
+          "text": "this book was not seriously intending to predict the future."
+        },
+        {
+          "label": "C",
+          "text": "artificial speech translation was not a surprising development."
+        },
+        {
+          "label": "D",
+          "text": "some speech translation techniques are better than others."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "number": 30,
+      "question": "What does the writer say about sharing earpieces?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is something people will get used to doing."
+        },
+        {
+          "label": "B",
+          "text": "The reluctance to do this is understandable."
+        },
+        {
+          "label": "C",
+          "text": "The equipment will be unnecessary in the future."
+        },
+        {
+          "label": "D",
+          "text": "It is something few people need to worry about."
+        }
+      ],
+      "answer": "B"
+    }
+  ],
+  "book": 19,
+  "test": 3,
+  "passage": 3
+}

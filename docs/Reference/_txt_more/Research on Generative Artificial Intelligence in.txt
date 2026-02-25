@@ -1,0 +1,146 @@
+===== PAGE 1 =====
+Research on Generative Artificial Intelligence in 
+Senior High Schools’ English Reading Teaching  
+Yiqing Ding1* 
+1College of Foreign Languages, Shanghai Ocean University, 201306 No.999, Huchenghuan Rd, 
+Nanhui New City, Shanghai, P.R., China 
+Abstract. The advent of generative artificial intelligence (GAI) and the 
+prominence of core literacy in senior high school have jointly promoted 
+innovative transformations in teaching. This paper employs literature review 
+methodology to first examine current problems in senior high school English 
+reading class, subsequently proposing GAI ’ s integrative advantages. Then 
+further identifies implementation challenges and corresponding 
+countermeasures. It is  found that traditional English reading class has 
+problems of single reading resources, lacking thinking training and one -
+sided reading evaluation system, while GAI can enrich reading materials, 
+promote critical thinking, and achieve diversified evaluation . However, 
+there are problems of lacking emotional interaction, teachers ’ technical 
+dependence and difficulties in changing teaching concepts. Therefore, this 
+paper proposes a teacher -led, GAI -assisted emotional interaction 
+mechanism, teacher -student-AI tr iadic collaboration, and progressive 
+conceptual iteration strategies. The paper shows that the deep integration of 
+GAI and English reading teaching needs to balance technological 
+empowerment and traditional educational values. 
+1 Introduction  
+1.1 Background of the study 
+The English Curriculum Criteria for Regular High School (2017 Edition, 2020 Revision) 
+integrates language, culture, and thinking organically within the core competencies of 
+English as a discipline, establishing concrete and feasible academic goals  to achieve moral 
+education and disciplinary education [1]. As a pivotal component of senior  high school 
+English teaching, reading teaching not only enables teachers to convey information, enhance 
+students’ language proficiency and cultural literacy but also serves as a platform for 
+cultivating students’ thinking abilities. However, traditional English teaching faces 
+challenges such as slow improvement in students’  critical thinking, superficial cultural 
+understanding, and a lack of diversity in reading materials. 
+Since OpenAI launched ChatGPT in October 2022, generative artificial intelligence (GAI) 
+has entered mainstream awareness. By 2024, the conv ening of the World Digital Education 
+                                                 
+* Corresponding author: 2261107@st.shou.edu.cn 
+ 
+SHS Web of Conferences 222, 01001 (2025)
+ICEPCC 2025
+https://doi.org/10.1051/shsconf/202522201001
+  © The Authors, published by EDP Sciences. This is an open access article distributed under  the terms of  the Creative
+Commons Attribution License 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+===== PAGE 2 =====
+Conference has brought unprecedented attention to the application of GAI in education. Due 
+to its powerful language processing and content generation capabilities, 
+GAI can help innovate the way English reading is taught  and improve teaching efficiency 
+and student learning outcomes. 
+1.2 Literature review 
+Since the advent of Chatgpt, GAI has gained widespread attention across academic 
+disciplines. Through their research, Bordas et al. demonstrated that GAI can generate entirely 
+new datasets—such as text, images, audio, and video—based on existing data[2]. Jauhiainen 
+and Guerra stated that ChatGPT -3.5 and 4 can effectively custo mize educational content to 
+provide students with personalized, interactive learning materials and environments [3]. For 
+example, in a senior high school geography classroom, the Kimi intelligent assistant has been 
+shown to optimize instructional design by automating low -level, repetitive evaluation tasks 
+for teachers and tailoring personalized learning content for students[4]. In English translation 
+teaching, GAI can break spatial and temporal constraints to achieve personalized and 
+differentiated teaching, thereby improving the efficiency of translation teaching [5]. Hao et 
+al. proposed a framework for designing personalized teaching pathways through AI 
+technology, which can be applied to senior high school science education to achieve precision 
+teaching[6]. 
+Scholars have also focused on integrating GAI into senior high school English teaching. 
+Wu points out that English teachers can make reasonable use o f GAI in teaching design, 
+lesson preparation, teaching assistance, assessment processes and student engagement, so as 
+to improve the quality of teaching [7]. Similarly , Xiang and Li argue that AI empowers 
+teachers to provide richer curricular resources, enabling “large-scale, personalized” precision 
+teaching[8]. Meanwhile, students can develop self-directed learning skills through AI-driven 
+English learning applications or platforms. Furthermore, Chen proposes that GAI -enhanced 
+reading practices, mediated through human-AI dialogue, allow readers to efficiently acquire, 
+process, and comprehend information while fulfilling demands for intelligent and 
+personalized reading experiences[9]. 
+In summary, scholars globally acknowledge the significant rol e of GAI in education, 
+providing a robust theoretical foundation for its integration into English teaching. However, 
+Rahman and Watanobe cautioned that despite ChatGPT’s utility in educational research, it 
+remains constrained by limitations such as a lack of common sense, potential biases, 
+difficulties in complex reasoning, and an inability to process visual information, arguing 
+against uncritical reliance on the technology[10]. Additionally, Zhang and Wang highlighted 
+challenges in digital reading, including data -driven limitations, superficial comprehension, 
+and passive information consumption. To address these issues, they emphasized the need for 
+teachers to focus on cultivating students’ ability to actively select resources, enhance human-
+AI interactivity to avoid homogenization, and develop critical textual analysis skills in 
+classroom settings[11]. 
+1.3 Research topic 
+Existing studies still exhibit critical gaps. While current studies point out GAI ’s potential 
+ability in the educational field, such as assisting in teaching design and realizing personalized 
+teaching, etc. They also put forward its limitations and coping strategies in the teaching 
+process. However, there is a lack of in -depth and systematic research on how to use GAI in 
+a concrete and rational way to address the problems in traditional senior high school English 
+reading classrooms. 
+ 
+SHS Web of Conferences 222, 01001 (2025)
+ICEPCC 2025
+https://doi.org/10.1051/shsconf/202522201001
+2
+
+===== PAGE 3 =====
+Therefore, this paper aims to explore the effective path of integrating GAI tools into 
+senior high school English reading teaching class. The findings will offer practical cases and 
+theoretical support for the deep fusion of educational tech nology within subject -specific 
+teaching, thereby advancing the modernization of education. 
+2 Problems in the traditional senior high school English reading 
+classroom  
+2.1 Homogeneity of reading materials 
+Most teachers believe that textbooks are the syllabus of English language teaching[12], with 
+classroom content mainly centered on prescribed materials. However, textbooks materials 
+mostly focus on academic genres such as expository, argumentative, and narrative essays, 
+and lack authentic language materials such as original novels, overseas social media, and 
+TED talks. 
+Furthermore, the updating rate of textbooks is much slower than the development of the 
+times, resulting in outdated and contextually irrelevant content [13]. For example, the 
+People’s Education Press textbooks, which are the most widely used in China, were compiled 
+in 1984, 1996, and 2003[14]. The latest version textbook was not until 2017 that began to be 
+written, and it was gradually put into use in 2019. The sluggish revision pace fails to 
+incorporate real-time hotspots such as artificial intelligence and digital economy in a timely 
+manner, resulting in a serious disconnect between classroom knowledge and contemporary 
+realities. Consequently, students are unable to access diverse cultures and global dynamics 
+through reading, limiting their preparedness for an interconnected world. 
+2.2 Neglect thinking training in the reading process 
+Reading teaching serves as a critical pathway to promote students ’ thinking progress[15]. 
+However, fixed teaching hours and limited teacher energy often lead teachers to dominate 
+classroom discourse to complete curricular tasks on schedule. Consequently, students 
+passively absorb the general meaning of the text, vocabulary, grammar and other knowledge, 
+with minimal opportunities to question, discuss and share their own opinions on the text. This 
+not only fails to stimulate students ’ critical questioning or personalized interpretation skills, 
+but also makes reading lessons monotonous and reduces students’ motivation to read deeply 
+and think independently[16]. For example, in cross-cultural discourse teaching, teachers only 
+introduce the cult ural background with the help of images and audio [17], failing to guide 
+students to conduct classroom discussions, comparative analysis of cultures of different 
+countries and other thinking inquiry activities [18]. Such practices not only lead to students ’ 
+shallow understanding of different culture, but also lead to a serious lack of critical training. 
+2.3 One-sided evaluation system of reading 
+Traditional assessment methods often overemphasize accuracy rates, relying solely on 
+standardized test scores to evaluate students ’ reading comprehension abilities, without 
+accounting for individual differences in language ability[19]. For example, most of the exams 
+are based on objective questions such as multiple-choice questions, which narrowly focus on 
+students’ comprehension of factual grasp in the text and mastery of vocabulary and grammar. 
+This approach neglects the effective assessment of students’ stage-by-stage progress, such as 
+reading fluency, logical reasoning, cross -cultural comparisons, and argumentation skills. 
+ 
+SHS Web of Conferences 222, 01001 (2025)
+ICEPCC 2025
+https://doi.org/10.1051/shsconf/202522201001
+3

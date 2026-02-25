@@ -1,0 +1,583 @@
+{
+  "total": 10,
+  "articles": [
+    {
+      "file": "02304652-d2f5-46e3-b27a-dbc1d1f02e39.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 584,
+      "charCount": 3458,
+      "syllableCount": 1147,
+      "complexWordCount": 61,
+      "readability": {
+        "fleschReadingEase": 12.450456621004605,
+        "fleschKincaidGrade": 18.431399217221138,
+        "ari": 20.363768754076972,
+        "colemanLiau": 17.95246575342465,
+        "gunningFog": 15.301891715590347
+      },
+      "informationDensity": {
+        "uniqueWordCount": 371,
+        "typeTokenRatio": 0.635274,
+        "rootTypeTokenRatio": 15.352089
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 80,
+        "keywordTypeDensity": 0.030822,
+        "keywordTokenDensity": 0.136986,
+        "selectedKeywords": [
+          "matter",
+          "dark",
+          "galaxies",
+          "cosmic",
+          "gravitational",
+          "space",
+          "telescope",
+          "large",
+          "light",
+          "particles",
+          "universe",
+          "far",
+          "clusters",
+          "cold",
+          "collider",
+          "curves",
+          "detectors",
+          "galactic"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5948,
+        "meanAbstractness": 3.4052,
+        "concretenessCoverage": 0.742268,
+        "matchedTokenCount": 432,
+        "totalTokenCount": 582
+      }
+    },
+    {
+      "file": "31ef9b29-02f3-4ca1-9f7c-b93f077a180e.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 596,
+      "charCount": 3508,
+      "syllableCount": 1211,
+      "complexWordCount": 71,
+      "readability": {
+        "fleschReadingEase": 6.131353467561553,
+        "fleschKincaidGrade": 19.45474592521572,
+        "ari": 20.483093640140616,
+        "colemanLiau": 17.766174496644293,
+        "gunningFog": 16.117481623521893
+      },
+      "informationDensity": {
+        "uniqueWordCount": 340,
+        "typeTokenRatio": 0.57047,
+        "rootTypeTokenRatio": 13.926943
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 64,
+        "keywordTypeDensity": 0.028523,
+        "keywordTokenDensity": 0.107383,
+        "selectedKeywords": [
+          "cultural",
+          "global",
+          "cultures",
+          "social",
+          "distinct",
+          "local",
+          "sense",
+          "within",
+          "diverse",
+          "globalised",
+          "move",
+          "frameworks",
+          "face",
+          "increasingly",
+          "individual",
+          "individuals",
+          "culture"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2152,
+        "meanAbstractness": 3.7848,
+        "concretenessCoverage": 0.848993,
+        "matchedTokenCount": 506,
+        "totalTokenCount": 596
+      }
+    },
+    {
+      "file": "3a502565-516f-419d-bd32-b6a43c78054b.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 626,
+      "charCount": 3640,
+      "syllableCount": 1247,
+      "complexWordCount": 70,
+      "readability": {
+        "fleschReadingEase": 8.05405218317361,
+        "fleschKincaidGrade": 19.54146508443633,
+        "ari": 20.861982352046248,
+        "colemanLiau": 17.397444089456865,
+        "gunningFog": 16.39665297428876
+      },
+      "informationDensity": {
+        "uniqueWordCount": 352,
+        "typeTokenRatio": 0.5623,
+        "rootTypeTokenRatio": 14.068749
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 60,
+        "keywordTypeDensity": 0.027157,
+        "keywordTokenDensity": 0.095847,
+        "selectedKeywords": [
+          "quantum",
+          "theory",
+          "classical",
+          "mechanics",
+          "superposition",
+          "state",
+          "gravity",
+          "particles",
+          "theoretical",
+          "universe",
+          "scientific",
+          "computers",
+          "einstein",
+          "entanglement",
+          "general",
+          "governed",
+          "macroscopic"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2064,
+        "meanAbstractness": 3.7936,
+        "concretenessCoverage": 0.859649,
+        "matchedTokenCount": 539,
+        "totalTokenCount": 627
+      }
+    },
+    {
+      "file": "58906594-b119-4d71-bc30-7fce1f892260.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 599,
+      "charCount": 3207,
+      "syllableCount": 1075,
+      "complexWordCount": 57,
+      "readability": {
+        "fleschReadingEase": 26.05528658875909,
+        "fleschKincaidGrade": 16.711247316956833,
+        "ari": 18.048883059066704,
+        "colemanLiau": 14.643338898163602,
+        "gunningFog": 15.21586771603466
+      },
+      "informationDensity": {
+        "uniqueWordCount": 332,
+        "typeTokenRatio": 0.554257,
+        "rootTypeTokenRatio": 13.565152
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 48,
+        "keywordTypeDensity": 0.028381,
+        "keywordTokenDensity": 0.080134,
+        "selectedKeywords": [
+          "heavy",
+          "land",
+          "plow",
+          "system",
+          "horse",
+          "animal",
+          "field",
+          "carruca",
+          "collar",
+          "fallow",
+          "left",
+          "legumes",
+          "moldboard",
+          "northern",
+          "soil",
+          "teams",
+          "power"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3996,
+        "meanAbstractness": 3.6004,
+        "concretenessCoverage": 0.866444,
+        "matchedTokenCount": 519,
+        "totalTokenCount": 599
+      }
+    },
+    {
+      "file": "6c25681a-2d26-4ac2-80a8-aab6b9efeefc.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 22,
+      "wordCount": 607,
+      "charCount": 3443,
+      "syllableCount": 1185,
+      "complexWordCount": 74,
+      "readability": {
+        "fleschReadingEase": 13.672072412760258,
+        "fleschKincaidGrade": 18.206698367530326,
+        "ari": 19.081319454844987,
+        "colemanLiau": 16.479472817133438,
+        "gunningFog": 15.912805152014379
+      },
+      "informationDensity": {
+        "uniqueWordCount": 346,
+        "typeTokenRatio": 0.570016,
+        "rootTypeTokenRatio": 14.043707
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 40,
+        "keywordTypeDensity": 0.028007,
+        "keywordTokenDensity": 0.065898,
+        "selectedKeywords": [
+          "farming",
+          "introduction",
+          "mechanical",
+          "era",
+          "century",
+          "began",
+          "engines",
+          "grain",
+          "harvest",
+          "hectare",
+          "implements",
+          "industrial",
+          "initially",
+          "labour",
+          "machines",
+          "manual",
+          "plough"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3144,
+        "meanAbstractness": 3.6856,
+        "concretenessCoverage": 0.836903,
+        "matchedTokenCount": 508,
+        "totalTokenCount": 607
+      }
+    },
+    {
+      "file": "9b84b0c0-6c80-4ab7-90b4-7354b7045b9f.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 23,
+      "wordCount": 600,
+      "charCount": 3538,
+      "syllableCount": 1180,
+      "complexWordCount": 55,
+      "readability": {
+        "fleschReadingEase": 13.976739130434822,
+        "fleschKincaidGrade": 17.79057971014493,
+        "ari": 19.386778260869562,
+        "colemanLiau": 17.737733333333328,
+        "gunningFog": 14.10144927536232
+      },
+      "informationDensity": {
+        "uniqueWordCount": 402,
+        "typeTokenRatio": 0.67,
+        "rootTypeTokenRatio": 16.411581
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 53,
+        "keywordTypeDensity": 0.031667,
+        "keywordTokenDensity": 0.088333,
+        "selectedKeywords": [
+          "black",
+          "death",
+          "plague",
+          "wages",
+          "europe",
+          "beyond",
+          "population",
+          "england",
+          "florence",
+          "inadvertently",
+          "renaissance",
+          "services",
+          "survivors",
+          "medieval",
+          "social",
+          "high",
+          "labor",
+          "later",
+          "society"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4321,
+        "meanAbstractness": 3.5679,
+        "concretenessCoverage": 0.701695,
+        "matchedTokenCount": 414,
+        "totalTokenCount": 590
+      }
+    },
+    {
+      "file": "a8743241-c61a-48e7-b319-e766038b5ddf.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 22,
+      "wordCount": 551,
+      "charCount": 3550,
+      "syllableCount": 1228,
+      "complexWordCount": 87,
+      "readability": {
+        "fleschReadingEase": -7.132052879062826,
+        "fleschKincaidGrade": 20.476093878897874,
+        "ari": 21.43846229995051,
+        "colemanLiau": 20.90199637023593,
+        "gunningFog": 16.333971291866032
+      },
+      "informationDensity": {
+        "uniqueWordCount": 335,
+        "typeTokenRatio": 0.607985,
+        "rootTypeTokenRatio": 14.27148
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 63,
+        "keywordTypeDensity": 0.030853,
+        "keywordTokenDensity": 0.114338,
+        "selectedKeywords": [
+          "biology",
+          "synthetic",
+          "public",
+          "biological",
+          "processes",
+          "technical",
+          "benefits",
+          "risks",
+          "scientific",
+          "applications",
+          "cellular",
+          "containment",
+          "cost",
+          "design",
+          "engineered",
+          "ethical",
+          "governance"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2588,
+        "meanAbstractness": 3.7412,
+        "concretenessCoverage": 0.802178,
+        "matchedTokenCount": 442,
+        "totalTokenCount": 551
+      }
+    },
+    {
+      "file": "b4217fec-709f-4ef9-a8ce-b8f7d6254ec6.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 18,
+      "wordCount": 618,
+      "charCount": 3727,
+      "syllableCount": 1268,
+      "complexWordCount": 69,
+      "readability": {
+        "fleschReadingEase": -1.5939158576051398,
+        "fleschKincaidGrade": 22.01100323624596,
+        "ari": 24.14147249190939,
+        "colemanLiau": 18.798640776699028,
+        "gunningFog": 18.199352750809066
+      },
+      "informationDensity": {
+        "uniqueWordCount": 391,
+        "typeTokenRatio": 0.632686,
+        "rootTypeTokenRatio": 15.728327
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 54,
+        "keywordTypeDensity": 0.029126,
+        "keywordTokenDensity": 0.087379,
+        "selectedKeywords": [
+          "silk",
+          "road",
+          "exchange",
+          "goods",
+          "networks",
+          "commodities",
+          "political",
+          "routes",
+          "civilizations",
+          "connectivity",
+          "contingent",
+          "imperial",
+          "maritime",
+          "merchants",
+          "moved",
+          "protection",
+          "traders",
+          "transfer"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3875,
+        "meanAbstractness": 3.6125,
+        "concretenessCoverage": 0.772213,
+        "matchedTokenCount": 478,
+        "totalTokenCount": 619
+      }
+    },
+    {
+      "file": "c727e81b-b994-4dd0-b523-31defa3ad3ff.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 24,
+      "wordCount": 587,
+      "charCount": 3757,
+      "syllableCount": 1291,
+      "complexWordCount": 89,
+      "readability": {
+        "fleschReadingEase": -4.0525592703009465,
+        "fleschKincaidGrade": 19.90070911413969,
+        "ari": 20.944771436683702,
+        "colemanLiau": 20.623781942078363,
+        "gunningFog": 15.848069278818853
+      },
+      "informationDensity": {
+        "uniqueWordCount": 395,
+        "typeTokenRatio": 0.672913,
+        "rootTypeTokenRatio": 16.303395
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 58,
+        "keywordTypeDensity": 0.032368,
+        "keywordTokenDensity": 0.098807,
+        "selectedKeywords": [
+          "cultural",
+          "heritage",
+          "like",
+          "world",
+          "culture",
+          "traditions",
+          "instance",
+          "oral",
+          "unesco",
+          "youth",
+          "global",
+          "social",
+          "community",
+          "authenticity",
+          "curricula",
+          "generations",
+          "indigenous",
+          "nations",
+          "tourism"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3497,
+        "meanAbstractness": 3.6503,
+        "concretenessCoverage": 0.759036,
+        "matchedTokenCount": 441,
+        "totalTokenCount": 581
+      }
+    },
+    {
+      "file": "d7a918f1-113e-4a44-8330-a7e606bef3c3.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 25,
+      "wordCount": 658,
+      "charCount": 4256,
+      "syllableCount": 1463,
+      "complexWordCount": 105,
+      "readability": {
+        "fleschReadingEase": -7.979799999999983,
+        "fleschKincaidGrade": 20.910970212765964,
+        "ari": 22.19468085106383,
+        "colemanLiau": 21.107720364741635,
+        "gunningFog": 16.910978723404256
+      },
+      "informationDensity": {
+        "uniqueWordCount": 412,
+        "typeTokenRatio": 0.62614,
+        "rootTypeTokenRatio": 16.061432
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 72,
+        "keywordTypeDensity": 0.028875,
+        "keywordTokenDensity": 0.109422,
+        "selectedKeywords": [
+          "cultural",
+          "culture",
+          "practices",
+          "analysis",
+          "social",
+          "circulation",
+          "rights",
+          "political",
+          "heritage",
+          "yet",
+          "diasporic",
+          "groups",
+          "level",
+          "maintain",
+          "plural",
+          "policy",
+          "protect",
+          "ritual",
+          "standardise"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2643,
+        "meanAbstractness": 3.7357,
+        "concretenessCoverage": 0.778116,
+        "matchedTokenCount": 512,
+        "totalTokenCount": 658
+      }
+    }
+  ]
+}

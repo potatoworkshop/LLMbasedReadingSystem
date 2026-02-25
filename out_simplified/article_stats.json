@@ -1,0 +1,565 @@
+{
+  "total": 10,
+  "articles": [
+    {
+      "file": "313c5b24-fffe-4bb0-9710-63457896896d.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 592,
+      "charCount": 2496,
+      "syllableCount": 719,
+      "complexWordCount": 0,
+      "readability": {
+        "fleschReadingEase": 75.47268018018022,
+        "fleschKincaidGrade": 9.735704633204634,
+        "ari": 12.523616473616471,
+        "colemanLiau": 7.941351351351344,
+        "gunningFog": 11.276190476190477
+      },
+      "informationDensity": {
+        "uniqueWordCount": 300,
+        "typeTokenRatio": 0.506757,
+        "rootTypeTokenRatio": 12.329924
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 16,
+        "keywordTokenCount": 106,
+        "keywordTypeDensity": 0.027027,
+        "keywordTokenDensity": 0.179054,
+        "selectedKeywords": [
+          "stuff",
+          "dark",
+          "stars",
+          "sky",
+          "cold",
+          "star",
+          "bits",
+          "light",
+          "speeds",
+          "gap",
+          "mass",
+          "weight",
+          "tools",
+          "far",
+          "space",
+          "bends"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.7893,
+        "meanAbstractness": 3.2107,
+        "concretenessCoverage": 0.783051,
+        "matchedTokenCount": 462,
+        "totalTokenCount": 590
+      }
+    },
+    {
+      "file": "4901d8bd-be71-4ff6-a526-ab03dd55dd0d.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 23,
+      "wordCount": 641,
+      "charCount": 2878,
+      "syllableCount": 851,
+      "complexWordCount": 1,
+      "readability": {
+        "fleschReadingEase": 66.23132266160212,
+        "fleschKincaidGrade": 10.944965068167946,
+        "ari": 13.652021298243234,
+        "colemanLiau": 9.538283931357252,
+        "gunningFog": 11.210228583056367
+      },
+      "informationDensity": {
+        "uniqueWordCount": 347,
+        "typeTokenRatio": 0.541342,
+        "rootTypeTokenRatio": 13.705676
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 72,
+        "keywordTypeDensity": 0.028081,
+        "keywordTokenDensity": 0.112324,
+        "selectedKeywords": [
+          "people",
+          "death",
+          "black",
+          "pay",
+          "broke",
+          "europe",
+          "plague",
+          "sick",
+          "workers",
+          "old",
+          "bad",
+          "caused",
+          "god",
+          "left",
+          "poor",
+          "town",
+          "grew",
+          "past"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.681,
+        "meanAbstractness": 3.319,
+        "concretenessCoverage": 0.782884,
+        "matchedTokenCount": 494,
+        "totalTokenCount": 631
+      }
+    },
+    {
+      "file": "4fdb8db8-cdac-424d-af25-135dee0e352d.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 625,
+      "charCount": 2433,
+      "syllableCount": 734,
+      "complexWordCount": 0,
+      "readability": {
+        "fleschReadingEase": 77.27242666666666,
+        "fleschKincaidGrade": 9.875062857142861,
+        "ari": 11.786040380952379,
+        "colemanLiau": 6.095103999999996,
+        "gunningFog": 11.904761904761905
+      },
+      "informationDensity": {
+        "uniqueWordCount": 277,
+        "typeTokenRatio": 0.4432,
+        "rootTypeTokenRatio": 11.08
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 15,
+        "keywordTokenCount": 81,
+        "keywordTypeDensity": 0.024,
+        "keywordTokenDensity": 0.1296,
+        "selectedKeywords": [
+          "folk",
+          "world",
+          "ways",
+          "local",
+          "inside",
+          "live",
+          "speech",
+          "clear",
+          "sense",
+          "group",
+          "flow",
+          "goes",
+          "say",
+          "views",
+          "self"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.519,
+        "meanAbstractness": 3.481,
+        "concretenessCoverage": 0.9024,
+        "matchedTokenCount": 564,
+        "totalTokenCount": 625
+      }
+    },
+    {
+      "file": "5a235e6b-1d9f-4189-8f6d-0db7d8388b40.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 22,
+      "wordCount": 619,
+      "charCount": 2517,
+      "syllableCount": 768,
+      "complexWordCount": 1,
+      "readability": {
+        "fleschReadingEase": 73.31245520634455,
+        "fleschKincaidGrade": 10.023569540314291,
+        "ari": 11.790152739021885,
+        "colemanLiau": 7.057447495961224,
+        "gunningFog": 11.319165809957411
+      },
+      "informationDensity": {
+        "uniqueWordCount": 287,
+        "typeTokenRatio": 0.463651,
+        "rootTypeTokenRatio": 11.535504
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 15,
+        "keywordTokenCount": 62,
+        "keywordTypeDensity": 0.024233,
+        "keywordTokenDensity": 0.100162,
+        "selectedKeywords": [
+          "machine",
+          "farm",
+          "farming",
+          "time",
+          "start",
+          "food",
+          "grain",
+          "machines",
+          "tools",
+          "growth",
+          "began",
+          "business",
+          "cutter",
+          "engines",
+          "factory"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5522,
+        "meanAbstractness": 3.4478,
+        "concretenessCoverage": 0.882068,
+        "matchedTokenCount": 546,
+        "totalTokenCount": 619
+      }
+    },
+    {
+      "file": "8f31e9cc-a0f2-43b9-8070-3a9492e92e03.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 648,
+      "charCount": 2580,
+      "syllableCount": 788,
+      "complexWordCount": 1,
+      "readability": {
+        "fleschReadingEase": 72.63722222222223,
+        "fleschKincaidGrade": 10.7936684303351,
+        "ari": 12.751349206349204,
+        "colemanLiau": 6.651851851851852,
+        "gunningFog": 12.404585537918871
+      },
+      "informationDensity": {
+        "uniqueWordCount": 297,
+        "typeTokenRatio": 0.458333,
+        "rootTypeTokenRatio": 11.667262
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 15,
+        "keywordTokenCount": 63,
+        "keywordTypeDensity": 0.023148,
+        "keywordTokenDensity": 0.097222,
+        "selectedKeywords": [
+          "small",
+          "theory",
+          "physics",
+          "science",
+          "specks",
+          "stand",
+          "state",
+          "states",
+          "machines",
+          "tied",
+          "two",
+          "basic",
+          "einstein",
+          "fix",
+          "speck"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4648,
+        "meanAbstractness": 3.5352,
+        "concretenessCoverage": 0.885978,
+        "matchedTokenCount": 575,
+        "totalTokenCount": 649
+      }
+    },
+    {
+      "file": "9a7cc567-eedf-4987-9d37-6e517d03ac81.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 18,
+      "wordCount": 634,
+      "charCount": 2716,
+      "syllableCount": 812,
+      "complexWordCount": 3,
+      "readability": {
+        "fleschReadingEase": 62.73239397125833,
+        "fleschKincaidGrade": 13.259600420609885,
+        "ari": 16.358335085874522,
+        "colemanLiau": 8.549022082018926,
+        "gunningFog": 14.278163336838416
+      },
+      "informationDensity": {
+        "uniqueWordCount": 317,
+        "typeTokenRatio": 0.5,
+        "rootTypeTokenRatio": 12.589678
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 16,
+        "keywordTokenCount": 83,
+        "keywordTypeDensity": 0.025237,
+        "keywordTokenDensity": 0.130915,
+        "selectedKeywords": [
+          "silk",
+          "road",
+          "goods",
+          "moved",
+          "trade",
+          "links",
+          "nets",
+          "worlds",
+          "ways",
+          "state",
+          "times",
+          "long",
+          "chance",
+          "range",
+          "land",
+          "city"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6087,
+        "meanAbstractness": 3.3913,
+        "concretenessCoverage": 0.824921,
+        "matchedTokenCount": 523,
+        "totalTokenCount": 634
+      }
+    },
+    {
+      "file": "bd7257d0-6066-4991-b577-7ac0cbfbae0f.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 25,
+      "wordCount": 702,
+      "charCount": 2924,
+      "syllableCount": 847,
+      "complexWordCount": 0,
+      "readability": {
+        "fleschReadingEase": 76.25944102564102,
+        "fleschKincaidGrade": 9.598521937321937,
+        "ari": 12.228290598290592,
+        "colemanLiau": 7.637492877492875,
+        "gunningFog": 11.232
+      },
+      "informationDensity": {
+        "uniqueWordCount": 327,
+        "typeTokenRatio": 0.465812,
+        "rootTypeTokenRatio": 12.34182
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 106,
+        "keywordTypeDensity": 0.024217,
+        "keywordTokenDensity": 0.150997,
+        "selectedKeywords": [
+          "life",
+          "ways",
+          "spread",
+          "talk",
+          "make",
+          "rights",
+          "touch",
+          "able",
+          "new",
+          "study",
+          "acts",
+          "social",
+          "groups",
+          "answer",
+          "gaps",
+          "keep",
+          "sites"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5585,
+        "meanAbstractness": 3.4415,
+        "concretenessCoverage": 0.856125,
+        "matchedTokenCount": 601,
+        "totalTokenCount": 702
+      }
+    },
+    {
+      "file": "c3726d90-f349-42d3-a714-cd2990469fc4.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 22,
+      "wordCount": 595,
+      "charCount": 2499,
+      "syllableCount": 749,
+      "complexWordCount": 0,
+      "readability": {
+        "fleschReadingEase": 72.88739304812837,
+        "fleschKincaidGrade": 9.8118449197861,
+        "ari": 11.874727272727277,
+        "colemanLiau": 7.801546218487392,
+        "gunningFog": 10.81818181818182
+      },
+      "informationDensity": {
+        "uniqueWordCount": 279,
+        "typeTokenRatio": 0.468908,
+        "rootTypeTokenRatio": 11.437885
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 15,
+        "keywordTokenCount": 85,
+        "keywordTypeDensity": 0.02521,
+        "keywordTokenDensity": 0.142857,
+        "selectedKeywords": [
+          "biology",
+          "man",
+          "public",
+          "made",
+          "science",
+          "tech",
+          "cell",
+          "good",
+          "living",
+          "right",
+          "skill",
+          "systems",
+          "wrong",
+          "steps",
+          "ways"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5728,
+        "meanAbstractness": 3.4272,
+        "concretenessCoverage": 0.87395,
+        "matchedTokenCount": 520,
+        "totalTokenCount": 595
+      }
+    },
+    {
+      "file": "d3ff1aad-9247-4082-b7e0-018e6aecca03.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 24,
+      "wordCount": 602,
+      "charCount": 2564,
+      "syllableCount": 748,
+      "complexWordCount": 2,
+      "readability": {
+        "fleschReadingEase": 76.25780869324475,
+        "fleschKincaidGrade": 8.854294019933555,
+        "ari": 11.172198228128458,
+        "colemanLiau": 8.063654485049831,
+        "gunningFog": 10.166223698781838
+      },
+      "informationDensity": {
+        "uniqueWordCount": 327,
+        "typeTokenRatio": 0.543189,
+        "rootTypeTokenRatio": 13.327525
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 86,
+        "keywordTypeDensity": 0.028239,
+        "keywordTokenDensity": 0.142857,
+        "selectedKeywords": [
+          "way",
+          "world",
+          "sites",
+          "gift",
+          "ways",
+          "like",
+          "ness",
+          "group",
+          "case",
+          "home",
+          "tongue",
+          "bond",
+          "folk",
+          "tales",
+          "life",
+          "acts",
+          "last"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.7038,
+        "meanAbstractness": 3.2962,
+        "concretenessCoverage": 0.807047,
+        "matchedTokenCount": 481,
+        "totalTokenCount": 596
+      }
+    },
+    {
+      "file": "ef1a37c8-1455-4498-b781-5db691ab80de.json",
+      "index": {
+        "ielts": "ielts-unknown",
+        "test": "test-unknown",
+        "passage": "passage-unknown"
+      },
+      "sentenceCount": 21,
+      "wordCount": 595,
+      "charCount": 2495,
+      "syllableCount": 715,
+      "complexWordCount": 0,
+      "readability": {
+        "fleschReadingEase": 76.41448179271711,
+        "fleschKincaidGrade": 9.63983193277311,
+        "ari": 12.487002801120447,
+        "colemanLiau": 7.811764705882354,
+        "gunningFog": 11.333333333333334
+      },
+      "informationDensity": {
+        "uniqueWordCount": 310,
+        "typeTokenRatio": 0.521008,
+        "rootTypeTokenRatio": 12.708761
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 16,
+        "keywordTokenCount": 110,
+        "keywordTypeDensity": 0.026891,
+        "keywordTokenDensity": 0.184874,
+        "selectedKeywords": [
+          "stuff",
+          "dark",
+          "stars",
+          "space",
+          "cold",
+          "star",
+          "bits",
+          "light",
+          "speeds",
+          "far",
+          "mass",
+          "tools",
+          "large",
+          "pull",
+          "next",
+          "signs"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.7665,
+        "meanAbstractness": 3.2335,
+        "concretenessCoverage": 0.789207,
+        "matchedTokenCount": 468,
+        "totalTokenCount": 593
+      }
+    }
+  ]
+}

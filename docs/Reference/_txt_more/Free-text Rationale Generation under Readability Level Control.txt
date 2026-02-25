@@ -1,0 +1,251 @@
+===== PAGE 1 =====
+Proceedings of the Fourth Workshop on Generation, Evaluation and Metrics (GEM² 2025), pages 129–150
+July 31 - August 1, 2025 ©2025 Association for Computational Linguistics
+Free-text Rationale Generation under Readability Level Control
+Yi-Sheng Hsu1,2,5 Nils Feldhus1,3,4 Sherzod Hakimov2
+1German Research Center for Artificial Intelligence (DFKI)
+2Computational Linguistics, Department of Linguistics, Universität Potsdam
+3Quality and Usability Lab, Technische Universität Berlin
+4BIFOLD ± Berlin Institute for the Foundations of Learning and Data
+5Computer Science Institute, Hochschule Ruhr West
+yi-sheng.hsu@hs-ruhrwest.de feldhus@tu-berlin.de
+Abstract
+Free-text rationales justify model decisions in
+natural language and thus become likable and
+accessible among approaches to explanation
+across many tasks. However, their effectiveness
+can be hindered by misinterpretation and hallu-
+cination. As a perturbation test, we investigate
+how large language models (LLMs) perform
+rationale generation under the effects of read-
+ability level control, i.e., being prompted for an
+explanation targeting a specific expertise level,
+such as sixth grade or college. We find that
+explanations are adaptable to such instruction,
+though the observed distinction between read-
+ability levels does not fully match the defined
+complexity scores according to traditional read-
+ability metrics. Furthermore, the generated ra-
+tionales tend to feature medium level complex-
+ity, which correlates with the measured quality
+using automatic metrics. Finally, our human
+annotators confirm a generally satisfactory im-
+pression on rationales at all readability levels,
+with high-school-level readability being most
+commonly perceived and favored. 1
+1 Introduction
+Over the past few years, the rapid development
+of machine learning methods has drawn consid-
+erable attention to the research field of explain-
+able artificial intelligence (XAI). While conven-
+tional approaches focused more on local or global
+analyses of rules and features ( Casalicchio et al. ,
+2019; Zhang et al. , 2021), the recent development
+of LLMs introduced more dynamic methodologies
+along with their enhanced capability of natural lan-
+guage generation (NLG). The self-explanation po-
+tentials of LLMs have been explored in a variety of
+approaches, such as examining free-text rationales
+(Wiegreffe et al. , 2021) or combining LLM output
+with saliency maps ( Huang et al. , 2023).
+1Disclaimer: The article contains offensive or hateful
+materials, which is inevitable in the nature of the work.
+Although natural language explanation (NLE)
+established itself to be among the most common
+approaches to justify LLM predictions ( Zhu et al. ,
+2024), free-text rationales were found to poten-
+tially misalign with the predictions and thereby mis-
+lead human readers, for whom such misalignment
+seems hardly perceivable ( Ye and Durrett , 2022).
+Furthermore, it remains unexplored whether free-
+text rationales represent a model’s decision making,
+or if they are generated just like any other NLG out-
+put regarding faithfulness. In light of this, we aim
+to examine whether free-text rationales can also
+be controlled through perturbation as demonstrated
+on NLG tasks ( Dathathri et al. , 2020; Imperial and
+Madabushi, 2023). If more dispersed text complex-
+ity could be observed in the rationales, it would
+indicate a higher resemblance between rationales
+and common NLG output, as we assume the LLMs
+to undergo a consistent decision making process on
+the same instance even under different instructions.
+Targeting free-text rationales, we control text
+complexity with descriptive readability levels and
+evaluate the generated rationales under various
+frameworks to investigate what effects additional
+instructions or constraints may bring forward to the
+NLE task (Figure 1). Although the impact of read-
+ability ( Stajner, 2021) has rarely been addressed
+for NLEs, establishing such a connection could
+benefit model explainability, which ultimately aims
+at perception ( Ehsan et al. , 2019) and utility ( Joshi
+et al. , 2023) of diverse human recipients.
+Our study makes the following contributions:
+First, we explore LLM output in both prediction
+and free-text rationalization under the influence of
+readability level control. Second, we apply objec-
+tive metrics to evaluate the rationales and measure
+their quality across text complexity. Finally, we test
+how human perceive the complexity and quality of
+129
+
+===== PAGE 2 =====
+Figure 1: The experiment workflow of the current study. The demonstrated example comes from the HateXplain
+dataset. Generated responses are evaluated by both automatic metrics and human annotations.
+the rationales across different readability levels.
+2
+2 Background
+Text complexity The notion of text complexity
+was brought forward in early studies to measure
+how readers of various education levels compre-
+hend a given text (
+Kincaid et al. , 1975). Prior to
+recent developments of NLP, text complexity was
+approximated through metrics including Flesch
+Reading Ease (FRE, Kincaid et al. , 1975), Gunning
+fox index (GFI, Gunning, 1952), and Coleman-
+Liau index (CLI, Coleman and Liau , 1975) (Ap-
+pendix B). These approaches quantify readability
+through formulas considering factors like sentence
+length, word counts, and syllable counts.
+As the most common readability metric, FRE
+was often mapped to descriptions that bridge be-
+tween numeric scores and educational levels ( Fara-
+jidizaji et al. , 2024). Ribeiro et al. (2023) ap-
+plied readability level control to text summarization
+through instruction-prompting. In their study, de-
+scriptive categories were prompted for assigning
+desired text complexity to LLM output.
+NLE metrics Although the assessment of ex-
+plainable models lacks a unified standard, main-
+stream approaches employ either objective or
+2https://github.com/doyouwantsometea/nle_
+readability
+FRE >80 60-80 40-60 <40
+Readability sixth middle high collegeLevel grade school school
+Table 1: The mapping between FRE scores and read-
+ability levels adapted from Ribeiro et al. (2023).
+human-in-the-loop evaluation ( Vilone and Longo ,
+2021). Objective metric scores include LAS ( Hase
+et al. , 2020), REV ( Chen et al. , 2023), and RORA
+(Jiang et al. , 2024c). Their training processes
+highly rely on a particular data structure, which
+does not generalize to tasks relevant to readabil-
+ity. Furthermore, while most studies on NLE in-
+tuitively presume model-generated rationales to
+bridge between model input and output, it remains
+unclear whether the provided reasoning faithfully
+represents its internal process for output genera-
+tion; in other words, free-text rationales could be
+only reflecting what the model has learned from its
+training data ( Atanasova et al. , 2023).
+3 Method
+Readability level control As demonstrated in
+Figure 1, in step 1, we incorporate instruction-
+prompting into the prompt building. The prompts
+consist of three sections: task description, few-shot
+in-context samples, and instruction for the test in-
+stance. After task description and samples, we
+130
+
+===== PAGE 3 =====
+add a statement aiming for the rationale: Elabo-
+rate the explanation in {length} 3 to a {readabil-
+ity_level} student. Then we iterate through the data
+instances and readability levels in separate sessions.
+We adapt the framework of Ribeiro et al. (2023) to
+four readability levels based on FRE score ranges
+(Table 1) and explore a range of desired FRE scores
+among {30, 50, 70, 90}, which are respectively
+phrased in the prompts as readability levels {col-
+lege, high school, middle school, sixth grade}.
+Evaluating free-text rationales In light of the
+problematic adaption to readability-related tasks
+and major issues in reproducibility of the afore-
+mentioned NLE evaluation metrics, we exploit the
+overlap between NLE and NLG, we adopt TIGER-
+Score ( Jiang et al. , 2024b), an NLG metric that is
+widely applicable to most tasks, for evaluating the
+generated free-text rationales (§ 4.2). Applying fine-
+tuned Llama-2 (Touvron et al. , 2023), the metric
+was proposed to require little reference but instead
+rely on error analysis over prompted contexts to
+identify and grade mistakes in unstructured text.
+Nevertheless, the approach could sometimes suffer
+from hallucination (or confabulation), similar to
+the common LLM-based methodologies.
+4 Experiments
+4.1 Rationale generation
+Datasets We conduct readability-controlled ratio-
+nale generation on three NLP tasks: fact-checking,
+hate speech detection, and natural language infer-
+ence (NLI), adopting the datasets featuring explana-
+tory annotations. For fact-checking, HealthFC
+(Vladika et al. , 2024) includes 750 claims for fact-
+checking under the medical domain, with excerpts
+of human-written explanations provided along with
+the verification labels. For hate speech detection,
+two datasets are applied: (1) HateXplain (Mathew
+et al. , 2021), which consists of 20k Tweets with
+human-highlighted keywords that contribute the
+most to the labels. (2) Contextual Abuse Dataset
+(CAD, Vidgen et al. , 2021), which contains 25k en-
+tries with six unique labels elaborating the context
+under which hatred is expressed. Lastly, SpanEx
+(Choudhury et al. , 2023) is an NLI dataset that
+includes annotations on word-level semantic rela-
+tions (Appendix A.1).
+3Throughout the experiments, we set this to a fixed value
+of “three sentences” .
+Models We select four recent open-weight LLMs
+from three different families: Mistral-0.2 7B
+(Jiang et al. , 2023), Mixtral-0.1 8x7B (Jiang
+et al. , 2024a)4, OpenChat-3.5 7B (Wang et al. ),
+and Llama-3 8B (Dubey et al. , 2024). All the mod-
+els are instruction-tuned variants downloaded from
+Hugging Face, using the default generation settings,
+running on NVIDIA A100 GPU.
+4.2 Evaluation
+Task accuracy We use accuracy scores to assess
+the alignment between the model predictions and
+the gold labels processed from the datasets. In
+HateXplain (Mathew et al. , 2021), since different
+annotators could label the same instance differently,
+we adopt the most frequent one as the gold label.
+Similarly, in CAD (Vidgen et al. , 2021), we disre-
+gard the subcategories under ªoffensiveº label to
+reduce complexity, simplifying the task into binary
+classification and leaving the subcategories as the
+source of building reference rationales.
+Readability metrics We choose three conven-
+tional readability metrics: FRE ( Kincaid et al. ,
+1975), GFI ( Gunning, 1952), and CLI ( Coleman
+and Liau , 1975) to approximate the complexity of
+the rationales. While a higher FRE score indicates
+more readable text, higher GFI and CLI scores im-
+ply higher text complexity (Appendix B).
+TIGERScore We compute TIGERScore ( Jiang
+et al. , 2024b), which provides explanations in addi-
+tion to the numeric scores. The metric is described
+by the formula:
+{E1, E 2, . . . , E n} = f(I, x, y ′) (1)
+where f is a function that takes the following in-
+puts: I (instruction), x (source context), and y′
+(system output). The function f output a set of
+structured errors {E1, E 2, . . . , E n}. For each error
+Ei = ( li, a i, e i, s i), li denotes the error location,
+ai represents a predefined error aspect, ei is a free-
+text explanation of the error, and si is the score
+reduction ∈ [−5, −0.5] associated with the error.
+At the instance level, the overall metric score is the
+summation of the score reductions for all errors:
+TIGERScore = ∑n
+i=1 si.
+The native scorer is based on Llama-2 (Tou-
+vron et al. , 2023). In addition to Llama-2, we
+4Owing to the larger size of Mixtral-v0.1 8x7B , we
+adopt a bitsandbytes 4-bit quantized version ( https://hf.
+co/ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit )
+to reduce memory consumption.
+131

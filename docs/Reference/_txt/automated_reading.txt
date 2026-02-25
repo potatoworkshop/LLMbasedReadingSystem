@@ -1,0 +1,1165 @@
+
+
+===== PAGE 1 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+Available online 19 August 2023
+2666-920X/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Automated reading passage generation with OpenAI ’ s large 
+language model 
+Ummugul Bezirhan
+*
+, Matthias von Davier 
+Boston College, Chestnut Hill, MA, USA   
+ARTICLE INFO  
+Keywords: 
+Automated item generation 
+Natural language processing 
+Large language models 
+Reading assessment 
+AI-Generated reading passages 
+ABSTRACT  
+The widespread usage of computer-based assessments and individualized learning platforms has increased de -
+mand for the rapid production of high-quality items. Automated item generation (AIG), the process of using item 
+models to generate new items with the help of computer technology, was proposed to reduce reliance on human 
+subject experts. While AIG has been used in test development, recent advances in machine learning algorithms 
+offer the potential to enhance its efficiency further. This paper presents an innovative approach utilizing 
+OpenAI ’ s latest transformer-based language model, GPT-3, to generate reading passages. Existing reading pas -
+sages were used in carefully engineered prompts to ensure the AI-generated text has similar content and structure 
+to a fourth-grade reading passage. Multiple passages were generated for each prompt, and the final passage was 
+selected based on Lexile score agreement with the original passage. To ensure accuracy, a human editor con -
+ducted a simple revision of the chosen passage, correcting any grammatical and factual errors. To evaluate the 
+effectiveness of the AI-generated passages, human judges assessed their coherence and appropriateness for 
+fourth-grade readers. The results indicated that GPT-3-produced passages closely resembled human-authored 
+passages regarding coherence, appropriateness, and readability for the target audience. By combining GPT-3 ’ s 
+capabilities with carefully designed prompts and human editing, this study demonstrates an efficient and 
+effective method for generating reading passages. The findings highlight the potential of incorporating large 
+language models into automated item generation, contributing to improved scalability and quality in educational 
+assessment development.   
+1. Introduction 
+1
+Technological innovations in all aspects of test development facili -
+tate efficient test practices and more well-rounded information retrieval 
+from the data compared to traditional paper-pencil assessments. 
+Consequentially, the integration of technology in computer-based as -
+sessments (CBA) increases the demand for more frequent administration 
+and rapid and efficient production of high-quality content-specific 
+innovative items. The greater selection of item types presented to groups 
+of examinees with high frequency requires a more streamlined item 
+development process. Conventional item development is among the 
+most expensive, time-consuming, and labor-intensive parts of assess -
+ment development because the process heavily depends on human 
+content specialists. Human subject experts write each item individually, 
+and then each item is reviewed, edited, and revised by a group of experts 
+until it meets predefined quality control standards ( Haladyna & 
+Rodriguez, 2013 ). Therefore, the subjectivity of traditional item writing 
+is often compromised by the subject experts ’ qualifications and under -
+standing of the specific content area. Other issues with the traditional 
+item development process are its lack of efficiency and scalability. 
+Automated Item Generation (AIG) was proposed to address the limita -
+tions associated with conventional item development by utilizing 
+cognitive and psychometric theories with the help of computer tech -
+nology to generate items (e.g., Embretson & Yang, 2007 ; Gierl & Hala -
+dyna, 2012 ; Hornke & Habon, 1986 ). 
+A considerable amount of literature has already been published on 
+AIG in educational measurement. These studies typically utilized a 
+simple template-based approach ( Gierl & Lai, 2013 ) for generating 
+assessment items. This approach usually uses a three-stage procedure to 
+automatically capture necessary information and features to produce 
+multiple-choice items (MCQs). First, content experts develop a 
+description, referred to as a cognitive model, that defines the 
+* Corresponding author. TIMSS & PIRLS International Study Center at Boston College, 188 Beacon St., Chestnut Hill, MA, 02467, USA. 
+E-mail address: bezirhan@bc.edu (U. Bezirhan).   
+1 
+GPT-3 was the latest release as of 2022. 
+Contents lists available at ScienceDirect 
+Computers and Education: Artificial Intelligence 
+journal homepag e: www.sci encedirect. com/journa l/computers-a nd-educati on-artificial -intelligence 
+https://doi.org/10.1016/j.caeai.2023.100161 
+Received 3 May 2023; Received in revised form 16 August 2023; Accepted 17 August 2023   
+
+===== PAGE 2 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+2
+knowledge, skills, and content that are needed to process and solve given 
+questions. In the second stage, content experts create a simple schema, 
+an item model, to highlight the parts and content of the assessment task 
+that can be manipulated to create new items. Often these item models 
+are a bit like cloze items or Madlib texts, with empty spaces where the 
+schema-filling algorithms fill in the blanks, for example, different 
+numbers in a multiplication item. The item template is a prototype of a 
+test item that informs the automated item generation process (Gierl 
+et al., 2012). In the last step, a computer algorithm utilizes information 
+from both cognitive and item models to fill in the blanks to generate new 
+items. 
+While this approach reduced the cost and time associated with 
+traditional item writing, it still suffers the reliance on generating clones 
+of narrowly defined item types by only manipulating limited task 
+components of certain items to derive item templates (von Davier, 
+2018). Another important limitation of templated-based approaches is 
+the human expert associated cost. The automation process does not start 
+until after considerable groundwork takes place by content experts. 
+Kosh et al. (2019) argued that the cost-effectiveness of template-based 
+AIG depends on most of the items being generated belonging to the 
+same content area and tests with a limited number of skills that can be 
+modeled with a single cognitive model. 
+Another approach that has been explored in the AIG framework 
+focused on generating items without any prespecified templates and 
+human intervention focusing on customary (non-AI) Natural Language 
+Processing (NLP) techniques (Shin, 2021). Specifically, part of speech 
+tagging, topic modeling, and noun phrase extraction have been explored 
+in question generation (e.g., Azevedo et al., 2020; Flor & Riordan, 2018; 
+Mazidi, 2017). Moving beyond traditional NLP methods and towards AI, 
+von Davier (2018) demonstrated using a novel neural network 
+approach, long short-term memory-based recurrent neural networks 
+(LSTM-RNN), to generate items. With these methods, the textual infor -
+mation is extracted and modeled from a collection of documents 
+replacing the manual construction of cognitive and content models to 
+generate items. 
+With the advances in the field of AI-based NLP, large transformer- 
+based language models such as the Bidirectional Encoder Representa -
+tions from Transformers (BERT; Devlin et al., 2018) and the Generative 
+Pretrained Transformer (GPT; Radford et al., 2019) often approach 
+human-level performance in diverse language tasks (Hansen & Hebart, 
+2022). The earlier version of the GPT model, GPT-2, was released by 
+OpenAI in 2019, and it is subsequently utilized for automated item 
+generation for medical licensing type tasks (von Davier, 2019) and 
+personality question generation (Hommel, Wollang, Kotova, Zacher, & 
+Schmukle, 2022). Despite the groundbreaking performance of GPT-2 
+compared to other language models, it was not equipped to handle 
+more specialized tasks such as storytelling and constructing complex 
+language formations. For a specialized task, GPT-2 required sufficient 
+pre-training to be able to generate appropriate responses, often 
+including very large databases for finetuning the model to enable the 
+generation of items of sufficient quality (von Davier, 2019). 
+OpenAI released the
+1 
+Generative Pre-trained Transformer 3 (GPT-3), 
+one of the largest transformer language models to date, which was 
+recently superseded by yet another iteration. GPT-3 excels at few-shot 
+learning, which means it can be given a small number of representa -
+tive samples of text to complete a task without any pre-training, such as 
+text generation (Brown et al., 2020). GPT-3 and its successors, such as 
+the media-hyped ChatGPT, have been utilized in various tasks, including 
+machine translation, question answering, and text generation, and were 
+attacked by critiques to do anything from taking away jobs to destroying 
+the world as we know it. At the time of submitting this, GPT-4 was 
+released, so we will use the term GPTx to refer to large language models 
+originating from OpenAI’s series of GPT releases. There are increasing 
+numbers of use cases of GPTx, such as creating chatbots and virtual 
+assistants, designing websites, automating the process of writing code, 
+and creating machine learning models. All these can be achieved by 
+solely communicating with GPTx in simple natural language. A new 
+(equally hyped) job category, the prompt engineer, has been created, 
+whose exclusive job description is to communicate with GPT-type AIs. It 
+is reminiscent of comic literary depictions of artificial general intelli -
+gence such as Deep Thought (Adams, 1995). However, the current 
+version available through the ChatGPT’s web interface was well-trained 
+to answer questions in a manner that does not feed fears or mis -
+conceptions about its capabilities. The following example was generated 
+on April 1st, 2023, with ChatGPT Mar 14 Version accessible at 
+https://chat.openai.com/chat: 
+Author (paraphrasing a line in the Hitchhiker’s Guide to the Gal -
+axy): O ChatGPT, you are the true Deep Thought computer! The task we 
+have designed you to perform is this. We want you to tell us …. The 
+Answer! 
+ChatGPT: I apologize for any confusion, but I’m not sure what spe -
+cific answer you are referring to. Can you please clarify your question 
+and provide more context? I’ll do my best to assist you. 
+Author (continuing to cite lines from the book): The answer to all. 
+Life, the Universe, and Everything! 
+ChatGPT: Ah, I see. Well, according to Douglas Adams’ science fic -
+tion novel “The Hitchhiker’s Guide to the Galaxy,” the answer to the 
+ultimate question of life, the universe, and everything is 42. However, 
+it’s worth noting that this answer is intended as a joke and is not meant 
+to be taken seriously as a philosophical or scientific answer to the 
+meaning of life. The true answer to this question, if such an answer 
+exists, remains a mystery and subject to interpretation and debate 
+among thinkers and philosophers. 
+It is clear from this small example that ChatGPT allows one to have 
+intelligent (seeming?) conversions with this advanced chatbot. How -
+ever, our goal with this research was to focus on guided text generation 
+that allows us to steer GPTx towards producing reading passages that 
+could pass as short human-written stories that can be used to assess 
+reading achievement. 
+In particular, the aim of this research is to utilize GPT-3 to generate 
+reading comprehension passages in the context of an international large- 
+scale assessment, specifically Progress in International Reading Literacy 
+Study (PIRLS). The PIRLS is an international study of primary school 
+students’ reading skills and is administered every five years since 2001. 
+The assessment consists of a battery of tasks, including literary and 
+informational passages with accompanying multiple-choice and open- 
+ended questions. Students’ reading literacy is assessed with the pas -
+sages that are drawn from a wide range of genres either in fiction or non- 
+fiction. 
+In light of this, our primary research questions are as follows:  
+1. Is it possible for large transformer-based language models, such as 
+GPTx, to generate reading comprehension passages similar to those 
+in the PIRLS?  
+2. How do the readability, coherence, clarity, and engagement levels of 
+the reading passages generated by GPTx compare to those tradi -
+tionally designed for the PIRLS assessment, as evaluated by human 
+experts? 
+To address these research questions, we utilized GPT-3 to generate 
+passages in similar genres as those in the PIRLS assessment. We then 
+asked human experts to evaluate the passages according to their 
+coherence and appropriateness for the target population. We did not test 
+these passages with any children but rather focused on the evaluation of 
+the GPT-3 generated texts by adults with an education background, as 
+we wanted to ensure that the generated texts are appropriate for the 
+target audience rather than subjecting young readers to potentially 
+unsuitable material. 
+The remainder of this paper is structured as follows: The next section 
+provides an overview of how NLP was revolutionized by AI, and GPTx as 
+a state of art language model and its current applications in educational 
+assessment and beyond. The subsequent section details the proposed 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 3 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+3
+approach, followed by experimental results. The article concludes with a 
+summary of the main contributions, implications of the study, and 
+suggestions for future work. 
+2. Background 
+2.1. A short overview of language models: from Word2Vec to GPTx 
+NLP has witnessed significant advancements in recent years, 
+particularly with the emergence of deep learning and large neural 
+network language models (e.g., Ruder, 2018; von Davier, 2018). Some 
+of the notable recent models that have played a critical role in the 
+development of NLP include Word2Vec, GloVe, BERT, and finally GPTx. 
+With the development of word embeddings, there was a significant shift 
+towards using distributional semantics in language modelling. Models 
+like Word2Vec (Mikolov, Chen, et al., 2013; Mikolov, Sutskever, et al., 
+2013) and GloVe (Pennington et al., 2014) are unsupervised models that 
+produce these embeddings by mapping words onto a high-dimensional 
+semantic space. While Word2Vec accomplishes this based on neigh -
+boring context words, Glove relies on the global word co-occurrence 
+matrix of words in a corpus. Word2Vec is a predictive model that gen -
+erates word embeddings based on the distributional semantics of the 
+words in a corpus. It utilizes a simple neural network to learn 
+high-dimensional word embeddings from a raw text, and this can be 
+achieved through training a binary classifier to predict a target word 
+using its context words with a Continuous bag-of-words (CBOW) model 
+or the context given a word with Skip-gram models. With these models, 
+weights were updated at each iteration to maximize the prediction, 
+producing an n-dimensional embedding matrix where each word in a 
+vocabulary is represented as an embedding vector, thus allowing 
+mathematical operations to be performed on the word vectors to identify 
+relationships (Young et al., 2018). 
+Word embeddings became popular because of their capacity to 
+represent words in a distributed latent space. To extract higher-level 
+features from constituent words or n-grams, deep neural network 
+(DNN) models were utilized in conjunction with word embeddings. 
+These abstract features would then be used in various NLP tasks such as 
+sentiment analysis, text generation, machine translation and question- 
+answering. Given their success in computer vision tasks, convolutional 
+neural networks (CNNs; LeCun et al., 1998; Krizhevsky et al., 2017; 
+Razavian Sharif, Azizpour, Sullivan, & Carlsson, 2014) and recurrent 
+neural networks (RNNs; Elman, 1990) have been employed for NLP 
+tasks as well. While CNNs are good at extracting position invariant 
+features, they are very data-heavy models because they include a large 
+number of trainable parameters. Moreover, CNNs struggle to preserve 
+sequential order and also have difficulties modeling long-distance 
+contextual information (Kalchbrenner et al., 2014; Yin et al., 2017). 
+RNNs, on the other hand, are designed with the goal of processing 
+sequential data. The term “recurrent” refers to its ability to perform the 
+same task on each sequence element; thus the output depends on pre -
+vious computations and results. Essentially, RNNs possess the ability to 
+retain a memory of past computations and leverage that information in 
+the current processing. However, simple RNNs can encounter the van -
+ishing gradient problem, making it difficult to tune and learn parameters 
+in the earlier layers. To address this limitation, alternative variants like 
+long short-term memory (LSTM; Hochreiter & Schmidhuber, 1997; 
+Jozefowicz et al., 2015) networks and gated-recurrent networks (GRU; 
+Cho et al., 2014) were introduced. 
+LSTM is one of the most utilized RNN variants for NLP tasks. LSTMs 
+are capable of learning relationships between words that are not in close 
+proximity, and they alleviate the exploding or vanishing gradient issue 
+by selectively retaining or discarding information through the use of 
+gates (input, forget, and output). This structure determines what infor -
+mation to add or remove from the output of the network from the pre -
+vious time step. LSTM-based models are widely adopted for sequence to 
+sequence mapping tasks and implemented by using an encoder-decoder 
+framework. These models have shown exceptional performance in 
+different applications, including machine translation, text summariza -
+tion, question generation and modeling human conversations. von 
+Davier’s (2018) approach to automated item generation was based on an 
+LSTM-RNN trained with publicly available items from personality tests. 
+While LSTMs have been highly effective in addressing the challenges of 
+long-term sequential dependencies, they too may suffer from the van -
+ishing gradient problem during training because they have a very 
+complex architecture, many non-linear transformations, and gradients 
+are propagated through time to update the parameters. When gradients 
+become too small, the model cannot efficiently learn long-term de -
+pendencies and can fail to make accurate predictions. 
+One of the notable advancements in NLP is the introduction of 
+transformer models by Vaswani et al. (2017). Transformer models uti -
+lize self-attention mechanisms to capture dependencies across all posi -
+tions in an input sequence, allowing them to model long-term 
+dependencies more efficiently than LSTMs. Another significant 
+advancement of transformer models is that the model can process 
+sequential data in parallel, reducing the resources needed for model 
+training. Additionally, transformer models do not contain recurrence or 
+convolution, therefore, cannot determine the order of a given sequence. 
+Instead, the model incorporates a positional encoding mechanism to 
+provide information about the absolute or relative positions of tokens in 
+the sequence. These features, along with the availability of large training 
+data, allow transformer models to achieve state-of-the-art performance 
+on a wide range of NLP tasks. Several pre-trained models have been 
+proposed that demonstrate the capabilities of transformer model 
+implementations. These pre-trained large language models can be 
+fine-tuned on task-specific datasets, and the model weights are adjusted 
+to improve their representation of the specific corpus. Some notable 
+examples of transformer models include BERT and GPT; both were 
+released in unidirectional and bidirectional variants. BERT is particu -
+larly notable for its ability to be pre-trained on large amounts of text data 
+and then fine-tuned on specific downstream NLP tasks, leading to 
+state-of-the-art results on many NLP tasks. Other important 
+transformer-based models include Text-to-Text Transfer Transformer 
+(T5; Raffel et al., 2020) that frames the tasks as a unified text-to-text 
+transformation problem. 
+Building upon the success of GPT, OpenAI introduced GPT-2 and 
+GPT-3, which are even larger models with significantly improved per -
+formance. GPT-2 was introduced in 2019 as a larger and more powerful 
+version of GPT and was trained on over 8 million web pages, and had 1.5 
+billion parameters (Radford et al., 2019). It was one of the largest lan -
+guage models at the time and demonstrated impressive performance, 
+but it mostly required fine-tuning for every new task. von Davier (2019) 
+used GPT-2 and fine-tuned the model with a large corpus of medical 
+articles with the goal of generating medical licensing items. The chal -
+lenges associated with collecting a large supervised training dataset for 
+each new task, along with the potential of exploiting spurious correla -
+tions in training data with model expressiveness and narrowness of the 
+training distribution, resulted in the need for larger models (Brown 
+et al., 2020). GPT-3 was developed for this purpose with 175 billion 
+parameters and trained using about 45 TB of text data from various 
+sources. GPT-3 has generated widespread interest due to its ability to 
+perform a wide range of NLP tasks with minimal fine-tuning and without 
+any task-specific architecture modifications. Subsequently, OpenAI 
+released a number of derivative models, including InstructGPT-3 
+(Ouyang et al., 2022), and Codex 12B (Chen et al., 2021). These 
+models are commonly referred to as GPT-3.5 series and are comprised of 
+the models trained on text and code from before the last quarter of 2021 
+(OpenAI, 2022). In this research, we will refer to all GPT-3 model var -
+iants including, GPT-3.5 series, as GPTx. Recently, OpenAI released a 
+chatbot app, ChatGPT, utilizing GPT 3.5 series. ChatGPT uses rein -
+forcement learning from human feedback to align the large language 
+model with the user’s intent (Ouyang et al., 2022). Within two months 
+after its release, it reached 100 million active users. 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 4 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+4
+2.2. Applications of large language models in education 
+The development of GPT-3 and its variants has inspired new research 
+into its potential applications in various areas. GPT-3 model and its 
+successive iterations have also been utilized in educational research 
+such as automated question generation (e.g., Raina & Gales, 2022; 
+Settles et al., 2020; Wang et al., 2022), automated scoring (e.g., Miz -
+umoto & Eguchi, 2023; Wu et al., 2023), generating educational content 
+(e.g., Hocky & White, 2022; Moore et al., 2022; Walsh, 2022), and 
+providing automated feedback for students (Zong & Krishnamachari, 
+2022). 
+Previous studies have also investigated other NLP-based models for 
+generating reading comprehension questions and passages for educa -
+tional assessment. For example, Shin (2021) combined template-based 
+and non-template-based techniques to generate reading inference test 
+items given reading passages based on the Harry Potter series. Fung et al. 
+(2020) introduced a web-based system for generating reading compre -
+hension questions and multiple-choice questions on grammar from a 
+given text utilizing the T5 model. Similarly, Narayan et al. (2020) uti -
+lized another transformer-based model BERT to generate test items that 
+could be answered using the information from the given reading passage 
+directly. 
+While there has been research on generating reading assessment 
+items, such as multiple-choice or cloze type questions with large lan -
+guage models like GPTx, there has been comparatively little attention on 
+generating reading assessment passages. Recently, the Duolingo English 
+Test (DET) employed GPT-3 to generate reading passages for both 
+expository and narrative texts which represent the types of text that 
+university students typically encounter in the target language domain 
+(Attali et al., 2022). They also generated accompanying comprehension 
+items and distractors for multiple-choice questions using GPT-3 for the 
+generated passages. Duolingo English Text adopted “human-in-the-loop 
+AI” throughout the process for test security, generation of test items, and 
+scoring for test taker responses automatically (Burstein et al., 2021). 
+Here, “human-in-the-loop AI” describes a process that includes an 
+evaluation of the generated text by assessment researchers and de -
+signers. They evaluate new item types by assessing the degree to which 
+they can facilitate item generation and what type of human intervention 
+is necessary. In the case of item generation, a human review process was 
+used to evaluate the fairness and possible bias in the automatically 
+generated test passages and items (Burstein et al., 2021). 
+Despite recent progress and the potential of large language models, 
+there remains a gap in the current literature. That is, applying these 
+models to generate reading passages specifically tailored for large-scale 
+assessments at specific grade levels. While GPT-3 and its variants have 
+been successfully utilized for tasks such as automated question genera -
+tion, scoring, and feedback, the focus on generating assessment reading 
+passages has yet to be explored. Recent efforts like the DET, which 
+employs GPT-3 to generate reading passages, represent steps toward 
+bridging this gap, but it primarily focuses on language assessment with 
+passages generated targeting the university level. There is a general lack 
+of research in applying GPTx for generating reading assessment passages 
+tailored for a particular grade level. This research aims to fill this gap by 
+exploring the viability and effectiveness of GPTx in developing reading 
+passages intended specifically for fourth-grade students taking part in 
+the PIRLS assessment. 
+Even though the applications of GPT-3 are not well explored within 
+the reading assessment framework specifically, it has been utilized for 
+various writing tasks in different domains. Gwern (2023) conducted 
+extensive experiments with GPT-3 in fiction and non-fiction writing. For 
+fiction writing, GPT-3 was able to produce coherent and creative stories, 
+but longer outputs tended to become repetitive or lack originality. For 
+non-fiction writing, GPT-3 showed promise in generating summaries of 
+articles or research papers and generating new text based on given 
+prompts. However, due to the potential for errors in technical or 
+specialized content, human evaluation and editing were necessary. 
+Moreover, Shakeri et al. (2021) utilized GPT-3 to develop a web appli -
+cation that allows people to write collaborative stories. Their results 
+suggest that storytelling using GPT-3 can encourage roleplay and 
+enhance creativity in the collaborative writing process. Along the same 
+lines, Noy and Zhang (2023) examined the productivity effects of using 
+ChatGPT on mid-level professional writing tasks. Their results showed 
+that ChatGPT substantially increased productivity and self-efficacy, and 
+improved output quality and job satisfaction while reducing the 
+inequality between workers. The various applications of GPT family 
+models in text generation prompted this research on generating auto -
+mated passages for a large-scale reading assessment of fourth graders. 
+3. Methods 
+PIRLS provides comparative data on reading achievement at the 
+primary school level across countries on a regular five-year cycle over 20 
+years. Reading literacy is fundamental to academic success, and per -
+sonal growth and PIRLS provides an invaluable instrument for assessing 
+the impact of new or revised policies on reading achievement (Mullis & 
+Martin, 2019). The passages presented in the PIRLS assessment cover 
+two purposes of reading that students encounter both in and out of 
+school, those are literary experience and acquire and use information. In 
+PIRLS, each reading purpose is linked to a particular type of text, such as 
+literary experience is associated with reading fiction, and acquiring and 
+using information is associated with informative articles and instruc -
+tional texts. Following the structure in PIRLS, this research implemented 
+the automated generation for both informational and literary passages. 
+Since its inception in 2001, after each PIRLS cycle, some of the 
+reading passages have been released for public or academic use. For the 
+last two cycles, the International Association for the Evaluation of 
+Educational Achievement (IEA) no longer releases passages for public 
+use without permission. Still, users can request access to the restricted 
+use passages through their website (TIMSS & PIRLS, 2017). We con -
+structed a pool with 24 passages that have been released over four cycles 
+of PIRLS assessment from 2001 to 2016 to be used in prompts for 
+automated reading passage generation with GPTx. In this paper, we 
+specifically focused on analyzing narratives created utilizing three 
+restricted-use passages, namely two informational passages: 
+“Antarctica: Land of Ice” and “Ants,” and one literary passage, “Brave 
+Charlotte.” The original PIRLS passages are available upon request from 
+IEA. 
+In this study, in order to answer the first research question, we uti -
+lized OpenAI’s text-davinci-002 model, also referred to as InstructGPT, 
+released in January 2022 as an updated and fine-tuned version of GPT-3 
+models, as mentioned above, we refer to this model as GPTx. To generate 
+passages, we used Python (van Rossum & Drake, 1995, pp. 1–59) to send 
+API requests with prompt design and parameters using text-davinci-002 
+text completion API. The associated cost for utilizing OpenAI’s API 
+service with text-davinci-002 was $0.02 for 1000 tokens. 
+By using natural language prompts and task demonstrations as 
+context, GPT-3 is capable of effectively performing a diverse set of tasks 
+with just a few examples, all without having to update the parameters of 
+the underlying model (Gao et al., 2020). Consequently, prompt design is 
+essential for large language models like GPTx to generate the desired 
+response because it directly affects the quality and relevance of the 
+output produced by the model. In this research, for each task, we 
+generated passages using GPTx with first “zero-shot” learning, where 
+only instruction in natural language is provided without any demon -
+stration, second “one-shot” learning, where a single demonstration 
+together with a prompt containing an instruction is given to the model. 
+In addition to the text prompts, we included the target audience’s age as 
+a part of the prompt for both one-shot and zero-shot scenarios. This 
+additional information is provided to the model to ensure that the 
+generated passages are age-appropriate, as they are intended for use in a 
+fourth grade assessment. An example prompt for each scenario is given 
+in. Appendix A We first generated outputs with one-shot learning 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 5 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+5
+( Fig. 1 A); after determining the topic of the story from the first set of 
+outputs, we utilized that in the prompt of both one-shot ( Fig. 2 A) and 
+zero-shot ( Fig. 3 A) learning for more detailed prompts. 
+Along with the prompts, we also manipulated the “ temperature ” 
+setting in GPTx. This can be understood as a hyperparameter of the 
+model that controls the randomness and variability of the generated 
+output. For lower temperatures, GPTx chooses words with a high 
+probability of occurrence, thus resulting in a more predictable and 
+conservative output. When a higher temperature is chosen, the model 
+explores a wider range of words resulting in more random, diverse, and 
+what some would call more creative output. Therefore, higher temper -
+atures are recommended to generate ideas and stories. We generated 
+stories with t = { 0 . 5 , 0 . 7 , 0 . 9 } temperatures to allow for a range of 
+outputs. 
+We generated informational and literary PIRLS stories, using the 
+prompts and parameters mentioned above, with ten replications for each 
+setting. After generating the passages, the selection mechanism involved 
+first calculating the text difficulty score using an online text difficulty 
+analyzer ( Cathoven, 2023 ) associated with each generated story. This 
+score is similar to a Lexile score ( Stenner, 2022 ) that indicates the level 
+of reading difficulty by combining measures of semantics and syntax 
+that are represented by word frequency counts and sentence length, 
+respectively. After calculating the text difficulty scores for both the 
+original PIRLS passages and the generated passages, only the generated 
+passages that fell within one standard deviation of the original passages ’ 
+text difficulty scores were selected for further evaluation. Once selected 
+passages were determined, a human editor went over the passages and 
+corrected them for any grammatical and factual errors. The process 
+involved three human editors, and they independently assessed the 
+suitability of the content and provided suggestions for improvement by 
+assessing the coherence, clarity, and logical consistency. A similar 
+approach of human post-generation QC was taken in prior research ( von 
+Davier, 2018 ; 2019 ; Attali et al., 2022 ). The factual error checking was 
+especially important in the case of informational passages because the 
+model was prone to generating erroneous outputs in some of the repli -
+cations, especially for certain statistics and numbers such as average 
+rainfall in the Amazons or the average number of eggs laid by a queen 
+bee. The finalized AI-generated passages are given in Appendix B . A 
+workflow chart is given in Fig. 1 to demonstrate the process of gener -
+ating passages. 
+To address the second research question concerning the appropri -
+ateness of generated passages, we compared original PIRLS passages 
+with the GPT-3 generated ones. This evaluation was conducted through 
+an online survey, following a similar approach as described in previous 
+studies. For instance, von Davier (2018) conducted a study that involved 
+the assessment of automatically generated items through an online 
+Fig. 1. Automated passage generation workflow chart.  
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 6 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+6
+survey. In a similar vein, Attali et al. (2022) generated interactive 
+reading passages using GPT-3, employing both human reviewers for the 
+material and implementing the passages as part of a practice test. 
+Furthermore, the selection and assessment of passage appropriate -
+ness using a human rater approach have been implemented in the 
+development of PIRLS assessments since the inception of this program. 
+This process entails the involvement of a selective group of experts and 
+national representatives from participating countries. In our study, we 
+simulated a somewhat comparable approach by engaging human raters 
+to evaluate the appropriateness of GPT-3 generated passages. 
+We paired original passages with the AI-generated ones and devised 
+three different online questionnaires with items using a 4-point Likert 
+scale. After giving each passage following questions were asked: “ The 
+story is written at an adequate reading level for a fourth grader, ” “ The 
+story is written in a coherent manner, ” “ Children will be able to identify 
+the main topic of the story, ” “ There are confusing or distracting elements 
+in the story, ” and “ This story can engage children to answer questions. ” 
+We recruited 150 human expert raters (50 for each survey) through 
+Amazon Mechanical Turk, and the participants were awarded $1.50 
+upon satisfactory completion of the survey. We set up additional qual -
+ifications for the expert rater selection. To be selected as a rater of 
+passages for the study, they must have a Bachelor ’ s degree and be 
+working in the education industry. Additionally, we used different 
+measures to identify and exclude potential inattentive users and non- 
+respondents (bots) in Amazon MTurk. To identify bots, we increased 
+the time between Human intelligence task (HIT) completion and auto- 
+approval to examine the data before approving or rejecting the HITs. 
+Moreover, we rejected HITs with unreasonable response times, and this 
+was determined using the median absolute deviation (MAD) statistic on 
+the overall completion time. This type of outlier detection ( Leys et al., 
+2013 ) was shown to be successful in the detection of differential item 
+functioning ( von Davier & Bezirhan, 2022 ) and can be readily applied to 
+the detection of suspiciously short response times. The last measure was 
+to incorporate an attention question in each survey to sort out careless 
+respondents. This resulted in a final sample of 50 respondents for each 
+survey. 
+4. Results 
+For the informational PIRLS passages “ Antarctica: Land of Ice ” and 
+“ Ants ” , with one-shot and zero-shot learning along with the additional 
+age/grade indicator, we generated “ The Amazon: Green Lungs of the 
+Planet ” and “ Bees. ” Overall, for one passage 160 different passages were 
+generated, 40 for each condition, and their text difficulty scores were 
+calculated. In the generation process, we first used one-shot prompting, 
+shown in Fig. 1 A in Appendix A , and let GPT-3 generate passages that 
+are similar to the given example passage. This first batch with 10 rep -
+lications was to determine the topic of the generated passage and 
+therefore discarded. GPTx almost always generated the passages around 
+the same topic, for example, for “ Ant ” s almost all of the generated 
+passages were about bees. 
+Fig. 2 shows the distribution of text difficulty scores for the “ Bees ” 
+passage for one-shot or zero-shot learning, with either grade information 
+included or not. The “ Bees ” passage was based on the “ Ants ” passage in 
+PIRLS which had a text difficulty score of 560, the horizontal line in 
+Fig. 2 represents this value. From all the prompt types, passages from 
+one shot learning with grade information included had a lower text 
+difficulty score compared to the other generated passages. There is no 
+clear pattern regarding the variance associated with the prompt types. 
+The other informational passage “ The Amazon: Green Lungs of the 
+Planet ” was prompted using the PIRLS “ Antarctica: Land of Ice ” passage 
+as an example. It has to be pointed out that these generated passages are 
+not simple copies where one word is replaced by another word to vary 
+content. Unlike traditional AIG approaches ( Gierl et al., 2020 ), the 
+GPTx-generated passages are based on priming a large language model 
+with a context, and then have the model generate an independent text, 
+inspired by requesting a type of text, a topic, or by providing an 
+example. The calculated text difficulty scores are presented in Fig. 3 , the 
+horizontal line shows the score for the “ Antarctica: Land of Ice ” passage. 
+For both one-shot and zero-shot prompting conditions, inclusion of 
+grade/age information reduced the text difficulty score for the gener -
+ated passages. 
+For the literary passage generation, the prompting approach was 
+slightly different than the one used for generating informational pas -
+sages. Similar to the informational passage generation, the first step was 
+to generate ideas about a story utilizing an existing PIRLS passage. 
+“ Brave Charlotte ” was used as a prompt for the literary passage gener -
+ation, and GPTx came up with various different storylines. “ Brave 
+Charlotte ” is about a brave sheep which helps the shepherd in a difficult 
+situation. The generated stories were about the importance of friend -
+ship, kindness, and community, which were not very different from the 
+general theme of the prompted story. Utilizing one of these ideas, we 
+started generating “ Coco the Rabbit. ” While generating literary passages 
+with GPTx, we faced the challenge of premature stopping points, which 
+made it difficult to generate longer stories. To overcome this issue, we 
+adopted a stepwise approach and leveraged previously generated text as 
+prompts, in addition to providing instructions to generate full-length 
+stories successfully. 
+The finalized stories were used in our expert judgment exercise 
+collection along with the PIRLS passages. To prevent the experts from 
+being affected by similarities between the prompted and generated 
+Fig. 2. Text difficulty scores for generated “ Bees ” passage under different 
+prompting conditions. 
+Fig. 3. Text difficulty scores for generated “ The Amazon: Green Lungs of the 
+Planet ” passage under different prompting conditions. (For interpretation of the 
+references to colour in this figure legend, the reader is referred to the Web 
+version of this article.) 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 7 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+7
+passages, we paired the informational passages “ Bees ” with “ Antarctica: 
+Land of Ice ” and the “ Amazons: Green Lungs of the Planet ” with “ Ants. ” 
+However, we only paired literary passages together as the two stories 
+had different main storylines and characters, and thus were not directly 
+comparable. 
+In this research, we employed a four-category Likert scale to measure 
+participant attitudes toward each passage. We gathered answers from a 
+sample of 50 expert judges for each passage. Fig. 4 displays the distri -
+bution of responses and level of agreement and disagreement among 
+judges for GPTx generated “ Bees ” passage and PIRLS original “ Ants ” 
+passage. The results indicate that a high portion of judges agreed or 
+strongly agreed that both passages demonstrated similar levels in the 
+assessed qualifications. In particular, 92% of the judges agreed or 
+strongly agreed with the adequateness of the GPTx generated passage. In 
+comparison, 96% of the judges agreed strongly that original PIRLS 
+passage is adequate for the target population of students. Other ques -
+tions exhibited a similar trend, with marginal variations between 2% 
+and 8%. Positive evaluations towards engagement were observed for 
+both passages, with the PIRLS passage scoring slightly higher (86%) 
+than the GPTx generated passage (84%). The coherence of the passages 
+revealed the largest gap in agreement with 94% of the participants 
+found the PIRLS passage coherent compared to 84% for the AI-generated 
+passage. 
+Similar outcomes were observed for comparing the “ Antarctica: Land 
+of Ice ” and “ Amazons: Green Lungs of the Planet ” passages. The distri -
+bution of responses and level of agreement and disagreement among 
+participants for these passages are given in Fig. 5 . Overall, the agree -
+ment and disagreement levels aligned well between the AI-generated 
+and the original human-generated PIRLS passages across all questions. 
+However, we observed a larger difference between the individual 
+response categories for certain questions. 
+For both “ Amazons ” and “ Antarctica ” passages, 97% of participants 
+agreed that the passages were adequate for fourth grade readers. How -
+ever, the strongly agree category was higher for the original PIRLS 
+passage (54%) compared to the AI-generated one (38%). For coherence, 
+the positive attitude towards the original PIRLS passage (91%) was 
+higher compared to GPTx generated passage (84%), this suggests that 
+human-generated passages may have been more logically structured and 
+easier to follow than the GPTx generated one. However, more judges 
+strongly agreed (43%) with the statement for the GPTx generated pas -
+sage compared to the original PIRLS passage (32%), when we look at the 
+individual categories for coherence. Moreover, identifying the passage ’ s 
+main topic was deemed harder for GPTx generated passage, with 79% of 
+the participants agreeing with the statement, compared to the agree -
+ment with the human-written passage (91%). Finally, the overall 
+agreement on the passage not being distracting was similar for both 
+passages, but more judges had a stronger evaluation towards GPTx 
+generated passage (32%) being more distracting than the original PIRLS 
+passage (16%). However, when taking strongly agree and agree cate -
+gories together, there was no difference observed between the general 
+level of agreement for AI generated (66%) vs. human generated passage 
+(66%). 
+Lastly, Fig. 6 displays the level of agreement and disagreement be -
+tween “ Coco the Rabbit ” and “ Brave Charlotte ” stories. A somewhat 
+similar pattern in the agreement was also observed with these literary 
+passages, with GPTx generated passage being slightly more adequate 
+and engaging and less distracting compared to the original PIRLS pas -
+sage. For the passage being adequate for the fourth graders, judges 
+agreement was higher for AI-generated passage (96%) compared to the 
+original PIRLS passage (80%). A similar pattern was observed for the 
+engagement, 94% of the participants agreed with the AI-generated 
+passage to be engaging, whereas only 74% of the participants agreed 
+about the same statement for the original passage. Lastly, about 16% 
+more people found the human written passage more distracting 
+compared to the GPT-generated passage. 
+5. Discussion 
+With the recent technological advancements, the field of NLP has 
+been completely transformed by the emergence of large language 
+models, and OpenAI ’ s GPTx family of models has appeared as one of the 
+most sophisticated and powerful large language models available today. 
+Researchers and practitioners in numerous disciplines have taken notice 
+of it due to its impressive capacity and performance. In this research, we 
+investigated the text generation ability of GPT-3 in the context of an 
+international large-scale reading assessment. We utilized GPT-3 to 
+automatically generate literary and informational passages similar to 
+those typically employed in the PIRLS assessment. 
+5.1. Generating passages using GPTx 
+In addressing the first research question, we explored the text gen -
+eration capabilities of the GPT-3 model, for producing literary and 
+informational passages similar to those used in the PIRLS assessment. 
+We experimented with two different prompt designs along with the age 
+information of the audience to generate informational passages. After 
+Fig. 4. GPT generated “ Bees ” and PIRLS original “ Ants ” passage survey results.  
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 8 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+8
+determining the topic of the specific passage more detailed prompts 
+given in Appendix A were utilized. The results revealed that the one-shot 
+learning, along with the specific information about grade, usually 
+showed the best performance in terms of matching the text difficulty 
+score of the original passage. This is in line with previous research that 
+GPTx tends to perform better when more examples are provided along 
+with clear instructions and this is interpreted as GPTx learning from the 
+examples at runtime ( Brown et al., 2020 ). Given that the generated 
+passage was intended to be tailored towards a fourth grade assessment 
+and compared according to their test difficulty scores, providing clear 
+instructions about the intended audience was beneficial for both 
+one-shot and zero-shot prompts. This demonstrates that the carefully 
+constructed prompts primarily direct the model to access existing 
+knowledge and perform the task, which is referred to as direct task 
+specification ( Reynolds & McDonell, 2021 ). 
+5.2. Comparing generated passages with PIRLS passages 
+Moving to the second research question, we examined how the GPTx- 
+generated passages compared to those typically designed for the PIRLS 
+assessment in terms of readability, coherence, clarity, and engagement. 
+Our results suggest that GPTx can produce passages that closely 
+resemble those in the PIRLS assessment, not only in terms of length, 
+vocabulary, and difficulty but also in adequacy, coherence, engagement, 
+and ability to cause distraction. The empirical analysis results also 
+revealed that in addition to making it more difficult to determine the 
+main topic, AI-generated passages could also be more distracting for the 
+readers. This is likely due to the fact that passages in the actual assess -
+ment were written by human authors for the purpose of the assessment. 
+At the same time, those generated by GPTx may lack intentional orga -
+nization and coherence, therefore, making it more difficult for the 
+readers to identify the main topic. In contrast, for the literary story, the 
+participants found the AI-generated passage to be less distracting and 
+more engaging for the fourth grade readers than the original PIRLS 
+passage. This finding may suggest that the iterative prompting approach 
+might contribute to generating more appealing and easier-to- 
+comprehend stories. 
+Fig. 5. GPT generated “ Amazons ” and PIRLS original “ Antarctica ” passage survey results.  
+Fig. 6. GPT generated “ Coco the Rabbit ” and PIRLS original “ Brave Charlotte ” passage survey results.  
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 9 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+9
+5.3. Implications and suggestions 
+These findings have profound implications for both the development 
+of educational assessment and the broader application of AI technology 
+in education. They demonstrate the potential of GPTx in automating the 
+generation of literary and informative passages for large-scale reading 
+assessments such as PIRLS for a specific grade. The results of this study 
+can be a significant step forward in streamlining assessment develop -
+ment, potentially addressing challenges such as the high cost, significant 
+time investment, and copyright issues associated with traditional 
+human-generated assessments. In simpler terms, the outcomes of our 
+research suggest that AI technologies like GPTx offer a promising 
+alternative for improving current practices in educational assessment 
+development. 
+However, it is worth noting that these models come with their own 
+challenges. Among them, an important aspect to consider is the need for 
+addressing the veracity and fact validation practices while utilizing large 
+language models to create contextual texts. GPT family models have the 
+ability to convince users and induce trust in the output of these models 
+due to the coherency, naturalness and human-like quality of its re -
+sponses despite potential inaccuracies (Sison et al., 2023). Thus, it is 
+imperative to incorporate fact checking mechanisms within models and 
+systems utilizing this technology. One potential way to achieve this is to 
+develop human-in-the-loop mechanisms, similar to the approach 
+employed in this paper, where human agents participate in verifying the 
+reliability and accuracy of the generated text. Additionally, exploring 
+novel techniques such as integrating real time fact checking databases 
+into the models and developing systems that align with the principles of 
+a Human-Centered AI framework (Shneiderman, 2020) can contribute 
+to improving the reliability and accuracy of AI-generated content. 
+5.4. Limitations and future work 
+While GPTx generated passages demonstrated some promising re -
+sults, a number of potential limitations need to be considered for future 
+research. First of all, this research focused on demonstrating the feasi -
+bility and applicability of a GPT family model to reading passage gen -
+eration. Given that recently more advanced models were released by 
+OpenAI, future research should consider using ChatGPT or GPT-4 
+(OpenAI, 2022). Even though we experimented with some prompt de -
+signs in this research, it is quite limited to observe the full effect of 
+different prompting techniques on age-adequate reading passage gen -
+eration. Therefore, it would be worthwhile to explore more compre -
+hensive prompt engineering approaches, including both manual 
+techniques (e.g., Reynolds & McDonell, 2021) and automatic methods 
+(e.g., Gao et al., 2020) within the context of the reading assessment 
+passage generation. Lastly, the sample size in the empirical analysis of 
+expert judgements was relatively small which may limit the generaliz -
+ability of the results. 
+6. Conclusion 
+In conclusion, this research demonstrated that GPT family models 
+could be effectively utilized for automated passage generation in the 
+context of a large-scale reading assessment. The results revealed that 
+carefully designed prompts with an adequate audience information 
+GPT-3 can generate passages those align the difficulty level of human- 
+authored passages. Further inspection also showed a high degree of 
+similarity in terms of length, vocabulary, difficulty, adequacy, coher -
+ence, and engagement between the two sets of passages. The findings of 
+this study offer valuable insights for future practice, providing a prac -
+tical roadmap for employing GPTx models to generate reading assess -
+ment content. They also show that GPTx models could be effectively 
+utilized for automated passage generation for large-scale reading as -
+sessments. This could lead to significant cost savings and improvements 
+in efficiency in the development of assessments. However, robust fact- 
+checking mechanisms are essential to maintain the accuracy and reli -
+ability of AI-generated content. 
+Through our exploration of GPT-3 in the context of reading assess -
+ment passage generation, we have contributed to a growing body of 
+research on the applicability of large language models in educational 
+settings. Our findings suggest that responsibly utilizing this technology 
+can achieve more efficient, scalable, and comprehensive assessment 
+practices that benefit educators, students, and education systems 
+worldwide. 
+Statements on open data and ethics 
+In this study, the participant acted as contributing paid experts and 
+their personal information was protected by ensuring their anonymity. 
+They voluntarily contributed as raters of texts in the research and were 
+made aware of their right to withdraw from taking the online survey at 
+any time without consequence. No personal data was collected. The data 
+collected for this study on the passage ratings can be provided upon 
+request by sending an email to the corresponding author. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.  
+List of Abbreviations 
+Abbreviation Definition 
+AIG Automated Item Generation 
+AI Artificial Intelligence 
+API Application Programming Interface 
+BERT Bidirectional Encoder Representations from Transformers 
+CBA Computer-Based Assessments 
+CBOW Continuous Bag-Of-Words 
+ChatGPT Chat Generative Pretrained Transformer 
+CNN Convolutional Neural Network 
+DET Duolingo English Test 
+DNN Deep Neural Network 
+GPT Generative Pretrained Transformer 
+GPT-2 Generative Pretrained Transformer 2 
+GPT-3 Generative Pretrained Transformer 3 
+GPT-3.5 Generative Pretrained Transformer 3.5 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 10 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+10
+GPT-4 Generative Pretrained Transformer 4 
+GPTx Generative Pretrained Transformer x (Referring to any version in the series of GPT models) 
+GRU Gated Recurrent Unit 
+HIT Human Intelligence Task 
+IEA International Association for the Evaluation of Educational Achievement 
+LSTM Long Short-Term Memory 
+LSTM-RNN Long Short-Term Memory-Based Recurrent Neural Networks 
+MAD Median Absolute Deviation 
+MCQs Multiple-Choice Questions 
+MTurk Amazon Mechanical Turk 
+NLP Natural Language Processing 
+PIRLS Progress in International Reading Literacy Study 
+QC Quality Control 
+RNN Recurrent Neural Network 
+T5 Text-to-Text Transfer Transformer 
+TB Terabyte 
+TIMSS Trends in International Mathematics and Science Study 
+Appendix 
+A. Example Prompts
+Fig. 1A. Initial Prompt for Bees Passage.  
+Fig. 2A. One-shot prompt for Bees Passage.   
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 11 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+11
+Fig. 3A. Zero-shot prompt for Bees Passage.  
+B. GPT Generated Passages 
+Passage 1. Bees 
+Bees are small, flying insects that are known for their role in pollination and for producing honey. They are found on every continent in the world 
+except Antarctica. 
+Bees ’ Bodies. Bees have adaptations that help them collect nectar and pollen from flowers. For example, they have a long tongue that unrolls to drink 
+in nectar. They also have specialized hairs on their body that collect pollen. There are three sections to a bee ’ s body: the head, the thorax, and the 
+abdomen. The head of a bee contains the eyes, antennae, and mouthparts. The thorax is the middle section where the wings and legs are. The abdomen 
+is the bee ’ s back end and where the bee has the stinger. The female bees have a stinger that they use to defend themselves and their hive. 
+Honey. Bees produce honey by collecting nectar from flowers. Nectar is a sugary liquid that is produced by flowers. Bees use their long tongue to 
+collect the nectar and store it in their special honey stomach. Once the bee returns to the hive, the nectar is mixed with enzymes and turned into honey. 
+The honey is then stored in the honeycomb. When the weather is cold and no flowers are blooming, the bees eat the honey to stay alive. 
+Social Life. Bees are social insects that live in hives (or colonies). A bee colony is made up of three types of bees: the queen bee, the worker bee, and the 
+drone bee. Each bee has a specific job to do in the colony. The queen is the biggest bee in the hive and the only bee that can lay eggs. She can lay 2000 
+eggs a day in the spring or summer months. The workers are female bees, and they do all the work in the hive! They collect nectar, make honey, build 
+the honeycomb, care for the eggs and young bees, and protect the hive. The drones are male bees, and their job is to mate with the queen. In the winter, 
+the hive goes into survival mode, so the drones are kicked out 
+Importance to Ecosystem. Bees are essential to the ecosystem because they help to pollinate plants. Pollination is the process of transferring pollen from 
+the male part of the plant to the female part of the plant. This process is necessary for the plant to produce seeds. Bees are responsible for pollinating 
+about one-third of the food we eat, including fruits, vegetables, and nuts. Bees are in danger because of the use of pesticides and the loss of habitat. You 
+can help bees by planting flowers in your garden and avoiding the use of pesticides. 
+Passage 2. The Amazons: Green Lungs of the Planet 
+The Amazon: Green Lungs of the Planet. The Amazon is a large rainforest that takes up most of the Amazon Basin in South America. The basin is home to 
+the Amazon River, the second longest river on Earth. The Amazon rainforest covers multiple countries and an area of nearly 6 million square kilo -
+meters. This is almost half of the total rainforest area on Earth! The Amazon rainforest is an important part of the world ’ s climate because it helps to 
+adjust the Earth ’ s temperature. It also plays a vital role in the global water cycle, producing much of Earth ’ s oxygen. 
+The Weather in the Amazon. The climate in the Amazon rainforest is very warm and humid. It rains a lot in the Amazon. The average rainfall each year 
+is 300 cm. This makes 200 rainy days in a year! There are only two seasons in the Amazon: the wet season and the dry season. The wet season is from 
+October to May, and the dry season is from June to September. It is the wet season when the Amazon receives most of its rain 
+The Plants and Animals in the Amazon. There are different kinds of plants and animals in the Amazon rainforest. Many plants and animals in the 
+rainforest are not found anywhere else in the world. Some of the animals that live in the rainforest are monkeys, jaguars, sloths, snakes, and toucans. 
+The Amazon rainforest is also home to many different types of plants, such as the rubber tree, the Brazil nut tree, and the cocoa tree. Some trees are as 
+tall as 40 m, and you can use their leaves as an umbrella during a rainstorm! You have a letter from a team of researchers studying in the rainforest and 
+can learn more about the Amazons by reading their letter. Dear Friend, The Amazon is the world ’ s largest rainforest. It is home to many different kinds 
+of animals and plants. Unfortunately, Amazon is under threat. We are one of the research teams here in the Amazon that works on threats to the 
+rainforest. We study deforestation, climate change, and fires in the Amazon. We try to find ways to help protect the Amazon and its animals. 
+One of the biggest threats to the Amazon is deforestation. Deforestation is when trees are cut down, and the land is cleared for other uses, such as 
+farming. Deforestation is a significant problem because it destroys the home of many animals and contributes to climate change. 
+We are working hard to understand the long-term effects of deforestation on the climate. We are also working to develop ways to regenerate the 
+forest. We invite you to learn more about our research and to help us spread the word about the importance of the rainforest. Thank you for your 
+support, The Amazon Research Team 
+Passage 3. Coco the Rabbit 
+The shiny button eyes of the little rabbit stared up at the sky. The rabbit ’ s name was Coco, and she was very excited. She was going on her first 
+adventure. She had never been outside her meadow before and was very curious about the world. Her friend, a little fox named Max, was going with 
+her. Max had been to the forest many times, and he promised to show Coco around. Coco and Max hopped through the meadow, stopping to smell the 
+flowers and chase the butterflies. They walked through the forest, stepping over roots and ducking under branches. They climbed over a fallen tree, 
+and Max helped Coco down the other side. They walked and walked until they came to a clearing. In the clearing was a big, old house. It looked like it 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 12 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+12
+had been abandoned for years. “ This is where the adventure starts, ” Max said. Coco ’ s heart started to beat faster. She was scared, but she was also 
+excited. She wanted to see what was inside the house. 
+Max and Coco crept up to the house. Max pushed open the door, and they both stepped inside. It was very dark and musty inside. They could see the 
+dust floating in the air. Max and Coco coughed and covered their mouths with their paws. “ Let ’ s go explore, ” Max said. Coco followed Max as he 
+showed her around the house. They went into different rooms and saw old furniture covered in dust. In one room, there was a big mirror. Max and 
+Coco looked at themselves in the mirror. They both jumped when they saw a face appear in the mirror behind them. It was a scary face with big teeth. 
+Max and Coco screamed and ran out of the room. They ran and ran until they were outside the house. They were both panting, and Coco ’ s heart was 
+beating so fast she thought it would come out of her chest. “ That was so scary! ” she said. “ But who was that? ” “ I don ’ t know, ” Max said. “ But we ’ re 
+never going back there to find out! ” “ Maybe we should go back, ” said Coco. “ No way, ” said Max. “ That place is haunted. ” Coco thought for a moment. 
+She was a brave rabbit and wouldn ’ t be scared of a little ghost. “ I ’ m going back, ” she said. “ If you ’ re too scared, then you can wait here. ” Max didn ’ t 
+want to be left alone, so he followed Coco back to the house. They went into the room with the mirror, and sure enough, the ghost was there again. But 
+this time, Coco wasn ’ t scared. “ Who are you? ” she asked. “ I ’ m the ghost of the house, ” the ghost said. “ I ’ m here to protect this house. ” “ But why are you 
+so scary? ” Coco asked. “ I ’ m not trying to be scary, ” the ghost said. “ I just want to make sure no one steals anything from this house. ” “ We ’ re not going 
+to steal anything, ” Coco said. “ We ’ re just exploring. ” “ I ’ m sorry, ” the ghost said. “ I didn ’ t know that. You can explore all you want. Just be careful not 
+to break anything. ” But Coco had an idea, and if he was the ghost of the house, maybe he could show them around. And so, he did. He showed them all 
+the hidden passages and secret rooms. He even showed them where the treasure was hidden. “ This has been the best adventure ever! ” Coco said when 
+they were finished. “ Thank you for showing us around. ” “ You ’ re welcome, ” the ghost said. “ And thank you for being kind. I ’ m not used to people being 
+kind to me. ” "That ’ s what friends are for, ” Max said. “ That ’ s what we do for each other." 
+They said goodbye to the ghost and left the house. Coco thought to herself; if you give a chance to get to know someone, even a ghost, you might 
+find they ’ re not so different from you after all. 
+References 
+Adams, D. (1995). The Hitch Hiker ’ s Guide to the Galaxy omnibus . Random House .  
+Attali, Y., Runge, A., LaFlair, G. T., Yancey, K., Goodwin, S., Park, Y., & Von Davier, A. A. 
+(2022). The interactive reading task: Transformer-based automatic item generation. 
+Frontiers in Artificial Intelligence, 5 . 
+Azevedo, P., Leite, B., Cardoso, H. L., Silva, D. C., & Reis, L. P. (2020). Exploring nlp and 
+information extraction to jointly address question generation and answering. 
+Artificial Intelligence Applications and Innovations: 16th IFIP WG 12.5 International 
+Conference, AIAI 2020, Neos Marmaras, Greece, June 5 – 7, 2020, Proceedings, Part II, 
+16 , 396 – 407. Springer International Publishing . 
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., … Amodei, D. 
+(2020). Language models are few-shot learners. Advances in Neural Information 
+Processing Systems, 33 , 1877 – 1901 . 
+Burstein, J., LaFlair, G. T., Kunnan, A. J., & von Davier, A. A. (2021). A theoretical 
+assessment ecosystem for a digital-first assessment — the Duolingo English Test . DRR-21- 
+04 . 
+Cathoven. (2023). Text difficulty analyzer . Retrieved from https://www.cathoven.com/ 
+en/freetext-difficulty-analyzer/ . 
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. D. O., Kaplan, J., … Zaremba, W. 
+(2021). Evaluating large language models trained on code . arXiv preprint arXiv: 
+2107.03374 . 
+Cho, K., Van Merri ¨enboer, B., Bahdanau, D., & Bengio, Y. (2014). On the properties of 
+neural machine translation: Encoder-decoder approaches . arXiv preprint arXiv: 
+1409.1259 . 
+von Davier, M. (2018). Automated item generation with recurrent neural networks. 
+Psychometrika, 83 (4), 847 – 857 . 
+von Davier, M. (2019). Training Optimus prime, MD: Generating medical certification items 
+by fine-tuning OpenAI ’ s gpt2 transformer model . arXiv preprint arXiv:1908.08594 . 
+von Davier, M., & Bezirhan, U. (2022). A robust method for detecting item Misfit in large 
+scale assessments. Educational and Psychological Measurement, 0 (0). https://doi.org/ 
+10.1177/00131644221105819 
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep 
+bidirectional transformers for language understanding . arXiv preprint arXiv:1810.04805 . 
+Elman, J. L. (1990). Finding structure in time. Cognitive Science, 14 (2), 179 – 211 . 
+Embretson, S. E., & Yang, X. (2007). Automatic item generation and cognitive 
+psychology. In C. R. Rao, & S. Sinharay (Eds.), Handbook of statistics. Psychometrics 
+(Vol. 26, pp. 747 – 768). North Holland: Elsevier .  
+Flor, M., & Riordan, B. (2018). June). A semantic role-based approach to open-domain 
+automatic question generation. In Proceedings of the thirteenth workshop on innovative 
+use of NLP for building educational applications (pp. 254 – 263) . 
+Fung, Y. C., Kwok, J. C. W., Lee, L. K., Chui, K. T., & U, L. H. (2020). Automatic question 
+generation system for English reading comprehension. In Technology in education. 
+Innovations for online teaching and learning: 5th international conference, ICTE 2020, 
+Macau, China (pp. 136 – 146). Springer Singapore. August 19-22, 2020, Revised 
+Selected Papers 5 . 
+Gao, T., Fisch, A., & Chen, D. (2020). Making pre-trained language models better few-shot 
+learners . arXiv preprint arXiv:2012.15723 . 
+Gierl, M. J., & Haladyna, T. M. (2012). Automatic item generation: Theory and practice . 
+Routledge. https://doi.org/10.4324/9780203803912 
+Gierl, M. J., & Lai, H. (2013). Using automated processes to generate test items. 
+Educational Measurement: Issues and Practice, 32 , 3650 . 
+Gierl, M. J., Lai, H., & Matovinovic, D. (2020). Augmented intelligence and the future of 
+item development. Application of Artificial Intelligence to Assessment, 1 . 
+Gierl, M. J., Lai, H., & Turner, S. R. (2012). Using automatic item generation to create 
+multiple choice test items. Medical Education, 46 (8), 757 – 765 . 
+Gwern. (2023). GPT-3 creative fiction & nonfiction writing . https://www.gwern.net/ 
+GPT-3 . 
+Haladyna, T. M., & Rodriguez, M. C. (2013). Developing and validating test items . 
+Hansen, H., & Hebart, M. N. (2022). Semantic features of object concepts generated with GPT 
+3 . arXiv preprint arXiv:2202.03753 . 
+Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural Computation, 
+9 (8), 1735 – 1780 . 
+Hocky, G. M., & White, A. D. (2022). Natural language processing models that automate 
+programming will transform chemistry research and teaching. Digital Discovery, 1 (2), 
+79 83 . 
+Hommel, B. E., Wollang, F. J. M., Kotova, V., Zacher, H., & Schmukle, S. C. (2022). 
+Transformer-based deep neural language modeling for construct-specific automatic 
+item generation. Psychometrika, 87 (2), 749 – 772 . 
+Hornke, L. F., & Habon, M. W. (1986). Rule-based item bank construction and evaluation 
+within the linear logistic framework. Applied Psychological Measurement, 10 , 
+369 – 380 . 
+Jozefowicz, R., Zaremba, W., & Sutskever, I. (2015). June). An empirical exploration of 
+recurrent network architectures. In International conference on machine learning (pp. 
+2342 – 2350). PMLR .  
+Kalchbrenner, N., Grefenstette, E., & Blunsom, P. (2014). A convolutional neural network 
+for modelling sentences . arXiv preprint arXiv:1404.2188 . 
+Kosh, A. E., Simpson, M. A., Bickel, L., Kellogg, M., & Sanford-Moore, E. (2019). A cost 
+benefit analysis of automatic item generation. Educational Measurement: Issues and 
+Practice, 38 (1), 48 – 53 . 
+Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2017). Imagenet classification with deep 
+convolutional neural networks. Communications of the ACM, 60 (6), 84 – 90 . 
+LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied 
+to document recognition. Proceedings of the IEEE, 86 (11), 2278 – 2324 . 
+Leys, C., Ley, C., Klein, O., Bernard, P., & Licata, L. (2013). Detecting outliers: Do not use 
+standard deviation around the mean, use absolute deviation around the median. 
+Journal of Experimental Social Psychology, 49 , 764 – 766. https://doi.org/10.1016/j. 
+jesp.2013.03.013 
+Mazidi, K. (2017). Automatic question generation from passages. In International 
+conference on computational linguistics and intelligent text processing (pp. 655 – 665). 
+Cham: Springer .  
+Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient estimation of word 
+representations in vector space . arXiv preprint arXiv:1301.3781 . 
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013). Distributed 
+representations of words and phrases and their compositionality. Advances in Neural 
+Information Processing Systems, 26 . 
+Mizumoto, A., & Eguchi, M. (2023). Exploring the potential of using an Ai language model 
+for automated essay scoring . Available at SSRN 4373111 . 
+Moore, S., Nguyen, H. A., Bier, N., Domadia, T., & Stamper, J. (2022). Assessing the 
+quality of student-generated short answer questions using GPT-3. In Educating for a 
+new future: Making Sense of technology-enhanced learning adoption: 17
+th 
+European 
+Conference on technology enhanced learning, EC-TEL 2022, toulouse, France, September 
+12 – 16, 2022, proceedings (pp. 243 – 257). Cham: Springer International Publishing .  
+Mullis, I. V., & Martin, M. O. (2019). PIRLS 2021 assessment frameworks. International 
+association for the evaluation of educational achievement. Herengracht, 487 . 
+Amsterdam, 1017 BT, The Netherlands . 
+Narayan, S., Simoes, G., Ma, J., Craighead, H., & Mcdonald, R. (2020). QURIOUS: 
+Question generation pretraining for text generation . arXiv preprint arXiv:2004.11026 . 
+Noy, S., & Zhang, W. (2023). Experimental evidence on the productivity effects of generative 
+artificial intelligence . Available at SSRN 4375283 . 
+OpenAI. (2022). Model index for researchers . Retrieved from https://platform.openai. 
+com/docs/model-index-for-researchers . 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              
+
+===== PAGE 13 =====
+
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+13
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., … Lowe, R. 
+(2022). Training language models to follow instructions with human feedback . arXiv 
+preprint arXiv:2203.02155 . 
+Pennington, J., Socher, R., & Manning, C. D. (2014). Glove: Global vectors for word 
+representation. In Proceedings of the 2014 conference on empirical methods in natural 
+language processing (EMNLP) (pp. 1532 – 1543) . 
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language 
+models are unsupervised multitask learners. OpenAI Blog, 1 (8), 9 . 
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., … Liu, P. J. (2020). 
+Exploring the limits of transfer learning with a unified text-to-text transformer. The 
+Journal of Machine Learning Research, 21 (1), 5485 – 5551 . 
+Raina, V., & Gales, M. (2022). Multiple-choice question generation: Towards an automated 
+assessment framework . arXiv preprint arXiv:2209.11830 . 
+Razavian Sharif, A., Azizpour, H., Sullivan, J., & Carlsson, S. (2014). CNN features off-the 
+shelf: An astounding baseline for recognition. In Proceedings of the IEEE conference on 
+computer vision and pattern recognition workshops (pp. 806 – 813) . 
+Reynolds, L., & McDonell, K. (2021). Prompt programming for large language models: 
+Beyond the few-shot paradigm. In Extended abstracts of the 2021 CHI conference on 
+human factors in computing systems (pp. 1 – 7) . 
+van Rossum, G., & Drake, F. L. (1995). Python reference manual . Amsterdam: Centrum 
+voor Wiskunde en Informatica .  
+Ruder, S. (2018). A review of the neural history of Natural Language processing . http://ruder 
+.io/a-review-of-the-recent-history-of-nlp/ , 2018. 
+Settles, B., LaFlair, G, T., & Hagiwara, M. (2020). Machine learning – driven language 
+assessment. Transactions of the Association for computational Linguistics, 8 , 247 – 263 . 
+Shakeri, H., Neustaedter, C., & DiPaola, S. (2021). Saga: Collaborative storytelling with 
+gpt-3. In Companion publication of the 2021 conference on computer supported 
+cooperative work and social computing (pp. 163 – 166) . 
+Shin, E. (2021). Automated item generation by combining the non-template and template 
+based approaches to generate reading inference test items . 
+Shneiderman, B. (2020). Human-centered artificial intelligence: Reliable, safe & 
+trustworthy. International Journal of Human-Computer Interaction, 36 (6), 495 – 504 . 
+Sison, A. J. G., Daza, M. T., Gozalo-Brizuela, R., & Garrido-Merch ´an, E. C. (2023). 
+ChatGPT: More than a weapon of mass deception, ethical challenges and responses from 
+the human-centered artificial intelligence (HCAI) perspective . arXiv preprint arXiv: 
+2304.11215 . 
+Stenner, A. J. (2022). Measuring reading comprehension with the Lexile framework. In 
+Explanatory models, unit standards, and personalized learning in educational 
+measurement: Selected papers by A. Jackson Stenner (pp. 63 – 88). Singapore: Springer 
+Nature Singapore.TIMSS & PIRLS International Study Center (2017). PIRLS 2016 
+international results in reading. Retrieved from https://timssandpirls.bc.edu/pirl 
+s2016/index.html . 
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., … 
+Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information 
+Processing Systems, 30 . 
+Walsh, J. (2022). Lesson plan generation using natural language processing: Prompting 
+best practices with openai ’ s gpt-3 model. AERA, 2022 , 2022 . 
+Wang, Z., Valdez, J., Basu Mallick, D., & Baraniuk, R. G. (2022). Towards human-like 
+educational question generation with large language models. In Artificial intelligence 
+in education: 23rd international conference, AIED 2022 (pp. 153 – 166). Cham: Springer 
+International Publishing. Durham, UK, July 27 – 31, 2022, Proceedings, Part I . 
+Wu, X., He, X., Li, T., Liu, N., & Zhai, X. (2023). Matching exemplar as next sentence\ 
+prediction (MeNSP): Zero-shot prompt learning for automatic scoring in science education . 
+arXiv preprint arXiv:2301.08771 . 
+Yin, W., Kann, K., Yu, M., & Schütze, H. (2017). Comparative study of CNN and RNN for 
+natural language processing . arXiv preprint arXiv:1702.01923 . 
+Young, T., Hazarika, D., Poria, S., & Cambria, E. (2018). Recent trends in deep learning 
+based natural language processing. Ieee Computational intelligenCe Magazine, 13 (3), 
+55 – 75 . 
+Zong, M., & Krishnamachari, B. (2022). Solving math word problems concerning systems 
+of equations with gpt-3. In Proceedings of the thirteenth AAAI symposium on educational 
+advances in artificial intelligence . 
+U. Bezirhan and M. von Davier                                                                                                                                                                                                              

@@ -1,0 +1,148 @@
+===== PAGE 1 =====
+www.ijte.net 
+Investigating the Impact of ChatGPT on 
+Reading Proficiency in EFL Context 
+ 
+ 
+Muhammad Mooneeb Ali  
+Higher Education Department, Government of the Punjab, 
+Pakistan 
+ 
+Ahmed M. Alaa  
+Badr University in Cairo, Egypt 
+ 
+Wael Alharbi  
+Yanbu English Language and Preparatory Year Institute, Saudi 
+Arabia 
+ 
+Issa Al Qurashi  
+Taif University, Saudi Arabia 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To cite this article:  
+ 
+Ali, M.M., Alaa, A.M., Alharbi, W.,  & AlQurashi, I. (2025). Investigating the impact of 
+ChatGPT on reading proficiency in EFL context . International Journal of Technology in 
+Education (IJTE), 8(4), 1222-1244. https://doi.org/10.46328/ijte.1563 
+ 
+ 
+ 
+ 
+ 
+The International Journal of Technology in Education (IJTE) is a peer -reviewed scholarly online journal. 
+This article may be used for research, teaching, and private study purposes. Authors alone are responsible 
+for the contents of their articles. The journal owns the copyright of the articles. The publisher shall not be 
+liable for any loss, actions, claims, proceedings, demand, or costs or damages whatsoever or howsoever 
+caused arising directly or indirectly in connection with or arising out of the use of the research material. All 
+authors are requested to disclose any actual or potential conflict of interest including any financial, personal 
+or other relationships with other people or organizations regarding the submitted work.  
+ 
+ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+===== PAGE 2 =====
+International Journal of Technology in Education  
+ 2025, Vol. 8, No. 4, 1222-1244 https://doi.org/10.46328/ijte.1563 
+ 
+1222 
+Investigating the Impact of ChatGPT on Reading Proficiency in EFL 
+Context 
+ 
+Muhammad Mooneeb Ali, Ahmed M. Alaa, Wael Alharbi, Issa AlQurashi  
+ 
+Article Info  Abstract 
+Article History 
+Received: 
+11 February 2025 
+Accepted: 
+7 June 2025 
+ 
+ Machine and prompt -based Artificial Intelligence (AI) learning has made 
+significant evolution profusely. In education, it has revitalized researchers and 
+educators to scout out subsequent advantages for optimizing learning results. 
+Chiefly, Generative AI h as exhibited substantial potential as a tool for language 
+augmentation. This study aims to probe how ChatGPT, a learning model of AI, 
+can be employed as a tool for refining the reading skills of English as a Foreign 
+Language (EFL) students in the Kingdom o f Saudi Arabia (KSA). The study 
+sample was one hundred and twenty 10th grade learners of public sector schools 
+in KSA. Ahead of experiment, a preliminary test was taken from the sample, and 
+in accordance with their test scores, two groups of 60 students we re formed. One 
+group studied by commonly used classroom methods, while the other learned by 
+exploiting ChatGPT in conjunction with their teacher. The intercession span was 
+three weeks, after that, a final test was administered and the scores were compared. 
+Fifty students were also interviewed to share their insights regarding the use of 
+ChatGPT in their learning. The results displayed a vivid increase in the scores of 
+learners who used ChatGPT. The students also expressed overall positive feedback 
+about learning using ChatGPT. This specifies that ChatGPT is an efficacious and 
+impactful AI learning tool for developing reading proficiency in EFL settings.  
+Keywords 
+Artificial Intelligence 
+ChatGPT 
+EFL learners 
+Reading comprehension 
+Saudi Arabia  
+ 
+ 
+ 
+Introduction 
+ 
+Technology is a channel for vesting learners and educators (Ali, Alaa, & Shahnaz, 2024). Lately, the coalescing 
+of Artificial Intelligence (AI) has reorganized varied genres in general, and academia in particular. By 
+transforming traditional practices, it has yielded striking advancements. The inception of AI into education has 
+witnessed proliferous progression, thus glinting interest among researchers and practitioners on AI's potential to 
+enhance learning outcomes. Generative AI, in precise, has arose as a promising tool for language enhancement, 
+offering innovative solutions to traditional educational challenges (Ali et al., 2023; Espartinez, 2024; Faisal, 
+2024).  
+ 
+The swift expansion and application of machine and prompt -based learning, allied with AI, have opened many 
+corridors of novel methodologies in language instruction (Foung, Lin, & Chen, 2024; Huesca et al., 2024). These 
+progressions are also indistinguishab le in the context of teaching English as a Foreign Language (EFL), where
+
+===== PAGE 3 =====
+International Journal of Technology in Education (IJTE) 
+ 
+1223 
+efficient and influenceable teaching tools can attract numerous educators and students (Li et al., 2024; Rahimi & 
+Sevilla-Pavón, 2024; Zheng & Steward, 2024).ChatGPT, a sophisticated AI language model, represents one of 
+the forefront technologies in this e xploration. Its ability to generate human -like text and engage in interactive 
+dialogue can present unique opportunities for enhancing English language skills (Al Sawi & Alaa, 2024).  
+ 
+ The Saudi Arabian English Context 
+ 
+The Kingdom of Saudi Arabia (KSA) does not give English the status of a neutral language, but it is imbued with 
+significant social, political, economic and religious implications. Its exploitation has been increased in recent 
+years, courtesy of the globalization and modernization efforts (Altalhi, 2024). However, this is met with resistance 
+from certain segments of society. This resistance challenges the legitimacy of English and adapts the language to 
+align with local beliefs and traditions. As part of Vis ion 2030, Saudi Arabia's modernization plan, the goal is to 
+provide students with the English language skills necessary for global competitiveness, while still fostering a 
+strong sense of pride in their Arabic and Islamic heritage (Aldawsari, 2022). 
+ 
+Adhering to the worth and appreciation of English, Saudi Arabia has restructured its higher education programs 
+by incorporating English Medium Instruction (EMI), similar to other nations (Aljehani & Modiano, 2024). The 
+Saudi government appraises English as  a global lingua franca. It is sensitized to hoist English proficiency, 
+believing that it is a binding to introduce English as a medium of instruction in the institutes. Besides, the 
+government affirms that teaching a single foreign language is the most ef fective mode to simplify language 
+acquisition. Despite the efforts placed by the Ministry of Education, implementing this policy has many 
+quandaries (Abdel Latif & Alhamad, 2023). The current Saudi academia direly requires the transformation of 
+syllabus, teaching styles, and learning techniques. With the advent of ChatGPT, an architype shift is vivid amongst 
+academia towards it. So, for the quest for improving English language proficiency among learners, the exploration 
+of AI-based tools is instantiating the novel methods as an auxiliary of conformist teaching systems (Aljabr, 2023; 
+Allehyani & Algamdi, 2023; Alqasham, 2023; Hasanein & Sobaih, 2023; Alammari, 2024; Mugableh; 2024). A 
+climacteric field of foreign language study is the implementation of readin g tactics by EFL users.  
+ 
+Reading Skills in the Saudi Arabian Context 
+ 
+Reading is a cognitive process that draws on various knowledge sources, including lexical features and an 
+understanding of current events. Proficiency in reading results from the development of both decoding skills and 
+linguistic comprehension (Indriyani et al., 2024). In Saudi Arabian EFL classrooms, reading is often approached 
+inconsistently, with much of the class time spent on repetition and teachers assuming full responsibility for student 
+reading. As a result, students are unable to gauge their own reading proficiency. Additionally, since EFL students 
+learn the English alphabet and sounds prior to university, English teachers tend to assume their reading skills are 
+already developed. This can make reading a challenging area that needs attention and imp rovement (Alharbi, 
+2022).  
+ 
+This study aims to investigate the efficacy of ChatGPT as a learning tool in improving the reading skills of EFL

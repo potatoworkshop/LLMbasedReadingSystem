@@ -1,0 +1,348 @@
+===== PAGE 1 =====
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+Available online 19 August 2023
+2666-920X/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Automated reading passage generation with OpenAI ’ s large 
+language model 
+Ummugul Bezirhan
+*
+, Matthias von Davier 
+Boston College, Chestnut Hill, MA, USA   
+ARTICLE INFO  
+Keywords: 
+Automated item generation 
+Natural language processing 
+Large language models 
+Reading assessment 
+AI-Generated reading passages 
+ABSTRACT  
+The widespread usage of computer-based assessments and individualized learning platforms has increased de -
+mand for the rapid production of high-quality items. Automated item generation (AIG), the process of using item 
+models to generate new items with the help of computer technology, was proposed to reduce reliance on human 
+subject experts. While AIG has been used in test development, recent advances in machine learning algorithms 
+offer the potential to enhance its efficiency further. This paper presents an innovative approach utilizing 
+OpenAI ’ s latest transformer-based language model, GPT-3, to generate reading passages. Existing reading pas -
+sages were used in carefully engineered prompts to ensure the AI-generated text has similar content and structure 
+to a fourth-grade reading passage. Multiple passages were generated for each prompt, and the final passage was 
+selected based on Lexile score agreement with the original passage. To ensure accuracy, a human editor con -
+ducted a simple revision of the chosen passage, correcting any grammatical and factual errors. To evaluate the 
+effectiveness of the AI-generated passages, human judges assessed their coherence and appropriateness for 
+fourth-grade readers. The results indicated that GPT-3-produced passages closely resembled human-authored 
+passages regarding coherence, appropriateness, and readability for the target audience. By combining GPT-3 ’ s 
+capabilities with carefully designed prompts and human editing, this study demonstrates an efficient and 
+effective method for generating reading passages. The findings highlight the potential of incorporating large 
+language models into automated item generation, contributing to improved scalability and quality in educational 
+assessment development.   
+1. Introduction 
+1
+Technological innovations in all aspects of test development facili -
+tate efficient test practices and more well-rounded information retrieval 
+from the data compared to traditional paper-pencil assessments. 
+Consequentially, the integration of technology in computer-based as -
+sessments (CBA) increases the demand for more frequent administration 
+and rapid and efficient production of high-quality content-specific 
+innovative items. The greater selection of item types presented to groups 
+of examinees with high frequency requires a more streamlined item 
+development process. Conventional item development is among the 
+most expensive, time-consuming, and labor-intensive parts of assess -
+ment development because the process heavily depends on human 
+content specialists. Human subject experts write each item individually, 
+and then each item is reviewed, edited, and revised by a group of experts 
+until it meets predefined quality control standards ( Haladyna & 
+Rodriguez, 2013 ). Therefore, the subjectivity of traditional item writing 
+is often compromised by the subject experts ’ qualifications and under -
+standing of the specific content area. Other issues with the traditional 
+item development process are its lack of efficiency and scalability. 
+Automated Item Generation (AIG) was proposed to address the limita -
+tions associated with conventional item development by utilizing 
+cognitive and psychometric theories with the help of computer tech -
+nology to generate items (e.g., Embretson & Yang, 2007 ; Gierl & Hala -
+dyna, 2012 ; Hornke & Habon, 1986 ). 
+A considerable amount of literature has already been published on 
+AIG in educational measurement. These studies typically utilized a 
+simple template-based approach ( Gierl & Lai, 2013 ) for generating 
+assessment items. This approach usually uses a three-stage procedure to 
+automatically capture necessary information and features to produce 
+multiple-choice items (MCQs). First, content experts develop a 
+description, referred to as a cognitive model, that defines the 
+* Corresponding author. TIMSS & PIRLS International Study Center at Boston College, 188 Beacon St., Chestnut Hill, MA, 02467, USA. 
+E-mail address: bezirhan@bc.edu (U. Bezirhan).   
+1 
+GPT-3 was the latest release as of 2022. 
+Contents lists available at ScienceDirect 
+Computers and Education: Artificial Intelligence 
+journal homepag e: www.sci encedirect. com/journa l/computers-a nd-educati on-artificial -intelligence 
+https://doi.org/10.1016/j.caeai.2023.100161 
+Received 3 May 2023; Received in revised form 16 August 2023; Accepted 17 August 2023
+
+===== PAGE 2 =====
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+2
+knowledge, skills, and content that are needed to process and solve given 
+questions. In the second stage, content experts create a simple schema, 
+an item model, to highlight the parts and content of the assessment task 
+that can be manipulated to create new items. Often these item models 
+are a bit like cloze items or Madlib texts, with empty spaces where the 
+schema-filling algorithms fill in the blanks, for example, different 
+numbers in a multiplication item. The item template is a prototype of a 
+test item that informs the automated item generation process (Gierl 
+et al., 2012). In the last step, a computer algorithm utilizes information 
+from both cognitive and item models to fill in the blanks to generate new 
+items. 
+While this approach reduced the cost and time associated with 
+traditional item writing, it still suffers the reliance on generating clones 
+of narrowly defined item types by only manipulating limited task 
+components of certain items to derive item templates (von Davier, 
+2018). Another important limitation of templated-based approaches is 
+the human expert associated cost. The automation process does not start 
+until after considerable groundwork takes place by content experts. 
+Kosh et al. (2019) argued that the cost-effectiveness of template-based 
+AIG depends on most of the items being generated belonging to the 
+same content area and tests with a limited number of skills that can be 
+modeled with a single cognitive model. 
+Another approach that has been explored in the AIG framework 
+focused on generating items without any prespecified templates and 
+human intervention focusing on customary (non-AI) Natural Language 
+Processing (NLP) techniques (Shin, 2021). Specifically, part of speech 
+tagging, topic modeling, and noun phrase extraction have been explored 
+in question generation (e.g., Azevedo et al., 2020; Flor & Riordan, 2018; 
+Mazidi, 2017). Moving beyond traditional NLP methods and towards AI, 
+von Davier (2018) demonstrated using a novel neural network 
+approach, long short-term memory-based recurrent neural networks 
+(LSTM-RNN), to generate items. With these methods, the textual infor -
+mation is extracted and modeled from a collection of documents 
+replacing the manual construction of cognitive and content models to 
+generate items. 
+With the advances in the field of AI-based NLP, large transformer- 
+based language models such as the Bidirectional Encoder Representa -
+tions from Transformers (BERT; Devlin et al., 2018) and the Generative 
+Pretrained Transformer (GPT; Radford et al., 2019) often approach 
+human-level performance in diverse language tasks (Hansen & Hebart, 
+2022). The earlier version of the GPT model, GPT-2, was released by 
+OpenAI in 2019, and it is subsequently utilized for automated item 
+generation for medical licensing type tasks (von Davier, 2019) and 
+personality question generation (Hommel, Wollang, Kotova, Zacher, & 
+Schmukle, 2022). Despite the groundbreaking performance of GPT-2 
+compared to other language models, it was not equipped to handle 
+more specialized tasks such as storytelling and constructing complex 
+language formations. For a specialized task, GPT-2 required sufficient 
+pre-training to be able to generate appropriate responses, often 
+including very large databases for finetuning the model to enable the 
+generation of items of sufficient quality (von Davier, 2019). 
+OpenAI released the
+1 
+Generative Pre-trained Transformer 3 (GPT-3), 
+one of the largest transformer language models to date, which was 
+recently superseded by yet another iteration. GPT-3 excels at few-shot 
+learning, which means it can be given a small number of representa -
+tive samples of text to complete a task without any pre-training, such as 
+text generation (Brown et al., 2020). GPT-3 and its successors, such as 
+the media-hyped ChatGPT, have been utilized in various tasks, including 
+machine translation, question answering, and text generation, and were 
+attacked by critiques to do anything from taking away jobs to destroying 
+the world as we know it. At the time of submitting this, GPT-4 was 
+released, so we will use the term GPTx to refer to large language models 
+originating from OpenAI’s series of GPT releases. There are increasing 
+numbers of use cases of GPTx, such as creating chatbots and virtual 
+assistants, designing websites, automating the process of writing code, 
+and creating machine learning models. All these can be achieved by 
+solely communicating with GPTx in simple natural language. A new 
+(equally hyped) job category, the prompt engineer, has been created, 
+whose exclusive job description is to communicate with GPT-type AIs. It 
+is reminiscent of comic literary depictions of artificial general intelli -
+gence such as Deep Thought (Adams, 1995). However, the current 
+version available through the ChatGPT’s web interface was well-trained 
+to answer questions in a manner that does not feed fears or mis -
+conceptions about its capabilities. The following example was generated 
+on April 1st, 2023, with ChatGPT Mar 14 Version accessible at 
+https://chat.openai.com/chat: 
+Author (paraphrasing a line in the Hitchhiker’s Guide to the Gal -
+axy): O ChatGPT, you are the true Deep Thought computer! The task we 
+have designed you to perform is this. We want you to tell us …. The 
+Answer! 
+ChatGPT: I apologize for any confusion, but I’m not sure what spe -
+cific answer you are referring to. Can you please clarify your question 
+and provide more context? I’ll do my best to assist you. 
+Author (continuing to cite lines from the book): The answer to all. 
+Life, the Universe, and Everything! 
+ChatGPT: Ah, I see. Well, according to Douglas Adams’ science fic -
+tion novel “The Hitchhiker’s Guide to the Galaxy,” the answer to the 
+ultimate question of life, the universe, and everything is 42. However, 
+it’s worth noting that this answer is intended as a joke and is not meant 
+to be taken seriously as a philosophical or scientific answer to the 
+meaning of life. The true answer to this question, if such an answer 
+exists, remains a mystery and subject to interpretation and debate 
+among thinkers and philosophers. 
+It is clear from this small example that ChatGPT allows one to have 
+intelligent (seeming?) conversions with this advanced chatbot. How -
+ever, our goal with this research was to focus on guided text generation 
+that allows us to steer GPTx towards producing reading passages that 
+could pass as short human-written stories that can be used to assess 
+reading achievement. 
+In particular, the aim of this research is to utilize GPT-3 to generate 
+reading comprehension passages in the context of an international large- 
+scale assessment, specifically Progress in International Reading Literacy 
+Study (PIRLS). The PIRLS is an international study of primary school 
+students’ reading skills and is administered every five years since 2001. 
+The assessment consists of a battery of tasks, including literary and 
+informational passages with accompanying multiple-choice and open- 
+ended questions. Students’ reading literacy is assessed with the pas -
+sages that are drawn from a wide range of genres either in fiction or non- 
+fiction. 
+In light of this, our primary research questions are as follows:  
+1. Is it possible for large transformer-based language models, such as 
+GPTx, to generate reading comprehension passages similar to those 
+in the PIRLS?  
+2. How do the readability, coherence, clarity, and engagement levels of 
+the reading passages generated by GPTx compare to those tradi -
+tionally designed for the PIRLS assessment, as evaluated by human 
+experts? 
+To address these research questions, we utilized GPT-3 to generate 
+passages in similar genres as those in the PIRLS assessment. We then 
+asked human experts to evaluate the passages according to their 
+coherence and appropriateness for the target population. We did not test 
+these passages with any children but rather focused on the evaluation of 
+the GPT-3 generated texts by adults with an education background, as 
+we wanted to ensure that the generated texts are appropriate for the 
+target audience rather than subjecting young readers to potentially 
+unsuitable material. 
+The remainder of this paper is structured as follows: The next section 
+provides an overview of how NLP was revolutionized by AI, and GPTx as 
+a state of art language model and its current applications in educational 
+assessment and beyond. The subsequent section details the proposed 
+U. Bezirhan and M. von Davier
+
+===== PAGE 3 =====
+Computers and Education: Artificial Intelligence 5 (2023) 100161
+3
+approach, followed by experimental results. The article concludes with a 
+summary of the main contributions, implications of the study, and 
+suggestions for future work. 
+2. Background 
+2.1. A short overview of language models: from Word2Vec to GPTx 
+NLP has witnessed significant advancements in recent years, 
+particularly with the emergence of deep learning and large neural 
+network language models (e.g., Ruder, 2018; von Davier, 2018). Some 
+of the notable recent models that have played a critical role in the 
+development of NLP include Word2Vec, GloVe, BERT, and finally GPTx. 
+With the development of word embeddings, there was a significant shift 
+towards using distributional semantics in language modelling. Models 
+like Word2Vec (Mikolov, Chen, et al., 2013; Mikolov, Sutskever, et al., 
+2013) and GloVe (Pennington et al., 2014) are unsupervised models that 
+produce these embeddings by mapping words onto a high-dimensional 
+semantic space. While Word2Vec accomplishes this based on neigh -
+boring context words, Glove relies on the global word co-occurrence 
+matrix of words in a corpus. Word2Vec is a predictive model that gen -
+erates word embeddings based on the distributional semantics of the 
+words in a corpus. It utilizes a simple neural network to learn 
+high-dimensional word embeddings from a raw text, and this can be 
+achieved through training a binary classifier to predict a target word 
+using its context words with a Continuous bag-of-words (CBOW) model 
+or the context given a word with Skip-gram models. With these models, 
+weights were updated at each iteration to maximize the prediction, 
+producing an n-dimensional embedding matrix where each word in a 
+vocabulary is represented as an embedding vector, thus allowing 
+mathematical operations to be performed on the word vectors to identify 
+relationships (Young et al., 2018). 
+Word embeddings became popular because of their capacity to 
+represent words in a distributed latent space. To extract higher-level 
+features from constituent words or n-grams, deep neural network 
+(DNN) models were utilized in conjunction with word embeddings. 
+These abstract features would then be used in various NLP tasks such as 
+sentiment analysis, text generation, machine translation and question- 
+answering. Given their success in computer vision tasks, convolutional 
+neural networks (CNNs; LeCun et al., 1998; Krizhevsky et al., 2017; 
+Razavian Sharif, Azizpour, Sullivan, & Carlsson, 2014) and recurrent 
+neural networks (RNNs; Elman, 1990) have been employed for NLP 
+tasks as well. While CNNs are good at extracting position invariant 
+features, they are very data-heavy models because they include a large 
+number of trainable parameters. Moreover, CNNs struggle to preserve 
+sequential order and also have difficulties modeling long-distance 
+contextual information (Kalchbrenner et al., 2014; Yin et al., 2017). 
+RNNs, on the other hand, are designed with the goal of processing 
+sequential data. The term “recurrent” refers to its ability to perform the 
+same task on each sequence element; thus the output depends on pre -
+vious computations and results. Essentially, RNNs possess the ability to 
+retain a memory of past computations and leverage that information in 
+the current processing. However, simple RNNs can encounter the van -
+ishing gradient problem, making it difficult to tune and learn parameters 
+in the earlier layers. To address this limitation, alternative variants like 
+long short-term memory (LSTM; Hochreiter & Schmidhuber, 1997; 
+Jozefowicz et al., 2015) networks and gated-recurrent networks (GRU; 
+Cho et al., 2014) were introduced. 
+LSTM is one of the most utilized RNN variants for NLP tasks. LSTMs 
+are capable of learning relationships between words that are not in close 
+proximity, and they alleviate the exploding or vanishing gradient issue 
+by selectively retaining or discarding information through the use of 
+gates (input, forget, and output). This structure determines what infor -
+mation to add or remove from the output of the network from the pre -
+vious time step. LSTM-based models are widely adopted for sequence to 
+sequence mapping tasks and implemented by using an encoder-decoder 
+framework. These models have shown exceptional performance in 
+different applications, including machine translation, text summariza -
+tion, question generation and modeling human conversations. von 
+Davier’s (2018) approach to automated item generation was based on an 
+LSTM-RNN trained with publicly available items from personality tests. 
+While LSTMs have been highly effective in addressing the challenges of 
+long-term sequential dependencies, they too may suffer from the van -
+ishing gradient problem during training because they have a very 
+complex architecture, many non-linear transformations, and gradients 
+are propagated through time to update the parameters. When gradients 
+become too small, the model cannot efficiently learn long-term de -
+pendencies and can fail to make accurate predictions. 
+One of the notable advancements in NLP is the introduction of 
+transformer models by Vaswani et al. (2017). Transformer models uti -
+lize self-attention mechanisms to capture dependencies across all posi -
+tions in an input sequence, allowing them to model long-term 
+dependencies more efficiently than LSTMs. Another significant 
+advancement of transformer models is that the model can process 
+sequential data in parallel, reducing the resources needed for model 
+training. Additionally, transformer models do not contain recurrence or 
+convolution, therefore, cannot determine the order of a given sequence. 
+Instead, the model incorporates a positional encoding mechanism to 
+provide information about the absolute or relative positions of tokens in 
+the sequence. These features, along with the availability of large training 
+data, allow transformer models to achieve state-of-the-art performance 
+on a wide range of NLP tasks. Several pre-trained models have been 
+proposed that demonstrate the capabilities of transformer model 
+implementations. These pre-trained large language models can be 
+fine-tuned on task-specific datasets, and the model weights are adjusted 
+to improve their representation of the specific corpus. Some notable 
+examples of transformer models include BERT and GPT; both were 
+released in unidirectional and bidirectional variants. BERT is particu -
+larly notable for its ability to be pre-trained on large amounts of text data 
+and then fine-tuned on specific downstream NLP tasks, leading to 
+state-of-the-art results on many NLP tasks. Other important 
+transformer-based models include Text-to-Text Transfer Transformer 
+(T5; Raffel et al., 2020) that frames the tasks as a unified text-to-text 
+transformation problem. 
+Building upon the success of GPT, OpenAI introduced GPT-2 and 
+GPT-3, which are even larger models with significantly improved per -
+formance. GPT-2 was introduced in 2019 as a larger and more powerful 
+version of GPT and was trained on over 8 million web pages, and had 1.5 
+billion parameters (Radford et al., 2019). It was one of the largest lan -
+guage models at the time and demonstrated impressive performance, 
+but it mostly required fine-tuning for every new task. von Davier (2019) 
+used GPT-2 and fine-tuned the model with a large corpus of medical 
+articles with the goal of generating medical licensing items. The chal -
+lenges associated with collecting a large supervised training dataset for 
+each new task, along with the potential of exploiting spurious correla -
+tions in training data with model expressiveness and narrowness of the 
+training distribution, resulted in the need for larger models (Brown 
+et al., 2020). GPT-3 was developed for this purpose with 175 billion 
+parameters and trained using about 45 TB of text data from various 
+sources. GPT-3 has generated widespread interest due to its ability to 
+perform a wide range of NLP tasks with minimal fine-tuning and without 
+any task-specific architecture modifications. Subsequently, OpenAI 
+released a number of derivative models, including InstructGPT-3 
+(Ouyang et al., 2022), and Codex 12B (Chen et al., 2021). These 
+models are commonly referred to as GPT-3.5 series and are comprised of 
+the models trained on text and code from before the last quarter of 2021 
+(OpenAI, 2022). In this research, we will refer to all GPT-3 model var -
+iants including, GPT-3.5 series, as GPTx. Recently, OpenAI released a 
+chatbot app, ChatGPT, utilizing GPT 3.5 series. ChatGPT uses rein -
+forcement learning from human feedback to align the large language 
+model with the user’s intent (Ouyang et al., 2022). Within two months 
+after its release, it reached 100 million active users. 
+U. Bezirhan and M. von Davier

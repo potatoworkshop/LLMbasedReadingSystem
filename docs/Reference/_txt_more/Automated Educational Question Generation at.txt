@@ -1,0 +1,132 @@
+===== PAGE 1 =====
+Automated Educational Question Generation at
+Different Bloom’s Skill Levels using Large
+Language Models: Strategies and Evaluation
+Nicy Scaria1 , Suma Dharani Chenna1,2 , Deepak Subramani1
+1 Computational and Data Sciences, Indian Institute of Science, India
+2 School of Computer Science and Engineering, VIT-AP University, India
+{nicyscaria,deepakns}@iisc.ac.in, sumadharanichenna@gmail.com
+Abstract. Developing questions that are pedagogically sound, relevant,
+and promote learning is a challenging and time-consuming task for edu-
+cators. Modern-day large language models (LLMs) generate high-quality
+content across multiple domains, potentially helping educators to de-
+velophigh-qualityquestions.Automatededucationalquestiongeneration
+(AEQG) is important in scaling online education catering to a diverse
+student population. Past attempts at AEQG have shown limited abil-
+ities to generate questions at higher cognitive levels. In this study, we
+examine the ability of five state-of-the-art LLMs of different sizes to gen-
+erate diverse and high-quality questions of different cognitive levels, as
+defined by Bloom’s taxonomy. We use advanced prompting techniques
+with varying complexity for AEQG. We conducted expert and LLM-
+based evaluations to assess the linguistic and pedagogical relevance and
+qualityofthequestions.OurfindingssuggestthatLLMscangeneraterel-
+evant and high-quality educational questions of different cognitive levels
+when prompted with adequate information, although there is a signifi-
+cant variance in the performance of the five LLMs considered. We also
+show that automated evaluation is not on par with human evaluation.
+Keywords: Large Language Models· Automated Educational Question
+Generation · Bloom’s Taxonomy.
+1 Introduction
+Transformer-based pre-trained large language models developed in recent years
+havedrasticallyimprovedthequalityofnaturallanguagegeneration(NLG)tasks
+[24]. With an exponential increase in training data and model size, these models
+can generate complex text with human expert-level quality. The release of Ope-
+nAI’s ChatGPT made LLMs accessible to a wider audience who are not experts
+in natural language processing (NLP), allowing them to use them for their daily
+tasks. The language models are tuned to follow the user instructions through
+instruction-tuning [24]. They have zero-shot capabilities [10], which means that
+This is a preprint. The Version of Record of this contribution is published in In-
+ternational Conference on Artificial Intelligence in Education (LNAI,volume 14830),
+and is available online at https://doi.org/10.1007/978-3-031-64299-9_12
+arXiv:2408.04394v1  [cs.CL]  8 Aug 2024
+
+===== PAGE 2 =====
+2 N. Scaria et al.
+if you prompt the LLM with detailed task descriptions, the model will create
+meaningful outputs. These LLMs have the potential to be used in different ways
+in education [9], including the creation of personalized content, assessments, and
+feedback.
+High-quality assessments enable learners to deeply engage with the subject
+and relate their learning to the real world. Assessments that focus on different
+cognitive skills as defined in Bloom’s taxonomy levels [2] (described in Table 1)
+help educators identify the gaps in student learning. This information allows
+them to adapt their teaching to better support students and also helps students
+understand their strengths and weaknesses. However, creating such assessments
+requires significant time and effort from educators [11]. Automated Educational
+Question Generation (AEQG) systems reduce the effort and cognitive load on
+teachers. Past research on AEQG methods required context information for the
+models to generate high-quality questions. Educational information is available
+from multiple sources today and choosing the right resource is challenging.
+Related Work: In the pre-LLM era, AQG research focused mainly on gen-
+erating questions using question-answer datasets such as SQuAD 2.0, and NQ.
+These data sets contained a context and an answer for which the question had
+to be created [25]. However, the limited availability of public datasets impeded
+the progress of AQG systems capable of producing good quality questions. Re-
+cent research in question generation is focused on using pretrained or fine-tuned
+LLMs for the process. Encoder decoder models, such as the Text-To-Text Trans-
+fer Transformer (T5) and decoder-only models such as GPT3, along with context
+information, were used to generate questions [17]. Pre-training these models with
+educational text also improved the quality of the questions generated [3].
+Recent research has shown promising results in evaluating the quality of
+machine-generated content using LLMs using Chain-of-Thought (CoT) prompt-
+ing on different evaluation criteria. G-EVAL [13], an evaluator model based
+on GPT4, significantly outperformed previous models and aligned with human
+judgments on summarization tasks. However, the results of some studies that
+used fine-tuned GPT3 models to evaluate the pedagogical quality of machine-
+generated questions were unsatisfactory [16,3]. Human expert or crowd evalua-
+tions have been extensively used to analyze the pedagogical quality of machine-
+generated questions [19,6].
+The questions generated by most AQG models generally test lower-order
+skills [20] or create questions that have answers directly mentioned in the text
+[25]. These questions are not enough to test the higher-order cognitive skills
+of students. Bloom’s taxonomy [2] serves as a guide for educators to generate
+questions to test different cognitive skills. Recent work [18] has used GPT4 to
+develop course material based on Bloom’s taxonomy.
+1.1 Objective and Research Questions
+Our approach utilizes the knowledge of the content inherently present in LLMs
+along with the addition of technical information on the question generation pro-
+cess in the prompt to generate educational questions. Although LLMs excel in
+
+===== PAGE 3 =====
+AEQG at Different Bloom’s Skill Levels using LLMs 3
+Table 1.Revised Bloom’s taxonomy [2] in ascending order in the cognitive dimension
+Bloom’s level Description
+Remember Retrieve relevant knowledge from long-term memory.
+Understand Construct meaning from instructional messages, including oral, writ-
+ten, and graphic communication.
+Apply Carry out or use a procedure in a given situation.
+Analyze Break material into foundational parts and determine how parts relate
+to one another and the overall structure or purpose
+Evaluate Make judgments based on criteria and standards.
+Create Put elements together to form a coherent whole; reorganize into a new
+pattern or structure.
+various downstream tasks, they produce errors and inconsistencies [8], which can
+compromise the quality of the questions generated. This also varies significantly
+between different LLMs. Therefore, evaluating the quality of the questions gen-
+erated by LLMs is essential. While metrics such as the BLEU score or perplexity
+can assess machine-generated questions, they typically only examine linguistic
+characteristics [22]. In the present work, we perform a manual expert evalua-
+tion using the services of two educators in the AEQG topic’s domain and an
+automated LLM evaluation using an LLM that is not employed for AEQG.
+We used zero-shot and few-shot techniques and CoT prompting to generate
+questions for a graduate-level data science course using LLMs of different sizes.
+Five different prompt strategies of varying complexity were used to create these
+questions. Then, we performed a manual expert evaluation using the services of
+two educators in the AEQG topic’s domain and an automated LLM evaluation
+using an LLM that is not employed for AEQG. The evaluation was performed on
+a nine-item rubric to assess their linguistic and pedagogical quality [7] by experts
+and the LLM. The LLM evaluation is performed as a zero-shot classification task
+through a specially designed prompt.
+Specifically, we investigated answers to the following research questions.
+RQ1: Can instruction fine-tuned modern LLMs create high-quality and diverse
+educational questions at different cognitive levels based on Bloom’s taxonomy?
+RQ2: Does the size of the LLM significantly impact the model’s performance in
+educational question generation?
+RQ3: How does the amount of information provided in the prompt affect the
+quality of the questions generated?
+RQ4: Can LLMs create questions that are relatable to a specific population or
+context?
+RQ5:Caninstructionfine-tunedLLMsevaluategeneratededucationalquestions
+effectively, similar to human evaluators, when given the same instructions?
+In what follows, we first discuss the methodology. Then, we present and
+analyze the results before concluding with directions for future research.

@@ -1,0 +1,3787 @@
+{
+  "total": 65,
+  "articles": [
+    {
+      "file": "ielts_13_test1_passage1_b1idvj.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 39,
+      "wordCount": 853,
+      "charCount": 4284,
+      "syllableCount": 1435,
+      "complexWordCount": 51,
+      "readability": {
+        "fleschReadingEase": 42.31273664592541,
+        "fleschKincaidGrade": 12.791113716295431,
+        "ari": 13.160809510926747,
+        "colemanLiau": 12.377631887456037,
+        "gunningFog": 11.14027715153155
+      },
+      "informationDensity": {
+        "uniqueWordCount": 381,
+        "typeTokenRatio": 0.446659,
+        "rootTypeTokenRatio": 13.045192
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 114,
+        "keywordTypeDensity": 0.021102,
+        "keywordTokenDensity": 0.133646,
+        "selectedKeywords": [
+          "zealand",
+          "tourism",
+          "website",
+          "visitors",
+          "new",
+          "country",
+          "activities",
+          "travel",
+          "haul",
+          "campaign",
+          "site",
+          "visitor",
+          "feature",
+          "routes",
+          "transport",
+          "experiences",
+          "accommodation",
+          "flight"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3902,
+        "meanAbstractness": 3.6098,
+        "concretenessCoverage": 0.844048,
+        "matchedTokenCount": 709,
+        "totalTokenCount": 840
+      }
+    },
+    {
+      "file": "ielts_13_test1_passage3_91iewj.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 51,
+      "wordCount": 936,
+      "charCount": 4522,
+      "syllableCount": 1490,
+      "complexWordCount": 41,
+      "readability": {
+        "fleschReadingEase": 53.53368778280546,
+        "fleschKincaidGrade": 10.351835093011562,
+        "ari": 10.50140648567119,
+        "colemanLiau": 10.994615384615383,
+        "gunningFog": 9.093313222724987
+      },
+      "informationDensity": {
+        "uniqueWordCount": 447,
+        "typeTokenRatio": 0.477564,
+        "rootTypeTokenRatio": 14.610652
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 92,
+        "keywordTypeDensity": 0.020299,
+        "keywordTokenDensity": 0.098291,
+        "selectedKeywords": [
+          "fool",
+          "art",
+          "computer",
+          "painting",
+          "colton",
+          "emi",
+          "software",
+          "cope",
+          "creative",
+          "artists",
+          "music",
+          "computers",
+          "creativity",
+          "artist",
+          "classical",
+          "composer",
+          "aaron",
+          "human",
+          "audiences"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4379,
+        "meanAbstractness": 3.5621,
+        "concretenessCoverage": 0.820513,
+        "matchedTokenCount": 768,
+        "totalTokenCount": 936
+      }
+    },
+    {
+      "file": "ielts_13_test2_passage1_21iffj.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 37,
+      "wordCount": 826,
+      "charCount": 4004,
+      "syllableCount": 1322,
+      "complexWordCount": 27,
+      "readability": {
+        "fleschReadingEase": 48.77484228780841,
+        "fleschKincaidGrade": 12.002200772200773,
+        "ari": 12.563687585890982,
+        "colemanLiau": 11.377142857142857,
+        "gunningFog": 10.237235782998495
+      },
+      "informationDensity": {
+        "uniqueWordCount": 359,
+        "typeTokenRatio": 0.434625,
+        "rootTypeTokenRatio": 12.491208
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 104,
+        "keywordTypeDensity": 0.020581,
+        "keywordTokenDensity": 0.125908,
+        "selectedKeywords": [
+          "cinnamon",
+          "spice",
+          "portuguese",
+          "dutch",
+          "ceylon",
+          "monopoly",
+          "trade",
+          "bark",
+          "arrived",
+          "island",
+          "europeans",
+          "trees",
+          "middle",
+          "indian",
+          "spices",
+          "native",
+          "production"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4749,
+        "meanAbstractness": 3.5251,
+        "concretenessCoverage": 0.833944,
+        "matchedTokenCount": 683,
+        "totalTokenCount": 819
+      }
+    },
+    {
+      "file": "ielts_13_test2_passage3_61igdj.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 37,
+      "wordCount": 977,
+      "charCount": 5091,
+      "syllableCount": 1711,
+      "complexWordCount": 71,
+      "readability": {
+        "fleschReadingEase": 31.875274004813434,
+        "fleschKincaidGrade": 15.37320534454619,
+        "ari": 16.31580403330659,
+        "colemanLiau": 13.718812691914021,
+        "gunningFog": 13.469019889900137
+      },
+      "informationDensity": {
+        "uniqueWordCount": 466,
+        "typeTokenRatio": 0.47697,
+        "rootTypeTokenRatio": 14.908661
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 20,
+        "keywordTokenCount": 98,
+        "keywordTypeDensity": 0.020471,
+        "keywordTokenDensity": 0.100307,
+        "selectedKeywords": [
+          "category",
+          "trends",
+          "consumers",
+          "coach",
+          "trend",
+          "nike",
+          "proposition",
+          "tesco",
+          "managers",
+          "core",
+          "digital",
+          "strategy",
+          "points",
+          "value",
+          "product",
+          "company",
+          "products",
+          "consumer",
+          "customers",
+          "brand"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4071,
+        "meanAbstractness": 3.5929,
+        "concretenessCoverage": 0.809866,
+        "matchedTokenCount": 788,
+        "totalTokenCount": 973
+      }
+    },
+    {
+      "file": "ielts_13_test3_passage1_41igvj.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 36,
+      "wordCount": 822,
+      "charCount": 3899,
+      "syllableCount": 1314,
+      "complexWordCount": 26,
+      "readability": {
+        "fleschReadingEase": 48.42267031630175,
+        "fleschKincaidGrade": 12.177773722627737,
+        "ari": 12.327652068126518,
+        "colemanLiau": 10.794306569343064,
+        "gunningFog": 10.398540145985402
+      },
+      "informationDensity": {
+        "uniqueWordCount": 384,
+        "typeTokenRatio": 0.467153,
+        "rootTypeTokenRatio": 13.393538
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 82,
+        "keywordTypeDensity": 0.021898,
+        "keywordTokenDensity": 0.099757,
+        "selectedKeywords": [
+          "coconut",
+          "coconuts",
+          "layer",
+          "asia",
+          "fruit",
+          "endosperm",
+          "fibrous",
+          "america",
+          "flesh",
+          "shell",
+          "trunk",
+          "produce",
+          "cooking",
+          "seed",
+          "leaves",
+          "grow",
+          "used",
+          "germinate"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6241,
+        "meanAbstractness": 3.3759,
+        "concretenessCoverage": 0.83313,
+        "matchedTokenCount": 684,
+        "totalTokenCount": 821
+      }
+    },
+    {
+      "file": "ielts_13_test4_passage1_91iiaj.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 41,
+      "wordCount": 886,
+      "charCount": 4046,
+      "syllableCount": 1309,
+      "complexWordCount": 22,
+      "readability": {
+        "fleschReadingEase": 59.910804107251025,
+        "fleschKincaidGrade": 10.271439189561196,
+        "ari": 10.883523646974616,
+        "colemanLiau": 9.681805869074491,
+        "gunningFog": 9.637130429995047
+      },
+      "informationDensity": {
+        "uniqueWordCount": 383,
+        "typeTokenRatio": 0.43228,
+        "rootTypeTokenRatio": 12.867137
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 106,
+        "keywordTypeDensity": 0.020316,
+        "keywordTokenDensity": 0.119639,
+        "selectedKeywords": [
+          "cutty",
+          "sark",
+          "ship",
+          "ships",
+          "steam",
+          "captain",
+          "sailing",
+          "china",
+          "clippers",
+          "crew",
+          "dowman",
+          "willis",
+          "winds",
+          "journey",
+          "firm",
+          "tea",
+          "britain",
+          "london"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5899,
+        "meanAbstractness": 3.4101,
+        "concretenessCoverage": 0.809633,
+        "matchedTokenCount": 706,
+        "totalTokenCount": 872
+      }
+    },
+    {
+      "file": "ielts_13_test4_passage3_21ij7j.json",
+      "index": {
+        "ielts": "ielts-13",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 35,
+      "wordCount": 924,
+      "charCount": 4603,
+      "syllableCount": 1553,
+      "complexWordCount": 56,
+      "readability": {
+        "fleschReadingEase": 37.84874025974028,
+        "fleschKincaidGrade": 14.538683982683981,
+        "ari": 15.233344155844158,
+        "colemanLiau": 12.370606060606057,
+        "gunningFog": 12.984242424242424
+      },
+      "informationDensity": {
+        "uniqueWordCount": 418,
+        "typeTokenRatio": 0.452381,
+        "rootTypeTokenRatio": 13.75119
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 91,
+        "keywordTypeDensity": 0.019481,
+        "keywordTokenDensity": 0.098485,
+        "selectedKeywords": [
+          "happiness",
+          "bentham",
+          "davies",
+          "human",
+          "science",
+          "government",
+          "psychology",
+          "measured",
+          "watson",
+          "governments",
+          "philosopher",
+          "pleasure",
+          "way",
+          "behaviour",
+          "positive",
+          "psychological",
+          "behaviourism",
+          "capitalism"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.267,
+        "meanAbstractness": 3.733,
+        "concretenessCoverage": 0.864278,
+        "matchedTokenCount": 796,
+        "totalTokenCount": 921
+      }
+    },
+    {
+      "file": "ielts_14_test1_passage1_f277jj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 32,
+      "wordCount": 919,
+      "charCount": 4505,
+      "syllableCount": 1500,
+      "complexWordCount": 53,
+      "readability": {
+        "fleschReadingEase": 39.600593886017435,
+        "fleschKincaidGrade": 14.870377788356915,
+        "ari": 16.018112758433077,
+        "colemanLiau": 11.993471164309028,
+        "gunningFog": 13.794355277475518
+      },
+      "informationDensity": {
+        "uniqueWordCount": 441,
+        "typeTokenRatio": 0.479869,
+        "rootTypeTokenRatio": 14.547248
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 87,
+        "keywordTypeDensity": 0.020675,
+        "keywordTokenDensity": 0.094668,
+        "selectedKeywords": [
+          "play",
+          "children",
+          "whitebread",
+          "baker",
+          "gibson",
+          "lego",
+          "child",
+          "playful",
+          "building",
+          "learning",
+          "pedal",
+          "self",
+          "development",
+          "developing",
+          "alice",
+          "brick",
+          "develop",
+          "important",
+          "school"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4554,
+        "meanAbstractness": 3.5446,
+        "concretenessCoverage": 0.838604,
+        "matchedTokenCount": 769,
+        "totalTokenCount": 917
+      }
+    },
+    {
+      "file": "ielts_14_test1_passage3_f278wj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 39,
+      "wordCount": 870,
+      "charCount": 4853,
+      "syllableCount": 1598,
+      "complexWordCount": 75,
+      "readability": {
+        "fleschReadingEase": 28.80096816976129,
+        "fleschKincaidGrade": 14.784022988505747,
+        "ari": 15.996984084880637,
+        "colemanLiau": 15.672689655172412,
+        "gunningFog": 12.371352785145888
+      },
+      "informationDensity": {
+        "uniqueWordCount": 373,
+        "typeTokenRatio": 0.428736,
+        "rootTypeTokenRatio": 12.645884
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 105,
+        "keywordTypeDensity": 0.01954,
+        "keywordTokenDensity": 0.12069,
+        "selectedKeywords": [
+          "employees",
+          "employee",
+          "conditions",
+          "fun",
+          "hrm",
+          "working",
+          "practices",
+          "hospitality",
+          "hotels",
+          "maroudas",
+          "factors",
+          "work",
+          "hotel",
+          "motivation",
+          "satisfaction",
+          "favorable",
+          "lucas"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2907,
+        "meanAbstractness": 3.7093,
+        "concretenessCoverage": 0.793427,
+        "matchedTokenCount": 676,
+        "totalTokenCount": 852
+      }
+    },
+    {
+      "file": "ielts_14_test2_passage1_f279uj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 41,
+      "wordCount": 907,
+      "charCount": 4514,
+      "syllableCount": 1485,
+      "complexWordCount": 37,
+      "readability": {
+        "fleschReadingEase": 45.86854035012237,
+        "fleschKincaidGrade": 12.357296367009976,
+        "ari": 13.071923790571972,
+        "colemanLiau": 12.12582138919515,
+        "gunningFog": 10.480533519778417
+      },
+      "informationDensity": {
+        "uniqueWordCount": 409,
+        "typeTokenRatio": 0.450937,
+        "rootTypeTokenRatio": 13.580622
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 86,
+        "keywordTypeDensity": 0.020948,
+        "keywordTokenDensity": 0.094818,
+        "selectedKeywords": [
+          "henderson",
+          "montreal",
+          "photographs",
+          "photography",
+          "railway",
+          "canadian",
+          "landscape",
+          "canada",
+          "scotland",
+          "notman",
+          "ottawa",
+          "photographic",
+          "quebec",
+          "scenes",
+          "alexander",
+          "edinburgh",
+          "studio",
+          "family",
+          "press"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6074,
+        "meanAbstractness": 3.3926,
+        "concretenessCoverage": 0.790724,
+        "matchedTokenCount": 699,
+        "totalTokenCount": 884
+      }
+    },
+    {
+      "file": "ielts_14_test2_passage3_827asj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 39,
+      "wordCount": 803,
+      "charCount": 4053,
+      "syllableCount": 1370,
+      "complexWordCount": 57,
+      "readability": {
+        "fleschReadingEase": 41.60017115304788,
+        "fleschKincaidGrade": 12.572004981320053,
+        "ari": 12.637760960500692,
+        "colemanLiau": 12.440647571606476,
+        "gunningFog": 11.075249864290962
+      },
+      "informationDensity": {
+        "uniqueWordCount": 380,
+        "typeTokenRatio": 0.473225,
+        "rootTypeTokenRatio": 13.409909
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 69,
+        "keywordTypeDensity": 0.021171,
+        "keywordTokenDensity": 0.085928,
+        "selectedKeywords": [
+          "productivity",
+          "organisation",
+          "order",
+          "disorder",
+          "structure",
+          "structured",
+          "companies",
+          "embraced",
+          "organise",
+          "management",
+          "ought",
+          "business",
+          "reduce",
+          "work",
+          "disorganisation",
+          "formally",
+          "organising"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3054,
+        "meanAbstractness": 3.6946,
+        "concretenessCoverage": 0.84005,
+        "matchedTokenCount": 667,
+        "totalTokenCount": 794
+      }
+    },
+    {
+      "file": "ielts_14_test3_passage1_927bfj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 40,
+      "wordCount": 902,
+      "charCount": 4691,
+      "syllableCount": 1545,
+      "complexWordCount": 77,
+      "readability": {
+        "fleschReadingEase": 39.03876773835921,
+        "fleschKincaidGrade": 13.416251662971181,
+        "ari": 14.34013303769401,
+        "colemanLiau": 13.467272727272722,
+        "gunningFog": 12.434634146341464
+      },
+      "informationDensity": {
+        "uniqueWordCount": 352,
+        "typeTokenRatio": 0.390244,
+        "rootTypeTokenRatio": 11.720318
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 131,
+        "keywordTypeDensity": 0.018847,
+        "keywordTokenDensity": 0.145233,
+        "selectedKeywords": [
+          "implicit",
+          "theories",
+          "intelligence",
+          "explicit",
+          "people",
+          "children",
+          "view",
+          "hamiltonian",
+          "jeffersonian",
+          "expectations",
+          "rewarded",
+          "elite",
+          "phenomenon",
+          "equal",
+          "useful",
+          "opportunities",
+          "ages"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2479,
+        "meanAbstractness": 3.7521,
+        "concretenessCoverage": 0.840934,
+        "matchedTokenCount": 756,
+        "totalTokenCount": 899
+      }
+    },
+    {
+      "file": "ielts_14_test3_passage3_527cnj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 53,
+      "wordCount": 924,
+      "charCount": 4660,
+      "syllableCount": 1543,
+      "complexWordCount": 67,
+      "readability": {
+        "fleschReadingEase": 47.864852977211484,
+        "fleschKincaidGrade": 10.914223637997228,
+        "ari": 11.040877235971571,
+        "colemanLiau": 12.156709956709957,
+        "gunningFog": 9.874017806093278
+      },
+      "informationDensity": {
+        "uniqueWordCount": 410,
+        "typeTokenRatio": 0.443723,
+        "rootTypeTokenRatio": 13.48801
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 139,
+        "keywordTypeDensity": 0.019481,
+        "keywordTokenDensity": 0.150433,
+        "selectedKeywords": [
+          "play",
+          "child",
+          "playful",
+          "children",
+          "learning",
+          "motivated",
+          "guided",
+          "actively",
+          "engaged",
+          "activity",
+          "directed",
+          "intrinsically",
+          "rubin",
+          "adults",
+          "parents",
+          "criteria",
+          "fun",
+          "behavior"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4236,
+        "meanAbstractness": 3.5764,
+        "concretenessCoverage": 0.828571,
+        "matchedTokenCount": 754,
+        "totalTokenCount": 910
+      }
+    },
+    {
+      "file": "ielts_14_test4_passage1_c27d7j.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 43,
+      "wordCount": 839,
+      "charCount": 3754,
+      "syllableCount": 1228,
+      "complexWordCount": 20,
+      "readability": {
+        "fleschReadingEase": 63.206144635086076,
+        "fleschKincaidGrade": 9.290571832469443,
+        "ari": 9.400116694847135,
+        "colemanLiau": 8.99227651966627,
+        "gunningFog": 8.758167253374728
+      },
+      "informationDensity": {
+        "uniqueWordCount": 380,
+        "typeTokenRatio": 0.45292,
+        "rootTypeTokenRatio": 13.119057
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 113,
+        "keywordTypeDensity": 0.020262,
+        "keywordTokenDensity": 0.134684,
+        "selectedKeywords": [
+          "ants",
+          "giraldo",
+          "aging",
+          "old",
+          "age",
+          "ant",
+          "dentata",
+          "days",
+          "live",
+          "insects",
+          "fly",
+          "says",
+          "social",
+          "day",
+          "fruit",
+          "older",
+          "studies"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4634,
+        "meanAbstractness": 3.5366,
+        "concretenessCoverage": 0.772783,
+        "matchedTokenCount": 636,
+        "totalTokenCount": 823
+      }
+    },
+    {
+      "file": "ielts_14_test4_passage2_c27dnj.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-4",
+        "passage": "passage2"
+      },
+      "sentenceCount": 31,
+      "wordCount": 791,
+      "charCount": 3810,
+      "syllableCount": 1268,
+      "complexWordCount": 42,
+      "readability": {
+        "fleschReadingEase": 45.319441295216365,
+        "fleschKincaidGrade": 13.277093103870154,
+        "ari": 14.014663757595528,
+        "colemanLiau": 11.362073324905182,
+        "gunningFog": 12.33034541821296
+      },
+      "informationDensity": {
+        "uniqueWordCount": 353,
+        "typeTokenRatio": 0.446271,
+        "rootTypeTokenRatio": 12.551235
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 89,
+        "keywordTypeDensity": 0.021492,
+        "keywordTokenDensity": 0.112516,
+        "selectedKeywords": [
+          "zoos",
+          "wild",
+          "animals",
+          "species",
+          "conservation",
+          "animal",
+          "captive",
+          "populations",
+          "many",
+          "efforts",
+          "bred",
+          "reintroduced",
+          "good",
+          "population",
+          "risk",
+          "aid",
+          "contribute"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3179,
+        "meanAbstractness": 3.6821,
+        "concretenessCoverage": 0.867257,
+        "matchedTokenCount": 686,
+        "totalTokenCount": 791
+      }
+    },
+    {
+      "file": "ielts_14_test4_passage3_527e3j.json",
+      "index": {
+        "ielts": "ielts-14",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 35,
+      "wordCount": 877,
+      "charCount": 4245,
+      "syllableCount": 1388,
+      "complexWordCount": 40,
+      "readability": {
+        "fleschReadingEase": 47.50827137970356,
+        "fleschKincaidGrade": 12.85777032089917,
+        "ari": 13.896690014660372,
+        "colemanLiau": 11.480045610034207,
+        "gunningFog": 11.84725851115817
+      },
+      "informationDensity": {
+        "uniqueWordCount": 389,
+        "typeTokenRatio": 0.443558,
+        "rootTypeTokenRatio": 13.135597
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 114,
+        "keywordTypeDensity": 0.020525,
+        "keywordTokenDensity": 0.129989,
+        "selectedKeywords": [
+          "debris",
+          "rochman",
+          "ocean",
+          "plastic",
+          "trash",
+          "marine",
+          "mussels",
+          "says",
+          "scientists",
+          "threats",
+          "questions",
+          "lot",
+          "paper",
+          "perceived",
+          "studies",
+          "group",
+          "pacific",
+          "bits"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5479,
+        "meanAbstractness": 3.4521,
+        "concretenessCoverage": 0.814433,
+        "matchedTokenCount": 711,
+        "totalTokenCount": 873
+      }
+    },
+    {
+      "file": "ielts_15_test1_passage1_727epj.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 46,
+      "wordCount": 890,
+      "charCount": 4191,
+      "syllableCount": 1361,
+      "complexWordCount": 26,
+      "readability": {
+        "fleschReadingEase": 57.82549584758186,
+        "fleschKincaidGrade": 10.000371275036638,
+        "ari": 10.423250122129947,
+        "colemanLiau": 10.358966292134827,
+        "gunningFog": 8.907669760625307
+      },
+      "informationDensity": {
+        "uniqueWordCount": 417,
+        "typeTokenRatio": 0.468539,
+        "rootTypeTokenRatio": 13.977872
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 99,
+        "keywordTypeDensity": 0.021348,
+        "keywordTokenDensity": 0.111236,
+        "selectedKeywords": [
+          "nutmeg",
+          "dutch",
+          "banda",
+          "islands",
+          "island",
+          "indonesia",
+          "british",
+          "spice",
+          "trading",
+          "seed",
+          "spices",
+          "portuguese",
+          "europe",
+          "fruit",
+          "tree",
+          "control",
+          "aril",
+          "exported",
+          "husk"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5243,
+        "meanAbstractness": 3.4757,
+        "concretenessCoverage": 0.80787,
+        "matchedTokenCount": 698,
+        "totalTokenCount": 864
+      }
+    },
+    {
+      "file": "ielts_15_test1_passage3_e27fnj.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 33,
+      "wordCount": 930,
+      "charCount": 4166,
+      "syllableCount": 1406,
+      "complexWordCount": 30,
+      "readability": {
+        "fleschReadingEase": 50.329809384164264,
+        "fleschKincaidGrade": 13.24047898338221,
+        "ari": 13.75968328445748,
+        "colemanLiau": 9.489548387096772,
+        "gunningFog": 12.563049853372435
+      },
+      "informationDensity": {
+        "uniqueWordCount": 436,
+        "typeTokenRatio": 0.468817,
+        "rootTypeTokenRatio": 14.297003
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 71,
+        "keywordTypeDensity": 0.02043,
+        "keywordTokenDensity": 0.076344,
+        "selectedKeywords": [
+          "exploration",
+          "explorer",
+          "remote",
+          "done",
+          "explorers",
+          "new",
+          "gone",
+          "unknown",
+          "discovery",
+          "travel",
+          "era",
+          "species",
+          "caveman",
+          "empty",
+          "know",
+          "quarter",
+          "world",
+          "say",
+          "cent"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3823,
+        "meanAbstractness": 3.6177,
+        "concretenessCoverage": 0.866091,
+        "matchedTokenCount": 802,
+        "totalTokenCount": 926
+      }
+    },
+    {
+      "file": "ielts_15_test2_passage3_827h2j.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 40,
+      "wordCount": 956,
+      "charCount": 5034,
+      "syllableCount": 1626,
+      "complexWordCount": 62,
+      "readability": {
+        "fleschReadingEase": 38.68570502092052,
+        "fleschKincaidGrade": 13.800874476987449,
+        "ari": 15.321401673640167,
+        "colemanLiau": 13.923765690376566,
+        "gunningFog": 12.154142259414227
+      },
+      "informationDensity": {
+        "uniqueWordCount": 416,
+        "typeTokenRatio": 0.435146,
+        "rootTypeTokenRatio": 13.454402
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 133,
+        "keywordTypeDensity": 0.019874,
+        "keywordTokenDensity": 0.139121,
+        "selectedKeywords": [
+          "laughter",
+          "status",
+          "dominant",
+          "humour",
+          "laughs",
+          "submissive",
+          "students",
+          "individuals",
+          "task",
+          "low",
+          "laugh",
+          "social",
+          "participants",
+          "video",
+          "cheng",
+          "tedious",
+          "wang",
+          "correct",
+          "significantly"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3705,
+        "meanAbstractness": 3.6295,
+        "concretenessCoverage": 0.800422,
+        "matchedTokenCount": 758,
+        "totalTokenCount": 947
+      }
+    },
+    {
+      "file": "ielts_15_test3_passage1_e27hmj.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 43,
+      "wordCount": 890,
+      "charCount": 4176,
+      "syllableCount": 1346,
+      "complexWordCount": 22,
+      "readability": {
+        "fleschReadingEase": 57.88124248758821,
+        "fleschKincaidGrade": 10.32793571988503,
+        "ari": 11.018792265482098,
+        "colemanLiau": 10.3596404494382,
+        "gunningFog": 9.26783381238568
+      },
+      "informationDensity": {
+        "uniqueWordCount": 368,
+        "typeTokenRatio": 0.413483,
+        "rootTypeTokenRatio": 12.335388
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 103,
+        "keywordTypeDensity": 0.020225,
+        "keywordTokenDensity": 0.11573,
+        "selectedKeywords": [
+          "moore",
+          "sculpture",
+          "art",
+          "london",
+          "figure",
+          "royal",
+          "castleford",
+          "sculptor",
+          "college",
+          "school",
+          "henry",
+          "stone",
+          "war",
+          "became",
+          "work",
+          "leeds",
+          "reclining",
+          "sculptors"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6051,
+        "meanAbstractness": 3.3949,
+        "concretenessCoverage": 0.821918,
+        "matchedTokenCount": 720,
+        "totalTokenCount": 876
+      }
+    },
+    {
+      "file": "ielts_15_test3_passage3_b27iij.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 39,
+      "wordCount": 959,
+      "charCount": 4511,
+      "syllableCount": 1538,
+      "complexWordCount": 45,
+      "readability": {
+        "fleschReadingEase": 46.19882944306303,
+        "fleschKincaidGrade": 12.924296141814391,
+        "ari": 13.02004384909494,
+        "colemanLiau": 10.654932221063603,
+        "gunningFog": 11.712852597524131
+      },
+      "informationDensity": {
+        "uniqueWordCount": 424,
+        "typeTokenRatio": 0.442127,
+        "rootTypeTokenRatio": 13.691674
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 106,
+        "keywordTypeDensity": 0.01877,
+        "keywordTokenDensity": 0.110532,
+        "selectedKeywords": [
+          "tehrani",
+          "story",
+          "tales",
+          "wolf",
+          "grandmother",
+          "hood",
+          "fairy",
+          "riding",
+          "red",
+          "stories",
+          "versions",
+          "analysis",
+          "little",
+          "says",
+          "elements",
+          "relevant",
+          "details",
+          "cautionary"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4354,
+        "meanAbstractness": 3.5646,
+        "concretenessCoverage": 0.836117,
+        "matchedTokenCount": 801,
+        "totalTokenCount": 958
+      }
+    },
+    {
+      "file": "ielts_15_test4_passage1_327j0j.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 41,
+      "wordCount": 916,
+      "charCount": 4107,
+      "syllableCount": 1360,
+      "complexWordCount": 23,
+      "readability": {
+        "fleschReadingEase": 58.55142773458307,
+        "fleschKincaidGrade": 10.64282138672915,
+        "ari": 10.858602886356373,
+        "colemanLiau": 9.238820960698689,
+        "gunningFog": 9.940952178080734
+      },
+      "informationDensity": {
+        "uniqueWordCount": 401,
+        "typeTokenRatio": 0.437773,
+        "rootTypeTokenRatio": 13.249413
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 90,
+        "keywordTypeDensity": 0.019651,
+        "keywordTokenDensity": 0.098253,
+        "selectedKeywords": [
+          "huarango",
+          "whaley",
+          "ica",
+          "valley",
+          "tree",
+          "plant",
+          "huarangos",
+          "local",
+          "peru",
+          "water",
+          "farms",
+          "says",
+          "corridors",
+          "desert",
+          "trees",
+          "crops",
+          "organic",
+          "farmers"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6105,
+        "meanAbstractness": 3.3895,
+        "concretenessCoverage": 0.807269,
+        "matchedTokenCount": 733,
+        "totalTokenCount": 908
+      }
+    },
+    {
+      "file": "ielts_15_test4_passage2_027jhj.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-4",
+        "passage": "passage2"
+      },
+      "sentenceCount": 30,
+      "wordCount": 773,
+      "charCount": 4004,
+      "syllableCount": 1355,
+      "complexWordCount": 44,
+      "readability": {
+        "fleschReadingEase": 32.38558495040968,
+        "fleschKincaidGrade": 15.143346701164297,
+        "ari": 15.850280293229837,
+        "colemanLiau": 13.508564036222502,
+        "gunningFog": 12.58351013367831
+      },
+      "informationDensity": {
+        "uniqueWordCount": 382,
+        "typeTokenRatio": 0.494179,
+        "rootTypeTokenRatio": 13.739585
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 97,
+        "keywordTypeDensity": 0.023286,
+        "keywordTokenDensity": 0.125485,
+        "selectedKeywords": [
+          "silbo",
+          "language",
+          "whistled",
+          "brain",
+          "spoken",
+          "languages",
+          "carreiras",
+          "gomero",
+          "silbadores",
+          "whistles",
+          "spanish",
+          "island",
+          "canary",
+          "gomera",
+          "whistle",
+          "signal",
+          "areas",
+          "isolated"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.421,
+        "meanAbstractness": 3.579,
+        "concretenessCoverage": 0.783572,
+        "matchedTokenCount": 601,
+        "totalTokenCount": 767
+      }
+    },
+    {
+      "file": "ielts_15_test4_passage3_027jxj.json",
+      "index": {
+        "ielts": "ielts-15",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 26,
+      "wordCount": 803,
+      "charCount": 4110,
+      "syllableCount": 1398,
+      "complexWordCount": 43,
+      "readability": {
+        "fleschReadingEase": 28.20093854775365,
+        "fleschKincaidGrade": 16.998462017434623,
+        "ari": 18.119530606379918,
+        "colemanLiau": 13.337235367372351,
+        "gunningFog": 14.49581377526583
+      },
+      "informationDensity": {
+        "uniqueWordCount": 379,
+        "typeTokenRatio": 0.47198,
+        "rootTypeTokenRatio": 13.37462
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 96,
+        "keywordTypeDensity": 0.021171,
+        "keywordTokenDensity": 0.119552,
+        "selectedKeywords": [
+          "businesses",
+          "public",
+          "environmental",
+          "practices",
+          "government",
+          "responsibility",
+          "meat",
+          "profits",
+          "companies",
+          "regulation",
+          "shareholders",
+          "ultimate",
+          "business",
+          "behavior",
+          "company",
+          "policies",
+          "make"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2881,
+        "meanAbstractness": 3.7119,
+        "concretenessCoverage": 0.836045,
+        "matchedTokenCount": 668,
+        "totalTokenCount": 799
+      }
+    },
+    {
+      "file": "ielts_16_test1_passage1_827khj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 40,
+      "wordCount": 811,
+      "charCount": 4057,
+      "syllableCount": 1346,
+      "complexWordCount": 45,
+      "readability": {
+        "fleschReadingEase": 45.846997071516654,
+        "fleschKincaidGrade": 11.901467016029596,
+        "ari": 12.269115289765715,
+        "colemanLiau": 12.154574599260169,
+        "gunningFog": 10.32948212083847
+      },
+      "informationDensity": {
+        "uniqueWordCount": 400,
+        "typeTokenRatio": 0.493218,
+        "rootTypeTokenRatio": 14.0459
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 89,
+        "keywordTypeDensity": 0.022195,
+        "keywordTokenDensity": 0.109741,
+        "selectedKeywords": [
+          "bears",
+          "polar",
+          "bone",
+          "bear",
+          "density",
+          "cubs",
+          "disease",
+          "solving",
+          "humans",
+          "bones",
+          "ames",
+          "anecdotal",
+          "calcium",
+          "dens",
+          "gogo",
+          "snow",
+          "tissue",
+          "climate"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4976,
+        "meanAbstractness": 3.5024,
+        "concretenessCoverage": 0.830025,
+        "matchedTokenCount": 669,
+        "totalTokenCount": 806
+      }
+    },
+    {
+      "file": "ielts_16_test1_passage3_c27ldj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 33,
+      "wordCount": 854,
+      "charCount": 4378,
+      "syllableCount": 1458,
+      "complexWordCount": 58,
+      "readability": {
+        "fleschReadingEase": 36.1338382655596,
+        "fleschKincaidGrade": 14.648394720034066,
+        "ari": 15.65503796749698,
+        "colemanLiau": 13.19981264637002,
+        "gunningFog": 13.068142786175574
+      },
+      "informationDensity": {
+        "uniqueWordCount": 418,
+        "typeTokenRatio": 0.489461,
+        "rootTypeTokenRatio": 14.303666
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 68,
+        "keywordTypeDensity": 0.021077,
+        "keywordTokenDensity": 0.079625,
+        "selectedKeywords": [
+          "jobs",
+          "pachidi",
+          "algorithm",
+          "revolution",
+          "job",
+          "believes",
+          "future",
+          "organisations",
+          "technologies",
+          "algorithms",
+          "mean",
+          "work",
+          "contact",
+          "employment",
+          "mcgaughey",
+          "retraining",
+          "unemployment",
+          "workforce"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3158,
+        "meanAbstractness": 3.6842,
+        "concretenessCoverage": 0.79669,
+        "matchedTokenCount": 674,
+        "totalTokenCount": 846
+      }
+    },
+    {
+      "file": "ielts_16_test2_passage1_927lvj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 41,
+      "wordCount": 956,
+      "charCount": 4478,
+      "syllableCount": 1460,
+      "complexWordCount": 39,
+      "readability": {
+        "fleschReadingEase": 53.967333911623655,
+        "fleschKincaidGrade": 11.524579038677416,
+        "ari": 12.290649556077149,
+        "colemanLiau": 10.473054393305436,
+        "gunningFog": 10.958628431472599
+      },
+      "informationDensity": {
+        "uniqueWordCount": 399,
+        "typeTokenRatio": 0.417364,
+        "rootTypeTokenRatio": 12.904582
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 117,
+        "keywordTypeDensity": 0.018828,
+        "keywordTokenDensity": 0.122385,
+        "selectedKeywords": [
+          "horse",
+          "uffington",
+          "figures",
+          "bronze",
+          "date",
+          "bce",
+          "age",
+          "white",
+          "carving",
+          "iron",
+          "geoglyphs",
+          "hill",
+          "chalk",
+          "hillfort",
+          "horses",
+          "grass",
+          "britain",
+          "period"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4423,
+        "meanAbstractness": 3.5577,
+        "concretenessCoverage": 0.824599,
+        "matchedTokenCount": 771,
+        "totalTokenCount": 935
+      }
+    },
+    {
+      "file": "ielts_16_test2_passage2_a27mbj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-2",
+        "passage": "passage2"
+      },
+      "sentenceCount": 47,
+      "wordCount": 912,
+      "charCount": 4346,
+      "syllableCount": 1452,
+      "complexWordCount": 29,
+      "readability": {
+        "fleschReadingEase": 52.44757558790596,
+        "fleschKincaidGrade": 10.764501679731243,
+        "ari": 10.716930291153417,
+        "colemanLiau": 10.694824561403511,
+        "gunningFog": 9.03363195222098
+      },
+      "informationDensity": {
+        "uniqueWordCount": 456,
+        "typeTokenRatio": 0.5,
+        "rootTypeTokenRatio": 15.099669
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 87,
+        "keywordTypeDensity": 0.020833,
+        "keywordTokenDensity": 0.095395,
+        "selectedKeywords": [
+          "microbes",
+          "yong",
+          "bacteria",
+          "microbial",
+          "disease",
+          "book",
+          "species",
+          "allergies",
+          "bacterium",
+          "immune",
+          "trillion",
+          "extraordinarily",
+          "mosquitoes",
+          "mutually",
+          "pasteur",
+          "human",
+          "creatures",
+          "planet",
+          "actually"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4729,
+        "meanAbstractness": 3.5271,
+        "concretenessCoverage": 0.842337,
+        "matchedTokenCount": 764,
+        "totalTokenCount": 907
+      }
+    },
+    {
+      "file": "ielts_16_test2_passage3_027mtj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 25,
+      "wordCount": 764,
+      "charCount": 4062,
+      "syllableCount": 1373,
+      "complexWordCount": 68,
+      "readability": {
+        "fleschReadingEase": 23.780212565445055,
+        "fleschKincaidGrade": 17.534420942408378,
+        "ari": 18.8919109947644,
+        "colemanLiau": 14.493926701570679,
+        "gunningFog": 15.78420942408377
+      },
+      "informationDensity": {
+        "uniqueWordCount": 353,
+        "typeTokenRatio": 0.462042,
+        "rootTypeTokenRatio": 12.771092
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 73,
+        "keywordTypeDensity": 0.022251,
+        "keywordTokenDensity": 0.09555,
+        "selectedKeywords": [
+          "wisdom",
+          "wise",
+          "grossmann",
+          "couples",
+          "humility",
+          "observer",
+          "perspectives",
+          "viewpoint",
+          "wisely",
+          "personality",
+          "factors",
+          "understanding",
+          "situations",
+          "traits",
+          "person",
+          "participants",
+          "reasoning"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2218,
+        "meanAbstractness": 3.7782,
+        "concretenessCoverage": 0.855832,
+        "matchedTokenCount": 653,
+        "totalTokenCount": 763
+      }
+    },
+    {
+      "file": "ielts_16_test3_passage1_827nbj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 43,
+      "wordCount": 819,
+      "charCount": 4004,
+      "syllableCount": 1298,
+      "complexWordCount": 31,
+      "readability": {
+        "fleschReadingEase": 53.42366981855355,
+        "fleschKincaidGrade": 10.539482636226825,
+        "ari": 11.119922480620154,
+        "colemanLiau": 11.39257631257631,
+        "gunningFog": 9.132646165204305
+      },
+      "informationDensity": {
+        "uniqueWordCount": 390,
+        "typeTokenRatio": 0.47619,
+        "rootTypeTokenRatio": 13.627703
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 84,
+        "keywordTypeDensity": 0.021978,
+        "keywordTokenDensity": 0.102564,
+        "selectedKeywords": [
+          "ships",
+          "rowers",
+          "hull",
+          "ancient",
+          "warships",
+          "merchant",
+          "roman",
+          "rome",
+          "shipbuilding",
+          "ship",
+          "built",
+          "sails",
+          "port",
+          "mediterranean",
+          "sail",
+          "vessels",
+          "romans",
+          "method"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4852,
+        "meanAbstractness": 3.5148,
+        "concretenessCoverage": 0.821516,
+        "matchedTokenCount": 672,
+        "totalTokenCount": 818
+      }
+    },
+    {
+      "file": "ielts_16_test3_passage3_227o8j.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 34,
+      "wordCount": 874,
+      "charCount": 4421,
+      "syllableCount": 1453,
+      "complexWordCount": 61,
+      "readability": {
+        "fleschReadingEase": 40.09844932023154,
+        "fleschKincaidGrade": 14.052456589042944,
+        "ari": 15.247780993404227,
+        "colemanLiau": 12.79162471395881,
+        "gunningFog": 13.074114954906449
+      },
+      "informationDensity": {
+        "uniqueWordCount": 373,
+        "typeTokenRatio": 0.426773,
+        "rootTypeTokenRatio": 12.616913
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 114,
+        "keywordTypeDensity": 0.019451,
+        "keywordTokenDensity": 0.130435,
+        "selectedKeywords": [
+          "temperature",
+          "phytochromes",
+          "plant",
+          "plants",
+          "molecules",
+          "wigge",
+          "thermometer",
+          "night",
+          "change",
+          "ash",
+          "phytochrome",
+          "growth",
+          "oak",
+          "crops",
+          "state",
+          "temperatures",
+          "light"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5304,
+        "meanAbstractness": 3.4696,
+        "concretenessCoverage": 0.813073,
+        "matchedTokenCount": 709,
+        "totalTokenCount": 872
+      }
+    },
+    {
+      "file": "ielts_16_test4_passage1_d27oqj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 37,
+      "wordCount": 907,
+      "charCount": 4276,
+      "syllableCount": 1378,
+      "complexWordCount": 20,
+      "readability": {
+        "fleschReadingEase": 53.421479483894046,
+        "fleschKincaidGrade": 11.897943919663877,
+        "ari": 13.031784320152568,
+        "colemanLiau": 10.713428886438805,
+        "gunningFog": 10.687434071337048
+      },
+      "informationDensity": {
+        "uniqueWordCount": 348,
+        "typeTokenRatio": 0.383682,
+        "rootTypeTokenRatio": 11.55515
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 114,
+        "keywordTypeDensity": 0.018743,
+        "keywordTokenDensity": 0.125689,
+        "selectedKeywords": [
+          "tunnel",
+          "tunnels",
+          "shafts",
+          "method",
+          "construction",
+          "qanat",
+          "rock",
+          "romans",
+          "built",
+          "mineral",
+          "counter",
+          "meter",
+          "meters",
+          "shaft",
+          "water",
+          "excavated",
+          "excavation"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5492,
+        "meanAbstractness": 3.4508,
+        "concretenessCoverage": 0.835973,
+        "matchedTokenCount": 739,
+        "totalTokenCount": 884
+      }
+    },
+    {
+      "file": "ielts_16_test4_passage2_027p7j.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-4",
+        "passage": "passage2"
+      },
+      "sentenceCount": 39,
+      "wordCount": 941,
+      "charCount": 4746,
+      "syllableCount": 1583,
+      "complexWordCount": 60,
+      "readability": {
+        "fleschReadingEase": 40.02627455788988,
+        "fleschKincaidGrade": 13.670584484590862,
+        "ari": 14.389320417450065,
+        "colemanLiau": 12.62941551540914,
+        "gunningFog": 12.201760265947302
+      },
+      "informationDensity": {
+        "uniqueWordCount": 438,
+        "typeTokenRatio": 0.465462,
+        "rootTypeTokenRatio": 14.278392
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 109,
+        "keywordTypeDensity": 0.020191,
+        "keywordTokenDensity": 0.115834,
+        "selectedKeywords": [
+          "reading",
+          "read",
+          "digital",
+          "circuit",
+          "students",
+          "brain",
+          "processes",
+          "critical",
+          "print",
+          "analysis",
+          "empathy",
+          "medium",
+          "information",
+          "deep",
+          "older",
+          "changing",
+          "allocated",
+          "binary",
+          "comprehension"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4389,
+        "meanAbstractness": 3.5611,
+        "concretenessCoverage": 0.86049,
+        "matchedTokenCount": 808,
+        "totalTokenCount": 939
+      }
+    },
+    {
+      "file": "ielts_16_test4_passage3_c27puj.json",
+      "index": {
+        "ielts": "ielts-16",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 44,
+      "wordCount": 898,
+      "charCount": 4391,
+      "syllableCount": 1472,
+      "complexWordCount": 45,
+      "readability": {
+        "fleschReadingEase": 47.44360346223934,
+        "fleschKincaidGrade": 11.71208443004657,
+        "ari": 11.805291556995343,
+        "colemanLiau": 11.50142538975501,
+        "gunningFog": 10.168090706620774
+      },
+      "informationDensity": {
+        "uniqueWordCount": 396,
+        "typeTokenRatio": 0.44098,
+        "rootTypeTokenRatio": 13.214691
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 81,
+        "keywordTypeDensity": 0.020045,
+        "keywordTokenDensity": 0.0902,
+        "selectedKeywords": [
+          "trust",
+          "watson",
+          "people",
+          "doctors",
+          "recommendations",
+          "treatment",
+          "simply",
+          "accept",
+          "media",
+          "already",
+          "experts",
+          "machine",
+          "decisions",
+          "supercomputer",
+          "improve",
+          "suggests",
+          "likely",
+          "instances"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3171,
+        "meanAbstractness": 3.6829,
+        "concretenessCoverage": 0.823596,
+        "matchedTokenCount": 733,
+        "totalTokenCount": 890
+      }
+    },
+    {
+      "file": "ielts_17_test1_passage1_c27quj.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 47,
+      "wordCount": 920,
+      "charCount": 4415,
+      "syllableCount": 1439,
+      "complexWordCount": 30,
+      "readability": {
+        "fleschReadingEase": 54.64148011100835,
+        "fleschKincaidGrade": 10.500781683626272,
+        "ari": 10.9601144773358,
+        "colemanLiau": 10.90543478260869,
+        "gunningFog": 9.134135060129509
+      },
+      "informationDensity": {
+        "uniqueWordCount": 384,
+        "typeTokenRatio": 0.417391,
+        "rootTypeTokenRatio": 12.660105
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 96,
+        "keywordTypeDensity": 0.019565,
+        "keywordTokenDensity": 0.104348,
+        "selectedKeywords": [
+          "railway",
+          "underground",
+          "london",
+          "city",
+          "line",
+          "metropolitan",
+          "capital",
+          "locomotives",
+          "tunnel",
+          "electric",
+          "passengers",
+          "steam",
+          "overground",
+          "pearson",
+          "slums",
+          "engines",
+          "operation",
+          "traffic"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4986,
+        "meanAbstractness": 3.5014,
+        "concretenessCoverage": 0.829268,
+        "matchedTokenCount": 748,
+        "totalTokenCount": 902
+      }
+    },
+    {
+      "file": "ielts_17_test1_passage3_d27rrj.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 35,
+      "wordCount": 997,
+      "charCount": 4496,
+      "syllableCount": 1490,
+      "complexWordCount": 29,
+      "readability": {
+        "fleschReadingEase": 51.488700100300946,
+        "fleschKincaidGrade": 13.154333285571003,
+        "ari": 14.052736781773888,
+        "colemanLiau": 9.676910732196585,
+        "gunningFog": 12.557776185699957
+      },
+      "informationDensity": {
+        "uniqueWordCount": 455,
+        "typeTokenRatio": 0.456369,
+        "rootTypeTokenRatio": 14.409995
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 95,
+        "keywordTypeDensity": 0.019057,
+        "keywordTokenDensity": 0.095286,
+        "selectedKeywords": [
+          "charles",
+          "king",
+          "spencer",
+          "story",
+          "worcester",
+          "book",
+          "catch",
+          "scots",
+          "weeks",
+          "army",
+          "oak",
+          "supporters",
+          "six",
+          "battle",
+          "father",
+          "paintings",
+          "series",
+          "spent",
+          "boscobel"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4562,
+        "meanAbstractness": 3.5438,
+        "concretenessCoverage": 0.842583,
+        "matchedTokenCount": 835,
+        "totalTokenCount": 991
+      }
+    },
+    {
+      "file": "ielts_17_test2_passage1_627s9j.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 34,
+      "wordCount": 802,
+      "charCount": 3893,
+      "syllableCount": 1259,
+      "complexWordCount": 36,
+      "readability": {
+        "fleschReadingEase": 50.08570925627109,
+        "fleschKincaidGrade": 12.133351914331822,
+        "ari": 13.226997946310696,
+        "colemanLiau": 11.487331670822936,
+        "gunningFog": 11.230805339592198
+      },
+      "informationDensity": {
+        "uniqueWordCount": 390,
+        "typeTokenRatio": 0.486284,
+        "rootTypeTokenRatio": 13.771379
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 79,
+        "keywordTypeDensity": 0.022444,
+        "keywordTokenDensity": 0.098504,
+        "selectedKeywords": [
+          "scrolls",
+          "dead",
+          "scroll",
+          "sea",
+          "manuscripts",
+          "fragments",
+          "bce",
+          "hebrew",
+          "jerusalem",
+          "qumran",
+          "bible",
+          "biblical",
+          "religious",
+          "texts",
+          "known",
+          "dealer",
+          "deciphered",
+          "judea"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4954,
+        "meanAbstractness": 3.5046,
+        "concretenessCoverage": 0.818646,
+        "matchedTokenCount": 641,
+        "totalTokenCount": 783
+      }
+    },
+    {
+      "file": "ielts_17_test2_passage3_627t7j.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 44,
+      "wordCount": 943,
+      "charCount": 4881,
+      "syllableCount": 1664,
+      "complexWordCount": 71,
+      "readability": {
+        "fleschReadingEase": 35.79814144895403,
+        "fleschKincaidGrade": 13.590466354959997,
+        "ari": 13.665028921237827,
+        "colemanLiau": 13.253955461293739,
+        "gunningFog": 11.584392171984963
+      },
+      "informationDensity": {
+        "uniqueWordCount": 471,
+        "typeTokenRatio": 0.49947,
+        "rootTypeTokenRatio": 15.33787
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 20,
+        "keywordTokenCount": 84,
+        "keywordTypeDensity": 0.021209,
+        "keywordTokenDensity": 0.089077,
+        "selectedKeywords": [
+          "law",
+          "nicholson",
+          "innovation",
+          "scientific",
+          "darwin",
+          "mutations",
+          "genius",
+          "elements",
+          "may",
+          "acey",
+          "deucy",
+          "proto",
+          "science",
+          "selection",
+          "left",
+          "contributions",
+          "insight",
+          "notions",
+          "random",
+          "creativity"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3145,
+        "meanAbstractness": 3.6855,
+        "concretenessCoverage": 0.830851,
+        "matchedTokenCount": 781,
+        "totalTokenCount": 940
+      }
+    },
+    {
+      "file": "ielts_17_test3_passage1_c27tpj.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 33,
+      "wordCount": 836,
+      "charCount": 4048,
+      "syllableCount": 1329,
+      "complexWordCount": 27,
+      "readability": {
+        "fleschReadingEase": 46.631953748006396,
+        "fleschKincaidGrade": 13.048612440191388,
+        "ari": 14.04298245614035,
+        "colemanLiau": 11.503157894736841,
+        "gunningFog": 11.425199362041468
+      },
+      "informationDensity": {
+        "uniqueWordCount": 393,
+        "typeTokenRatio": 0.470096,
+        "rootTypeTokenRatio": 13.592189
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 74,
+        "keywordTypeDensity": 0.021531,
+        "keywordTokenDensity": 0.088517,
+        "selectedKeywords": [
+          "thylacine",
+          "tasmania",
+          "zoo",
+          "australia",
+          "species",
+          "pouch",
+          "tasmanian",
+          "thylacines",
+          "wild",
+          "mother",
+          "breeding",
+          "extinction",
+          "decline",
+          "belly",
+          "bounty",
+          "dingoes",
+          "hobart",
+          "hunters"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4255,
+        "meanAbstractness": 3.5745,
+        "concretenessCoverage": 0.839461,
+        "matchedTokenCount": 685,
+        "totalTokenCount": 816
+      }
+    },
+    {
+      "file": "ielts_17_test3_passage3_f27umj.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 41,
+      "wordCount": 1023,
+      "charCount": 5093,
+      "syllableCount": 1680,
+      "complexWordCount": 59,
+      "readability": {
+        "fleschReadingEase": 42.57696087547387,
+        "fleschKincaidGrade": 13.519274729990702,
+        "ari": 14.494319433516914,
+        "colemanLiau": 12.287233626588463,
+        "gunningFog": 12.28742817633455
+      },
+      "informationDensity": {
+        "uniqueWordCount": 421,
+        "typeTokenRatio": 0.411535,
+        "rootTypeTokenRatio": 13.162679
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 123,
+        "keywordTypeDensity": 0.018573,
+        "keywordTokenDensity": 0.120235,
+        "selectedKeywords": [
+          "barr",
+          "chapter",
+          "height",
+          "building",
+          "bedrock",
+          "york",
+          "chapters",
+          "book",
+          "developer",
+          "skyscrapers",
+          "land",
+          "city",
+          "reader",
+          "boom",
+          "economics",
+          "neighborhoods",
+          "primarily",
+          "skyline",
+          "skyscraper"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4923,
+        "meanAbstractness": 3.5077,
+        "concretenessCoverage": 0.839567,
+        "matchedTokenCount": 853,
+        "totalTokenCount": 1016
+      }
+    },
+    {
+      "file": "ielts_17_test4_passage1_727v4j.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 38,
+      "wordCount": 895,
+      "charCount": 4500,
+      "syllableCount": 1480,
+      "complexWordCount": 66,
+      "readability": {
+        "fleschReadingEase": 43.031872243457826,
+        "fleschKincaidGrade": 13.10837547780065,
+        "ari": 14.027880035283744,
+        "colemanLiau": 12.507486033519552,
+        "gunningFog": 12.370773301970011
+      },
+      "informationDensity": {
+        "uniqueWordCount": 417,
+        "typeTokenRatio": 0.465922,
+        "rootTypeTokenRatio": 13.938773
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 111,
+        "keywordTypeDensity": 0.020112,
+        "keywordTokenDensity": 0.124022,
+        "selectedKeywords": [
+          "bats",
+          "bat",
+          "rocha",
+          "rice",
+          "madagascar",
+          "fields",
+          "farmers",
+          "pest",
+          "pests",
+          "species",
+          "deforestation",
+          "insect",
+          "malagasy",
+          "island",
+          "crop",
+          "feeding",
+          "conservation",
+          "insects"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6425,
+        "meanAbstractness": 3.3575,
+        "concretenessCoverage": 0.819911,
+        "matchedTokenCount": 733,
+        "totalTokenCount": 894
+      }
+    },
+    {
+      "file": "ielts_17_test4_passage3_f27w0j.json",
+      "index": {
+        "ielts": "ielts-17",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 54,
+      "wordCount": 887,
+      "charCount": 4032,
+      "syllableCount": 1286,
+      "complexWordCount": 23,
+      "readability": {
+        "fleschReadingEase": 67.5069918368199,
+        "fleschKincaidGrade": 7.9241156206939785,
+        "ari": 8.193019332748761,
+        "colemanLiau": 9.126448703494926,
+        "gunningFog": 7.6075744289949485
+      },
+      "informationDensity": {
+        "uniqueWordCount": 396,
+        "typeTokenRatio": 0.446449,
+        "rootTypeTokenRatio": 13.296379
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 103,
+        "keywordTypeDensity": 0.020293,
+        "keywordTokenDensity": 0.116122,
+        "selectedKeywords": [
+          "gareyev",
+          "chess",
+          "games",
+          "brain",
+          "blindfold",
+          "player",
+          "rissman",
+          "mind",
+          "memory",
+          "moves",
+          "play",
+          "said",
+          "players",
+          "playing",
+          "scans",
+          "skill",
+          "network",
+          "tests"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.55,
+        "meanAbstractness": 3.45,
+        "concretenessCoverage": 0.811711,
+        "matchedTokenCount": 707,
+        "totalTokenCount": 871
+      }
+    },
+    {
+      "file": "ielts_18_test1_passage1_227wjj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 31,
+      "wordCount": 786,
+      "charCount": 3733,
+      "syllableCount": 1210,
+      "complexWordCount": 32,
+      "readability": {
+        "fleschReadingEase": 50.8631974883034,
+        "fleschKincaidGrade": 12.46378149880982,
+        "ari": 13.616923171632607,
+        "colemanLiau": 10.958829516539438,
+        "gunningFog": 11.770434211606338
+      },
+      "informationDensity": {
+        "uniqueWordCount": 394,
+        "typeTokenRatio": 0.501272,
+        "rootTypeTokenRatio": 14.053515
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 72,
+        "keywordTypeDensity": 0.022901,
+        "keywordTokenDensity": 0.091603,
+        "selectedKeywords": [
+          "urban",
+          "soil",
+          "farming",
+          "hardy",
+          "tubes",
+          "paris",
+          "fruit",
+          "strawberries",
+          "varieties",
+          "agriculture",
+          "space",
+          "intensive",
+          "free",
+          "farm",
+          "vegetables",
+          "farmers",
+          "roots",
+          "grown"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.578,
+        "meanAbstractness": 3.422,
+        "concretenessCoverage": 0.826597,
+        "matchedTokenCount": 634,
+        "totalTokenCount": 767
+      }
+    },
+    {
+      "file": "ielts_18_test2_passage1_427xyj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 33,
+      "wordCount": 824,
+      "charCount": 4315,
+      "syllableCount": 1393,
+      "complexWordCount": 38,
+      "readability": {
+        "fleschReadingEase": 38.47158281847604,
+        "fleschKincaidGrade": 14.096482789055607,
+        "ari": 15.719472271256251,
+        "colemanLiau": 13.806067961165045,
+        "gunningFog": 11.832538982053546
+      },
+      "informationDensity": {
+        "uniqueWordCount": 397,
+        "typeTokenRatio": 0.481796,
+        "rootTypeTokenRatio": 13.83015
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 78,
+        "keywordTypeDensity": 0.021845,
+        "keywordTokenDensity": 0.09466,
+        "selectedKeywords": [
+          "stonehenge",
+          "builders",
+          "bluestones",
+          "stones",
+          "archaeologists",
+          "site",
+          "circular",
+          "plain",
+          "salisbury",
+          "tools",
+          "dating",
+          "theory",
+          "prehistoric",
+          "boulders",
+          "britons",
+          "druids",
+          "fashioned",
+          "iconic"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3313,
+        "meanAbstractness": 3.6687,
+        "concretenessCoverage": 0.770654,
+        "matchedTokenCount": 625,
+        "totalTokenCount": 811
+      }
+    },
+    {
+      "file": "ielts_18_test2_passage2_427yej.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-2",
+        "passage": "passage2"
+      },
+      "sentenceCount": 52,
+      "wordCount": 1000,
+      "charCount": 4508,
+      "syllableCount": 1510,
+      "complexWordCount": 36,
+      "readability": {
+        "fleschReadingEase": 59.56976923076924,
+        "fleschKincaidGrade": 9.728000000000002,
+        "ari": 9.418064615384615,
+        "colemanLiau": 9.167839999999998,
+        "gunningFog": 9.132307692307691
+      },
+      "informationDensity": {
+        "uniqueWordCount": 410,
+        "typeTokenRatio": 0.41,
+        "rootTypeTokenRatio": 12.965338
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 88,
+        "keywordTypeDensity": 0.018,
+        "keywordTokenDensity": 0.088,
+        "selectedKeywords": [
+          "machines",
+          "moral",
+          "human",
+          "intelligence",
+          "powerful",
+          "might",
+          "super",
+          "reliably",
+          "better",
+          "destination",
+          "safety",
+          "direction",
+          "values",
+          "freedom",
+          "mean",
+          "goals",
+          "presently",
+          "ground"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3103,
+        "meanAbstractness": 3.6897,
+        "concretenessCoverage": 0.87,
+        "matchedTokenCount": 870,
+        "totalTokenCount": 1000
+      }
+    },
+    {
+      "file": "ielts_18_test2_passage3_b27yvj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 33,
+      "wordCount": 818,
+      "charCount": 4151,
+      "syllableCount": 1403,
+      "complexWordCount": 30,
+      "readability": {
+        "fleschReadingEase": 36.57285804252797,
+        "fleschKincaidGrade": 14.316148032896201,
+        "ari": 14.865174112765807,
+        "colemanLiau": 12.84435207823961,
+        "gunningFog": 11.382144180188192
+      },
+      "informationDensity": {
+        "uniqueWordCount": 411,
+        "typeTokenRatio": 0.502445,
+        "rootTypeTokenRatio": 14.370278
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 91,
+        "keywordTypeDensity": 0.022005,
+        "keywordTokenDensity": 0.111247,
+        "selectedKeywords": [
+          "leonardo",
+          "city",
+          "renaissance",
+          "urban",
+          "cities",
+          "italy",
+          "streets",
+          "architecture",
+          "ideal",
+          "modern",
+          "planning",
+          "transport",
+          "compact",
+          "crisis",
+          "centuries",
+          "today",
+          "design",
+          "canals"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3651,
+        "meanAbstractness": 3.6349,
+        "concretenessCoverage": 0.809816,
+        "matchedTokenCount": 660,
+        "totalTokenCount": 815
+      }
+    },
+    {
+      "file": "ielts_18_test3_passage2_a27zzj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-3",
+        "passage": "passage2"
+      },
+      "sentenceCount": 43,
+      "wordCount": 963,
+      "charCount": 4725,
+      "syllableCount": 1561,
+      "complexWordCount": 43,
+      "readability": {
+        "fleschReadingEase": 46.969141490980235,
+        "fleschKincaidGrade": 12.271704218889614,
+        "ari": 12.877487502716797,
+        "colemanLiau": 11.728764278296985,
+        "gunningFog": 10.744224685454853
+      },
+      "informationDensity": {
+        "uniqueWordCount": 442,
+        "typeTokenRatio": 0.458982,
+        "rootTypeTokenRatio": 14.243251
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 115,
+        "keywordTypeDensity": 0.01973,
+        "keywordTokenDensity": 0.119418,
+        "selectedKeywords": [
+          "steam",
+          "doble",
+          "cars",
+          "brothers",
+          "model",
+          "car",
+          "abner",
+          "automobile",
+          "engine",
+          "gasoline",
+          "miles",
+          "automobiles",
+          "dobles",
+          "drove",
+          "pressure",
+          "emissions",
+          "engines",
+          "design",
+          "road"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5325,
+        "meanAbstractness": 3.4675,
+        "concretenessCoverage": 0.83245,
+        "matchedTokenCount": 785,
+        "totalTokenCount": 943
+      }
+    },
+    {
+      "file": "ielts_18_test3_passage3_2280gj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 54,
+      "wordCount": 943,
+      "charCount": 4715,
+      "syllableCount": 1553,
+      "complexWordCount": 55,
+      "readability": {
+        "fleschReadingEase": 49.78474794784182,
+        "fleschKincaidGrade": 10.65364145163191,
+        "ari": 10.851481481481478,
+        "colemanLiau": 11.904984093319193,
+        "gunningFog": 9.31816503672283
+      },
+      "informationDensity": {
+        "uniqueWordCount": 452,
+        "typeTokenRatio": 0.479321,
+        "rootTypeTokenRatio": 14.719145
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 84,
+        "keywordTypeDensity": 0.020148,
+        "keywordTokenDensity": 0.089077,
+        "selectedKeywords": [
+          "students",
+          "teachers",
+          "class",
+          "streaming",
+          "student",
+          "teacher",
+          "mixed",
+          "hike",
+          "sets",
+          "shakespeare",
+          "learning",
+          "achievement",
+          "ability",
+          "brightest",
+          "diagnosed",
+          "fittest",
+          "hattie",
+          "hiking",
+          "knowledgeable"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3188,
+        "meanAbstractness": 3.6812,
+        "concretenessCoverage": 0.839532,
+        "matchedTokenCount": 790,
+        "totalTokenCount": 941
+      }
+    },
+    {
+      "file": "ielts_18_test4_passage2_e281fj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-4",
+        "passage": "passage2"
+      },
+      "sentenceCount": 36,
+      "wordCount": 948,
+      "charCount": 4665,
+      "syllableCount": 1527,
+      "complexWordCount": 66,
+      "readability": {
+        "fleschReadingEase": 43.836413502109735,
+        "fleschKincaidGrade": 13.686962025316454,
+        "ari": 14.914040084388184,
+        "colemanLiau": 12.010759493670886,
+        "gunningFog": 13.318143459915612
+      },
+      "informationDensity": {
+        "uniqueWordCount": 429,
+        "typeTokenRatio": 0.452532,
+        "rootTypeTokenRatio": 13.933272
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 102,
+        "keywordTypeDensity": 0.020042,
+        "keywordTokenDensity": 0.107595,
+        "selectedKeywords": [
+          "mindset",
+          "growth",
+          "failure",
+          "students",
+          "dweck",
+          "interventions",
+          "effort",
+          "intelligence",
+          "ability",
+          "fixed",
+          "classroom",
+          "intervention",
+          "praising",
+          "innate",
+          "schools",
+          "achievement",
+          "work",
+          "grades",
+          "motivational"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.239,
+        "meanAbstractness": 3.761,
+        "concretenessCoverage": 0.867865,
+        "matchedTokenCount": 821,
+        "totalTokenCount": 946
+      }
+    },
+    {
+      "file": "ielts_18_test4_passage3_c281wj.json",
+      "index": {
+        "ielts": "ielts-18",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 33,
+      "wordCount": 945,
+      "charCount": 4520,
+      "syllableCount": 1542,
+      "complexWordCount": 49,
+      "readability": {
+        "fleschReadingEase": 39.72337662337665,
+        "fleschKincaidGrade": 14.832784992784994,
+        "ari": 15.416435786435791,
+        "colemanLiau": 11.290793650793653,
+        "gunningFog": 13.52861952861953
+      },
+      "informationDensity": {
+        "uniqueWordCount": 395,
+        "typeTokenRatio": 0.417989,
+        "rootTypeTokenRatio": 12.849351
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 104,
+        "keywordTypeDensity": 0.019048,
+        "keywordTokenDensity": 0.110053,
+        "selectedKeywords": [
+          "wegener",
+          "continental",
+          "drift",
+          "theory",
+          "scientific",
+          "atmospheric",
+          "life",
+          "sciences",
+          "work",
+          "continents",
+          "notebooks",
+          "tectonics",
+          "darwin",
+          "lifetime",
+          "physics",
+          "plate",
+          "book",
+          "alfred"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.349,
+        "meanAbstractness": 3.651,
+        "concretenessCoverage": 0.83778,
+        "matchedTokenCount": 785,
+        "totalTokenCount": 937
+      }
+    },
+    {
+      "file": "ielts_19_test1_passage1_628w3j.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 43,
+      "wordCount": 914,
+      "charCount": 4508,
+      "syllableCount": 1476,
+      "complexWordCount": 50,
+      "readability": {
+        "fleschReadingEase": 48.64153045646532,
+        "fleschKincaidGrade": 11.755347310569437,
+        "ari": 12.428410259019898,
+        "colemanLiau": 11.808577680525161,
+        "gunningFog": 10.690509388835174
+      },
+      "informationDensity": {
+        "uniqueWordCount": 398,
+        "typeTokenRatio": 0.435449,
+        "rootTypeTokenRatio": 13.16467
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 104,
+        "keywordTypeDensity": 0.019694,
+        "keywordTokenDensity": 0.113786,
+        "selectedKeywords": [
+          "racket",
+          "rackets",
+          "string",
+          "players",
+          "strings",
+          "professional",
+          "tennis",
+          "polyester",
+          "player",
+          "modifications",
+          "murray",
+          "frame",
+          "handle",
+          "mains",
+          "thinner",
+          "natural",
+          "changes",
+          "crosses"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4095,
+        "meanAbstractness": 3.5905,
+        "concretenessCoverage": 0.837541,
+        "matchedTokenCount": 763,
+        "totalTokenCount": 911
+      }
+    },
+    {
+      "file": "ielts_19_test1_passage3_628x2j.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 33,
+      "wordCount": 927,
+      "charCount": 5207,
+      "syllableCount": 1778,
+      "complexWordCount": 111,
+      "readability": {
+        "fleschReadingEase": 16.058649602824403,
+        "fleschKincaidGrade": 17.998032754731785,
+        "ari": 19.071732862606645,
+        "colemanLiau": 16.174498381877022,
+        "gunningFog": 16.02600764930862
+      },
+      "informationDensity": {
+        "uniqueWordCount": 463,
+        "typeTokenRatio": 0.499461,
+        "rootTypeTokenRatio": 15.206915
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 20,
+        "keywordTokenCount": 100,
+        "keywordTypeDensity": 0.021575,
+        "keywordTokenDensity": 0.107875,
+        "selectedKeywords": [
+          "misinformation",
+          "information",
+          "false",
+          "audiences",
+          "media",
+          "people",
+          "potential",
+          "fda",
+          "spinoza",
+          "drug",
+          "advertising",
+          "observation",
+          "offer",
+          "widespread",
+          "effort",
+          "descartes",
+          "encounter",
+          "monitoring",
+          "regulatory",
+          "verify"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3124,
+        "meanAbstractness": 3.6876,
+        "concretenessCoverage": 0.850054,
+        "matchedTokenCount": 788,
+        "totalTokenCount": 927
+      }
+    },
+    {
+      "file": "ielts_19_test2_passage1_328xkj.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 39,
+      "wordCount": 909,
+      "charCount": 4716,
+      "syllableCount": 1560,
+      "complexWordCount": 46,
+      "readability": {
+        "fleschReadingEase": 37.98957349581116,
+        "fleschKincaidGrade": 13.75082508250825,
+        "ari": 14.65988575780655,
+        "colemanLiau": 13.436171617161715,
+        "gunningFog": 11.347279343318947
+      },
+      "informationDensity": {
+        "uniqueWordCount": 418,
+        "typeTokenRatio": 0.459846,
+        "rootTypeTokenRatio": 13.864185
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 91,
+        "keywordTypeDensity": 0.020902,
+        "keywordTokenDensity": 0.10011,
+        "selectedKeywords": [
+          "industrial",
+          "revolution",
+          "steam",
+          "luddites",
+          "textile",
+          "factories",
+          "british",
+          "britain",
+          "machines",
+          "breaking",
+          "machine",
+          "iron",
+          "cloth",
+          "industrialisation",
+          "newcomen",
+          "weavers",
+          "goods",
+          "engine",
+          "powered"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4841,
+        "meanAbstractness": 3.5159,
+        "concretenessCoverage": 0.781354,
+        "matchedTokenCount": 704,
+        "totalTokenCount": 901
+      }
+    },
+    {
+      "file": "ielts_19_test2_passage3_c28yvj.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 51,
+      "wordCount": 968,
+      "charCount": 4571,
+      "syllableCount": 1503,
+      "complexWordCount": 50,
+      "readability": {
+        "fleschReadingEase": 56.21267055582567,
+        "fleschKincaidGrade": 10.134047156052503,
+        "ari": 10.301322111489227,
+        "colemanLiau": 10.406487603305788,
+        "gunningFog": 9.658272565224436
+      },
+      "informationDensity": {
+        "uniqueWordCount": 466,
+        "typeTokenRatio": 0.481405,
+        "rootTypeTokenRatio": 14.977807
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 71,
+        "keywordTypeDensity": 0.019628,
+        "keywordTokenDensity": 0.073347,
+        "selectedKeywords": [
+          "maths",
+          "gifted",
+          "school",
+          "high",
+          "research",
+          "curiosity",
+          "eyre",
+          "mirzakhani",
+          "performers",
+          "performance",
+          "bloom",
+          "genius",
+          "memory",
+          "let",
+          "children",
+          "approaches",
+          "ericsson",
+          "hooked",
+          "prof"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4601,
+        "meanAbstractness": 3.5399,
+        "concretenessCoverage": 0.8564,
+        "matchedTokenCount": 823,
+        "totalTokenCount": 961
+      }
+    },
+    {
+      "file": "ielts_19_test3_passage1_728zdj.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 31,
+      "wordCount": 774,
+      "charCount": 3747,
+      "syllableCount": 1231,
+      "complexWordCount": 28,
+      "readability": {
+        "fleschReadingEase": 46.9415791447862,
+        "fleschKincaidGrade": 12.914602817371012,
+        "ari": 13.855382595648912,
+        "colemanLiau": 11.480051679586559,
+        "gunningFog": 11.43412519796616
+      },
+      "informationDensity": {
+        "uniqueWordCount": 350,
+        "typeTokenRatio": 0.452196,
+        "rootTypeTokenRatio": 12.58049
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 98,
+        "keywordTypeDensity": 0.021964,
+        "keywordTokenDensity": 0.126615,
+        "selectedKeywords": [
+          "obi",
+          "kelo",
+          "axes",
+          "islands",
+          "shelters",
+          "island",
+          "dense",
+          "shipton",
+          "people",
+          "excavation",
+          "shells",
+          "ago",
+          "occupation",
+          "hunting",
+          "team",
+          "likely",
+          "prehistoric"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5058,
+        "meanAbstractness": 3.4942,
+        "concretenessCoverage": 0.810526,
+        "matchedTokenCount": 616,
+        "totalTokenCount": 760
+      }
+    },
+    {
+      "file": "ielts_19_test3_passage3_e290aj.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 41,
+      "wordCount": 965,
+      "charCount": 4813,
+      "syllableCount": 1568,
+      "complexWordCount": 47,
+      "readability": {
+        "fleschReadingEase": 45.48132440288137,
+        "fleschKincaidGrade": 12.7627397952736,
+        "ari": 13.829722734740301,
+        "colemanLiau": 12.269264248704665,
+        "gunningFog": 11.362820674838872
+      },
+      "informationDensity": {
+        "uniqueWordCount": 459,
+        "typeTokenRatio": 0.475648,
+        "rootTypeTokenRatio": 14.775733
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 90,
+        "keywordTypeDensity": 0.019689,
+        "keywordTokenDensity": 0.093264,
+        "selectedKeywords": [
+          "translation",
+          "language",
+          "waibel",
+          "voice",
+          "speech",
+          "devices",
+          "artificial",
+          "translator",
+          "english",
+          "noise",
+          "value",
+          "sharing",
+          "though",
+          "technology",
+          "speaking",
+          "babel",
+          "dream",
+          "earpieces",
+          "ears"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4021,
+        "meanAbstractness": 3.5979,
+        "concretenessCoverage": 0.836798,
+        "matchedTokenCount": 805,
+        "totalTokenCount": 962
+      }
+    },
+    {
+      "file": "ielts_19_test4_passage1_f290tj.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 35,
+      "wordCount": 837,
+      "charCount": 4193,
+      "syllableCount": 1367,
+      "complexWordCount": 51,
+      "readability": {
+        "fleschReadingEase": 44.392107526881745,
+        "fleschKincaidGrade": 13.0084949650111,
+        "ari": 14.12216077828981,
+        "colemanLiau": 12.418446833930709,
+        "gunningFog": 12.002990271377369
+      },
+      "informationDensity": {
+        "uniqueWordCount": 368,
+        "typeTokenRatio": 0.439665,
+        "rootTypeTokenRatio": 12.719941
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 98,
+        "keywordTypeDensity": 0.020311,
+        "keywordTokenDensity": 0.117085,
+        "selectedKeywords": [
+          "butterfly",
+          "species",
+          "butterflies",
+          "phenology",
+          "britain",
+          "climate",
+          "year",
+          "advancing",
+          "caterpillar",
+          "conservationists",
+          "spring",
+          "change",
+          "earlier",
+          "generation",
+          "plant",
+          "researchers",
+          "abundance"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4239,
+        "meanAbstractness": 3.5761,
+        "concretenessCoverage": 0.856454,
+        "matchedTokenCount": 710,
+        "totalTokenCount": 829
+      }
+    },
+    {
+      "file": "ielts_19_test4_passage3_9291qj.json",
+      "index": {
+        "ielts": "ielts-19",
+        "test": "test-4",
+        "passage": "passage3"
+      },
+      "sentenceCount": 36,
+      "wordCount": 836,
+      "charCount": 4222,
+      "syllableCount": 1418,
+      "complexWordCount": 67,
+      "readability": {
+        "fleschReadingEase": 39.768272195640634,
+        "fleschKincaidGrade": 13.481499202551834,
+        "ari": 13.967737905369482,
+        "colemanLiau": 12.62076555023923,
+        "gunningFog": 12.494630515683149
+      },
+      "informationDensity": {
+        "uniqueWordCount": 384,
+        "typeTokenRatio": 0.45933,
+        "rootTypeTokenRatio": 13.280918
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 66,
+        "keywordTypeDensity": 0.020335,
+        "keywordTokenDensity": 0.078947,
+        "selectedKeywords": [
+          "traits",
+          "hunter",
+          "prehistoric",
+          "groups",
+          "gatherer",
+          "evolutionary",
+          "egalitarianism",
+          "selfishness",
+          "warfare",
+          "population",
+          "societies",
+          "arrow",
+          "brutal",
+          "dawkins",
+          "gatherers",
+          "hierarchical",
+          "knauft"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.2138,
+        "meanAbstractness": 3.7862,
+        "concretenessCoverage": 0.839952,
+        "matchedTokenCount": 698,
+        "totalTokenCount": 831
+      }
+    },
+    {
+      "file": "ielts_20_test1_passage1_82edpj.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-1",
+        "passage": "passage1"
+      },
+      "sentenceCount": 50,
+      "wordCount": 883,
+      "charCount": 4267,
+      "syllableCount": 1419,
+      "complexWordCount": 51,
+      "readability": {
+        "fleschReadingEase": 52.95607961494906,
+        "fleschKincaidGrade": 10.260253907134768,
+        "ari": 10.16055492638732,
+        "colemanLiau": 10.938346545866366,
+        "gunningFog": 9.374305775764439
+      },
+      "informationDensity": {
+        "uniqueWordCount": 378,
+        "typeTokenRatio": 0.428086,
+        "rootTypeTokenRatio": 12.720713
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 92,
+        "keywordTypeDensity": 0.020385,
+        "keywordTokenDensity": 0.10419,
+        "selectedKeywords": [
+          "island",
+          "birds",
+          "chicks",
+          "population",
+          "zealand",
+          "females",
+          "cats",
+          "fiordland",
+          "flightless",
+          "parrot",
+          "stoats",
+          "new",
+          "islands",
+          "eggs",
+          "recovery",
+          "species",
+          "predator",
+          "arrived"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.4678,
+        "meanAbstractness": 3.5322,
+        "concretenessCoverage": 0.752203,
+        "matchedTokenCount": 683,
+        "totalTokenCount": 908
+      }
+    },
+    {
+      "file": "ielts_20_test1_passage3_e2eemj.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-1",
+        "passage": "passage3"
+      },
+      "sentenceCount": 41,
+      "wordCount": 966,
+      "charCount": 4748,
+      "syllableCount": 1572,
+      "complexWordCount": 50,
+      "readability": {
+        "fleschReadingEase": 45.24856006665661,
+        "fleschKincaidGrade": 12.801264959854567,
+        "ari": 13.500674140281781,
+        "colemanLiau": 11.844554865424428,
+        "gunningFog": 11.494783618643641
+      },
+      "informationDensity": {
+        "uniqueWordCount": 436,
+        "typeTokenRatio": 0.451346,
+        "rootTypeTokenRatio": 14.02807
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 81,
+        "keywordTypeDensity": 0.019669,
+        "keywordTokenDensity": 0.083851,
+        "selectedKeywords": [
+          "stress",
+          "news",
+          "likelihood",
+          "messages",
+          "firefighters",
+          "information",
+          "media",
+          "alarming",
+          "card",
+          "fraud",
+          "stressed",
+          "stressful",
+          "triggered",
+          "bad",
+          "negative",
+          "increases",
+          "neural",
+          "switch",
+          "events"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3581,
+        "meanAbstractness": 3.6419,
+        "concretenessCoverage": 0.858031,
+        "matchedTokenCount": 828,
+        "totalTokenCount": 965
+      }
+    },
+    {
+      "file": "ielts_20_test2_passage1_f2eidj.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-2",
+        "passage": "passage1"
+      },
+      "sentenceCount": 49,
+      "wordCount": 839,
+      "charCount": 3997,
+      "syllableCount": 1320,
+      "complexWordCount": 24,
+      "readability": {
+        "fleschReadingEase": 56.35440320108975,
+        "fleschKincaidGrade": 9.652713385711856,
+        "ari": 9.569686945099853,
+        "colemanLiau": 10.483623361144222,
+        "gunningFog": 7.99319890053757
+      },
+      "informationDensity": {
+        "uniqueWordCount": 363,
+        "typeTokenRatio": 0.432658,
+        "rootTypeTokenRatio": 12.532152
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 17,
+        "keywordTokenCount": 116,
+        "keywordTypeDensity": 0.020262,
+        "keywordTokenDensity": 0.13826,
+        "selectedKeywords": [
+          "manatees",
+          "manatee",
+          "amazonian",
+          "african",
+          "florida",
+          "indian",
+          "aquatic",
+          "teeth",
+          "waters",
+          "west",
+          "mammals",
+          "water",
+          "species",
+          "flippers",
+          "trichechus",
+          "food",
+          "found"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.6746,
+        "meanAbstractness": 3.3254,
+        "concretenessCoverage": 0.792638,
+        "matchedTokenCount": 646,
+        "totalTokenCount": 815
+      }
+    },
+    {
+      "file": "ielts_20_test2_passage3_12etrj.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-2",
+        "passage": "passage3"
+      },
+      "sentenceCount": 55,
+      "wordCount": 993,
+      "charCount": 4464,
+      "syllableCount": 1463,
+      "complexWordCount": 23,
+      "readability": {
+        "fleschReadingEase": 63.867340291128855,
+        "fleschKincaidGrade": 8.836368396960541,
+        "ari": 8.770928316396596,
+        "colemanLiau": 8.993877139979855,
+        "gunningFog": 8.148303579602674
+      },
+      "informationDensity": {
+        "uniqueWordCount": 444,
+        "typeTokenRatio": 0.44713,
+        "rootTypeTokenRatio": 14.089914
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 105,
+        "keywordTypeDensity": 0.019134,
+        "keywordTokenDensity": 0.10574,
+        "selectedKeywords": [
+          "strike",
+          "baseball",
+          "zone",
+          "abs",
+          "umpire",
+          "mlb",
+          "game",
+          "ball",
+          "batter",
+          "dejesus",
+          "robo",
+          "sword",
+          "umpires",
+          "calls",
+          "perfect",
+          "viola",
+          "league",
+          "precise",
+          "action"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5373,
+        "meanAbstractness": 3.4627,
+        "concretenessCoverage": 0.833669,
+        "matchedTokenCount": 827,
+        "totalTokenCount": 992
+      }
+    },
+    {
+      "file": "ielts_20_test3_passage1_c2eu9j.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-3",
+        "passage": "passage1"
+      },
+      "sentenceCount": 48,
+      "wordCount": 910,
+      "charCount": 4418,
+      "syllableCount": 1448,
+      "complexWordCount": 31,
+      "readability": {
+        "fleschReadingEase": 52.97602793040295,
+        "fleschKincaidGrade": 10.580013736263737,
+        "ari": 10.91595787545787,
+        "colemanLiau": 11.185758241758236,
+        "gunningFog": 8.945970695970695
+      },
+      "informationDensity": {
+        "uniqueWordCount": 402,
+        "typeTokenRatio": 0.441758,
+        "rootTypeTokenRatio": 13.32617
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 18,
+        "keywordTokenCount": 97,
+        "keywordTypeDensity": 0.01978,
+        "keywordTokenDensity": 0.106593,
+        "selectedKeywords": [
+          "frozen",
+          "food",
+          "birdseye",
+          "ice",
+          "freezing",
+          "foods",
+          "billion",
+          "freezers",
+          "consumers",
+          "australian",
+          "industry",
+          "dinner",
+          "insulated",
+          "sales",
+          "usa",
+          "sold",
+          "gas",
+          "quick"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5974,
+        "meanAbstractness": 3.4026,
+        "concretenessCoverage": 0.832584,
+        "matchedTokenCount": 741,
+        "totalTokenCount": 890
+      }
+    },
+    {
+      "file": "ielts_20_test3_passage3_e2eyyj.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-3",
+        "passage": "passage3"
+      },
+      "sentenceCount": 25,
+      "wordCount": 982,
+      "charCount": 4828,
+      "syllableCount": 1607,
+      "complexWordCount": 57,
+      "readability": {
+        "fleschReadingEase": 28.521604480651746,
+        "fleschKincaidGrade": 19.039383299389005,
+        "ari": 21.36670061099796,
+        "colemanLiau": 12.355437881873726,
+        "gunningFog": 18.033792260692465
+      },
+      "informationDensity": {
+        "uniqueWordCount": 419,
+        "typeTokenRatio": 0.42668,
+        "rootTypeTokenRatio": 13.370827
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 107,
+        "keywordTypeDensity": 0.019348,
+        "keywordTokenDensity": 0.108961,
+        "selectedKeywords": [
+          "robots",
+          "intelligence",
+          "planets",
+          "fiction",
+          "question",
+          "machines",
+          "rees",
+          "richardson",
+          "wolpert",
+          "science",
+          "machine",
+          "earth",
+          "response",
+          "bring",
+          "colonise",
+          "robotic",
+          "replied",
+          "human",
+          "computer"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.3371,
+        "meanAbstractness": 3.6629,
+        "concretenessCoverage": 0.850153,
+        "matchedTokenCount": 834,
+        "totalTokenCount": 981
+      }
+    },
+    {
+      "file": "ielts_20_test4_passage1_72ezxj.json",
+      "index": {
+        "ielts": "ielts-20",
+        "test": "test-4",
+        "passage": "passage1"
+      },
+      "sentenceCount": 37,
+      "wordCount": 922,
+      "charCount": 4512,
+      "syllableCount": 1478,
+      "complexWordCount": 51,
+      "readability": {
+        "fleschReadingEase": 45.925377557600996,
+        "fleschKincaidGrade": 13.04421351937621,
+        "ari": 14.078830392214343,
+        "colemanLiau": 11.787158351409975,
+        "gunningFog": 12.180148912469955
+      },
+      "informationDensity": {
+        "uniqueWordCount": 431,
+        "typeTokenRatio": 0.467462,
+        "rootTypeTokenRatio": 14.194229
+      },
+      "keywordDensity": {
+        "keywordTypeCount": 19,
+        "keywordTokenCount": 101,
+        "keywordTypeDensity": 0.020607,
+        "keywordTokenDensity": 0.109544,
+        "selectedKeywords": [
+          "keeffe",
+          "stieglitz",
+          "art",
+          "new",
+          "paintings",
+          "york",
+          "artist",
+          "abstract",
+          "mexico",
+          "decades",
+          "series",
+          "trips",
+          "artists",
+          "drawings",
+          "pictures",
+          "two",
+          "american",
+          "abiqui",
+          "botanical"
+        ]
+      },
+      "abstractness": {
+        "meanConcreteness": 2.5383,
+        "meanAbstractness": 3.4617,
+        "concretenessCoverage": 0.781737,
+        "matchedTokenCount": 702,
+        "totalTokenCount": 898
+      }
+    }
+  ]
+}
