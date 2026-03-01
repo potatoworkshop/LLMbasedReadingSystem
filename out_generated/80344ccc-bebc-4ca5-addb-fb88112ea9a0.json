@@ -1,0 +1,58 @@
+{
+  "article_id": "80344ccc-bebc-4ca5-addb-fb88112ea9a0",
+  "topic": "ancient trade routes",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Ancient Trade Routes That Connected the World",
+  "article": [
+    "Long ago, people wanted goods from far away. They could not make everything themselves. So, they made trade routes. These were paths over land and sea. Traders used them to carry items like silk, spices, gold, and salt. Trade routes helped people share ideas too. They made the world feel smaller. Cities grew big and rich because of trade. Armies protected these paths from robbers. Trade started thousands of years ago. It changed how people lived.",
+    "The most famous trade route was the Silk Road. It began in China about 2,000 years ago. The road went west to Europe. It crossed mountains, deserts, and rivers. Traders did not go the whole way alone. They joined groups called caravans. Camels carried heavy loads across hot sands. Silk from China was the best good. It felt soft and shone bright. People in Rome loved it. They traded gold and glass for silk. Other items moved too. Spices from India made food taste good. Jade stones came from far east lands. The trip took one or two years. Dangers like storms and thieves made it hard. Still, traders kept going. They made lots of money.",
+    "Other routes helped trade grow. In the Middle East, the Incense Route ran from Arabia to the Mediterranean Sea. Traders sold incense. It had a sweet smell for prayers in temples. Camels walked the desert paths. In the sea, ships sailed the Indian Ocean. They carried spices like pepper and cinnamon. These came from India to Rome. The Amber Road went north from the Baltic Sea. Traders sold amber, a yellow stone from the sea. It went south to rich cities. In Africa, gold came from deep mines. It traveled north on camel backs. Salt went the other way. People needed salt to save food. These routes linked many lands. Each one had special goods.",
+    "Trade routes did more than move things. They spread new ways of life. Foods like rice and oranges went to new places. People learned to grow them. Religions traveled too. Buddhism went from India to China. Ideas about math and art mixed. Cities like Samarkand became busy stops. They had markets full of noise and color. Kings built walls and forts along the routes. Trade made some places very powerful. It also caused fights. Armies wanted control of the paths. In the end, trade helped all people. It made life better with new tools and foods.",
+    "Today, we see the work of old trade routes. Roads and ships still connect the world. Ideas from long ago help us now. The Silk Road shows how brave traders were. They faced hard times but kept going. Their paths teach us about sharing. Modern trade uses planes and big ships. But the old routes started it all. They shaped our world forever."
+  ],
+  "metrics": {
+    "word_count": 467,
+    "sentence_count": 70,
+    "avg_sentence_len": 6.67,
+    "avg_word_len": 4.45,
+    "syllable_count": 626,
+    "complex_word_count": 2,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 86.66,
+    "flesch_kincaid_grade": 2.83,
+    "ari": 2.85,
+    "coleman_liau": 5.91,
+    "gunning_fog": 2.84
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "ancient_trade_routes_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:07:18.821Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 133
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 2869,
+    "total_tokens": 3877,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:07:18.822Z"
+}

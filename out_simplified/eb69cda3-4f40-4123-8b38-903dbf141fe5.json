@@ -1,0 +1,139 @@
+{
+  "article_id": "eb69cda3-4f40-4123-8b38-903dbf141fe5",
+  "mode": "difficulty_adjust",
+  "original_article": "A critical ingredient in the success of hotels is developing and maintaining superior performance from their employees. How is that accomplished? What Human Resource Management (HRM) practices should organizations invest in to acquire and retain great employees?\n\nSome hotels aim to provide superior working conditions for their employees. The idea originated from workplaces usually in the non-service sector - that emphasized fun and enjoyment as part of work - life balance. By contrast, the service sector, and more specifically hotels, has traditionally not extended these practices to address basic employee needs, such as good working conditions:\n\nPfeffer (1994) emphasizes that in order to succeed in a global business environment, organizations must make investment in Human Resource Management (HRM) to allow them to acquire employees who possess better skills and capabilities than their competitors. This investment will be to their competitive advantage. Despite this recognition of the importance of employee development, the hospitality industry has historically been dominated by underdeveloped HR practices (Lucas, 2002).\n\nLucas also points out that 'the substance of HRM practices does not appear to be designed to foster constructive relations with employees or to represent a managerial approach that enables developing and drawing out the full potential of people, even though employees may be broadly satisfied with many aspects of their work' (Lucas, 2002). In addition, or maybe as a result, high employee turnover has been a recurring problem throughout the hospitality industry. Among the many cited reasons are low compensation, inadequate benefits, poor working conditions and compromised employee morale and attitudes (Maroudas et al., 2008).\n\nNg and Sorensen (2008) demonstrated that when managers provide recognition to employees, motivate employees to work together, and remove obstacles preventing effective performance, employees feel more obligated to stay with the company. This was succinctly summarized by Michel et al. (2013): '[P]roviding support to employees gives them the confidence to perform their jobs better and the motivation to stay with the organization.' Hospitality organizations can therefore enhance employee motivation and retention through the development and improvement of their working conditions. These conditions are inherently linked to the working environment.\n\nWhile it seems likely that employees' reactions to their job characteristics could be affected by a predisposition to view their work environment negatively, no evidence exists to support this hypothesis (Spector et al., 2000). However, given the opportunity, many people will find something to complain about in relation to their workplace (Poulston, 2009). There is a strong link between the perceptions of employees and particular factors of their work environment that are separate from the work itself, including company policies, salary and vacations.\n\nSuch conditions are particularly troubling for the luxury hotel market, where high-quality service, requiring a sophisticated approach to HRM, is recognized as a critical source of competitive advantage (Maroudas et al., 2008). In a real sense, the services of 'hotel employees represent their industry (Schneider and Bowen, 1993). This representation has commonly been limited to guest experiences. This suggests that there has been a dichotomy between the guest environment provided in luxury hotels and the working conditions of their employees.\n\nIt is therefore essential for hotel management to develop HRM practices that enable them to inspire and retain competent employees. This requires an understanding of what motivates employees at different levels of management and different stages of their careers (Enz and Siguaw, 2000). This implies that it is beneficial for hotel managers to understand what practices are most favorable to increase employee satisfaction and retention.\n\nHerzberg (1966) proposes that people have two major types of needs, the first being extrinsic motivation factors relating to the context in which work is performed, rather than the work itself. These include working conditions and job security. When these factors are unfavorable, job dissatisfaction may result. Significantly, though, just fulfilling these needs does not result in satisfaction, but only in the reduction of is satisfaction (Maroudas et al., 2008).\n\nEmployees also have intrinsic motivation needs or motivators, which include such factors as achievement and recognition. Unlike extrinsic factors, motivator factors may ideally result in job satisfaction (Maroudas et al., 2008). Herzberg's (1966) theory discusses the need for a 'balance' of these two types of needs.\n\nThe impact of fun as a motivating factor at work has also been explored. For example, Tews, Michel and Stafford (2013) conducted a study focusing on staff from a chain of themed restaurants in the United States. It was found that fun activities had a favorable impact on performance and manager support for fun had a favorable impact in reducing turnover. Their findings support the view that fun may indeed have a beneficial effect, but the framing of that fun must be carefully aligned with both organizational goals and employee characteristics. 'Managers must learn how to achieve the delicate balance of allowing employees the freedom to enjoy themselves at work while simultaneously maintaining high levels of performance' (Tews et al., 2013).\n\nDeery (2008) has recommended several actions that can be adopted at the organizational level to retain good staff as well as assist in balancing work and family life. Those particularly appropriate to the hospitality industry include allowing adequate breaks during the working day, staff functions that involve families, and providing health and well-being opportunities.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb04",
+    "sample_id": "questions_ielts_14_test1_passage3_f278wj_to_l2_r1_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test1_passage3_f278wj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test1_passage3_f278wj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Hotels succeed when their employees perform well. Managers must build and keep high performance from staff. How can hotels do this? Which Human Resource Management (HRM) practices should hotels use to hire and keep good employees?\n\nSome hotels aim to provide superior working conditions for their employees. The idea came from jobs outside the service sector. Those workplaces often focused on fun and pleasure as part of work-life balance. In contrast, the service sector — and hotels in particular — usually did not use these practices. They often did not meet basic employee needs like good working conditions.\n\nPfeffer (1994) says that to succeed globally, organizations must invest in Human Resource Management (HRM). This investment helps them hire employees with better skills than competitors. Such investment gives them an advantage over rivals. Even though people see the value of employee development, the hospitality industry has had weak HR practices historically (Lucas, 2002).\n\nLucas (2002) notes that HRM practices do not seem designed to build positive relations with employees. They do not show a management style that helps people grow and reach their full potential, even if employees report general satisfaction with many parts of their work. As a result, high staff turnover has been a repeated problem across the hospitality industry. Many reasons are given for this: low pay, poor benefits, bad working conditions, and low employee morale (Maroudas et al., 2008).\n\nNg and Sorensen (2008) showed that when managers recognize staff, encourage teamwork, and remove barriers to good performance, employees are more likely to stay. Michel et al. (2013) summed this up: supporting employees helps them feel confident to do their jobs well and makes them more likely to remain with the organization. So, hospitality organizations can improve motivation and keep staff by improving working conditions. Working conditions are closely tied to the overall work environment.\n\nAlthough employees might have a tendency to see their workplace negatively, no evidence supports this idea (Spector et al., 2000). Still, if given the chance, many people will complain about their workplace (Poulston, 2009). Employees' views are strongly linked to parts of the work environment that are not the work itself. These include company policies, pay, and vacation plans.\n\nThese problems are worrying for the luxury hotel market. High-quality service there needs complex HRM and is a key source of competitive advantage (Maroudas et al., 2008). In a real sense, the services of 'hotel employees represent their industry (Schneider and Bowen, 1993). This showing has often focused only on guest experiences. That suggests a split between the guest experience in luxury hotels and the working conditions of hotel staff.\n\nTherefore, hotel management must develop HRM practices that inspire and keep skilled employees. This means knowing what motivates people at different management levels and at different career stages (Enz and Siguaw, 2000). This implies that it is beneficial for hotel managers to understand what practices are most favorable to increase employee satisfaction and retention.\n\nHerzberg (1966) suggests people have two main kinds of needs. The first are external motivators about the context of work, not the work itself. These include working conditions and job security. When these factors are bad, people may become unhappy with their jobs. However, meeting these needs does not create true satisfaction; it only reduces dissatisfaction (Maroudas et al., 2008).\n\nEmployees also have internal motivators, such as achievement and recognition. Unlike external factors, these motivators can lead to job satisfaction (Maroudas et al., 2008). Herzberg's (1966) theory discusses the need for a 'balance' of these two types of needs.\n\nResearchers have also studied how fun at work can motivate people. For example, Tews, Michel and Stafford (2013) studied staff at a chain of themed restaurants in the United States. They found fun activities improved performance. Managers who supported fun helped lower staff turnover. Their findings support the idea that fun can help, but the way it is used must fit the organization's goals and workers' traits. 'Managers must learn how to achieve the careful balance of allowing employees some freedom to enjoy their work while keeping performance high' (Tews et al., 2013).\n\nDeery (2008) recommends actions organizations can take to keep good staff and help balance work and family life. For hospitality, useful steps include allowing enough breaks during the day, holding staff events that include families, and offering health and wellness options.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 871,
+    "sentence_count": 46,
+    "avg_sentence_len": 18.93,
+    "avg_word_len": 5.58,
+    "syllable_count": 1619,
+    "complex_word_count": 76,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 30.36,
+    "flesch_kincaid_grade": 13.73,
+    "ari": 14.34,
+    "coleman_liau": 15.47,
+    "gunning_fog": 11.06
+  },
+  "final_metrics": {
+    "word_count": 723,
+    "sentence_count": 56,
+    "avg_sentence_len": 12.91,
+    "avg_word_len": 5.29,
+    "syllable_count": 1214,
+    "complex_word_count": 36,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 51.68,
+    "flesch_kincaid_grade": 9.26,
+    "ari": 9.93,
+    "coleman_liau": 13,
+    "gunning_fog": 7.16
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC FOCUS: replace longer, complex sentences with shorter, simpler sentences and split or rephrase complex clauses|applied_edits=35|tier=coarse_jump;dist=4.6500;dir=simpler;est_wb=80;est_sb=13",
+      "metrics": {
+        "word_count": 723,
+        "sentence_count": 56,
+        "avg_sentence_len": 12.91,
+        "avg_word_len": 5.29,
+        "syllable_count": 1214,
+        "complex_word_count": 36,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 51.68,
+        "flesch_kincaid_grade": 9.26,
+        "ari": 9.93,
+        "coleman_liau": 13,
+        "gunning_fog": 7.16
+      },
+      "distance_to_target": 0.8375,
+      "fidelity": {
+        "overall": 0.9486,
+        "entity_recall": 0.8857,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1475,
+        "completion_tokens": 11704,
+        "total_tokens": 13179,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9486,
+    "entity_recall": 0.8857,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 35,
+    "number_total": 8,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1475,
+    "completion_tokens": 11704,
+    "total_tokens": 13179,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:39:24.789Z"
+}

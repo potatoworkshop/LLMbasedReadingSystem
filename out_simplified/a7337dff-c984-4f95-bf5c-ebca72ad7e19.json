@@ -1,0 +1,139 @@
+{
+  "article_id": "a7337dff-c984-4f95-bf5c-ebca72ad7e19",
+  "mode": "difficulty_adjust",
+  "original_article": "A photoreceptor molecule in plant cells has been found to have a second job as a thermometer after dark – allowing plants to read seasonal temperature changes. Scientists say the discovery could help breed crops that are more resilient to the temperatures expected to result from climate change\n\nA An international team of scientists led by the University of Cambridge has discovered that the 'thermometer' molecule in plants enables them to develop according to seasonal temperature changes. Researchers have revealed that molecules called phytochromes – used by plants to detect light during the day – actually change their function in darkness to become cellular temperature gauges that measure the heat of the night.\n\nThe new findings, published in the journal Science, show that phytochromes control genetic switches in response to temperature as well as light to dictate plant development.\n\nB At night, these molecules change states, and the pace at which they change is 'directly proportional to temperature', say scientists, who compare phytochromes to mercury in a thermometer. The warmer it is, the faster the molecular change – stimulating plant growth.\n\nC Farmers and gardeners have known for hundreds of years how responsive plants are to temperature: warm winters cause many trees and flowers to bud early, something humans have long used to predict weather and harvest times for the coming year. The latest research pinpoints for the first time a molecular mechanism in plants that reacts to temperature – often triggering the buds of spring we long to see at the end of winter.\n\nD With weather and temperatures set to become ever more unpredictable due to climate change, researchers say the discovery that this light-sensing molecule also functions as the internal thermometer in plant cells could help us breed tougher crops. 'It is estimated that agricultural yields will need to double by 2050, but climate change is a major threat to achieving this. Key crops such as wheat and rice are sensitive to high temperatures. Thermal stress reduces crop yields by around 10% for every one degree increase in temperature,' says lead researcher Dr Philip Wigge from Cambridge's Sainsbury Laboratory. 'Discovering the molecules that allow plants to sense temperature has the potential to accelerate the breeding of crops resilient to thermal stress and climate change.'\n\nE In their active state, phytochrome molecules bind themselves to DNA to restrict plant growth. During the day, sunlight activates the molecules, slowing down growth. If a plant finds itself in shade, phytochromes are quickly inactivated – enabling it to grow faster to find sunlight again. This is how plants compete to escape each other's shade. 'Light-driven changes to phytochrome activity occur very fast, in less than a second,' says Wigge.\n\nAt night, however, it's a different story. Instead of a rapid deactivation following sundown, the molecules gradually change from their active to inactive state. This is called 'dark reversion'. 'Just as mercury rises in a thermometer, the rate at which phytochromes revert to their inactive state during the night is a direct measure of temperature,' says Wigge.\n\nF 'The lower the temperature, the slower the rate at which phytochromes revert to inactivity, so the molecules spend more time in their active, growth-suppressing state. This is why plants are slower to grow in winter. Warm temperatures accelerate dark reversion, so that phytochromes rapidly reach an inactive state and detach themselves from the plant's DNA – allowing genes to be expressed and plant growth to resume.' Wigge believes phytochrome thermo-sensing evolved at a later stage, and co-opted the biological network already used for light-based growth during the downtime of night.\n\nG Some plants mainly use day length as an indicator of the season. Other species, such as daffodils, have considerable temperature sensitivity, and can flower months in advance during a warm winter. In fact, the discovery of the dual role of phytochromes provides the science behind a well-known rhyme long used to predict the coming season: oak before ash we'll have a splash, ash before oak we're in for a soak.\n\nWigge explains: 'Oak trees rely much more on temperature, likely using phytochromes as thermometers to dictate development, whereas ash trees rely on measuring day length to determine their seasonal timing. A warmer spring, and consequently a higher likeliness of a hot summer, will result in oak leafing before ash. A cold spring will see the opposite. As the British know only too well, a colder summer is likely to be a rain-soaked one.'\n\nH The new findings are the culmination of twelve years of research involving scientists from Germany, Argentina and the US, as well as the Cambridge team. The work was done in a model system, using a mustard plant called Arabidopsis, but Wigge says the phytochrome genes necessary for temperature sensing are found in crop plants as well. 'Recent advances in plant genetics now mean that scientists are able to rapidly identify the genes controlling these processes in crop plants, and even alter their activity using precise molecular “scalpels”,' adds Wigge. 'Cambridge is uniquely well-positioned to do this kind of research as we have outstanding collaborators nearby who work on more applied aspects of plant biology, and can help us transfer this new knowledge into the field.'",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb05",
+    "sample_id": "questions_ielts_16_test3_passage3_227o8j_to_l4_r7_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_16_test3_passage3_227o8j",
+    "source_dataset": "questions",
+    "source_file": "ielts_16_test3_passage3_227o8j.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "A photoreceptor molecule in plant cells has been found to have a second job as a thermometer after dark – allowing plants to read seasonal temperature changes. Scientists say the discovery could help breed crops that are more resilient to the temperatures expected to result from climate change\n\nA An international team of scientists led by the University of Cambridge has discovered that the 'thermometer' molecule in plants enables them to develop according to seasonal temperature changes. Researchers have revealed that molecules called phytochromes – used by plants to detect light during the day – actually change their function in darkness to become cellular temperature gauges that measure the heat of the night.\n\nThe new findings, published in the journal Science, show that phytochromes control genetic switches in response to temperature as well as light to dictate plant development.\n\nB At night, these molecules change states, and the pace at which they change is 'directly proportional to temperature', say scientists, who compare phytochromes to mercury in a thermometer. The warmer it is, the faster the molecular change – stimulating plant growth.\n\nC Farmers and gardeners have known for hundreds of years how responsive plants are to temperature: warm winters cause many trees and flowers to bud early, something humans have long used to predict weather and harvest times for the coming year. The latest research pinpoints for the first time a molecular mechanism in plants that reacts to temperature – often triggering the buds of spring we long to see at the end of winter.\n\nD With weather and temperatures set to become ever more unpredictable due to climate change, researchers say the discovery that this light-sensing molecule also functions as the internal thermometer in plant cells could help us breed tougher crops. 'It is estimated that agricultural yields will need to double by 2050, but climate change is a major threat to achieving this. Key crops such as wheat and rice are sensitive to high temperatures. Thermal stress reduces crop yields by around 10% for every one degree increase in temperature,' says lead researcher Dr Philip Wigge from Cambridge's Sainsbury Laboratory. 'Discovering the molecules that allow plants to sense temperature has the potential to accelerate the breeding of crops resilient to thermal stress and climate change.'\n\nE In their active state, phytochrome molecules bind themselves to DNA to restrict plant growth. During the day, sunlight activates the molecules, slowing down growth. If a plant finds itself in shade, phytochromes are quickly inactivated – enabling it to grow faster to find sunlight again. This is how plants compete to escape each other's shade. 'Light-driven changes to phytochrome activity occur very fast, in less than a second,' says Wigge.\n\nAt night, however, it's a different story. Instead of a rapid deactivation following sundown, the molecules gradually change from their active to inactive state. This is called 'dark reversion'. 'Just as mercury rises in a thermometer, the rate at which phytochromes revert to their inactive state during the night is a direct measure of temperature,' says Wigge.\n\nF 'The lower the temperature, the slower the rate at which phytochromes revert to inactivity, so the molecules spend more time in their active, growth-suppressing state. This is why plants are slower to grow in winter. Warm temperatures accelerate dark reversion, so that phytochromes rapidly reach an inactive state and detach themselves from the plant's DNA – allowing genes to be expressed and plant growth to resume.' Wigge believes phytochrome thermo-sensing evolved at a later stage, and co-opted the biological network already used for light-based growth during the downtime of night.\n\nG Some plants mainly use day length as an indicator of the season. Other species, such as daffodils, have considerable temperature sensitivity, and can flower months in advance during a warm winter. In fact, the discovery of the dual role of phytochromes provides the science behind a well-known rhyme long used to predict the coming season: oak before ash we'll have a splash, ash before oak we're in for a soak.\n\nWigge explains: 'Oak trees rely much more on temperature, likely using phytochromes as thermometers to dictate development, whereas ash trees rely on measuring day length to determine their seasonal timing. A warmer spring, and consequently a higher likeliness of a hot summer, will result in oak leafing before ash. A cold spring will see the opposite. As the British know only too well, a colder summer is likely to be a rain-soaked one.'\n\nH The new findings are the culmination of twelve years of research involving scientists from Germany, Argentina and the US, as well as the Cambridge team. The work was done in a model system, using a mustard plant called Arabidopsis, but Wigge says the phytochrome genes necessary for temperature sensing are found in crop plants as well. 'Recent advances in plant genetics now mean that scientists are able to rapidly identify the genes controlling these processes in crop plants, and even alter their activity using precise molecular “scalpels”,' adds Wigge. 'Cambridge is uniquely well-positioned to do this kind of research as we have outstanding collaborators nearby who work on more applied aspects of plant biology, and can help us transfer this new knowledge into the field.'",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 876,
+    "sentence_count": 38,
+    "avg_sentence_len": 23.05,
+    "avg_word_len": 5.08,
+    "syllable_count": 1459,
+    "complex_word_count": 61,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 42.53,
+    "flesch_kincaid_grade": 13.05,
+    "ari": 14.02,
+    "coleman_liau": 12.78,
+    "gunning_fog": 12.01
+  },
+  "final_metrics": {
+    "word_count": 876,
+    "sentence_count": 38,
+    "avg_sentence_len": 23.05,
+    "avg_word_len": 5.08,
+    "syllable_count": 1459,
+    "complex_word_count": 61,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 42.53,
+    "flesch_kincaid_grade": 13.05,
+    "ari": 14.02,
+    "coleman_liau": 12.78,
+    "gunning_fog": 12.01
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=LEXICAL: targeted word-level substitutions to increase lexical sophistication while preserving sentence boundaries|applied_edits=3|tier=dist_lt_1;dist=0.0350;center_gap=0.69;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=3;est_wb=58;est_sb=7;lf=1.21;df=0.92;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 876,
+        "sentence_count": 38,
+        "avg_sentence_len": 23.05,
+        "avg_word_len": 5.11,
+        "syllable_count": 1468,
+        "complex_word_count": 62,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 41.66,
+        "flesch_kincaid_grade": 13.17,
+        "ari": 14.15,
+        "coleman_liau": 12.94,
+        "gunning_fog": 12.05
+      },
+      "distance_to_target": 0.0775,
+      "fidelity": {
+        "overall": 0.9534,
+        "entity_recall": 0.8966,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1463,
+        "completion_tokens": 3970,
+        "total_tokens": 5433,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9534,
+    "entity_recall": 0.8966,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 29,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1463,
+    "completion_tokens": 3970,
+    "total_tokens": 5433,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:20:20.204Z"
+}

@@ -1,0 +1,228 @@
+{
+  "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+  "run_tag": "replace_gemini_fast80_deepseek_v32",
+  "batch_id": "replace_gemini_fast80_deepseek_v32_mb04",
+  "micro_batch_index": 4,
+  "total_jobs": 10,
+  "success_count": 8,
+  "fail_count": 2,
+  "generated_at": "2026-03-01T17:46:09.187Z",
+  "records": [
+    {
+      "ts": "2026-03-01T17:13:56.651Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 1,
+      "total": 10,
+      "article_id": "87daeaa1-8746-4522-b301-51ed87ec836d",
+      "sample_id": "questions_ielts_16_test3_passage3_227o8j_to_l4_r7_deepseek_deepseek-v3.2",
+      "target_level": 4,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test3_passage3_227o8j",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test3_passage3_227o8j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9534,
+      "token_usage": {
+        "prompt_tokens": 1393,
+        "completion_tokens": 874,
+        "total_tokens": 2267,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 70661
+    },
+    {
+      "ts": "2026-03-01T17:18:24.234Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 2,
+      "total": 10,
+      "article_id": "5616f602-db92-4ee8-8954-ad2fc65ac23f",
+      "sample_id": "questions_ielts_16_test4_passage1_d27oqj_to_l4_r8_deepseek_deepseek-v3.2",
+      "target_level": 4,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test4_passage1_d27oqj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test4_passage1_d27oqj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9656,
+      "token_usage": {
+        "prompt_tokens": 1487,
+        "completion_tokens": 2686,
+        "total_tokens": 4173,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 267582
+    },
+    {
+      "ts": "2026-03-01T17:24:06.753Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 4,
+      "total": 10,
+      "article_id": "30a96457-6d21-4aab-9f55-56bbe7a69560",
+      "sample_id": "questions_ielts_16_test4_passage3_c27puj_to_l5_r2_deepseek_deepseek-v3.2",
+      "target_level": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test4_passage3_c27puj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test4_passage3_c27puj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.969,
+      "token_usage": {
+        "prompt_tokens": 1356,
+        "completion_tokens": 1843,
+        "total_tokens": 3199,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 35575
+    },
+    {
+      "ts": "2026-03-01T17:26:46.347Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 5,
+      "total": 10,
+      "article_id": "4631640f-ce08-4576-a3d5-a135dbec083e",
+      "sample_id": "questions_ielts_17_test1_passage1_c27quj_to_l5_r3_deepseek_deepseek-v3.2",
+      "target_level": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_17_test1_passage1_c27quj",
+        "source_dataset": "questions",
+        "source_file": "ielts_17_test1_passage1_c27quj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9132,
+      "token_usage": {
+        "prompt_tokens": 1656,
+        "completion_tokens": 9399,
+        "total_tokens": 11055,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 159594
+    },
+    {
+      "ts": "2026-03-01T17:31:27.460Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 6,
+      "total": 10,
+      "article_id": "e63aa846-0460-49e2-8dbc-38ba4e7f36de",
+      "sample_id": "questions_ielts_17_test1_passage3_d27rrj_to_l5_r4_deepseek_deepseek-v3.2",
+      "target_level": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_17_test1_passage3_d27rrj",
+        "source_dataset": "questions",
+        "source_file": "ielts_17_test1_passage3_d27rrj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.98,
+      "token_usage": {
+        "prompt_tokens": 3472,
+        "completion_tokens": 5242,
+        "total_tokens": 8714,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 281113
+    },
+    {
+      "ts": "2026-03-01T17:35:06.021Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 7,
+      "total": 10,
+      "article_id": "8d7ec488-b74e-4448-9c22-6f5008d2a805",
+      "sample_id": "questions_ielts_17_test2_passage1_627s9j_to_l5_r5_deepseek_deepseek-v3.2",
+      "target_level": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_17_test2_passage1_627s9j",
+        "source_dataset": "questions",
+        "source_file": "ielts_17_test2_passage1_627s9j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9715,
+      "token_usage": {
+        "prompt_tokens": 1309,
+        "completion_tokens": 3099,
+        "total_tokens": 4408,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 218561
+    },
+    {
+      "ts": "2026-03-01T17:36:50.971Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 8,
+      "total": 10,
+      "article_id": "bf4e61ab-e0c7-43c7-b8e6-d5b7586f564c",
+      "sample_id": "questions_ielts_17_test2_passage3_627t7j_to_l5_r6_deepseek_deepseek-v3.2",
+      "target_level": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_17_test2_passage3_627t7j",
+        "source_dataset": "questions",
+        "source_file": "ielts_17_test2_passage3_627t7j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9918,
+      "token_usage": {
+        "prompt_tokens": 1543,
+        "completion_tokens": 3697,
+        "total_tokens": 5240,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 104950
+    },
+    {
+      "ts": "2026-03-01T17:46:09.186Z",
+      "ok": true,
+      "micro_batch_index": 4,
+      "index": 10,
+      "total": 10,
+      "article_id": "68dbc28a-16c4-4a2f-b0e6-1b9df9738875",
+      "sample_id": "questions_ielts_17_test3_passage3_f27umj_to_l5_r8_deepseek_deepseek-v3.2",
+      "target_level": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_17_test3_passage3_f27umj",
+        "source_dataset": "questions",
+        "source_file": "ielts_17_test3_passage3_f27umj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 1636,
+        "completion_tokens": 3165,
+        "total_tokens": 4801,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 251398
+    }
+  ]
+}

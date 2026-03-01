@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-03-01T17:12:45.969Z",
+  "config_path": "experiments\\ch5\\configs\\adjust_replace_gemini_fast80.json",
+  "total_jobs": 80,
+  "batch_size": 10,
+  "total_micro_batches": 8,
+  "parallel_batches": 12
+}

@@ -1,0 +1,4 @@
+{"ts":"2026-02-28T19:20:23.823Z","ok":false,"index":1,"total":4,"source_file":"ielts_13_test1_passage1_b1idvj.json","source_article_id":"ielts_13_test1_passage1_b1idvj","mode":"simpler","elapsed_ms":60,"error":"fetch failed"}
+{"ts":"2026-02-28T19:20:24.842Z","ok":false,"index":2,"total":4,"source_file":"ielts_13_test1_passage1_b1idvj.json","source_article_id":"ielts_13_test1_passage1_b1idvj","mode":"harder","elapsed_ms":8,"error":"fetch failed"}
+{"ts":"2026-02-28T19:20:25.861Z","ok":false,"index":3,"total":4,"source_file":"ielts_13_test1_passage3_91iewj.json","source_article_id":"ielts_13_test1_passage3_91iewj","mode":"simpler","elapsed_ms":4,"error":"fetch failed"}
+{"ts":"2026-02-28T19:20:26.880Z","ok":false,"index":4,"total":4,"source_file":"ielts_13_test1_passage3_91iewj.json","source_article_id":"ielts_13_test1_passage3_91iewj","mode":"harder","elapsed_ms":3,"error":"fetch failed"}

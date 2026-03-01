@@ -1,0 +1,59 @@
+{
+  "article_id": "89d659bb-fb40-4427-887e-28fc646aa063",
+  "topic": "ancient trade routes",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes and Global Connections",
+  "article": [
+    "Long ago, people did not have planes or trucks to move goods. Instead, they used long paths called trade routes. These routes connected far away places. Some routes went across dry deserts on land. Others went across deep blue oceans by boat. People traveled these paths to buy and sell things they could not find at home. These trips were often very slow and dangerous. However, trade was very important for every big group of people. It helped them get new tools and better food.",
+    "The most famous path on land was the Silk Road. It linked China to the West. Traders traveled in large groups called caravans for safety. They used camels to carry heavy bags across the hot sand. China had silk, which was a soft and shiny cloth. No one else knew how to make it. In return, the Chinese traders wanted gold, silver, and strong horses. Along the way, people did not just trade objects. They also shared new ideas and stories. This helped different cultures learn about each other for the very first time.",
+    "Other trade routes were found on the water. Ships sailed across the Indian Ocean to find spices. In the past, spices like pepper and cinnamon were worth as much as gold. They made food taste better and helped it stay fresh. Sailors had to watch the stars to find their way at night. They also had to learn about the wind. These sea routes connected India, Africa, and tiny islands. Trading by sea was often faster than walking on land, but big storms could sink the wooden ships.",
+    "Trade routes changed the world in many ways. Because of trade, towns grew into big cities. People built markets where they could meet and talk. They learned about new religions and new ways to farm the land. Even though the journeys were hard, the desire for new things kept people moving. Today, we still use some of these same paths to move goods around the world. Ancient trade routes were the first step in bringing all humans together. They proved that people from different lands could work together to build a better life."
+  ],
+  "metrics": {
+    "word_count": 360,
+    "sentence_count": 35,
+    "avg_sentence_len": 10.29,
+    "avg_word_len": 4.45,
+    "syllable_count": 489,
+    "complex_word_count": 0,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 81.48,
+    "flesch_kincaid_grade": 4.45,
+    "ari": 4.66,
+    "coleman_liau": 7.47,
+    "gunning_fog": 4.11
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "ancient_trade_routes_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:39:35.098Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 60
+  },
+  "token_usage": {
+    "prompt_tokens": 602,
+    "completion_tokens": 1339,
+    "total_tokens": 1941,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:39:35.099Z"
+}

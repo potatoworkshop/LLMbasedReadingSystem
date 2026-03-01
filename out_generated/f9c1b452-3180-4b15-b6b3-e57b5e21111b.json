@@ -1,0 +1,58 @@
+{
+  "article_id": "f9c1b452-3180-4b15-b6b3-e57b5e21111b",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Marine Ecosystems: Hidden Worlds Beneath the Waves",
+  "article": [
+    "Oceans cover over 70 percent of Earth's surface. They form the largest habitats on the planet. Marine ecosystems teem with life. From tiny plankton to massive blue whales, millions of species call the sea home. These ecosystems include coral reefs, kelp forests, deep-sea vents, and open ocean waters. Each type offers unique conditions for living things to thrive. Sunlight reaches only the top 200 meters of water. Below that, life adapts in total darkness. Marine plants and algae produce half of the oxygen we breathe. This makes oceans vital for all life on Earth.",
+    "Coral reefs are often called the rainforests of the sea. They form in warm, shallow waters near the equator. Tiny animals called polyps build hard skeletons from calcium. These structures create homes for fish, sharks, and sea turtles. Reefs cover less than one percent of the ocean floor. Yet they support 25 percent of all marine species. Kelp forests grow in cooler waters along rocky coasts. Giant kelp can reach 50 meters tall. They provide shelter for otters, seals, and many fish. In the open ocean, plankton drifts with currents. These small organisms form the base of the food chain. Larger creatures like tuna and dolphins feed on them.",
+    "Deep-sea ecosystems differ greatly from surface waters. Here, sunlight never reaches. Life depends on chemicals from Earth's interior. Hydrothermal vents spew hot, mineral-rich water. Bacteria near these vents turn chemicals into food. This process supports tube worms, crabs, and fish. These creatures glow in the dark or have huge eyes to see faint light. The deep sea holds many secrets. Scientists discover new species each year. Coastal zones link land and sea. Mangroves and seagrasses grow here. They protect shores from storms and filter pollutants.",
+    "Marine ecosystems play key roles for humans. They supply food for billions of people. Fish provide protein and jobs for coastal communities. Oceans regulate climate by absorbing heat and carbon dioxide. This helps control global warming. Biodiversity in the sea offers medicines. Scientists study sea sponges and corals for new drugs. Tourism brings money to reef areas. Healthy oceans boost economies worldwide.",
+    "Threats now endanger these vital systems. Overfishing removes top predators. This upsets food balances. Plastic pollution harms wildlife. Turtles mistake bags for jellyfish. Climate change warms waters and causes acidification. Corals bleach and die from stress. Oil spills destroy habitats for years. Steps to protect oceans include marine reserves. These no-fish zones let populations recover. International agreements limit catches. People can help by reducing plastic use and supporting sustainable seafood. Protecting marine ecosystems ensures a healthy planet for future generations."
+  ],
+  "metrics": {
+    "word_count": 434,
+    "sentence_count": 56,
+    "avg_sentence_len": 7.75,
+    "avg_word_len": 5.24,
+    "syllable_count": 703,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 61.93,
+    "flesch_kincaid_grade": 6.55,
+    "ari": 7.11,
+    "coleman_liau": 11.18,
+    "gunning_fog": 4.39
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:12:28.979Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 166
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3245,
+    "total_tokens": 4250,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:12:28.979Z"
+}

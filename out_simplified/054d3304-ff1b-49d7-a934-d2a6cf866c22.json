@@ -1,0 +1,206 @@
+{
+  "article_id": "054d3304-ff1b-49d7-a934-d2a6cf866c22",
+  "mode": "difficulty_adjust",
+  "original_article": "Brick by brick, six- year-old Alice is building a magical kingdom. Imagining fairy-tale turrets and fire-breathing dragons, wicked witches and gallant heroes, she's creating an enchanting world. Although she isn't aware of it, this fantasy is helping her take her first steps towards her capacity for creativity and so it will have important repercussions in her adult life.\n\nMinutes later, Alice has abandoned the kingdom in favour of playing schools with her younger brother. When she bosses him around as his 'teacher', she's practising how to regulate her emotions through pretence. Later on, when they tire of this and settle down with a board game, she's learning about the need to follow rules and take turns with a partner.\n\n'Play in all its rich variety is one of the highest achievements of the human species,' says Dr David Whitebread from the Faculty of Education at the University of Cambridge, UK. 'It underpins how we develop as intellectual, problem-solving adults and is crucial to our success as a highly adaptable species.'\n\nRecognising the importance of play is not new: over two millennia ago, the Greek philosopher Plato extolled its virtues as a means of developing skills for adult life, and ideas about play-based learning have been developing since the 19th century.\n\nBut we live in changing times, and Whitebread is mindful of a worldwide decline in play, pointing out that over half the people in the world now live in cities. 'The opportunities for free play, which I experienced almost every day of my childhood, are becoming increasingly scarce,' he says. Outdoor play is curtailed by perceptions of risk to do with traffic, as well as parents increased wish to protect their children from being the victims of crime, and by the emphasis on earlier is better which is leading to greater competition in academic learning and schools.\n\nInternational bodies like the United Nations and the European Union have begun to develop policies concerned with children's right to play, and to consider implications for leisure facilities and educational programmes. But what they often lack is the evidence to base policies on.\n\n'The type of play we are interested in is child-initiated, spontaneous and unpredictable - but, as soon as you ask a five-year-old \"to play\", then you as the researcher have intervened,' explains Dr Sara Baker. And we want to know what the long-term impact of play is. It's a real challenge.'\n\nDr Jenny Gibson agrees, pointing out that although some of the steps in the puzzle of how and why play is important have been looked at, there is very little data on the impact it has on the child's later life.\n\nNow, thanks to the university's new Centre for Research on Play in Education, Development and Learning (PEDAL), Whitebread, Baker, Gibson and a team of researchers hope to provide evidence on the role played by play in how a child develops.\n\n'A strong possibility is that play supports the early development of children's self-control,' explains Baker. 'This is our ability to develop awareness of our own thinking processes – it influences how effectively we go about undertaking challenging activities.'\n\nIn a study carried out by Baker with toddlers and young pre-schoolers, she found that children with greater self-control solved problems more quickly when exploring an unfamiliar set-up requiring scientific reasoning. 'This sort of evidence makes us think that giving children the chance to play will make them more successful problem-solvers in the long run.\n\nIf playful experiences do facilitate this aspect of development, say the researchers, it could be extremely significant for educational practices, because the ability to self-regulate has been shown to be a key predictor of academic performance.\n\nGibson adds: 'Playful behaviour is also an important indicator of healthy social and emotional development. In my previous research, I investigated how observing children at play can give us important clues about their well-being and can even be useful in the diagnosis of neurodevelopmental disorders like autism.'\n\nWhitebread's recent research has involved developing a play-based approach to supporting children's writing. 'Many primary school children find writing difficult, but we showed in a previous study that a playful stimulus was far more effective than an instructional one.' Children wrote longer and better-structured stories when they first played with dolls representing characters in the story. In the latest study, children first created their story with Lego[1], with similar results. 'Many teachers commented that they had always previously had children saying they didn't know what to write about. With the Lego building, however, not a single child said this through the whole year of the project.'\n\nWhitebread, who directs PEDAL, trained as a primary school teacher in the early 1970s, when, as he describes, 'the teaching of young children was largely a quiet backwater, untroubled by any serious intellectual debate or controversy.' Now, the landscape is very different, with hotly debated topics such as school starting age.\n\n'Somehow the importance of play has been lost in recent decades. It's regarded as something trivial, or even as something negative that contrasts with \"work\". Let's not lose sight of its benefits, and the fundamental contributions it makes to human achievements in the arts, sciences and technology. Let's make sure children have a rich diet of play experiences.\n\n[1] Lego: coloured plastic building blocks and other pieces that can be joined together",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "adj_q_gpt5mini_b01",
+    "sample_id": "ielts_14_test1_passage1_f277jj_to_l2"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test1_passage1_f277jj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test1_passage1_f277jj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Brick by brick, six-year-old Alice is building a magical kingdom. She imagines fairy-tale turrets, fire-breathing dragons, wicked witches and gallant heroes. She does not know it, but this play helps her start to grow her creativity. It will have important effects on her adult life.\n\nMinutes later, Alice has left the kingdom to play schools with her younger brother. When she bosses him as his 'teacher', she is practising how to control her feelings through pretend play. Later, they tire of that and sit down to a board game. She learns the need to follow rules and to take turns with a partner.\n\n'Play in all its rich variety is one of the highest achievements of the human species,' says Dr David Whitebread from the Faculty of Education at the University of Cambridge, UK. 'It underpins how we develop as intellectual, problem-solving adults and is crucial to our success as a highly adaptable species.'\n\nRecognising the importance of play is not new. Over two millennia ago, the Greek philosopher Plato praised play as a way to build skills for adult life. Ideas about play-based learning have been growing since the 19th century.\n\nBut we live in changing times, and Whitebread is worried about a worldwide decline in play. He points out that over half the people in the world now live in cities. 'The opportunities for free play, which I experienced almost every day of my childhood, are becoming increasingly scarce,' he says. Outdoor play is cut back by fears about traffic. Parents also want more to protect children from crime. An 'earlier is better' attitude has led to more competition in academic learning and in schools.\n\nInternational bodies like the United Nations and the European Union have started to make policies about children's right to play. They also think about what this means for leisure facilities and for school programmes. But they often lack the evidence to base these policies on.\n\nDr Sara Baker says the play they study is started by the child. It is spontaneous and often unpredictable. As soon as a researcher asks a five-year-old 'to play', the researcher has changed the situation. She adds that it is hard to know the long-term impact of play.\n\nDr Jenny Gibson agrees. She points out that some parts of the puzzle about how and why play matters have been studied. But there is very little data on the effect play has on a child's later life.\n\nNow, thanks to the university's new Centre for Research on Play in Education, Development and Learning (PEDAL), Whitebread, Baker, Gibson and a team of researchers hope to give evidence on the role of play in child development.\n\nBaker says play may support the early development of children's self-control. She explains that self-control is our awareness of our own thinking. It affects how well we do difficult tasks.\n\nIn a study by Baker with toddlers and young pre-schoolers, she found that children with more self-control solved problems faster when they explored a new set-up that needed scientific reasoning. She says this suggests that giving children chances to play will help them become better problem-solvers in the long run.\n\nIf playful experiences do help this part of development, the researchers say, it could matter a lot for schools. The ability to self-regulate has been shown to be a key predictor of academic performance.\n\nGibson adds that playful behaviour is also a sign of healthy social and emotional development. In earlier research, she watched children at play to learn about their well-being. She says watching play can even help in diagnosing neurodevelopmental disorders like autism.\n\nWhitebread's recent work has used a play-based method to support children's writing. He says many primary school children find writing hard. In a previous study, a playful stimulus worked better than an instructional one. Children wrote longer and better-structured stories when they first played with dolls that represented the characters. In the latest study, children first created their story with Lego[1], and the results were similar. Many teachers said that, before the project, children would often say they did not know what to write about. With the Lego building, not a single child said this during the whole year of the project.\n\nWhitebread, who directs PEDAL, trained as a primary school teacher in the early 1970s. He says that then the teaching of young children was largely a quiet backwater, without much serious debate or controversy. Now things are different. Topics such as school starting age lead to heated debate.\n\nWhitebread warns that the importance of play has been lost in recent decades. People often see play as trivial or as the opposite of 'work'. He asks us not to forget its benefits and its key role in human achievements in the arts, sciences and technology. He says we should make sure children have a rich range of play experiences.\n\n[1] Lego: coloured plastic building blocks and other pieces that can be joined together",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 915,
+    "sentence_count": 39,
+    "avg_sentence_len": 23.46,
+    "avg_word_len": 4.97,
+    "syllable_count": 1498,
+    "complex_word_count": 53,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 44.52,
+    "flesch_kincaid_grade": 12.88,
+    "ari": 13.7,
+    "coleman_liau": 12.15,
+    "gunning_fog": 11.7
+  },
+  "final_metrics": {
+    "word_count": 847,
+    "sentence_count": 56,
+    "avg_sentence_len": 15.13,
+    "avg_word_len": 4.73,
+    "syllable_count": 1284,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 63.23,
+    "flesch_kincaid_grade": 8.2,
+    "ari": 8.39,
+    "coleman_liau": 10.03,
+    "gunning_fog": 7.47
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 847,
+        "sentence_count": 56,
+        "avg_sentence_len": 15.13,
+        "avg_word_len": 4.73,
+        "syllable_count": 1284,
+        "complex_word_count": 30,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 63.23,
+        "flesch_kincaid_grade": 8.2,
+        "ari": 8.39,
+        "coleman_liau": 10.03,
+        "gunning_fog": 7.47
+      },
+      "distance_to_target": 0.0357,
+      "fidelity": {
+        "overall": 0.945,
+        "entity_recall": 0.9,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 40,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1280,
+        "completion_tokens": 6452,
+        "total_tokens": 7732,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 841,
+        "sentence_count": 56,
+        "avg_sentence_len": 15.02,
+        "avg_word_len": 4.74,
+        "syllable_count": 1278,
+        "complex_word_count": 30,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 63.03,
+        "flesch_kincaid_grade": 8.2,
+        "ari": 8.4,
+        "coleman_liau": 10.09,
+        "gunning_fog": 7.43
+      },
+      "distance_to_target": 0.0357,
+      "fidelity": {
+        "overall": 0.945,
+        "entity_recall": 0.9,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 40,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2477,
+        "completion_tokens": 10073,
+        "total_tokens": 12550,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 804,
+        "sentence_count": 57,
+        "avg_sentence_len": 14.11,
+        "avg_word_len": 4.76,
+        "syllable_count": 1216,
+        "complex_word_count": 28,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 64.57,
+        "flesch_kincaid_grade": 7.76,
+        "ari": 8.04,
+        "coleman_liau": 10.09,
+        "gunning_fog": 7.04
+      },
+      "distance_to_target": 0.0714,
+      "fidelity": {
+        "overall": 0.9037,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 40,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3674,
+        "completion_tokens": 14824,
+        "total_tokens": 18498,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.945,
+    "entity_recall": 0.9,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 40,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3674,
+    "completion_tokens": 14824,
+    "total_tokens": 18498,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-25T22:13:59.369Z"
+}

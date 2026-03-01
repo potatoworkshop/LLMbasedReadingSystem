@@ -1,0 +1,58 @@
+{
+  "article_id": "2f6c2454-faf6-4af1-86f6-e93e93d6181a",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Diversity in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are special places in the oceans. They cover most of the Earth's surface. About 70 percent of our planet is ocean water. In these ecosystems, plants, animals, and tiny creatures live together. They depend on each other for food and shelter. Sunlight, water currents, and salt shape these homes. Different areas of the ocean have different ecosystems. Some are bright and full of color. Others are dark and cold. All of them help keep life on Earth in balance.",
+    "Coral reefs are one of the most colorful marine ecosystems. They grow in warm, shallow waters near the coast. Tiny animals called coral polyps build the reefs. Each polyp makes a hard shell from calcium in the sea water. Over many years, these shells stack up to form huge structures. Reefs look like underwater gardens. Bright fish swim among the branches. Sea turtles rest in the shade. Sharks hunt for food nearby. Reefs protect coastlines from big waves. They also give homes to one quarter of all ocean species. Without reefs, many sea creatures would have no place to live.",
+    "The open ocean holds another key ecosystem. It starts where reefs end and goes far out to sea. Here, tiny plants called phytoplankton float on the surface. They use sunlight to make food. This process is called photosynthesis. Zooplankton, which are small animals, eat the phytoplankton. Small fish then eat the zooplankton. Larger fish chase the small fish. Whales and dolphins feed at the top of this food chain. Sometimes, whales gulp huge amounts of tiny krill. Ocean currents carry nutrients to keep this chain strong. The open ocean covers half the Earth. It supports big schools of tuna and swordfish that people catch for food.",
+    "Deep-sea ecosystems are very different. They lie far below the sunlight zone. No light reaches depths over 200 meters. Water there is cold and under great pressure. Yet life thrives in strange ways. Anglerfish use glowing lures to catch prey. Their huge mouths help them grab food. Giant squid hide in the dark waters. On the ocean floor, hydrothermal vents spew hot water rich in minerals. Tube worms grow tall near these vents. Bacteria inside the worms turn chemicals into food. No sunlight is needed. These vents show life can exist in harsh places. They teach us about possible life on other planets.",
+    "Marine ecosystems matter to all life. They produce half the oxygen in our air. Fish from these waters feed billions of people. Healthy oceans store carbon and help control weather. But threats harm them now. Plastic waste chokes sea animals. Overfishing empties fish stocks. Rising sea temperatures bleach coral white and kill it. Acidic water from pollution hurts shells. People must act to protect these vital systems. Reserves and clean-up efforts can help. Simple steps like reducing plastic use make a difference. By caring for marine ecosystems, we care for our own future."
+  ],
+  "metrics": {
+    "word_count": 485,
+    "sentence_count": 62,
+    "avg_sentence_len": 7.82,
+    "avg_word_len": 4.78,
+    "syllable_count": 712,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.7,
+    "flesch_kincaid_grade": 4.78,
+    "ari": 5,
+    "coleman_liau": 8.53,
+    "gunning_fog": 4.37
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:11:34.117Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 115
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3496,
+    "total_tokens": 4501,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:11:34.117Z"
+}

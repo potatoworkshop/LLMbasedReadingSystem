@@ -1,0 +1,140 @@
+{
+  "article_id": "fac38f72-41b4-4d61-96ca-e0a8f3e33907",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change is real. The Earth is getting warmer. This causes big problems. Storms grow stronger. Sea levels rise. Droughts last longer. People and nature must adapt. Adaptation means making smart changes. These changes help us live with the new climate.\n\nFarmers lead the way in adaptation. They switch to new crops. These crops grow well in heat. They need less water. In parts of India, farmers plant millet instead of rice. Millet survives dry spells. This gives them food and money. They also use better ways to save water. Drip irrigation waters plants drop by drop. It cuts waste.\n\nCities make big changes too. They build walls by the sea. These walls block floods. They plant trees in streets. Trees give shade and cool the air. In the Netherlands, people raise land to fight high water. They pump out extra water fast. These steps save homes and lives.\n\nNature adapts on its own. Birds move to cooler places. Fish swim to colder waters. Plants grow in new spots. But change happens fast. Some animals need help. People create safe areas for them. They stop cutting forests.\n\nAdaptation brings hope. It works best with less pollution. We cut carbon to slow warming. Then adaptation is easier. Everyone can help. Small steps add up. Our world can stay livable.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_2593d2ce-cc8e-4356-979d-990202935fd8_to_l4_r2_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "2593d2ce-cc8e-4356-979d-990202935fd8",
+    "source_dataset": "generated",
+    "source_file": "2593d2ce-cc8e-4356-979d-990202935fd8.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate change is indisputable. The Earth is experiencing escalating temperatures. This causes profound repercussions. Storms intensify. Sea levels elevate. Droughts endure protractedly. People and nature must acclimate. Adaptation means making strategic modifications. These changes help us coexist amid the new climate.\n\nFarmers pioneer in adaptation. They transition toward new crops. These crops thrive under thermal duress. They demand reduced hydration. In parts of India, farmers cultivate millet in lieu of rice. Millet withstands arid interludes. This affords nourishment and revenue. They also use superior methodologies to conserve aqueous resources. Drip irrigation hydrates flora incrementally. It diminishes profligacy.\n\nCities effectuate substantial alterations too. They erect bulwarks by the sea. These walls avert inundations. They plant trees in streets. Trees afford umbrage and mitigate atmospheric heat. In the Netherlands, people elevate topography to counter surging tides. They expel surplus moisture expeditiously. These steps preserve habitations and vitalities.\n\nNature acclimatizes autonomously. Birds relocate to temperate regions. Fish migrate to chillier aquatic domains. Plants flourish in novel locales. But change transpires precipitously. Some animals require intervention. People establish protected enclaves for them. They halt deforestation.\n\nAdaptation instills optimism. It functions optimally with diminished contaminants. We curtail carbonaceous emissions to decelerate climatic heating. Then adaptation is more facile. Everyone can help. Incremental actions accumulate synergistically. Our world can remain habitable.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 218,
+    "sentence_count": 42,
+    "avg_sentence_len": 5.19,
+    "avg_word_len": 4.61,
+    "syllable_count": 291,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 88.64,
+    "flesch_kincaid_grade": 2.19,
+    "ari": 2.88,
+    "coleman_liau": 5.6,
+    "gunning_fog": 2.99
+  },
+  "final_metrics": {
+    "word_count": 215,
+    "sentence_count": 42,
+    "avg_sentence_len": 5.12,
+    "avg_word_len": 6.51,
+    "syllable_count": 459,
+    "complex_word_count": 35,
+    "complex_word_ratio": 0.16,
+    "flesch_reading_ease": 21.03,
+    "flesch_kincaid_grade": 11.6,
+    "ari": 11.78,
+    "coleman_liau": 16.68,
+    "gunning_fog": 8.56
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=primarily lexical (word substitutions)|applied_edits=46|tier=coarse_jump;dist=9.5850;dir=harder;est_wb=80;est_sb=15",
+      "metrics": {
+        "word_count": 215,
+        "sentence_count": 42,
+        "avg_sentence_len": 5.12,
+        "avg_word_len": 6.51,
+        "syllable_count": 459,
+        "complex_word_count": 35,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": 21.03,
+        "flesch_kincaid_grade": 11.6,
+        "ari": 11.78,
+        "coleman_liau": 16.68,
+        "gunning_fog": 8.56
+      },
+      "distance_to_target": 0.845,
+      "fidelity": {
+        "overall": 0.9133,
+        "entity_recall": 0.963,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 27,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 903,
+        "completion_tokens": 7171,
+        "total_tokens": 8074,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9133,
+    "entity_recall": 0.963,
+    "number_recall": 1,
+    "keyword_recall": 0.65,
+    "entity_total": 27,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 903,
+    "completion_tokens": 7171,
+    "total_tokens": 8074,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:22:06.380Z"
+}

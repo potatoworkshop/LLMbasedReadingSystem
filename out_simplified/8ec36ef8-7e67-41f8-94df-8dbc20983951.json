@@ -1,0 +1,177 @@
+{
+  "article_id": "8ec36ef8-7e67-41f8-94df-8dbc20983951",
+  "mode": "difficulty_adjust",
+  "original_article": "Human history has always been a story of how we live with the weather. For thousands of years, people built homes and grew food based on the local climate. However, the world is now changing faster than ever before. Scientists agree that the Earth is getting warmer because of human activity. This change brings bigger storms, more heat, and rising seas. While many people work hard to stop these changes by using less oil and coal, we must also learn to live with the changes that are already happening. This process is called climate adaptation. It is not about stopping the heat, but about making our world safer as the heat increases. Adaptation is a practical way to protect our homes, our food, and our future. By planning ahead, we can reduce the damage caused by a changing environment.\n\nCities are at the front of this new challenge because so many people live there. Many major cities sit near the ocean, which makes them very weak against rising sea levels. To fix this, engineers are building large walls and gates to keep the salt water out. In some places, they are even creating sponge cities. These are areas with lots of parks and special soil that can soak up heavy rain like a sponge. This prevents streets from flooding and keeps the water clean. In very hot cities, workers are painting roofs white to reflect the sun and planting more trees to provide shade. These simple steps help keep people cool without using too much electricity for air conditioning. By changing the way we build our streets and buildings, we can make sure that our cities remain comfortable places to live even as the temperature rises.\n\nFarming is another area where adaptation is very important. Farmers depend on steady rain and predictable seasons to grow the food we eat. When the weather changes, crops can die from too much sun or too much water. To solve this, scientists are developing new types of seeds that can grow even when there is very little rain. Some farmers are also changing when they plant their crops to match the new seasons. In some parts of the world, people are building large tanks to catch rainwater during the wet months so they can use it during the dry months. These methods help ensure that there is always enough food for everyone. Teaching farmers these new skills is a key part of staying safe in a warming world. It shows that we can find smart ways to work with nature instead of fighting against it.\n\nFinally, adaptation is about more than just building walls or planting seeds; it is about how we think. It requires governments and ordinary people to work together to prepare for the future. This might mean moving houses away from dangerous riverbanks or creating better warning systems for big storms. It also means protecting natural areas like forests and wetlands, which act as a shield against bad weather. While adaptation costs money today, it saves much more money and many lives in the long run. We cannot ignore the changes happening around us, but we do not have to be afraid of them. If we are smart and prepared, we can build a world that is strong enough to handle whatever the future brings. Taking these steps now will make the world a better place for the next generation.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_1eff4d7a-8ebe-4111-8851-32b0a55876be_to_l3_r5_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "1eff4d7a-8ebe-4111-8851-32b0a55876be",
+    "source_dataset": "generated",
+    "source_file": "1eff4d7a-8ebe-4111-8851-32b0a55876be.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Human history has always been a narrative of how we live with the weather. For thousands of years, people constructed homes and cultivated food predicated upon the local climate. However, the world is now metamorphosing at an unprecedented velocity. Scientists agree that Earth is warming due to human actions. This change causes fiercer storms, greater temperature extremes, and rising sea levels. While many people work hard to reduce these changes by cutting use of oil and coal, we must also gain strength against changes already occurring. This process is designated climate adaptation. It is not about preventing heat increase, but about building world strength as heat rises. Adaptation is a pragmatic methodology to safeguard our homes, our food, and our future. By planning ahead, we can reduce harmful effects caused by a changing environment.\n\nCities are at the vanguard of this emergent exigency because so many people live there. Many major cities sit near the ocean, which makes them peculiarly vulnerable to rising sea levels. To ameliorate this vulnerability, engineers are building large walls and gates to repel saline inundation. In some places, they are even creating sponge cities. These are areas with lots of parks and special soil that can absorb copious precipitation like a sponge. This forestalls urban inundation and keeps the water clean. In scorching metropolises, workers are painting roofs white to deflect solar radiation and planting more trees to afford umbrage. These elementary measures help keep people cool whilst minimizing electrical expenditure for air conditioning. By changing the way we build our streets and buildings, we can make sure that our cities persist in habitability places to live even as the temperature rises.\n\nFarming is another area where adaptation is very important. Farmers depend on consistent pluvial input and regular phenological cycles to grow the food we eat. When the weather changes, crops can die from excessive insolation or superfluous hydration. To solve this, scientists are engineering novel seed varieties that can grow even when there is scant precipitation. Some farmers are also adjusting planting chronologies their crops to match the new seasons. In some parts of the world, people are building capacious reservoirs to harvest pluvial runoff during the wet months so they can use it during the dry months. These methods help guarantee perennial alimentary sufficiency for everyone. Teaching farmers these new skills is a pivotal component of staying safe in a warming world. It shows that we can find astute methodologies to work with nature instead of contending adversarially therewith.\n\nFinally, adaptation is about transcending mere building walls or planting seeds; it is about cognitive paradigms. It requires governments and ordinary people to collaborate synergistically to fortify against forthcoming vicissitudes. This might mean moving houses away from perilous fluvial margins or creating enhanced prognostication networks for big storms. It also means protecting natural areas like forests and wetlands, which function as bulwarks against bad weather. While adaptation entails pecuniary outlay contemporaneously, it averts exponentially greater fiscal losses and many lives in the long run. We cannot disregard the changes happening around us, but we do not have to be intimidated thereby. If we are smart and prepared, we can build a world that is resiliently robust to handle whatever the future brings. Taking these steps now will make the world a better place for the next generation.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 569,
+    "sentence_count": 36,
+    "avg_sentence_len": 15.81,
+    "avg_word_len": 4.56,
+    "syllable_count": 808,
+    "complex_word_count": 13,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 70.66,
+    "flesch_kincaid_grade": 7.33,
+    "ari": 7.96,
+    "coleman_liau": 9.15,
+    "gunning_fog": 7.24
+  },
+  "final_metrics": {
+    "word_count": 554,
+    "sentence_count": 36,
+    "avg_sentence_len": 15.39,
+    "avg_word_len": 5.36,
+    "syllable_count": 972,
+    "complex_word_count": 46,
+    "complex_word_ratio": 0.08,
+    "flesch_reading_ease": 42.78,
+    "flesch_kincaid_grade": 11.11,
+    "ari": 11.51,
+    "coleman_liau": 13.79,
+    "gunning_fog": 9.48
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary focus on lexical changes (word and phrase substitutions)|applied_edits=61|tier=coarse_jump;dist=3.0800;dir=harder;est_wb=80;est_sb=13",
+      "metrics": {
+        "word_count": 564,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.67,
+        "avg_word_len": 5.55,
+        "syllable_count": 1038,
+        "complex_word_count": 56,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 35.23,
+        "flesch_kincaid_grade": 12.24,
+        "ari": 12.54,
+        "coleman_liau": 14.94,
+        "gunning_fog": 10.24
+      },
+      "distance_to_target": 1.49,
+      "fidelity": {
+        "overall": 0.98,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1265,
+        "completion_tokens": 6797,
+        "total_tokens": 8062,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic changes (sentence replacements)|applied_edits=5|tier=dist_1_to_2;dist=1.4900;center_gap=1.18;mode=word_budget_3;dominant=word;dir_changed=1;wb=19;sb=6;est_wb=80;est_sb=6;lf=0.97;df=1.65;af=0.9371;pg=3.0800;pd=1.5900;af_fb=0",
+      "metrics": {
+        "word_count": 554,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.39,
+        "avg_word_len": 5.36,
+        "syllable_count": 972,
+        "complex_word_count": 46,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 42.78,
+        "flesch_kincaid_grade": 11.11,
+        "ari": 11.51,
+        "coleman_liau": 13.79,
+        "gunning_fog": 9.48
+      },
+      "distance_to_target": 0.4725,
+      "fidelity": {
+        "overall": 0.98,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2609,
+        "completion_tokens": 12491,
+        "total_tokens": 15100,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.98,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 15,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2609,
+    "completion_tokens": 12491,
+    "total_tokens": 15100,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:11:47.074Z"
+}

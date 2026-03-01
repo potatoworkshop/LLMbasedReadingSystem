@@ -1,0 +1,177 @@
+{
+  "article_id": "4862d3af-6eb4-4455-be90-74e496102609",
+  "mode": "difficulty_adjust",
+  "original_article": "Long ago, traders journeyed across deserts, mountains, and seas to exchange goods. These paths, known as ancient trade routes, connected distant civilizations. They carried not just items but also ideas, religions, and cultures. One of the most famous routes was the Silk Road. It linked China with the Mediterranean world for over 1,500 years, from around 130 B.C. to the 1400s A.D. Merchants faced harsh conditions like sandstorms and bandits. Yet, the promise of profit drove them forward. Silk from China was the star product. Romans prized it for clothing and banners. In return, China received glassware, wool, and precious metals.\n\nThe Silk Road was not a single road but a network of paths. It split into northern and southern branches to avoid dangers. Cities like Samarkand in Central Asia became busy hubs. Here, traders from Persia, India, and Europe met. Camels, called ships of the desert, carried heavy loads. Spices like cinnamon and pepper also traveled west from India. These added flavor to Roman meals. Buddhism spread along the route too. Monks carried scriptures from India to China. Art and music crossed borders as well. For example, Persian rugs influenced Chinese designs.\n\nOther routes complemented the Silk Road. The Incense Route ran through Arabia. Traders brought frankincense and myrrh from southern Arabia to Egypt and Rome. These resins were vital for perfumes and religious rites. Ships sailed the Indian Ocean on monsoon winds. The Spice Route connected India with East Africa and the Middle East. Pepper, cloves, and nutmeg fetched high prices in Europe. Arab and Indian sailors navigated by stars. Their dhow boats with lateen sails handled rough seas. Ports like Berenike in Egypt buzzed with activity. Goods moved from ship to camel caravans.\n\nThese trade routes boosted economies and changed societies. Cities grew rich from taxes on trade. New foods like lemons from China reached Europe. Technologies spread too. Papermaking from China revolutionized writing in the West. Gunpowder later followed the same paths. Trade fostered peace at times. Rulers protected caravans to gain wealth. But wars also arose over control of routes. The rise of Islam helped link East and West further. Overall, ancient trade routes wove the world together. They showed how exchange builds civilizations. Today, we still feel their impact in global trade.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_124bd8f6-90f3-4fa5-9ed1-72ce929b791f_to_l2_r6_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "124bd8f6-90f3-4fa5-9ed1-72ce929b791f",
+    "source_dataset": "generated",
+    "source_file": "124bd8f6-90f3-4fa5-9ed1-72ce929b791f.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Long ago, traders traversed across deserts, mountains, and maritime expanses to exchange commodities. These routes, known as ancient trade routes, connected distant civilizations. They transported not only goods but also ideologies, religious traditions, and cultural practices. One of the most renowned corridors was the Silk Road. It connected China to the Mediterranean basin for more than 1,500 years, from around 130 B.C. to the 1400s A.D. Merchants faced harsh conditions like sandstorms and bandits. Nevertheless, the prospect of profit propelled their endeavors. Chinese silk was the main commodity. Romans coveted it for garments and banners. In reciprocity, China received glassware, wool, and precious metals.\n\nThe Silk Road was not a single thoroughfare but a network of routes. It split into northern and southern branches to circumvent perils. Cities like Samarkand in Central Asia became bustling hubs. Here, traders from Persia, India, and Europe converged. Camels, often termed 'ships of the desert,' transported substantial loads. Spices like cinnamon and pepper also traveled westward from India. These enhanced the flavor of Roman cuisine. Buddhism disseminated along the route as well. Monastics carried scriptures from India to China. Artistic and musical traditions traversed borders as well. For example, Persian rug motifs influenced Chinese decorative designs.\n\nOther routes augmented the Silk Road. The Incense Route traversed Arabia. Traders transported frankincense and myrrh from southern Arabia to Egypt and Rome. These aromatic resins were indispensable for perfumery and religious rites. Ships sailed the Indian Ocean on seasonal monsoon winds. The Spice Route linked India with East Africa and the Middle East. Pepper, cloves, and nutmeg commanded high prices in Europe. Arab and Indian mariners navigated by celestial bodies. Their dhows equipped with lateen sails withstood rough seas. Ports like Berenike in Egypt buzzed with commercial activity. Goods moved from ships to camel caravans.\n\nThese trade routes stimulated economic growth and transformed societies. Cities accrued wealth through taxation on trade. Novel foods, such as lemons originating in China, reached Europe. Technologies disseminated as well. Chinese papermaking revolutionized written practices in the West. Gunpowder subsequently traveled along similar trajectories. At times, trade fostered periods of relative peace. Rulers safeguarded caravans to secure fiscal gains. However, conflicts also erupted over control of these routes. The rise of Islam further integrated East and West. Overall, ancient trade routes interwove global regions. They demonstrated how exchange supports the development of civilizations. Today, their legacy persists in contemporary global trade.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 381,
+    "sentence_count": 48,
+    "avg_sentence_len": 7.94,
+    "avg_word_len": 5.06,
+    "syllable_count": 606,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 64.22,
+    "flesch_kincaid_grade": 6.27,
+    "ari": 6.36,
+    "coleman_liau": 10.21,
+    "gunning_fog": 4.01
+  },
+  "final_metrics": {
+    "word_count": 403,
+    "sentence_count": 48,
+    "avg_sentence_len": 8.4,
+    "avg_word_len": 5.72,
+    "syllable_count": 756,
+    "complex_word_count": 24,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 39.61,
+    "flesch_kincaid_grade": 9.82,
+    "ari": 9.72,
+    "coleman_liau": 14.32,
+    "gunning_fog": 5.74
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Lexical substitutions to increase academic diction and multi-syllabic vocabulary while preserving original sentence structure and facts.|applied_edits=47|tier=dist_gt_2;dist=2.2875;center_gap=3.45;mode=both;dominant=sentence;dir_changed=0;wb=80;sb=17;est_wb=65;est_sb=17;lf=0.80;df=2.04;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 406,
+        "sentence_count": 48,
+        "avg_sentence_len": 8.46,
+        "avg_word_len": 5.77,
+        "syllable_count": 771,
+        "complex_word_count": 24,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 37.59,
+        "flesch_kincaid_grade": 10.12,
+        "ari": 9.98,
+        "coleman_liau": 14.63,
+        "gunning_fog": 5.75
+      },
+      "distance_to_target": 1.12,
+      "fidelity": {
+        "overall": 0.9584,
+        "entity_recall": 0.9298,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 57,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 980,
+        "completion_tokens": 14504,
+        "total_tokens": 15484,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily LEXICAL substitutions to simplify wording while keeping sentence structure|applied_edits=5|tier=dist_1_to_2;dist=1.1200;center_gap=1.78;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=38;sb=7;est_wb=79;est_sb=17;lf=0.82;df=1.46;af=0.9593;pg=2.2875;pd=1.1675;af_fb=0",
+      "metrics": {
+        "word_count": 403,
+        "sentence_count": 48,
+        "avg_sentence_len": 8.4,
+        "avg_word_len": 5.72,
+        "syllable_count": 756,
+        "complex_word_count": 24,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 39.61,
+        "flesch_kincaid_grade": 9.82,
+        "ari": 9.72,
+        "coleman_liau": 14.32,
+        "gunning_fog": 5.74
+      },
+      "distance_to_target": 0.9,
+      "fidelity": {
+        "overall": 0.9584,
+        "entity_recall": 0.9298,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 57,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1988,
+        "completion_tokens": 19468,
+        "total_tokens": 21456,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9584,
+    "entity_recall": 0.9298,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 57,
+    "number_total": 3,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1988,
+    "completion_tokens": 19468,
+    "total_tokens": 21456,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:38:36.405Z"
+}

@@ -1,0 +1,546 @@
+{
+  "article_id": "a0f3f531-9cb1-460c-a53d-a13585cfeac4",
+  "mode": "difficulty_adjust",
+  "original_article": "Cinnamon is a sweet, fragrant spice produced from the inner bark of trees of the genus Cinnamomum, which is native to the Indian sub-continent. It was known in biblical times, and is mentioned in several books of the Bible, both as an ingredient that was mixed with oils for anointing people's bodies, and also as a token indicating friendship among lovers and friends. In ancient Rome, mourners attending funerals burnt cinnamon to create a pleasant scent. Most often, however, the spice found its primary use as an additive to food and drink. In the Middle Ages, Europeans who could afford the spice used it to flavour food, particularly meat, and to impress those around them with their ability to purchase an expensive condiment from the 'exotic' East. At a banquet, a host would offer guests a plate with various spices piled upon it as a sign of the wealth at his or her disposal. Cinnamon was also reported to have health benefits, and was thought to cure various ailments, such as indigestion.\n\nToward the end of the Middle Ages, the European middle classes began to desire the lifestyle of the elite, including their consumption of spices. This led to a growth in demand for cinnamon and other spices. At that time, cinnamon was transported by Arab merchants, who closely guarded the secret of the source of the spice from potential rivals. They took it from India, where it was grown, on camels via an overland route to the Mediterranean. Their journey ended when they reached Alexandria. European traders sailed there to purchase their supply of cinnamon, then brought it back to Venice. The spice then travelled from that great trading city to markets all around Europe. Because the overland trade route allowed for only small quantities of the spice to reach Europe, and because Venice had a virtual monopoly of the trade, the Venetians could set the price of cinnamon exorbitantly high. These prices, coupled with the increasing demand, spurred the search for new routes to Asia by Europeans eager to take part in the spice trade.\n\nSeeking the high profits promised by the cinnamon market, Portuguese traders arrived on the island of Ceylon in the Indian Ocean toward the end of the 15th century. Before Europeans arrived on the island, the state had organized the cultivation of cinnamon. People belonging to the ethnic group called the Salagama would peel the bark off young shoots of the cinnamon plant in the rainy season, when the wet bark was more pliable. During the peeling process, they curled the bark into the 'stick' shape still associated with the spice today. The Salagama then gave the finished product to the king as a form of tribute. When the Portuguese arrived, they needed to increase production significantly, and so enslaved many other members of the Ceylonese native population, forcing them to work in cinnamon harvesting. In 1518, the Portuguese built a fort on Ceylon, which enabled them to protect the island, so helping them to develop a monopoly in the cinnamon trade and generate very high profits. In the late 16th century, for example, they enjoyed a tenfold profit when shipping cinnamon over a journey of eight days from Ceylon to India.\n\nWhen the Dutch arrived off the coast of southern Asia at the very beginning of the 17th century, they set their sights on displacing the Portuguese as kings of cinnamon. The Dutch allied themselves with Kandy, an inland kingdom on Ceylon. In return for payments of elephants and cinnamon, they protected the native king from the Portuguese. By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories. By 1658, they had permanently expelled the Portuguese from the island, thereby gaining control of the lucrative cinnamon trade.\n\nIn order to protect their hold on the market, the Dutch, like the Portuguese before them, treated the native inhabitants harshly. Because of the need to boost production and satisfy Europe's ever-increasing appetite for cinnamon, the Dutch began to alter the harvesting practices of the Ceylonese. Over time, the supply of cinnamon trees on the island became nearly exhausted, due to systematic stripping of the bark. Eventually, the Dutch began cultivating their own cinnamon trees to supplement the diminishing number of wild trees available for use.\n\nThen, in 1796, the English arrived on Ceylon, thereby displacing the Dutch from their control of the cinnamon monopoly. By the middle of the 19th century, production of cinnamon reached 1,000 tons a year, after a (lower grade quality of the spice became acceptable to European tastes. By that time, (cinnamon was being grown in other parts of the Indian Ocean region and in the West Indies, Brazil, and Guyana. Not only was a monopoly of cinnamon becoming impossible, but the spice trade overall was diminishing in economic potential, and was eventually superseded by the rise of trade in coffee, tea, chocolate, and sugar.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_small_adjust_questions_20260227_234147",
+    "run_tag": "debug_small",
+    "batch_id": "adj_q_small_20260227_234147",
+    "sample_id": "ielts_13_test2_passage1_21iffj_to_l4"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test2_passage1_21iffj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test2_passage1_21iffj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Cinnamon is a sweet, aromatic spice obtained from the inner bark of trees of the genus Cinnamomum, native to the Indian subcontinent. It was known in biblical times, and is mentioned in several books of the Bible, both as an ingredient that was mixed with oils for anointing people's bodies, and also as a token indicating friendship among lovers and friends. In ancient Rome, mourners attending funerals burnt cinnamon to create a pleasant scent. Most often the spice found its primary use as an additive to food and drink. In the Middle Ages, rich Europeans who could afford the spice used it to season dishes, particularly meat. They used it to impress those around them with their ability to get an expensive spice from the 'exotic' East. At a banquet, a host would offer guests a plate with various spices piled upon it as a sign of the wealth at his or her disposal. Cinnamon was also reputed to confer health benefits. It was thought to relieve various ailments, such as dyspepsia.\n\nToward the end of the Middle Ages, the growing European middle classes began to want the lifestyle of the elite, including their use of spices. This caused greater demand for cinnamon and other aromatics. At that time, cinnamon was transported by Arab merchants. They closely guarded the secret of the source of the spice from potential rivals. They conveyed it from India, where it was grown, on camels via an overland route to the Mediterranean. Their journey concluded at Alexandria. European traders sailed there to purchase their supply of cinnamon, then brought it back to Venice. The spice then travelled from that great trading city to markets all around Europe. Because the overland trade route allowed for only small quantities of the spice to reach Europe, and because Venice had a virtual monopoly of the trade, the Venetians could set the price of cinnamon very high. These prices, coupled with the increasing demand, spurred the search for new routes to Asia by Europeans eager to participate in the spice trade.\n\nSeeking the high profits promised by the cinnamon market, Portuguese traders arrived on the island of Ceylon in the Indian Ocean toward the end of the 15th century. Before Europeans arrived on the island, the state had organized the cultivation of cinnamon. People belonging to the ethnic group called the Salagama would peel the bark off young shoots of the cinnamon plant in the rainy season, when the wet bark was more pliable. During the peeling process, they curled the bark into the 'stick' shape still associated with the spice today. The Salagama then gave the finished product to the king as a form of tribute. When the Portuguese arrived, they needed to increase production significantly. So they enslaved many other members of the Ceylonese native population, forcing them to work in cinnamon harvesting. In 1518, the Portuguese built a fort on Ceylon, which enabled them to protect the island and thereby develop a monopoly in the cinnamon trade while generating very high profits. In the late 16th century, for example, they enjoyed a tenfold profit when shipping cinnamon over a journey of eight days from Ceylon to India.\n\nWhen the Dutch arrived off the coast of southern Asia at the very beginning of the 17th century, they set their sights on displacing the Portuguese as sovereigns of the cinnamon trade. The Dutch allied themselves with Kandy, an inland kingdom on Ceylon. In return for payments of elephants and cinnamon, they protected the native king from the Portuguese. By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories. By 1658, they had permanently expelled the Portuguese from the island, thereby gaining control of the lucrative cinnamon trade.\n\nIn order to protect their hold on the market, the Dutch, like the Portuguese before them, treated the native inhabitants harshly. Because of the need to boost production and satisfy Europe's ever-increasing appetite for cinnamon, the Dutch began to alter the harvesting practices of the Ceylonese. Over time, the supply of cinnamon trees on the island became nearly exhausted, due to systematic stripping of the bark. Eventually, the Dutch began cultivating their own cinnamon trees to supplement the diminishing number of wild trees available for use.\n\nThen, in 1796, the English arrived on Ceylon, thereby displacing the Dutch from their control of the cinnamon monopoly. By the middle of the 19th century, production of cinnamon reached 1,000 tons a year, after a lower grade quality of the spice became acceptable to European tastes. By that time, cinnamon was being grown in other parts of the Indian Ocean region and in the West Indies, Brazil, and Guyana. Not only was a monopoly of cinnamon becoming impossible, but the spice trade overall was diminishing in economic potential, and was eventually superseded by the ascendance of trade in coffee, tea, chocolate, and sugar.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Advanced",
+    "rewrite_guidance": "Use more discipline-specific terms and denser sentence structures while preserving coherence.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        11,
+        13.5
+      ],
+      "flesch_reading_ease": [
+        38,
+        55
+      ],
+      "ari": [
+        9.5,
+        14.5
+      ],
+      "coleman_liau": [
+        11,
+        15.5
+      ],
+      "gunning_fog": [
+        11,
+        16.5
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 824,
+    "sentence_count": 37,
+    "avg_sentence_len": 22.27,
+    "avg_word_len": 4.87,
+    "syllable_count": 1329,
+    "complex_word_count": 27,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 47.78,
+    "flesch_kincaid_grade": 12.13,
+    "ari": 12.63,
+    "coleman_liau": 11.49,
+    "gunning_fog": 10.22
+  },
+  "final_metrics": {
+    "word_count": 818,
+    "sentence_count": 41,
+    "avg_sentence_len": 19.95,
+    "avg_word_len": 4.9,
+    "syllable_count": 1333,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 48.72,
+    "flesch_kincaid_grade": 11.42,
+    "ari": 11.63,
+    "coleman_liau": 11.53,
+    "gunning_fog": 9.45
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.5129;center_gap=1.43;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=14;sb=3;lf=1.17;df=1.16;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 824,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.27,
+        "avg_word_len": 4.87,
+        "syllable_count": 1329,
+        "complex_word_count": 27,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 47.78,
+        "flesch_kincaid_grade": 12.13,
+        "ari": 12.63,
+        "coleman_liau": 11.49,
+        "gunning_fog": 10.22
+      },
+      "distance_to_target": 0.5129,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1483,
+        "completion_tokens": 1797,
+        "total_tokens": 3280,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 1,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.5129;center_gap=1.43;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=14;sb=3;lf=1.17;df=1.16;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 561,
+        "sentence_count": 28,
+        "avg_sentence_len": 20.04,
+        "avg_word_len": 5.99,
+        "syllable_count": 1164,
+        "complex_word_count": 59,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 10.97,
+        "flesch_kincaid_grade": 16.71,
+        "ari": 16.81,
+        "coleman_liau": 17.95,
+        "gunning_fog": 12.22
+      },
+      "distance_to_target": 2.4635,
+      "fidelity": {
+        "overall": 0.798,
+        "entity_recall": 0.7955,
+        "number_recall": 0.8571,
+        "keyword_recall": 0.7,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2966,
+        "completion_tokens": 3556,
+        "total_tokens": 6522,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 1,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_lt_1;dist=0.5129;center_gap=1.43;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=14;sb=3;lf=1.17;df=1.16;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 824,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.27,
+        "avg_word_len": 4.88,
+        "syllable_count": 1335,
+        "complex_word_count": 29,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 47.17,
+        "flesch_kincaid_grade": 12.21,
+        "ari": 12.68,
+        "coleman_liau": 11.55,
+        "gunning_fog": 10.32
+      },
+      "distance_to_target": 0.4771,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4449,
+        "completion_tokens": 5159,
+        "total_tokens": 9608,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4771;center_gap=1.38;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=9;lf=1.17;df=1.14;af=3.0000;pg=0.5129;pd=0.0358;af_fb=0",
+      "metrics": {
+        "word_count": 822,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.22,
+        "avg_word_len": 4.99,
+        "syllable_count": 1370,
+        "complex_word_count": 33,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 43.29,
+        "flesch_kincaid_grade": 12.74,
+        "ari": 13.18,
+        "coleman_liau": 12.21,
+        "gunning_fog": 10.49
+      },
+      "distance_to_target": 0.5779,
+      "fidelity": {
+        "overall": 0.9898,
+        "entity_recall": 0.9773,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5932,
+        "completion_tokens": 9337,
+        "total_tokens": 15269,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_lt_1;dist=0.4771;center_gap=1.38;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=9;lf=1.17;df=1.14;af=3.0000;pg=0.5129;pd=0.0358;af_fb=0",
+      "metrics": {
+        "word_count": 820,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.16,
+        "avg_word_len": 4.91,
+        "syllable_count": 1342,
+        "complex_word_count": 32,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 45.89,
+        "flesch_kincaid_grade": 12.36,
+        "ari": 12.8,
+        "coleman_liau": 11.76,
+        "gunning_fog": 10.43
+      },
+      "distance_to_target": 0.4699,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 7415,
+        "completion_tokens": 16126,
+        "total_tokens": 23541,
+        "llm_calls": 5
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4699;center_gap=1.41;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=9;lf=1.17;df=1.13;af=3.0000;pg=0.4771;pd=0.0072;af_fb=0",
+      "metrics": {
+        "word_count": 592,
+        "sentence_count": 30,
+        "avg_sentence_len": 19.73,
+        "avg_word_len": 5.77,
+        "syllable_count": 1174,
+        "complex_word_count": 50,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 19.03,
+        "flesch_kincaid_grade": 15.51,
+        "ari": 15.62,
+        "coleman_liau": 16.64,
+        "gunning_fog": 11.27
+      },
+      "distance_to_target": 1.9392,
+      "fidelity": {
+        "overall": 0.8791,
+        "entity_recall": 0.9091,
+        "number_recall": 0.8571,
+        "keyword_recall": 0.85,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 8892,
+        "completion_tokens": 18610,
+        "total_tokens": 27502,
+        "llm_calls": 6
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4699;center_gap=1.41;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=9;lf=1.17;df=1.13;af=3.0000;pg=0.4771;pd=0.0072;af_fb=0",
+      "metrics": {
+        "word_count": 610,
+        "sentence_count": 34,
+        "avg_sentence_len": 17.94,
+        "avg_word_len": 6.12,
+        "syllable_count": 1291,
+        "complex_word_count": 69,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 9.58,
+        "flesch_kincaid_grade": 16.38,
+        "ari": 16.36,
+        "coleman_liau": 18.52,
+        "gunning_fog": 11.7
+      },
+      "distance_to_target": 2.4958,
+      "fidelity": {
+        "overall": 0.8589,
+        "entity_recall": 0.8864,
+        "number_recall": 0.8571,
+        "keyword_recall": 0.8,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 10369,
+        "completion_tokens": 22935,
+        "total_tokens": 33304,
+        "llm_calls": 7
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4699;center_gap=1.41;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=9;lf=1.17;df=1.13;af=3.0000;pg=0.4771;pd=0.0072;af_fb=0",
+      "metrics": {
+        "word_count": 591,
+        "sentence_count": 36,
+        "avg_sentence_len": 16.42,
+        "avg_word_len": 5.88,
+        "syllable_count": 1186,
+        "complex_word_count": 50,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 20.4,
+        "flesch_kincaid_grade": 14.49,
+        "ari": 14.46,
+        "coleman_liau": 16.95,
+        "gunning_fog": 9.95
+      },
+      "distance_to_target": 1.7746,
+      "fidelity": {
+        "overall": 0.9495,
+        "entity_recall": 0.9545,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 11846,
+        "completion_tokens": 26132,
+        "total_tokens": 37978,
+        "llm_calls": 8
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4699;center_gap=1.41;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.17;df=1.13;af=1.0000;pg=0.4699;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 819,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.14,
+        "avg_word_len": 4.98,
+        "syllable_count": 1366,
+        "complex_word_count": 36,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 43.26,
+        "flesch_kincaid_grade": 12.72,
+        "ari": 13.08,
+        "coleman_liau": 12.13,
+        "gunning_fog": 10.61
+      },
+      "distance_to_target": 0.5658,
+      "fidelity": {
+        "overall": 0.9898,
+        "entity_recall": 0.9773,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 13323,
+        "completion_tokens": 31296,
+        "total_tokens": 44619,
+        "llm_calls": 9
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4699;center_gap=1.41;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.17;df=1.13;af=1.0000;pg=0.4699;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 819,
+        "sentence_count": 33,
+        "avg_sentence_len": 24.82,
+        "avg_word_len": 4.95,
+        "syllable_count": 1356,
+        "complex_word_count": 34,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 41.57,
+        "flesch_kincaid_grade": 13.63,
+        "ari": 14.32,
+        "coleman_liau": 12.14,
+        "gunning_fog": 11.59
+      },
+      "distance_to_target": 0.7782,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 14800,
+        "completion_tokens": 36326,
+        "total_tokens": 51126,
+        "llm_calls": 10
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_hit_target|tier=dist_lt_1;dist=0.4699;center_gap=1.41;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.17;df=1.13;af=1.0000;pg=0.4699;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 818,
+        "sentence_count": 34,
+        "avg_sentence_len": 24.06,
+        "avg_word_len": 4.98,
+        "syllable_count": 1358,
+        "complex_word_count": 34,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 41.97,
+        "flesch_kincaid_grade": 13.38,
+        "ari": 14.07,
+        "coleman_liau": 12.27,
+        "gunning_fog": 11.29
+      },
+      "distance_to_target": 0.719,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 16277,
+        "completion_tokens": 40818,
+        "total_tokens": 57095,
+        "llm_calls": 11
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_lt_1;dist=0.7190;center_gap=1.89;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=43;sb=9;lf=1.17;df=1.26;af=2.8864;pg=0.4699;pd=0.2491;af_fb=0",
+      "metrics": {
+        "word_count": 818,
+        "sentence_count": 41,
+        "avg_sentence_len": 19.95,
+        "avg_word_len": 4.9,
+        "syllable_count": 1333,
+        "complex_word_count": 30,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 48.72,
+        "flesch_kincaid_grade": 11.42,
+        "ari": 11.63,
+        "coleman_liau": 11.53,
+        "gunning_fog": 9.45
+      },
+      "distance_to_target": 0.6803,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 17761,
+        "completion_tokens": 42962,
+        "total_tokens": 60723,
+        "llm_calls": 12
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 44,
+    "number_total": 7,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 17761,
+    "completion_tokens": 42962,
+    "total_tokens": 60723,
+    "llm_calls": 12
+  },
+  "transformed_at": "2026-02-27T22:05:22.987Z"
+}

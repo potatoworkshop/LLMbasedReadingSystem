@@ -1,7 +1,10 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { v4 as uuidv4 } from "uuid";
-import { getLlmResponse } from "../llm/llmAdapter";
+import {
+  getLlmResponseWithMeta,
+  type LlmUsage,
+} from "../llm/llmAdapter";
 import type { OpenRouterModel } from "../llm/openrouterClient";
 import {
   formatProfileTargets,
@@ -30,8 +33,51 @@ type ModelResponse = {
   article: string;
 };
 
+const ARTICLE_RESPONSE_SCHEMA = {
+  name: "article_generation_response",
+  schema: {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      title: { type: "string" },
+      article: { type: "string" },
+    },
+    required: ["title", "article"],
+  },
+} as const;
+
+type UsageAccumulator = {
+  prompt_tokens: number;
+  completion_tokens: number;
+  total_tokens: number;
+  calls: number;
+};
+
 const ARCHIVE_DIR = path.resolve(__dirname, "..", "..", "..", "out_generated");
 const MAX_GENERATION_ATTEMPTS = 3;
+
+const emptyUsageAccumulator = (): UsageAccumulator => ({
+  prompt_tokens: 0,
+  completion_tokens: 0,
+  total_tokens: 0,
+  calls: 0,
+});
+
+const addUsage = (acc: UsageAccumulator, usage: LlmUsage | null) => {
+  acc.calls += 1;
+  if (!usage) {
+    return;
+  }
+  if (typeof usage.prompt_tokens === "number") {
+    acc.prompt_tokens += usage.prompt_tokens;
+  }
+  if (typeof usage.completion_tokens === "number") {
+    acc.completion_tokens += usage.completion_tokens;
+  }
+  if (typeof usage.total_tokens === "number") {
+    acc.total_tokens += usage.total_tokens;
+  }
+};
 
 const splitParagraphs = (text: string) =>
   text
@@ -48,10 +94,13 @@ const archiveArticle = async (payload: {
   title: string;
   article: string;
   metrics: ReturnType<typeof computeMetrics>;
-  model?: OpenRouterModel;
+  model?: string | null;
+  provider?: string | null;
   experiment?: GenerateRequest["experiment"];
   request_meta: {
     requested_at: string;
+    effective_target_words: number;
+    length_compensation_factor: number;
     length_bounds: {
       lower: number;
       upper: number;
@@ -63,6 +112,12 @@ const archiveArticle = async (payload: {
     selected_attempt: number;
     within_preferred_range: boolean;
     distance_to_target_words: number;
+  };
+  token_usage: {
+    prompt_tokens: number;
+    completion_tokens: number;
+    total_tokens: number;
+    llm_calls: number;
   };
 }) => {
   await fs.mkdir(ARCHIVE_DIR, { recursive: true });
@@ -77,10 +132,11 @@ const archiveArticle = async (payload: {
     article: splitParagraphs(payload.article),
     metrics: payload.metrics,
     model: payload.model ?? null,
-    provider: process.env.LLM_PROVIDER ?? null,
+    provider: payload.provider ?? process.env.LLM_PROVIDER ?? null,
     experiment: payload.experiment ?? null,
     request_meta: payload.request_meta,
     generation_meta: payload.generation_meta,
+    token_usage: payload.token_usage,
     generated_at: new Date().toISOString(),
   };
   await fs.writeFile(filePath, `${JSON.stringify(fileBody, null, 2)}\n`, "utf8");
@@ -91,18 +147,36 @@ type WordBounds = {
   upperBound: number;
 };
 
+const LENGTH_COMPENSATION_BY_LEVEL: Record<number, number> = {
+  1: 1.4,
+  2: 1.3,
+  3: 1.05,
+  4: 1,
+  5: 1,
+};
+
+const resolveLengthCompensationFactor = (level: number) =>
+  LENGTH_COMPENSATION_BY_LEVEL[level] ?? 1;
+
+const resolveEffectiveTargetWords = (level: number, targetWords: number) =>
+  Math.max(80, Math.round(targetWords * resolveLengthCompensationFactor(level)));
+
 const resolveWordBounds = (targetWords: number): WordBounds => ({
   lowerBound: Math.round(targetWords * 0.9),
   upperBound: Math.round(targetWords * 1.2),
 });
 
-const buildPrompt = (request: GenerateRequest, bounds: WordBounds) => {
+const buildPrompt = (
+  request: GenerateRequest,
+  bounds: WordBounds,
+  effectiveTargetWords: number
+) => {
   const difficultyProfile = getDifficultyProfile(request.level);
 
   return [
     "You are an assistant that writes short reading passages.",
     `Topic: ${request.topic}`,
-    `Target length: around ${request.target_words} words.`,
+    `Target length: around ${effectiveTargetWords} words.`,
     `Preferred range: ${bounds.lowerBound}-${bounds.upperBound} words.`,
     `Difficulty level: ${difficultyProfile.level} (${difficultyProfile.label}).`,
     `Difficulty targets: ${formatProfileTargets(difficultyProfile)}.`,
@@ -111,9 +185,8 @@ const buildPrompt = (request: GenerateRequest, bounds: WordBounds) => {
     "Write in the style of an IELTS Academic Reading passage.",
     "Write 3 to 5 coherent paragraphs.",
     "No markdown, no lists, no headings.",
-    "Return STRICT JSON with only these keys:",
-    '{"title":"...","article":"..."}',
-    "The article value should contain the full text with paragraphs separated by a blank line.",
+    "Provide a concise title and the full passage content.",
+    "Use blank lines between paragraphs in the passage content.",
   ].join("\n");
 };
 
@@ -126,10 +199,16 @@ const isModelResponse = (value: unknown): value is ModelResponse => {
 };
 
 export const generateArticle = async (request: GenerateRequest) => {
-  const bounds = resolveWordBounds(request.target_words);
-  const prompt = buildPrompt(request, bounds);
+  const lengthCompensationFactor = resolveLengthCompensationFactor(request.level);
+  const effectiveTargetWords = resolveEffectiveTargetWords(
+    request.level,
+    request.target_words
+  );
+  const bounds = resolveWordBounds(effectiveTargetWords);
+  const prompt = buildPrompt(request, bounds, effectiveTargetWords);
   const article_id = uuidv4();
   let lastError: Error | null = null;
+  const usageAccumulator = emptyUsageAccumulator();
   let bestCandidate:
     | {
         title: string;
@@ -139,11 +218,19 @@ export const generateArticle = async (request: GenerateRequest) => {
         attemptNumber: number;
       }
     | null = null;
+  let llmProvider: string | null = process.env.LLM_PROVIDER ?? null;
+  let llmModelResolved: string | null = request.model ?? null;
 
   for (let attempt = 0; attempt < MAX_GENERATION_ATTEMPTS; attempt += 1) {
     try {
-      const raw = await getLlmResponse(prompt, { model: request.model });
-      const parsed = extractJson(raw);
+      const llmResponse = await getLlmResponseWithMeta(prompt, {
+        model: request.model,
+        structured_output: ARTICLE_RESPONSE_SCHEMA,
+      });
+      addUsage(usageAccumulator, llmResponse.usage);
+      llmProvider = llmResponse.provider;
+      llmModelResolved = llmResponse.model ?? llmModelResolved;
+      const parsed = extractJson(llmResponse.content);
 
       if (!isModelResponse(parsed)) {
         throw new JsonExtractError("JSON missing title or article");
@@ -190,10 +277,13 @@ export const generateArticle = async (request: GenerateRequest) => {
         title: selectedCandidate.title,
         article: selectedCandidate.article,
         metrics: selectedCandidate.metrics,
-        model: request.model,
+        model: llmModelResolved ?? request.model ?? null,
+        provider: llmProvider,
         experiment: request.experiment,
         request_meta: {
           requested_at: new Date().toISOString(),
+          effective_target_words: effectiveTargetWords,
+          length_compensation_factor: lengthCompensationFactor,
           length_bounds: {
             lower: bounds.lowerBound,
             upper: bounds.upperBound,
@@ -208,6 +298,12 @@ export const generateArticle = async (request: GenerateRequest) => {
             selectedCandidate.metrics.word_count <= bounds.upperBound,
           distance_to_target_words: selectedCandidate.distanceToTarget,
         },
+        token_usage: {
+          prompt_tokens: usageAccumulator.prompt_tokens,
+          completion_tokens: usageAccumulator.completion_tokens,
+          total_tokens: usageAccumulator.total_tokens,
+          llm_calls: usageAccumulator.calls,
+        },
       });
 
       return {
@@ -218,6 +314,14 @@ export const generateArticle = async (request: GenerateRequest) => {
         title: selectedCandidate.title,
         article: selectedCandidate.article,
         metrics: selectedCandidate.metrics,
+        model: llmModelResolved,
+        provider: llmProvider,
+        token_usage: {
+          prompt_tokens: usageAccumulator.prompt_tokens,
+          completion_tokens: usageAccumulator.completion_tokens,
+          total_tokens: usageAccumulator.total_tokens,
+          llm_calls: usageAccumulator.calls,
+        },
       };
     } catch (err) {
       const shouldRetry = err instanceof JsonExtractError;
@@ -240,10 +344,13 @@ export const generateArticle = async (request: GenerateRequest) => {
       title: bestCandidate.title,
       article: bestCandidate.article,
       metrics: bestCandidate.metrics,
-      model: request.model,
+      model: llmModelResolved ?? request.model ?? null,
+      provider: llmProvider,
       experiment: request.experiment,
       request_meta: {
         requested_at: new Date().toISOString(),
+        effective_target_words: effectiveTargetWords,
+        length_compensation_factor: lengthCompensationFactor,
         length_bounds: {
           lower: bounds.lowerBound,
           upper: bounds.upperBound,
@@ -258,6 +365,12 @@ export const generateArticle = async (request: GenerateRequest) => {
           bestCandidate.metrics.word_count <= bounds.upperBound,
         distance_to_target_words: bestCandidate.distanceToTarget,
       },
+      token_usage: {
+        prompt_tokens: usageAccumulator.prompt_tokens,
+        completion_tokens: usageAccumulator.completion_tokens,
+        total_tokens: usageAccumulator.total_tokens,
+        llm_calls: usageAccumulator.calls,
+      },
     });
 
     return {
@@ -268,6 +381,14 @@ export const generateArticle = async (request: GenerateRequest) => {
       title: bestCandidate.title,
       article: bestCandidate.article,
       metrics: bestCandidate.metrics,
+      model: llmModelResolved,
+      provider: llmProvider,
+      token_usage: {
+        prompt_tokens: usageAccumulator.prompt_tokens,
+        completion_tokens: usageAccumulator.completion_tokens,
+        total_tokens: usageAccumulator.total_tokens,
+        llm_calls: usageAccumulator.calls,
+      },
     };
   }
 

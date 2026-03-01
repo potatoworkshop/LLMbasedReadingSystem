@@ -1,0 +1,59 @@
+{
+  "article_id": "88e6c42e-7b49-48d7-8ff4-a4f9015b2bb5",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "The Diverse World of Marine Ecosystems",
+  "article": [
+    "Marine ecosystems cover more than seventy percent of our planet. These huge areas of water are home to many different types of plants and animals. They are divided into several zones based on depth and distance from the shore. Each zone has its own unique set of living things that have adapted to their surroundings. From the bright coral reefs near the surface to the dark trenches of the deep sea, life exists in many forms. These systems are very important for the health of the entire world because they provide food and oxygen.",
+    "Coral reefs are often called the rainforests of the ocean. They are found in warm and shallow waters where sunlight can reach the bottom. These reefs provide a safe home for thousands of fish species and tiny sea creatures. The colorful structures are actually made by small animals called polyps. These polyps build hard skeletons that create a massive underwater network. Many people visit these areas to see the beautiful colors and the busy life that thrives there. However, these delicate places are easily harmed by changes in water temperature and pollution.",
+    "Further away from the coast, the open ocean represents the largest habitat on Earth. This area is mostly made of blue water and does not have many places to hide. Large animals like whales and sharks travel through these deep waters to find food. Many of these creatures must migrate long distances every year. Tiny floating plants called phytoplankton live near the surface to catch sunlight. These small plants are the foundation of the ocean food chain. They also help humans by absorbing carbon dioxide from the air and releasing fresh oxygen.",
+    "Finally, the deep sea is a cold and dark place where very little is known. Because sunlight cannot reach these depths, plants cannot grow there. Animals living in the deep sea have developed strange ways to survive in the dark. Some fish can create their own light to attract prey or find a mate. Others have very large mouths and sharp teeth to catch whatever food falls from the surface. Although it is a harsh environment, the deep sea is a vital part of the global ecosystem. Protecting these various marine habitats is essential for our future."
+  ],
+  "metrics": {
+    "word_count": 375,
+    "sentence_count": 27,
+    "avg_sentence_len": 13.89,
+    "avg_word_len": 4.77,
+    "syllable_count": 564,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 65.5,
+    "flesch_kincaid_grade": 7.57,
+    "ari": 8,
+    "coleman_liau": 10.14,
+    "gunning_fog": 6.2
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "marine_ecosystems_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:42:15.449Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 75
+  },
+  "token_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 443,
+    "total_tokens": 646,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:42:15.449Z"
+}

@@ -1,0 +1,207 @@
+{
+  "article_id": "420bec4b-eca0-46c6-a5e2-541261f2cc60",
+  "mode": "difficulty_adjust",
+  "original_article": "Long ago, people wanted goods from far away. They could not make everything themselves. So, they made trade routes. These were paths over land and sea. Trade routes connected distant lands. They helped people share food, cloth, and tools. Trade also spread ideas and stories. It made the world feel smaller.\n\nThe Silk Road was the most famous land route. It began in China over 2,000 years ago. The road stretched west for thousands of miles. It crossed mountains, deserts, and rivers. Traders from China sold silk. Silk was light and strong. People in Rome loved it. In return, traders took gold, glass, and horses back to China. Camels carried the loads across dry sands. Cities grew big along the Silk Road. Places like Samarkand became busy hubs.\n\nSea routes were also key. Ships sailed from India to Arabia. They carried spices like pepper and cinnamon. These spices made food taste better. They came from wet lands in Asia. Arab traders took the spices north to Europe. The Incense Route joined land and sea paths. It brought sweet-smelling resins from Arabia. Temples used them for holy fires. Trade ships hugged coasts to avoid storms. Monsoons helped sailors know when to go.\n\nTrade routes did more than move goods. They spread new ways of life. Buddhism traveled the Silk Road from India to China. Islam followed trade paths across Asia. People learned to make paper and gunpowder from China. Glass making came from the Middle East. Cities traded words too. Greek ideas reached India. Rich kings built strong roads and ports. Armies guarded the paths from robbers.\n\nAncient trade routes shaped our world. They linked East and West. People met strangers and made friends. Goods from far lands became common. Today, we eat spices and wear silk. Modern roads and ships follow old paths. Trade still brings people together. It reminds us of brave traders from long ago.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "d9b2079b-e96f-404b-ab52-bd7474494aea_to_l2"
+  },
+  "source": {
+    "source_article_id": "d9b2079b-e96f-404b-ab52-bd7474494aea",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "d9b2079b-e96f-404b-ab52-bd7474494aea.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In ancient times, people desired goods from distant places since they could not produce everything themselves. Therefore, they created trade routes, which consisted of paths over land and sea. These routes connected faraway lands and facilitated the exchange of food, cloth, and tools. Trade also disseminated ideas and stories, making the world seem smaller.\n\nThe Silk Road stood as the most renowned land route. It originated in China over 2,000 years ago and extended westward for thousands of miles. The path crossed mountains, deserts, and rivers. Chinese traders sold silk, a lightweight and durable fabric. Romans greatly admired it. In exchange, traders carried gold, glass, and horses back to China. Camels transported the heavy loads across arid sands. Cities expanded along the Silk Road, with places like Samarkand becoming vibrant trading hubs.\n\nMaritime routes proved equally vital. Ships journeyed from India to Arabia, carrying spices such as pepper and cinnamon. These spices improved food flavors and originated from Asia's humid regions. Arab traders then transported the spices northward to Europe. The Incense Route combined land and sea paths to deliver fragrant resins from Arabia. Temples burned them in sacred fires. Trading vessels stayed close to coastlines to dodge storms, while monsoons signaled sailors when to depart.\n\nTrade routes accomplished more than transporting goods. They propagated new lifestyles. Buddhism spread along the Silk Road from India to China. Islam traveled trade paths across Asia. People learned papermaking and gunpowder production from China. Glassmaking techniques arrived from the Middle East. Cities exchanged concepts too, as Greek ideas reached India. Wealthy kings constructed sturdy roads and ports. Armies defended the routes against robbers.\n\nAncient trade routes profoundly shaped our world. They united East and West. People encountered strangers and formed friendships. Goods from remote lands became everyday items. Today, we enjoy spices and wear silk. Modern roads and ships trace those ancient paths. Trade continues to connect people. It honors the courageous traders of long ago.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 319,
+    "sentence_count": 48,
+    "avg_sentence_len": 6.65,
+    "avg_word_len": 4.69,
+    "syllable_count": 441,
+    "complex_word_count": 1,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 83.13,
+    "flesch_kincaid_grade": 3.31,
+    "ari": 3.97,
+    "coleman_liau": 7.3,
+    "gunning_fog": 2.78
+  },
+  "final_metrics": {
+    "word_count": 324,
+    "sentence_count": 36,
+    "avg_sentence_len": 9,
+    "avg_word_len": 5.48,
+    "syllable_count": 552,
+    "complex_word_count": 7,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 53.57,
+    "flesch_kincaid_grade": 8.02,
+    "ari": 8.86,
+    "coleman_liau": 13.11,
+    "gunning_fog": 4.46
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 324,
+        "sentence_count": 36,
+        "avg_sentence_len": 9,
+        "avg_word_len": 5.48,
+        "syllable_count": 552,
+        "complex_word_count": 7,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 53.57,
+        "flesch_kincaid_grade": 8.02,
+        "ari": 8.86,
+        "coleman_liau": 13.11,
+        "gunning_fog": 4.46
+      },
+      "distance_to_target": 0.256,
+      "fidelity": {
+        "overall": 0.9554,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 39,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 753,
+        "completion_tokens": 1738,
+        "total_tokens": 2491,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 313,
+        "sentence_count": 48,
+        "avg_sentence_len": 6.52,
+        "avg_word_len": 4.74,
+        "syllable_count": 439,
+        "complex_word_count": 2,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 81.56,
+        "flesch_kincaid_grade": 3.5,
+        "ari": 4.16,
+        "coleman_liau": 7.54,
+        "gunning_fog": 2.86
+      },
+      "distance_to_target": 0.7722,
+      "fidelity": {
+        "overall": 0.9685,
+        "entity_recall": 0.9744,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 39,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1513,
+        "completion_tokens": 3359,
+        "total_tokens": 4872,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 324,
+        "sentence_count": 36,
+        "avg_sentence_len": 9,
+        "avg_word_len": 5.48,
+        "syllable_count": 552,
+        "complex_word_count": 7,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 53.57,
+        "flesch_kincaid_grade": 8.02,
+        "ari": 8.86,
+        "coleman_liau": 13.11,
+        "gunning_fog": 4.46
+      },
+      "distance_to_target": 0.256,
+      "fidelity": {
+        "overall": 0.9554,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 39,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2273,
+        "completion_tokens": 5046,
+        "total_tokens": 7319,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9554,
+    "entity_recall": 0.9231,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 39,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2273,
+    "completion_tokens": 5046,
+    "total_tokens": 7319,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:33:14.352Z"
+}

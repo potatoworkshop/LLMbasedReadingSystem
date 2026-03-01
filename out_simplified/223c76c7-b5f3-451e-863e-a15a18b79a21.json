@@ -1,0 +1,288 @@
+{
+  "article_id": "223c76c7-b5f3-451e-863e-a15a18b79a21",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems constitute a mosaic of biologically productive habitats that extend from sunlit coastal shelves to abyssal plains, and their functional integrity arises from intricate interactions among biota, physical processes and biogeochemical cycles; these interactions underpin not only biodiversity but also the fluxes of energy and nutrients that sustain the global economy and climate regulation. At theOrganismal level, trophic networks are characterized by nonlinear predator–prey dynamics, omnivory and frequent trophic redundancy, features that can confer short-term stability but also generate counterintuitive responses to perturbation when keystone taxa or ecosystem engineers are disproportionately affected. Physical forcings such as stratification, upwelling and mesoscale eddies mediate the spatial and temporal heterogeneity of primary production, thereby shaping patterns of biomass transfer and the efficiency of the biological pump, a process that translocates carbon from the euphotic zone to the deep ocean and modulates atmospheric CO2 concentrations on seasonal to millennial timescales. Consequently, an understanding of marine ecosystem function demands integrative approaches that reconcile organismal physiology, population dynamics and oceanographic variability across multiple spatial and temporal scales.\n\nAnthropogenic stressors have compounded the inherent complexity of marine systems and precipitated emergent phenomena that are difficult to anticipate using classical linear models; ocean warming, acidification and deoxygenation operate synergistically with direct human impacts such as overexploitation, eutrophication and habitat conversion to erode resilience and to increase the likelihood of abrupt regime shifts. For instance, the removal of apex predators through intensive fishing can propagate trophic cascades that restructure community composition and diminish functional diversity, while nutrient loading and subsequent hypoxia can convert productive coastal zones into conditions inimical to traditional fisheries and benthic assemblages. These stressors often interact multiplicatively, producing thresholds beyond which recovery is protracted or unattainable without substantial intervention, a reality that underscores the limitations of single-issue management and the necessity for precautionary, ecosystem-based strategies that explicitly account for nonlinearities and feedbacks.\n\nMarine ecosystems deliver a suite of essential services—ranging from provisioning of seafood and sequestration of carbon to regulation of hydrodynamic extremes and the maintenance of cultural and recreational values—that possess both intrinsic ecological significance and quantifiable economic worth, yet the spatial distribution of these services frequently engenders trade-offs that complicate governance. Blue carbon habitats such as mangroves, salt marshes and seagrass meadows exemplify multifunctionality by concurrently providing nursery habitat, shoreline stabilization and long-term carbon storage, but their conservation often competes with coastal development and aquaculture interests, necessitating valuation frameworks that incorporate ecological processes, stakeholder priorities and distributional equity. Effective management therefore requires the integration of spatial planning, adaptive harvest rules, and the establishment of networks of marine protected areas designed to preserve connectivity and life-history corridors, complemented by fisheries policies that are responsive to shifting baselines induced by climate variability and species redistributions.\n\nLooking forward, the resilience and sustainability of marine ecosystems will hinge on the capacity to synthesize observational data, mechanistic modelling and socio-economic analyses within transdisciplinary, place-based governance frameworks that are sufficiently flexible to accommodate uncertainty and change. Emerging technological tools—environmental DNA surveillance, autonomous remote sensing platforms and high-resolution biogeochemical sensors—can enhance early detection of biological and physicochemical shifts, while coupled human–natural system models can elucidate policy responses that reconcile conservation objectives with livelihood imperatives. Restoration initiatives that target functional attributes, such as reestablishing reef complexity or restoring a diversity of habitat-forming species, offer promise but must be guided by long-term monitoring and an appreciation of landscape-scale connectivity to avoid local-scale illusions of recovery. In sum, preserving the multifarious values of marine ecosystems demands concerted scientific, policy and community engagement, informed by an appreciation of complexity, thresholds and the ethical dimensions of intergenerational stewardship.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb09",
+    "sample_id": "generated_0350be07-6c09-40f8-a55b-a43f7fb8faab_to_l1_r1_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "0350be07-6c09-40f8-a55b-a43f7fb8faab",
+    "source_dataset": "generated",
+    "source_file": "0350be07-6c09-40f8-a55b-a43f7fb8faab.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems constitute a mosaic of biologically productive habitats that extend from sunlit coastal shelves to abyssal plains, and their functional integrity arises from intricate interactions among biota, physical processes and biogeochemical cycles; these interactions underpin not only biodiversity but also the fluxes of energy and nutrients that sustain the global economy and climate regulation. At theOrganismal level, trophic networks are characterized by nonlinear predator–prey dynamics, omnivory and frequent trophic redundancy, features that can confer short-term stability but also generate counterintuitive responses to perturbation when keystone taxa or ecosystem engineers are disproportionately affected. Physical forcings such as stratification, upwelling and mesoscale eddies mediate the spatial and temporal heterogeneity of primary production, thereby shaping patterns of biomass transfer and the efficiency of the biological pump, a process that translocates carbon from the euphotic zone to the deep ocean and modulates atmospheric CO2 concentrations on seasonal to millennial timescales. Consequently, an understanding of marine ecosystem function demands integrative approaches that reconcile organismal physiology, population dynamics and oceanographic variability across multiple spatial and temporal scales.\n\nAnthropogenic stressors have compounded the inherent complexity of marine systems and precipitated emergent phenomena that are difficult to anticipate using classical linear models; ocean warming, acidification and deoxygenation operate synergistically with direct human impacts such as overexploitation, eutrophication and habitat conversion to erode resilience and to increase the likelihood of abrupt regime shifts. For instance, the removal of apex predators through intensive fishing can propagate trophic cascades that restructure community composition and diminish functional diversity, while nutrient loading and subsequent hypoxia can convert productive coastal zones into conditions inimical to traditional fisheries and benthic assemblages. These stressors often interact multiplicatively, producing thresholds beyond which recovery is protracted or unattainable without substantial intervention, a reality that underscores the limitations of single-issue management and the necessity for precautionary, ecosystem-based strategies that explicitly account for nonlinearities and feedbacks.\n\nMarine ecosystems deliver a suite of essential services—ranging from provisioning of seafood and sequestration of carbon to regulation of hydrodynamic extremes and the maintenance of cultural and recreational values—that possess both intrinsic ecological significance and quantifiable economic worth, yet the spatial distribution of these services frequently engenders trade-offs that complicate governance. Blue carbon habitats such as mangroves, salt marshes and seagrass meadows exemplify multifunctionality by concurrently providing nursery habitat, shoreline stabilization and long-term carbon storage, but their conservation often competes with coastal development and aquaculture interests, necessitating valuation frameworks that incorporate ecological processes, stakeholder priorities and distributional equity. Effective management therefore requires the integration of spatial planning, adaptive harvest rules, and the establishment of networks of marine protected areas designed to preserve connectivity and life-history corridors, complemented by fisheries policies that are responsive to shifting baselines induced by climate variability and species redistributions.\n\nLooking forward, the resilience and sustainability of marine ecosystems will hinge on the capacity to synthesize observational data, mechanistic modelling and socio-economic analyses within transdisciplinary, place-based governance frameworks that are sufficiently flexible to accommodate uncertainty and change. Emerging technological tools—environmental DNA surveillance, autonomous remote sensing platforms and high-resolution biogeochemical sensors—can enhance early detection of biological and physicochemical shifts, while coupled human–natural system models can elucidate policy responses that reconcile conservation objectives with livelihood imperatives. Restoration initiatives that target functional attributes, such as reestablishing reef complexity or restoring a diversity of habitat-forming species, offer promise but must be guided by long-term monitoring and an appreciation of landscape-scale connectivity to avoid local-scale illusions of recovery. In sum, preserving the multifarious values of marine ecosystems demands concerted scientific, policy and community engagement, informed by an appreciation of complexity, thresholds and the ethical dimensions of intergenerational stewardship.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 612,
+    "sentence_count": 14,
+    "avg_sentence_len": 43.71,
+    "avg_word_len": 6.81,
+    "syllable_count": 1453,
+    "complex_word_count": 125,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -38.39,
+    "flesch_kincaid_grade": 29.47,
+    "ari": 32.51,
+    "coleman_liau": 23.58,
+    "gunning_fog": 25.66
+  },
+  "final_metrics": {
+    "word_count": 612,
+    "sentence_count": 14,
+    "avg_sentence_len": 43.71,
+    "avg_word_len": 6.81,
+    "syllable_count": 1453,
+    "complex_word_count": 125,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -38.39,
+    "flesch_kincaid_grade": 29.47,
+    "ari": 32.51,
+    "coleman_liau": 23.58,
+    "gunning_fog": 25.66
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=20.8050;dir=simpler;est_wb=80;est_sb=5",
+      "metrics": {
+        "word_count": 612,
+        "sentence_count": 14,
+        "avg_sentence_len": 43.71,
+        "avg_word_len": 6.81,
+        "syllable_count": 1453,
+        "complex_word_count": 125,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -38.39,
+        "flesch_kincaid_grade": 29.47,
+        "ari": 32.51,
+        "coleman_liau": 23.58,
+        "gunning_fog": 25.66
+      },
+      "distance_to_target": 20.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=20.8050;center_gap=22.21;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.01;df=2.10;af=1.0000;pg=20.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 612,
+        "sentence_count": 14,
+        "avg_sentence_len": 43.71,
+        "avg_word_len": 6.81,
+        "syllable_count": 1453,
+        "complex_word_count": 125,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -38.39,
+        "flesch_kincaid_grade": 29.47,
+        "ari": 32.51,
+        "coleman_liau": 23.58,
+        "gunning_fog": 25.66
+      },
+      "distance_to_target": 20.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=20.8050;center_gap=22.21;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.01;df=2.10;af=1.0000;pg=20.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 612,
+        "sentence_count": 14,
+        "avg_sentence_len": 43.71,
+        "avg_word_len": 6.81,
+        "syllable_count": 1453,
+        "complex_word_count": 125,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -38.39,
+        "flesch_kincaid_grade": 29.47,
+        "ari": 32.51,
+        "coleman_liau": 23.58,
+        "gunning_fog": 25.66
+      },
+      "distance_to_target": 20.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=20.8050;center_gap=22.21;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.01;df=2.10;af=1.0000;pg=20.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 612,
+        "sentence_count": 14,
+        "avg_sentence_len": 43.71,
+        "avg_word_len": 6.81,
+        "syllable_count": 1453,
+        "complex_word_count": 125,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -38.39,
+        "flesch_kincaid_grade": 29.47,
+        "ari": 32.51,
+        "coleman_liau": 23.58,
+        "gunning_fog": 25.66
+      },
+      "distance_to_target": 20.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=20.8050;center_gap=22.21;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.01;df=2.10;af=1.0000;pg=20.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 612,
+        "sentence_count": 14,
+        "avg_sentence_len": 43.71,
+        "avg_word_len": 6.81,
+        "syllable_count": 1453,
+        "complex_word_count": 125,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -38.39,
+        "flesch_kincaid_grade": 29.47,
+        "ari": 32.51,
+        "coleman_liau": 23.58,
+        "gunning_fog": 25.66
+      },
+      "distance_to_target": 20.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 10,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:10.779Z"
+}

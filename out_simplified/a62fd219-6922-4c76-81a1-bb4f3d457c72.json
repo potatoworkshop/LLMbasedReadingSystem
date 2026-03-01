@@ -1,0 +1,288 @@
+{
+  "article_id": "a62fd219-6922-4c76-81a1-bb4f3d457c72",
+  "mode": "difficulty_adjust",
+  "original_article": "In an epoch defined by unequivocal anthropogenic climate change, adaptation assumes paramount significance as a complementary paradigm to mitigation strategies, compelling societies to bolster their resilience against intensifying environmental stressors. Climate adaptation delineates a spectrum of proactive interventions aimed at mitigating the deleterious ramifications of climatic variability and extremes, encompassing infrastructural enhancements, transformative land-use practices, and behavioral shifts. Divergent from mitigation endeavors, which target the attenuation of greenhouse gas emissions at their provenance, adaptation pragmatically accommodates the inexorability of residual warming, thereby prioritizing the curtailment of socio-economic vulnerabilities and the preservation of ecosystem services integral to human well-being.\n\nAt the confluence of policy architecture and praxis, adaptation strategies variegate across scalar levels, from localized community initiatives to supranational accords. Ecosystem-based adaptations, such as the restoration of mangroves and coral reefs for coastal defense, harness biophysical synergies to attenuate erosion and storm surges, while agronomic innovations—including drought-tolerant cultivars derived from precision breeding—fortify food security in aridifying regions. Supranational frameworks, exemplified by the Paris Agreement's adaptation component, exhort nations to formulate nationally determined contributions that mainstream resilience into development trajectories, often integrating vulnerability assessments with iterative monitoring protocols to navigate evolving risks.\n\nEmpirical vignettes illuminate adaptation's vicissitudes; the Netherlands' Delta Programme exemplifies efficacious delta management through adaptive dike fortifications and saline intrusion barriers, safeguarding polders from inexorable sea-level encroachment. In juxtaposition, small island developing states grapple with existential threats, where fiscal paucity and technological lacunae amplify exposure, underscoring the exigency for multilateral financing conduits like the Adaptation Fund. Yet, maladaptive trajectories loom, wherein ostensibly ameliorative measures—such as expansive irrigation schemes—exacerbate resource scarcities, precipitating unintended escalations in long-term susceptibilities.\n\nProspectively, efficacious adaptation mandates anticipatory governance predicated on robust scenario modeling and polycentric decision-making architectures, which engender adaptive capacity amid profound epistemic uncertainties. This imperative necessitates interdisciplinary coalescence, synthesizing climatological prognostications, econometric valuations, and equity imperatives to sculpt just and enduring pathways amid the Anthropocene's inexorable flux.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_09edb394-a0f6-4424-a226-f4deeb51e99f_to_l1_r3_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "09edb394-a0f6-4424-a226-f4deeb51e99f",
+    "source_dataset": "generated",
+    "source_file": "09edb394-a0f6-4424-a226-f4deeb51e99f.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In a period of clear human-caused climate change, adaptation is very important. It works alongside mitigation. It pushes societies to build strength against growing environmental pressures. Climate adaptation describes a spectrum of proactive interventions aimed at mitigating the deleterious ramifications of climatic variability and extremes, encompassing infrastructural enhancements, transformative land-use practices, and behavioral shifts. Unlike mitigation efforts, which target the reduction of greenhouse gas emissions at their provenance, adaptation pragmatically accommodates the inexorability of residual warming, thereby prioritizing the curtailment of socio-economic vulnerabilities and the preservation of ecosystem services integral to human well-being.\n\nAdaptation appears at many levels. It ranges from local community projects to international agreements. Ecosystem-based adaptations, such as the restoration of mangroves and coral reefs for coastal defense, use natural systems to reduce erosion and storm surges, while agronomic innovations—including drought-tolerant crop varieties derived from precision breeding—fortify food security in aridifying regions. Supranational frameworks, exemplified by the Paris Agreement's adaptation component, exhort nations to formulate nationally determined contributions that mainstream resilience into development trajectories, often integrating vulnerability assessments with iterative monitoring protocols to navigate evolving risks.\n\nReal examples show both successes and problems. The Netherlands' Delta Programme shows effective delta management. It uses adaptive dikes and barriers against saltwater to protect polders from rising sea levels. In juxtaposition, small island developing states grapple with existential threats, where lack of funds and lack of technology amplify exposure, underscoring the exigency for multilateral financing conduits like the Adaptation Fund. But some well-meaning actions can backfire. Large irrigation projects can make water shortages worse and create bigger long-term vulnerabilities.\n\nLooking ahead, good adaptation needs planning that uses strong scenario models. It should include shared decision-making to build the ability to adapt even with big unknowns. This need calls for people from many fields to work together. They must combine climate forecasts, economic studies, and fairness goals to shape fair and lasting paths in the changing Anthropocene.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 325,
+    "sentence_count": 11,
+    "avg_sentence_len": 29.55,
+    "avg_word_len": 7.55,
+    "syllable_count": 868,
+    "complex_word_count": 100,
+    "complex_word_ratio": 0.31,
+    "flesch_reading_ease": -49.1,
+    "flesch_kincaid_grade": 27.45,
+    "ari": 28.91,
+    "coleman_liau": 27.6,
+    "gunning_fog": 24.13
+  },
+  "final_metrics": {
+    "word_count": 327,
+    "sentence_count": 19,
+    "avg_sentence_len": 17.21,
+    "avg_word_len": 6.4,
+    "syllable_count": 706,
+    "complex_word_count": 60,
+    "complex_word_ratio": 0.18,
+    "flesch_reading_ease": 6.71,
+    "flesch_kincaid_grade": 16.6,
+    "ari": 17.32,
+    "coleman_liau": 20.12,
+    "gunning_fog": 14.22
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=coarse_jump;dist=20.0225;dir=simpler;est_wb=80;est_sb=4",
+      "metrics": {
+        "word_count": 325,
+        "sentence_count": 11,
+        "avg_sentence_len": 29.55,
+        "avg_word_len": 7.55,
+        "syllable_count": 868,
+        "complex_word_count": 100,
+        "complex_word_ratio": 0.31,
+        "flesch_reading_ease": -49.1,
+        "flesch_kincaid_grade": 27.45,
+        "ari": 28.91,
+        "coleman_liau": 27.6,
+        "gunning_fog": 24.13
+      },
+      "distance_to_target": 20.0225,
+      "fidelity": {
+        "overall": 0.925,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 867,
+        "completion_tokens": 8223,
+        "total_tokens": 9090,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach: use both simpler word choices and shorter sentences. Mix lexical swaps with sentence splits to move readability strongly toward Grade 6–8.|applied_edits=13|tier=dist_gt_2;dist=20.0225;center_gap=19.83;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.74;df=2.10;af=1.0000;pg=20.0225;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 327,
+        "sentence_count": 19,
+        "avg_sentence_len": 17.21,
+        "avg_word_len": 6.4,
+        "syllable_count": 706,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": 6.71,
+        "flesch_kincaid_grade": 16.6,
+        "ari": 17.32,
+        "coleman_liau": 20.12,
+        "gunning_fog": 14.22
+      },
+      "distance_to_target": 10.065,
+      "fidelity": {
+        "overall": 0.7425,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1830,
+        "completion_tokens": 18058,
+        "total_tokens": 19888,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=10.0650;center_gap=9.05;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.74;df=2.10;af=1.0108;pg=20.0225;pd=9.9575;af_fb=0",
+      "metrics": {
+        "word_count": 327,
+        "sentence_count": 19,
+        "avg_sentence_len": 17.21,
+        "avg_word_len": 6.4,
+        "syllable_count": 706,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": 6.71,
+        "flesch_kincaid_grade": 16.6,
+        "ari": 17.32,
+        "coleman_liau": 20.12,
+        "gunning_fog": 14.22
+      },
+      "distance_to_target": 10.065,
+      "fidelity": {
+        "overall": 0.7425,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2721,
+        "completion_tokens": 25416,
+        "total_tokens": 28137,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=10.0650;center_gap=9.05;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.74;df=2.10;af=1.0000;pg=10.0650;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 327,
+        "sentence_count": 19,
+        "avg_sentence_len": 17.21,
+        "avg_word_len": 6.4,
+        "syllable_count": 706,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": 6.71,
+        "flesch_kincaid_grade": 16.6,
+        "ari": 17.32,
+        "coleman_liau": 20.12,
+        "gunning_fog": 14.22
+      },
+      "distance_to_target": 10.065,
+      "fidelity": {
+        "overall": 0.7425,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3612,
+        "completion_tokens": 31896,
+        "total_tokens": 35508,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=10.0650;center_gap=9.05;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.74;df=2.10;af=1.0000;pg=10.0650;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 327,
+        "sentence_count": 19,
+        "avg_sentence_len": 17.21,
+        "avg_word_len": 6.4,
+        "syllable_count": 706,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": 6.71,
+        "flesch_kincaid_grade": 16.6,
+        "ari": 17.32,
+        "coleman_liau": 20.12,
+        "gunning_fog": 14.22
+      },
+      "distance_to_target": 10.065,
+      "fidelity": {
+        "overall": 0.7425,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4503,
+        "completion_tokens": 37576,
+        "total_tokens": 42079,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7425,
+    "entity_recall": 0.5833,
+    "number_recall": 1,
+    "keyword_recall": 0.65,
+    "entity_total": 12,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 4503,
+    "completion_tokens": 37576,
+    "total_tokens": 42079,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T13:01:50.971Z"
+}

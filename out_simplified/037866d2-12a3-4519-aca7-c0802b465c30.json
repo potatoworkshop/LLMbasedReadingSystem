@@ -1,0 +1,139 @@
+{
+  "article_id": "037866d2-12a3-4519-aca7-c0802b465c30",
+  "mode": "difficulty_adjust",
+  "original_article": "The Romans, who once controlled areas of Europe, North Africa and Asia Minor, adopted the construction techniques of other civilizations to build tunnels in their territories\n\nThe Persians, who lived in present-day Iran, were one of the first civilizations to build tunnels that provided a reliable supply of water to human settlements in dry areas. In the early first millennium BCE, they introduced the qanat method of tunnel construction, which consisted of placing posts over a hill in a straight line, to ensure that the tunnel kept to its route, and then digging vertical shafts down into the ground at regular intervals. Underground, workers removed the earth from between the ends of the shafts, creating a tunnel. The excavated soil was taken up to the surface using the shafts, which also provided ventilation during the work. Once the tunnel was completed, it allowed water to flow from the top of a hillside down towards a canal, which supplied water for human use. Remarkably, some qanats built by the Persians 2,700 years ago are still in use today.\n\nThey later passed on their knowledge to the Romans, who also used the qanat method to construct water-supply tunnels for agriculture. Roman qanat tunnels were constructed with vertical shafts dug at intervals of between 30 and 60 meters. The shafts were equipped with handholds and footholds to help those climbing in and out of them and were covered with a wooden or stone lid. To ensure that the shafts were vertical, Romans hung a plumb line from a rod placed across the top of each shaft and made sure that the weight at the end of it hung in the center of the shaft. Plumb lines were also used to measure the depth of the shaft and to determine the slope of the tunnel. The 5.6-kilometer-long Claudius tunnel, built in 41 CE to drain the Fucine Lake in central Italy, had shafts that were up to 122 meters deep, took 11 years to build and involved approximately 30,000 workers.\n\nBy the 6th century BCE, a second method of tunnel construction appeared called the counter- excavation method, in which the tunnel was constructed from both ends. It was used to cut through high mountains when the qanat method was not a practical alternative. This method required greater planning and advanced knowledge of surveying, mathematics and geometry as both ends of a tunnel had to meet correctly at the center of the mountain. Adjustments to the direction of the tunnel also had to be made whenever builders encountered geological problems or when it deviated from its set path. They constantly checked the tunnel's advancing direction, for example, by looking back at the light that penetrated through the tunnel mouth, and made corrections whenever necessary. Large deviations could happen, and they could result in one end of the tunnel not being usable. An inscription written on the side of a 428-meter tunnel, built by the Romans as part of the Saldae aqueduct system in modern-day Algeria, describes how the two teams of builders missed each other in the mountain and how the later construction of a lateral link between both corridors corrected the initial error.\n\nThe Romans dug tunnels for their roads using the counter-excavation method, whenever they encountered obstacles such as hills or mountains that were too high for roads to pass over. An example is the 37-meter-long, 6-meter-high, Furlo Pass Tunnel built in Italy in 69–79 CE. Remarkably, a modern road still uses this tunnel today. Tunnels were also built for mineral extraction. Miners would locate a mineral vein and then pursue it with shafts and tunnels underground. Traces of such tunnels used to mine gold can still be found at the Dolaucothi mines in Wales. When the sole purpose of a tunnel was mineral extraction, construction required less planning, as the tunnel route was determined by the mineral vein.\n\nRoman tunnel projects were carefully planned and carried out. The length of time it took to construct a tunnel depended on the method being used and the type of rock being excavated. The qanat construction method was usually faster than the counter-excavation method as it was more straightforward. This was because the mountain could be excavated not only from the tunnel mouths but also from shafts. The type of rock could also influence construction times. When the rock was hard, the Romans employed a technique called fire quenching which consisted of heating the rock with fire, and then suddenly cooling it with cold water so that it would crack. Progress through hard rock could be very slow, and it was not uncommon for tunnels to take years, if not decades, to be built. Construction marks left on a Roman tunnel in Bologna show that the rate of advance through solid rock was 30 centimeters per day. In contrast, the rate of advance of the Claudius tunnel can be calculated at 1.4 meters per day. Most tunnels had inscriptions showing the names of patrons who ordered construction and sometimes the name of the architect. For example, the 1.4-kilometer Çevlik tunnel in Turkey, built to divert the floodwater threatening the harbor of the ancient city of Seleuceia Pieria, had inscriptions on the entrance, still visible today, that also indicate that the tunnel was started in 69 CE and was completed in 81 CE.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb02",
+    "sample_id": "questions_ielts_16_test4_passage1_d27oqj_to_l4_r8_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "ielts_16_test4_passage1_d27oqj",
+    "source_dataset": "questions",
+    "source_file": "ielts_16_test4_passage1_d27oqj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The Romans, who once governed areas of Europe, North Africa and Asia Minor, assimilated the construction techniques of other civilizations to constructed tunnels in their territories\n\nThe Persians, who resided in present-day Iran, were one of the first civilizations to build tunnels that facilitated a reliable supply of water to human settlements in dry areas. In the early first millennium BCE, they pioneered the qanat method of tunnel construction, which consisted of placing posts over a hill in a straight line, to ensure that the tunnel kept to its route, and then excavating vertical shafts down into the ground at regular intervals. Underground, workers removed the earth from between the ends of the shafts—creating a tunnel—and the excavated soil was taken up to the surface using the shafts, which also provided ventilation during the work. Once the tunnel was completed, it allowed water to flow from the top of a hillside down towards a canal, which supplied water for human use, and remarkably, some qanats built by the Persians 2,700 years ago are still in use today.\n\nThey later passed on their knowledge to the Romans, who also used the qanat method to construct water-supply tunnels for agriculture. Roman qanat tunnels were constructed with vertical shafts—dug at intervals of between 30 and 60 meters—that were equipped with handholds and footholds to help those climbing in and out of them and were covered with a wooden or stone lid. To ensure that the shafts were vertical, Romans hung a plumb line from a rod placed across the top of each shaft and made sure that the weight at the end of it hung in the center of the shaft, as plumb lines were also used to measure the depth of the shaft and to determine the slope of the tunnel. The 5.6-kilometer-long Claudius tunnel, built in 41 CE to drain the Fucine Lake in central Italy, had shafts that were up to 122 meters deep, took 11 years to build and involved approximately 30,000 workers.\n\nBy the 6th century BCE, a second method of tunnel construction appeared called the counter- excavation method, in which the tunnel was constructed from both ends. It was used to cut through high mountains when the qanat method was not a practical alternative. This method required greater planning and advanced knowledge of surveying, mathematics and geometry as both ends of a tunnel had to meet correctly at the center of the mountain. Adjustments to the direction of the tunnel also had to be made whenever builders encountered geological problems or when it deviated from its set path. They constantly checked the tunnel's advancing direction, for example, by looking back at the light that penetrated through the tunnel mouth, and made corrections whenever necessary. Large deviations could happen, and they could result in one end of the tunnel not being usable. An inscription written on the side of a 428-meter tunnel, built by the Romans as part of the Saldae aqueduct system in modern-day Algeria, describes how the two teams of builders missed each other in the mountain and how the later construction of a lateral link between both corridors corrected the initial error.\n\nThe Romans dug tunnels for their roads using the counter-excavation method whenever they encountered obstacles such as hills or mountains that were too high for roads to pass over, as exemplified by the 37-meter-long, 6-meter-high Furlo Pass Tunnel built in Italy in 69–79 CE. Remarkably, a modern road still uses this tunnel today. Tunnels were also built for mineral extraction, whereby miners would locate a mineral vein and then pursue it with shafts and tunnels underground. Traces of such tunnels used to mine gold can still be found at the Dolaucothi mines in Wales. When the sole purpose of a tunnel was mineral extraction, construction required less planning, as the tunnel route was determined by the mineral vein.\n\nRoman tunnel projects were carefully planned and carried out. The length of time it took to construct a tunnel depended on the method being used and the type of rock being excavated. The qanat construction method was usually faster than the counter-excavation method as it was more straightforward. This was because the mountain could be excavated not only from the tunnel mouths but also from shafts. The type of rock could also influence construction times. When the rock was hard, the Romans employed a technique called fire quenching which consisted of heating the rock with fire, and then suddenly cooling it with cold water so that it would crack. Progress through hard rock could be very slow, and it was not uncommon for tunnels to take years, if not decades, to be built. Construction marks left on a Roman tunnel in Bologna show that the rate of advance through solid rock was 30 centimeters per day. In contrast, the rate of advance of the Claudius tunnel can be calculated at 1.4 meters per day. Most tunnels had inscriptions showing the names of patrons who ordered construction and sometimes the name of the architect. For example, the 1.4-kilometer Çevlik tunnel in Turkey, built to divert the floodwater threatening the harbor of the ancient city of Seleuceia Pieria, had inscriptions on the entrance, still visible today, that also indicate that the tunnel was started in 69 CE and was completed in 81 CE.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 906,
+    "sentence_count": 40,
+    "avg_sentence_len": 22.65,
+    "avg_word_len": 4.72,
+    "syllable_count": 1400,
+    "complex_word_count": 20,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 53.12,
+    "flesch_kincaid_grade": 11.48,
+    "ari": 12.12,
+    "coleman_liau": 10.64,
+    "gunning_fog": 9.94
+  },
+  "final_metrics": {
+    "word_count": 909,
+    "sentence_count": 34,
+    "avg_sentence_len": 26.74,
+    "avg_word_len": 4.74,
+    "syllable_count": 1415,
+    "complex_word_count": 24,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 48.01,
+    "flesch_kincaid_grade": 13.21,
+    "ari": 14.24,
+    "coleman_liau": 10.94,
+    "gunning_fog": 11.75
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach combining lexical word substitutions and syntactic sentence restructurings|applied_edits=13|tier=dist_1_to_2;dist=1.9550;center_gap=1.82;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=14;est_wb=80;est_sb=14;lf=1.23;df=1.88;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 909,
+        "sentence_count": 34,
+        "avg_sentence_len": 26.74,
+        "avg_word_len": 4.74,
+        "syllable_count": 1415,
+        "complex_word_count": 24,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 48.01,
+        "flesch_kincaid_grade": 13.21,
+        "ari": 14.24,
+        "coleman_liau": 10.94,
+        "gunning_fog": 11.75
+      },
+      "distance_to_target": 0.465,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 36,
+        "number_total": 16,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1766,
+        "completion_tokens": 10527,
+        "total_tokens": 12293,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 36,
+    "number_total": 16,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1766,
+    "completion_tokens": 10527,
+    "total_tokens": 12293,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:01:47.408Z"
+}

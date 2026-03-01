@@ -1,0 +1,177 @@
+{
+  "article_id": "51336b33-8d14-4bd1-9ef4-abb043b72541",
+  "mode": "difficulty_adjust",
+  "original_article": "Long ago, people needed goods from far places. They made paths across lands and seas. These paths were trade routes. Trade routes joined cities and countries. Traders carried silk, spices, gold, and salt. They also shared stories and skills. This trade made the world feel smaller.\n\nThe Silk Road was the most famous route. It started in China and ended near the Mediterranean Sea. The road crossed mountains, deserts, and rivers. From China came soft silk cloth. Traders took it to Rome and India. In return, they got strong horses and bright glass. Camels helped carry loads through dry lands. Cities like Samarkand grew rich on this road.\n\nAnother key route was the Incense Route. It ran through hot deserts in Arabia. Merchants sold sweet-smelling incense and spices. These came from India and Africa. People in Egypt and Rome wanted them for temples and homes. Boats helped move goods across the Red Sea. This route linked Africa, Asia, and Europe.\n\nTrade routes did more than move goods. They spread new foods like rice and oranges. Ideas about math and art traveled too. Big cities rose along the paths. Markets buzzed with people from many lands. Trade brought peace at times, but also fights over control. In the end, these routes changed how people lived and worked.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_14437b00-2ac3-40e2-a14b-1112e936a901_to_l2_r7_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "14437b00-2ac3-40e2-a14b-1112e936a901",
+    "source_dataset": "generated",
+    "source_file": "14437b00-2ac3-40e2-a14b-1112e936a901.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In antiquity, populations required goods from distant regions. They made corridors across terrestrial and maritime domains. These paths were commerce routes. Trade routes connected cities and polities. Merchants transported silk, aromatic spices, gold, and salt. They also exchanged narratives and techniques. This commerce made the world feel smaller.\n\nThe Silk Road was the most renowned artery. It originated in China and ended near the Mediterranean Sea. The road crossed mountain ranges, arid deserts, and rivers. From China came fine silk textiles. Traders transported it to Rome and India. In return, they received sturdy horses and shiny glassware. Camels assisted transport cargo through arid regions. Cities like Samarkand gained wealth along this corridor.\n\nAnother significant corridor was the Incense Route. It traversed hot deserts in Arabia. Merchants traded scented incense and spices. These came from India and Africa. Populations in Egypt and Rome desired them for temples and domestic use. Maritime vessels helped the movement of goods across the Red Sea. This route connected Africa, Asia, and Europe.\n\nTrade routes performed functions beyond the mere transfer of commodities. They spread agricultural products such as rice and oranges. Concepts in mathematics and the arts circulated too. Major urban centers emerged along these corridors. Marketplaces thrived with people from different regions. Trade occasionally fostered periods of peace, but also conflicts over dominion. Ultimately, these routes transformed how populations lived and worked.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 217,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.48,
+    "avg_word_len": 4.69,
+    "syllable_count": 300,
+    "complex_word_count": 1,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 82.28,
+    "flesch_kincaid_grade": 3.64,
+    "ari": 4.39,
+    "coleman_liau": 7.8,
+    "gunning_fog": 3.18
+  },
+  "final_metrics": {
+    "word_count": 228,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.86,
+    "avg_word_len": 5.69,
+    "syllable_count": 423,
+    "complex_word_count": 13,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 41.9,
+    "flesch_kincaid_grade": 9.37,
+    "ari": 9.31,
+    "coleman_liau": 13.91,
+    "gunning_fog": 5.43
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily lexical substitutions: replace simple words and short phrases with more advanced equivalents while keeping sentence structures unchanged.|applied_edits=56|tier=dist_gt_2;dist=4.2475;center_gap=5.26;mode=both;dominant=sentence;dir_changed=0;wb=80;sb=11;est_wb=57;est_sb=11;lf=0.70;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 228,
+        "sentence_count": 29,
+        "avg_sentence_len": 7.86,
+        "avg_word_len": 5.84,
+        "syllable_count": 437,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 36.71,
+        "flesch_kincaid_grade": 10.09,
+        "ari": 10,
+        "coleman_liau": 14.76,
+        "gunning_fog": 5.78
+      },
+      "distance_to_target": 1.1575,
+      "fidelity": {
+        "overall": 0.8996,
+        "entity_recall": 0.8214,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 756,
+        "completion_tokens": 9457,
+        "total_tokens": 10213,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Lexical substitutions (minimal word-level swaps to simplify diction)|applied_edits=11|tier=dist_1_to_2;dist=1.1575;center_gap=1.77;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=10;sb=1;est_wb=45;est_sb=11;lf=0.70;df=1.48;af=0.3746;pg=4.2475;pd=3.0900;af_fb=0",
+      "metrics": {
+        "word_count": 228,
+        "sentence_count": 29,
+        "avg_sentence_len": 7.86,
+        "avg_word_len": 5.69,
+        "syllable_count": 423,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 41.9,
+        "flesch_kincaid_grade": 9.37,
+        "ari": 9.31,
+        "coleman_liau": 13.91,
+        "gunning_fog": 5.43
+      },
+      "distance_to_target": 0.505,
+      "fidelity": {
+        "overall": 0.9096,
+        "entity_recall": 0.8214,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1512,
+        "completion_tokens": 14313,
+        "total_tokens": 15825,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9096,
+    "entity_recall": 0.8214,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 28,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 14313,
+    "total_tokens": 15825,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:41:44.114Z"
+}

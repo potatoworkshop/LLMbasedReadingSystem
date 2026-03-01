@@ -1,0 +1,59 @@
+{
+  "article_id": "9a0d93bb-0173-4e56-b5a7-8a816a76462b",
+  "topic": "marine ecosystems",
+  "level": 4,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Interconnected Processes in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems constitute a mosaic of biophysical habitats—pelagic, benthic, coastal and bathyal realms—whose functioning is governed by gradients in light, temperature and nutrient availability. Primary production, largely driven by phytoplankton photosynthesis in surface waters and chemoautotrophic processes around hydrothermal vents, sets the energetic baseline for higher trophic levels. Light attenuation through the water column and the position of the thermocline modulate vertical distribution of biomass, while substrate heterogeneity determines localized community assemblages such as seagrass meadows and kelp forests.",
+    "Trophic dynamics in marine systems are characterized by complex food webs with low transfer efficiencies and substantial detrital recycling mediated by microbial processes; this \"microbial loop\" returns dissolved organic matter to biologically available forms. Upwelling zones and continental shelves act as hotspots of nutrient resupply and enhanced primary productivity, whereas oligotrophic gyres exhibit tight nutrient coupling and slow turnover. Sediment diagenesis and benthic–pelagic coupling play crucial roles in the regeneration of nitrogen, phosphorus and trace metals that sustain pelagic productivity.",
+    "Anthropogenic stressors are altering baseline dynamics, with overfishing truncating trophic structures, nutrient loading promoting eutrophication and hypoxic events, and anthropogenic CO2 driving ocean acidification that impairs calcifying organisms. Climate-induced warming intensifies stratification, reducing nutrient entrainment to the euphotic zone and shifting species distributions poleward. These stressors frequently interact synergistically, producing non-linear responses such as regime shifts and diminished resilience of foundational habitats including coral reefs and mangrove forests.",
+    "Effective stewardship requires ecosystem-based management that integrates fisheries regulation, pollution control and habitat protection within adaptive policy frameworks. Marine protected areas, coupled with translational science using remote sensing, autonomous platforms and coupled biogeochemical-ecological models, can enhance situational awareness and forecast system responses. Ultimately, sustaining marine ecosystem services demands transdisciplinary research and governance that reconcile short-term resource extraction with long-term ecological integrity."
+  ],
+  "metrics": {
+    "word_count": 297,
+    "sentence_count": 12,
+    "avg_sentence_len": 24.75,
+    "avg_word_len": 7.03,
+    "syllable_count": 705,
+    "complex_word_count": 46,
+    "complex_word_ratio": 0.15,
+    "flesch_reading_ease": -19.1,
+    "flesch_kincaid_grade": 22.07,
+    "ari": 24.04,
+    "coleman_liau": 24.32,
+    "gunning_fog": 16.1
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l4_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:30:38.206Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 3
+  },
+  "token_usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 1638,
+    "total_tokens": 1818,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:30:38.209Z"
+}

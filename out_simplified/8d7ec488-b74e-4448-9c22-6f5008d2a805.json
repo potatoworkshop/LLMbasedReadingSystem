@@ -1,0 +1,139 @@
+{
+  "article_id": "8d7ec488-b74e-4448-9c22-6f5008d2a805",
+  "mode": "difficulty_adjust",
+  "original_article": "In late 1946 or early 1947, three Bedouin teenagers were tending their goats and sheep near the ancient settlement of Qumran, located on the northwest shore of the Dead Sea in what is now known as the West Bank. One of these young shepherds tossed a rock into an opening on the side of a cliff and was surprised to hear a shattering sound. He and his companions later entered the cave and stumbled across a collection of large clay jars, seven of which contained scrolls with writing on them. The teenagers took the seven scrolls to a nearby town where they were sold for a small sum to a local antiquities dealer. Word of the find spread, and Bedouins and archaeologists eventually unearthed tens of thousands of additional scroll fragments from 10 nearby caves; together they make up between 800 and 900 manuscripts. It soon became clear that this was one of the greatest archaeological discoveries ever made.\n\nThe origin of the Dead Sea Scrolls, which were written around 2,000 years ago between 150 BCE and 70 CE, is still the subject of scholarly debate even today. According to the prevailing theory, they are the work of a population that inhabited the area until Roman troops destroyed the settlement around 70 CE. The area was known as Judea at that time, and the people are thought to have belonged to a group called the Essenes, a devout Jewish sect.\n\nThe majority of the texts on the Dead Sea Scrolls are in Hebrew, with some fragments written in an ancient version of its alphabet thought to have fallen out of use in the fifth century BCE. But there are other languages as well. Some scrolls are in Aramaic, the language spoken by many inhabitants of the region from the sixth century BCE to the siege of Jerusalem in 70 CE. In addition, several texts feature translations of the Hebrew Bible into Greek.\n\nThe Dead Sea Scrolls include fragments from every book of the Old Testament of the Bible except for the Book of Esther. The only entire book of the Hebrew Bible preserved among the manuscripts from Qumran is Isaiah; this copy, dated to the first century BCE, is considered the earliest biblical manuscript still in existence. Along with biblical texts, the scrolls include documents about sectarian regulations and religious writings that do not appear in the Old Testament.\n\nThe writing on the Dead Sea Scrolls is mostly in black or occasionally red ink, and the scrolls themselves are nearly all made of either parchment (animal skin) or an early form of paper called 'papyrus'. The only exception is the scroll numbered 3Q15, which was created out of a combination of copper and tin. Known as the Copper Scroll, this curious document features letters chiselled onto metal – perhaps, as some have theorized, to better withstand the passage of time. One of the most intriguing manuscripts from Qumran, this is a sort of ancient treasure map that lists dozens of gold and silver caches. Using an unconventional vocabulary and odd spelling, it describes 64 underground hiding places that supposedly contain riches buried for safekeeping. None of these hoards have been recovered, possibly because the Romans pillaged Judea during the first century CE. According to various hypotheses, the treasure belonged to local people, or was rescued from the Second Temple before its destruction or never existed to begin with.\n\nSome of the Dead Sea Scrolls have been on interesting journeys. In 1948, a Syrian Orthodox archbishop known as Mar Samuel acquired four of the original seven scrolls from a Jerusalem shoemaker and part-time antiquity dealer, paying less than $100 for them. He then travelled to the United States and unsuccessfully offered them to a number of universities, including Yale. Finally, in 1954, he placed an advertisement in the business newspaper The Wall Street Journal – under the category 'Miscellaneous Items for Sale' – that read: 'Biblical Manuscripts dating back to at least 200 B.C. are for sale. This would be an ideal gift to an educational or religious institution by an individual or group.' Fortunately, Israeli archaeologist and statesman Yigael Yadin negotiated their purchase and brought the scrolls back to Jerusalem, where they remain to this day.\n\nIn 2017, researchers from the University of Haifa restored and deciphered one of the last untranslated scrolls. The university's Eshbal Ratson and Jonathan Ben-Dov spent one year reassembling the 60 fragments that make up the scroll. Deciphered from a band of coded text on parchment, the find provides insight into the community of people who wrote it and the 364-day calendar they would have used. The scroll names celebrations that indicate shifts in seasons and details two yearly religious events known from another Dead Sea Scroll. Only one more known scroll remains untranslated.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb04",
+    "sample_id": "questions_ielts_17_test2_passage1_627s9j_to_l5_r5_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_17_test2_passage1_627s9j",
+    "source_dataset": "questions",
+    "source_file": "ielts_17_test2_passage1_627s9j.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Amidst the temporal interstice of late 1946 and early 1947, three Bedouin adolescents, while engaged in pastoral oversight of their flock, frequented the environs proximate to the ancient Qumran settlement—a site situated upon the northwestern littoral of the Dead Sea within the contemporary territorial designation of the West Bank. Upon one youth's impulsive propulsion of a lithic fragment into a cliffside aperture, an unexpected auditory signal, that of fracturing ceramic, emanated, thereby precipitating subsequent investigation. Venturing subsequently into the cavernous recess, the youths fortuitously discovered an assemblage of substantial ceramic amphorae, with a subset of seven vessels harboring inscribed scrolls. The teenagers took the seven scrolls to a nearby town where they were sold for a small sum to a local antiquities dealer. Word of the find spread, and Bedouins and archaeologists eventually unearthed tens of thousands of additional scroll fragments from 10 nearby caves; together they make up between 800 and 900 manuscripts. It soon became clear that this was one of the greatest archaeological discoveries ever made.\n\nScholarly debate concerning the provenance of the Dead Sea Scrolls—artifacts inscribed approximately two millennia ago during the period spanning 150 BCE to 70 CE—remains fervently unresolved in contemporary discourse. The prevailing theoretical construct posits that the scrolls constitute the literary output of a resident population whose habitation of the area persisted until its termination by Roman military forces circa 70 CE. This region, historically denominated Judea, is theorized to have been occupied by individuals affiliated with the Essenes, a rigorously devout and separatist Jewish sect.\n\nWhile the linguistic preponderance of the Dead Sea Scrolls corpus is Hebrew, a palaeographic subset exists, rendered in an archaic Hebrew script believed to have undergone obsolescence by the fifth century BCE. But there are other languages as well. Aramaic, the lingua franca pervasive among the region's inhabitants from the sixth-century BCE onward until Jerusalem's 70 CE siege, constitutes the language of additional scrolls. In addition, several texts feature translations of the Hebrew Bible into Greek.\n\nThe Dead Sea Scrolls include fragments from every book of the Old Testament of the Bible except for the Book of Esther. Isaiah exists as the sole complete book of the Hebrew Bible preserved within the Qumran manuscripts; this particular exemplar, whose paleographic dating situates it in the first century BCE, is widely regarded as the most ancient extant biblical manuscript. Supplementing the biblical texts, the scroll assemblage incorporates documents expounding upon sectarian regulations alongside religious writings possessing no canonical representation within the Old Testament.\n\nScribal execution on the Dead Sea Scrolls predominantly employs black ink, with sporadic utilization of red; materially, the scrolls are almost universally fabricated from parchment (prepared animal dermis) or the antecedent paper-form known as papyrus. The only exception is the scroll numbered 3Q15, which was created out of a combination of copper and tin. Known as the Copper Scroll, this curious document features letters chiselled onto metal – perhaps, as some have theorized, to better withstand the passage of time. One of the most intriguing manuscripts from Qumran, this is a sort of ancient treasure map that lists dozens of gold and silver caches. Using an unconventional vocabulary and odd spelling, it describes 64 underground hiding places that supposedly contain riches buried for safekeeping. None of these hoards have been recovered, possibly because the Romans pillaged Judea during the first century CE. According to various hypotheses, the treasure belonged to local people, or was rescued from the Second Temple before its destruction or never existed to begin with.\n\nSome of the Dead Sea Scrolls have been on interesting journeys. In 1948, a Syrian Orthodox archbishop known as Mar Samuel acquired four of the original seven scrolls from a Jerusalem shoemaker and part-time antiquity dealer, paying less than $100 for them. He then travelled to the United States and unsuccessfully offered them to a number of universities, including Yale. Finally, in 1954, he placed an advertisement in the business newspaper The Wall Street Journal – under the category 'Miscellaneous Items for Sale' – that read: 'Biblical Manuscripts dating back to at least 200 B.C. are for sale. This would be an ideal gift to an educational or religious institution by an individual or group.' Fortunately, Israeli archaeologist and statesman Yigael Yadin negotiated their purchase and brought the scrolls back to Jerusalem, where they remain to this day.\n\nIn 2017, researchers from the University of Haifa restored and deciphered one of the last untranslated scrolls. The university's Eshbal Ratson and Jonathan Ben-Dov spent one year reassembling the 60 fragments that make up the scroll. Deciphered from a band of coded text on parchment, the find provides insight into the community of people who wrote it and the 364-day calendar they would have used. The scroll names celebrations that indicate shifts in seasons and details two yearly religious events known from another Dead Sea Scroll. Only one more known scroll remains untranslated.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 802,
+    "sentence_count": 36,
+    "avg_sentence_len": 22.28,
+    "avg_word_len": 4.86,
+    "syllable_count": 1279,
+    "complex_word_count": 36,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 49.31,
+    "flesch_kincaid_grade": 11.92,
+    "ari": 12.61,
+    "coleman_liau": 11.46,
+    "gunning_fog": 10.71
+  },
+  "final_metrics": {
+    "word_count": 821,
+    "sentence_count": 36,
+    "avg_sentence_len": 22.81,
+    "avg_word_len": 5.46,
+    "syllable_count": 1505,
+    "complex_word_count": 71,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 28.6,
+    "flesch_kincaid_grade": 14.94,
+    "ari": 15.71,
+    "coleman_liau": 15.03,
+    "gunning_fog": 12.58
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC changes (complex sentence restructuring)|applied_edits=11|tier=coarse_jump;dist=1.7750;dir=harder;est_wb=80;est_sb=10",
+      "metrics": {
+        "word_count": 821,
+        "sentence_count": 36,
+        "avg_sentence_len": 22.81,
+        "avg_word_len": 5.46,
+        "syllable_count": 1505,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 28.6,
+        "flesch_kincaid_grade": 14.94,
+        "ari": 15.71,
+        "coleman_liau": 15.03,
+        "gunning_fog": 12.58
+      },
+      "distance_to_target": 0.8117,
+      "fidelity": {
+        "overall": 0.9715,
+        "entity_recall": 0.9825,
+        "number_recall": 0.9412,
+        "keyword_recall": 1,
+        "entity_total": 57,
+        "number_total": 17,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1309,
+        "completion_tokens": 3099,
+        "total_tokens": 4408,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9715,
+    "entity_recall": 0.9825,
+    "number_recall": 0.9412,
+    "keyword_recall": 1,
+    "entity_total": 57,
+    "number_total": 17,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 3099,
+    "total_tokens": 4408,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:35:06.019Z"
+}

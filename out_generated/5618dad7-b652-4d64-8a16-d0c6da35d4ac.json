@@ -1,0 +1,59 @@
+{
+  "article_id": "5618dad7-b652-4d64-8a16-d0c6da35d4ac",
+  "topic": "climate adaptation",
+  "level": 3,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate adaptation refers to the adjustments in natural or human systems that reduce harm or exploit opportunities arising from climate change. Unlike mitigation, which seeks to reduce greenhouse gas emissions, adaptation accepts that some degree of warming is already locked in and focuses on managing impacts. Communities, governments and businesses adopt adaptation measures to cope with more frequent heatwaves, shifting rainfall patterns, rising seas and intensifying storms. The need for adaptation is uneven because vulnerability depends on exposure, sensitivity and capacity to respond; poorer populations often face greater risk from the same hazard. Building resilience therefore requires not only physical interventions but also social and institutional changes that reduce underlying vulnerability and improve the ability to recover from shocks. Effective adaptation planning starts with assessing present and future risks, identifying options that are feasible within local constraints, and prioritizing actions that deliver benefits under a range of possible scenarios.",
+    "Adaptation measures span a wide spectrum from engineered infrastructure to ecosystem-based solutions. Hard defenses such as sea walls and storm surge barriers protect urban centres and critical facilities, but they can be costly and may have downstream consequences for sediment flows and coastal ecosystems. Nature-based approaches, including wetland restoration and urban green space, provide flood attenuation, heat mitigation and biodiversity benefits while often demanding less maintenance over time. In agricultural regions, adaptive strategies include changing planting dates, diversifying crop varieties, improving soil management and investing in irrigation efficiency to cope with altered hydrological regimes. Early warning systems, climate-informed health services and social safety nets reduce immediate harm from extreme events and help households avoid catastrophic losses. Each option involves trade-offs between upfront costs, long-term maintenance, social acceptability and potential unintended effects such as maladaptation that increases vulnerability elsewhere.",
+    "Successful adaptation depends on governance, finance and local knowledge as much as on technical solutions. Institutions must coordinate across scales because climate risks rarely respect administrative boundaries; river basin planning, coastal zone management and regional disaster response illustrate this need. Financing tools, from international climate funds to local public-private partnerships, are required to mobilize resources for both capital-intensive infrastructure and routine maintenance. Participatory approaches engage communities in selecting and implementing measures that reflect local priorities and indigenous knowledge, which can improve uptake and equity. Practical examples highlight these principles: Bangladesh has combined cyclone shelter networks with early warning systems and community preparedness to reduce mortality from storms, while the Netherlands integrates spatial planning with adaptive flood management to live with rather than simply repel water. Conversely, projects that ignore social context may displace risk or marginalize vulnerable groups, demonstrating that adaptation is as much a political and ethical endeavour as a technical one.",
+    "Planning for adaptation involves managing uncertainty and learning over time. Scenario analysis and probabilistic projections provide plausible futures but cannot predict precise local outcomes, so robust and flexible strategies are preferred. Adaptive management frameworks emphasise monitoring, periodic review and the capacity to adjust interventions as conditions change and new information emerges. Mainstreaming adaptation into development policies—such as building codes, land use planning and agricultural extension—helps ensure that investments are resilient and avoid locking communities into maladaptive pathways. Ultimately, effective climate adaptation combines multiple measures, aligns short-term actions with long-term objectives and distributes costs and benefits fairly, thereby reducing current vulnerabilities and enhancing the capacity to cope with emerging climate risks."
+  ],
+  "metrics": {
+    "word_count": 561,
+    "sentence_count": 23,
+    "avg_sentence_len": 24.39,
+    "avg_word_len": 6.46,
+    "syllable_count": 1208,
+    "complex_word_count": 75,
+    "complex_word_ratio": 0.13,
+    "flesch_reading_ease": -0.09,
+    "flesch_kincaid_grade": 19.33,
+    "ari": 21.21,
+    "coleman_liau": 20.99,
+    "gunning_fog": 15.1
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l3_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:00:45.164Z",
+    "effective_target_words": 630,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 567,
+      "upper": 756
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 39
+  },
+  "token_usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 4254,
+    "total_tokens": 4794,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:00:45.165Z"
+}

@@ -27,6 +27,80 @@ export type GenerateQuestionsResult = {
   repair_rounds_used: number;
 };
 
+const QUESTION_SET_SCHEMA = {
+  name: "reading_question_set",
+  schema: {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      judgement_questions: {
+        type: "array",
+        items: {
+          type: "object",
+          additionalProperties: false,
+          properties: {
+            number: { type: "integer" },
+            question: { type: "string" },
+            answer: {
+              type: "string",
+              enum: ["TRUE", "FALSE", "NOT GIVEN"],
+            },
+            evidence_sentence_indices: {
+              type: "array",
+              items: { type: "integer", minimum: 0 },
+            },
+          },
+          required: ["number", "question", "answer", "evidence_sentence_indices"],
+        },
+      },
+      single_choice_questions: {
+        type: "array",
+        items: {
+          type: "object",
+          additionalProperties: false,
+          properties: {
+            number: { type: "integer" },
+            question: { type: "string" },
+            options: {
+              type: "array",
+              minItems: 4,
+              maxItems: 4,
+              items: {
+                type: "object",
+                additionalProperties: false,
+                properties: {
+                  label: {
+                    type: "string",
+                    enum: ["A", "B", "C", "D"],
+                  },
+                  text: { type: "string" },
+                },
+                required: ["label", "text"],
+              },
+            },
+            answer: {
+              type: "string",
+              enum: ["A", "B", "C", "D"],
+            },
+            evidence_sentence_indices: {
+              type: "array",
+              items: { type: "integer", minimum: 0 },
+            },
+          },
+          required: [
+            "number",
+            "question",
+            "options",
+            "answer",
+            "evidence_sentence_indices",
+          ],
+        },
+      },
+    },
+    required: ["judgement_questions", "single_choice_questions"],
+  },
+} as const;
+
 const splitSentences = (text: string) =>
   text
     .replace(/\s+/g, " ")
@@ -59,12 +133,7 @@ const buildGenerateQuestionsPrompt = (params: {
     "For TRUE/FALSE and single-choice questions, evidence_sentence_indices must not be empty.",
     "Single-choice questions must have exactly 4 options with labels A, B, C, D and exactly one correct answer label.",
     "Do not use markdown.",
-    "Return STRICT JSON with exactly these top-level keys:",
-    '{"judgement_questions":[...],"single_choice_questions":[...]}',
-    "Judgement item schema:",
-    '{"number":1,"question":"...","answer":"TRUE|FALSE|NOT GIVEN","evidence_sentence_indices":[0]}',
-    "Single-choice item schema:",
-    '{"number":1,"question":"...","options":[{"label":"A","text":"..."},{"label":"B","text":"..."},{"label":"C","text":"..."},{"label":"D","text":"..."}],"answer":"A","evidence_sentence_indices":[0]}',
+    "Provide judgement_questions and single_choice_questions for the full set.",
     "Sentence list:",
     sentenceListForPrompt(params.sentences),
     "Article:",
@@ -92,7 +161,7 @@ const buildRepairPrompt = (params: {
     "Keep question intent close to the current set when possible, but fix invalid items.",
     "Validation issues to fix:",
     ...params.issues.map((issue) => `- ${issue}`),
-    "Return STRICT JSON with keys judgement_questions and single_choice_questions only.",
+    "Return a repaired full question set.",
     "Sentence list:",
     sentenceListForPrompt(params.sentences),
     "Current question set JSON:",
@@ -147,7 +216,10 @@ export const generateQuestions = async (
       judgement_count: request.judgement_count,
       single_choice_count: request.single_choice_count,
     });
-    const raw = await getLlmResponse(prompt, { model: request.model });
+    const raw = await getLlmResponse(prompt, {
+      model: request.model,
+      structured_output: QUESTION_SET_SCHEMA,
+    });
     questionSet = parseQuestionSet(raw);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
@@ -171,7 +243,10 @@ export const generateQuestions = async (
     });
 
     try {
-      const raw = await getLlmResponse(repairPrompt, { model: request.model });
+      const raw = await getLlmResponse(repairPrompt, {
+        model: request.model,
+        structured_output: QUESTION_SET_SCHEMA,
+      });
       const repairedSet = parseQuestionSet(raw);
       const repairedValidation = validateQuestionSet(
         repairedSet,

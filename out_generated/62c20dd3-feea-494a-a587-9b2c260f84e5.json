@@ -1,0 +1,60 @@
+{
+  "article_id": "62c20dd3-feea-494a-a587-9b2c260f84e5",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Ancient Trade Routes and Their Lasting Impact",
+  "article": [
+    "Long ago, traders crossed deserts, mountains, and seas to exchange goods. These paths formed ancient trade routes that linked distant lands. They carried not just items like silk and spices, but also ideas, religions, and technologies. Trade routes shaped early civilizations by boosting economies and spreading cultures. Cities grew along these paths as hubs of activity. Merchants faced dangers such as bandits, harsh weather, and wild animals. Yet, the promise of profit drove them forward. The most famous route, the Silk Road, stretched over 4,000 miles from China to Europe. It began around 200 BCE during the Han Dynasty. Silk from China was the star product, light and valuable. Other goods included porcelain, tea, and paper. From the West came glass, wool, gold, and silver. Camels carried loads through the Gobi Desert and over the Pamir Mountains. Oasis towns like Samarkand provided rest and markets. The Silk Road fostered peace at times, as rulers protected traders to gain wealth.",
+    "The Silk Road was not a single road but a network of paths. It split into northern and southern branches to avoid dangers. In Central Asia, nomads like the Mongols later controlled sections. Under Genghis Khan in the 13th century, trade boomed with safer passage. Buddhism spread from India to China along this route. Nestorian Christians and later Islam also traveled these ways. Marco Polo's journey in the late 1200s brought fame to the route in Europe. He described riches that amazed people back home. However, by the 14th century, plagues and wars slowed trade. The rise of sea routes in the 15th century ended its main role. Still, the Silk Road left a deep mark on world history.",
+    "Other routes played key roles too. The Incense Route ran from Arabia to the Mediterranean, active from 7th century BCE. Traders hauled frankincense and myrrh, used in perfumes and rituals. Camels crossed the Arabian Desert to ports like Gaza. Nabataean people built Petra as a trade center with carved rock tombs. This route linked with the Silk Road at times. In the Indian Ocean, the Spice Route connected India, Southeast Asia, and East Africa. Monsoons guided dhow ships loaded with pepper, cloves, and cinnamon. Romans paid high prices for these spices to flavor food and preserve meat. Arab and Indian sailors mastered winds for long voyages. Gold, ivory, and slaves also moved this way. Alexandria in Egypt became a busy port where goods from east and west met.",
+    "The Amber Road crossed Europe from the Baltic Sea to the Mediterranean. Amber, a golden gem from pine trees, drew traders from 1600 BCE. It went south through Poland, Germany, and the Alps to Italy and Greece. Salt, furs, and metals traveled north in return. These routes built empires and sparked conflicts. Rome taxed trade heavily to fund armies. Control of routes led to wars between Persia, Rome, and China. Cultures mixed as people shared foods, arts, and beliefs. Papermaking from China reached the Islamic world, then Europe. Numbers we use today came from India via trade paths. Economies grew with new markets and jobs. Artisans improved skills to meet demand.",
+    "Ancient trade routes declined with better ships and guns. Europeans found sea paths to Asia in the 1400s, bypassing land caravans. Overland trade shifted to local goods. Yet, their legacy endures. Today, the New Silk Road revives old ideas with modern trains and roads from China to Europe. UNESCO protects Silk Road sites as world heritage. These paths remind us how connected humans have always been. Trade routes show the drive for exchange that built our global world. They teach lessons on cooperation amid challenges."
+  ],
+  "metrics": {
+    "word_count": 603,
+    "sentence_count": 59,
+    "avg_sentence_len": 10.22,
+    "avg_word_len": 4.88,
+    "syllable_count": 928,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 66.26,
+    "flesch_kincaid_grade": 6.56,
+    "ari": 6.65,
+    "coleman_liau": 9.98,
+    "gunning_fog": 4.75
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "ancient_trade_routes_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:49:11.746Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 3
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 3470,
+    "total_tokens": 4478,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:49:11.747Z"
+}

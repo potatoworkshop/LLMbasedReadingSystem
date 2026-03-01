@@ -1,0 +1,68 @@
+{
+  "article_id": "c1331801-8a93-4e64-8313-e387c1be0b17",
+  "topic": "marine ecosystems",
+  "level": 5,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Dynamics of Marine Ecosystems",
+  "article": [
+    "Marine ecosystems constitute highly heterogeneous and dynamically coupled assemblages of biological, chemical and physical components, whose interactions operate across spatial and temporal scales to produce emergent properties.",
+    "Understanding such complexity requires integrative frameworks that synthesise hydrodynamics, biogeochemical cycles and trophic connectivity, because alterations in one domain often propagate nonlinearly to others.",
+    "Anthropogenic drivers including greenhouse gas emissions, nutrient loading and industrial fishing have intensified baseline variability, reducing resilience and increasing the likelihood of abrupt regime shifts.",
+    "Primary production in the pelagic and benthic realms is spatially heterogeneous, determined by irradiance gradients, nutrient availability and physical processes such as upwelling, stratification and mesoscale eddies.",
+    "Oligotrophic subtropical gyres exhibit low phytoplankton biomass but high photosynthetic efficiency, whereas coastal margins often show elevated productivity coupled with episodic eutrophication and hypoxia.",
+    "These contrasting dynamics can precipitate harmful algal blooms or oxygen depletion when anthropogenic nutrient inputs surpass assimilative capacity, thereby perturbing food webs and biochemical fluxes.",
+    "Moreover, microbial processes including chemoautotrophy and heterotrophic remineralisation mediate carbon sequestration and nutrient regeneration, complicating simplistic productivity metrics.",
+    "Trophic interactions are structured by size spectra and functional roles, with keystone taxa and apex predators exerting disproportionate influence through top-down control and trophic cascades.",
+    "Overexploitation, by removing these regulatory species, often leads to mesopredator release, altered species composition and diminished ecosystem services such as fisheries yields and coastal protection.",
+    "Climate-driven changes in temperature, acidification and stratification further reconfigure species distributions and phenologies, compounding pressures on already stressed communities.",
+    "Enhancing resilience therefore necessitates adaptive management strategies that integrate protected areas, harvest controls and nutrient management with socioecological monitoring and stakeholder engagement.",
+    "Emerging approaches emphasise ecosystem-based management, coupled observation systems and modelling frameworks that can resolve cross-scale feedbacks and forecast nonlinear responses under alternative scenarios.",
+    "Sustained interdisciplinary research linking molecular to basin scales, together with precautionary governance, is essential to conserve functional diversity and sustain services derived from marine ecosystems amid rapid environmental change."
+  ],
+  "metrics": {
+    "word_count": 317,
+    "sentence_count": 13,
+    "avg_sentence_len": 24.38,
+    "avg_word_len": 7.48,
+    "syllable_count": 816,
+    "complex_word_count": 71,
+    "complex_word_ratio": 0.22,
+    "flesch_reading_ease": -35.69,
+    "flesch_kincaid_grade": 24.29,
+    "ari": 26.01,
+    "coleman_liau": 26.98,
+    "gunning_fog": 18.71
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l5_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:31:54.001Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 17
+  },
+  "token_usage": {
+    "prompt_tokens": 179,
+    "completion_tokens": 2334,
+    "total_tokens": 2513,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:31:54.001Z"
+}

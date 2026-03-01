@@ -1,0 +1,59 @@
+{
+  "article_id": "9437d1cd-0a89-4932-9d44-dfced55e8f68",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "The Network of Ancient Trade Routes",
+  "article": [
+    "Long ago, the world was not as connected as it is today. However, people still found ways to trade goods across very long distances. The most famous of these paths was the Silk Road. This was not just one single road, but a huge network of many different paths. It stretched from the cities of China all the way to the Mediterranean Sea. Traders traveled through high mountains and dry deserts to reach their goals. They used camels to carry heavy loads because these animals can survive for a long time without water. People did not usually travel the entire length of the route. Instead, they moved goods from one town to the next. At each stop, the goods were sold to new merchants who took them further west. This system allowed items to travel thousands of miles over many months.",
+    "Silk was the most valuable item traded by the Chinese merchants. It was very soft and light, which made it easy to carry. People in Rome and other distant places loved silk because they did not know how to make it themselves. In exchange for silk, the Chinese received gold, silver, and strong horses. However, trade was about more than just expensive clothes and metals. Spices were also very important. Merchants brought pepper, cinnamon, and ginger from the islands of Asia. These spices were used to make food taste better and were often worth as much as gold. Because these items were so rare, only the richest people could afford to buy them. The high prices made the long and dangerous journey worth the risk for many brave traders.",
+    "Ideas and inventions also moved along these ancient paths. When people from different cultures met, they shared their knowledge. For example, the art of making paper started in China but soon spread to the Middle East and Europe. This changed how people recorded history and shared information. Religion also traveled with the merchants. Monks and priests followed the trade routes to teach their beliefs to people in new lands. This led to the growth of many different cultures along the way. Even though the journey was hard, it helped different groups of people understand each other better. Technology, such as the compass, also moved between countries, which helped later explorers find new parts of the world.",
+    "Not all trade happened on land. Many merchants used the sea to move their goods. These sea routes connected the coast of Africa with India and Southeast Asia. Sailing was often faster than walking, but it was also very dangerous. Huge storms could sink ships, and pirates often tried to steal the cargo. Sailors learned to use the wind to push their boats across the ocean. They watched the stars at night to find their way home. These water paths allowed for the trade of heavy items like wood and stone that were too difficult to carry on a camel. Over time, these sea and land routes created a global system that changed the world forever. Today, we still follow many of the same paths to trade with other nations."
+  ],
+  "metrics": {
+    "word_count": 516,
+    "sentence_count": 40,
+    "avg_sentence_len": 12.9,
+    "avg_word_len": 4.61,
+    "syllable_count": 742,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 72.09,
+    "flesch_kincaid_grade": 6.41,
+    "ari": 6.75,
+    "coleman_liau": 9.04,
+    "gunning_fog": 5.39
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "ancient_trade_routes_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:40:21.309Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 84
+  },
+  "token_usage": {
+    "prompt_tokens": 612,
+    "completion_tokens": 1776,
+    "total_tokens": 2388,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:40:21.310Z"
+}

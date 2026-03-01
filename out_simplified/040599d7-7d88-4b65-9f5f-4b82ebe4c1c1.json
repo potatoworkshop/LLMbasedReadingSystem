@@ -1,0 +1,288 @@
+{
+  "article_id": "040599d7-7d88-4b65-9f5f-4b82ebe4c1c1",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems constitute a mosaic of biologically productive habitats that extend from sunlit coastal shelves to abyssal plains, and their functional integrity arises from intricate interactions among biota, physical processes and biogeochemical cycles; these interactions underpin not only biodiversity but also the fluxes of energy and nutrients that sustain the global economy and climate regulation. At theOrganismal level, trophic networks are characterized by nonlinear predator–prey dynamics, omnivory and frequent trophic redundancy, features that can confer short-term stability but also generate counterintuitive responses to perturbation when keystone taxa or ecosystem engineers are disproportionately affected. Physical forcings such as stratification, upwelling and mesoscale eddies mediate the spatial and temporal heterogeneity of primary production, thereby shaping patterns of biomass transfer and the efficiency of the biological pump, a process that translocates carbon from the euphotic zone to the deep ocean and modulates atmospheric CO2 concentrations on seasonal to millennial timescales. Consequently, an understanding of marine ecosystem function demands integrative approaches that reconcile organismal physiology, population dynamics and oceanographic variability across multiple spatial and temporal scales.\n\nAnthropogenic stressors have compounded the inherent complexity of marine systems and precipitated emergent phenomena that are difficult to anticipate using classical linear models; ocean warming, acidification and deoxygenation operate synergistically with direct human impacts such as overexploitation, eutrophication and habitat conversion to erode resilience and to increase the likelihood of abrupt regime shifts. For instance, the removal of apex predators through intensive fishing can propagate trophic cascades that restructure community composition and diminish functional diversity, while nutrient loading and subsequent hypoxia can convert productive coastal zones into conditions inimical to traditional fisheries and benthic assemblages. These stressors often interact multiplicatively, producing thresholds beyond which recovery is protracted or unattainable without substantial intervention, a reality that underscores the limitations of single-issue management and the necessity for precautionary, ecosystem-based strategies that explicitly account for nonlinearities and feedbacks.\n\nMarine ecosystems deliver a suite of essential services—ranging from provisioning of seafood and sequestration of carbon to regulation of hydrodynamic extremes and the maintenance of cultural and recreational values—that possess both intrinsic ecological significance and quantifiable economic worth, yet the spatial distribution of these services frequently engenders trade-offs that complicate governance. Blue carbon habitats such as mangroves, salt marshes and seagrass meadows exemplify multifunctionality by concurrently providing nursery habitat, shoreline stabilization and long-term carbon storage, but their conservation often competes with coastal development and aquaculture interests, necessitating valuation frameworks that incorporate ecological processes, stakeholder priorities and distributional equity. Effective management therefore requires the integration of spatial planning, adaptive harvest rules, and the establishment of networks of marine protected areas designed to preserve connectivity and life-history corridors, complemented by fisheries policies that are responsive to shifting baselines induced by climate variability and species redistributions.\n\nLooking forward, the resilience and sustainability of marine ecosystems will hinge on the capacity to synthesize observational data, mechanistic modelling and socio-economic analyses within transdisciplinary, place-based governance frameworks that are sufficiently flexible to accommodate uncertainty and change. Emerging technological tools—environmental DNA surveillance, autonomous remote sensing platforms and high-resolution biogeochemical sensors—can enhance early detection of biological and physicochemical shifts, while coupled human–natural system models can elucidate policy responses that reconcile conservation objectives with livelihood imperatives. Restoration initiatives that target functional attributes, such as reestablishing reef complexity or restoring a diversity of habitat-forming species, offer promise but must be guided by long-term monitoring and an appreciation of landscape-scale connectivity to avoid local-scale illusions of recovery. In sum, preserving the multifarious values of marine ecosystems demands concerted scientific, policy and community engagement, informed by an appreciation of complexity, thresholds and the ethical dimensions of intergenerational stewardship.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_0350be07-6c09-40f8-a55b-a43f7fb8faab_to_l1_r1_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "0350be07-6c09-40f8-a55b-a43f7fb8faab",
+    "source_dataset": "generated",
+    "source_file": "0350be07-6c09-40f8-a55b-a43f7fb8faab.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems are a mix of rich places. They range from bright nearshore shelves to deep deep plains. Their role comes from ties among biological organisms. It also comes from natural drivers and biogeochemical processes. These links work together. They sustain diversity. They move power and resources. This matters for the world markets and the climate. At the organism level, food webs show predator–prey links. Many species eat different foods. Their roles often overlap. These traits can give short-term steadiness. They can also cause unexpected reactions after a disturbance. This happens when key species or habitat-builders are hit hard. Physical forces like layering and upwelling change where plants and algae make food. Ocean eddies also change when that production happens. This shapes how living mass moves. It also affects how well the biological pump works. The pump moves carbon from the sunlit zone to the deep ocean. It changes atmospheric CO2 on time scales from seasons to thousands of years. So we need methods that join how organisms live. We also need methods that link population changes and ocean changes. These approaches must work across many places and time scales.\n\nHuman-caused stressors have added to the natural complexity of marine systems. They have led to new outcomes. Simple linear models cannot easily predict those outcomes. Ocean warming, acidification, and oxygen loss often combine with overfishing. They also combine with nutrient pollution and habitat change. Together they weaken resilience and raise the risk of sudden shifts. For example, heavy fishing can remove top predators. That can start cascades in the food web. These chain reactions change community structure. They reduce the functions species provide. Excess nutrients and low oxygen can make productive coastal areas bad for usual fisheries. They can also harm bottom-living communities. These stresses often act together. They can push systems past tipping points. After that, recovery is slow. It may not happen without major help. This shows that managing one issue at a time is limited. We need careful ecosystem-based plans that look at connections and feedbacks.\n\nMarine ecosystems give many essential services. These include seafood and carbon storage. They also help reduce the impacts of storms and support cultural and recreational uses. These services are ecologically important. They also have economic value. But where these services occur creates trade-offs. That makes management hard. Blue carbon habitats — mangroves, salt marshes and seagrass meadows — provide many benefits at once. They serve as nurseries, protect shorelines and store carbon for long periods. Protecting them often clashes with coastal development and aquaculture. This requires ways to value these habitats. Valuation must include ecological roles. It must also include people's priorities and fair sharing. Effective management needs area planning. It also needs flexible harvest rules. It also needs networks of marine protected areas. These areas keep habitats linked and protect migration routes. Fisheries policies must also respond to changing baselines from climate variability and species movements.\n\nIn the future, how well marine ecosystems recover and stay healthy will depend on a mix of approaches. These include observations, process models, and social and economic studies. These must feed into multi-discipline local governance. That governance must deal with uncertainty and change. New tools — environmental DNA surveys, autonomous sensors, and detailed chemical sensors — can improve early detection. They help spot biological and physical changes sooner. Models linking people and nature can help find good policies. These should balance conservation goals with people's livelihoods. Restoration that focuses on function can work. Examples are rebuilding reef structure or restoring many habitat-forming species. But these efforts need long-term monitoring. They also need attention to connections across areas. This helps make sure a recovered sign in one place is real. In short, protecting the many values of marine ecosystems requires strong action. Scientists, policy makers, and communities must act. This effort should be guided by knowledge about complexity and tipping points. It should also reflect the duty to care for future generations.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 612,
+    "sentence_count": 14,
+    "avg_sentence_len": 43.71,
+    "avg_word_len": 6.81,
+    "syllable_count": 1453,
+    "complex_word_count": 125,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -38.39,
+    "flesch_kincaid_grade": 29.47,
+    "ari": 32.51,
+    "coleman_liau": 23.58,
+    "gunning_fog": 25.66
+  },
+  "final_metrics": {
+    "word_count": 663,
+    "sentence_count": 76,
+    "avg_sentence_len": 8.72,
+    "avg_word_len": 5.44,
+    "syllable_count": 1161,
+    "complex_word_count": 39,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 49.83,
+    "flesch_kincaid_grade": 8.48,
+    "ari": 8.56,
+    "coleman_liau": 12.81,
+    "gunning_fog": 5.84
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC: split and shorten sentences, simplify sentence structure|applied_edits=14|tier=coarse_jump;dist=20.8050;dir=simpler;est_wb=80;est_sb=5",
+      "metrics": {
+        "word_count": 593,
+        "sentence_count": 38,
+        "avg_sentence_len": 15.61,
+        "avg_word_len": 5.79,
+        "syllable_count": 1121,
+        "complex_word_count": 56,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 31.07,
+        "flesch_kincaid_grade": 12.8,
+        "ari": 13.65,
+        "coleman_liau": 16.35,
+        "gunning_fog": 10.02
+      },
+      "distance_to_target": 6.205,
+      "fidelity": {
+        "overall": 0.815,
+        "entity_recall": 0.7,
+        "number_recall": 1,
+        "keyword_recall": 0.75,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1182,
+        "completion_tokens": 9420,
+        "total_tokens": 10602,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily syntactic simplification: split long or complex sentences into shorter, clearer sentences while keeping original facts and order.|applied_edits=25|tier=dist_gt_2;dist=6.2050;center_gap=5.16;mode=both;dominant=word;dir_changed=0;wb=34;sb=6;est_wb=80;est_sb=14;lf=0.99;df=2.10;af=0.4250;pg=20.8050;pd=14.6000;af_fb=0",
+      "metrics": {
+        "word_count": 613,
+        "sentence_count": 56,
+        "avg_sentence_len": 10.95,
+        "avg_word_len": 5.63,
+        "syllable_count": 1126,
+        "complex_word_count": 48,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 40.33,
+        "flesch_kincaid_grade": 10.35,
+        "ari": 10.57,
+        "coleman_liau": 14.62,
+        "gunning_fog": 7.51
+      },
+      "distance_to_target": 3.7625,
+      "fidelity": {
+        "overall": 0.805,
+        "entity_recall": 0.7,
+        "number_recall": 1,
+        "keyword_recall": 0.7,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2365,
+        "completion_tokens": 20242,
+        "total_tokens": 22607,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily SYNTACTIC changes: split long sentences, merge short related sentences, and simplify sentence structure for clearer, shorter sentences.|applied_edits=20|tier=dist_gt_2;dist=3.7625;center_gap=2.48;mode=both;dominant=word;dir_changed=0;wb=52;sb=20;est_wb=80;est_sb=7;lf=1.01;df=2.10;af=1.5404;pg=6.2050;pd=2.4425;af_fb=0",
+      "metrics": {
+        "word_count": 626,
+        "sentence_count": 56,
+        "avg_sentence_len": 11.18,
+        "avg_word_len": 5.48,
+        "syllable_count": 1111,
+        "complex_word_count": 38,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 45.34,
+        "flesch_kincaid_grade": 9.71,
+        "ari": 9.99,
+        "coleman_liau": 13.8,
+        "gunning_fog": 6.9
+      },
+      "distance_to_target": 3.1,
+      "fidelity": {
+        "overall": 0.76,
+        "entity_recall": 0.6,
+        "number_recall": 1,
+        "keyword_recall": 0.7,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3572,
+        "completion_tokens": 29698,
+        "total_tokens": 33270,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic simplification: split long or complex sentences into shorter, simpler sentences while preserving facts.|applied_edits=19|tier=dist_gt_2;dist=3.1000;center_gap=1.93;mode=both;dominant=word;dir_changed=0;wb=52;sb=20;est_wb=80;est_sb=5;lf=1.02;df=2.10;af=3.0000;pg=3.7625;pd=0.6625;af_fb=0",
+      "metrics": {
+        "word_count": 663,
+        "sentence_count": 76,
+        "avg_sentence_len": 8.72,
+        "avg_word_len": 5.45,
+        "syllable_count": 1166,
+        "complex_word_count": 38,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 49.2,
+        "flesch_kincaid_grade": 8.56,
+        "ari": 8.61,
+        "coleman_liau": 12.87,
+        "gunning_fog": 5.78
+      },
+      "distance_to_target": 1.955,
+      "fidelity": {
+        "overall": 0.76,
+        "entity_recall": 0.6,
+        "number_recall": 1,
+        "keyword_recall": 0.7,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4783,
+        "completion_tokens": 36665,
+        "total_tokens": 41448,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=LEXICAL — replace words with simpler or slightly more professional synonyms (word-only changes)|applied_edits=19|tier=dist_1_to_2;dist=1.9550;center_gap=1.46;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=27;est_wb=80;est_sb=15;lf=1.05;df=1.88;af=1.7074;pg=3.1000;pd=1.1450;af_fb=0",
+      "metrics": {
+        "word_count": 663,
+        "sentence_count": 76,
+        "avg_sentence_len": 8.72,
+        "avg_word_len": 5.44,
+        "syllable_count": 1161,
+        "complex_word_count": 39,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 49.83,
+        "flesch_kincaid_grade": 8.48,
+        "ari": 8.56,
+        "coleman_liau": 12.81,
+        "gunning_fog": 5.84
+      },
+      "distance_to_target": 1.9225,
+      "fidelity": {
+        "overall": 0.77,
+        "entity_recall": 0.6,
+        "number_recall": 1,
+        "keyword_recall": 0.75,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6060,
+        "completion_tokens": 44967,
+        "total_tokens": 51027,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.77,
+    "entity_recall": 0.6,
+    "number_recall": 1,
+    "keyword_recall": 0.75,
+    "entity_total": 10,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 6060,
+    "completion_tokens": 44967,
+    "total_tokens": 51027,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T12:57:21.437Z"
+}

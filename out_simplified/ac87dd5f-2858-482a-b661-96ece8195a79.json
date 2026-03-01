@@ -1,0 +1,288 @@
+{
+  "article_id": "ac87dd5f-2858-482a-b661-96ece8195a79",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems encompass a diverse array of environments, ranging from the sunlit euphotic zone of the open ocean to the aphotic depths of the abyssal plain, and include structurally complex coastal habitats such as coral reefs, mangroves and seagrass meadows. Primary production in these systems is dominated by phytoplankton in pelagic realms and by macroalgae and seagrasses in shallow coastal areas, and the spatial distribution of productivity reflects gradients in light availability, nutrient supply and water column stability. Biologically, marine communities are commonly partitioned into functional groups—primary producers, heterotrophic microbes, benthic invertebrates, and nektonic predators—whose interactions generate food webs characterised by substantial energy transfer inefficiencies and frequent trophic cascades. The structural integrity of these ecosystems depends on keystone taxa; for example, reef-building corals and seagrasses provide three-dimensional habitat that enhances biodiversity and mediates sediment dynamics, whereas filter-feeders influence particulate organic matter fluxes and water clarity.\n\nThe functioning of marine ecosystems is underpinned by biogeochemical cycles and physical processes that connect disparate habitats across temporal and spatial scales, and anthropogenic modification of these linkages often precipitates system-level change. Upwelling events, driven by wind patterns and coastal geomorphology, inject deep, nutrient-rich waters into the euphotic zone, stimulating phytoplankton blooms and supporting high secondary productivity, while mesoscale eddies and thermohaline circulation redistribute heat, carbon and biota globally. Microbial loops, encompassing bacteria and protozoa, recycle dissolved organic matter and control nutrient remineralisation, thereby influencing the stoichiometry of available nutrients and the composition of primary producer assemblages. Connectivity between pelagic and benthic domains occurs through vertical fluxes of particulate organic carbon and through the life-history movements of fish and invertebrates, with larval dispersal shaping population genetics and the capacity for recolonisation after disturbance.\n\nContemporary pressures—chiefly climate change, overexploitation, nutrient enrichment and pollution—have amplified the frequency and magnitude of ecological perturbations, and cumulatively these stressors erode resilience and alter ecosystem trajectories. Elevated sea surface temperatures increase metabolic rates but also precipitate coral bleaching and shifts in species distributions toward higher latitudes, while ocean acidification reduces carbonate ion availability, compromising calcification in corals, molluscs and some planktonic taxa. Excessive nutrient loading from agriculture and sewage induces eutrophication, promoting harmful algal blooms and subsequent hypoxia as microbial decomposition depletes dissolved oxygen in bottom waters, thereby creating dead zones intolerant of most macrofauna. Overfishing truncates trophic structures, often removing apex predators and enabling mesopredator release or herbivore decline, which can facilitate regime shifts such as the transition from coral-dominated to algal-dominated communities; concurrently, persistent contaminants and microplastics introduce sublethal physiological stressors that can reduce reproductive success and bioaccumulate along food chains.\n\nMaintaining the provisioning, regulating and cultural services of marine ecosystems will require integrated management that reconciles conservation science with socio-economic realities, and contemporary strategies emphasise adaptive, multi-scalar interventions. Marine protected areas, when designed with attention to connectivity and enforced to limit extractive activities, can safeguard critical habitats and provide demographic reservoirs for exploited populations, but their efficacy depends on adequate spatial coverage and compliance. Fisheries management incorporating precautionary harvest limits, gear restrictions, and ecosystem-based assessments aims to reduce overcapacity and prevent trophic collapse, whereas restoration techniques—such as coral gardening, seagrass transplantation and artificial reefs—seek to accelerate recovery of structural habitats. Addressing global drivers like climate change and ocean acidification necessitates mitigation of greenhouse gas emissions, complemented by local measures to reduce nutrient and pollutant inputs, thereby enhancing the capacity of marine ecosystems to absorb disturbances and to sustain human well-being over the long term.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb05",
+    "sample_id": "generated_0c073ba2-1279-4572-a200-bd170c99d332_to_l1_r7_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "0c073ba2-1279-4572-a200-bd170c99d332",
+    "source_dataset": "generated",
+    "source_file": "0c073ba2-1279-4572-a200-bd170c99d332.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems include many different places. They range from the sunny surface of the open ocean to the dark ocean floor. They also include complex coastal homes. These are places like coral reefs, mangroves, and seagrass meadows. Most food production happens in open water. It comes from tiny plants called phytoplankton. In shallow coastal areas, large algae and seagrasses make the food. Where food is made depends on light, nutrients, and water stability. Marine life is often grouped by their jobs in the ecosystem. There are four main groups. They are food makers (primary producers), tiny eaters (zooplankton), bottom animals without backbones (benthic invertebrates), and swimming hunters (nekton). Their interactions create food webs. These webs lose a lot of energy between levels. This shows a common result of food chains. Key species are vital for ecosystem health. For example, reef-building corals and seagrasses create complex homes. These homes increase biodiversity. They also help manage sediment movement. Filter-feeders, like clams, affect the flow of tiny food particles. They also affect water clarity.\n\nMarine ecosystems function through natural cycles and physical processes. These processes link different habitats across time and space. Human changes to these links often cause big changes to the whole system. Upwelling events happen because of wind and the shape of the coast. They push deep, nutrient-rich water up to the sunlit surface. This causes large blooms of phytoplankton. These blooms support high animal production. Major ocean currents and deep-water flows also move things globally. They move heat, carbon, and living organisms. Microbial loops include bacteria and tiny animals. They recycle dissolved organic matter. They also control nutrient recycling. This influences the balance of available nutrients. It affects which primary producer groups thrive. The open water and the seafloor are connected in two main ways. First, particles of organic carbon sink down. Second, fish and invertebrates move during their life cycles. The spread of larvae shapes population genetics. It also affects the ability to recover after damage.\n\nMajor current problems are climate change, overfishing, too many nutrients, and pollution. These problems have made ecological disturbances happen more often. The disturbances are also bigger. Together, these pressures reduce ecosystem resilience. They also change ecosystem trajectories. Higher sea surface temperatures speed up metabolism in animals. They also cause coral bleaching. They force many species to move toward the poles. Ocean acidification reduces building block availability. This hurts shell and skeleton making in corals, shellfish, and some plankton kinds. Too many nutrients come from agriculture and sewage. This causes eutrophication. Eutrophication promotes harmful algal blooms. Later, bacteria decompose the dead algae. This uses up oxygen in bottom waters, causing low oxygen (hypoxia). These are called dead zones. Most larger animals cannot live in dead zones. Overfishing shortens food webs. It often removes top predators. This can cause an increase in medium-sized predators. It can also cause a loss of plant-eaters. These changes can lead to major shifts. For example, a coral reef can become dominated by algae. At the same time, long-lasting pollutants and microplastics cause harmful stresses. These stresses can reduce the ability to reproduce. The pollutants also build up in animals along the food chain.\n\nKeeping the benefits from marine ecosystems will need integrated management. These benefits include food (provision), climate regulation (control), and cultural value (social). This management must balance conservation science with social and economic needs. Current strategies focus on adaptive actions. These actions must work at many levels. Marine protected areas (MPAs) can protect critical habitats. They must be designed with connectivity in mind. They must also be enforced to limit activities like fishing. MPAs can provide source populations for fished species. However, their effectiveness needs adequate size and people following the rules. Fisheries management uses several tools. These include safe catch limits, fishing gear restrictions, and ecosystem-based assessments. The goal is to reduce overfishing and prevent trophic collapse. Restoration techniques are also used. These include coral gardening, transplanting seagrass, and building artificial reefs. They try to speed up the recovery of structured habitats. Addressing global drivers like climate change needs cuts in greenhouse gas emissions. Local steps are also needed. These must cut nutrient and pollutant runoff. Together, this improves the ability of marine ecosystems to withstand stress. It helps them support human well-being into the future.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 584,
+    "sentence_count": 16,
+    "avg_sentence_len": 36.5,
+    "avg_word_len": 6.82,
+    "syllable_count": 1370,
+    "complex_word_count": 101,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -28.67,
+    "flesch_kincaid_grade": 26.33,
+    "ari": 28.95,
+    "coleman_liau": 23.5,
+    "gunning_fog": 21.52
+  },
+  "final_metrics": {
+    "word_count": 720,
+    "sentence_count": 86,
+    "avg_sentence_len": 8.37,
+    "avg_word_len": 5.54,
+    "syllable_count": 1296,
+    "complex_word_count": 46,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 46.06,
+    "flesch_kincaid_grade": 8.92,
+    "ari": 8.87,
+    "coleman_liau": 13.27,
+    "gunning_fog": 5.9
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC changes: splitting long sentences into shorter, simpler ones while preserving key vocabulary.|applied_edits=5|tier=coarse_jump;dist=18.0750;dir=simpler;est_wb=80;est_sb=6",
+      "metrics": {
+        "word_count": 586,
+        "sentence_count": 28,
+        "avg_sentence_len": 20.93,
+        "avg_word_len": 6.47,
+        "syllable_count": 1278,
+        "complex_word_count": 84,
+        "complex_word_ratio": 0.14,
+        "flesch_reading_ease": 1.09,
+        "flesch_kincaid_grade": 18.31,
+        "ari": 19.49,
+        "coleman_liau": 20.8,
+        "gunning_fog": 14.11
+      },
+      "distance_to_target": 11.1775,
+      "fidelity": {
+        "overall": 0.9654,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1073,
+        "completion_tokens": 1938,
+        "total_tokens": 3011,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach combining lexical and syntactic changes|applied_edits=19|tier=dist_gt_2;dist=11.1775;center_gap=10.3;mode=both;dominant=word;dir_changed=0;wb=52;sb=10;est_wb=80;est_sb=10;lf=0.99;df=2.10;af=1.6205;pg=18.0750;pd=6.8975;af_fb=0",
+      "metrics": {
+        "word_count": 625,
+        "sentence_count": 44,
+        "avg_sentence_len": 14.2,
+        "avg_word_len": 5.69,
+        "syllable_count": 1159,
+        "complex_word_count": 46,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 35.54,
+        "flesch_kincaid_grade": 11.83,
+        "ari": 12.46,
+        "coleman_liau": 15.55,
+        "gunning_fog": 8.63
+      },
+      "distance_to_target": 5.1175,
+      "fidelity": {
+        "overall": 0.8169,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2443,
+        "completion_tokens": 9367,
+        "total_tokens": 11810,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Focus primarily on SYNTACTIC changes (sentence replacements/splits/merges).|applied_edits=26|tier=dist_gt_2;dist=5.1175;center_gap=3.97;mode=both;dominant=word;dir_changed=0;wb=52;sb=14;est_wb=80;est_sb=11;lf=1.02;df=2.10;af=0.8445;pg=11.1775;pd=6.0600;af_fb=0",
+      "metrics": {
+        "word_count": 720,
+        "sentence_count": 86,
+        "avg_sentence_len": 8.37,
+        "avg_word_len": 5.54,
+        "syllable_count": 1296,
+        "complex_word_count": 46,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 46.06,
+        "flesch_kincaid_grade": 8.92,
+        "ari": 8.87,
+        "coleman_liau": 13.27,
+        "gunning_fog": 5.9
+      },
+      "distance_to_target": 2.24,
+      "fidelity": {
+        "overall": 0.8069,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3614,
+        "completion_tokens": 15937,
+        "total_tokens": 19551,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=2.2400;center_gap=1.63;mode=both;dominant=word;dir_changed=0;wb=52;sb=24;est_wb=80;est_sb=16;lf=1.10;df=2.02;af=0.7785;pg=5.1175;pd=2.8775;af_fb=0",
+      "metrics": {
+        "word_count": 720,
+        "sentence_count": 86,
+        "avg_sentence_len": 8.37,
+        "avg_word_len": 5.54,
+        "syllable_count": 1296,
+        "complex_word_count": 46,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 46.06,
+        "flesch_kincaid_grade": 8.92,
+        "ari": 8.87,
+        "coleman_liau": 13.27,
+        "gunning_fog": 5.9
+      },
+      "distance_to_target": 2.24,
+      "fidelity": {
+        "overall": 0.8069,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5227,
+        "completion_tokens": 24046,
+        "total_tokens": 29273,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON|tier=dist_gt_2;dist=2.2400;center_gap=1.63;mode=both;dominant=word;dir_changed=0;wb=52;sb=31;est_wb=80;est_sb=16;lf=1.10;df=2.02;af=1.0000;pg=2.2400;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 720,
+        "sentence_count": 86,
+        "avg_sentence_len": 8.37,
+        "avg_word_len": 5.54,
+        "syllable_count": 1296,
+        "complex_word_count": 46,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 46.06,
+        "flesch_kincaid_grade": 8.92,
+        "ari": 8.87,
+        "coleman_liau": 13.27,
+        "gunning_fog": 5.9
+      },
+      "distance_to_target": 2.24,
+      "fidelity": {
+        "overall": 0.8069,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6543,
+        "completion_tokens": 28142,
+        "total_tokens": 34685,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8069,
+    "entity_recall": 0.6154,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 13,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 6543,
+    "completion_tokens": 28142,
+    "total_tokens": 34685,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T17:58:19.152Z"
+}

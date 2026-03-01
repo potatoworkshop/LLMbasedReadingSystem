@@ -1,0 +1,176 @@
+{
+  "article_id": "e859081f-83d7-4556-9bc9-60cb562c3a74",
+  "mode": "difficulty_adjust",
+  "original_article": "The arid valleys of southern Peru are welcoming the return of a native plant\n\nThe south coast of Peru is a narrow, 2,000-kilometre-long strip of desert squeezed between the Andes and the Pacific Ocean. It is also one of the most fragile ecosystems on Earth. It hardly ever rains there, and the only year-round source of water is located tens of metres below the surface.\n\nThis is why the huarango tree is so suited to life there: it has the longest roots of any tree in the world. They stretch down 50–80 metres and, as well as sucking up water for the tree, they bring it into the higher subsoil, creating a water source for other plant life.\n\nDr David Beresford-Jones, archaeobotanist at Cambridge University, has been studying the role of the huarango tree in landscape change in the Lower Ica Valley in southern Peru. He believes the huarango was key to the ancient people's diet and, because it could reach deep water sources, it allowed local people to withstand years of drought when their other crops failed. But over the centuries huarango trees were gradually replaced with crops. Cutting down native woodland leads to erosion, as there is nothing to keep the soil in place. So when the huarangos go, the land turns into a desert. Nothing grows at all in the Lower Ica Valley now.\n\nFor centuries the huarango tree was vital to the people of the neighbouring Middle Ica Valley too. They grew vegetables under it and ate products made from its seed pods. Its leaves and bark were used for herbal remedies, while its branches were used for charcoal for cooking and heating, and its trunk was used to build houses. But now it is disappearing rapidly. The majority of the huarango forests in the valley have already been cleared for fuel and agriculture – initially, these were smallholdings, but now they're huge farms producing crops for the international market.\n\n'Of the forests that were here 1,000 years ago, 99 per cent have already gone,' says botanist Oliver Whaley from Kew Gardens in London, who, together with ethnobotanist Dr William Milliken,is running a pioneering project to protect and restore the rapidly disappearing habitat. In order to succeed, Whaley needs to get the local people on board, and that has meant overcoming local prejudices.'Increasingly aspirational communities think that if you plant food trees in your home or street, it shows you are poor, and still need to grow your own food,' he says. In order to stop the Middle Ica Valley going the same way as the Lower Ica Valley, Whaley is encouraging locals to love the huarangos again. 'It's a process of cultural resuscitation,' he says. He has already set up a huarango festival to reinstate a sense of pride in their eco-heritage, and has helped local schoolchildren plant thousands of trees.\n\n'In order to get people interested in habitat restoration, you need to plant a tree that is useful to them,' says Whaley. So, he has been working with local families to attempt to create a sustainable income from the huarangos by turning their products into foodstuffs. 'Boil up the beans and you get this thick brown syrup like molasses. You can also use it in drinks, soups or stews.' The pods can be ground into flour to make cakes, and the seeds roasted into a sweet, chocolatey 'coffee'. 'It's packed full of vitamins and minerals,' Whaley says.\n\nAnd some farmers are already planting huarangos. Alberto Benevides, owner of Ica Valley's only certified organic farm, which Whaley helped set up, has been planting the tree for 13 years. He produces syrup and flour, and sells these products at an organic farmers' market in Lima. His farm is relatively small and doesn't yet provide him with enough to live on, but he hopes this will change. 'The organic market is growing rapidly in Peru,' Benevides says. 'I am investing in the future.'\n\nBut even if Whaley can convince the local people to fall in love with the huarango again, there is still the threat of the larger farms. Some of these cut across the forests and break up the corridors that allow the essential movement of mammals, birds and pollen up and down the narrow forest strip. In the hope of counteracting this, he's persuading farmers to let him plant forest corridors on their land. He believes the extra woodland will also benefit the farms by reducing their water usage through a lowering of evaporation and providing a refuge for bio-control insects.\n\n'If we can record biodiversity and see how it all works, then we're in a good position to move on from there. Desert habitats can reduce down to very little,' Whaley explains. 'It's not like a rainforest that needs to have this huge expanse. Life has always been confined to corridors and islands here. If you just have a few trees left, the population can grow up quickly because it's used to exploiting water when it arrives.' He sees his project as a model that has the potential to be rolled out across other arid areas around the world. 'If we can do it here, in the most fragile system on Earth, then that's a real message of hope for lots of places, including Africa, where there is drought and they just can't afford to wait for rain.'",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb05",
+    "sample_id": "questions_ielts_15_test4_passage1_327j0j_to_l3_r6_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_15_test4_passage1_327j0j",
+    "source_dataset": "questions",
+    "source_file": "ielts_15_test4_passage1_327j0j.json"
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The arid valleys of southern Peru are welcoming the return of a native plant\n\nThe south coast of Peru is a narrow, 2,000-kilometre-long strip of desert squeezed between the Andes and the Pacific Ocean, It is also one of the most fragile ecosystems on Earth. It hardly ever rains there, and the only year-round source of water is located tens of metres below the surface.\n\nThis is why the huarango tree is so suited to life there: it has the longest roots of any tree in the world. They stretch down 50–80 metres and, as well as sucking up water for the tree, they bring it into the higher subsoil, creating a water source for other plant life.\n\nDr David Beresford-Jones, archaeobotanist at Cambridge University, has been studying the role of the huarango tree in landscape change in the Lower Ica Valley in southern Peru. He believes the huarango was key to the ancient people's diet and, because it could reach deep water sources, it allowed local people to withstand years of drought when their other crops failed, But over the centuries huarango trees were gradually replaced with crops. Cutting down native woodland leads to erosion, as there is nothing to keep the soil in place, So when the huarangos go, the land turns into a desert, Nothing grows at all in the Lower Ica Valley now.\n\nFor centuries the huarango tree was vital to the people of the neighbouring Middle Ica Valley too, They grew vegetables under it and ate products made from its seed pods. Its leaves and bark were used for herbal remedies, while its branches were used for charcoal for cooking and heating, and its trunk was used to build houses, But now it is disappearing rapidly. The majority of the huarango forests in the valley have already been cleared for fuel and agriculture – initially, these were smallholdings, but now they're huge farms producing crops for the international market.\n\n'Of the forests that were here 1,000 years ago, 99 per cent have already gone,' says botanist Oliver Whaley from Kew Gardens in London, who, together with ethnobotanist Dr William Milliken,is running a pioneering project to protect and restore the rapidly disappearing habitat. In order to succeed, Whaley needs to get the local people on board, and that has meant overcoming local prejudices.'Increasingly aspirational communities think that if you plant food trees in your home or street, it shows you are poor, and still need to grow your own food,' he says. In order to stop the Middle Ica Valley going the same way as the Lower Ica Valley, Whaley is encouraging locals to love the huarangos again, 'It's a process of cultural resuscitation,' he says. He has already set up a huarango festival to reinstate a sense of pride in their eco-heritage, and has helped local schoolchildren plant thousands of trees.\n\n'In order to get people interested in habitat restoration, you need to plant a tree that is useful to them,' says Whaley. So, he has been working with local families to attempt to create a sustainable income from the huarangos by turning their products into foodstuffs. 'Boil up the beans and you get this thick brown syrup like molasses, You can also use it in drinks, soups or stews,' The pods can be ground into flour to make cakes, and the seeds roasted into a sweet, chocolatey 'coffee'. 'It's packed full of vitamins and minerals,' Whaley says.\n\nAnd some farmers are already planting huarangos. Alberto Benevides, owner of Ica Valley's only certified organic farm, which Whaley helped set up, has been planting the tree for 13 years, He produces syrup and flour, and sells these products at an organic farmers' market in Lima. His farm is relatively small and doesn't yet provide him with enough to live on, but he hopes this will change, 'The organic market is growing rapidly in Peru,' Benevides says, 'I am investing in the future.'\n\nBut even if Whaley can convince the local people to fall in love with the huarango again, there is still the threat of the larger farms. Some of these cut across the forests and break up the corridors that allow the essential movement of mammals, birds and pollen up and down the narrow forest strip. In the hope of counteracting this, he's persuading farmers to let him plant forest corridors on their land. He believes the extra woodland will also benefit the farms by reducing their water usage through a lowering of evaporation and providing a refuge for bio-control insects.\n\n'If we can record biodiversity and see how it all works, then we're in a good position to move on from there. Desert habitats can reduce down to very little,' Whaley explains. 'It's not like a rainforest that needs to have this huge expanse. Life has always been confined to corridors and islands here. If you just have a few trees left, the population can grow up quickly because it's used to exploiting water when it arrives.' He sees his project as a model that has the potential to be rolled out across other arid areas around the world. 'If we can do it here, in the most fragile system on Earth, then that's a real message of hope for lots of places, including Africa, where there is drought and they just can't afford to wait for rain.'",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 915,
+    "sentence_count": 46,
+    "avg_sentence_len": 19.89,
+    "avg_word_len": 4.53,
+    "syllable_count": 1368,
+    "complex_word_count": 23,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 60.16,
+    "flesch_kincaid_grade": 9.81,
+    "ari": 9.85,
+    "coleman_liau": 9.34,
+    "gunning_fog": 8.96
+  },
+  "final_metrics": {
+    "word_count": 915,
+    "sentence_count": 34,
+    "avg_sentence_len": 26.91,
+    "avg_word_len": 4.53,
+    "syllable_count": 1368,
+    "complex_word_count": 23,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 53.04,
+    "flesch_kincaid_grade": 12.55,
+    "ari": 13.36,
+    "coleman_liau": 9.73,
+    "gunning_fog": 11.77
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON|tier=dist_1_to_2;dist=1.5100;center_gap=1.46;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=17;est_wb=80;est_sb=13;lf=1.23;df=1.66;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 915,
+        "sentence_count": 46,
+        "avg_sentence_len": 19.89,
+        "avg_word_len": 4.53,
+        "syllable_count": 1368,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 60.16,
+        "flesch_kincaid_grade": 9.81,
+        "ari": 9.85,
+        "coleman_liau": 9.34,
+        "gunning_fog": 8.96
+      },
+      "distance_to_target": 1.51,
+      "fidelity": {
+        "overall": 0.9743,
+        "entity_recall": 0.9429,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1595,
+        "completion_tokens": 65536,
+        "total_tokens": 67131,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily lexical-focused approach (sentence-length-only adjustments applied due to round constraints)|applied_edits=9|tier=dist_1_to_2;dist=1.5100;center_gap=1.46;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=17;est_wb=80;est_sb=13;lf=1.23;df=1.66;af=1.0000;pg=1.5100;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 915,
+        "sentence_count": 34,
+        "avg_sentence_len": 26.91,
+        "avg_word_len": 4.53,
+        "syllable_count": 1368,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 53.04,
+        "flesch_kincaid_grade": 12.55,
+        "ari": 13.36,
+        "coleman_liau": 9.73,
+        "gunning_fog": 11.77
+      },
+      "distance_to_target": 0.8525,
+      "fidelity": {
+        "overall": 0.9743,
+        "entity_recall": 0.9429,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3190,
+        "completion_tokens": 81354,
+        "total_tokens": 84544,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9743,
+    "entity_recall": 0.9429,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 35,
+    "number_total": 7,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3190,
+    "completion_tokens": 81354,
+    "total_tokens": 84544,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:11:28.317Z"
+}

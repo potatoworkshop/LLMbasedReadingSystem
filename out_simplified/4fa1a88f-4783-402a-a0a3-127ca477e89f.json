@@ -1,0 +1,288 @@
+{
+  "article_id": "4fa1a88f-4783-402a-a0a3-127ca477e89f",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation systems constitute an indispensable facet of urban infrastructure, underpinning the socioeconomic vitality of metropolitan agglomerations worldwide. These networks, encompassing subways, light rail, buses, and ferries, facilitate the daily commutation of billions, thereby alleviating the pernicious impacts of traffic congestion, air pollution, and urban sprawl. Historically, the inception of mass transit coincided with the Industrial Revolution, when burgeoning populations in cities like London and New York necessitated efficient modalities for workforce mobilization. The subterranean railway, pioneered by the Metropolitan Railway in 1863, epitomized this paradigm shift, engendering unprecedented population densities and fostering economic agglomeration. Today, public transit's salience is amplified by escalating urbanization; projections from the United Nations indicate that by 2050, 68 percent of the global populace will reside in urban areas, compelling a reevaluation of transit paradigms to accommodate surging demand while advancing sustainability imperatives.\n\nTechnological advancements have profoundly reshaped public transportation's operational efficacy and passenger experience. Intelligent Transportation Systems (ITS), integrating real-time data analytics, GPS tracking, and predictive algorithms, have mitigated delays and optimized routing, as evidenced by London's Oyster card system, which streamlined fare collection and reduced boarding times by 30 percent. Moreover, the electrification of fleets—exemplified by Oslo's all-electric bus network—has curtailed greenhouse gas emissions, aligning with global decarbonization agendas. High-speed rail corridors, such as Japan's Shinkansen or China's extensive bullet train lattice, exemplify modal integration, interconnecting megacities with velocities exceeding 300 kilometers per hour and catalyzing regional economic corridors. Nonetheless, these innovations presuppose substantial capital outlays for infrastructure retrofitting and digital interoperability, often straining municipal budgets amid fiscal austerity.\n\nNotwithstanding these strides, public transportation grapples with intractable challenges that undermine its viability and equity. Overcrowding plagues peak-hour services in megacities like Mumbai and São Paulo, where passenger densities exceed design capacities, precipitating safety hazards and diminished service reliability. Funding dichotomies exacerbate disparities; affluent metropolises subsidize expansive networks, whereas developing conurbations contend with chronic underinvestment, perpetuating modal inequities wherein low-income demographics bear disproportionate transport burdens. Environmental externalities persist, as diesel-dependent buses contribute to particulate matter pollution, contravening WHO air quality benchmarks. Furthermore, the COVID-19 pandemic exposed vulnerabilities in pathogen transmission within enclosed transit environments, prompting debates on ventilation enhancements and capacity throttling, which inadvertently inflated operational costs.\n\nProspects for public transportation's renaissance hinge on holistic policy frameworks that amalgamate technological innovation with behavioral nudges toward modal shift. Contactless payments, app-based demand-responsive transit, and Mobility-as-a-Service (MaaS) platforms—aggregating multimodal options into singular interfaces—promise to supplant siloed systems with seamless ecosystems. Autonomous vehicles, presently trialed in Singapore's shuttle services, portend labor disruptions yet harbor potential for 24/7 operations sans human error. Policymakers must prioritize inclusive design, ensuring accessibility for aging demographics and disabled individuals, while leveraging public-private partnerships to surmount fiscal hurdles. Ultimately, the trajectory of public transportation will delineate the contours of equitable, resilient urban futures, demanding concerted global stewardship to transcend extant impediments.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_2cd8144f-fd45-48ef-9011-c6f4e751a89f_to_l4_r6_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "2cd8144f-fd45-48ef-9011-c6f4e751a89f",
+    "source_dataset": "generated",
+    "source_file": "2cd8144f-fd45-48ef-9011-c6f4e751a89f.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation systems constitute an indispensable facet of urban infrastructure, underpinning the socioeconomic vitality of metropolitan agglomerations worldwide. These networks, encompassing subways, light rail, buses, and ferries, facilitate the daily commutation of billions, thereby alleviating the pernicious impacts of traffic congestion, air pollution, and urban sprawl. Historically, the inception of mass transit coincided with the Industrial Revolution, when burgeoning populations in cities like London and New York necessitated efficient modalities for workforce mobilization. The subterranean railway, pioneered by the Metropolitan Railway in 1863, epitomized this paradigm shift, engendering unprecedented population densities and fostering economic agglomeration. Today, public transit's salience is amplified by escalating urbanization; projections from the United Nations indicate that by 2050, 68 percent of the global populace will reside in urban areas, compelling a reevaluation of transit paradigms to accommodate surging demand while advancing sustainability imperatives.\n\nTechnological advancements have profoundly reshaped public transportation's operational efficacy and passenger experience. Intelligent Transportation Systems (ITS), integrating real-time data analytics, GPS tracking, and predictive algorithms, have mitigated delays and optimized routing, as evidenced by London's Oyster card system, which streamlined fare collection and reduced boarding times by 30 percent. Moreover, the electrification of fleets—exemplified by Oslo's all-electric bus network—has curtailed greenhouse gas emissions, aligning with global decarbonization agendas. High-speed rail corridors, such as Japan's Shinkansen or China's extensive bullet train lattice, exemplify modal integration, interconnecting megacities with velocities exceeding 300 kilometers per hour and catalyzing regional economic corridors. Nonetheless, these innovations presuppose substantial capital outlays for infrastructure retrofitting and digital interoperability, often straining municipal budgets amid fiscal austerity.\n\nNotwithstanding these strides, public transportation grapples with intractable challenges that undermine its viability and equity. Overcrowding plagues peak-hour services in megacities like Mumbai and São Paulo, where passenger densities exceed design capacities, precipitating safety hazards and diminished service reliability. Funding dichotomies exacerbate disparities; affluent metropolises subsidize expansive networks, whereas developing conurbations contend with chronic underinvestment, perpetuating modal inequities wherein low-income demographics bear disproportionate transport burdens. Environmental externalities persist, as diesel-dependent buses contribute to particulate matter pollution, contravening WHO air quality benchmarks. Furthermore, the COVID-19 pandemic exposed vulnerabilities in pathogen transmission within enclosed transit environments, prompting debates on ventilation enhancements and capacity throttling, which inadvertently inflated operational costs.\n\nProspects for public transportation's renaissance hinge on holistic policy frameworks that amalgamate technological innovation with behavioral nudges toward modal shift. Contactless payments, app-based demand-responsive transit, and Mobility-as-a-Service (MaaS) platforms—aggregating multimodal options into singular interfaces—promise to supplant siloed systems with seamless ecosystems. Autonomous vehicles, presently trialed in Singapore's shuttle services, portend labor disruptions yet harbor potential for 24/7 operations sans human error. Policymakers must prioritize inclusive design, ensuring accessibility for aging demographics and disabled individuals, while leveraging public-private partnerships to surmount fiscal hurdles. Ultimately, the trajectory of public transportation will delineate the contours of equitable, resilient urban futures, demanding concerted global stewardship to transcend extant impediments.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 487,
+    "sentence_count": 20,
+    "avg_sentence_len": 24.35,
+    "avg_word_len": 7.14,
+    "syllable_count": 1187,
+    "complex_word_count": 110,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -24.08,
+    "flesch_kincaid_grade": 22.67,
+    "ari": 24.36,
+    "coleman_liau": 24.95,
+    "gunning_fog": 18.77
+  },
+  "final_metrics": {
+    "word_count": 487,
+    "sentence_count": 20,
+    "avg_sentence_len": 24.35,
+    "avg_word_len": 7.14,
+    "syllable_count": 1187,
+    "complex_word_count": 110,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -24.08,
+    "flesch_kincaid_grade": 22.67,
+    "ari": 24.36,
+    "coleman_liau": 24.95,
+    "gunning_fog": 18.77
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6875;center_gap=8.93;mode=both;dominant=word;dir_changed=0;wb=80;sb=7;est_wb=80;est_sb=7;lf=0.90;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 487,
+        "sentence_count": 20,
+        "avg_sentence_len": 24.35,
+        "avg_word_len": 7.14,
+        "syllable_count": 1187,
+        "complex_word_count": 110,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -24.08,
+        "flesch_kincaid_grade": 22.67,
+        "ari": 24.36,
+        "coleman_liau": 24.95,
+        "gunning_fog": 18.77
+      },
+      "distance_to_target": 9.6875,
+      "fidelity": {
+        "overall": 0.9514,
+        "entity_recall": 0.8919,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 37,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6875;center_gap=8.93;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.90;df=2.10;af=1.0000;pg=9.6875;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 487,
+        "sentence_count": 20,
+        "avg_sentence_len": 24.35,
+        "avg_word_len": 7.14,
+        "syllable_count": 1187,
+        "complex_word_count": 110,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -24.08,
+        "flesch_kincaid_grade": 22.67,
+        "ari": 24.36,
+        "coleman_liau": 24.95,
+        "gunning_fog": 18.77
+      },
+      "distance_to_target": 9.6875,
+      "fidelity": {
+        "overall": 0.9514,
+        "entity_recall": 0.8919,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 37,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6875;center_gap=8.93;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.90;df=2.10;af=1.0000;pg=9.6875;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 487,
+        "sentence_count": 20,
+        "avg_sentence_len": 24.35,
+        "avg_word_len": 7.14,
+        "syllable_count": 1187,
+        "complex_word_count": 110,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -24.08,
+        "flesch_kincaid_grade": 22.67,
+        "ari": 24.36,
+        "coleman_liau": 24.95,
+        "gunning_fog": 18.77
+      },
+      "distance_to_target": 9.6875,
+      "fidelity": {
+        "overall": 0.9514,
+        "entity_recall": 0.8919,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 37,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6875;center_gap=8.93;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.90;df=2.10;af=1.0000;pg=9.6875;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 487,
+        "sentence_count": 20,
+        "avg_sentence_len": 24.35,
+        "avg_word_len": 7.14,
+        "syllable_count": 1187,
+        "complex_word_count": 110,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -24.08,
+        "flesch_kincaid_grade": 22.67,
+        "ari": 24.36,
+        "coleman_liau": 24.95,
+        "gunning_fog": 18.77
+      },
+      "distance_to_target": 9.6875,
+      "fidelity": {
+        "overall": 0.9514,
+        "entity_recall": 0.8919,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 37,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6875;center_gap=8.93;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.90;df=2.10;af=1.0000;pg=9.6875;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 487,
+        "sentence_count": 20,
+        "avg_sentence_len": 24.35,
+        "avg_word_len": 7.14,
+        "syllable_count": 1187,
+        "complex_word_count": 110,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -24.08,
+        "flesch_kincaid_grade": 22.67,
+        "ari": 24.36,
+        "coleman_liau": 24.95,
+        "gunning_fog": 18.77
+      },
+      "distance_to_target": 9.6875,
+      "fidelity": {
+        "overall": 0.9514,
+        "entity_recall": 0.8919,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 37,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9514,
+    "entity_recall": 0.8919,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 37,
+    "number_total": 8,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:30.764Z"
+}

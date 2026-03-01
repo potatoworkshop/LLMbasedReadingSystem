@@ -1,0 +1,60 @@
+{
+  "article_id": "837c3e47-379c-46d5-bd1c-5b8ed458748c",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "The Wonders of Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are very large and important parts of our world. These systems include the salt water found in oceans and seas. The ocean covers more than seventy percent of the Earth. It is home to many different plants and animals. Some areas are very shallow and warm. Other areas are very deep and cold. These places work together to keep the Earth healthy. The ocean helps to control the weather. It also gives us a lot of the air we breathe. Without healthy oceans, life on land would be very hard for humans and animals. We must learn how these systems work so we can protect them for a long time.",
+    "One type of marine ecosystem is the coral reef. Many people call these reefs the rain forests of the ocean. They are found in warm and clear water. Coral reefs are built by tiny animals called polyps. These animals make hard shells that stay behind when they die. Over many years, these shells build up to make a reef. Many fish live in the coral reefs because they can find plenty of food there. The reefs also give fish a safe place to hide from bigger animals. Even though reefs are small, they hold a huge variety of life. They are very beautiful but also very fragile. Small changes in the water can hurt the coral.",
+    "Another important part of the ocean is the open sea. This area is far away from the land. It is the largest ecosystem on our planet. In the open sea, you can find very big animals like whales and sharks. These animals travel long distances to find food or to have babies. There are also tiny plants called plankton that float near the top of the water. These tiny plants use sunlight to grow. They are very important because they are the start of the food chain. Small fish eat the plankton and then big fish eat the small fish. This cycle keeps the ocean full of life and energy every day.",
+    "Deep under the surface of the ocean is a very dark place. This is called the deep sea. Sunlight cannot reach this area because the water is too thick. It is very cold and the weight of the water is very heavy. You might think that nothing can live there, but that is not true. Special animals live in the deep sea. Some of these fish have glowing lights on their bodies to help them see. Others have very big mouths to catch any food that falls from above. Scientists are still learning about these strange creatures. It is hard to study the deep sea because it is so far down. Every time we go there, we find something new.",
+    "Human beings have a big impact on marine ecosystems today. We use the ocean for many things like fishing and travel. However, sometimes we make the ocean dirty with trash or oil. This pollution can make the animals sick. Also, the water is getting warmer in many places. When the water gets too warm, the coral reefs can turn white and die. We need to be careful with how we treat the sea. People are working hard to stop pollution and protect the fish. If we keep the ocean clean, the marine ecosystems will stay strong. This will help the whole world stay healthy and beautiful for the future."
+  ],
+  "metrics": {
+    "word_count": 569,
+    "sentence_count": 53,
+    "avg_sentence_len": 10.74,
+    "avg_word_len": 4.23,
+    "syllable_count": 775,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 80.71,
+    "flesch_kincaid_grade": 4.67,
+    "ari": 3.87,
+    "coleman_liau": 6.33,
+    "gunning_fog": 4.65
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "marine_ecosystems_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:42:09.540Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 2,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 31
+  },
+  "token_usage": {
+    "prompt_tokens": 402,
+    "completion_tokens": 1661,
+    "total_tokens": 2063,
+    "llm_calls": 2
+  },
+  "generated_at": "2026-02-25T20:42:09.540Z"
+}

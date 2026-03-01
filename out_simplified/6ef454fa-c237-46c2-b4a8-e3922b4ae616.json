@@ -1,0 +1,288 @@
+{
+  "article_id": "6ef454fa-c237-46c2-b4a8-e3922b4ae616",
+  "mode": "difficulty_adjust",
+  "original_article": "The marine environment constitutes the most expansive and intricate biome on Earth, functioning as a sophisticated network of biological interactions and geochemical cycles that regulate the global climate. At the fundamental level of this aquatic hierarchy are the primary producers, predominantly microscopic phytoplankton, which harness solar radiation through photosynthesis to convert inorganic carbon into organic matter. This process, known as primary productivity, serves as the cornerstone for the entire pelagic food web, sustaining a diverse array of organisms ranging from zooplankton to apex predators. However, the efficacy of this energy transfer is contingent upon specific abiotic factors, including nutrient availability, thermal stratification, and light penetration, all of which are increasingly susceptible to anthropogenic perturbations. As carbon dioxide concentrations rise within the atmosphere, the oceans absorb a significant portion of this excess gas, leading to a phenomenon termed ocean acidification. This chemical shift reduces the saturation state of calcium carbonate, thereby hindering the calcification processes of marine organisms such as scleractinian corals and various mollusks, which are essential for maintaining the structural integrity of reef ecosystems.\n\nBeyond the sunlit epipelagic zone lies the profound complexity of the benthic and deep-sea environments, where life has adapted to extreme hydrostatic pressure and the absence of photosynthetic potential. In these abyssal regions, biological communities often rely on marine snow—a continuous shower of organic detritus originating from the upper layers of the water column. Furthermore, hydrothermal vent systems represent unique biological hotspots where chemosynthetic bacteria derive energy from the oxidation of hydrogen sulfide, bypassing the requirement for sunlight entirely. These ecosystems demonstrate the remarkable resilience and evolutionary plasticity of marine life; nevertheless, they remain vulnerable to emerging industrial interests, such as deep-sea mining for polymetallic nodules. The potential disruption of these fragile habitats could lead to irreversible biodiversity loss and the impairment of nutrient cycling mechanisms that have remained stable for millennia. The interconnectedness of these vertical layers implies that disturbances in the deep sea may eventually manifest as ecological imbalances within the more accessible coastal fisheries upon which human populations depend.\n\nCoastal ecosystems, particularly mangroves, seagrass meadows, and salt marshes, function as critical transitional zones that provide indispensable ecosystem services, including carbon sequestration and shoreline stabilization. These blue carbon habitats possess an extraordinary capacity to store atmospheric carbon within their anaerobic sediments, surpassing the sequestration rates of many terrestrial forests. Despite their ecological significance, these regions are currently experiencing unprecedented rates of degradation due to coastal development, pollution, and rising sea levels. The loss of these natural buffers exacerbates the vulnerability of inland areas to storm surges and diminishes the nursery grounds for numerous commercially significant fish species. Addressing these challenges requires a comprehensive understanding of marine spatial planning and the implementation of robust conservation strategies that transcend national jurisdictions. Ultimately, the preservation of marine ecosystems necessitates a paradigm shift in how global societies perceive the ocean, moving from a view of inexhaustible resources to one of a finite, delicate system requiring rigorous stewardship and scientific oversight.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_1d07bc5b-d510-4384-8583-aad7baff6773_to_l3_r4_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "1d07bc5b-d510-4384-8583-aad7baff6773",
+    "source_dataset": "generated",
+    "source_file": "1d07bc5b-d510-4384-8583-aad7baff6773.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The marine environment constitutes the most expansive and intricate biome on Earth, functioning as a sophisticated network of biological interactions and geochemical cycles that regulate the global climate. At the fundamental level of this aquatic hierarchy are the primary producers, predominantly microscopic phytoplankton, which harness solar radiation through photosynthesis to convert inorganic carbon into organic matter. This process, known as primary productivity, serves as the cornerstone for the entire pelagic food web, sustaining a diverse array of organisms ranging from zooplankton to apex predators. However, the efficacy of this energy transfer is contingent upon specific abiotic factors, including nutrient availability, thermal stratification, and light penetration, all of which are increasingly susceptible to anthropogenic perturbations. As carbon dioxide concentrations rise within the atmosphere, the oceans absorb a significant portion of this excess gas, leading to a phenomenon termed ocean acidification. This chemical shift reduces the saturation state of calcium carbonate, thereby hindering the calcification processes of marine organisms such as scleractinian corals and various mollusks, which are essential for maintaining the structural integrity of reef ecosystems.\n\nBeyond the sunlit epipelagic zone lies the profound complexity of the benthic and deep-sea environments, where life has adapted to extreme hydrostatic pressure and the absence of photosynthetic potential. In these abyssal regions, biological communities often rely on marine snow—a continuous shower of organic detritus originating from the upper layers of the water column. Furthermore, hydrothermal vent systems represent unique biological hotspots where chemosynthetic bacteria derive energy from the oxidation of hydrogen sulfide, bypassing the requirement for sunlight entirely. These ecosystems demonstrate the remarkable resilience and evolutionary plasticity of marine life; nevertheless, they remain vulnerable to emerging industrial interests, such as deep-sea mining for polymetallic nodules. The potential disruption of these fragile habitats could lead to irreversible biodiversity loss and the impairment of nutrient cycling mechanisms that have remained stable for millennia. The interconnectedness of these vertical layers implies that disturbances in the deep sea may eventually manifest as ecological imbalances within the more accessible coastal fisheries upon which human populations depend.\n\nCoastal ecosystems, particularly mangroves, seagrass meadows, and salt marshes, function as critical transitional zones that provide indispensable ecosystem services, including carbon sequestration and shoreline stabilization. These blue carbon habitats possess an extraordinary capacity to store atmospheric carbon within their anaerobic sediments, surpassing the sequestration rates of many terrestrial forests. Despite their ecological significance, these regions are currently experiencing unprecedented rates of degradation due to coastal development, pollution, and rising sea levels. The loss of these natural buffers exacerbates the vulnerability of inland areas to storm surges and diminishes the nursery grounds for numerous commercially significant fish species. Addressing these challenges requires a comprehensive understanding of marine spatial planning and the implementation of robust conservation strategies that transcend national jurisdictions. Ultimately, the preservation of marine ecosystems necessitates a paradigm shift in how global societies perceive the ocean, moving from a view of inexhaustible resources to one of a finite, delicate system requiring rigorous stewardship and scientific oversight.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 496,
+    "sentence_count": 18,
+    "avg_sentence_len": 27.56,
+    "avg_word_len": 6.44,
+    "syllable_count": 1094,
+    "complex_word_count": 85,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -7.73,
+    "flesch_kincaid_grade": 21.18,
+    "ari": 22.68,
+    "coleman_liau": 20.99,
+    "gunning_fog": 17.88
+  },
+  "final_metrics": {
+    "word_count": 496,
+    "sentence_count": 18,
+    "avg_sentence_len": 27.56,
+    "avg_word_len": 6.44,
+    "syllable_count": 1094,
+    "complex_word_count": 85,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -7.73,
+    "flesch_kincaid_grade": 21.18,
+    "ari": 22.68,
+    "coleman_liau": 20.99,
+    "gunning_fog": 17.88
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=9.6825;dir=simpler;est_wb=80;est_sb=7",
+      "metrics": {
+        "word_count": 496,
+        "sentence_count": 18,
+        "avg_sentence_len": 27.56,
+        "avg_word_len": 6.44,
+        "syllable_count": 1094,
+        "complex_word_count": 85,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -7.73,
+        "flesch_kincaid_grade": 21.18,
+        "ari": 22.68,
+        "coleman_liau": 20.99,
+        "gunning_fog": 17.88
+      },
+      "distance_to_target": 9.6825,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6825;center_gap=9.58;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.91;df=2.10;af=1.0000;pg=9.6825;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 496,
+        "sentence_count": 18,
+        "avg_sentence_len": 27.56,
+        "avg_word_len": 6.44,
+        "syllable_count": 1094,
+        "complex_word_count": 85,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -7.73,
+        "flesch_kincaid_grade": 21.18,
+        "ari": 22.68,
+        "coleman_liau": 20.99,
+        "gunning_fog": 17.88
+      },
+      "distance_to_target": 9.6825,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6825;center_gap=9.58;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.91;df=2.10;af=1.0000;pg=9.6825;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 496,
+        "sentence_count": 18,
+        "avg_sentence_len": 27.56,
+        "avg_word_len": 6.44,
+        "syllable_count": 1094,
+        "complex_word_count": 85,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -7.73,
+        "flesch_kincaid_grade": 21.18,
+        "ari": 22.68,
+        "coleman_liau": 20.99,
+        "gunning_fog": 17.88
+      },
+      "distance_to_target": 9.6825,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6825;center_gap=9.58;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.91;df=2.10;af=1.0000;pg=9.6825;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 496,
+        "sentence_count": 18,
+        "avg_sentence_len": 27.56,
+        "avg_word_len": 6.44,
+        "syllable_count": 1094,
+        "complex_word_count": 85,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -7.73,
+        "flesch_kincaid_grade": 21.18,
+        "ari": 22.68,
+        "coleman_liau": 20.99,
+        "gunning_fog": 17.88
+      },
+      "distance_to_target": 9.6825,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.6825;center_gap=9.58;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.91;df=2.10;af=1.0000;pg=9.6825;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 496,
+        "sentence_count": 18,
+        "avg_sentence_len": 27.56,
+        "avg_word_len": 6.44,
+        "syllable_count": 1094,
+        "complex_word_count": 85,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -7.73,
+        "flesch_kincaid_grade": 21.18,
+        "ari": 22.68,
+        "coleman_liau": 20.99,
+        "gunning_fog": 17.88
+      },
+      "distance_to_target": 9.6825,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 9,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:48:53.734Z"
+}

@@ -1,0 +1,59 @@
+{
+  "article_id": "426fe219-568d-4715-b045-d3367805c640",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Life in the Deep Blue Sea",
+  "article": [
+    "The ocean covers most of our planet. This vast area of salt water is home to many living things. Scientists call these areas marine ecosystems. Each part of the ocean has its own unique plants and animals. Some animals live in shallow water near the beach. Other creatures live in the deep, dark ocean. All of these living things work together to stay alive and healthy. They depend on each other and their environment every single day.",
+    "Energy in the ocean starts with the sun. Near the surface, tiny plants called algae use sunlight to make food. These small plants are the base of the ocean food chain. Small fish and tiny sea creatures eat the algae to get energy. Then, larger fish eat the smaller ones. Even the biggest whales need this cycle to work well. Without the sun and the tiny plants, life in the sea could not exist. This balance is very important for the whole world.",
+    "Coral reefs are another vital part of the marine world. People often call them the rainforests of the sea. They are built by small animals called polyps. Reefs provide a safe home for many types of fish. They also protect the land from big waves during storms. Many colorful creatures hide in the cracks of the coral to stay safe from hunters. However, coral reefs are very fragile. They need clean water and the right temperature to stay healthy and grow.",
+    "Humans also play a big role in the health of the ocean. We get much of our food from the sea. The ocean also helps to keep the air clean for us to breathe. However, pollution can hurt marine life. Trash like plastic can be dangerous for sea turtles and birds. Overfishing can also cause problems by taking too many fish away at once. When we protect the ocean, we help all the creatures that live there. Keeping the water clean ensures that these ecosystems will stay strong for a long time."
+  ],
+  "metrics": {
+    "word_count": 333,
+    "sentence_count": 32,
+    "avg_sentence_len": 10.41,
+    "avg_word_len": 4.39,
+    "syllable_count": 468,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 77.38,
+    "flesch_kincaid_grade": 5.05,
+    "ari": 4.44,
+    "coleman_liau": 7.15,
+    "gunning_fog": 4.76
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "marine_ecosystems_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:41:54.291Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 33
+  },
+  "token_usage": {
+    "prompt_tokens": 599,
+    "completion_tokens": 1314,
+    "total_tokens": 1913,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:41:54.291Z"
+}

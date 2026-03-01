@@ -1,0 +1,58 @@
+{
+  "article_id": "ac9bb3ff-3d6e-45c8-991b-7567e5cad760",
+  "topic": "ancient trade routes",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "The Economic Arteries of Antiquity",
+  "article": [
+    "Long before the era of modern globalization, ancient civilizations established intricate networks of trade that spanned continents, facilitating the exchange of luxury goods, essential commodities, and revolutionary ideas. These maritime and terrestrial corridors served as the lifeblood of empires, connecting the Mediterranean world with the distant markets of East Asia and the Indian subcontinent. The most celebrated of these routes, the Silk Road, was not a single path but a complex web of interconnected trails. Merchants braved harsh deserts and treacherous mountain passes to transport silk, spices, and precious metals, fundamentally altering the economic landscape of the regions they traversed.",
+    "Beyond the movement of physical merchandise, these routes functioned as conduits for cultural and technological transmission. For instance, the spread of papermaking techniques and religious philosophies can be traced back to the interactions between traveling scholars and local populations. This cross-pollination of knowledge fostered innovation, as societies adapted foreign concepts to suit their unique environmental and social contexts. Cities located at strategic intersections, such as Palmyra or Samarkand, flourished as cosmopolitan hubs where diverse ethnicities mingled, creating a vibrant synthesis of architectural styles and linguistic dialects that defined the classical age.",
+    "However, the maintenance of these trade arteries required significant political stability and military protection. When powerful dynasties collapsed, the resulting insecurity often led to the fragmentation of trade networks, causing economic stagnation in isolated territories. The decline of the Roman Empire and the subsequent rise of maritime powers shifted the focus toward oceanic expeditions, eventually leading to the Age of Discovery. Despite their eventual transformation, the legacy of these ancient routes remains evident in the contemporary geopolitical structures of Eurasia. They represent the first major step toward a unified global economy, demonstrating that the human impulse for commercial and intellectual exploration has always been a primary driver of historical progress."
+  ],
+  "metrics": {
+    "word_count": 302,
+    "sentence_count": 13,
+    "avg_sentence_len": 23.23,
+    "avg_word_len": 6.16,
+    "syllable_count": 631,
+    "complex_word_count": 41,
+    "complex_word_ratio": 0.14,
+    "flesch_reading_ease": 6.49,
+    "flesch_kincaid_grade": 18.12,
+    "ari": 19.19,
+    "coleman_liau": 19.14,
+    "gunning_fog": 14.72
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "ancient_trade_routes_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:40:26.251Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 2
+  },
+  "token_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 374,
+    "total_tokens": 577,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:40:26.252Z"
+}

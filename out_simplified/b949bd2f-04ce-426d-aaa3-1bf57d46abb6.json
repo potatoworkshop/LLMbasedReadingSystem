@@ -1,0 +1,140 @@
+{
+  "article_id": "b949bd2f-04ce-426d-aaa3-1bf57d46abb6",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change is happening now. It brings rising sea levels, stronger storms, and longer droughts. These changes harm people, farms, and cities. Adaptation helps us prepare for and adjust to these effects. It is not about stopping climate change. Instead, it focuses on living with it.\n\nMany places use smart strategies to adapt. Coastal cities build sea walls and barriers. These hold back flood waters during big storms. In the Netherlands, such walls protect low lands for years. Farmers in dry areas switch to crops that need less water. They also use better ways to save rain. Urban areas plant more trees. Trees cool the air and soak up extra rain.\n\nGovernments lead these efforts. They make plans and spend money on projects. For example, Australia rebuilt homes after floods to stand up to future ones. Local people join in too. They learn new skills and change daily habits. This teamwork makes adaptation stronger.\n\nChallenges remain. Not all countries have enough funds. Poor areas suffer most from climate effects. Rich nations help with money and knowledge. Global groups like the United Nations push for fair plans. Quick action now can save lives and cut costs later.\n\nAdaptation builds a safer future. It shows humans can change to match a warming world. With effort, we reduce risks and keep life going.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb06",
+    "sample_id": "generated_0e4b88a4-1242-4606-888a-6c1f1b7f7804_to_l2_r3_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "0e4b88a4-1242-4606-888a-6c1f1b7f7804",
+    "source_dataset": "generated",
+    "source_file": "0e4b88a4-1242-4606-888a-6c1f1b7f7804.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The contemporary phenomenon of climate change manifests through rising sea levels, intensified storms, and prolonged droughts. These changes adversely impact people, farms, and cities. Adaptation facilitates societal preparation and adjustment to these impacts, representing an approach distinct from halting climate change itself. Instead, it focuses on living with it.\n\nMany places use strategic measures to adapt. Coastal cities employ structural defenses like sea walls and barriers to impede floodwaters during major storm surges. In the Netherlands, such walls protect low lands for years. Farmers in dry areas switch to crops that need less water. They also use better ways to conserve water. Urban areas plant more trees. Trees cool the air and absorb extra rain.\n\nGovernments orchestrate these endeavors. They make plans and spend money on projects. For example, Australia rebuilt homes after floods to stand up to future ones. Local communities also participate by acquiring new skills and modifying daily habits. This teamwork makes adaptation stronger.\n\nChallenges remain. Not all countries have enough funds. Poor areas are most vulnerable from climate effects. Rich nations help with money and knowledge. Global groups like the United Nations advocate for fair plans. Expeditious action in the present can preserve lives and mitigate future expenses.\n\nAdaptation builds a safer future. It shows humans can change to match a warming world. With effort, we reduce risks and keep life going.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 220,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.59,
+    "avg_word_len": 4.82,
+    "syllable_count": 313,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 78.77,
+    "flesch_kincaid_grade": 4.16,
+    "ari": 5.08,
+    "coleman_liau": 8.66,
+    "gunning_fog": 3.58
+  },
+  "final_metrics": {
+    "word_count": 226,
+    "sentence_count": 25,
+    "avg_sentence_len": 9.04,
+    "avg_word_len": 5.48,
+    "syllable_count": 387,
+    "complex_word_count": 13,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 52.79,
+    "flesch_kincaid_grade": 8.14,
+    "ari": 8.91,
+    "coleman_liau": 13.16,
+    "gunning_fog": 5.92
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED|applied_edits=12|tier=dist_gt_2;dist=3.6300;center_gap=4.73;mode=both;dominant=sentence;dir_changed=0;wb=72;sb=11;est_wb=49;est_sb=11;lf=0.70;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 226,
+        "sentence_count": 25,
+        "avg_sentence_len": 9.04,
+        "avg_word_len": 5.48,
+        "syllable_count": 387,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 52.79,
+        "flesch_kincaid_grade": 8.14,
+        "ari": 8.91,
+        "coleman_liau": 13.16,
+        "gunning_fog": 5.92
+      },
+      "distance_to_target": 0.0325,
+      "fidelity": {
+        "overall": 0.9586,
+        "entity_recall": 0.9524,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 681,
+        "completion_tokens": 1306,
+        "total_tokens": 1987,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9586,
+    "entity_recall": 0.9524,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 21,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 1306,
+    "total_tokens": 1987,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:14:30.695Z"
+}

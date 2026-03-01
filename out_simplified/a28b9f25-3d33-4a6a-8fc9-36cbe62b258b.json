@@ -1,0 +1,176 @@
+{
+  "article_id": "a28b9f25-3d33-4a6a-8fc9-36cbe62b258b",
+  "mode": "difficulty_adjust",
+  "original_article": "Chelsea Rochman, an ecologist at the University of California, Davis, has been trying to answer a dismal question: Is everything terrible, or are things just very, very bad?\n\nRochman is a member of the National Center for Ecological Analysis and Synthesis's marine-debris working group, a collection of scientists who study, among other things, the growing problem of marine debris, also known as ocean trash. Plenty of studies have sounded alarm bells about the state of marine debris; in a recent paper published in the journal Ecology, Rochman and her colleagues set out to determine how many of those perceived risks are real.\n\nOften, Rochman says，scientists will end a paper by speculating about the broader impacts of what they've found. For example, a study could show that certain seabirds eat plastic bags, and go on to warn that whole bird populations are at risk of dying out. 'But the truth was that nobody had yet tested those perceived threats,' Rochman says. 'There wasn't a lot of information.'\n\nRochman and her colleagues examined more than a hundred papers on the impacts of marine debris that were published through 2013. Within each paper, they asked what threats scientists had studied - 366 perceived threats in all - and what they'd actually found.\n\nIn 83 percent of cases, the perceived dangers of ocean trash were proven true. In the remaining cases, the working group found the studies had weaknesses in design and content which affected the validity of their conclusions-they lacked a control group, for example, or used faulty statistics.\n\nStrikingly, Rochman says, only one well-designed study failed to find the effect it was looking for, an investigation of mussels ingesting microscopic plastic bits. The plastic moved from the Mussels' stomachs to their bloodstreams, scientists found, and stayed there for weeks - but didn't seem to stress out the shellfish.\n\nWhile mussels may be fine eating trash, though, the analysis also gave a clearer picture of the many ways that ocean debris is bothersome.\n\nWithin the studies they looked at, most of the proven threats came from plastic debris, rather than other materials like metal or wood. Most of the dangers also involved large pieces of debris - animals getting entangled in trash, for example, or eating it and severely injuring themselves.\n\nBut a lot of ocean debris is 'microplastic', or pieces smaller than five millimeters. These may be ingredients used in cosmetics and toiletries, fibers shed by synthetic clothing in the wash, or eroded remnants of larger debris. Compared to the number of studies investigating large-scale debris, Rochman's group found little research on the effects of these tiny bits. 'There are a lot of open questions still for microplastic', Rochman says, though she notes that more papers on the subject have been published since 2013, the cutoff point for the group's analysis.\n\nThere are also, she adds, a lot of open questions about the ways that ocean debris can lead to sea-creature death. Many studies have looked at how plastic affects an individual animal, or that animal's tissues or cells, rather than whole populations. And in the lab, scientists often use higher concentrations of plastic than what's really in the ocean. None of that tells us how many birds or fish or sea turtles could die from plastic pollution — or how deaths in one species could affect that animal's predators, or the rest of the ecosystem.\n\n'We need to be asking more ecologically relevant questions,' Rochman says. Usually, scientists don't know exactly how disasters such as a tanker accidentally spilling its whole cargo of oil and polluting huge areas of the ocean will affect the environment until after they've happened. 'We don't ask the right questions early enough,' she says. But if ecologists can understand how the slow-moving effect of ocean trash is damaging ecosystems, they might be able to prevent things from getting worse.\n\nAsking the right questions can help policy makers, and the public, figure out where to focus their attention. The problems that look or sound most dramatic may not be the best places to start. For example, the name of the 'Great Pacific Garbage Patch' — a collection of marine debris in the northern Pacific Ocean—might conjure up a vast, floating trash island. In reality though, much of the debris is tiny or below the surface; a person could sail through the area without seeing any trash at all. A Dutch group called 'The Ocean Cleanup' is currently working on plans to put mechanical devices in the Pacific Garbage Patch and similar areas to suck up plastic. But a recent paper used simulations to show that strategically positioning the cleanup devices closer to shore would more effectively reduce pollution over the long term.\n\n'I think clearing up some of these misperceptions is really important', Rochman says. Among scientists as well as in the media, she says, 'A lot of the images about strandings and entanglement and all of that cause the perception that plastic debris is killing everything in the ocean.' Interrogating the existing scientific literature can help ecologists figure out which problems really need addressing, and which ones they'd be better off—like the mussels—absorbing and ignoring.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb02",
+    "sample_id": "questions_ielts_14_test4_passage3_527e3j_to_l2_r8_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test4_passage3_527e3j",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test4_passage3_527e3j.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Chelsea Rochman is an ecologist at UC Davis. She has been trying to answer a disquieting inquiry. Is everything awful, or are things just very bad?\n\nRochman belongs to a scientific consortium that studies ocean trash. The group is the National Center for Ecological Analysis and Synthesis's marine-debris working group. Many studies have sounded alarms about ocean trash. In a recent paper in the journal Ecology, Rochman and her team wanted to see how many of those hypothesized risks were real.\n\nRochman says scientists often end papers by speculating about the broader implications of their findings. For example, a study might show some seabirds eat plastic bags. It might then warn that whole bird groups might perish out. 'But the truth was that nobody had yet tested those postulated threats,' Rochman says. 'There was a paucity of data.'\n\nRochman and her colleagues examined over a hundred papers on ocean trash impacts. These papers were published by 2013. For each paper, they noted what dangers scientists studied. There were 366 believed dangers. They also noted what was actually found.\n\nIn 83 percent of cases, the believed dangers of ocean trash were proven true. In the other cases, the group found the studies exhibited methodological limitations. These weaknesses compromised the validity of their findings. For example, some lacked a control group or used bad statistics.\n\nInterestingly, Rochman says only one rigorous investigation failed to confirm its hypothesis. It studied mussels eating microplastic particles. Scientists found the plastic moved from the mussels' stomachs to their blood. It stayed for weeks but appeared to induce no adverse effects.\n\nMussels may exhibit resilience eating trash. But the analysis showed the multifarious mechanisms ocean debris is harmful.\n\nIn the studies they scrutinized, most proven dangers came from plastic, not from materials like metal or wood. Most dangers also involved big pieces of trash. For example, animals became entangled in trash or ate it and sustained severe injuries.\n\nBut a lot of ocean trash is 'microplastic'. These are pieces smaller than five millimeters. These can be parts used in makeup and soaps. They can be threads from man-made clothing in the wash. Or they can be fragmentation products from larger trash. Rochman's group found a dearth of research on these tiny bits. Many more studies looked at large trash. 'There are still many unanswered questions about microplastic,' Rochman says. More papers have come out since 2013, the end date for their analysis.\n\nThere are also, she adds, a lot of unknowns about the ways that ocean debris can induce mortality in marine organisms. Many studies looked at how plastic impacts one animal, or its tissues or cells. They did not look at whole animal groups. In the lab, scientists often use more plastic than is really in the ocean. This fails to elucidate how many birds, fish, or sea turtles could die from plastic. It also does not tell us how deaths in one species could influence its hunters or the rest of the environment.\n\n'We need to ask more ecologically significant inquiries,' Rochman says. Usually, scientists do not know exactly how catastrophic events affect the environment until after they happen. For example, a tanker might spill its whole load of oil and contaminate vast oceanic regions. 'We do not ask pertinent research questions soon enough,' she says. But if ecologists understand how the cumulative impact of ocean trash impairs ecosystems, they might mitigate further degradation.\n\nAsking the right questions can help leaders and the public decide where to focus. The problems that appear most alarming may not be the best to start with. For example, the name of the 'Great Pacific Garbage Patch' — a group of marine debris in the northern Pacific Ocean—might make you think of a huge, floating trash island. But in reality, much of the trash is tiny or under the surface. A person could sail through and see no trash. A Dutch group named 'The Ocean Cleanup' is planning to put machines in the Pacific Garbage Patch and similar areas. These machines would collect plastic. But a recent paper used computer models. It showed that placing cleanup machines closer to shore would reduce pollution better over time.\n\n'I think fixing some of these misconceptions is very important,' Rochman says. She says, among scientists and in the media, many images show animals stranded on shorelines or ensnared. This fosters the perception that plastic is causing widespread mortality in the ocean. A meticulous review of the available scientific literature can help ecologists decide which problems really warrant intervention, and which ones they'd be better served—like the mussels—tolerating without undue concern.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 868,
+    "sentence_count": 37,
+    "avg_sentence_len": 23.46,
+    "avg_word_len": 4.93,
+    "syllable_count": 1383,
+    "complex_word_count": 40,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 48.23,
+    "flesch_kincaid_grade": 12.36,
+    "ari": 13.52,
+    "coleman_liau": 11.93,
+    "gunning_fog": 11.23
+  },
+  "final_metrics": {
+    "word_count": 777,
+    "sentence_count": 63,
+    "avg_sentence_len": 12.33,
+    "avg_word_len": 5,
+    "syllable_count": 1266,
+    "complex_word_count": 41,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 56.47,
+    "flesch_kincaid_grade": 8.45,
+    "ari": 8.29,
+    "coleman_liau": 11.21,
+    "gunning_fog": 7.04
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=A BALANCED approach combining both lexical and syntactic strategies.|applied_edits=44|tier=coarse_jump;dist=3.2600;dir=simpler;est_wb=80;est_sb=11",
+      "metrics": {
+        "word_count": 780,
+        "sentence_count": 63,
+        "avg_sentence_len": 12.38,
+        "avg_word_len": 4.69,
+        "syllable_count": 1159,
+        "complex_word_count": 20,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 68.56,
+        "flesch_kincaid_grade": 6.77,
+        "ari": 6.84,
+        "coleman_liau": 9.37,
+        "gunning_fog": 5.98
+      },
+      "distance_to_target": 1.76,
+      "fidelity": {
+        "overall": 0.8394,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 32,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1685,
+        "completion_tokens": 7559,
+        "total_tokens": 9244,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily lexical changes with precise or academic terminology.|applied_edits=44|tier=dist_1_to_2;dist=1.7600;center_gap=2.47;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=47;sb=19;est_wb=80;est_sb=23;lf=1.14;df=1.78;af=1.1733;pg=3.2600;pd=1.5000;af_fb=0",
+      "metrics": {
+        "word_count": 777,
+        "sentence_count": 63,
+        "avg_sentence_len": 12.33,
+        "avg_word_len": 5,
+        "syllable_count": 1266,
+        "complex_word_count": 41,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 56.47,
+        "flesch_kincaid_grade": 8.45,
+        "ari": 8.29,
+        "coleman_liau": 11.21,
+        "gunning_fog": 7.04
+      },
+      "distance_to_target": 0.2525,
+      "fidelity": {
+        "overall": 0.8494,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 32,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3311,
+        "completion_tokens": 12359,
+        "total_tokens": 15670,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8494,
+    "entity_recall": 0.6875,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 32,
+    "number_total": 3,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3311,
+    "completion_tokens": 12359,
+    "total_tokens": 15670,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T17:39:31.923Z"
+}

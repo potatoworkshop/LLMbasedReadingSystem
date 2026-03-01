@@ -52,6 +52,7 @@
   - 所有主要 API 路由入口（生成/改写/难度调节/出题/模型列表）
 - `server/src/services/articleService.ts`
   - 文章生成核心逻辑（prompt、重试、候选选择、归档）
+  - 已加入按等级长度补偿（length compensation）以校准 L1/L2 偏短问题，并记录 token 消耗/尝试信息
 - `server/src/services/difficultyAdjustService.ts`
   - 指定难度调节核心（闭环迭代 + 保真约束）
 - `server/src/config/difficultyProfiles.ts`
@@ -63,6 +64,10 @@
 
 - `scripts/compute_article_stats.js`
   - 离线语料指标统计（可读性 + 信息密度 + 关键词密度 + 抽象度）
+- `scripts/run_ch5_generation_batch.js`
+  - 第5章生成实验批量脚本（逐条日志输出，记录 token/耗时/失败）
+- `scripts/run_ch5_adjust_batch.js`
+  - 第5章难度调节实验批量脚本（逐条日志输出，记录命中/保真度/token/耗时）
 
 ## 4. 典型数据目录（先看数据再动代码）
 
@@ -80,6 +85,34 @@
 - `out_generated/article_stats.json`
 - `out_simplified/article_stats.json`
 - `out_questions/article_stats.json`
+
+实验批次日志与清单（第5章）：
+
+- `experiments/ch5/logs/*.jsonl`
+- `experiments/ch5/manifests/*.json`
+- `experiments/ch5/configs/*.json`
+  - 批量实验配置（按模型拆分的 generation/adjust 批次）
+
+## 4.1 第5章实验进展（截至当前，便于新上下文接手）
+
+- 已完成生成批次基线（补偿前）：`gen_b01`
+  - 结论：长度命中率偏低（57.5%），L1/L2 系统性偏短，已据此加入长度补偿
+- 已完成生成模型对比 pilot（补偿后）：
+  - `gen_grok_b02`
+  - `gen_gpt5mini_b02`
+  - `gen_gemini_b02`
+  - 当前观察：`grok`/`gpt-5-mini` 长度命中率较高，`gemini` 成本低但命中率偏低；`gpt-5-mini` 成本与耗时最高
+- 已完成真实语料难度调节 pilot（部分模型）：
+  - `adj_q_grok_b01`
+  - `adj_q_gpt5mini_b01`
+  - 当前观察：两者在真实语料上命中率均为 0%，但保真度高、轮次跑满，提示难度调节方法本身可能存在策略问题（不仅是模型问题）
+- `Draft.md` 已记录：
+  - 长度补偿策略（方法章节）
+  - `gen_b01` 的过程性实验记录（第5章暂存小节）
+- 下一步优先事项：
+  1. 跑完 `adj_q_gemini_b01`
+  2. 汇总三模型难度调节对比
+  3. 分析并改进 `difficultyAdjustService.ts` 的方向选择/接受策略
 
 ## 5. 本项目里“难度”的定义（非常重要）
 
@@ -149,6 +182,8 @@
 - 论文大纲与代码能力不完全等价：代码保留了扩展模块，但论文可选择不写主实验
 - 修改统计字段后，前端统计页若不更新会出现空值或不显示
 - 本地语料接口 `app/api/local-articles/route.ts` 对不同数据源做了结构适配，改 JSON 结构要同步这里
+- 第5章生成实验中，L1/L2 容易系统性偏短；`articleService.ts` 已加入长度补偿。写实验结论时要区分“用户目标字数”和“提示词内部补偿目标字数”
+- 生成/调节归档现在含 `experiment`、`request_meta`、`token_usage` 等字段；写统计脚本时应优先利用这些字段，不要只看旧字段
 
 ## 9. 建议的工作顺序（无上下文时）
 
@@ -162,6 +197,7 @@
    - `app/page.tsx`
    - `app/article-stats/page.tsx`
 4. 看 `out_*` 目录现有数据，再决定是写代码、跑统计还是改论文文档
+5. 如果在做第5章实验，先读最新 `experiments/ch5/manifests/*.json`，确认哪些批次已完成（避免重复跑）
 
 ## 10. 如果任务是“继续写论文”
 
@@ -171,3 +207,4 @@
 - 写“方法章节”正式版（指定难度 1-5 + 指标区间 + 闭环调节）
 - 设计/补充实验方案与图表清单
 - 用 `out_*` + `article_stats.json` 写“真实语料 vs 生成语料”统计对比
+- 若在做第5章实验：优先查看 `experiments/ch5/manifests/*.json`（成功/失败、耗时、token），再结合 `out_generated/`、`out_simplified/` 归档做深入分析

@@ -1,0 +1,287 @@
+{
+  "article_id": "84a6e476-1866-4d8c-95d2-20789f81fe37",
+  "mode": "difficulty_adjust",
+  "original_article": "Virtually every child, the world over, plays. The drive to play is so intense that children will do so in any circumstances, for instance when they have no real toys, or when parents do not actively encourage the behavior. In the eyes of a young child, running, pretending, and building are fun. Researchers and educators know that these playful activities benefit the development of the whole child across social, cognitive, physical, and emotional domains. Indeed, play is such an instrumental component to healthy child development that the United Nations High Commission on Human Rights (1989) recognized play as a fundamental right of every child.\n\nYet, while experts continue to expound a powerful argument for the importance of play in children's lives, the actual time children spend playing continues to decrease. Today, children play eight hours less each week than their counterparts did two decades ago (Elkind 2008). Under pressure of rising academic standards, play is being replaced by test preparation in kindergartens and grade schools, and parents who aim to give their preschoolers a leg up are led to believe that flashcards and educational 'toys' are the path to success. Our society has created a false dichotomy between play and learning.\n\nThrough play, children learn to regulate their behavior, lay the foundations for later learning in science and mathematics, figure out the complex negotiations of social relationships, build a repertoire of creative problem-solving skills, and so much more. There is also an important role for adults in guiding children through playful learning opportunities.\n\nFull consensus on a formal definition of play continues to elude the researchers and theorists who study it. Definitions range from discrete descriptions of various types of play such as physical, construction, language, or symbolic play (Miller & Almon 2009), to lists of broad criteria, based on observations and attitudes, that are meant to capture the essence of all play behaviors (e.g. Rubin et al. 1983).\n\nA majority of the contemporary definitions of play focus on several key criteria. The founder of the National Institute for Play, Stuart Brown, has described play as 'anything that spontaneously is done for its own sake'. More specifically, he says it 'appears purposeless, produces pleasure and joy, [and] leads one to the next stage of mastery' (as quoted in Tippett 2008). Similarly, Miller and Almon (2009) say that play includes 'activities that are freely chosen and directed by children and arise from intrinsic motivation'. Often, play is defined along a continuum as more or less playful using the following set of behavioral and dispositional criteria (e.g. Rubin et al. 1983).\n\nPlay is pleasurable: Children must enjoy the activity or it is not play. It is intrinsically motivated: Children engage in play simply for the satisfaction the behavior itself brings. It has no extrinsically motivated function or goal. Play is process oriented: When children play, the means are more important than the ends. It is freely chosen, spontaneous and voluntary. If a child is pressured, they will likely not think of the activity as play. Play is actively engaged: Players must be physically and/or mentally involved in the activity. Play is non-literal. It involves make-believe.\n\nAccording to this view, children's playful behaviors can range in degree from 0% to 100% playful. Rubin and colleagues did not assign greater weight to any one dimension in determining playfulness; however, other researchers have suggested that process orientation and a lack of obvious functional purpose may be the most important aspects of play (e.g. Pellegrini 2009).\n\nFrom the perspective of a continuum, play can thus blend with other motives and attitudes that are less playful, such as work. Unlike play, work is typically not viewed as enjoyable and it is extrinsically motivated (i.e. it is goal oriented). Researcher Joan Goodman (1994) suggested that hybrid forms of work and play are not a detriment to learning; rather, they can provide optimal contexts for learning. For example, a child may be engaged in a difficult, goal-directed activity set up by their teacher, but they may still be actively engaged and intrinsically motivated. At this mid-point between play and work, the child's motivation, coupled with guidance from an adult, can create robust opportunities for playful learning.\n\nCritically, recent research supports the idea that adults can facilitate children's learning while maintaining a playful approach in interactions known as 'guided play' (Fisher et al. 2011). The adult's role in play varies as a function of their educational goals and the child's developmental level (Hirsch-Pasek et al. 2009).\n\nGuided play takes two forms. At a very basic level, adults can enrich the child's environment by providing objects or experiences that promote aspects of a curriculum. In the more direct form of guided play, parents or other adults can support children's play by joining in the fun as a co-player, raising thoughtful questions, commenting on children's discoveries, or encouraging further exploration or new facets to the child's activity. Although playful learning can be somewhat structured, it must also be child-centered (Nicolopolou et al. 2006). Play should stem from the child's own desire.\n\nBoth free and guided play are essential elements in a child-centered approach to playful learning. Intrinsically motivated free play provides the child with true autonomy, while guided play is an avenue through which parents and educators can provide more targeted learning experiences. In either case, play should be actively engaged, it should be predominantly child-directed, and it must be fun.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb08",
+    "sample_id": "questions_ielts_14_test3_passage3_527cnj_to_l2_r5_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test3_passage3_527cnj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test3_passage3_527cnj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Virtually every child, the world over, plays. The drive to play is so intense that children will do so in any circumstances, for instance when they have no real toys, or when parents do not actively encourage the behavior. In the eyes of a young child, running, pretending, and building are fun. Researchers and educators know that these playful activities benefit the development of the whole child across social, cognitive, physical, and emotional domains. Indeed, play is such an instrumental component to healthy child development that the United Nations High Commission on Human Rights (1989) recognized play as a fundamental right of every child.\n\nYet, while experts continue to expound a powerful argument for the importance of play in children's lives, the actual time children spend playing continues to decrease. Today, children play eight hours less each week than their counterparts did two decades ago (Elkind 2008). Under pressure of rising academic standards, play is being replaced by test preparation in kindergartens and grade schools, and parents who aim to give their preschoolers a leg up are led to believe that flashcards and educational 'toys' are the path to success. Our society has created a false dichotomy between play and learning.\n\nThrough play, children learn to regulate their behavior, lay the foundations for later learning in science and mathematics, figure out the complex negotiations of social relationships, build a repertoire of creative problem-solving skills, and so much more. There is also an important role for adults in guiding children through playful learning opportunities.\n\nFull consensus on a formal definition of play continues to elude the researchers and theorists who study it. Definitions range from discrete descriptions of various types of play such as physical, construction, language, or symbolic play (Miller & Almon 2009), to lists of broad criteria, based on observations and attitudes, that are meant to capture the essence of all play behaviors (e.g. Rubin et al. 1983).\n\nA majority of the contemporary definitions of play focus on several key criteria. The founder of the National Institute for Play, Stuart Brown, has described play as 'anything that spontaneously is done for its own sake'. More specifically, he says it 'appears purposeless, produces pleasure and joy, [and] leads one to the next stage of mastery' (as quoted in Tippett 2008). Similarly, Miller and Almon (2009) say that play includes 'activities that are freely chosen and directed by children and arise from intrinsic motivation'. Often, play is defined along a continuum as more or less playful using the following set of behavioral and dispositional criteria (e.g. Rubin et al. 1983).\n\nPlay is pleasurable: Children must enjoy the activity or it is not play. It is intrinsically motivated: Children engage in play simply for the satisfaction the behavior itself brings. It has no extrinsically motivated function or goal. Play is process oriented: When children play, the means are more important than the ends. It is freely chosen, spontaneous and voluntary. If a child is pressured, they will likely not think of the activity as play. Play is actively engaged: Players must be physically and/or mentally involved in the activity. Play is non-literal. It involves make-believe.\n\nAccording to this view, children's playful behaviors can range in degree from 0% to 100% playful. Rubin and colleagues did not assign greater weight to any one dimension in determining playfulness; however, other researchers have suggested that process orientation and a lack of obvious functional purpose may be the most important aspects of play (e.g. Pellegrini 2009).\n\nFrom the perspective of a continuum, play can thus blend with other motives and attitudes that are less playful, such as work. Unlike play, work is typically not viewed as enjoyable and it is extrinsically motivated (i.e. it is goal oriented). Researcher Joan Goodman (1994) suggested that hybrid forms of work and play are not a detriment to learning; rather, they can provide optimal contexts for learning. For example, a child may be engaged in a difficult, goal-directed activity set up by their teacher, but they may still be actively engaged and intrinsically motivated. At this mid-point between play and work, the child's motivation, coupled with guidance from an adult, can create robust opportunities for playful learning.\n\nCritically, recent research supports the idea that adults can facilitate children's learning while maintaining a playful approach in interactions known as 'guided play' (Fisher et al. 2011). The adult's role in play varies as a function of their educational goals and the child's developmental level (Hirsch-Pasek et al. 2009).\n\nGuided play takes two forms. At a very basic level, adults can enrich the child's environment by providing objects or experiences that promote aspects of a curriculum. In the more direct form of guided play, parents or other adults can support children's play by joining in the fun as a co-player, raising thoughtful questions, commenting on children's discoveries, or encouraging further exploration or new facets to the child's activity. Although playful learning can be somewhat structured, it must also be child-centered (Nicolopolou et al. 2006). Play should stem from the child's own desire.\n\nBoth free and guided play are essential elements in a child-centered approach to playful learning. Intrinsically motivated free play provides the child with true autonomy, while guided play is an avenue through which parents and educators can provide more targeted learning experiences. In either case, play should be actively engaged, it should be predominantly child-directed, and it must be fun.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 913,
+    "sentence_count": 57,
+    "avg_sentence_len": 16.02,
+    "avg_word_len": 5.13,
+    "syllable_count": 1547,
+    "complex_word_count": 67,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 47.23,
+    "flesch_kincaid_grade": 10.65,
+    "ari": 10.73,
+    "coleman_liau": 12.5,
+    "gunning_fog": 9.34
+  },
+  "final_metrics": {
+    "word_count": 913,
+    "sentence_count": 57,
+    "avg_sentence_len": 16.02,
+    "avg_word_len": 5.13,
+    "syllable_count": 1547,
+    "complex_word_count": 67,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 47.23,
+    "flesch_kincaid_grade": 10.65,
+    "ari": 10.73,
+    "coleman_liau": 12.5,
+    "gunning_fog": 9.34
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.8050;center_gap=1.24;mode=word_only;dominant=word;dir_changed=0;wb=80;sb=8;est_wb=80;est_sb=6;lf=1.23;df=1.80;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 913,
+        "sentence_count": 57,
+        "avg_sentence_len": 16.02,
+        "avg_word_len": 5.13,
+        "syllable_count": 1547,
+        "complex_word_count": 67,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 47.23,
+        "flesch_kincaid_grade": 10.65,
+        "ari": 10.73,
+        "coleman_liau": 12.5,
+        "gunning_fog": 9.34
+      },
+      "distance_to_target": 1.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.8050;center_gap=1.24;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=6;lf=1.23;df=1.80;af=1.0000;pg=1.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 913,
+        "sentence_count": 57,
+        "avg_sentence_len": 16.02,
+        "avg_word_len": 5.13,
+        "syllable_count": 1547,
+        "complex_word_count": 67,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 47.23,
+        "flesch_kincaid_grade": 10.65,
+        "ari": 10.73,
+        "coleman_liau": 12.5,
+        "gunning_fog": 9.34
+      },
+      "distance_to_target": 1.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.8050;center_gap=1.24;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=6;lf=1.23;df=1.80;af=1.0000;pg=1.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 913,
+        "sentence_count": 57,
+        "avg_sentence_len": 16.02,
+        "avg_word_len": 5.13,
+        "syllable_count": 1547,
+        "complex_word_count": 67,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 47.23,
+        "flesch_kincaid_grade": 10.65,
+        "ari": 10.73,
+        "coleman_liau": 12.5,
+        "gunning_fog": 9.34
+      },
+      "distance_to_target": 1.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.8050;center_gap=1.24;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=6;lf=1.23;df=1.80;af=1.0000;pg=1.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 913,
+        "sentence_count": 57,
+        "avg_sentence_len": 16.02,
+        "avg_word_len": 5.13,
+        "syllable_count": 1547,
+        "complex_word_count": 67,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 47.23,
+        "flesch_kincaid_grade": 10.65,
+        "ari": 10.73,
+        "coleman_liau": 12.5,
+        "gunning_fog": 9.34
+      },
+      "distance_to_target": 1.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.8050;center_gap=1.24;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=6;lf=1.23;df=1.80;af=1.0000;pg=1.8050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 913,
+        "sentence_count": 57,
+        "avg_sentence_len": 16.02,
+        "avg_word_len": 5.13,
+        "syllable_count": 1547,
+        "complex_word_count": 67,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 47.23,
+        "flesch_kincaid_grade": 10.65,
+        "ari": 10.73,
+        "coleman_liau": 12.5,
+        "gunning_fog": 9.34
+      },
+      "distance_to_target": 1.805,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 40,
+    "number_total": 9,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:48:56.747Z"
+}

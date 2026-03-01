@@ -1,0 +1,59 @@
+{
+  "article_id": "b2ae0ebc-ea45-4ba2-86e2-40a9a654e334",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Paths of Exchange: Ancient Trade Routes",
+  "article": [
+    "For many centuries, people used long networks of roads and sea lanes to move goods, ideas and people. These networks are often called trade routes. They connected distant lands and helped shape the world. Traders, sailors and caravan leaders moved silk, spices, gold, salt, textiles and many other items. Along the way, they carried stories, beliefs and new techniques. The routes began to take shape in the first millennium BCE and grew more complex by the first millennium CE. They crossed deserts, mountains and oceans. The movement of goods made some towns wealthy and turned others into busy meeting places. In this passage, the main ancient routes are described and their wider effects are explained.",
+    "The land route known as the Silk Road linked East Asia with the Mediterranean world. It was not a single road, but a chain of paths that passed through deserts and high plateaus. Caravans of camels carried silk, tea and porcelain from the east. From west to east came wool, glass and silver. Cities such as Samarkand and Kashgar grew rich as traders passed through. These towns offered places to rest and to trade. Many traders used caravanserais, simple inns that sheltered people and animals. Trade on these routes was risky. Bandits, harsh weather and supply shortages made journeys hard. Nevertheless, merchants found ways to manage these dangers. They formed groups and paid for guards. They learned to read the signs of weather and water. Over time, the Silk Road carried more than goods. It carried ideas about art, science and religion. Buddhism, for example, spread from India to East Asia along these paths.",
+    "Seaborne networks were also vital. The Indian Ocean linked East Africa, the Arabian Peninsula, South Asia and Southeast Asia. Sailors learned to use the monsoon winds for travel. During certain months, winds blew from Africa to India. Later in the year, winds reversed and brought ships back. This regular pattern made sea trade faster and more reliable than long land journeys. Ships carried spices, ivory, textiles, and ceramics. Ports such as Aden, Calicut and Malacca grew into major commercial centers. In the Mediterranean Sea, city-states like Athens and Alexandria relied on ships for food and timber. Meanwhile, across the Sahara Desert, the trans-Saharan routes connected West Africa with North Africa. Traders used camels to cross the hot sand. They moved gold, kola nuts and salt, while North African traders brought cloth and metal goods. Each of these sea and desert networks used their own technologies and local knowledge to make trade possible.",
+    "The effects of these routes went beyond trade. They helped spread languages, crafts and beliefs. Art styles mixed when goods moved from one culture to another. New foods and farming methods travelled with merchants and settlers. Empires and city-states often tried to control parts of the routes to collect taxes and protect travelers. When a powerful state fell or a new sea route was found, old land routes could decline. For example, new Atlantic ocean paths opened by Europeans changed trade patterns after the fifteenth century. Still, the legacy of ancient trade routes is visible today. Many modern cities began as trading posts along these routes. Museum objects and historical records show how connected the old world was. In many ways, the ancient networks set the stage for the global links we see now."
+  ],
+  "metrics": {
+    "word_count": 558,
+    "sentence_count": 48,
+    "avg_sentence_len": 11.63,
+    "avg_word_len": 4.94,
+    "syllable_count": 856,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 65.25,
+    "flesch_kincaid_grade": 7.05,
+    "ari": 7.65,
+    "coleman_liau": 10.7,
+    "gunning_fog": 5.22
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "ancient_trade_routes_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:18:19.611Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 42
+  },
+  "token_usage": {
+    "prompt_tokens": 549,
+    "completion_tokens": 4315,
+    "total_tokens": 4864,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:18:19.611Z"
+}

@@ -1,0 +1,57 @@
+{
+  "article_id": "df17d4f4-6da3-4d69-beab-bc9388bb923b",
+  "topic": "public transportation",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Public Transportation: Moving Cities Forward",
+  "article": [
+    "Public transportation plays a big role in our daily lives. It helps people go to work, school, and shops without using their own cars. Buses, trains, subways, and trams are common forms of public transport. These systems run on set schedules. They carry millions of people each day around the world. In big cities like London or New York, public transport is very important. Without it, streets would have too many cars. This would cause big traffic jams. Public transport started long ago. In the 1800s, horse-drawn buses moved people in cities. Later, electric trams came along. Today, modern systems use clean energy. They make travel fast and easy for everyone.",
+    "There are many types of public transportation. Buses travel on regular roads. They stop at bus stops every few blocks. This makes them good for short trips. Trains go between cities and towns. They are fast and carry a lot of passengers. Subways run underground in busy areas. They avoid traffic above ground. Trams or streetcars share roads with cars but have their own tracks. Ferries help people cross rivers or seas. Each type fits different needs. For example, subways work well in crowded places. Trains are best for long rides. Cities choose the right mix to serve all people. Riders buy tickets or use cards. Apps now show real-time updates on when vehicles arrive.",
+    "Public transportation brings many good things. First, it helps the environment. One bus can replace many cars on the road. This cuts down on air pollution and saves fuel. Second, it saves money for users. Fares cost less than car payments, gas, and parking. Families without cars can still get around. Third, it reduces traffic. Fewer cars mean safer and quicker trips for all. Public transport also brings people together. Riders from different backgrounds meet and talk. Studies show that good systems help cities grow. Jobs increase near train stations. Shops do better with more visitors. In places like Tokyo, over 90 percent of people use public transport daily. This keeps the city clean and running well.",
+    "Even with these advantages, public transport faces some challenges. Crowds make rides uncomfortable at peak times. Delays happen from weather or repairs. Not all areas have good service. Rural places often lack buses or trains. Cities spend a lot to build and fix systems. But leaders are working on solutions. They add more routes and buy electric buses. New technology like smart cards speeds up boarding. Bike shares link with trains for last-mile trips. In the future, driverless trains will run safer and more often. Governments push for green power too. This will make public transport even better. More people will choose it over cars. In the end, strong public systems build happy and healthy cities."
+  ],
+  "metrics": {
+    "word_count": 462,
+    "sentence_count": 60,
+    "avg_sentence_len": 7.7,
+    "avg_word_len": 4.81,
+    "syllable_count": 668,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 76.7,
+    "flesch_kincaid_grade": 4.47,
+    "ari": 5.05,
+    "coleman_liau": 8.61,
+    "gunning_fog": 3.6
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "public_transportation_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:03:29.876Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 138
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3331,
+    "total_tokens": 4336,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:03:29.877Z"
+}

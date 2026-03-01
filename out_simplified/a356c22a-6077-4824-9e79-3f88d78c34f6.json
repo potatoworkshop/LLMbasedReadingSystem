@@ -1,0 +1,288 @@
+{
+  "article_id": "a356c22a-6077-4824-9e79-3f88d78c34f6",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation constitutes the arterial network of contemporary metropolitan regions, providing collective mobility that mitigates negative externalities associated with private automobile dependence while shaping land-use patterns and economic accessibility. Transit systems—composed of rail, bus, tram, ferry, and assorted paratransit services—contribute to modal share, influence vehicle-kilometres traveled, and enable higher densities that are conducive to agglomeration economies; however, their effectiveness depends on institutional governance, capital endowments, and coherent regulatory frameworks. In economic terms, public transit internalizes fewer social costs per passenger-kilometre than individual cars, particularly when vehicle occupancy and energy sources are optimized; yet investment decisions must reconcile short-term fiscal constraints with long-term lifecycle costs, resilience imperatives, and social equity objectives. Planners therefore confront the dual mandate of expanding accessibility while managing operational efficiency and environmental externalities, which requires analytically robust performance metrics and cross-sectoral coordination.\n\nOperational characteristics determine how transit systems perform under variable demand conditions, and technical parameters such as headways, dwell times, vehicle capacity, and network connectivity translate directly into service reliability and throughput. Ridership levels exhibit elasticity with respect to fare structures, frequency, and perceived travel time; modest reductions in headway or improvements in intermodal integration can produce disproportionate increases in patronage because of network effects and reduced generalized cost. Last-mile connectivity remains a persistent friction point that attenuates ridership potential, prompting municipalities to pilot microtransit, bikeshare, and demand-responsive feeder networks that synchronize with timetabled trunk services. Advanced transport management systems and integrated fare media, including contactless payments and mobility-as-a-service platforms, facilitate trip chaining and reduce transaction costs, but they also raise governance questions about data stewardship and equitable access for digitally marginalized populations.\n\nFiscal arrangements and policy instruments are decisive in shaping service provision and long-term sustainability, since most transit agencies operate with negative net operating margins and rely on subsidies, earmarked taxes, or value-capture mechanisms to fund both capital and recurrent expenditures. Capital-intensive rail projects, for example, exhibit high upfront sunk costs yet often achieve favorable cost-benefit ratios over extended horizons through induced development and congestion mitigation; conversely, bus-based corridors present lower capital intensity but greater exposure to operating volatility and road congestion. Pricing regimes such as distance-based fares, zonal systems, and time-of-day differentials influence peak spreading and revenue stability, while supply-side interventions—dedicated bus lanes, signal priority, and grade separation—augment service reliability but demand interjurisdictional coordination and political capital. Innovative financing instruments, including public-private partnerships and transit-oriented development strategies, can mobilize additional resources but necessitate transparent governance to avoid regressive distributional outcomes.\n\nContemporary challenges for public transportation encompass pandemic-induced ridership shocks, the acceleration of telecommuting, and the imperative of decarbonization through electrification and renewable energy integration. The COVID-19 crisis exposed vulnerabilities in farebox-dependent models and prompted agencies to re-evaluate contingency planning and public-health protocols, catalyzing experiments in flexible scheduling and contactless operations. Looking forward, policymakers must balance investments in low-emission rolling stock, grid resiliency, and climate adaptation measures against equity imperatives that ensure marginalized communities retain access to essential mobility. The trajectory of urban mobility will be defined by the capacity of governance institutions to reconcile technological innovation, fiscal realism, and social inclusion, thereby sustaining transit systems that are efficient, resilient, and aligned with broader metropolitan sustainability goals.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb04",
+    "sample_id": "generated_37fadc6b-1e87-440c-b8b3-aec0905e222a_to_l5_r6_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "37fadc6b-1e87-440c-b8b3-aec0905e222a",
+    "source_dataset": "generated",
+    "source_file": "37fadc6b-1e87-440c-b8b3-aec0905e222a.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation is the main system of modern city areas, providing group travel that reduces bad side effects from car use while shaping land use and economic access. Transit systems—made of rail, bus, tram, ferry, and various small services—add to mode share, affect vehicle-km traveled, and allow denser areas that are good for city economies; however, their success depends on agency management, funding sources, and clear rules. In economic terms, public transit causes fewer public costs per passenger-km than individual cars, especially when car occupancy and energy sources are improved; yet capital choices must match short-term budget limits with long-term full costs, reliability needs, and fairness goals. Planners therefore handle two jobs of boosting access while running well and environment harms, which requires firm measures and collaboration.\n\nService features set how transit systems operate under varying needs, and tech details such as gaps, stop times, vehicle capacity, and link quality cause on-time service and flow. Rider numbers vary with with respect to ticket prices, frequency, and felt travel time; small cuts in headway or improvements in mode links can bring big gains in riders because of network effects and lower total cost. Last-mile links remain a key issue that limits ridership, so cities test microtransit, bikeshare, and on-demand feeders that match fixed trunk schedules. Advanced transport management systems and integrated fare media, including contactless payments and mobility-as-a-service platforms, enable trip chaining and lower transaction costs, but they also create governance questions about data handling and fair access for digitally disadvantaged populations.\n\nFunding setups and policies shape service delivery and lasting survival, as agencies run at losses and use subsidies, special taxes, or land value gains to pay capital and ongoing costs. Capital-intensive rail projects, for example, show high upfront sunk costs yet often achieve positive cost-benefit ratios over long horizons through sparked development and congestion relief; however, bus-based corridors present lower capital costs but greater risk to operating instability and road congestion. Pricing systems such as distance-based fares, zonal systems, and time-of-day differentials influence peak spreading and revenue stability, while supply-side interventions—dedicated bus lanes, signal priority, and grade separation—improve service reliability but demand interjurisdictional coordination and political capital. Innovative financing instruments, including public-private partnerships and transit-oriented development strategies, can mobilize additional resources but require transparent governance to avoid unfair distributional outcomes.\n\nCurrent problems for public transit include pandemic-caused ridership losses, rising remote work, and the need for carbon reduction using electric power and renewable energy. The COVID-19 crisis showed weaknesses in farebox-dependent models and led agencies to re-evaluate contingency planning and public-health protocols, sparking experiments in flexible scheduling and contactless operations. Looking forward, policymakers must balance investments in low-emission rolling stock, grid resiliency, and climate adaptation measures against equity goals that ensure marginalized communities retain access to essential mobility. The path of urban mobility will be defined by the capacity of governance institutions to combine technological innovation, fiscal realism, and social inclusion, thereby sustaining transit systems that are efficient, resilient, and aligned with broader metropolitan sustainability goals.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 555,
+    "sentence_count": 16,
+    "avg_sentence_len": 34.69,
+    "avg_word_len": 6.93,
+    "syllable_count": 1331,
+    "complex_word_count": 99,
+    "complex_word_ratio": 0.18,
+    "flesch_reading_ease": -31.26,
+    "flesch_kincaid_grade": 26.24,
+    "ari": 28.57,
+    "coleman_liau": 24.11,
+    "gunning_fog": 21.01
+  },
+  "final_metrics": {
+    "word_count": 526,
+    "sentence_count": 16,
+    "avg_sentence_len": 32.88,
+    "avg_word_len": 5.87,
+    "syllable_count": 1025,
+    "complex_word_count": 51,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 8.61,
+    "flesch_kincaid_grade": 20.23,
+    "ari": 22.66,
+    "coleman_liau": 17.82,
+    "gunning_fog": 17.03
+  },
+  "hit_target": true,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Lexical simplification: replace complex multi-syllable words and phrases with simpler, shorter common synonyms|applied_edits=55|tier=dist_gt_2;dist=2.6608;center_gap=8.27;mode=both;dominant=word;dir_changed=0;wb=80;sb=6;est_wb=80;est_sb=3;lf=0.96;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 548,
+        "sentence_count": 16,
+        "avg_sentence_len": 34.25,
+        "avg_word_len": 6.26,
+        "syllable_count": 1157,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.13,
+        "flesch_reading_ease": -6.55,
+        "flesch_kincaid_grade": 22.68,
+        "ari": 25.19,
+        "coleman_liau": 20.16,
+        "gunning_fog": 18.88
+      },
+      "distance_to_target": 1.5758,
+      "fidelity": {
+        "overall": 0.9479,
+        "entity_recall": 0.9286,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 14,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1381,
+        "completion_tokens": 5405,
+        "total_tokens": 6786,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON|tier=dist_1_to_2;dist=1.5758;center_gap=5.25;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=3;est_wb=80;est_sb=2;lf=0.96;df=1.69;af=1.4524;pg=2.6608;pd=1.0850;af_fb=0",
+      "metrics": {
+        "word_count": 548,
+        "sentence_count": 16,
+        "avg_sentence_len": 34.25,
+        "avg_word_len": 6.26,
+        "syllable_count": 1157,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.13,
+        "flesch_reading_ease": -6.55,
+        "flesch_kincaid_grade": 22.68,
+        "ari": 25.19,
+        "coleman_liau": 20.16,
+        "gunning_fog": 18.88
+      },
+      "distance_to_target": 1.5758,
+      "fidelity": {
+        "overall": 0.9479,
+        "entity_recall": 0.9286,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 14,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2721,
+        "completion_tokens": 15267,
+        "total_tokens": 17988,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=LEXICAL|applied_edits=52|tier=dist_1_to_2;dist=1.5758;center_gap=5.25;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=2;est_wb=80;est_sb=2;lf=0.96;df=1.69;af=1.0000;pg=1.5758;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 548,
+        "sentence_count": 16,
+        "avg_sentence_len": 34.25,
+        "avg_word_len": 6.06,
+        "syllable_count": 1110,
+        "complex_word_count": 61,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 0.71,
+        "flesch_kincaid_grade": 21.67,
+        "ari": 24.24,
+        "coleman_liau": 18.97,
+        "gunning_fog": 18.15
+      },
+      "distance_to_target": 1.2525,
+      "fidelity": {
+        "overall": 0.9479,
+        "entity_recall": 0.9286,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 14,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4061,
+        "completion_tokens": 24499,
+        "total_tokens": 28560,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=balanced approach combining both strategies|applied_edits=15|tier=dist_1_to_2;dist=1.2525;center_gap=4.35;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=73;est_sb=2;lf=0.96;df=1.53;af=3.0000;pg=1.5758;pd=0.3233;af_fb=0",
+      "metrics": {
+        "word_count": 526,
+        "sentence_count": 16,
+        "avg_sentence_len": 32.88,
+        "avg_word_len": 5.98,
+        "syllable_count": 1051,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 4.43,
+        "flesch_kincaid_grade": 20.81,
+        "ari": 23.18,
+        "coleman_liau": 18.47,
+        "gunning_fog": 17.71
+      },
+      "distance_to_target": 1.0142,
+      "fidelity": {
+        "overall": 0.9579,
+        "entity_recall": 0.9286,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 14,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5400,
+        "completion_tokens": 35661,
+        "total_tokens": 41061,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED|applied_edits=11|tier=dist_1_to_2;dist=1.0142;center_gap=3.57;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=61;est_sb=2;lf=0.94;df=1.41;af=3.0000;pg=1.2525;pd=0.2383;af_fb=0",
+      "metrics": {
+        "word_count": 526,
+        "sentence_count": 16,
+        "avg_sentence_len": 32.88,
+        "avg_word_len": 5.87,
+        "syllable_count": 1025,
+        "complex_word_count": 51,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 8.61,
+        "flesch_kincaid_grade": 20.23,
+        "ari": 22.66,
+        "coleman_liau": 17.82,
+        "gunning_fog": 17.03
+      },
+      "distance_to_target": 0.8117,
+      "fidelity": {
+        "overall": 0.9257,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 14,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6714,
+        "completion_tokens": 45139,
+        "total_tokens": 51853,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9257,
+    "entity_recall": 0.8571,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 14,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 6714,
+    "completion_tokens": 45139,
+    "total_tokens": 51853,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T13:07:33.919Z"
+}

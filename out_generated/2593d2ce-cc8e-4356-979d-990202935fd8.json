@@ -1,0 +1,58 @@
+{
+  "article_id": "2593d2ce-cc8e-4356-979d-990202935fd8",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adapting to Climate Change",
+  "article": [
+    "Climate change is real. The Earth is getting warmer. This causes big problems. Storms grow stronger. Sea levels rise. Droughts last longer. People and nature must adapt. Adaptation means making smart changes. These changes help us live with the new climate.",
+    "Farmers lead the way in adaptation. They switch to new crops. These crops grow well in heat. They need less water. In parts of India, farmers plant millet instead of rice. Millet survives dry spells. This gives them food and money. They also use better ways to save water. Drip irrigation waters plants drop by drop. It cuts waste.",
+    "Cities make big changes too. They build walls by the sea. These walls block floods. They plant trees in streets. Trees give shade and cool the air. In the Netherlands, people raise land to fight high water. They pump out extra water fast. These steps save homes and lives.",
+    "Nature adapts on its own. Birds move to cooler places. Fish swim to colder waters. Plants grow in new spots. But change happens fast. Some animals need help. People create safe areas for them. They stop cutting forests.",
+    "Adaptation brings hope. It works best with less pollution. We cut carbon to slow warming. Then adaptation is easier. Everyone can help. Small steps add up. Our world can stay livable."
+  ],
+  "metrics": {
+    "word_count": 218,
+    "sentence_count": 42,
+    "avg_sentence_len": 5.19,
+    "avg_word_len": 4.61,
+    "syllable_count": 291,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 88.64,
+    "flesch_kincaid_grade": 2.19,
+    "ari": 2.88,
+    "coleman_liau": 5.6,
+    "gunning_fog": 2.99
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "climate_adaptation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T18:58:21.132Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 82
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2627,
+    "total_tokens": 3632,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T18:58:21.134Z"
+}

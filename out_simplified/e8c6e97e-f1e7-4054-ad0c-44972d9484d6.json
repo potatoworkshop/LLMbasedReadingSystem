@@ -1,0 +1,139 @@
+{
+  "article_id": "e8c6e97e-f1e7-4054-ad0c-44972d9484d6",
+  "mode": "difficulty_adjust",
+  "original_article": "A Looked at in one way, everyone knows what intelligence is; looked at in another way, no one does. In other words, people all have unconscious notions-known as 'implicit theories' - of intelligence, but no one knows for certain what it actually is. This chapter addresses how people conceptualize intelligence, whatever it may actually be.\n\nBut why should we even care what people think intelligence is, as opposed only to valuing whatever it actually is? There are at least four reasons people's conceptions of intelligence matter.\n\nB First, implicit theories of intelligence drive the way in which people perceive and evaluate their own intelligence and that of others. To better understand the judgments people make about their own and others' abilities, it is useful to learn about people's implicit theories. For example, parents' implicit theories of their children's language development will determine at what ages they will be willing to make various corrections in their children's speech. More generally, parents' implicit theories of intelligence will determine at what ages they believe their children are ready to perform various cognitive tasks. Job interviewers will make hiring decisions on the basis of their implicit theories of intelligence. People will decide who to be friends with on the basis of such theories. In sum, knowledge about implicit theories of intelligence is important because this knowledge is so often used by people to make judgments in the course of their everyday lives.\n\nC Second, the implicit theories of scientific investigators ultimately give rise to their explicit theories. Thus it is useful to find out what these implicit theories are. Implicit theories provide a framework that is useful in defining the general scope of a phenomenon - especially a not-well-understood phenomenon. These implicit theories can suggest what aspects of the phenomenon have been more or less attended to in previous investigations.\n\nD Third, implicit theories can be useful when an investigator suspects that existing explicit theories are wrong or misleading. If an investigation of implicit theories reveals little correspondence between the extant implicit and explicit theories, the implicit theories may be wrong. But the possibility also needs to be taken into account that the explicit theories are wrong and in need of correction or supplementation. For example, some implicit theories of intelligence suggest the need for expansion of some of our explicit theories of the construct.\n\nE Finally, understanding implicit theories of intelligence can help elucidate developmental and cross-cultural differences. As mentioned earlier, people have expectations for intellectual performances that differ for children of different ages. How these expectations differ is in part a function of culture. For example, expectations for children who participate in Western-style schooling are almost certain to be different from those for children who do not participate in such schooling.\n\nF I have suggested that there are three major implicit theories of how intelligence relates to society as a whole (Sternberg, 1997). These might be called Hamiltonian, Jeffersonian, and Jacksonian. These views are not based strictly, but rather, loosely, on the philosophies of Alexander Hamilton, Thomas Jefferson, and Andrew Jackson, three great statesmen in the history of the United States.\n\nG The Hamiltonian view, which is similar to the Platonic view, is that people are born with different levels of intelligence and that those who are less intelligent need the good offices of the more intelligent to keep them in line, whether they are called government officials or, in Plato's term, philosopher-kings. Herrnstein and Murray (1994) seem to have shared this belief when they wrote about the emergence of a cognitive (high-IQ) elite, which eventually would have to take responsibility for the largely irresponsible masses of non-elite (low-IQ) people who cannot take care of themselves. Left to themselves, the unintelligent would create, as they always have created, a kind of chaos.\n\nH The Jeffersonian view is that people should have equal opportunities, but they do not necessarily avail themselves equally of these opportunities and are not necessarily equally rewarded for their accomplishments. People are rewarded for what they accomplish, if given equal opportunity. Low achievers are not rewarded to the same extent as high achievers. In the Jeffersonian view, the goal of education is not to favor or foster an elite, as in the Hamiltonian tradition, but rather to allow children the opportunities to make full use of the skills they have. My own views are similar to these (Sternberg, 1997).\n\nI The Jacksonian view is that all people are equal, not only as human beings but in terms of their competencies - that one person would serve as well as another in government or on a jury or in almost any position of responsibility. In this view of democracy, people are essentially intersubstitutable except for specialized skills, all of which can be learned. In this view, we do not need or want any institutions that might lead to favoring one group over another.\n\nJ Implicit theories of intelligence and of the relationship of intelligence to society perhaps need to be considered more carefully than they have been because they often serve as underlying presuppositions for explicit theories and even experimental designs that are then taken as scientific contributions. Until scholars are able to discuss their implicit theories and thus their assumptions, they are likely to miss the point of what others are saying when discussing their explicit theories and their data.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb02",
+    "sample_id": "questions_ielts_14_test3_passage1_927bfj_to_l2_r4_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test3_passage1_927bfj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test3_passage1_927bfj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In one sense, everyone knows what intelligence is. In another sense, no one really does. People all have unconscious ideas about intelligence. These are called 'implicit theories'. But no one knows for certain what intelligence actually is. This chapter addresses how people conceptualize intelligence, whatever it may actually be.\n\nBut why should we even care what people think intelligence is, as opposed only to valuing whatever it actually is? There are at least four reasons people's conceptions of intelligence matter.\n\nB First, people's personal ideas about intelligence shape how they see and judge their own smarts and the smarts of others. Learning about these personal ideas helps us understand the judgments people make. For example, parents' implicit theories of their children's language development will determine at what ages they will be willing to make various corrections in their children's speech. More generally, parents' ideas decide when they think their kids are ready for different thinking tasks. Job interviewers will make hiring decisions on the basis of their implicit theories of intelligence. People will decide who to be friends with on the basis of such theories. In sum, knowledge about implicit theories of intelligence is important because this knowledge is so often used by people to make judgments in the course of their everyday lives.\n\nC Second, scientists have personal ideas. These ideas eventually lead to their formal theories. Thus it is useful to find out what these implicit theories are. Implicit theories provide a framework that is useful in defining the general scope of a phenomenon - especially a not-well-understood phenomenon. These ideas can show which parts of the topic got more or less attention in past studies.\n\nD Third, personal ideas are useful. They help when a researcher thinks the current formal theories are wrong. A study might show little match between current personal ideas and formal theories. Then, the personal ideas could be wrong. But we must also consider the opposite. The formal theories could be wrong. They might need fixing or adding to. For example, some personal ideas suggest we need to broaden our formal theories of intelligence.\n\nE Finally, understanding implicit theories of intelligence can help elucidate developmental and cross-cultural differences. As said before, people expect different smart behavior from children of different ages. How these expectations differ is in part a function of culture. For example, expectations for children who participate in Western-style schooling are almost certain to be different from those for children who do not participate in such schooling.\n\nF I have suggested that there are three major implicit theories of how intelligence relates to society as a whole (Sternberg, 1997). These might be called Hamiltonian, Jeffersonian, and Jacksonian. These views are loosely based on the beliefs of three great U.S. leaders: Alexander Hamilton, Thomas Jefferson, and Andrew Jackson.\n\nG The Hamiltonian view is like Plato's view. It says people are born with different smarts. Less intelligent people need the help and guidance of the more intelligent to keep them in line. These guides could be government officials or, as Plato said, philosopher-kings. Herrnstein and Murray (1994) seemed to share this belief. They wrote about a smart, high-IQ top group emerging. This group would have to take care of the large group of less responsible, low-IQ people. Those people cannot take care of themselves. Left to themselves, the unintelligent would create, as they always have created, a kind of chaos.\n\nH The Jeffersonian view is that people should have equal opportunities, but they do not necessarily avail themselves equally of these opportunities and are not necessarily equally rewarded for their accomplishments. People are rewarded for what they accomplish, if given equal opportunity. Low achievers are not rewarded to the same extent as high achievers. In the Jeffersonian view, education's goal is not to favor or create a top group. Instead, it is to give children chances to fully use their skills. My own views are similar to these (Sternberg, 1997).\n\nI The Jacksonian view is that all people are equal, not only as human beings but in terms of their competencies - that one person would serve as well as another in government or on a jury or in almost any position of responsibility. In this view of democracy, people can basically replace each other. The only exceptions are for specialized skills, and all those can be learned. In this view, we do not need or want any institutions that might lead to favoring one group over another.\n\nJ Implicit theories of intelligence and of the relationship of intelligence to society perhaps need to be considered more carefully than they have been because they often serve as underlying presuppositions for explicit theories and even experimental designs that are then taken as scientific contributions. Researchers need to discuss their personal ideas and assumptions. If they don't, they will likely miss the point of what others are saying about their formal theories and data.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 897,
+    "sentence_count": 40,
+    "avg_sentence_len": 22.43,
+    "avg_word_len": 5.24,
+    "syllable_count": 1545,
+    "complex_word_count": 77,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 38.36,
+    "flesch_kincaid_grade": 13.48,
+    "ari": 14.47,
+    "coleman_liau": 13.7,
+    "gunning_fog": 12.4
+  },
+  "final_metrics": {
+    "word_count": 825,
+    "sentence_count": 59,
+    "avg_sentence_len": 13.98,
+    "avg_word_len": 5.11,
+    "syllable_count": 1355,
+    "complex_word_count": 57,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 53.69,
+    "flesch_kincaid_grade": 9.24,
+    "ari": 9.65,
+    "coleman_liau": 12.15,
+    "gunning_fog": 8.36
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Focus primarily on SYNTACTIC changes (sentence replacements/splits/merges).|applied_edits=17|tier=coarse_jump;dist=4.5125;dir=simpler;est_wb=80;est_sb=14",
+      "metrics": {
+        "word_count": 825,
+        "sentence_count": 59,
+        "avg_sentence_len": 13.98,
+        "avg_word_len": 5.11,
+        "syllable_count": 1355,
+        "complex_word_count": 57,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 53.69,
+        "flesch_kincaid_grade": 9.24,
+        "ari": 9.65,
+        "coleman_liau": 12.15,
+        "gunning_fog": 8.36
+      },
+      "distance_to_target": 0.85,
+      "fidelity": {
+        "overall": 0.9386,
+        "entity_recall": 0.8857,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 35,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1375,
+        "completion_tokens": 3477,
+        "total_tokens": 4852,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9386,
+    "entity_recall": 0.8857,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 35,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1375,
+    "completion_tokens": 3477,
+    "total_tokens": 4852,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:22:27.109Z"
+}

@@ -1,0 +1,288 @@
+{
+  "article_id": "008e8b5a-977e-4537-8567-0a510effbfdd",
+  "mode": "difficulty_adjust",
+  "original_article": "In the rapidly urbanizing world of today, public transportation stands as a cornerstone of efficient mobility. Cities from London to Tokyo rely on intricate networks of buses, trains, subways, and trams to transport millions daily. These systems not only mitigate traffic congestion but also foster economic growth by connecting workers to job centers. Historically, the advent of electrified rail in the late 19th century revolutionized urban planning, allowing metropolises to expand beyond walking distances. Today, as populations swell and environmental concerns mount, governments allocate substantial budgets to modernize these vital infrastructures, aiming for seamless integration with emerging smart city technologies.\n\nThe benefits of robust public transit are multifaceted. Environmentally, it significantly curtails greenhouse gas emissions compared to private automobiles, supporting global efforts to combat climate change. Economically, it reduces infrastructure costs for road maintenance and alleviates productivity losses from gridlock. For instance, a comprehensive subway system can boost local businesses by increasing foot traffic and accessibility. Socially, affordable fares democratize travel, bridging gaps for underserved communities and promoting inclusivity. Studies indicate that cities with extensive networks experience lower rates of social isolation and higher overall life satisfaction among residents.\n\nNevertheless, public transportation faces persistent hurdles. Overcrowding during rush hours compromises safety and comfort, leading to passenger dissatisfaction and reduced ridership. Aging tracks and vehicles demand costly upgrades, straining public finances amid competing priorities like healthcare. In developing nations, inconsistent service and poor connectivity exacerbate inequalities, leaving rural areas disconnected. Funding models, often reliant on subsidies or fares, prove unsustainable without innovative revenue streams such as public-private partnerships.\n\nLooking ahead, technological advancements herald a brighter era. Autonomous vehicles, real-time data analytics, and electric propulsion promise enhanced efficiency and sustainability. Cities investing in these innovations, like Copenhagen with its bike-integrated transit, demonstrate tangible improvements in air quality and commuter speeds. Ultimately, the success of public transportation hinges on visionary policies that balance expansion with equitable access.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb02",
+    "sample_id": "generated_0bef376f-b893-43d1-820d-00fba9ab6838_to_l1_r6_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "0bef376f-b893-43d1-820d-00fba9ab6838",
+    "source_dataset": "generated",
+    "source_file": "0bef376f-b893-43d1-820d-00fba9ab6838.json",
+    "source_level": 3
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Today, public transit acts as a key choice for basic trips. cities like London and Tokyo have bus, train, subway, and tram services. They haul millions daily. These slash flow. They boost jobs rise. They tie staff to jobs. Electric trains began in the late 19th century and altered city plans, letting large cities to grow beyond walk reach. Now people grow. eco- issues grow. Governments pour a tons to better systems. They bring new tech gadgets.\n\nStrong public transit supplies several benefits. It trims smog from cars. This furthers earth climate campaign. On the economic side, it drops road mend fees and curbs lags from trade ties. For instance, busy subways bring more walker traffic and better reach to shops. Socially, affordable fares ensure fair travel that helps low-income people and fosters equity. Studies say big network cities have less loneliness. More happy people.\n\nNevertheless, public transportation faces ongoing problems. Rush hour crowds hurt safety and comfort. Riders upset, fewer use it. Aging tracks and vehicles require costly repairs, straining budgets needed for things like healthcare. In poorer countries, poor service and weak connections increase inequality and isolate rural regions. Current funding, which depends on subsidies or ticket prices, will fail without fresh options like public-private deals.\n\nFuture tech brings good times. Autonomous vehicles, live data analysis, and electric power boost efficiency and eco-friendliness. Cities that adopt these advances, such as Copenhagen and its bike-linked transit, show clear improvements in air quality and travel times. Success needs wise rules that balance growth and fair access.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 317,
+    "sentence_count": 20,
+    "avg_sentence_len": 15.85,
+    "avg_word_len": 6.67,
+    "syllable_count": 717,
+    "complex_word_count": 50,
+    "complex_word_ratio": 0.16,
+    "flesch_reading_ease": -0.6,
+    "flesch_kincaid_grade": 17.28,
+    "ari": 17.89,
+    "coleman_liau": 21.53,
+    "gunning_fog": 12.65
+  },
+  "final_metrics": {
+    "word_count": 260,
+    "sentence_count": 29,
+    "avg_sentence_len": 8.97,
+    "avg_word_len": 5.25,
+    "syllable_count": 417,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 62.05,
+    "flesch_kincaid_grade": 6.83,
+    "ari": 7.78,
+    "coleman_liau": 11.77,
+    "gunning_fog": 5.12
+  },
+  "hit_target": true,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach (lexical and syntactic changes)|applied_edits=22|tier=coarse_jump;dist=10.3375;dir=simpler;est_wb=80;est_sb=7",
+      "metrics": {
+        "word_count": 293,
+        "sentence_count": 24,
+        "avg_sentence_len": 12.21,
+        "avg_word_len": 6.19,
+        "syllable_count": 597,
+        "complex_word_count": 33,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 22.07,
+        "flesch_kincaid_grade": 13.21,
+        "ari": 13.83,
+        "coleman_liau": 18.18,
+        "gunning_fog": 9.39
+      },
+      "distance_to_target": 6.6525,
+      "fidelity": {
+        "overall": 0.8806,
+        "entity_recall": 0.8235,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 17,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1018,
+        "completion_tokens": 7924,
+        "total_tokens": 8942,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED: combine lexical substitutions and syntactic restructurings|applied_edits=19|tier=dist_gt_2;dist=6.6525;center_gap=5.14;mode=both;dominant=word;dir_changed=0;wb=52;sb=9;est_wb=80;est_sb=8;lf=0.70;df=2.10;af=1.8053;pg=10.3375;pd=3.6850;af_fb=0",
+      "metrics": {
+        "word_count": 269,
+        "sentence_count": 29,
+        "avg_sentence_len": 9.28,
+        "avg_word_len": 5.53,
+        "syllable_count": 474,
+        "complex_word_count": 16,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 48.35,
+        "flesch_kincaid_grade": 8.82,
+        "ari": 9.26,
+        "coleman_liau": 13.53,
+        "gunning_fog": 6.09
+      },
+      "distance_to_target": 2.425,
+      "fidelity": {
+        "overall": 0.7612,
+        "entity_recall": 0.6471,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 17,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2086,
+        "completion_tokens": 11623,
+        "total_tokens": 13709,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary lexical changes: replace complex words and phrases with simpler common synonyms to reduce vocabulary difficulty|applied_edits=42|tier=dist_gt_2;dist=2.4250;center_gap=1.66;mode=both;dominant=word;dir_changed=0;wb=46;sb=4;est_wb=68;est_sb=5;lf=0.70;df=2.10;af=0.5736;pg=6.6525;pd=4.2275;af_fb=0",
+      "metrics": {
+        "word_count": 266,
+        "sentence_count": 29,
+        "avg_sentence_len": 9.17,
+        "avg_word_len": 5.37,
+        "syllable_count": 449,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 54.72,
+        "flesch_kincaid_grade": 7.91,
+        "ari": 8.44,
+        "coleman_liau": 12.54,
+        "gunning_fog": 5.77
+      },
+      "distance_to_target": 1.665,
+      "fidelity": {
+        "overall": 0.7612,
+        "entity_recall": 0.6471,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 17,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3109,
+        "completion_tokens": 16371,
+        "total_tokens": 19480,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC (sentence replacements)|applied_edits=11|tier=dist_1_to_2;dist=1.6650;center_gap=1.19;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=9;est_wb=53;est_sb=6;lf=0.70;df=1.73;af=2.1908;pg=2.4250;pd=0.7600;af_fb=0",
+      "metrics": {
+        "word_count": 260,
+        "sentence_count": 29,
+        "avg_sentence_len": 8.97,
+        "avg_word_len": 5.42,
+        "syllable_count": 437,
+        "complex_word_count": 11,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 55.54,
+        "flesch_kincaid_grade": 7.74,
+        "ari": 8.58,
+        "coleman_liau": 12.76,
+        "gunning_fog": 5.28
+      },
+      "distance_to_target": 1.59,
+      "fidelity": {
+        "overall": 0.7812,
+        "entity_recall": 0.6471,
+        "number_recall": 1,
+        "keyword_recall": 0.7,
+        "entity_total": 17,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4128,
+        "completion_tokens": 23665,
+        "total_tokens": 27793,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=balanced|applied_edits=50|tier=dist_1_to_2;dist=1.5900;center_gap=1.35;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=11;est_wb=52;est_sb=7;lf=0.70;df=1.70;af=3.0000;pg=1.6650;pd=0.0750;af_fb=0",
+      "metrics": {
+        "word_count": 260,
+        "sentence_count": 29,
+        "avg_sentence_len": 8.97,
+        "avg_word_len": 5.25,
+        "syllable_count": 417,
+        "complex_word_count": 10,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 62.05,
+        "flesch_kincaid_grade": 6.83,
+        "ari": 7.78,
+        "coleman_liau": 11.77,
+        "gunning_fog": 5.12
+      },
+      "distance_to_target": 0.875,
+      "fidelity": {
+        "overall": 0.7712,
+        "entity_recall": 0.6471,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 17,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5137,
+        "completion_tokens": 33562,
+        "total_tokens": 38699,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7712,
+    "entity_recall": 0.6471,
+    "number_recall": 1,
+    "keyword_recall": 0.65,
+    "entity_total": 17,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 5137,
+    "completion_tokens": 33562,
+    "total_tokens": 38699,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T13:40:41.668Z"
+}

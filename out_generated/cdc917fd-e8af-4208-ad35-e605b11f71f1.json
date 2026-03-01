@@ -1,0 +1,59 @@
+{
+  "article_id": "cdc917fd-e8af-4208-ad35-e605b11f71f1",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are systems of life in the ocean. They include shallow coasts and deep open waters. The sea has many zones with different light and heat. Near the shore, sunlight warms water and supports plants. Far from land, light is weaker and food is scarce. In the deep sea, it is dark and cold all year. Many creatures live in each zone in their own way. These zones link by movement of water and living things. Currents carry nutrients and heat across large parts of ocean. This movement helps plants and animals to survive and grow. Understanding zones helps us to protect the sea and life.",
+    "Plants and tiny organisms form the base of the food web. Phytoplankton are tiny plants that use sunlight to make food. Zooplankton eat the phytoplankton and feed small fish. Small fish feed larger fish and some marine birds. Sharks, seals, and whales are top predators in many places. Coral reefs act as nurseries for many young fish species. Reefs also support a large number of different animals. Seagrass beds and mangroves serve as shelter and food zones. Each part of the web depends on the other parts. If one group falls, the whole web can change quickly. Scientists study these links to predict how life will respond.",
+    "Human actions now disturb marine ecosystems in many ways. Overfishing removes large numbers of fish from the sea. Pollution adds plastic and chemicals that harm wild life. Run off from land brings extra nutrients that cause algal blooms. These blooms can remove oxygen and kill fish in bays. Climate change warms the ocean and raises sea levels slowly. Warmer water can lead corals to lose their bright colours. Carbon dioxide also makes the sea more acidic for shells. Loss of habitat and species reduces the ocean's ability to cope. These threats mean we must act to protect the sea now.",
+    "Many actions can help to protect marine ecosystems for future use. Marine protected areas can give ecosystems time to recover. Better fishing rules can allow stocks to rebuild and grow. Reducing pollution and plastic waste lowers direct harm to life. Changes in farming and city planning can cut nutrient run off. Global cuts in greenhouse gases will slow warming and acidification. Local groups and governments both have roles in these actions. People can help by choosing sustainable seafood and cutting waste. Small changes by many people can lead to large effects. A healthy ocean supports food, jobs, and life on Earth."
+  ],
+  "metrics": {
+    "word_count": 415,
+    "sentence_count": 42,
+    "avg_sentence_len": 9.88,
+    "avg_word_len": 4.76,
+    "syllable_count": 609,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 72.66,
+    "flesch_kincaid_grade": 5.58,
+    "ari": 5.95,
+    "coleman_liau": 9.22,
+    "gunning_fog": 4.92
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:24:12.588Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 115
+  },
+  "token_usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 4272,
+    "total_tokens": 4454,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:24:12.588Z"
+}

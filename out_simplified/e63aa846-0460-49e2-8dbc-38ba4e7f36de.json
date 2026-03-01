@@ -1,0 +1,176 @@
+{
+  "article_id": "e63aa846-0460-49e2-8dbc-38ba4e7f36de",
+  "mode": "difficulty_adjust",
+  "original_article": "Anna Keay reviews Charles Spencer's book about the hunt for King Charles II during the English Civil War of the seventeenth century\n\nCharles Spencer's latest book, To Catch a King, tells us the story of the hunt for King Charles II in the six weeks after his resounding defeat at the Battle of Worcester in September 1651. And what a story it is. After his father was executed by the Parliamentarians in 1649, the young Charles II sacrificed one of the very principles his father had died for and did a deal with the Scots, thereby accepting Presbyterianism* as the national religion in return for being crowned King of Scots. His arrival in Edinburgh prompted the English Parliamentary army to invade Scotland in a pre-emptive strike. This was followed by a Scottish invasion of England. The two sides finally faced one another at Worcester in the west of England in 1651. After being comprehensively defeated on the meadows outside the city by the Parliamentarian army, the 21-year-old king found himself the subject of a national manhunt, with a huge sum offered for his capture. Over the following six weeks he managed, through a series of heart-poundingly close escapes, to evade the Parliamentarians before seeking refuge in France. For the next nine years, the penniless and defeated Charles wandered around Europe with only a small group of loyal supporters.\n\nYears later, after his restoration as king, the 50-year-old Charles II requested a meeting with the writer and diarist Samuel Pepys. His intention when asking Pepys to commit his story to paper was to ensure that this most extraordinary episode was never forgotten. Over two three-hour sittings, the king related to him in great detail his personal recollections of the six weeks he had spent as a fugitive. As the king and secretary settled down (a scene that is surely a gift for a future scriptwriter), Charles commenced his story: 'After the battle was so absolutely lost as to be beyond hope of recovery, I began to think of the best way of saving myself.'\n\nOne of the joys of Spencer's book, a result not least of its use of Charles II's own narrative as well as those of his supporters, is just how close the reader gets to the action. The day-byday retelling of the fugitives' doings provides delicious details: the cutting of the king's long hair with agricultural shears, the use of walnut leaves to dye his pale skin, and the day Charles spent lying on a branch of the great oak tree in Boscobel Wood as the Parliamentary soldiers scoured the forest floor below. Spencer draws out both the humour – such as the preposterous refusal of Charles's friend Henry Wilmot to adopt disguise on the grounds that it was beneath his dignity – and the emotional tension when the secret of the king's presence was cautiously revealed to his supporters.\n\nCharles's adventures after losing the Battle of Worcester hide the uncomfortable truth that whilst almost everyone in England had been appalled by the execution of his father, they had not welcomed the arrival of his son with the Scots army, but had instead firmly bolted their doors. This was partly because he rode at the head of what looked like a foreign invasion force and partly because, after almost a decade of civil war, people were desperate to avoid it beginning again. This makes it all the more interesting that Charles II himself loved the story so much ever after. As well as retelling it to anyone who would listen, causing eyerolling among courtiers, he set in train a series of initiatives to memorialise it. There was to be a new order of chivalry, the Knights of the Royal Oak. A series of enormous oil paintings depicting the episode were produced, including a two-metre-wide canvas of Boscobel Wood and a set of six similarly enormous paintings of the king on the run. In 1660, Charles II commissioned the artist John Michael Wright to paint a flying squadron of cherubs* carrying an oak tree to the heavens on the ceiling of his bedchamber. It is hard to imagine many other kings marking the lowest point in their life so enthusiastically, or indeed pulling off such an escape in the first place.\n\nCharles Spencer is the perfect person to pass the story on to a new generation. His pacey, readable prose steers deftly clear of modern idioms and elegantly brings to life the details of the great tale. He has even-handed sympathy for both the fugitive king and the fierce republican regime that hunted him, and he succeeds in his desire to explore far more of the background of the story than previous books on the subject have done. Indeed, the opening third of the book is about how Charles II found himself at Worcester in the first place, which for some will be reason alone to read To Catch a King.\n\nThe tantalising question left, in the end, is that of what it all meant. Would Charles II have been a different king had these six weeks never happened? The days and nights spent in hiding must have affected him in some way. Did the need to assume disguises, to survive on wit and charm alone, to use trickery and subterfuge to escape from tight corners help form him? This is the one area where the book doesn't quite hit the mark. Instead its depiction of Charles II in his final years as an ineffective, pleasure-loving monarch doesn't do justice to the man (neither is it accurate), or to the complexity of his character. But this one niggle aside, To Catch a King is an excellent read, and those who come to it knowing little of the famous tale will find they have a treat in store.\n\n* cherub: an image of angelic children used in paintings",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb04",
+    "sample_id": "questions_ielts_17_test1_passage3_d27rrj_to_l5_r4_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_17_test1_passage3_d27rrj",
+    "source_dataset": "questions",
+    "source_file": "ielts_17_test1_passage3_d27rrj.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Anna Keay reviews Charles Spencer's book about the hunt for King Charles II during the English Civil War of the seventeenth century\n\nCharles Spencer's latest book, To Catch a King, recounts the narrative of the hunt for King Charles II; this pursuit occurred during the six weeks following his resounding defeat at the Battle of Worcester in September 1651. This narrative is indeed a remarkable one. After his father's execution by the Parliamentarians in 1649, the young Charles II sacrificed a principle for which his father had died, negotiating a compact with the Scots which entailed accepting Presbyterianism* as the national religion in return for his coronation as King of Scots. His arrival in Edinburgh prompted a pre-emptive strike: an English Parliamentary invasion of Scotland, which subsequently precipitated a Scottish counter-invasion of England. The two sides finally confronted one another in 1651 at Worcester, located in the west of England. Comprehensively defeated on the meadows outside the city by the Parliamentarian army, the 21-year-old king consequently became the object of a national manhunt, a pursuit incentivized by a substantial bounty. Over the following six weeks, he managed, through a series of perilously proximate evasions, to elude the Parliamentarians, ultimately securing refuge in France. For the next nine years, the penniless and defeated Charles peregrinated throughout the European continent, his sole company a diminutive coterie of loyal supporters.\n\nYears later, after his restoration as king, the 50-year-old Charles II requested a meeting with the writer and diarist Samuel Pepys. His intention, when asking Pepys to commit his story to paper, was to ensure that this most extraordinary episode would never be forgotten. Over the course of two three-hour sittings, the king related to him, in great detail, his personal recollections concerning the six weeks he had spent as a fugitive. As the king and secretary settled down—a scene that is surely a gift for a future scriptwriter—Charles commenced his story with these words: 'After the battle was so absolutely lost as to be beyond hope of recovery, I began to think of the best way of saving myself.'\n\nOne of the joys of Spencer's book, which results not least from its use of Charles II's own narrative and those of his supporters, is the remarkable proximity the reader achieves to the action. The day-byday retelling of the fugitives' doings provides delicious details: the cutting of the king's long hair with agricultural shears, the use of walnut leaves to dye his pale skin, and the day Charles spent lying on a branch of the great oak tree in Boscobel Wood as the Parliamentary soldiers scoured the forest floor below. Spencer draws out both the humour – such as the preposterous refusal of Charles's friend Henry Wilmot to adopt disguise on the grounds that it was beneath his dignity – and the emotional tension when the secret of the king's presence was cautiously revealed to his supporters.\n\nCharles's adventures after losing the Battle of Worcester hide the uncomfortable truth that whilst almost everyone in England had been appalled by the execution of his father, they had not welcomed the arrival of his son with the Scots army, but had instead firmly bolted their doors. This reticence derived partly from his position at the head of a seemingly foreign invasion force and partly from a populace, after almost a decade of civil war, desperate to preclude its recrudescence. This makes it all the more interesting that Charles II himself loved the story so much ever after. He not only recounted it incessantly to any willing auditor—a habit occasioning ocular exasperation among the courtly retinue—but also inaugurated a series of commemorative initiatives. There was to be a new order of chivalry, the Knights of the Royal Oak. This memorialization included a series of enormous oil paintings, among them a two-metre-wide canvas of Boscobel Wood and a set of six similarly monumental works depicting the fugitive king. In 1660, Charles II commissioned the artist John Michael Wright to paint a flying squadron of cherubs* carrying an oak tree to the heavens on the ceiling of his bedchamber. It is hard to imagine many other kings marking the lowest point in their life so enthusiastically, or indeed pulling off such an escape in the first place.\n\nCharles Spencer is the perfect person to pass the story on to a new generation. Spencer's expeditious, accessible prose deftly avoids modern idioms while elegantly animating the details of this grand historical tale. Displaying even-handed sympathy for both the fugitive monarch and the fierce republican regime that pursued him, Spencer succeeds in his objective to explore a far more extensive background than prior treatments of the subject. Indeed, the opening third of the book is about how Charles II found himself at Worcester in the first place, which for some will be reason alone to read To Catch a King.\n\nThe tantalising question left, in the end, is that of what it all meant. One must ponder whether Charles II would have been a different monarch absent these six weeks, for the days and nights spent in clandestine refuge must have exerted a profound formative influence. Did the need to assume disguises, to survive on wit and charm alone, to use trickery and subterfuge to escape from tight corners help form him? This is the one area where the book doesn't quite hit the mark. Instead its depiction of Charles II in his final years as an ineffective, pleasure-loving monarch doesn't do justice to the man (neither is it accurate), or to the complexity of his character. This one cavil notwithstanding, To Catch a King remains an excellent read, and readers approaching it unfamiliar with the famous tale will discover a considerable literary pleasure awaits.\n\n* cherub: an image of angelic children used in paintings",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 988,
+    "sentence_count": 36,
+    "avg_sentence_len": 27.44,
+    "avg_word_len": 4.56,
+    "syllable_count": 1487,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 51.65,
+    "flesch_kincaid_grade": 12.87,
+    "ari": 13.79,
+    "coleman_liau": 9.96,
+    "gunning_fog": 12.19
+  },
+  "final_metrics": {
+    "word_count": 978,
+    "sentence_count": 34,
+    "avg_sentence_len": 28.76,
+    "avg_word_len": 4.94,
+    "syllable_count": 1609,
+    "complex_word_count": 56,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 38.46,
+    "flesch_kincaid_grade": 15.04,
+    "ari": 16.23,
+    "coleman_liau": 12.23,
+    "gunning_fog": 13.8
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC|applied_edits=13|tier=dist_1_to_2;dist=1.5992;center_gap=4.05;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=13;est_wb=80;est_sb=9;lf=1.28;df=1.70;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 1004,
+        "sentence_count": 36,
+        "avg_sentence_len": 27.89,
+        "avg_word_len": 4.66,
+        "syllable_count": 1538,
+        "complex_word_count": 36,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 48.93,
+        "flesch_kincaid_grade": 13.36,
+        "ari": 14.45,
+        "coleman_liau": 10.52,
+        "gunning_fog": 12.59
+      },
+      "distance_to_target": 1.4233,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 45,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1870,
+        "completion_tokens": 2472,
+        "total_tokens": 4342,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC changes (sentence replacements/splits/merges) - SENTENCE-LENGTH-ONLY adjustment|applied_edits=13|tier=dist_1_to_2;dist=1.4233;center_gap=3.53;mode=sentence_only;dominant=sentence;dir_changed=0;wb=52;sb=13;est_wb=80;est_sb=8;lf=1.29;df=1.61;af=3.0000;pg=1.5992;pd=0.1759;af_fb=0",
+      "metrics": {
+        "word_count": 978,
+        "sentence_count": 34,
+        "avg_sentence_len": 28.76,
+        "avg_word_len": 4.94,
+        "syllable_count": 1609,
+        "complex_word_count": 56,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 38.46,
+        "flesch_kincaid_grade": 15.04,
+        "ari": 16.23,
+        "coleman_liau": 12.23,
+        "gunning_fog": 13.8
+      },
+      "distance_to_target": 0.8917,
+      "fidelity": {
+        "overall": 0.98,
+        "entity_recall": 0.9556,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 45,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3472,
+        "completion_tokens": 5242,
+        "total_tokens": 8714,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.98,
+    "entity_recall": 0.9556,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 45,
+    "number_total": 5,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3472,
+    "completion_tokens": 5242,
+    "total_tokens": 8714,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T17:31:27.458Z"
+}

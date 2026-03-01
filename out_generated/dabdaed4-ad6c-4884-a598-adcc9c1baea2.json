@@ -1,0 +1,59 @@
+{
+  "article_id": "dabdaed4-ad6c-4884-a598-adcc9c1baea2",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Life Beneath the Waves: Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are large areas in the oceans. They are home to many plants and animals. These ecosystems cover over 70 percent of Earth. Salt water fills the oceans. This water supports life from tiny plankton to big whales. Sunlight reaches only the top layers. Deeper water is dark and cold. Plants and animals adapt to live there. Each part of the ocean has its own ecosystem.",
+    "In a marine ecosystem, plants play a key role. Seaweed and algae use sunlight to make food. This process is called photosynthesis. Small animals eat these plants. Then, fish eat the small animals. Bigger fish eat smaller ones. This chain keeps the balance. If one part changes, the whole chain suffers. Bacteria help break down dead plants and animals. They recycle nutrients back into the water. Waves and currents move food and oxygen around. This helps all life thrive.",
+    "Coral reefs are bright spots in marine ecosystems. Tiny animals called polyps build reefs. They make hard shells from calcium. Algae live inside polyps and give them food. Reefs shelter many fish and crabs. They form cities under the sea. Reefs also protect coastlines from big waves. Storms can damage them, though. Warm water from climate change bleaches the corals. This kills the reefs.",
+    "Humans depend on marine ecosystems. Oceans provide fish for food. They make half of our oxygen. Tourism brings money to coastal areas. But pollution harms these ecosystems. Plastic waste chokes sea animals. Oil spills kill birds and fish. Overfishing takes too many from the sea. To protect them, people create marine parks. They ban fishing in some areas. Cleaning beaches helps too. Everyone can reduce plastic use. Healthy oceans mean a healthy planet for all."
+  ],
+  "metrics": {
+    "word_count": 285,
+    "sentence_count": 44,
+    "avg_sentence_len": 6.48,
+    "avg_word_len": 4.83,
+    "syllable_count": 425,
+    "complex_word_count": 9,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.1,
+    "flesch_kincaid_grade": 4.53,
+    "ari": 4.57,
+    "coleman_liau": 8.04,
+    "gunning_fog": 3.85
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "marine_ecosystems_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:51:23.033Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 15
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2541,
+    "total_tokens": 3546,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:51:23.034Z"
+}

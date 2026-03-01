@@ -1,0 +1,57 @@
+{
+  "article_id": "e711bc9d-63fd-4df0-a0e2-eea8e2986b87",
+  "topic": "public transportation",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Public Transportation in Urban Life",
+  "article": [
+    "Public transportation is a vital part of life in most cities today. It includes buses, trains, subways, trams, and ferries. These services carry millions of people each day. They offer a way to travel without needing a personal car. In busy urban areas, public transport helps ease traffic congestion. People can reach work, school, or shops more quickly. Many cities invest heavily in these systems to support growing populations. For example, London has a vast network of underground trains known as the Tube. Tokyo relies on efficient subways and trains for its large number of commuters. These examples show how public transport shapes daily routines.",
+    "The benefits of public transportation go beyond simple travel. It is often cheaper than owning and driving a car. Fares are low, and monthly passes save even more money. Environmentally, it reduces air pollution. One bus can replace many cars on the road, cutting down on exhaust fumes. This helps fight climate change. Public transport also promotes social equality. Not everyone can afford a car, so these services give access to jobs and services for all. Studies show that cities with strong public transport have lower rates of car ownership. Riders get exercise too, by walking to stops or stations. Safety is another plus. Professional drivers follow strict rules, unlike some private motorists. Overall, these advantages make public transport a smart choice for individuals and society.",
+    "Despite its strengths, public transportation faces several challenges. Overcrowding is common during rush hours. Trains and buses can get packed, making trips uncomfortable. Delays happen due to traffic, weather, or breakdowns. Maintenance costs are high, and governments must fund repairs. In some areas, routes do not cover rural spots well. This leaves people in those places with few options. Vandalism and crime at stations also worry users. To fix these issues, cities try new ideas. They add more vehicles and expand lines. Real-time apps let riders track buses and trains. Electric buses reduce noise and pollution further. High-speed rail links cities faster than cars or planes. These steps aim to improve service and attract more users.",
+    "Looking ahead, public transportation will play a bigger role in sustainable living. Governments plan for greener fleets with solar power and batteries. Smart technology will make schedules more reliable. Bike-sharing and pedestrian paths will connect with transit hubs. In the future, driverless trains could cut costs and boost safety. Cities like Singapore lead with integrated systems that blend buses, trains, and even ride-sharing. As urban areas grow, strong public transport will be key to handling more people. It will cut carbon emissions and save space for parks and homes. By supporting these systems, communities can build healthier, fairer cities for tomorrow."
+  ],
+  "metrics": {
+    "word_count": 452,
+    "sentence_count": 46,
+    "avg_sentence_len": 9.83,
+    "avg_word_len": 5.19,
+    "syllable_count": 732,
+    "complex_word_count": 13,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 59.85,
+    "flesch_kincaid_grade": 7.35,
+    "ari": 7.93,
+    "coleman_liau": 11.71,
+    "gunning_fog": 5.08
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "public_transportation_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:04:31.229Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 148
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3233,
+    "total_tokens": 4238,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:04:31.229Z"
+}

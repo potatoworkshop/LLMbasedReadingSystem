@@ -1,0 +1,288 @@
+{
+  "article_id": "cdec293f-c351-4b3b-a1a0-3e6aca5596b8",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems, encompassing approximately 71 percent of Earth's surface, constitute a mosaic of profoundly interdependent biotic and abiotic components that underpin global biogeochemical cycles and sustain unparalleled biodiversity. From the photic epipelagic zone, where phytoplankton harness solar irradiance through photosynthesis to form the foundational trophic level, to the aphotic abyssal plains harboring chemosynthetic communities around hydrothermal vents, these aquatic realms exhibit remarkable adaptive radiations. The ocean's vertical stratification—delimited by thermoclines and haloclines—facilitates distinct zonations, such as the mesopelagic 'twilight zone,' where diel vertical migrations of myriads of zooplankton and nekton redistribute nutrients and organic matter, thereby fueling both surface productivity and benthic detritivory. This dynamic flux, modulated by gyres, upwellings, and frontal systems, exemplifies the ocean's role as a thermostat for planetary climate, sequestering anthropogenic carbon dioxide while releasing dimethyl sulfide that seeds stratospheric aerosols. Yet, the ostensibly inexhaustible productivity of marine realms belies their fragility, as keystone species like diatoms and gelatinous zooplankton orchestrate cascading effects across food webs, rendering the system susceptible to perturbations that propagate nonlinearly through reticulate networks of symbiosis and predation.\n\nIn coral reef ecosystems, paradigmatic of shallow tropical marine habitats, scleractinian corals engage in obligatory mutualisms with dinoflagellate symbionts (Symbiodinium spp.), which not only supply up to 90 percent of the holobiont's energetic requirements via translocation of photosynthates but also confer resilience against environmental stressors through polyphenism. These calcifying metazoans, engineering vast biogenic structures that amplify habitat heterogeneity, support over 25 percent of marine species despite occupying less than 0.1 percent of seafloor area. However, the reef's trophic pyramid, encompassing herbivorous parrotfishes that curtail macroalgal overgrowth and piscivorous groupers that regulate invertebrate populations, is increasingly destabilized by anthropogenic pressures. Similarly, in temperate kelp forests dominated by macroalgae such as Macrocystis pyrifera, canopy-forming fronds attenuate wave energy, fostering understory biodiversity while exporting detritus to abyssal carbon sinks; trophic cascades initiated by the extirpation of top predators like sea otters precipitate phase shifts toward urchin barrens, underscoring the non-equilibrium dynamics inherent to these systems.\n\nPelagic ecosystems, spanning the vast oligotrophic gyres to nutrient-enriched eastern boundary currents, reveal even greater complexity through size-structured food webs where mesozooplankton grazing on picophytoplankton cascades to piscivory by tunas and billfishes. Microbial loops, involving bacterioplankton and viral lysis, recycle dissolved organic matter, sustaining secondary production in regimes of chronic nutrient limitation. Deep-sea hadal trenches, subjected to extremes of hydrostatic pressure exceeding 1000 atmospheres, harbor endemic megafauna adapted via piezotolerance and bioluminescence, their communities sustained by marine snow flux and chemolithoautotrophy. Across these domains, functional redundancy among taxa ostensibly buffers perturbations, yet empirical studies from long-term observatories like the Bermuda Atlantic Time-series Study (BATS) document regime shifts precipitated by El Niño-Southern Oscillation (ENSO) variability, wherein weakened upwelling curtails primary production, propagating deficits through higher trophic levels.\n\nAnthropogenic forcings exacerbate intrinsic vulnerabilities: ocean acidification, driven by pCO2 equilibration, impairs calcifiers' aragonite saturation states, while thermal anomalies induce coral bleaching and jellyfish proliferations that shortcut energy transfer. Overexploitation depletes forage fish stocks, eliciting fishery-induced evolution, and eutrophication fosters hypoxic dead zones via microbial respiration of anthropogenic nitrogen. Plastic microdebris, ingested across taxa, disrupts endocrine function and bioaccumulates persistent pollutants. Mitigation imperatives encompass marine protected areas (MPAs) that restore biomass pyramids, as evidenced by Palau's no-take zones, and blue carbon initiatives leveraging seagrass meadows and mangrove forests. International frameworks like the UN Convention on Biological Diversity and high-seas treaty negotiations aim to curtail biodiversity loss, yet realizing ecosystem-based management demands integrating predictive modeling of nonlinear dynamics with adaptive governance attuned to socio-ecological feedbacks.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_3a38f5cc-c812-475e-912f-eaeacafff3d0_to_l5_r8_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "3a38f5cc-c812-475e-912f-eaeacafff3d0",
+    "source_dataset": "generated",
+    "source_file": "3a38f5cc-c812-475e-912f-eaeacafff3d0.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems, encompassing approximately 71 percent of Earth's surface, constitute a mosaic of profoundly interdependent biotic and abiotic components that underpin global biogeochemical cycles and sustain unparalleled biodiversity. From the photic epipelagic zone, where phytoplankton harness solar irradiance through photosynthesis to form the foundational trophic level, to the aphotic abyssal plains harboring chemosynthetic communities around hydrothermal vents, these aquatic realms exhibit remarkable adaptive radiations. The ocean's vertical stratification—delimited by thermoclines and haloclines—facilitates distinct zonations, such as the mesopelagic 'twilight zone,' where diel vertical migrations of myriads of zooplankton and nekton redistribute nutrients and organic matter, thereby fueling both surface productivity and benthic detritivory. This dynamic flux, modulated by gyres, upwellings, and frontal systems, exemplifies the ocean's role as a thermostat for planetary climate, sequestering anthropogenic carbon dioxide while releasing dimethyl sulfide that seeds stratospheric aerosols. Yet, the ostensibly inexhaustible productivity of marine realms belies their fragility, as keystone species like diatoms and gelatinous zooplankton orchestrate cascading effects across food webs, rendering the system susceptible to perturbations that propagate nonlinearly through reticulate networks of symbiosis and predation.\n\nIn coral reef ecosystems, paradigmatic of shallow tropical marine habitats, scleractinian corals engage in obligatory mutualisms with dinoflagellate symbionts (Symbiodinium spp.), which not only supply up to 90 percent of the holobiont's energetic requirements via translocation of photosynthates but also confer resilience against environmental stressors through polyphenism. These calcifying metazoans, engineering vast biogenic structures that amplify habitat heterogeneity, support over 25 percent of marine species despite occupying less than 0.1 percent of seafloor area. However, the reef's trophic pyramid, encompassing herbivorous parrotfishes that curtail macroalgal overgrowth and piscivorous groupers that regulate invertebrate populations, is increasingly destabilized by anthropogenic pressures. Similarly, in temperate kelp forests dominated by macroalgae such as Macrocystis pyrifera, canopy-forming fronds attenuate wave energy, fostering understory biodiversity while exporting detritus to abyssal carbon sinks; trophic cascades initiated by the extirpation of top predators like sea otters precipitate phase shifts toward urchin barrens, underscoring the non-equilibrium dynamics inherent to these systems.\n\nPelagic ecosystems, spanning the vast oligotrophic gyres to nutrient-enriched eastern boundary currents, reveal even greater complexity through size-structured food webs where mesozooplankton grazing on picophytoplankton cascades to piscivory by tunas and billfishes. Microbial loops, involving bacterioplankton and viral lysis, recycle dissolved organic matter, sustaining secondary production in regimes of chronic nutrient limitation. Deep-sea hadal trenches, subjected to extremes of hydrostatic pressure exceeding 1000 atmospheres, harbor endemic megafauna adapted via piezotolerance and bioluminescence, their communities sustained by marine snow flux and chemolithoautotrophy. Across these domains, functional redundancy among taxa ostensibly buffers perturbations, yet empirical studies from long-term observatories like the Bermuda Atlantic Time-series Study (BATS) document regime shifts precipitated by El Niño-Southern Oscillation (ENSO) variability, wherein weakened upwelling curtails primary production, propagating deficits through higher trophic levels.\n\nAnthropogenic forcings exacerbate intrinsic vulnerabilities: ocean acidification, driven by pCO2 equilibration, impairs calcifiers' aragonite saturation states, while thermal anomalies induce coral bleaching and jellyfish proliferations that shortcut energy transfer. Overexploitation depletes forage fish stocks, eliciting fishery-induced evolution, and eutrophication fosters hypoxic dead zones via microbial respiration of anthropogenic nitrogen. Plastic microdebris, ingested across taxa, disrupts endocrine function and bioaccumulates persistent pollutants. Mitigation imperatives encompass marine protected areas (MPAs) that restore biomass pyramids, as evidenced by Palau's no-take zones, and blue carbon initiatives leveraging seagrass meadows and mangrove forests. International frameworks like the UN Convention on Biological Diversity and high-seas treaty negotiations aim to curtail biodiversity loss, yet realizing ecosystem-based management demands integrating predictive modeling of nonlinear dynamics with adaptive governance attuned to socio-ecological feedbacks.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 596,
+    "sentence_count": 20,
+    "avg_sentence_len": 29.8,
+    "avg_word_len": 6.95,
+    "syllable_count": 1423,
+    "complex_word_count": 118,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -25.4,
+    "flesch_kincaid_grade": 24.21,
+    "ari": 26.23,
+    "coleman_liau": 24.1,
+    "gunning_fog": 19.84
+  },
+  "final_metrics": {
+    "word_count": 596,
+    "sentence_count": 20,
+    "avg_sentence_len": 29.8,
+    "avg_word_len": 6.95,
+    "syllable_count": 1423,
+    "complex_word_count": 118,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -25.4,
+    "flesch_kincaid_grade": 24.21,
+    "ari": 26.23,
+    "coleman_liau": 24.1,
+    "gunning_fog": 19.84
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.1983;center_gap=6.43;mode=both;dominant=word;dir_changed=0;wb=80;sb=6;est_wb=80;est_sb=3;lf=1.00;df=2.00;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 596,
+        "sentence_count": 20,
+        "avg_sentence_len": 29.8,
+        "avg_word_len": 6.95,
+        "syllable_count": 1423,
+        "complex_word_count": 118,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -25.4,
+        "flesch_kincaid_grade": 24.21,
+        "ari": 26.23,
+        "coleman_liau": 24.1,
+        "gunning_fog": 19.84
+      },
+      "distance_to_target": 2.1983,
+      "fidelity": {
+        "overall": 0.9654,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.1983;center_gap=6.43;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=3;lf=1.00;df=2.00;af=1.0000;pg=2.1983;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 596,
+        "sentence_count": 20,
+        "avg_sentence_len": 29.8,
+        "avg_word_len": 6.95,
+        "syllable_count": 1423,
+        "complex_word_count": 118,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -25.4,
+        "flesch_kincaid_grade": 24.21,
+        "ari": 26.23,
+        "coleman_liau": 24.1,
+        "gunning_fog": 19.84
+      },
+      "distance_to_target": 2.1983,
+      "fidelity": {
+        "overall": 0.9654,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.1983;center_gap=6.43;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=3;lf=1.00;df=2.00;af=1.0000;pg=2.1983;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 596,
+        "sentence_count": 20,
+        "avg_sentence_len": 29.8,
+        "avg_word_len": 6.95,
+        "syllable_count": 1423,
+        "complex_word_count": 118,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -25.4,
+        "flesch_kincaid_grade": 24.21,
+        "ari": 26.23,
+        "coleman_liau": 24.1,
+        "gunning_fog": 19.84
+      },
+      "distance_to_target": 2.1983,
+      "fidelity": {
+        "overall": 0.9654,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.1983;center_gap=6.43;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=3;lf=1.00;df=2.00;af=1.0000;pg=2.1983;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 596,
+        "sentence_count": 20,
+        "avg_sentence_len": 29.8,
+        "avg_word_len": 6.95,
+        "syllable_count": 1423,
+        "complex_word_count": 118,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -25.4,
+        "flesch_kincaid_grade": 24.21,
+        "ari": 26.23,
+        "coleman_liau": 24.1,
+        "gunning_fog": 19.84
+      },
+      "distance_to_target": 2.1983,
+      "fidelity": {
+        "overall": 0.9654,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.1983;center_gap=6.43;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=3;lf=1.00;df=2.00;af=1.0000;pg=2.1983;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 596,
+        "sentence_count": 20,
+        "avg_sentence_len": 29.8,
+        "avg_word_len": 6.95,
+        "syllable_count": 1423,
+        "complex_word_count": 118,
+        "complex_word_ratio": 0.2,
+        "flesch_reading_ease": -25.4,
+        "flesch_kincaid_grade": 24.21,
+        "ari": 26.23,
+        "coleman_liau": 24.1,
+        "gunning_fog": 19.84
+      },
+      "distance_to_target": 2.1983,
+      "fidelity": {
+        "overall": 0.9654,
+        "entity_recall": 0.9231,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9654,
+    "entity_recall": 0.9231,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 26,
+    "number_total": 5,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:50:10.782Z"
+}

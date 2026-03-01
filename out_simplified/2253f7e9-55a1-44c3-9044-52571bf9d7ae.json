@@ -1,0 +1,214 @@
+{
+  "article_id": "2253f7e9-55a1-44c3-9044-52571bf9d7ae",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems represent an intricate tapestry of biological interactions and geochemical cycles, functioning as the primary regulatory mechanisms for the planet’s biosphere. These aquatic environments are bifurcated into distinct horizontal and vertical zones, each characterized by unique abiotic stressors such as hydrostatic pressure, thermal stratification, and photon penetration. In the euphotic zone, phytoplankton serve as the fundamental engine of primary productivity, sequestering atmospheric carbon through photosynthesis and initiating the complex energy transfers that sustain higher trophic levels. This biological pump facilitates the downward flux of organic matter, effectively bridging the surface waters with the abyssal depths through a process known as marine snow.\n\nBeneath the sunlit surface, the benthic environment operates under conditions of perpetual darkness and extreme pressure, yet it remains inextricably linked to the pelagic realm. Benthic-pelagic coupling describes the bidirectional exchange of mass, energy, and nutrients between the water column and the seafloor. Detritivores and decomposers residing in the sediment process the descending organic detritus, recycling essential nutrients like nitrogen and phosphorus back into the water column. This nutrient regeneration is vital for maintaining the productivity of coastal ecosystems, where upwelling events transport these enriched waters back to the surface, thereby stimulating further phytoplankton blooms and ensuring ecological continuity.\n\nHowever, these delicate equilibrium states are increasingly threatened by anthropogenic perturbations, including ocean acidification and thermal expansion. As the absorption of anthropogenic carbon dioxide lowers the oceanic pH, calcifying organisms such as scleractinian corals and pteropods face significant physiological challenges in maintaining their calcium carbonate structures. The resulting degradation of coral reef architectures leads to a catastrophic loss of biodiversity and the destabilization of complex food webs. Furthermore, rising sea temperatures disrupt the historical patterns of thermal stratification, potentially stifling the vertical mixing necessary for nutrient replenishment. Understanding these multifaceted interactions is imperative for developing robust conservation strategies aimed at preserving the resilience of global marine biodiversity.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_0ae1cae6-1308-47f1-b1d7-c27541b36b95_to_l1_r5_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "0ae1cae6-1308-47f1-b1d7-c27541b36b95",
+    "source_dataset": "generated",
+    "source_file": "0ae1cae6-1308-47f1-b1d7-c27541b36b95.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine systems are a web of life and chemical cycles. They are the main systems that help control the planet’s life. These water areas are split into different horizontal layers. They are also split into vertical layers. Each zone has its own physical stresses. These include water pressure, temperature layers, and how much light gets there. In the euphotic zone, phytoplankton are the main producers. They take carbon from the air by photosynthesis. They start the flow of energy. This energy feeds higher food levels. This biological pump moves organic material down, connecting surface waters to the deep sea by a process called marine snow. It connects surface waters with the deep sea by a process called marine snow.\n\nBelow the lit by the sun surface is the benthic zone. It is in darkness and high pressure. It is still linked to the open water above. The two parts work closely together. Benthic-pelagic coupling is a two-way exchange. This exchange moves matter, energy, and nutrients between the water column and the sea floor. Detritivores and decomposers live in the sediment. They break up falling organic material. They return nutrients like nitrogen and phosphorus back to the water, which helps coastal plants and animals. This nutrient recycling is essential for coastal life. Upwelling brings these nutrient rich waters back to the surface. This feeding of the surface waters boosts life at the surface. That boosts phytoplankton blooms and helps the ecosystem continue.\n\nHowever, these delicate balances face bigger threats now. Many causes come from human activities. Examples include ocean acidification and ocean warming and expansion. The ocean absorbs human-made carbon dioxide. As a result, its pH goes down. Calcifying organisms such as scleractinian corals and pteropods then have problems. They cannot maintain their calcium carbonate shells and skeletons. When coral reefs break down, many species may be lost. This harms the entire food web. Food webs also become unsteady. Warmer seas also change the normal temperature layers. This affects how water mixes. This can reduce mixing up and down. Less mixing means fewer nutrients get to the surface. Understanding these complex interactions is vital because it helps good conservation work. It supports the design of clear conservation actions to protect marine biodiversity worldwide.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 311,
+    "sentence_count": 13,
+    "avg_sentence_len": 23.92,
+    "avg_word_len": 6.68,
+    "syllable_count": 711,
+    "complex_word_count": 60,
+    "complex_word_ratio": 0.19,
+    "flesch_reading_ease": -10.86,
+    "flesch_kincaid_grade": 20.72,
+    "ari": 21.99,
+    "coleman_liau": 22.23,
+    "gunning_fog": 17.29
+  },
+  "final_metrics": {
+    "word_count": 376,
+    "sentence_count": 41,
+    "avg_sentence_len": 9.17,
+    "avg_word_len": 5.15,
+    "syllable_count": 616,
+    "complex_word_count": 18,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 58.93,
+    "flesch_kincaid_grade": 7.32,
+    "ari": 7.42,
+    "coleman_liau": 11.26,
+    "gunning_fog": 5.58
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic simplification: split long sentences and rephrase into shorter, clearer sentences|applied_edits=13|tier=coarse_jump;dist=13.5575;dir=simpler;est_wb=80;est_sb=5",
+      "metrics": {
+        "word_count": 296,
+        "sentence_count": 27,
+        "avg_sentence_len": 10.96,
+        "avg_word_len": 5.44,
+        "syllable_count": 514,
+        "complex_word_count": 21,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 48.8,
+        "flesch_kincaid_grade": 9.18,
+        "ari": 9.65,
+        "coleman_liau": 13.46,
+        "gunning_fog": 7.22
+      },
+      "distance_to_target": 2.8775,
+      "fidelity": {
+        "overall": 0.8675,
+        "entity_recall": 0.75,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 813,
+        "completion_tokens": 7007,
+        "total_tokens": 7820,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily SYNTACTIC edits: split and merge sentences to make much shorter, clearer sentences.|applied_edits=18|tier=dist_gt_2;dist=2.8775;center_gap=1.68;mode=both;dominant=word;dir_changed=0;wb=22;sb=1;est_wb=79;est_sb=3;lf=0.70;df=2.10;af=0.2694;pg=13.5575;pd=10.6800;af_fb=0",
+      "metrics": {
+        "word_count": 367,
+        "sentence_count": 41,
+        "avg_sentence_len": 8.95,
+        "avg_word_len": 5.32,
+        "syllable_count": 621,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 54.6,
+        "flesch_kincaid_grade": 7.87,
+        "ari": 8.12,
+        "coleman_liau": 12.2,
+        "gunning_fog": 6.09
+      },
+      "distance_to_target": 1.57,
+      "fidelity": {
+        "overall": 0.8675,
+        "entity_recall": 0.75,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1652,
+        "completion_tokens": 14211,
+        "total_tokens": 15863,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily LEXICAL: swap less common/academic words for more common synonyms (word-only replacements).|applied_edits=52|tier=dist_1_to_2;dist=1.5700;center_gap=0.97;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=67;est_sb=7;lf=0.78;df=1.69;af=1.2008;pg=2.8775;pd=1.3075;af_fb=0",
+      "metrics": {
+        "word_count": 376,
+        "sentence_count": 41,
+        "avg_sentence_len": 9.17,
+        "avg_word_len": 5.15,
+        "syllable_count": 616,
+        "complex_word_count": 18,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 58.93,
+        "flesch_kincaid_grade": 7.32,
+        "ari": 7.42,
+        "coleman_liau": 11.26,
+        "gunning_fog": 5.58
+      },
+      "distance_to_target": 0.895,
+      "fidelity": {
+        "overall": 0.8475,
+        "entity_recall": 0.75,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2548,
+        "completion_tokens": 28511,
+        "total_tokens": 31059,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8475,
+    "entity_recall": 0.75,
+    "number_recall": 1,
+    "keyword_recall": 0.8,
+    "entity_total": 8,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2548,
+    "completion_tokens": 28511,
+    "total_tokens": 31059,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T13:10:52.151Z"
+}

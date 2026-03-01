@@ -1,0 +1,58 @@
+{
+  "article_id": "b992e250-491b-4265-924d-223d23fbf4da",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Adapting to Climate Change",
+  "article": [
+    "Climate change is making the Earth warmer. Temperatures rise each year. Storms become stronger. Sea levels go up as ice melts. These changes hurt people, animals, and plants. But there is hope. Adaptation means changing to live with these shifts. It helps us stay safe and strong. For example, people learn new ways to farm. Animals move to cooler spots. Plants grow in new places. Adaptation is key to a better future.",
+    "Animals show great ways to adapt. Birds fly farther north to find food. They escape the heat. Fish swim to deeper, cooler water. Coral reefs change colors to fight warm seas. Some insects grow bigger wings. This lets them travel far for better homes. These changes happen fast. They help animals survive. Scientists watch these moves closely. They learn from nature's lessons.",
+    "People also adapt well to climate shifts. Farmers pick crops that like hot weather. They use less water for fields. Cities build high walls by the sea. These stop floods from bad storms. Homes get new roofs that stay cool. They save energy too. In dry lands, people collect rain in big tanks. They share water wisely. Schools teach kids about green ways. Everyone works together for change.",
+    "Governments make big plans for adaptation. They plant millions of trees. Trees cool the air and hold soil. Roads get stronger for heavy rains. Laws help protect wetlands. These spots soak up extra water. Money goes to poor areas first. They need help most. Countries share ideas at big meetings. Success stories spread fast. One town in Asia moved homes from flood zones. Now, no one loses houses.",
+    "Adaptation brings real wins. It saves lives and money. Places that act early do best. They grow food even in tough times. Health stays good with clean water. Kids play safe outdoors. The world learns from each step. Change is hard, but we can do it. With smart steps, Earth stays our home."
+  ],
+  "metrics": {
+    "word_count": 323,
+    "sentence_count": 55,
+    "avg_sentence_len": 5.87,
+    "avg_word_len": 4.61,
+    "syllable_count": 433,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 87.46,
+    "flesch_kincaid_grade": 2.52,
+    "ari": 3.23,
+    "coleman_liau": 6.28,
+    "gunning_fog": 2.97
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "climate_adaptation_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T18:58:54.120Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 277
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2514,
+    "total_tokens": 3519,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T18:58:54.121Z"
+}

@@ -1,0 +1,58 @@
+{
+  "article_id": "0e4b88a4-1242-4606-888a-6c1f1b7f7804",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adapting to Climate Change",
+  "article": [
+    "Climate change is happening now. It brings rising sea levels, stronger storms, and longer droughts. These changes harm people, farms, and cities. Adaptation helps us prepare for and adjust to these effects. It is not about stopping climate change. Instead, it focuses on living with it.",
+    "Many places use smart strategies to adapt. Coastal cities build sea walls and barriers. These hold back flood waters during big storms. In the Netherlands, such walls protect low lands for years. Farmers in dry areas switch to crops that need less water. They also use better ways to save rain. Urban areas plant more trees. Trees cool the air and soak up extra rain.",
+    "Governments lead these efforts. They make plans and spend money on projects. For example, Australia rebuilt homes after floods to stand up to future ones. Local people join in too. They learn new skills and change daily habits. This teamwork makes adaptation stronger.",
+    "Challenges remain. Not all countries have enough funds. Poor areas suffer most from climate effects. Rich nations help with money and knowledge. Global groups like the United Nations push for fair plans. Quick action now can save lives and cut costs later.",
+    "Adaptation builds a safer future. It shows humans can change to match a warming world. With effort, we reduce risks and keep life going."
+  ],
+  "metrics": {
+    "word_count": 220,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.59,
+    "avg_word_len": 4.82,
+    "syllable_count": 313,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 78.77,
+    "flesch_kincaid_grade": 4.16,
+    "ari": 5.08,
+    "coleman_liau": 8.66,
+    "gunning_fog": 3.58
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "climate_adaptation_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T18:59:22.544Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 80
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2481,
+    "total_tokens": 3486,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T18:59:22.545Z"
+}

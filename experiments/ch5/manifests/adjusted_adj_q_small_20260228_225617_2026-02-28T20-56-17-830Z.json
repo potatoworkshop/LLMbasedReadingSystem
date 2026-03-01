@@ -1,0 +1,272 @@
+{
+  "experiment_id": "ch5_small_adjust_questions_20260228_225617",
+  "run_tag": "ten_runs_12345x2",
+  "batch_id": "adj_q_small_20260228_225617",
+  "source_dataset": "questions",
+  "total_jobs": 10,
+  "success_count": 10,
+  "fail_count": 0,
+  "generated_at": "2026-02-28T21:14:45.133Z",
+  "records": [
+    {
+      "ts": "2026-02-28T20:57:04.994Z",
+      "ok": true,
+      "index": 1,
+      "total": 10,
+      "article_id": "9d1a1454-20e0-4411-a986-9b895035362e",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l1",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 1,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9379,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1611,
+        "completion_tokens": 5646,
+        "total_tokens": 7257,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 47163
+    },
+    {
+      "ts": "2026-02-28T20:59:05.781Z",
+      "ok": true,
+      "index": 2,
+      "total": 10,
+      "article_id": "5ab3d2f0-324a-4343-b767-1b58ae4f2b0d",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l2",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 2,
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.969,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 3327,
+        "completion_tokens": 13345,
+        "total_tokens": 16672,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 120268
+    },
+    {
+      "ts": "2026-02-28T21:00:07.951Z",
+      "ok": true,
+      "index": 3,
+      "total": 10,
+      "article_id": "6a03f19b-c1a2-4a14-b860-458f4740fff4",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l3",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 3,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9845,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1633,
+        "completion_tokens": 7081,
+        "total_tokens": 8714,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 61665
+    },
+    {
+      "ts": "2026-02-28T21:04:03.077Z",
+      "ok": true,
+      "index": 4,
+      "total": 10,
+      "article_id": "93d10aa7-6e62-4e6b-96f1-a33d09ccd269",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l4",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 4,
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 3358,
+        "completion_tokens": 22977,
+        "total_tokens": 26335,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 234611
+    },
+    {
+      "ts": "2026-02-28T21:05:38.957Z",
+      "ok": true,
+      "index": 5,
+      "total": 10,
+      "article_id": "57c9ec91-ba45-4b6b-b80d-90ff20010522",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l5",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 5,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9279,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1611,
+        "completion_tokens": 8194,
+        "total_tokens": 9805,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 95367
+    },
+    {
+      "ts": "2026-02-28T21:06:18.065Z",
+      "ok": true,
+      "index": 6,
+      "total": 10,
+      "article_id": "ac6d11a6-54ef-4c35-ac67-bef591606a3a",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l1",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 1,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1701,
+        "completion_tokens": 4202,
+        "total_tokens": 5903,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 38594
+    },
+    {
+      "ts": "2026-02-28T21:08:03.787Z",
+      "ok": true,
+      "index": 7,
+      "total": 10,
+      "article_id": "914a3ba7-beb4-4929-bcf6-658c9ff9f3ae",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l2",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 2,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.992,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1758,
+        "completion_tokens": 12270,
+        "total_tokens": 14028,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 105210
+    },
+    {
+      "ts": "2026-02-28T21:08:35.745Z",
+      "ok": true,
+      "index": 8,
+      "total": 10,
+      "article_id": "b6e1d100-bab3-4ab4-b5a7-e9f21322c27e",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l3",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 3,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1733,
+        "completion_tokens": 6161,
+        "total_tokens": 7894,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 31449
+    },
+    {
+      "ts": "2026-02-28T21:11:02.330Z",
+      "ok": true,
+      "index": 9,
+      "total": 10,
+      "article_id": "8cfad3ed-4028-4807-a9ae-bb85c34922c5",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l4",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 4,
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 3566,
+        "completion_tokens": 15247,
+        "total_tokens": 18813,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 146076
+    },
+    {
+      "ts": "2026-02-28T21:14:45.133Z",
+      "ok": true,
+      "index": 10,
+      "total": 10,
+      "article_id": "346a8951-2a8c-4ecb-b353-951931daffc0",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l5",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 5,
+      "hit_target": true,
+      "rounds_used": 3,
+      "fidelity_overall": 0.9839,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 5301,
+        "completion_tokens": 25404,
+        "total_tokens": 30705,
+        "llm_calls": 3
+      },
+      "elapsed_ms": 222288
+    }
+  ]
+}

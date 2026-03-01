@@ -1,0 +1,288 @@
+{
+  "article_id": "6dbc3711-1936-466e-97d8-6662173e3fc7",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change brings big shifts to our planet. Temperatures rise around the world. Sea levels climb higher each year. Storms grow stronger and more frequent. Droughts last longer in many places. These changes harm people, animals, and plants. But adaptation helps them cope. Adaptation means making changes to live well in new conditions. It differs from mitigation, which tries to slow climate change. Adaptation focuses on dealing with effects that already happen.\n\nMany living things adapt in nature. Birds shift their migration paths to find food and warmer spots. Some insects move to higher mountains as low areas get too hot. Plants change when they flower. They bloom earlier in spring to match new insect cycles. Coral reefs face warmer oceans. Some corals expel algae and bleach white. Yet tough corals survive and even thrive in warmer waters. Fish stocks move to cooler seas. This forces fishing fleets to travel farther. Forests in Canada expand north as the tundra warms. Trees take root where permafrost melts. These natural shifts show life’s power to adjust. But not all species keep up. Some face extinction if changes come too fast.\n\nHumans adapt in smart ways too. Farmers plant drought-resistant crops like sorghum and millet. They use drip irrigation to save water. In California, this cuts water use by half. Coastal cities build sea walls and barriers. The Netherlands has done this for centuries with dikes. They now plan even taller ones as seas rise. Miami pumps floodwater from streets. It raises roads to stay dry. In Bangladesh, people build floating homes and farms. These rise with floodwaters and stay safe. Urban areas plant more trees for shade. Green roofs cool buildings in hot summers. Cities like Singapore use them widely. Insurance firms change policies for flood risks. Governments create plans to move people from danger zones.\n\nSuccess stories inspire hope. Ethiopia grows new seed types that yield well in dry soil. Crop output rose thirty percent in some areas. Australia restores wetlands to hold floodwater. This protects towns downstream. Small island nations share knowledge on rising seas. They plant mangroves as natural barriers. These trees slow waves and trap sediment. International aid helps poor countries build skills. The Green Climate Fund supports projects in Africa and Asia. It funds solar power and water systems. Yet challenges remain. Wealthy nations adapt faster with money and tech. Poorer places lag behind. They need more help to catch up. Fast change tests all efforts.\n\nAdaptation works best with mitigation. Cutting emissions slows warming and buys time. Both together build a safer future. Communities learn from each other. They share ideas and tools. Education spreads knowledge on risks and fixes. Schools teach kids about climate action. This builds a generation ready to adapt. Research tracks changes and tests new methods. Satellites watch ice melt and sea rise. Models predict future weather patterns. These tools guide smart choices. In the end, adaptation turns threats into chances. It helps the world stay strong amid change.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_18e3546e-a14a-4655-a5b1-e4ea21ec633e_to_l3_r1_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "18e3546e-a14a-4655-a5b1-e4ea21ec633e",
+    "source_dataset": "generated",
+    "source_file": "18e3546e-a14a-4655-a5b1-e4ea21ec633e.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate change brings big shifts to our planet. Temperatures rise around the world. Sea levels climb higher each year. Storms grow stronger and more frequent. Droughts last longer in many places. These changes harm people, animals, and plants. But adaptation helps them cope. Adaptation means making changes to live well in new conditions. It differs from mitigation, which tries to slow climate change. Adaptation focuses on dealing with effects that already happen.\n\nMany living things adapt in nature. Birds shift their migration paths to find food and warmer spots. Some insects move to higher mountains as low areas get too hot. Plants change when they flower. They bloom earlier in spring to match new insect cycles. Coral reefs face warmer oceans. Some corals expel algae and bleach white. Yet tough corals survive and even thrive in warmer waters. Fish stocks move to cooler seas. This forces fishing fleets to travel farther. Forests in Canada expand north as the tundra warms. Trees take root where permafrost melts. These natural shifts show life’s power to adjust. But not all species keep up. Some face extinction if changes come too fast.\n\nHumans adapt in smart ways too. Farmers plant drought-resistant crops like sorghum and millet. They use drip irrigation to save water. In California, this cuts water use by half. Coastal cities build sea walls and barriers. The Netherlands has done this for centuries with dikes. They now plan even taller ones as seas rise. Miami pumps floodwater from streets. It raises roads to stay dry. In Bangladesh, people build floating homes and farms. These rise with floodwaters and stay safe. Urban areas plant more trees for shade. Green roofs cool buildings in hot summers. Cities like Singapore use them widely. Insurance firms change policies for flood risks. Governments create plans to move people from danger zones.\n\nSuccess stories inspire hope. Ethiopia grows new seed types that yield well in dry soil. Crop output rose thirty percent in some areas. Australia restores wetlands to hold floodwater. This protects towns downstream. Small island nations share knowledge on rising seas. They plant mangroves as natural barriers. These trees slow waves and trap sediment. International aid helps poor countries build skills. The Green Climate Fund supports projects in Africa and Asia. It funds solar power and water systems. Yet challenges remain. Wealthy nations adapt faster with money and tech. Poorer places lag behind. They need more help to catch up. Fast change tests all efforts.\n\nAdaptation works best with mitigation. Cutting emissions slows warming and buys time. Both together build a safer future. Communities learn from each other. They share ideas and tools. Education spreads knowledge on risks and fixes. Schools teach kids about climate action. This builds a generation ready to adapt. Research tracks changes and tests new methods. Satellites watch ice melt and sea rise. Models predict future weather patterns. These tools guide smart choices. In the end, adaptation turns threats into chances. It helps the world stay strong amid change.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 499,
+    "sentence_count": 71,
+    "avg_sentence_len": 7.03,
+    "avg_word_len": 5.08,
+    "syllable_count": 748,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 72.89,
+    "flesch_kincaid_grade": 4.84,
+    "ari": 6,
+    "coleman_liau": 9.85,
+    "gunning_fog": 3.93
+  },
+  "final_metrics": {
+    "word_count": 499,
+    "sentence_count": 71,
+    "avg_sentence_len": 7.03,
+    "avg_word_len": 5.08,
+    "syllable_count": 748,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 72.89,
+    "flesch_kincaid_grade": 4.84,
+    "ari": 6,
+    "coleman_liau": 9.85,
+    "gunning_fog": 3.93
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=4.8450;dir=harder;est_wb=80;est_sb=25",
+      "metrics": {
+        "word_count": 499,
+        "sentence_count": 71,
+        "avg_sentence_len": 7.03,
+        "avg_word_len": 5.08,
+        "syllable_count": 748,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 72.89,
+        "flesch_kincaid_grade": 4.84,
+        "ari": 6,
+        "coleman_liau": 9.85,
+        "gunning_fog": 3.93
+      },
+      "distance_to_target": 4.845,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 52,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=4.8450;center_gap=6.08;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=25;est_wb=80;est_sb=25;lf=0.91;df=2.10;af=1.0000;pg=4.8450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 499,
+        "sentence_count": 71,
+        "avg_sentence_len": 7.03,
+        "avg_word_len": 5.08,
+        "syllable_count": 748,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 72.89,
+        "flesch_kincaid_grade": 4.84,
+        "ari": 6,
+        "coleman_liau": 9.85,
+        "gunning_fog": 3.93
+      },
+      "distance_to_target": 4.845,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 52,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=4.8450;center_gap=6.08;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=25;est_wb=80;est_sb=25;lf=0.91;df=2.10;af=1.0000;pg=4.8450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 499,
+        "sentence_count": 71,
+        "avg_sentence_len": 7.03,
+        "avg_word_len": 5.08,
+        "syllable_count": 748,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 72.89,
+        "flesch_kincaid_grade": 4.84,
+        "ari": 6,
+        "coleman_liau": 9.85,
+        "gunning_fog": 3.93
+      },
+      "distance_to_target": 4.845,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 52,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=4.8450;center_gap=6.08;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=25;est_wb=80;est_sb=25;lf=0.91;df=2.10;af=1.0000;pg=4.8450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 499,
+        "sentence_count": 71,
+        "avg_sentence_len": 7.03,
+        "avg_word_len": 5.08,
+        "syllable_count": 748,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 72.89,
+        "flesch_kincaid_grade": 4.84,
+        "ari": 6,
+        "coleman_liau": 9.85,
+        "gunning_fog": 3.93
+      },
+      "distance_to_target": 4.845,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 52,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=4.8450;center_gap=6.08;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=25;est_wb=80;est_sb=25;lf=0.91;df=2.10;af=1.0000;pg=4.8450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 499,
+        "sentence_count": 71,
+        "avg_sentence_len": 7.03,
+        "avg_word_len": 5.08,
+        "syllable_count": 748,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 72.89,
+        "flesch_kincaid_grade": 4.84,
+        "ari": 6,
+        "coleman_liau": 9.85,
+        "gunning_fog": 3.93
+      },
+      "distance_to_target": 4.845,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 52,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 52,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:48:39.141Z"
+}

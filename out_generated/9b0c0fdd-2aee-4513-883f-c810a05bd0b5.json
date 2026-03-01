@@ -1,0 +1,59 @@
+{
+  "article_id": "9b0c0fdd-2aee-4513-883f-c810a05bd0b5",
+  "topic": "climate adaptation",
+  "level": 5,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adaptive Responses to a Changing Climate",
+  "article": [
+    "Climate adaptation denotes the deliberate adjustments in ecological, social and infrastructural systems intended to moderate harm or exploit beneficial opportunities arising from climatic variability and change, and it must be conceptually distinguished from mitigation, which seeks to limit future warming via greenhouse gas reductions. Contemporary scholarship emphasises that adaptation is inherently spatially heterogeneous and temporally contingent, such that locally salient responses may diverge substantially even under comparable exposure profiles, thereby challenging universal prescriptions. The urgency of adaptation planning has been magnified by the acceleration of extreme events, sea-level rise and compound hazards that expose latent vulnerabilities in asset portfolios and governance arrangements.",
+    "Strategic adaptation encompasses anticipatory measures—those implemented prior to manifest impacts—and reactive measures undertaken post-disturbance, each carrying distinct cost structures, efficacy profiles and political feasibility. Ecosystem-based adaptation, engineered resilience through retrofitting and relocations, and governance reforms that mainstream climate risk into land-use planning exemplify the multidimensional repertoire available to policymakers and practitioners. Implementation requires robust risk assessments, scenario analysis that incorporates deep uncertainty, and the integration of heterogeneous knowledge systems, including local and indigenous epistemologies, to ensure contextual relevance and social legitimacy.",
+    "Despite a growing evidence base, significant barriers constrain equitable and effective adaptation: chronic underinvestment, maladaptive reinforcement of unequal exposure, institutional fragmentation and path dependency that lock communities into high-risk modalities. Moreover, assessment metrics often privilege proximate cost–benefit calculations over intergenerational justice and non-market ecosystem services, which can result in suboptimal allocations of finite fiscal and natural capital. Addressing these impediments demands instruments that reconcile short-term exigencies with transformational options that broaden adaptive capacity.",
+    "In sum, the adaptation imperative requires iterative learning, rigorous monitoring and an ethical commitment to distributive equity, supported by transboundary cooperation and innovative financing mechanisms that catalyse both incremental and systemic change."
+  ],
+  "metrics": {
+    "word_count": 298,
+    "sentence_count": 10,
+    "avg_sentence_len": 29.8,
+    "avg_word_len": 7.16,
+    "syllable_count": 740,
+    "complex_word_count": 71,
+    "complex_word_ratio": 0.24,
+    "flesch_reading_ease": -33.49,
+    "flesch_kincaid_grade": 25.33,
+    "ari": 27.21,
+    "coleman_liau": 25.33,
+    "gunning_fog": 21.45
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l5_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:02:02.421Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 2
+  },
+  "token_usage": {
+    "prompt_tokens": 179,
+    "completion_tokens": 1022,
+    "total_tokens": 1201,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:02:02.421Z"
+}

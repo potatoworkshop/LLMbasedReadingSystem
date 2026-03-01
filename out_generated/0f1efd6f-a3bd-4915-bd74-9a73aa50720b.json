@@ -1,0 +1,58 @@
+{
+  "article_id": "0f1efd6f-a3bd-4915-bd74-9a73aa50720b",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Strategies for Adapting to Climate Change",
+  "article": [
+    "Climate change is happening now. Temperatures are rising. Storms are getting stronger. Sea levels are climbing higher. These changes affect people all over the world. Adaptation is key to handling these shifts. It means making changes to live safely in a warmer world. Governments, communities, and businesses all play a role. They build better homes. They change farming ways. They plan cities with the future in mind. Without adaptation, damage from weather events will grow. Lives and money are at risk. But smart steps can reduce harm and save resources.",
+    "Many places face floods from rising seas. Coastal cities like Miami and Jakarta fight back. They build sea walls to block water. They also restore natural barriers like mangroves and dunes. These plants slow waves and hold soil in place. In the Netherlands, strong dikes protect low lands. This country has spent years perfecting flood control. Farmers deal with dry spells and heavy rains. They switch to crops that need less water. Drought-resistant seeds help fields stay green. In Africa, some farms use drip irrigation. This method saves water and boosts yields. It lets food grow even when rains fail.",
+    "Cities heat up fast under the sun. Concrete and asphalt trap warmth. Urban planners fight this with green spaces. They plant trees along streets. These shade walks and cool the air. Green roofs on buildings hold rain and cut energy use for cooling. In Singapore, parks cover much of the city. This lowers temperatures by several degrees. Early warning systems save lives too. Satellites track storms. Apps send alerts to phones. People evacuate in time. Bangladesh uses these tools well. River floods there kill fewer now than before.",
+    "Adaptation costs money upfront. But it saves more later. The World Bank says every dollar spent stops up to seven dollars in losses. Poor countries need help from richer ones. They lack funds for big projects. Global deals like the Paris Agreement push for aid. Success stories inspire others. The Great Green Wall in Africa fights desert spread. Trees across the Sahel hold soil and bring rain. Communities own the effort. They plant and care for the trees.",
+    "Looking ahead, adaptation must speed up. New tech like better forecasts aids planning. Education teaches people what to do. Every nation must act. From small islands to big cities, changes are needed. Adaptation builds a safer future. It turns threats into chances for growth."
+  ],
+  "metrics": {
+    "word_count": 401,
+    "sentence_count": 59,
+    "avg_sentence_len": 6.8,
+    "avg_word_len": 4.91,
+    "syllable_count": 593,
+    "complex_word_count": 11,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.83,
+    "flesch_kincaid_grade": 4.51,
+    "ari": 5.11,
+    "coleman_liau": 8.73,
+    "gunning_fog": 3.82
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "climate_adaptation_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T18:59:49.594Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 199
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2579,
+    "total_tokens": 3584,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T18:59:49.596Z"
+}

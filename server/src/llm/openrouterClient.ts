@@ -1,17 +1,21 @@
+import type { LlmResponse, StructuredOutputSchema } from "./llmAdapter";
+
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export const OPENROUTER_MODEL_OPTIONS = [
   "openai/gpt-5-mini",
   "google/gemini-3-flash-preview",
   "x-ai/grok-4.1-fast",
+  "deepseek/deepseek-v3.2",
 ] as const;
 
 export type OpenRouterModel = (typeof OPENROUTER_MODEL_OPTIONS)[number];
 
 export const callOpenRouter = async (
   prompt: string,
-  modelOverride?: OpenRouterModel
-) => {
+  modelOverride?: OpenRouterModel,
+  structuredOutput?: StructuredOutputSchema
+): Promise<LlmResponse> => {
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
     throw new Error("OPENROUTER_API_KEY is not set");
@@ -32,7 +36,15 @@ export const callOpenRouter = async (
       model,
       messages: [{ role: "user", content: prompt }],
       temperature: 0.7,
-      response_format: { type: "json_object" },
+      response_format: structuredOutput
+        ? {
+            type: "json_schema",
+            json_schema: {
+              name: structuredOutput.name,
+              schema: structuredOutput.schema,
+            },
+          }
+        : { type: "json_object" },
     }),
   });
 
@@ -43,6 +55,12 @@ export const callOpenRouter = async (
 
   const data = (await response.json()) as {
     choices?: Array<{ message?: { content?: string } }>;
+    usage?: {
+      prompt_tokens?: number;
+      completion_tokens?: number;
+      total_tokens?: number;
+    };
+    model?: string;
   };
 
   const content = data.choices?.[0]?.message?.content;
@@ -50,5 +68,25 @@ export const callOpenRouter = async (
     throw new Error("OpenAI response missing content");
   }
 
-  return content;
+  return {
+    content,
+    provider: "openrouter",
+    model: data.model ?? model,
+    usage: data.usage
+      ? {
+          prompt_tokens:
+            typeof data.usage.prompt_tokens === "number"
+              ? data.usage.prompt_tokens
+              : null,
+          completion_tokens:
+            typeof data.usage.completion_tokens === "number"
+              ? data.usage.completion_tokens
+              : null,
+          total_tokens:
+            typeof data.usage.total_tokens === "number"
+              ? data.usage.total_tokens
+              : null,
+        }
+      : null,
+  };
 };

@@ -1,0 +1,59 @@
+{
+  "article_id": "61acdb90-d6a9-4bf2-8336-4321d01eb56a",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate change is here. It brings hotter days, stronger storms, and rising seas. People feel these changes now. They hurt farms, homes, and water supplies. So, communities must adapt. Adaptation means making smart changes. These changes help people live with new weather patterns. For example, cities plant more trees to cool streets. This fights the heat. Adaptation also saves lives and money in the long run.",
+    "Farmers lead the way in adaptation. They face dry lands and wild rains. Many switch to new crops. These crops need less water. They grow well in heat. In Africa, farmers use drip systems. These systems give water drop by drop to plants. This saves water and boosts food. In Asia, rice farmers build higher fields. This keeps crops dry during floods. These steps help feed more people.",
+    "Cities also adapt fast. They build sea walls to block high water. In the Netherlands, strong dikes protect low lands. New York plans green roofs on buildings. These roofs hold rain water and cool air. Parks grow bigger to fight city heat. People walk or bike more. This cuts down on car fumes that warm the air. Governments help with rules and funds.",
+    "Adaptation has challenges. It costs a lot of money. Poor places struggle most. They need help from rich nations. But success stories grow. Bangladesh cut flood deaths with early warnings and shelters. This shows adaptation works. Everyone must join in. Governments make plans. Companies build green tools. People change daily habits. Together, they build a safe future against climate change."
+  ],
+  "metrics": {
+    "word_count": 257,
+    "sentence_count": 42,
+    "avg_sentence_len": 6.12,
+    "avg_word_len": 4.79,
+    "syllable_count": 351,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 85.08,
+    "flesch_kincaid_grade": 2.91,
+    "ari": 4.21,
+    "coleman_liau": 7.55,
+    "gunning_fog": 3.38
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "climate_adaptation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:38:20.396Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 43
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2272,
+    "total_tokens": 3277,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:38:20.397Z"
+}

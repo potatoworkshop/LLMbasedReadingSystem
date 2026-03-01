@@ -1,0 +1,660 @@
+{
+  "experiment_id": "ch5_main_n8_20260301",
+  "run_tag": "main_n8",
+  "batch_id": "main_n8_mb08",
+  "micro_batch_index": 8,
+  "total_jobs": 24,
+  "success_count": 24,
+  "fail_count": 0,
+  "generated_at": "2026-03-01T12:50:13.107Z",
+  "records": [
+    {
+      "ts": "2026-03-01T12:48:40.238Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 1,
+      "total": 24,
+      "article_id": "a895c862-f7ad-4436-ae80-218154a361a9",
+      "sample_id": "questions_ielts_14_test1_passage3_f278wj_to_l2_r1_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test1_passage3_f278wj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test1_passage3_f278wj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4541
+    },
+    {
+      "ts": "2026-03-01T12:48:44.934Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 2,
+      "total": 24,
+      "article_id": "38d031bc-f5b3-49de-86ec-86eba9bbde7e",
+      "sample_id": "questions_ielts_14_test2_passage1_f279uj_to_l2_r2_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test2_passage1_f279uj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test2_passage1_f279uj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4395
+    },
+    {
+      "ts": "2026-03-01T12:48:48.235Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 3,
+      "total": 24,
+      "article_id": "a84d3cd8-7752-4513-a3dc-90a2fe4760f0",
+      "sample_id": "questions_ielts_14_test2_passage3_827asj_to_l2_r3_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test2_passage3_827asj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test2_passage3_827asj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 2997
+    },
+    {
+      "ts": "2026-03-01T12:48:53.105Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 4,
+      "total": 24,
+      "article_id": "077dc7e5-52c1-4c0f-a354-c84c48ab28ae",
+      "sample_id": "questions_ielts_14_test3_passage1_927bfj_to_l2_r4_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test3_passage1_927bfj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test3_passage1_927bfj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9871,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4558
+    },
+    {
+      "ts": "2026-03-01T12:48:56.749Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 5,
+      "total": 24,
+      "article_id": "84a6e476-1866-4d8c-95d2-20789f81fe37",
+      "sample_id": "questions_ielts_14_test3_passage3_527cnj_to_l2_r5_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test3_passage3_527cnj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test3_passage3_527cnj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3334
+    },
+    {
+      "ts": "2026-03-01T12:49:00.888Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 6,
+      "total": 24,
+      "article_id": "b2a54f9a-a299-46ac-ad48-68e2981055b3",
+      "sample_id": "questions_ielts_14_test4_passage1_c27d7j_to_l2_r6_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test4_passage1_c27d7j",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test4_passage1_c27d7j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 5,
+      "fidelity_overall": 0.975,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3830
+    },
+    {
+      "ts": "2026-03-01T12:49:04.281Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 7,
+      "total": 24,
+      "article_id": "06e1a77e-609a-4e19-80d7-7573f316727c",
+      "sample_id": "questions_ielts_14_test4_passage2_c27dnj_to_l2_r7_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test4_passage2_c27dnj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test4_passage2_c27dnj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3083
+    },
+    {
+      "ts": "2026-03-01T12:49:07.585Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 8,
+      "total": 24,
+      "article_id": "8da6b097-0995-4840-841c-414f8ad17930",
+      "sample_id": "questions_ielts_14_test4_passage3_527e3j_to_l2_r8_google_gemini-3-flash-preview",
+      "target_level": 2,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test4_passage3_527e3j",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test4_passage3_527e3j.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9719,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 2997
+    },
+    {
+      "ts": "2026-03-01T12:49:12.097Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 9,
+      "total": 24,
+      "article_id": "57805942-3cf2-498f-b0ac-1e51e755a011",
+      "sample_id": "questions_ielts_15_test1_passage1_727epj_to_l3_r1_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test1_passage1_727epj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test1_passage1_727epj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4211
+    },
+    {
+      "ts": "2026-03-01T12:49:16.869Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 10,
+      "total": 24,
+      "article_id": "2ebc70b9-f184-42d7-b1df-13364eb859df",
+      "sample_id": "questions_ielts_15_test1_passage3_e27fnj_to_l3_r2_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test1_passage3_e27fnj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test1_passage3_e27fnj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 5,
+      "fidelity_overall": 0.971,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4462
+    },
+    {
+      "ts": "2026-03-01T12:49:21.311Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 11,
+      "total": 24,
+      "article_id": "45904d05-270d-431a-a7d1-a57796c01ceb",
+      "sample_id": "questions_ielts_15_test2_passage3_827h2j_to_l3_r3_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test2_passage3_827h2j",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test2_passage3_827h2j.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9679,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4132
+    },
+    {
+      "ts": "2026-03-01T12:49:24.652Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 12,
+      "total": 24,
+      "article_id": "3892a916-0974-401c-87ca-08fbc547709a",
+      "sample_id": "questions_ielts_15_test3_passage1_e27hmj_to_l3_r4_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test3_passage1_e27hmj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test3_passage1_e27hmj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3039
+    },
+    {
+      "ts": "2026-03-01T12:49:29.070Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 13,
+      "total": 24,
+      "article_id": "7daa0f6f-f98f-4ea3-8a09-140d17f0023d",
+      "sample_id": "questions_ielts_15_test3_passage3_b27iij_to_l3_r5_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test3_passage3_b27iij",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test3_passage3_b27iij.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9625,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4102
+    },
+    {
+      "ts": "2026-03-01T12:49:33.283Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 14,
+      "total": 24,
+      "article_id": "19e11115-022d-448f-a7d8-1135e291393f",
+      "sample_id": "questions_ielts_15_test4_passage1_327j0j_to_l3_r6_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test4_passage1_327j0j",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test4_passage1_327j0j.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9743,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3907
+    },
+    {
+      "ts": "2026-03-01T12:49:36.570Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 15,
+      "total": 24,
+      "article_id": "9de1f056-762e-4136-bfd3-e3462b8ed29e",
+      "sample_id": "questions_ielts_15_test4_passage2_027jhj_to_l3_r7_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test4_passage2_027jhj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test4_passage2_027jhj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.973,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 2979
+    },
+    {
+      "ts": "2026-03-01T12:49:40.305Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 16,
+      "total": 24,
+      "article_id": "66b38e86-0346-49d6-8064-6b20ce12f0d5",
+      "sample_id": "questions_ielts_15_test4_passage3_027jxj_to_l3_r8_google_gemini-3-flash-preview",
+      "target_level": 3,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test4_passage3_027jxj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test4_passage3_027jxj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3429
+    },
+    {
+      "ts": "2026-03-01T12:49:44.728Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 17,
+      "total": 24,
+      "article_id": "9f0b4994-f9d1-4e7e-a538-6e55ed716cbe",
+      "sample_id": "questions_ielts_16_test1_passage1_827khj_to_l4_r1_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test1_passage1_827khj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test1_passage1_827khj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 4113
+    },
+    {
+      "ts": "2026-03-01T12:49:50.066Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 18,
+      "total": 24,
+      "article_id": "a6093771-66cb-4b8e-8870-a3229fb52b22",
+      "sample_id": "questions_ielts_16_test1_passage3_c27ldj_to_l4_r2_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test1_passage3_c27ldj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test1_passage3_c27ldj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9565,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 5032
+    },
+    {
+      "ts": "2026-03-01T12:49:56.086Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 19,
+      "total": 24,
+      "article_id": "47380ee1-05e5-400d-97a4-1bf3f693b406",
+      "sample_id": "questions_ielts_16_test2_passage1_927lvj_to_l4_r3_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test2_passage1_927lvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test2_passage1_927lvj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 5713
+    },
+    {
+      "ts": "2026-03-01T12:49:59.599Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 20,
+      "total": 24,
+      "article_id": "79c181a3-ca45-41c0-8608-90138632eb12",
+      "sample_id": "questions_ielts_16_test2_passage2_a27mbj_to_l4_r4_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test2_passage2_a27mbj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test2_passage2_a27mbj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3210
+    },
+    {
+      "ts": "2026-03-01T12:50:02.980Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 21,
+      "total": 24,
+      "article_id": "49211286-5a44-470c-a391-7ae4fdc48a3d",
+      "sample_id": "questions_ielts_16_test2_passage3_027mtj_to_l4_r5_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test2_passage3_027mtj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test2_passage3_027mtj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9795,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3067
+    },
+    {
+      "ts": "2026-03-01T12:50:06.051Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 22,
+      "total": 24,
+      "article_id": "82277927-125c-482b-9455-eab523641301",
+      "sample_id": "questions_ielts_16_test3_passage1_827nbj_to_l4_r6_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test3_passage1_827nbj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test3_passage1_827nbj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9882,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 2759
+    },
+    {
+      "ts": "2026-03-01T12:50:09.368Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 23,
+      "total": 24,
+      "article_id": "93c9bafe-cf10-4a0d-bd7e-693cb0ce3cbb",
+      "sample_id": "questions_ielts_16_test3_passage3_227o8j_to_l4_r7_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test3_passage3_227o8j",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test3_passage3_227o8j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9534,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3014
+    },
+    {
+      "ts": "2026-03-01T12:50:13.106Z",
+      "ok": true,
+      "micro_batch_index": 8,
+      "index": 24,
+      "total": 24,
+      "article_id": "745a2fcf-a9c5-4df9-b761-22616834a595",
+      "sample_id": "questions_ielts_16_test4_passage1_d27oqj_to_l4_r8_google_gemini-3-flash-preview",
+      "target_level": 4,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_16_test4_passage1_d27oqj",
+        "source_dataset": "questions",
+        "source_file": "ielts_16_test4_passage1_d27oqj.json"
+      },
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      },
+      "elapsed_ms": 3423
+    }
+  ]
+}

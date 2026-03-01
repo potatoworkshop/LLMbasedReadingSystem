@@ -1,0 +1,59 @@
+{
+  "article_id": "9aa09780-b09a-4418-9803-53e29aa7bc4c",
+  "topic": "public transportation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Public Transport in Everyday Life",
+  "article": [
+    "Public transport helps many people move around cities each day. Buses, trains, trams and subways are common forms. They serve work, school, shopping and visits. People choose them for cost, time and comfort reasons. In busy areas, they often run every few minutes. A good system can carry many people at once. It can use less space than many cars. For this reason, cities plan them with care. They are part of life for millions of people.",
+    "Using public transport can save money for a family. A monthly pass often costs less than driving daily. Riders do not pay for fuel, parking or some repairs. Public fares can be adjusted to help low income riders. For example, student and senior discounts are common. This makes travel more fair and easy for all. At the same time, public transport can be less expensive for the city. It can reduce the need to build large roads and many car parks.",
+    "Public transport can also help the environment. Buses and trains use less fuel per person than cars. This lowers air pollution in busy streets. Some systems now use electric buses or trains. These machines make no tailpipe smoke at all. As a result, cities can have cleaner air and less noise. More riders mean fewer cars on the road. Thus, using public transport is one step to fight climate change.",
+    "Good public transport must be safe and easy to use. Stops should be close to homes and shops. Timetables should be clear and stations well lit. Staff should help people who need extra care. Many systems give real time information by app or screen. Riders also need clear rules and fair fares. When services are reliable, more people will try them. This can make journeys faster, cheaper and kinder to the planet."
+  ],
+  "metrics": {
+    "word_count": 300,
+    "sentence_count": 33,
+    "avg_sentence_len": 9.09,
+    "avg_word_len": 4.51,
+    "syllable_count": 414,
+    "complex_word_count": 2,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 80.86,
+    "flesch_kincaid_grade": 4.24,
+    "ari": 4.37,
+    "coleman_liau": 7.48,
+    "gunning_fog": 3.9
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "public_transportation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:03:22.735Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 0
+  },
+  "token_usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 3590,
+    "total_tokens": 4136,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:03:22.735Z"
+}

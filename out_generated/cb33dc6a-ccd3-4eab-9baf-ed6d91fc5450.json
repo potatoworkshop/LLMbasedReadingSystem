@@ -1,0 +1,58 @@
+{
+  "article_id": "cb33dc6a-ccd3-4eab-9baf-ed6d91fc5450",
+  "topic": "marine ecosystems",
+  "level": 3,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Diversity and Dynamics of Marine Ecosystems",
+  "article": [
+    "Marine ecosystems encompass the vast oceans that cover more than 70 percent of Earth's surface, hosting an extraordinary array of life forms adapted to diverse conditions. From the sunlit coral reefs in shallow tropical waters to the pitch-black depths of the abyssal plains, these environments support complex food webs and biogeochemical cycles essential for global climate regulation. Phytoplankton, microscopic algae floating in surface waters, perform photosynthesis on a scale rivaling all terrestrial forests combined, producing over half of the planet's oxygen. This productivity underpins marine biodiversity, which includes millions of species, many yet undiscovered. The intricate balance within these systems relies on interactions such as predation, symbiosis, and nutrient cycling, all influenced by physical factors like temperature, salinity, and ocean currents.",
+    "Coral reefs exemplify the richness of coastal marine ecosystems, often called the rainforests of the sea due to their high species density. These structures, built by calcium carbonate secretions from tiny polyps, provide habitat for over 25 percent of all marine fish species despite occupying less than one percent of the ocean floor. Symbiotic zooxanthellae algae living within the corals supply energy through photosynthesis, while corals offer protection. However, reefs face severe threats from bleaching events triggered by rising sea temperatures, which expel the algae and lead to coral starvation. Overfishing disrupts herbivore populations that control algae overgrowth, and coastal pollution exacerbates sedimentation, smothering the delicate polyps. Conservation efforts, including marine protected areas, aim to restore these vital ecosystems that also protect shorelines from erosion and support fisheries worth billions annually.",
+    "In contrast, the open ocean, or pelagic zone, dominates marine ecosystems, characterized by sparse but widespread life adapted to perpetual motion. Here, primary production by phytoplankton fuels vast schools of fish, squid, and marine mammals that migrate across currents like the Gulf Stream. Food chains extend from these producers to apex predators such as sharks and orcas, with nutrient upwelling from deeper waters sustaining hotspots like the equatorial Pacific. Plastic pollution and overexploitation now imperil this realm; microplastics ingested by zooplankton cascade through the food web, while industrial fishing depletes stocks, threatening global protein supplies for billions.",
+    "Deep-sea ecosystems challenge traditional views of life requiring sunlight, thriving instead around hydrothermal vents where chemosynthesis harnesses chemical energy from Earth's interior. Tube worms, giant clams, and eyeless shrimp form unique communities powered by bacteria oxidizing hydrogen sulfide. These discoveries, made possible by submersible technology since the 1970s, reveal pressures exceeding 1,000 atmospheres and temperatures fluctuating wildly. Mining interests now target polymetallic nodules rich in rare earth elements, risking irreversible damage to these slow-recovering habitats that may hold clues to life's origins.",
+    "The interconnectedness of marine ecosystems underscores their critical role in human welfare, from climate moderation via carbon sequestration to medicinal discoveries like anti-cancer compounds from sea sponges. Yet, anthropogenic pressures—acidification from CO2 absorption, deoxygenation, and habitat fragmentation—jeopardize this bounty. International agreements like the UN Convention on Biological Diversity promote sustainable management, emphasizing the need for reduced emissions and regulated extraction to preserve these underwater realms for future generations."
+  ],
+  "metrics": {
+    "word_count": 506,
+    "sentence_count": 22,
+    "avg_sentence_len": 23,
+    "avg_word_len": 6.25,
+    "syllable_count": 1036,
+    "complex_word_count": 60,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": 10.28,
+    "flesch_kincaid_grade": 17.54,
+    "ari": 19.51,
+    "coleman_liau": 19.67,
+    "gunning_fog": 13.94
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l3_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:13:20.082Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 94
+  },
+  "token_usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 3192,
+    "total_tokens": 4194,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:13:20.083Z"
+}

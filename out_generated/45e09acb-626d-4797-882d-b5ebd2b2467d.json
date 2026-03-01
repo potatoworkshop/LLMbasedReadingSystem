@@ -1,0 +1,59 @@
+{
+  "article_id": "45e09acb-626d-4797-882d-b5ebd2b2467d",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Living with a Changing Climate",
+  "article": [
+    "Climate change is a major challenge that people around the world are facing today. While many efforts focus on reducing greenhouse gas emissions, another important strategy is climate adaptation. This means changing the way we live and build to better handle the effects of a warming planet. Instead of only trying to stop future changes, adaptation focuses on staying safe during the changes that are already happening. These changes include rising sea levels, hotter summers, and more frequent storms. By planning ahead, communities can protect their people and their property from these natural threats.",
+    "Cities are finding creative ways to adapt to new weather patterns. In many coastal areas, rising oceans pose a serious risk of flooding. To solve this, engineers are building sea walls and raising the height of roads. Some cities are also planting more trees and creating green spaces to help cool down urban areas during heatwaves. These plants provide shade and absorb rainwater, which prevents streets from becoming too hot or flooded. Farmers are also adapting by planting different types of crops that can grow with less water. They are using new technology to track weather patterns and save water for dry periods.",
+    "Building better infrastructure is a key part of the adaptation process. In some countries, houses are being built on stilts to keep them above rising water levels. In other places, schools and hospitals are being reinforced to survive strong winds and heavy rain. Governments are also creating early warning systems to tell people when a storm is coming. These systems give families enough time to move to a safe place. This type of preparation saves many lives and reduces the cost of repairing damage after a disaster occurs.",
+    "In conclusion, adaptation is about being smart and flexible in a changing world. It requires cooperation between governments, scientists, and local citizens. While it takes time and money to change our systems, the benefits are very clear. Societies that prepare for the future will be much stronger and more resilient. By learning to live with the environment rather than fighting against it, we can create a safer world for everyone. Adaptation is not just a choice, but a necessary step for our global future."
+  ],
+  "metrics": {
+    "word_count": 369,
+    "sentence_count": 25,
+    "avg_sentence_len": 14.76,
+    "avg_word_len": 5.04,
+    "syllable_count": 583,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 58.19,
+    "flesch_kincaid_grade": 8.81,
+    "ari": 9.68,
+    "coleman_liau": 11.82,
+    "gunning_fog": 7.2
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "climate_adaptation_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:35:53.961Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 69
+  },
+  "token_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 442,
+    "total_tokens": 645,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:35:53.961Z"
+}

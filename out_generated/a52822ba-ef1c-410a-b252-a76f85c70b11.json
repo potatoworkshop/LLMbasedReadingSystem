@@ -1,0 +1,59 @@
+{
+  "article_id": "a52822ba-ef1c-410a-b252-a76f85c70b11",
+  "topic": "public transportation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Public Transportation in Modern Cities",
+  "article": [
+    "Public transportation is a very important part of life in many cities today. It includes things like buses, trains, and subways. People use these systems to travel to work, to school, and to visit friends. Most big cities have many types of transit. This helps people move quickly from one place to another. Without these systems, city life would be much harder. People would have to walk long distances or spend too much money on private cars. Therefore, cities invest a lot of money into building better stations and tracks.",
+    "One major benefit of public transit is that it helps the environment. When many people ride one bus, there are fewer cars on the road. Fewer cars mean less smoke and cleaner air. This is good for the health of everyone who lives in the city. Also, using a train or a bus can save a lot of energy. Most modern trains use electricity instead of gas. This change helps to reduce the amount of pollution that cities create every day. Many leaders encourage people to use transit to protect the earth for the future.",
+    "Another advantage is that public transportation saves people a lot of time and money. Driving a car in a busy city can be very slow because of traffic. Trains often move on their own tracks, so they do not get stuck in traffic jams. Furthermore, owning a car is very expensive. You have to pay for gas, repairs, and parking spaces. A bus ticket or a train pass is much cheaper than owning a car. Many people find that they can save hundreds of dollars every month by using a subway instead of driving.",
+    "Finally, public transit makes a city more open to everyone. People who do not have a car can still travel to different neighborhoods. This includes young students, elderly people, and workers who do not have a high income. When a city has a good transit system, all people can reach the services they need. They can go to the hospital, the library, or the grocery store with ease. In conclusion, public transportation is a vital service. It makes cities cleaner, cheaper, and easier for all citizens to live in. As cities grow larger, these systems will become even more important for our daily lives."
+  ],
+  "metrics": {
+    "word_count": 383,
+    "sentence_count": 31,
+    "avg_sentence_len": 12.35,
+    "avg_word_len": 4.46,
+    "syllable_count": 559,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 70.82,
+    "flesch_kincaid_grade": 6.45,
+    "ari": 5.74,
+    "coleman_liau": 8.01,
+    "gunning_fog": 5.46
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "public_transportation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:37:15.191Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 83
+  },
+  "token_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 467,
+    "total_tokens": 667,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:37:15.192Z"
+}

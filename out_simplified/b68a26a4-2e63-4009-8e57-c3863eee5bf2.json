@@ -1,0 +1,213 @@
+{
+  "article_id": "b68a26a4-2e63-4009-8e57-c3863eee5bf2",
+  "mode": "difficulty_adjust",
+  "original_article": "Two scientists consider the origins of discoveries and other innovative behavior\n\nScientific discovery is popularly believed to result from the sheer genius of such intellectual stars as naturalist Charles Darwin and theoretical physicist Albert Einstein. Our view of such unique contributions to science often disregards the person's prior experience and the efforts of their lesser-known predecessors. Conventional wisdom also places great weight on insight in promoting breakthrough scientific achievements, as if ideas spontaneously pop into someone's head – fully formed and functional.\n\nThere may be some limited truth to this view. However, we believe that it largely misrepresents the real nature of scientific discovery, as well as that of creativity and innovation in many other realms of human endeavor.\n\nSetting aside such greats as Darwin and Einstein – whose monumental contributions are duly celebrated – we suggest that innovation is more a process of trial and error, where two steps forward may sometimes come with one step back, as well as one or more steps to the right or left. This evolutionary view of human innovation undermines the notion of creative genius and recognizes the cumulative nature of scientific progress.\n\nConsider one unheralded scientist: John Nicholson, a mathematical physicist working in the 1910s who postulated the existence of 'proto-elements' in outer space. By combining different numbers of weights of these proto-elements' atoms, Nicholson could recover the weights of all the elements in the then-known periodic table. These successes are all the more noteworthy given the fact that Nicholson was wrong about the presence of proto-elements: they do not actually exist. Yet, amid his often fanciful theories and wild speculations, Nicholson also proposed a novel theory about the structure of atoms. Niels Bohr, the Nobel prize-winning father of modern atomic theory, jumped off from this interesting idea to conceive his now-famous model of the atom.\n\nWhat are we to make of this story? One might simply conclude that science is a collective and cumulative enterprise. That may be true, but there may be a deeper insight to be gleaned. We propose that science is constantly evolving, much as species of animals do. In biological systems, organisms may display new characteristics that result from random genetic mutations. In the same way, random, arbitrary or accidental mutations of ideas may help pave the way for advances in science. If mutations prove beneficial, then the animal or the scientific theory will continue to thrive and perhaps reproduce.\n\nSupport for this evolutionary view of behavioral innovation comes from many domains. Consider one example of an influential innovation in US horseracing. The so-called 'acey-deucy' stirrup placement, in which the rider's foot in his left stirrup is placed as much as 25 centimeters lower than the right, is believed to confer important speed advantages when turning on oval tracks. It was developed by a relatively unknown jockey named Jackie Westrope. Had Westrope conducted methodical investigations or examined extensive film records in a shrewd plan to outrun his rivals? Had he foreseen the speed advantage that would be conferred by riding acey-deucy? No. He suffered a leg injury, which left him unable to fully bend his left knee. His modification just happened to coincide with enhanced left-hand turning performance. This led to the rapid and widespread adoption of riding acey-deucy by many riders, a racing style which continues in today's thoroughbred racing.\n\nPlenty of other stories show that fresh advances can arise from error, misadventure, and also pure serendipity – a happy accident. For example, in the early 1970s, two employees of the company 3M each had a problem: Spencer Silver had a product – a glue which was only slightly sticky – and no use for it, while his colleague Art Fry was trying to figure out how to affix temporary bookmarks in his hymn book without damaging its pages. The solution to both these problems was the invention of the brilliantly simple yet phenomenally successful Post-It note. Such examples give lie to the claim that ingenious, designing minds are responsible for human creativity and invention. Far more banal and mechanical forces may be at work; forces that are fundamentally connected to the laws of science.\n\nThe notions of insight, creativity and genius are often invoked, but they remain vague and of doubtful scientific utility, especially when one considers the diverse and enduring contributions of individuals such as Plato, Leonardo da Vinci, Shakespeare, Beethoven, Galileo, Newton, Kepler, Curie, Pasteur and Edison. These notions merely label rather than explain the evolution of human innovations. We need another approach, and there is a promising candidate.\n\nThe Law of Effect was advanced by psychologist Edward Thorndike in 1898, some 40 years after Charles Darwin published his groundbreaking work on biological evolution, On the Origin of Species. This simple law holds that organisms tend to repeat successful behaviors and to refrain from performing unsuccessful ones. Just like Darwin's Law of Natural Selection, the Law of Effect involves an entirely mechanical process of variation and selection, without any end objective in sight.\n\nOf course, the origin of human innovation demands much further study. In particular, the provenance of the raw material on which the Law of Effect operates is not as clearly known as that of the genetic mutations on which the Law of Natural Selection operates. The generation of novel ideas and behaviors may not be entirely random, but constrained by prior successes and failures – of the current individual (such as Bohr) or of predecessors (such as Nicholson).\n\nThe time seems right for abandoning the naive notions of intelligent design and genius, and for scientifically exploring the true origins of creative behavior.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb05",
+    "sample_id": "questions_ielts_17_test2_passage3_627t7j_to_l5_r6_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_17_test2_passage3_627t7j",
+    "source_dataset": "questions",
+    "source_file": "ielts_17_test2_passage3_627t7j.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Two scientists consider the origins of discoveries and other innovative behavior\n\nScientific discovery is popularly believed to result from the sheer genius of such intellectual stars as naturalist Charles Darwin and theoretical physicist Albert Einstein; our view of such unique contributions to science often disregards the person's prior experience and the efforts of their lesser-known predecessors — Conventional wisdom also places great weight on insight in promoting breakthrough scientific achievements, as if ideas spontaneously pop into someone's head – fully formed and functional.\n\nThere may be some limited truth to this view; however, we believe that it largely misrepresents the real nature of scientific discovery, as well as that of creativity and innovation in many other realms of human endeavor.\n\nSetting aside such greats as Darwin and Einstein – whose monumental contributions are duly celebrated – we suggest that innovation is more a process of trial and error, where two steps forward may sometimes come with one step back, as well as one or more steps to the right or left; this evolutionary view of human innovation undermines the notion of creative genius and recognizes the cumulative nature of scientific progress.\n\nConsider one unheralded scientist: John Nicholson, a mathematical physicist working in the 1910s who postulated the existence of 'proto-elements' in outer space; by combining different numbers of weights of these proto-elements' atoms, Nicholson could recover the weights of all the elements in the then-known periodic table; these successes are all the more noteworthy given the fact that Nicholson was wrong about the presence of proto-elements: they do not actually exist. Yet, amid his often fanciful theories and wild speculations, Nicholson also proposed a novel theory about the structure of atoms — Niels Bohr, the Nobel prize-winning father of modern atomic theory, jumped off from this interesting idea to conceive his now-famous model of the atom.\n\nWhat are we to make of this story? One might simply conclude that science is a collective and cumulative enterprise; that may be true, but there may be a deeper insight to be gleaned. We propose that science is constantly evolving, much as species of animals do; in biological systems, organisms may display new characteristics that result from random genetic mutations. In the same way, random, arbitrary or accidental mutations of ideas may help pave the way for advances in science; if mutations prove beneficial, then the animal or the scientific theory will continue to thrive and perhaps reproduce.\n\nSupport for this evolutionary view of behavioral innovation comes from many domains; consider one example of an influential innovation in US horseracing. The so-called 'acey-deucy' stirrup placement, in which the rider's foot in his left stirrup is placed as much as 25 centimeters lower than the right, is believed to confer important speed advantages when turning on oval tracks; it was developed by a relatively unknown jockey named Jackie Westrope. Had Westrope conducted methodical investigations or examined extensive film records in a shrewd plan to outrun his rivals; had he foreseen the speed advantage that would be conferred by riding acey-deucy? No; he suffered a leg injury, which left him unable to fully bend his left knee. His modification just happened to coincide with enhanced left-hand turning performance; this led to the rapid and widespread adoption of riding acey-deucy by many riders, a racing style which continues in today's thoroughbred racing.\n\nPlenty of other stories show that fresh advances can arise from error, misadventure, and also pure serendipity – a happy accident; for example, in the early 1970s, two employees of the company 3M each had a problem: Spencer Silver had a product – a glue which was only slightly sticky – and no use for it, while his colleague Art Fry was trying to figure out how to affix temporary bookmarks in his hymn book without damaging its pages. The solution to both these problems was the invention of the brilliantly simple yet phenomenally successful Post-It note. Such examples give lie to the claim that ingenious, designing minds are responsible for human creativity and invention. Far more banal and mechanical forces may be at work; forces that are fundamentally connected to the laws of science.\n\nThe notions of insight, creativity and genius are often invoked, but they remain vague and of doubtful scientific utility, especially when one considers the diverse and enduring contributions of individuals such as Plato, Leonardo da Vinci, Shakespeare, Beethoven, Galileo, Newton, Kepler, Curie, Pasteur and Edison. These notions merely label rather than explain the evolution of human innovations. We need another approach, and there is a promising candidate.\n\nThe Law of Effect was advanced by psychologist Edward Thorndike in 1898, some 40 years after Charles Darwin published his groundbreaking work on biological evolution, On the Origin of Species. This simple law holds that organisms tend to repeat successful behaviors and to refrain from performing unsuccessful ones. Just like Darwin's Law of Natural Selection, the Law of Effect involves an entirely mechanical process of variation and selection, without any end objective in sight.\n\nOf course, the origin of human innovation demands much further study. In particular, the provenance of the raw material on which the Law of Effect operates is not as clearly known as that of the genetic mutations on which the Law of Natural Selection operates. The generation of novel ideas and behaviors may not be entirely random, but constrained by prior successes and failures – of the current individual (such as Bohr) or of predecessors (such as Nicholson).\n\nThe time seems right for abandoning the naive notions of intelligent design and genius, and for scientifically exploring the true origins of creative behavior.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 938,
+    "sentence_count": 44,
+    "avg_sentence_len": 21.32,
+    "avg_word_len": 5.21,
+    "syllable_count": 1663,
+    "complex_word_count": 71,
+    "complex_word_ratio": 0.08,
+    "flesch_reading_ease": 35.21,
+    "flesch_kincaid_grade": 13.64,
+    "ari": 13.79,
+    "coleman_liau": 13.47,
+    "gunning_fog": 11.55
+  },
+  "final_metrics": {
+    "word_count": 938,
+    "sentence_count": 28,
+    "avg_sentence_len": 33.5,
+    "avg_word_len": 5.21,
+    "syllable_count": 1663,
+    "complex_word_count": 71,
+    "complex_word_ratio": 0.08,
+    "flesch_reading_ease": 22.84,
+    "flesch_kincaid_grade": 18.4,
+    "ari": 19.88,
+    "coleman_liau": 13.98,
+    "gunning_fog": 16.43
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_1_to_2;dist=1.2958;center_gap=4.01;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=16;est_wb=80;est_sb=12;lf=1.25;df=1.55;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 938,
+        "sentence_count": 44,
+        "avg_sentence_len": 21.32,
+        "avg_word_len": 5.21,
+        "syllable_count": 1663,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 35.21,
+        "flesch_kincaid_grade": 13.64,
+        "ari": 13.79,
+        "coleman_liau": 13.47,
+        "gunning_fog": 11.55
+      },
+      "distance_to_target": 1.2958,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 55,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1604,
+        "completion_tokens": 12625,
+        "total_tokens": 14229,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_1_to_2;dist=1.2958;center_gap=4.01;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=16;est_wb=80;est_sb=12;lf=1.25;df=1.55;af=1.0000;pg=1.2958;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 938,
+        "sentence_count": 44,
+        "avg_sentence_len": 21.32,
+        "avg_word_len": 5.21,
+        "syllable_count": 1663,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 35.21,
+        "flesch_kincaid_grade": 13.64,
+        "ari": 13.79,
+        "coleman_liau": 13.47,
+        "gunning_fog": 11.55
+      },
+      "distance_to_target": 1.2958,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 55,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3208,
+        "completion_tokens": 21828,
+        "total_tokens": 25036,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach (sentence-length-only: mixture of merging and strategic punctuation changes to increase syntactic complexity while strictly preserving original wording and facts)|applied_edits=14|tier=dist_1_to_2;dist=1.2958;center_gap=4.01;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=16;est_wb=80;est_sb=12;lf=1.25;df=1.55;af=1.0000;pg=1.2958;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 938,
+        "sentence_count": 28,
+        "avg_sentence_len": 33.5,
+        "avg_word_len": 5.21,
+        "syllable_count": 1663,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 22.84,
+        "flesch_kincaid_grade": 18.4,
+        "ari": 19.88,
+        "coleman_liau": 13.98,
+        "gunning_fog": 16.43
+      },
+      "distance_to_target": 0.0575,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 55,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4812,
+        "completion_tokens": 34567,
+        "total_tokens": 39379,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 55,
+    "number_total": 3,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 4812,
+    "completion_tokens": 34567,
+    "total_tokens": 39379,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T13:44:15.596Z"
+}

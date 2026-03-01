@@ -1,0 +1,140 @@
+{
+  "article_id": "03ea8fa2-68b0-41fc-8d6b-028774560099",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation is a key part of life in cities around the world. Buses, trains, subways, and trams carry millions of people every day. These systems help reduce traffic jams and make travel quicker for everyone. In big cities like London and New York, most workers use public transport to get to their jobs. This keeps roads less crowded and lets people relax instead of driving.\n\nOne main benefit of public transportation is its effect on the environment. A single bus can replace many cars on the road. This means less fuel use and fewer harmful gases in the air. Cities with strong public systems often have cleaner air and less smog. For example, places like Tokyo and Paris have cut pollution by expanding their train networks. Riders also save money. Bus or train tickets cost far less than buying gas or paying for parking. Governments spend less on new roads when more people ride public transport.\n\nDespite these advantages, public transportation faces some challenges. Rush hour crowds make rides uncomfortable for many people. Delays from accidents or bad weather can upset schedules. In rural areas, services run less often, so people there rely more on cars. To fix these issues, cities are making changes. They add more buses and trains during busy times. New apps let riders check real-time arrivals and plan trips easily.\n\nLooking ahead, technology will improve public transportation even more. Electric buses and trains produce no exhaust fumes. Contactless cards and mobile payments make buying tickets simple. Bike-sharing programs connect with bus stops for last-mile travel. Some cities test driverless trains to cut costs and boost safety. As urban areas grow, strong public systems will be vital for sustainable living. They help cities handle more people while keeping life efficient and green.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb06",
+    "sample_id": "generated_1935319b-6d42-4309-99eb-fdf7003928ae_to_l3_r2_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "1935319b-6d42-4309-99eb-fdf7003928ae",
+    "source_dataset": "generated",
+    "source_file": "1935319b-6d42-4309-99eb-fdf7003928ae.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation constitutes a fundamental component of urban existence across the globe. Buses, trains, subways, and trams carry millions of people every day. These systems facilitate the alleviation of traffic congestion and expedite travel for the populace. In big cities like London and New York, most workers use public transport to get to their jobs. This maintains reduced road congestion and permits commuters to repose rather than operate vehicles.\n\nA principal advantage of public transportation is its environmental impact. A single bus can replace many cars on the road. This signifies diminished fuel consumption and a reduction of pernicious atmospheric emissions. Cities with strong public systems often have cleaner air and less smog. For example, places like Tokyo and Paris have cut pollution by expanding their train networks. Patrons also realize financial savings. Bus or train tickets cost far less than buying gas or paying for parking. Governments spend less on new roads when more people ride public transport.\n\nNotwithstanding these merits, public transportation confronts several challenges. Peak-hour congestion renders commutes disagreeable for numerous passengers. Disruptions precipitated by incidents or inclement conditions can dislocate timetables. In rural areas, services run less often, so people there rely more on cars. To rectify these issues, municipal authorities are implementing modifications. They add more buses and trains during busy times. New apps let riders check real-time arrivals and plan trips easily.\n\nProspectively, technological innovation will further enhance public transportation. Electric buses and trains produce no exhaust fumes. Contactless cards and mobile payments simplify fare procurement. Bike-sharing programs connect with bus stops to address the terminal leg of a journey. Some cities test driverless trains to cut costs and boost safety. As metropolitan regions expand, robust public transit systems will be indispensable for sustainable habitation. They enable urban centers to accommodate greater populations while maintaining operational efficiency and ecological integrity.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 299,
+    "sentence_count": 27,
+    "avg_sentence_len": 11.07,
+    "avg_word_len": 4.97,
+    "syllable_count": 450,
+    "complex_word_count": 7,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 68.27,
+    "flesch_kincaid_grade": 6.49,
+    "ari": 7.52,
+    "coleman_liau": 10.75,
+    "gunning_fog": 5.37
+  },
+  "final_metrics": {
+    "word_count": 309,
+    "sentence_count": 27,
+    "avg_sentence_len": 11.44,
+    "avg_word_len": 5.84,
+    "syllable_count": 582,
+    "complex_word_count": 28,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 35.88,
+    "flesch_kincaid_grade": 11.1,
+    "ari": 11.82,
+    "coleman_liau": 15.98,
+    "gunning_fog": 8.2
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=LEXICAL|applied_edits=15|tier=coarse_jump;dist=3.4675;dir=harder;est_wb=61;est_sb=10",
+      "metrics": {
+        "word_count": 309,
+        "sentence_count": 27,
+        "avg_sentence_len": 11.44,
+        "avg_word_len": 5.84,
+        "syllable_count": 582,
+        "complex_word_count": 28,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 35.88,
+        "flesch_kincaid_grade": 11.1,
+        "ari": 11.82,
+        "coleman_liau": 15.98,
+        "gunning_fog": 8.2
+      },
+      "distance_to_target": 0.775,
+      "fidelity": {
+        "overall": 0.8677,
+        "entity_recall": 0.7727,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 22,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 681,
+        "completion_tokens": 2845,
+        "total_tokens": 3526,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8677,
+    "entity_recall": 0.7727,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 22,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 2845,
+    "total_tokens": 3526,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:30:37.652Z"
+}

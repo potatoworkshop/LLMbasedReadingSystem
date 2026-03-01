@@ -1,0 +1,139 @@
+{
+  "article_id": "4631640f-ce08-4576-a3d5-a135dbec083e",
+  "mode": "difficulty_adjust",
+  "original_article": "In the first half of the 1800s, London's population grew at an astonishing rate, and the central area became increasingly congested. In addition, the expansion of the overground railway network resulted in more and more passengers arriving in the capital. However, in 1846, a Royal Commission decided that the railways should not be allowed to enter the City, the capital's historic and business centre. The result was that the overground railway stations formed a ring around the City. The area within consisted of poorly built, overcrowded slums and the streets were full of horse-drawn traffic. Crossing the City became a nightmare. It could take an hour and a half to travel 8 km by horse-drawn carriage or bus. Numerous schemes were proposed to resolve these problems, but few succeeded.\n\nAmongst the most vocal advocates for a solution to London's traffic problems was Charles Pearson, who worked as a solicitor for the City of London. He saw both social and economic advantages in building an underground railway that would link the overground railway stations together and clear London slums at the same time. His idea was to relocate the poor workers who lived in the inner-city slums to newly constructed suburbs, and to provide cheap rail travel for them to get to work. Pearson's ideas gained support amongst some businessmen and in 1851 he submitted a plan to Parliament. It was rejected, but coincided with a proposal from another group for an underground connecting line, which Parliament passed.\n\nThe two groups merged and established the Metropolitan Railway Company in August 1854. The company's plan was to construct an underground railway line from the Great Western Railway's (GWR) station at Paddington to the edge of the City at Farringdon Street – a distance of almost 5 km. The organisation had difficulty in raising the funding for such a radical and expensive scheme, not least because of the critical articles printed by the press. Objectors argued that the tunnels would collapse under the weight of traffic overhead, buildings would be shaken and passengers would be poisoned by the emissions from the train engines. However, Pearson and his partners persisted.\n\nThe GWR, aware that the new line would finally enable them to run trains into the heart of the City, invested almost £250,000 in the scheme. Eventually, over a five-year period, £1m was raised. The chosen route ran beneath existing main roads to minimise the expense of demolishing buildings. Originally scheduled to be completed in 21 months, the construction of the underground line took three years. It was built just below street level using a technique known as 'cut and cover'. A trench about ten metres wide and six metres deep was dug, and the sides temporarily held up with timber beams. Brick walls were then constructed, and finally a brick arch was added to create a tunnel. A two-metre-deep layer of soil was laid on top of the tunnel and the road above rebuilt.\n\nThe Metropolitan line, which opened on 10 January 1863, was the world's first underground railway. On its first day, almost 40,000 passengers were carried between Paddington and Farringdon, the journey taking about 18 minutes. By the end of the Metropolitan's first year of operation, 9.5 million journeys had been made.\n\nEven as the Metropolitan began operation, the first extensions to the line were being authorised; these were built over the next five years, reaching Moorgate in the east of London and Hammersmith in the west. The original plan was to pull the trains with steam locomotives, using firebricks in the boilers to provide steam, but these engines were never introduced. Instead, the line used specially designed locomotives that were fitted with water tanks in which steam could be condensed. However, smoke and fumes remained a problem, even though ventilation shafts were added to the tunnels.\n\nDespite the extension of the underground railway, by the 1880s, congestion on London's streets had become worse. The problem was partly that the existing underground lines formed a circuit around the centre of London and extended to the suburbs, but did not cross the capital's centre. The 'cut and cover' method of construction was not an option in this part of the capital. The only alternative was to tunnel deep underground.\n\nAlthough the technology to create these tunnels existed, steam locomotives could not be used in such a confined space. It wasn't until the development of a reliable electric motor, and a means of transferring power from the generator to a moving train, that the world's first deep-level electric railway, the City & South London, became possible. The line opened in 1890, and ran from the City to Stockwell, south of the River Thames. The trains were made up of three carriages and driven by electric engines. The carriages were narrow and had tiny windows just below the roof because it was thought that passengers would not want to look out at the tunnel walls. The line was not without its problems, mainly caused by an unreliable power supply. Although the City & South London Railway was a great technical achievement, it did not make a profit. Then, in 1900, the Central London Railway, known as the 'Tuppenny Tube', began operation using new electric locomotives. It was very popular and soon afterwards new railways and extensions were added to the growing tube network. By 1907, the heart of today's Underground system was in place.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb04",
+    "sample_id": "questions_ielts_17_test1_passage1_c27quj_to_l5_r3_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_17_test1_passage1_c27quj",
+    "source_dataset": "questions",
+    "source_file": "ielts_17_test1_passage1_c27quj.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "During the antebellum decades of the nineteenth century, London underwent a prodigious demographic expansion, precipitating severe and escalating congestion within its central precincts. Simultaneously, the proliferation of the overground railway network culminated in an inexorable influx of passengers into the metropolitan core. However, in 1846, a Royal Commission adjudicated and decreed that the railways should not be allowed to enter the City, the capital's historic and business centre. The resultant spatial configuration compelled overground termini to constitute a circumferential cordon around the City. The area within consisted of dilapidated and teeming tenements and the streets were full of horse-drawn traffic. Traversing the City devolved into a protracted and labyrinthine ordeal, with an 8-kilometer transit by horse-drawn conveyance consuming up to ninety minutes. Numerous a plethora of schemes were proffered to ameliorate these problems, but few succeeded.\n\nForemost among the vociferous advocates for a resolution to London's traffic impasse was Charles Pearson, who occupied the role of legal counsel for the City of London. Pearson discerned concomitant social and economic advantages in the construction of a subterranean railway, a venture designed to interconnect the peripheral overground termini while simultaneously eradicating inner-city slums. His conceptual framework entailed the translocation of the impoverished laboring class from insalubrious inner-city tenements to newly constructed suburban environs, coupled with the provision of subsidized rail transit for their daily commutes. Pearson's ideas garnered approbation amongst some businessmen and in 1851 he proffered a plan to Parliament. Although Pearson's specific plan was rebuffed, it converged temporally with a separate proposal from another consortium for an underground connecting line—a measure which Parliament subsequently ratified.\n\nThe two groups amalgamated and incorporated the Metropolitan Railway Company in August 1854. The corporate entity's objective was the fabrication of an underground railway line, spanning a distance of almost 5 kilometers, to connect the Great Western Railway's (GWR) terminus at Paddington with the City's periphery at Farringdon Street. The organization encountered protracted impediments in procuring the requisite capital for this unprecedented and exorbitant undertaking, a challenge exacerbated by the scathing editorials disseminated by the contemporary press. Detractors posited a triad of catastrophic prognoses: structural failure of the tunnels under superimposed traffic loads, deleterious vibrations compromising edifical integrity, and passenger asphyxiation from locomotive emanations. However, Pearson and his partners persevered with tenacity.\n\nCognizant that this new arterial link would finally facilitate direct ingress into the City's commercial heart, the GWR allocated a substantial investment of nearly £250,000 to the scheme. Ultimately, over a five-year period, £1m was procured. The selected trajectory was deliberately aligned subjacent to extant thoroughfares, a strategy intended to mitigate the considerable fiscal burden associated with the demolition of overlying structures. Projected for completion within a twenty-one-month timeframe, the realization of the underground line ultimately extended to a triennial duration. It was built just below street level using a methodology known as 'cut and cover'. Initial works involved excavating a trench approximately ten meters in width and six meters in depth, with its lateral sides provisionally shored by timber beams. Subsequently, brick walls were erected, culminating in the superimposition of a brick arch to form a coherent tunnel structure. Upon completion, a two-meter-deep stratum of soil was deposited atop the tunnel, after which the overlying roadway was meticulously reconstructed.\n\nInaugurated on 10 January 1863, the Metropolitan line constituted the world's inaugural subterranean railway system. On its inaugural day of service, nearly 40,000 passengers were conveyed between Paddington and Farringdon, a journey requiring a mere eighteen minutes. By the conclusion of the Metropolitan's initial operational year, an aggregate of 9.5 million passenger journeys had been recorded.\n\nConcurrent with the Metropolitan's operational commencement, the first extensions to the line were being sanctioned; constructed over the ensuing quinquennium, these new segments eventually radiated eastward to Moorgate and westward to Hammersmith. The original conception envisioned propelling the trains via steam locomotives utilizing refractory bricks within their boilers, yet this specific engine design was ultimately never implemented. Instead, the line deployed bespoke locomotives outfitted with condensing water tanks, engineered to liquefy exhaust steam. Notwithstanding the integration of aerating conduits within the tunnels, smoke and noxious vapors persisted as an intractable operational nuisance.\n\nDespite the proliferation of the underground railway network, by the 1880s, vehicular and pedestrian congestion on London's streets had become markedly exacerbated. This persistent problem was partly attributable to the extant underground network's configuration, which formed a peripheral loop around central London and radiated into the suburbs, yet conspicuously failed to traverse the capital's central core. In this densely built and historically significant central district, the 'cut and cover' construction methodology was deemed entirely nonviable. Consequently, the sole feasible engineering recourse was to excavate tunnels at profound subterranean depths.\n\nAlthough the requisite tunneling technology existed, the deployment of steam locomotives was precluded by the profoundly constricted subterranean environment. It was not until the advent of a dependable electric motor, coupled with the innovation of a mechanism for transmitting electrical power from a stationary generator to a moving train, that the realization of the world's first deep-level electric railway, the City & South London, became technologically feasible. The line commenced service in 1890, and ran from the City to Stockwell, south of the River Thames. The trains comprised a consist of three carriages, each individually propelled by dedicated electric engines. The carriages were notably constricted in girth and featured minuscule fenestration positioned just below the roofline, a design predicated upon the contemporaneous conjecture that passengers would be disinclined to gaze upon the proximate, monotonous tunnel walls. The line was not devoid of operational deficiencies, challenges primarily attributable to an erratic and unreliable power supply infrastructure. Notwithstanding its status as a monumental technical achievement, the City & South London Railway failed to generate a sustainable pecuniary surplus. Subsequently, in 1900, the Central London Railway, colloquially dubbed the 'Tuppenny Tube', commenced public service utilizing a new generation of electric locomotives. This line met with immediate and widespread public approbation, a success which, in rapid succession, precipitated the incorporation of additional new railways and extensions into the burgeoning tube network. By 1907, the essential core infrastructure of the contemporary London Underground system was firmly established.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 907,
+    "sentence_count": 48,
+    "avg_sentence_len": 18.9,
+    "avg_word_len": 4.89,
+    "syllable_count": 1445,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 52.87,
+    "flesch_kincaid_grade": 10.58,
+    "ari": 11.04,
+    "coleman_liau": 11.38,
+    "gunning_fog": 8.88
+  },
+  "final_metrics": {
+    "word_count": 1029,
+    "sentence_count": 47,
+    "avg_sentence_len": 21.89,
+    "avg_word_len": 6.11,
+    "syllable_count": 2160,
+    "complex_word_count": 140,
+    "complex_word_ratio": 0.14,
+    "flesch_reading_ease": 7.03,
+    "flesch_kincaid_grade": 17.72,
+    "ari": 18.28,
+    "coleman_liau": 18.75,
+    "gunning_fog": 14.2
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach combining advanced lexical substitutions and complex syntactic restructuring|applied_edits=50|tier=coarse_jump;dist=2.1767;dir=harder;est_wb=80;est_sb=17",
+      "metrics": {
+        "word_count": 1029,
+        "sentence_count": 47,
+        "avg_sentence_len": 21.89,
+        "avg_word_len": 6.11,
+        "syllable_count": 2160,
+        "complex_word_count": 140,
+        "complex_word_ratio": 0.14,
+        "flesch_reading_ease": 7.03,
+        "flesch_kincaid_grade": 17.72,
+        "ari": 18.28,
+        "coleman_liau": 18.75,
+        "gunning_fog": 14.2
+      },
+      "distance_to_target": 0.0792,
+      "fidelity": {
+        "overall": 0.9132,
+        "entity_recall": 0.878,
+        "number_recall": 0.9375,
+        "keyword_recall": 0.95,
+        "entity_total": 41,
+        "number_total": 16,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1656,
+        "completion_tokens": 9399,
+        "total_tokens": 11055,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9132,
+    "entity_recall": 0.878,
+    "number_recall": 0.9375,
+    "keyword_recall": 0.95,
+    "entity_total": 41,
+    "number_total": 16,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1656,
+    "completion_tokens": 9399,
+    "total_tokens": 11055,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:26:46.345Z"
+}

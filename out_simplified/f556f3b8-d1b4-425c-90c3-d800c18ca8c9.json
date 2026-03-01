@@ -1,0 +1,140 @@
+{
+  "article_id": "f556f3b8-d1b4-425c-90c3-d800c18ca8c9",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation is a vital part of life in many cities around the world. People rely on buses, trains, subways, and trams to travel to work, school, and shops. These systems move millions of passengers each day. They help cut down on traffic congestion on roads. Without public transport, streets would fill up with cars, causing long delays. Cities like London and New York have built large networks over many years. These networks make it easy for residents to move from one place to another. Public transport also saves money for users. A monthly bus pass costs less than owning a car. Fuel, insurance, and parking add up quickly for car owners. In contrast, public transport offers fixed fares that fit most budgets. Governments often subsidize these services to keep prices low. This approach encourages more people to leave their cars at home.\n\nDifferent types of public transport serve various needs. Buses run on regular routes through neighborhoods and connect to train stations. They are flexible and can change paths during road works. Trains and subways provide fast service over long distances. High-speed lines link city centers to suburbs in minutes. Trams offer a smooth ride in busy downtown areas. Electric models produce less noise and pollution than diesel buses. Many cities now use smart cards for payments. Riders tap a card to board and exit. This speeds up the process and reduces cash handling. Apps on phones give real-time updates on arrivals. Passengers know exactly when their bus or train will come. Such technology improves reliability and user satisfaction. However, peak hours bring crowds. Stations get packed, and waits can grow longer. Operators work to add more vehicles during rush times.\n\nPublic transportation brings key benefits to the environment. It cuts down carbon emissions from cars. One bus can replace up to 40 cars on the road. This lowers the amount of harmful gases in the air. Cleaner air means better health for city dwellers. Studies show fewer asthma cases in areas with strong public systems. Transport also saves energy. Trains use power more efficiently than single vehicles. Solar panels on bus stops add green energy sources. Some cities plant trees along routes to boost green spaces. Yet challenges remain. Building new lines costs billions of dollars. Land must be cleared, and tunnels dug deep underground. Delays in projects frustrate residents who need better service. Maintenance keeps old systems running. Tracks wear out, and signals fail without regular checks. Funding comes from taxes and fares, but budgets stay tight. During pandemics, ridership drops as people fear crowds. Operators lose money and cut services.\n\nEfforts to improve public transport continue worldwide. Bike-sharing programs link with bus stops for last-mile trips. Electric buses charge at depots overnight. Autonomous shuttles test routes in quiet zones. Data from sensors helps plan better schedules. Cities learn from each other. Tokyo's punctual trains set a high standard. Singapore mixes buses and trains with driverless pods. In Europe, high-speed rails connect nations. These links boost trade and tourism. Public support grows as benefits become clear. Polls show most people favor more investment. Governments respond with long-term plans. By 2030, many aim for zero-emission fleets. Riders want safer, cleaner options. Security cameras and staff patrols build trust. Accessibility features help the elderly and disabled. Ramps and voice announcements make travel open to all. Public transport shapes the future of cities. It promotes fair access and sustainable growth. As urban populations rise, strong systems will prove essential.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_0c413512-f7ee-4e64-b5f2-e35d46dc7ad7_to_l1_r8_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "0c413512-f7ee-4e64-b5f2-e35d46dc7ad7",
+    "source_dataset": "generated",
+    "source_file": "0c413512-f7ee-4e64-b5f2-e35d46dc7ad7.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation is a vital part of life in many cities around the world. People rely on buses, trains, subways, and trams. They use them to travel to work, school, and shops. These systems move millions of passengers each day. They help cut down on traffic congestion on roads. Without public transport, streets would fill up with cars, causing long delays. Cities like London and New York have built large networks. They developed these systems over many years. These networks make it easy for residents to move from one place to another. Public transport also saves money for users. A monthly bus pass costs less than owning a car. Fuel, insurance, and parking add up quickly for car owners. In contrast, public transport offers fixed fares that fit most budgets. Governments often subsidize these services to keep prices low. This approach encourages more people to leave their cars at home.\n\nDifferent types of public transport serve various needs. Buses run on regular routes through neighborhoods. They connect to train stations. They are flexible and can change paths during road works. Trains and subways provide fast service. They cover long distances. High-speed lines link city centers to suburbs in minutes. Trams offer a smooth ride in busy downtown areas. Electric models produce less noise and pollution than diesel buses. Many cities now use smart cards for payments. Riders tap a card to board and exit. This speeds up the process and reduces cash handling. Apps give real-time updates. People check arrival times on their phones. Passengers know exactly when their bus or train will come. Such technology improves reliability and user satisfaction. However, peak hours bring crowds. Stations get packed. Waits can grow longer. Operators work to add more vehicles during rush times.\n\nPublic transportation brings key benefits to the environment. It cuts down carbon emissions from cars. One bus can replace up to 40 cars on the road. This lowers the amount of harmful gases in the air. Cleaner air means better health for city dwellers. Studies show fewer asthma cases in areas with strong public systems. Transport also saves energy. Trains use power more efficiently than single vehicles. Solar panels on bus stops add green energy sources. Some cities plant trees along routes to boost green spaces. Yet challenges remain. Building new lines costs billions of dollars. Land must be cleared. Tunnels are dug deep underground. Delays in projects frustrate residents who need better service. Maintenance keeps old systems running. Tracks wear out, and signals fail without regular checks. Funding comes from taxes and fares. Budgets stay tight. During pandemics, ridership drops as people fear crowds. Operators lose money and cut services.\n\nEfforts to improve public transport continue worldwide. Bike-sharing programs link with bus stops for last-mile trips. Electric buses charge at depots overnight. Autonomous shuttles test routes in quiet zones. Data from sensors helps plan better schedules. Cities learn from each other. Tokyo's punctual trains set a high standard. Singapore mixes buses and trains with driverless pods. In Europe, high-speed rails connect nations. These links boost trade and tourism. Public support grows as benefits become clear. Polls show most people favor more investment. Governments respond with long-term plans. By 2030, many aim for zero-emission fleets. Riders want safer, cleaner options. Security cameras and staff patrols build trust. Accessibility features help the elderly and disabled. Ramps and voice announcements make travel open to all. Public transport shapes the future of cities. It promotes fair access and sustainable growth. As urban populations rise, strong systems will prove essential.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 586,
+    "sentence_count": 69,
+    "avg_sentence_len": 8.49,
+    "avg_word_len": 5.15,
+    "syllable_count": 925,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 64.67,
+    "flesch_kincaid_grade": 6.35,
+    "ari": 7.07,
+    "coleman_liau": 11,
+    "gunning_fog": 4.35
+  },
+  "final_metrics": {
+    "word_count": 595,
+    "sentence_count": 77,
+    "avg_sentence_len": 7.73,
+    "avg_word_len": 5.16,
+    "syllable_count": 939,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 65.48,
+    "flesch_kincaid_grade": 6.05,
+    "ari": 6.75,
+    "coleman_liau": 10.73,
+    "gunning_fog": 4.03
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC: split and rephrase selected longer sentences into shorter sentences to improve readability|applied_edits=8|tier=dist_lt_1;dist=0.1925;center_gap=1.12;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=8;est_wb=79;est_sb=24;lf=0.99;df=1.00;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 595,
+        "sentence_count": 77,
+        "avg_sentence_len": 7.73,
+        "avg_word_len": 5.16,
+        "syllable_count": 939,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 65.48,
+        "flesch_kincaid_grade": 6.05,
+        "ari": 6.75,
+        "coleman_liau": 10.73,
+        "gunning_fog": 4.03
+      },
+      "distance_to_target": 0.11,
+      "fidelity": {
+        "overall": 0.9908,
+        "entity_recall": 0.9796,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 49,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1137,
+        "completion_tokens": 7546,
+        "total_tokens": 8683,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9908,
+    "entity_recall": 0.9796,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 49,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 7546,
+    "total_tokens": 8683,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:21:47.866Z"
+}

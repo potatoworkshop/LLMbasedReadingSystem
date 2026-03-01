@@ -1,0 +1,59 @@
+{
+  "article_id": "f7a1598e-8c4d-4f56-943b-5d28402f2176",
+  "topic": "public transportation",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Moving People in Modern Cities",
+  "article": [
+    "Public transportation is a very important part of life in many big cities today. It includes buses, trains, and subways that carry people from one place to another. Millions of people use these systems every single day to go to work or school. Using a bus or a train is often much cheaper than owning a private car. You do not have to pay for expensive gas or parking spots. Many cities also have special lanes for buses so they can move faster than cars in traffic. This helps people save a lot of time during the busy morning hours. When more people use public transit, there are fewer cars on the road. This makes the air cleaner and reduces noise in the streets. Most cities try to make their stations very easy to find and use for everyone. They use bright signs and loud speakers to give clear information to the passengers. Traveling this way is safe and helps the whole community stay connected.",
+    "Trains and subways are some of the fastest ways to travel across a large city. Subways run on tracks that are built deep under the ground. Because they are underground, they do not have to stop for red lights or heavy traffic. This means they can arrive at the station at the exact same time every day. Many people like this because it makes planning a trip very simple. Modern trains are also very comfortable and have large windows to look at the view. Some new trains even use electricity instead of old fuels like oil. This is much better for the environment because it does not create dirty smoke. Engineers work hard to make sure the tracks stay in good condition for the riders. They check the wheels and the engines every night to keep everyone safe. When a city has a good train system, people can live far away from the center and still reach their jobs quickly.",
+    "Buses are another common choice for people who need to move around town. Buses can go to many places where trains cannot reach. They stop at almost every corner to pick up passengers who are waiting. Most buses have a low floor so that older people and people in wheelchairs can get on easily. Drivers must follow a strict schedule so that nobody has to wait too long at the bus stop. In some places, you can even use a phone app to see exactly where your bus is located. This technology makes using public transportation much more convenient than it was in the past. It is also a very social way to travel because you can see your neighbors and friends. You can read a book or listen to music while someone else does the driving. This allows you to relax before you start your busy day at work.",
+    "Planning for the future of public transportation is a big job for city leaders. They want to make sure that everyone can afford a ticket to ride. Some cities are even trying to make buses free for all students and workers. They are also building new paths for bicycles near the train stations. This helps people reach the station without needing a car at all. Using multiple types of transport is called a network. A strong network helps a city grow and stay healthy. It allows businesses to find more workers and helps shops get more customers. As technology gets better, we will see even more electric buses and faster trains. These changes will make our cities quieter and more pleasant places to live. Public transportation is not just about moving people; it is about making life better for everyone in the world. By choosing to ride together, we can protect our planet and build a better future for our children."
+  ],
+  "metrics": {
+    "word_count": 636,
+    "sentence_count": 45,
+    "avg_sentence_len": 14.13,
+    "avg_word_len": 4.41,
+    "syllable_count": 889,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 74.24,
+    "flesch_kincaid_grade": 6.42,
+    "ari": 6.39,
+    "coleman_liau": 8.01,
+    "gunning_fog": 6.28
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "public_transportation_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:37:33.592Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 36
+  },
+  "token_usage": {
+    "prompt_tokens": 602,
+    "completion_tokens": 1758,
+    "total_tokens": 2360,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:37:33.592Z"
+}

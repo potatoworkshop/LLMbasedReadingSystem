@@ -1,0 +1,139 @@
+{
+  "article_id": "01ba9da7-4fdb-4d7d-b52b-2332d6948e2b",
+  "mode": "difficulty_adjust",
+  "original_article": "The Happiness Industry: How the Government and Big Business Sold Us Well-Being By William Davies\n\n'Happiness is the ultimate goal because it is self-evidently good. If we are asked why happiness matters we can give no further external reason. It just obviously does matter.' This pronouncement by Richard Layard, an economist and advocate of 'positive psychology', summarises the beliefs of many people today. For Layard and others like him, it is obvious that the purpose of government is to promote a state of collective well-being. The only question is how to achieve it, and here positive psychology - a supposed science that not only identifies what makes people happy but also allows their happiness to be measured - can show the way. Equipped with this science, they say, governments can secure happiness in society in a way they never could in the past.\n\nIt is an astonishingly crude and simple-minded way of thinking, and for that very reason increasingly popular. Those who think in this way are oblivious to the vast philosophical literature in which the meaning and value of happiness have been explored and questioned, and write as if nothing of any importance had been thought on the subject until it came to their attention. It was the philosopher Jeremy Bentham (1748-1832) who was more than anyone else responsible for the development of this way of thinking. For Bentham it was obvious that the human good consists of pleasure and the absence of pain. The Greek philosopher Aristotle may have identified happiness with self-realisation in the 4th century BC, and thinkers throughout the ages may have struggled to reconcile the pursuit of happiness with other human values, but for Bentham all this was mere metaphysics or fiction. Without knowing anything much of him or the school of moral theory he established - since they are by education and intellectual conviction illiterate in the history of ideas - our advocates of positive psychology follow in his tracks in rejecting as outmoded and irrelevant pretty much the entirety of ethical reflection on human happiness to date.\n\nBut as William Davies notes in his recent book The Happiness Industry, the view that happiness is the only self-evident good is actually a way of limiting moral inquiry. One of the virtues of this rich, lucid and arresting book is that it places the current cult of happiness in a well-defined historical framework. Rightly, Davies begins his story with Bentham, noting that he was far more than a philosopher. Davies writes, 'Bentham's activities were those which we might now associate with a public sector management consultant'. In the 1790s, he wrote to the Home Office suggesting that the departments of government be linked together through a set of 'conversation tubes', and to the Bank of England with a design for a printing device that could produce unforgeable banknotes. He drew up plans for a 'frigidarium' to keep provisions such as meat, fish, fruit and vegetables fresh. His celebrated design for a prison to be known as a 'Panopticon', in which prisoners would be kept in solitary confinement while being visible at all times to the guards, was very nearly adopted. (Surprisingly, Davies does not discuss the fact that Bentham meant his Panopticon not just as a model prison but also as an instrument of control that could be applied to schools and factories.)\n\nBentham was also a pioneer of the 'science of happiness'. If happiness is to be regarded as a science, it has to be measured, and Bentham suggested two ways in which this might be done. Viewing happiness as a complex of pleasurable sensations, he suggested that it might be quantified by measuring the human pulse rate. Alternatively, money could be used as the standard for quantification: if two different goods have the same price, it can be claimed that they produce the same quantity of pleasure in the consumer. Bentham was more attracted by the latter measure. By associating money so closely to inner experience, Davies writes, Bentham 'set the stage for the entangling of psychological research and capitalism that would shape the business practices of the twentieth century'.\n\nThe Happiness Industry describes how the project of a science of happiness has become integral to capitalism. We learn much that is interesting about how economic problems are being redefined and treated as psychological maladies. In addition, Davies shows how the belief that inner states of pleasure and displeasure can be objectively measured has informed management studies and advertising. The tendency of thinkers such as J B Watson, the founder of behaviourism*, was that human beings could be shaped, or manipulated, by policymakers and managers. Watson had no factual basis for his view of human action. When he became president of the American Psychological Association in 1915, he 'had never even studied a single human being': his research had been confined to experiments on white rats. Yet Watson's reductive model is now widely applied, with 'behaviour change' becoming the goal of governments: in Britain, a 'Behaviour Insights Team' has been established by the government to study how people can be encouraged, at minimum cost to the public purse, to live in what are considered to be socially desirable ways.\n\nModem industrial societies appear to need the possibility of ever-increasing happiness to motivate them in their labours. But whatever its intellectual pedigree, the idea that governments should be responsible for promoting happiness is always a threat to human freedom.\n\n* 'behaviourism': a branch of psychology which is concerned with observable behaviour",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb01",
+    "sample_id": "questions_ielts_13_test4_passage3_21ij7j_to_l1_r7_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test4_passage3_21ij7j",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test4_passage3_21ij7j.json"
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The Happiness Industry: How the Government and Big Business Sold Us Well-Being By William Davies\n\nRichard Layard is an economist who supports 'positive psychology'. He says happiness is the final aim. It is clearly good by itself. If asked why it matters, we can't find another reason. It just matters. This statement sums up what many believe today. For Layard and others like him, it is obvious that the purpose of government is to boost everyone's well-being. The only question is how. Here, positive psychology can show the way. This claimed science finds what makes people happy. It also lets their happiness be measured. Using this science, governments can make society happy in a new way. They could not do this in the past.\n\nThis is a very simple way of thinking. It is not deep. For that reason, it is getting more popular. These people are unaware of many philosophy books. These books look at and doubt the meaning and value of happiness. They write as if no important thoughts existed on the subject before they saw it. The philosopher Jeremy Bentham (1748-1832) was the main person behind this way of thinking. For Bentham, the human good was obvious. It is pleasure and no pain. The Greek philosopher Aristotle said happiness was about fulfilling yourself long ago. Other thinkers for ages had a hard time matching the search for happiness with other values. But Bentham saw all this as just abstract ideas or stories. Supporters of positive psychology do not know much about Bentham or his moral theory. They do not know the history of ideas. Yet they follow him. They say almost all past thinking about right and wrong and happiness is old and not important.\n\nBut as William Davies notes in his recent book The Happiness Industry, the view that happiness is the only self-evident good is actually a way of stopping deeper thinking about right and wrong. One strength of this detailed, clear, and surprising book is its clear history. It puts the current strong focus on happiness in that history. Rightly, Davies begins his story with Bentham, noting that he was far more than a philosopher. Davies writes that Bentham's work was like a government advisor's work today. In the 1790s, he wrote to the Home Office. He suggested linking government departments with 'speaking tubes'. He also wrote to the Bank of England with a plan for a printer. It could make banknotes that cannot be copied. He made plans for a 'frigidarium' to keep food such as meat, fish, fruit and vegetables fresh. His famous plan was for a prison called a 'Panopticon'. Prisoners would be alone but always seen by guards. This plan was almost used. (Surprisingly, Davies does not discuss the fact that Bentham meant his Panopticon not just as a model prison but also as an instrument of control that could be applied to schools and factories.)\n\nBentham was also an early leader of the 'science of happiness'. If happiness is seen as a science, it must be measured. Bentham suggested two ways to do this. He saw happiness as a mix of good feelings. He said we could measure a person's heartbeat to give it a number. Or, money could be the measuring tool. If two things cost the same, they likely give the buyer the same pleasure. Bentham was liked the second way more. Davies writes that Bentham linked money tightly to personal feelings. This 'paved the way for mixing psychology and capitalism. That mix shaped 20th-century business.'\n\nThe Happiness Industry describes how the project of a science of happiness has become a key part of capitalism. We learn interesting things. Economic problems are now seen as mental health problems. Also, Davies shows a belief. The belief is that personal pleasure and displeasure can be measured. This has shaped business studies and ads. Thinkers like J B Watson thought a certain way. Watson created behaviourism*. He thought people could be controlled or steered by leaders and managers. Watson had no proof for his view of how humans act. He became president of the American Psychological Association in 1915. Yet, he 'had never even studied a single human being'. His research was only on white rats. Yet Watson's simple idea is now used a lot. 'Behaviour change' is a government goal. In Britain, a 'Behaviour Insights Team' was set up. It studies how to encourage people to live as society wants. It tries to do this at the lowest cost to taxpayers.\n\nModern factory societies seem to need a belief. They need to believe people can always get happier. This belief keeps them working. But no matter its history, one idea is always a danger to freedom. The idea is that governments should be in charge of making people happy.\n\n* 'behaviourism': a branch of psychology which is concerned with observable behaviour",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 923,
+    "sentence_count": 37,
+    "avg_sentence_len": 24.95,
+    "avg_word_len": 5.02,
+    "syllable_count": 1556,
+    "complex_word_count": 56,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 38.9,
+    "flesch_kincaid_grade": 14.03,
+    "ari": 14.66,
+    "coleman_liau": 12.5,
+    "gunning_fog": 12.41
+  },
+  "final_metrics": {
+    "word_count": 817,
+    "sentence_count": 78,
+    "avg_sentence_len": 10.47,
+    "avg_word_len": 4.67,
+    "syllable_count": 1241,
+    "complex_word_count": 24,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 67.7,
+    "flesch_kincaid_grade": 6.42,
+    "ari": 5.78,
+    "coleman_liau": 8.81,
+    "gunning_fog": 5.36
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach combining lexical substitutions and syntactic simplification.|applied_edits=33|tier=coarse_jump;dist=6.4000;dir=simpler;est_wb=80;est_sb=13",
+      "metrics": {
+        "word_count": 817,
+        "sentence_count": 78,
+        "avg_sentence_len": 10.47,
+        "avg_word_len": 4.67,
+        "syllable_count": 1241,
+        "complex_word_count": 24,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 67.7,
+        "flesch_kincaid_grade": 6.42,
+        "ari": 5.78,
+        "coleman_liau": 8.81,
+        "gunning_fog": 5.36
+      },
+      "distance_to_target": 0.4075,
+      "fidelity": {
+        "overall": 0.9308,
+        "entity_recall": 0.8684,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 38,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1422,
+        "completion_tokens": 7569,
+        "total_tokens": 8991,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9308,
+    "entity_recall": 0.8684,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 38,
+    "number_total": 3,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1422,
+    "completion_tokens": 7569,
+    "total_tokens": 8991,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:46:04.395Z"
+}

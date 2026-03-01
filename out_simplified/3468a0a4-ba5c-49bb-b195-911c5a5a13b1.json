@@ -1,0 +1,176 @@
+{
+  "article_id": "3468a0a4-ba5c-49bb-b195-911c5a5a13b1",
+  "mode": "difficulty_adjust",
+  "original_article": "27\n\nAArtificial intelligence (AI) can already predict the future. Police forces are using it to map when and where crime is likely to occur. Doctors can use it to predict when a patient is most likely to have a heart attack or stroke. Researchers are even trying to give AI imagination so it can plan for unexpected consequences.\n\nMany decisions in our lives require a good forecast, and AI is almost always better at forecasting than we are. Yet for all these technological advances, we still seem to deeply lack confidence in AI predictions. Recent cases show that people don`t like relying on AI and prefer to trust human experts, even if these experts are wrong.\n\nIf we want AI to really benefit people, we need to find a way to get people to trust it. To do that, we need to understand why people are so reluctant to trust AI in the first place.\n\n28\n\nBTake the case of Watson for Oncology, one of technology giant IBM`s supercomputer programs. Their attempt to promote this program to cancer doctors was a PR disaster. The AI promised to deliver top-quality recommendations on the treatment of 12 cancers that accounted for 80% of the world`s cases. But when doctors first interacted with Watson, they found themselves in a rather difficult situation. On the one hand, if Watson provided guidance about a treatment that coincided with their own opinions, physicians did not see much point in Watson`s recommendations. The supercomputer was simply telling them what they already knew, and these recommendations did not change the actual treatment.\n\nOn the other hand, if Watson generated a recommendation that contradicted the experts` opinion, doctors would typically conclude that Watson wasn`t competent. And the machine wouldn`t be able to explain why its treatment was plausible because its machine-learning algorithms were simply too complex to be fully understood by humans. Consequently, this has caused even more suspicion and disbelief, leading many doctors to ignore the seemingly outlandish AI recommendations and stick to their own expertise.\n\n29\n\nCThis is just one example of people`s lack of confidence in AI and their reluctance to accept what AI has to offer. Trust in other people is often based on our understanding of how others think and having experience of their reliability. This helps create a psychological feeling of safety. AI, on the other hand, is still fairly new and unfamiliar to most people. Even if it can be technically explained (and that`s not always the case), AI`s decision-making process is usually too difficult for most people to comprehend. And interacting with something we don`t understand can cause anxiety and give us a sense that we`re losing control.\n\nMany people are also simply not familiar with many instances of AI actually working, because it often happens in the background. Instead, they are acutely aware of instances where AI goes wrong. Embarrassing AI failures receive a disproportionate amount of media attention, emphasising the message that we cannot rely on technology. Machine learning is not foolproof, in part because the humans who design it aren`t.\n\n30\n\nDFeelings about AI run deep. In a recent experiment, people from a range of backgrounds were given various sci-fi films about AI to watch and then asked questions about automation in everyday life. It was found that, regardless of whether the film they watched depicted AI in a positive or negative light, simply watching a cinematic vision of our technological future polarised the participants` attitudes. Optimists became more extreme in their enthusiasm for AI and sceptics became even more guarded.\n\nThis suggests people use relevant evidence about AI in a biased manner to support their existing attitudes, a deep-rooted human tendency known as \"confirmation bias\". As AI is represented more and more in media and entertainment, it could lead to a society split between those who benefit from AI and those who reject it. More pertinently, refusing to accept the advantages offered by AI could place a large group of people at a serious disadvantage.\n\n31\n\nEFortunately, we already have some ideas about how to improve trust in AI. Simply having previous experience with AI can significantly improve people`s opinions about the technology, as was found in the study mentioned above. Evidence also suggests the more you use other technologies such as the internet, the more you trust them.\n\nAnother solution may be to reveal more about the algorithms which AI uses and the purposes they serve. Several high-profile social media companies and online marketplaces already release transparency reports about government requests and surveillance disclosures. A similar practice for AI could help people have a better understanding of the way algorithmic decisions are made.\n\n32\n\nFResearch suggests that allowing people some control over AI decision-making could also improve trust and enable AI to learn from human experience. For example, one study showed that when people were allowed the freedom to slightly modify an algorithm, they felt more satisfied with its decisions, more likely to believe it was superior and more likely to use it in the future.\n\nWe don`t need to understand the intricate inner workings of AI systems, but if people are given a degree of responsibility for how they are implemented, they will be more willing to accept AI into their lives.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb02",
+    "sample_id": "questions_ielts_16_test4_passage3_c27puj_to_l5_r2_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "ielts_16_test4_passage3_c27puj",
+    "source_dataset": "questions",
+    "source_file": "ielts_16_test4_passage3_c27puj.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "27\n\nAArtificial intelligence (AI) can already prognosticate the future, and police forces are using it to delineate when and where delinquency is apt to transpire. Doctors can use it to predict when a patient is most likely to have a myocardial infarction or apoplexy, while researchers are even trying to give AI speculative perspicacity so it can plan for unexpected consequences.\n\nMany decisions in our lives require a good vaticination, and AI is almost always better at forecasting than we are. Yet, for all these technological advances, we still seem to deeply harbor skepticism in AI predictions, since recent cases show that people don`t like relying on AI and prefer to trust human experts, even if these experts are wrong.\n\nIf we want AI to really benefit people, we need to find a way to get people to trust it, which requires understanding why people are so recalcitrant to trust AI in the first place.\n\n28\n\nBTake the case of Watson for Oncology, one of technology giant IBM`s supercomputer programs. Although the AI promised to deliver summit-grade counsel on the treatment of 12 cancers that accounted for 80% of the world`s cases, their attempt to promote this program to cancer doctors was a propaganda catastrophe. But when doctors first interacted with Watson, they found themselves in a rather difficult situation. On the one hand, if Watson provided guidance about a treatment that aligned with their convictions, physicians did not see much point in Watson`s recommendations, since the supercomputer was simply telling them what they already knew and these recommendations did not change the actual treatment.\n\nOn the other hand, if Watson generated a recommendation that belied the experts` opinion, doctors would typically conclude that Watson wasn`t proficient, as its machinic protocols' inscrutability precluded elucidative rationales for prescriptive tenability. Consequently, this has caused even more suspicion and disbelief, leading many doctors to ignore the seemingly aberrant AI recommendations and stick to their own expertise.\n\n29\n\nCThis is just one example of people`s credence deficit in AI and their repugnance to accept what AI has to offer. Intersubjective trust accrues via empathetic apprehension of alien mentation and reliability empirics, begetting psychic equanimity. AI, on the other hand, which is still fairly new and unfamiliar to most people even if it can be technically explained (and that`s not always the case), has a decision-making process that is usually too difficult for most people to cognize. And interacting with something we don`t understand can cause angst and give us a sense that we`re losing control.\n\nConversely, lay publics overlook AI's unobtrusive successes whilst fixating upon its egregious malfunctions. Embarrassing AI failures receive a excessive amount of media attention, emphasising the message that we cannot rely on technology. Machine learning is not impeccable, in part because the humans who design it aren`t.\n\n30\n\nDFeelings about AI run deep, for latterly heterogeneous subjects imbibed diverse AI-themed science-fiction reels antecedent to quotidian automation quizzing. Revelations indicated that cinematic futurism, valence irrespective, intensified attitudinal schism among partakers, whereby optimists became more extreme in their enthusiasm for AI and sceptics became even more guarded.\n\nThis suggests that people use relevant evidence about AI in a biased manner to support their existing attitudes, a deep-rooted human tendency known as \"confirmation bias\", as AI is represented more and more in media and entertainment, which could lead to a society split between those who benefit from AI and those who reject it. More exigently, refusing to accept the advantages offered by AI could place a large group of people at a serious disadvantage.\n\n31\n\nEFortunately, we already have some ideas about how to improve trust in AI. Simply having previous experience with AI can markedly enhance people`s opinions about the technology, as was found in the study mentioned above, while evidence also suggests that the more you use other technologies such as the internet, the more you trust them.\n\nAnother solution may be to explicate more about the algorithms which AI uses and the purposes they serve, given that several high-profile social media companies and online marketplaces already release disclosure bulletins about government requests and surveillance disclosures. A similar practice for AI could help people have a better understanding of the way algorithmic decisions are made.\n\n32\n\nFInquiry intimates that participatory decisional oversight fosters trust whilst permitting AI anthropic assimilation, for instance as permissive algorithmic tweaks engendered decisional approbation, imputed supremacy, and prospective utilization.\n\nWe don`t need to understand the esoteric mechanisms of AI systems, but if people are given a quantum of accountability for how they are implemented, they will be more willing to accept AI into their lives.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 898,
+    "sentence_count": 44,
+    "avg_sentence_len": 20.41,
+    "avg_word_len": 4.89,
+    "syllable_count": 1480,
+    "complex_word_count": 45,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 46.69,
+    "flesch_kincaid_grade": 11.82,
+    "ari": 11.81,
+    "coleman_liau": 11.5,
+    "gunning_fog": 10.17
+  },
+  "final_metrics": {
+    "word_count": 786,
+    "sentence_count": 28,
+    "avg_sentence_len": 28.07,
+    "avg_word_len": 5.28,
+    "syllable_count": 1409,
+    "complex_word_count": 66,
+    "complex_word_ratio": 0.08,
+    "flesch_reading_ease": 26.69,
+    "flesch_kincaid_grade": 16.51,
+    "ari": 17.46,
+    "coleman_liau": 14.18,
+    "gunning_fog": 14.59
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced integration of lexical substitutions and syntactic restructurings for comprehensive complexity augmentation|applied_edits=33|tier=coarse_jump;dist=1.8917;dir=harder;est_wb=80;est_sb=14",
+      "metrics": {
+        "word_count": 773,
+        "sentence_count": 42,
+        "avg_sentence_len": 18.4,
+        "avg_word_len": 5.26,
+        "syllable_count": 1389,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 36.14,
+        "flesch_kincaid_grade": 12.79,
+        "ari": 12.55,
+        "coleman_liau": 13.53,
+        "gunning_fog": 10.73
+      },
+      "distance_to_target": 1.5333,
+      "fidelity": {
+        "overall": 0.969,
+        "entity_recall": 0.931,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1647,
+        "completion_tokens": 5293,
+        "total_tokens": 6940,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic|applied_edits=14|tier=dist_1_to_2;dist=1.5333;center_gap=4.98;mode=sentence_only;dominant=sentence;dir_changed=0;wb=52;sb=15;est_wb=80;est_sb=12;lf=1.14;df=1.67;af=3.0000;pg=1.8917;pd=0.3584;af_fb=0",
+      "metrics": {
+        "word_count": 786,
+        "sentence_count": 28,
+        "avg_sentence_len": 28.07,
+        "avg_word_len": 5.28,
+        "syllable_count": 1409,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 26.69,
+        "flesch_kincaid_grade": 16.51,
+        "ari": 17.46,
+        "coleman_liau": 14.18,
+        "gunning_fog": 14.59
+      },
+      "distance_to_target": 0.4383,
+      "fidelity": {
+        "overall": 0.969,
+        "entity_recall": 0.931,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3294,
+        "completion_tokens": 16864,
+        "total_tokens": 20158,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.969,
+    "entity_recall": 0.931,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 29,
+    "number_total": 8,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3294,
+    "completion_tokens": 16864,
+    "total_tokens": 20158,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:06:00.565Z"
+}

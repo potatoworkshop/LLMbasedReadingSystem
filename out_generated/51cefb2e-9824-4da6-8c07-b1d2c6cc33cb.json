@@ -1,0 +1,59 @@
+{
+  "article_id": "51cefb2e-9824-4da6-8c07-b1d2c6cc33cb",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Life in the Oceans: Marine Ecosystems",
+  "article": [
+    "Oceans cover most of Earth. They hold about 70 percent of the planet's surface. Marine ecosystems are all the living things in these salty waters. Fish swim in schools. Whales dive deep. Corals build colorful homes. Plankton float near the top. Seaweed sways with the waves. These places team with life. Each part helps the others. Sunlight reaches shallow areas. This lets plants grow. Deeper down, it is dark. Special creatures live there. They glow or hunt in the night. Marine ecosystems come in many types. Coral reefs shine bright. Kelp forests tower high. Open water stretches far. Each spot has its own animals and plants. For example, reefs protect fish from storms. Forests feed sea otters. Open seas home huge whales. All these spots connect. Life moves between them.",
+    "Food chains keep marine ecosystems strong. They start with tiny plankton. Plankton eat sun and air. Small fish eat plankton. Bigger fish eat small fish. Sharks eat big fish. This chain gives food to all. Plants like algae make their own food. They use sunlight. In deep seas, no sun shines. There, worms and crabs eat chemicals from the ground. Hot water rises from cracks. It feeds these strange lives. Bacteria help too. They turn waste into food. Cycles clean the water. Fish poop feeds plants. Dead bodies sink and rot. This makes nutrients. Nutrients rise with currents. They feed surface life again. Balance is key. Too many of one animal upsets all. Predators control numbers. This keeps the system healthy.",
+    "Marine ecosystems help the whole world. Plankton make half of Earth's oxygen. People breathe this air. Oceans give food to billions. Fish fill markets and plates. Sea plants treat sickness. Sponges fight germs. Jellyfish hold pain killers. Clams make strong glues. Oceans control weather too. They store heat from the sun. Currents move it around. This stops wild storms. Cold water from poles warms lands. Warm water from equator cools air. Life in seas fights climate change. Mangroves trap carbon. Corals shade beaches. Healthy seas mean healthy Earth. They link to land life. Birds eat fish. Turtles nest on sands. Rivers bring fresh water. This mixes with salt. It grows more food.",
+    "Threats hurt marine ecosystems now. Plastic trash chokes turtles. They eat bags by mistake. Overfishing takes too many fish. Stocks drop low. Warming seas bleach corals white. They die fast. Acid rain makes shells weak. Oil spills kill birds and fish. Storms grow from hot water. They smash reefs. People can help fix this. Marine parks save big areas. No fishing there lets life grow. Clean rivers stop dirt flow. Less plastic means clear seas. Eat less fish from bad spots. Plant mangroves on shores. Watch for changes. Science tracks fish numbers. Laws stop bad acts. Kids learn in school. They grow to care. Success stories give hope. Some reefs come back strong. Fish return to old homes. With work, seas stay alive for all."
+  ],
+  "metrics": {
+    "word_count": 488,
+    "sentence_count": 102,
+    "avg_sentence_len": 4.78,
+    "avg_word_len": 4.75,
+    "syllable_count": 654,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 88.6,
+    "flesch_kincaid_grade": 2.09,
+    "ari": 3.32,
+    "coleman_liau": 5.92,
+    "gunning_fog": 2.41
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "marine_ecosystems_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:51:55.369Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 112
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 3034,
+    "total_tokens": 4042,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:51:55.370Z"
+}

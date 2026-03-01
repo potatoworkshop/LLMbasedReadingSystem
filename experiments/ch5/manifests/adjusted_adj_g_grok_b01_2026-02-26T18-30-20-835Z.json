@@ -1,0 +1,11 @@
+{
+  "experiment_id": "ch5_e3g_modelcmp_20260226",
+  "run_tag": "pilot",
+  "batch_id": "adj_g_grok_b01",
+  "source_dataset": "generated_exp_ch5",
+  "total_jobs": 0,
+  "success_count": 0,
+  "fail_count": 0,
+  "generated_at": "2026-02-26T18:30:20.836Z",
+  "records": []
+}

@@ -1,0 +1,140 @@
+{
+  "article_id": "0cfa2e37-2adc-46eb-865b-3fb236a4197a",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems form the backbone of life on Earth, encompassing a vast array of habitats from shallow coastal zones to the profound darkness of the ocean depths. Covering more than 70 percent of the planet's surface, these watery realms harbor over 80 percent of all known species, showcasing unparalleled biodiversity. Coral reefs, often dubbed the rainforests of the sea, exemplify this richness. Polyps, tiny invertebrate animals, build calcium carbonate structures that shelter countless fish, crustaceans, and mollusks. Symbiotic algae within the corals perform photosynthesis, providing essential nutrients in nutrient-poor tropical waters.\n\nThe open ocean, or pelagic zone, presents a different dynamic. Here, vast currents and upwellings bring nutrients from the depths to the surface, fueling explosive blooms of phytoplankton. These microscopic plants form the foundation of intricate food webs, supporting everything from zooplankton to majestic whales. In contrast, the benthic regions of the seafloor host diverse communities adapted to low light and high pressure. Deep-sea hydrothermal vents, discovered in the 1970s, reveal chemosynthetic bacteria that convert toxic chemicals into energy, sustaining unique ecosystems independent of sunlight.\n\nMarine ecosystems play critical roles beyond biodiversity. They regulate global climate by absorbing carbon dioxide and producing half of the world's oxygen through photosynthesis. Fisheries provide protein for billions, while mangroves and seagrasses protect coastlines from erosion. Yet, these systems face severe threats. Overfishing depletes keystone species, disrupting balances. Ocean acidification, driven by rising CO2 levels, erodes shellfish shells, while plastic pollution and warming waters trigger coral bleaching events.\n\nConservation strategies, such as marine protected areas and sustainable fishing quotas, offer hope. International agreements like the UN Convention on Biological Diversity promote restoration. By understanding these interconnected webs, humanity can safeguard marine ecosystems for future generations, ensuring their resilience endures.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb07",
+    "sample_id": "generated_26e90809-9715-4fc0-b0db-4f5d828a8422_to_l4_r3_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "26e90809-9715-4fc0-b0db-4f5d828a8422",
+    "source_dataset": "generated",
+    "source_file": "26e90809-9715-4fc0-b0db-4f5d828a8422.json",
+    "source_level": 3
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems are the base of life on Earth, including habitats from shallow coastal zones to the deep ocean. Covering over 70 percent of the planet, these marine areas house more than 80 percent of known species and show exceptional biodiversity. Coral reefs, often called the rainforests of the sea, exemplify this richness. Polyps, small invertebrates, form calcium carbonate structures that shelter countless fish, crustaceans, and mollusks. Algae living in corals perform photosynthesis and provide vital nutrients in low-nutrient tropical seas.\n\nThe open ocean, or pelagic zone, shows a different pattern. Here, large currents and upwellings carry nutrients from the depths to the surface, driving rapid blooms of phytoplankton. These tiny plants form the foundation of complex food webs, supporting everything from zooplankton to majestic whales. By contrast, benthic parts of the seafloor support varied communities adapted to low light and high pressure. Deep-sea hydrothermal vents, found in the 1970s, show chemosynthetic bacteria that turn chemical compounds into energy and support ecosystems without sunlight.\n\nMarine systems have important roles beyond biodiversity. They help control the global climate by taking in carbon dioxide and producing half the world's oxygen via photosynthesis. Fisheries supply protein to billions, and mangroves plus seagrass beds protect coasts from erosion. However, these systems face serious threats. Overfishing reduces keystone species and upsets ecological balances. Ocean acidification from rising CO2 weakens shellfish shells, and plastic waste plus warmer waters cause coral bleaching.\n\nProtection measures like marine protected areas and responsible fishing quotas offer hope. International agreements such as the UN Convention on Biological Diversity encourage restoration. By understanding these linked networks, people can protect marine systems for future generations and help keep them resilient.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 288,
+    "sentence_count": 19,
+    "avg_sentence_len": 15.16,
+    "avg_word_len": 6.24,
+    "syllable_count": 583,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 20.19,
+    "flesch_kincaid_grade": 14.21,
+    "ari": 15.55,
+    "coleman_liau": 18.96,
+    "gunning_fog": 10.23
+  },
+  "final_metrics": {
+    "word_count": 279,
+    "sentence_count": 19,
+    "avg_sentence_len": 14.68,
+    "avg_word_len": 5.88,
+    "syllable_count": 521,
+    "complex_word_count": 23,
+    "complex_word_ratio": 0.08,
+    "flesch_reading_ease": 33.95,
+    "flesch_kincaid_grade": 12.17,
+    "ari": 13.62,
+    "coleman_liau": 16.77,
+    "gunning_fog": 9.17
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach (mix of word-level simplifications and some sentence rephrasing)|applied_edits=25|tier=dist_1_to_2;dist=1.7375;center_gap=2.18;mode=word_only;dominant=word;dir_changed=0;wb=80;sb=5;est_wb=68;est_sb=7;lf=0.70;df=1.77;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 279,
+        "sentence_count": 19,
+        "avg_sentence_len": 14.68,
+        "avg_word_len": 5.88,
+        "syllable_count": 521,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 33.95,
+        "flesch_kincaid_grade": 12.17,
+        "ari": 13.62,
+        "coleman_liau": 16.77,
+        "gunning_fog": 9.17
+      },
+      "distance_to_target": 0.0675,
+      "fidelity": {
+        "overall": 0.905,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 18,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 876,
+        "completion_tokens": 11063,
+        "total_tokens": 11939,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.905,
+    "entity_recall": 0.8333,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 18,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 876,
+    "completion_tokens": 11063,
+    "total_tokens": 11939,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T12:53:57.399Z"
+}

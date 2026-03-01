@@ -1,0 +1,140 @@
+{
+  "article_id": "87f837cc-f218-48ea-a59d-a51e2357e5e5",
+  "mode": "difficulty_adjust",
+  "original_article": "The ancient trade routes constituted a vast and intricate web of pathways that linked distant civilizations, fostering the exchange not only of commodities but also of ideas, technologies, and cultural practices. Emerging as early as the third millennium BCE, these networks spanned continents, from the arid expanses of Central Asia to the monsoon-swept waters of the Indian Ocean. The Silk Road, perhaps the most emblematic of these conduits, originated during the Han Dynasty in China around 130 BCE, when Zhang Qian's diplomatic missions paved the way for mercantile expeditions. Spanning over 6,500 kilometers, this terrestrial artery facilitated the westward flow of silk, porcelain, lacquerware, and spices, while returning with glassware, textiles, precious metals, and horses from the Roman Empire and Parthian realms. Caravans, comprising thousands of camels laden with bales, traversed formidable terrains including the Taklamakan Desert and the Pamir Mountains, enduring perils such as bandits, shifting sands, and extreme climatic vicissitudes. Strategic entrepôts like Samarkand and Palmyra served as pivotal nodes, where merchants from diverse ethnicities converged, bartering goods and disseminating innovations such as papermaking and sericulture.\n\nBeyond the Silk Road, a constellation of ancillary land routes amplified the scope of ancient commerce. The Incense Route, flourishing from the first century BCE to the second century CE, connected the Arabian Peninsula's frankincense and myrrh groves to Mediterranean ports via Nabataean oases such as Petra. These aromatic resins, integral to religious rituals in Greco-Roman temples, commanded exorbitant prices, yielding immense profits for intermediaries like the Sabaeans and Palmyrenes. In Northern Europe, the Amber Road channeled Baltic amber southward to the Adriatic, adorning the adornments of Celtic chieftains and Roman elites. Further south, the Trans-Saharan trade networks, operational by the fourth century BCE, linked West African goldfields and salt mines with North African emporia through camel caravans, underpinning the prosperity of empires like Ghana and Mali. These routes were not mere thoroughfares for material exchange; they engendered hybrid cultures, as evidenced by the Greco-Buddhist art of Gandhara, where Hellenistic motifs fused with Buddhist iconography.\n\nMaritime trade routes, leveraging seasonal winds and advanced navigational techniques, complemented terrestrial pathways and often surpassed them in volume and velocity. The Indian Ocean network, predating the Common Era by centuries, integrated ports from Muziris in India to Rhapta in East Africa, propelled by the predictable monsoon reversals. Austronesian outriggers from Indonesia ferried cloves and nutmeg to Gujarat, whence Arab dhows redistributed them to Alexandria and Constantinople. Roman merchants, documented in the Periplus of the Erythraean Sea—a first-century CE navigational manual—ventured to Malabar Coast entrepôts for pepper, which constituted a quarter of Rome's spice imports. These sea lanes disseminated not only spices, ivory, and cotton but also metallurgical knowledge and astronomical lore, catalyzing technological diffusion across hemispheres.\n\nThe ramifications of these ancient trade routes reverberated through economic, social, and political spheres, catalyzing urbanization and imperial expansion. Cities like Taxila and Merv burgeoned into cosmopolitan hubs, their bazaars teeming with polyglot traders and artisans. The influx of Eastern luxuries precipitated monetary innovations, such as the proliferation of gold coins in the Kushan Empire, while the demand for Western equines bolstered Chinese cavalry reforms. Culturally, Buddhism proliferated along these corridors, evolving into variants like Zen in Japan, and Nestorian Christianity infiltrated Tang China. However, vulnerabilities inherent in overreliance on long-distance trade manifested during disruptions: the fall of the Western Roman Empire in the fifth century CE and the Mongol invasions of the thirteenth century precipitated contractions, though the routes' legacies endured, presaging the Age of Exploration and global interconnectedness.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_0c8587eb-b6e0-484b-8c70-807e3266c714_to_l2_r2_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "0c8587eb-b6e0-484b-8c70-807e3266c714",
+    "source_dataset": "generated",
+    "source_file": "0c8587eb-b6e0-484b-8c70-807e3266c714.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The ancient trade routes were a large, complex network that linked distant civilizations. They carried not just goods but also ideas, technologies, and cultural practices. These networks began as early as the third millennium BCE. They reached across continents, from dry Central Asia to the coastal regions of the Indian Ocean. The Silk Road is the best-known of these routes. It began during the Han Dynasty in China around 130 BCE after Zhang Qian's diplomatic trips opened the way for traders. The Silk Road stretched over 6,500 kilometers. It carried silk, porcelain, lacquerware, and spices west and brought back glassware, textiles, precious metals, and horses from the Roman Empire and Parthia. Caravans of thousands of camels carried heavy loads across hard lands. They crossed the Taklamakan Desert and the Pamir Mountains and faced bandits, shifting sands, and harsh weather. Important trading centers such as Samarkand and Palmyra became key stops. Merchants from many peoples met there to barter and to share innovations like papermaking and silk farming.\n\nAside from the Silk Road, many other land routes broadened ancient trade. These routes linked different regions and goods. The Incense Route thrived from the first century BCE to the second century CE. It linked the Arabian sources of frankincense and myrrh to Mediterranean ports through Nabataean oases like Petra. These resins were used in Greco-Roman religious rituals. They sold for very high prices and brought large profits to middlemen such as the Sabaeans and Palmyrenes. In Northern Europe, the Amber Road moved Baltic amber south to the Adriatic. The amber decorated the jewelry of Celtic leaders and Roman elites. Further south, Trans-Saharan trade was in use by the fourth century BCE. Camel caravans linked West African goldfields and salt mines with North African trading cities and helped build empires such as Ghana and Mali. The routes were not only for goods. They created mixed cultures. For example, Greco-Buddhist art in Gandhara shows Greek styles blended with Buddhist imagery.\n\nSea routes used seasonal winds and better navigation. They worked alongside land routes and were often busier and faster. The Indian Ocean network existed centuries before the Common Era. It linked ports from Muziris in India to Rhapta in East Africa and relied on the regular monsoon winds. Austronesian boats from Indonesia carried cloves and nutmeg to Gujarat. From there, Arab dhows moved them on to Alexandria and Constantinople. Roman merchants, shown in the Periplus of the Erythraean Sea—a first-century CE sailing guide—traveled to Malabar Coast ports for pepper. Pepper made up a quarter of Rome's spice imports. These sea lanes spread spices, ivory, and cotton. They also carried metalworking skills and astronomical knowledge, which helped technology move between regions.\n\nThe effects of these trade routes touched economics, society, and politics. They helped towns grow into cities and encouraged empires to expand. Cities such as Taxila and Merv grew into cosmopolitan centers. Their markets were full of traders who spoke many languages and skilled artisans. The arrival of Eastern luxury goods led to new money practices, like wider use of gold coins in the Kushan Empire. At the same time, demand for Western horses helped change Chinese cavalry forces. Culturally, Buddhism spread along these routes and changed into forms such as Zen in Japan. Nestorian Christianity also reached Tang China. However, heavy dependence on long-distance trade made regions vulnerable when trouble came. The fall of the Western Roman Empire in the fifth century CE and the Mongol invasions in the thirteenth century both caused trade to shrink. Yet these routes left important legacies that helped set the stage for the Age of Exploration and greater global links.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 591,
+    "sentence_count": 22,
+    "avg_sentence_len": 26.86,
+    "avg_word_len": 5.98,
+    "syllable_count": 1198,
+    "complex_word_count": 61,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 8.08,
+    "flesch_kincaid_grade": 18.81,
+    "ari": 20.16,
+    "coleman_liau": 18.25,
+    "gunning_fog": 14.87
+  },
+  "final_metrics": {
+    "word_count": 612,
+    "sentence_count": 46,
+    "avg_sentence_len": 13.3,
+    "avg_word_len": 5.15,
+    "syllable_count": 1024,
+    "complex_word_count": 22,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 51.78,
+    "flesch_kincaid_grade": 9.34,
+    "ari": 9.47,
+    "coleman_liau": 12.25,
+    "gunning_fog": 6.76
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC: split long sentences, simplify sentence structure, and reorder for clarity|applied_edits=22|tier=coarse_jump;dist=9.0225;dir=simpler;est_wb=80;est_sb=8",
+      "metrics": {
+        "word_count": 612,
+        "sentence_count": 46,
+        "avg_sentence_len": 13.3,
+        "avg_word_len": 5.15,
+        "syllable_count": 1024,
+        "complex_word_count": 22,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 51.78,
+        "flesch_kincaid_grade": 9.34,
+        "ari": 9.47,
+        "coleman_liau": 12.25,
+        "gunning_fog": 6.76
+      },
+      "distance_to_target": 0.455,
+      "fidelity": {
+        "overall": 0.9087,
+        "entity_recall": 0.8861,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 79,
+        "number_total": 3,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1241,
+        "completion_tokens": 12374,
+        "total_tokens": 13615,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9087,
+    "entity_recall": 0.8861,
+    "number_recall": 1,
+    "keyword_recall": 0.8,
+    "entity_total": 79,
+    "number_total": 3,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 12374,
+    "total_tokens": 13615,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:25:38.147Z"
+}

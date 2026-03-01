@@ -1,0 +1,60 @@
+{
+  "article_id": "6fc872d2-7ded-4a9c-a3ba-d4d60a8d845c",
+  "topic": "ancient trade routes",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Ancient Paths of Trade",
+  "article": [
+    "Long ago, people from different lands traded goods with each other. They used special paths called trade routes. These routes crossed deserts, mountains, and seas. Trade helped people get things they could not make at home. It also spread ideas, religions, and ways of life. For example, silk from China reached far away places. Spices from India added flavor to food in Europe. Gold and ivory moved from Africa to the north. These routes made the ancient world feel smaller and more connected.",
+    "The most famous trade route was the Silk Road. It started in China over 2,000 years ago. Traders carried silk, tea, and porcelain west to the Middle East and Europe. In return, they brought horses, glass, and gold back east. The road was not one path. It was a network of many trails. Camels carried loads across the hot Gobi Desert. Caravans stopped at oases for water and rest. Cities like Samarkand grew rich from the trade. Merchants from many nations met there. They shared stories and news. The Silk Road lasted for centuries. It helped Buddhism spread from India to China. It also brought paper-making skills to the West.",
+    "Other important routes crossed seas and lands. In the Indian Ocean, ships sailed from India to Arabia and East Africa. They carried spices, cotton, and gems. Monsoon winds helped the sailors know when to go and return. The Incense Route ran through the Arabian Desert. Traders took frankincense and myrrh from southern Arabia to the Mediterranean. These scents were used in temples and homes. The Amber Road linked the Baltic Sea to the Roman Empire. People traded yellow amber stones for metals and cloth. In the Americas, paths connected the Andes Mountains to the coast. Gold and potatoes moved along them. Each route faced dangers like storms, bandits, and wild animals. Yet, brave traders kept going for profit and adventure.",
+    "Trade routes changed the world in big ways. They made some cities very wealthy. For instance, Venice and Alexandria grew as trade hubs. Kings and empires grew strong from taxes on goods. Cultures mixed as people traveled. Greek ideas reached India. Chinese inventions like gunpowder went west later on. Food and plants spread too. Rice and citrus fruits came to new lands. Diseases also traveled along the routes. This caused problems at times. Still, the good effects lasted. Trade built trust between far-off peoples. It laid the ground for modern trade we see today.",
+    "Many ancient routes faded as new ways of travel came. Ships with better sails and maps took over sea paths. Overland trails grew quiet with wars and changes in power. The Silk Road slowed when sea routes grew safer. Yet, their story lives on. Today, we study these paths to learn about the past. New Silk Road projects copy the old ones. They link Asia and Europe again with trains and roads. Ancient trade routes show how people have always wanted to connect and share."
+  ],
+  "metrics": {
+    "word_count": 495,
+    "sentence_count": 59,
+    "avg_sentence_len": 8.39,
+    "avg_word_len": 4.69,
+    "syllable_count": 716,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 75.95,
+    "flesch_kincaid_grade": 4.75,
+    "ari": 4.84,
+    "coleman_liau": 8.23,
+    "gunning_fog": 3.6
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "ancient_trade_routes_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:47:53.788Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 105
+  },
+  "token_usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 3229,
+    "total_tokens": 4240,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:47:53.788Z"
+}

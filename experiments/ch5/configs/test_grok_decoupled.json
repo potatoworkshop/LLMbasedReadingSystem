@@ -1,0 +1,13 @@
+{
+  "batch_id": "test_gpt5_single_ultra_fast",
+  "experiment_id": "ch5_test_single_20260228",
+  "source_dir": "out_questions",
+  "source_dataset": "questions",
+  "max_sources": 1,
+  "target_levels": [2],
+  "skip_same_level": true,
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "model": "openai/gpt-5-mini",
+  "delay_ms": 1000
+}

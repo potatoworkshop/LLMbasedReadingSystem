@@ -1,0 +1,140 @@
+{
+  "article_id": "8f4b56a7-273c-47a5-9087-58e65e951f60",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transport helps many people move around cities each day. It includes buses, trains, trams and subways. These services run on fixed routes and set times. People can use them to reach work, school and shops. In this way, public transport joins homes, jobs and services across a city. It also gives a clear choice to people who do not own a car.\n\nPublic transport can save money for riders and for the city. A bus or train ticket costs less than the cost of fuel and parking for one car. Therefore, people who ride often can keep more of their pay. Cities also spend less on roads when more people ride public transport. When many people share a ride, fewer cars use the roads. This reduces traffic jams and makes travel times more stable. In addition, shared transport can cut air pollution. Cars emit gases that harm air quality. Trains and buses move more people with less fuel per person. Therefore, public transport can help make the air cleaner and the city healthier.\n\nUsing public transport brings other benefits for people and for health. Riders often walk to stops and stations. This walking gives daily exercise without needing a special trip to the gym. For many older people, students and families, buses and trains are a vital link to services. A short and cheap ride can mean the difference between seeing a doctor or not. It can also mean easier access to a job or to education. In this way, public transport supports equal access to chance and choice. For example, a city train that runs on time helps a person arrive at work without stress. A reliable bus that comes often lets people plan their day with confidence.\n\nDespite the many benefits, public transport faces clear challenges. Many systems are crowded at peak times. Overcrowding can lower comfort and cause stress. Delays and service cuts also harm trust in the system. In some places, vehicles and stations are old and need repair. Funding is a common issue because maintaining and expanding services costs a lot. In addition, some routes do not reach outer neighborhoods. This creates a last-mile problem for riders who live far from a stop. Safety and cleanliness also matter. Passengers are less likely to ride if they feel unsafe or if stations are dirty. To solve these problems, cities use a mix of actions. They add more vehicles and increase the number of trips during busy hours. They use clear timetables and real-time apps to tell riders when a bus will arrive. They invest in new vehicles that use less fuel and in rails that need less repair. They plan routes that link to bikes and short rides so that a person can reach home from a stop easily.\n\nThe future of public transport will likely use more technology and better design. Digital tickets and apps make it easier to plan and to pay. Smart cards and contactless payments let people enter quickly and avoid queues. Data from apps helps planners find when and where to add services. Dedicated bus lanes and priority signals can make buses faster and more reliable. In many cities, officials also test shared small buses and on-demand shuttles for low-demand areas. These services can fill gaps where a large bus is not practical. If cities keep to careful plans and steady investment, public transport can grow in a fair and useful way.\n\nFor an individual rider, small steps make travel simpler and safer. Check a route map and a timetable before you leave. Carry a small pass or use a mobile ticket to save time at the gate. If a route is often crowded, try an earlier or later ride. Keep a small bag and keep it close to your body for safety. Offer your seat to older riders or to those with young children when you can. Be polite and keep noise low so that others can rest or work. By planning and by riding with care, each person helps the whole system work better and serve more people in the city.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb07",
+    "sample_id": "generated_379ed5d3-997f-49b8-a1ee-43bec1e73b4f_to_l5_r5_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "379ed5d3-997f-49b8-a1ee-43bec1e73b4f",
+    "source_dataset": "generated",
+    "source_file": "379ed5d3-997f-49b8-a1ee-43bec1e73b4f.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transport, an essential urban infrastructure, facilitates the quotidian circulation of countless inhabitants across municipal territories, underpinning economic and social routines. It includes buses, trains, trams and subways that operate as components of an integrated network. These services, running on fixed routes and at set times, impose a predictable temporal and spatial structure on urban mobility. People rely on them to reach work, school, and shops, thereby enabling daily patterns of activity and commerce. In this way, public transport weaves together homes, jobs, and services across the city, creating connective tissue within the urban fabric. It also furnishes a clear alternative for those who do not possess a private automobile, preserving mobility for diverse socioeconomic groups.\n\nPublic transport can generate monetary savings both for individual riders and for municipal budgets, a dual fiscal dividend. Because a bus or train ticket typically costs less than the cumulative expense of fuel and parking for a single car, the cost-benefit calculus often favors transit. Consequently, habitual riders are able to retain a greater proportion of their wages. As ridership rises, cities often reallocate resources away from road expansion and maintenance, since fewer private vehicles traverse the network. When many people share rides, the aggregate number of cars on thoroughfares declines, easing vehicular pressure. This reduction in vehicle volume mitigates traffic jams and yields more consistent travel times. Moreover, shared transport has the potential to lower emissions, thereby improving ambient air quality. Automobiles emit a variety of gases and particulates that degrade air quality and harm public health. Trains and buses transport larger cohorts of passengers with lower fuel consumption per person compared with single-occupant cars. Therefore, public transport can contribute materially to cleaner air and an overall healthier urban environment.\n\nUsing public transport confers additional social and health benefits that extend beyond mere mobility gains. Riders commonly walk to stops and stations, an incidental source of everyday physical activity. This routine ambulation supplies quotidian exercise without requiring a dedicated trip to a gymnasium. For many older adults, students, and families, buses and trains constitute an indispensable link to essential services. For some individuals, access to a short and inexpensive ride can decisively determine whether they secure medical attention. Similarly, such accessibility can dramatically improve opportunities for employment and educational attainment. In this way, public transport undergirds equitable access to opportunity and choice across diverse populations. For example, a punctual city train enables a commuter to arrive at employment punctually and without the stress attendant to unreliable transit. A reliable, frequently scheduled bus service permits commuters to plan their days with greater certainty.\n\nDespite these manifold benefits, public transport systems confront a series of pronounced challenges. Many systems experience significant crowding during peak periods, which undermines comfort and throughput. Overcrowding therefore compromises passenger comfort and elevates stress levels. Persistent delays and service curtailments further erode public confidence in the system's reliability. In numerous locales, rolling stock and stations have become antiquated and require substantive refurbishment. Funding constitutes a perennial constraint because the maintenance and expansion of services demand substantial capital and operating expenditures. Additionally, certain routes fail to extend into peripheral neighborhoods, creating spatial inequities. This shortfall produces a last-mile problem for riders residing at a distance from stops. Concerns about safety and cleanliness likewise exert strong influence over ridership decisions. Passengers tend to avoid transit when they perceive insecurity or unsanitary station conditions. To address these issues, municipal authorities deploy a combination of tactical and strategic interventions. They augment fleets and increase trip frequency during peak periods to relieve crowding. They publish clear timetables and employ real-time applications to inform riders of imminent arrivals. They invest in modern, more fuel-efficient vehicles and in more resilient rail infrastructure to lower lifecycle costs. They design routes integrated with cycling and short-trip services so that passengers can seamlessly complete the journey from stop to doorstep.\n\nThe future of public transport will likely be characterized by deeper technological integration and more sophisticated design paradigms. Digital ticketing systems and mobile applications streamline trip planning and payment processes. Smart cards and contactless payment modalities enable rapid entry, thereby reducing queuing delay. Operational data harvested from applications allows planners to pinpoint when and where additional services are warranted. Dedicated bus lanes coupled with transit-priority signaling can materially increase bus speeds and reliability. In numerous cities, officials pilot shared minibuses and on-demand shuttle services to serve low-demand corridors. Such services can occupy service niches where full-size buses would be inefficient or impractical. Provided that cities adhere to rigorous planning and sustained investment, public transport can expand in a manner that is both equitable and functionally effective.\n\nFor individual riders, a set of modest practices can render travel both simpler and safer. Consult route maps and timetables prior to departure to minimize uncertainty. Carry a compact pass or utilize mobile ticketing to expedite passage through entry points. If a given route is habitually crowded, consider adjusting travel times earlier or later to avoid peak density. Keep small personal items secured close to your body as a precautionary safety measure. Offer seats to elderly passengers or those accompanying young children whenever feasible. Maintain courtesy and low noise levels to permit fellow passengers to rest or work undisturbed. Through mindful planning and considerate ridership, each person contributes to enhancing the system's effectiveness and its capacity to serve a wider cross-section of the city's populace.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 687,
+    "sentence_count": 56,
+    "avg_sentence_len": 12.27,
+    "avg_word_len": 4.49,
+    "syllable_count": 976,
+    "complex_word_count": 4,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 74.19,
+    "flesch_kincaid_grade": 5.96,
+    "ari": 5.85,
+    "coleman_liau": 8.18,
+    "gunning_fog": 5.14
+  },
+  "final_metrics": {
+    "word_count": 901,
+    "sentence_count": 56,
+    "avg_sentence_len": 16.09,
+    "avg_word_len": 6,
+    "syllable_count": 1806,
+    "complex_word_count": 81,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 20.93,
+    "flesch_kincaid_grade": 14.34,
+    "ari": 14.88,
+    "coleman_liau": 17.65,
+    "gunning_fog": 10.03
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC: Reorganization of sentence structure—merges, splits, and complex subordinations|applied_edits=56|tier=coarse_jump;dist=3.5725;dir=harder;est_wb=80;est_sb=20",
+      "metrics": {
+        "word_count": 901,
+        "sentence_count": 56,
+        "avg_sentence_len": 16.09,
+        "avg_word_len": 6,
+        "syllable_count": 1806,
+        "complex_word_count": 81,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 20.93,
+        "flesch_kincaid_grade": 14.34,
+        "ari": 14.88,
+        "coleman_liau": 17.65,
+        "gunning_fog": 10.03
+      },
+      "distance_to_target": 0.925,
+      "fidelity": {
+        "overall": 0.9527,
+        "entity_recall": 0.9615,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 26,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1182,
+        "completion_tokens": 10369,
+        "total_tokens": 11551,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9527,
+    "entity_recall": 0.9615,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 26,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 10369,
+    "total_tokens": 11551,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:20:10.543Z"
+}

@@ -1,0 +1,207 @@
+{
+  "article_id": "3b96b54e-3f42-4400-9791-e41e624d5f41",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems are large areas in the oceans. They are home to many plants and animals. These ecosystems cover over 70 percent of Earth. Salt water fills the oceans. This water supports life from tiny plankton to big whales. Sunlight reaches only the top layers. Deeper water is dark and cold. Plants and animals adapt to live there. Each part of the ocean has its own ecosystem.\n\nIn a marine ecosystem, plants play a key role. Seaweed and algae use sunlight to make food. This process is called photosynthesis. Small animals eat these plants. Then, fish eat the small animals. Bigger fish eat smaller ones. This chain keeps the balance. If one part changes, the whole chain suffers. Bacteria help break down dead plants and animals. They recycle nutrients back into the water. Waves and currents move food and oxygen around. This helps all life thrive.\n\nCoral reefs are bright spots in marine ecosystems. Tiny animals called polyps build reefs. They make hard shells from calcium. Algae live inside polyps and give them food. Reefs shelter many fish and crabs. They form cities under the sea. Reefs also protect coastlines from big waves. Storms can damage them, though. Warm water from climate change bleaches the corals. This kills the reefs.\n\nHumans depend on marine ecosystems. Oceans provide fish for food. They make half of our oxygen. Tourism brings money to coastal areas. But pollution harms these ecosystems. Plastic waste chokes sea animals. Oil spills kill birds and fish. Overfishing takes too many from the sea. To protect them, people create marine parks. They ban fishing in some areas. Cleaning beaches helps too. Everyone can reduce plastic use. Healthy oceans mean a healthy planet for all.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "dabdaed4-ad6c-4884-a598-adcc9c1baea2_to_l2"
+  },
+  "source": {
+    "source_article_id": "dabdaed4-ad6c-4884-a598-adcc9c1baea2",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "dabdaed4-ad6c-4884-a598-adcc9c1baea2.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems comprise vast regions in the oceans. They serve as habitats for diverse plants and animals. These ecosystems span over 70 percent of Earth. Saltwater fills the oceans and sustains life from microscopic plankton to massive whales. Sunlight penetrates only the upper layers. Deeper waters remain dark and frigid. Plants and animals have evolved adaptations to survive there. Each ocean zone features its distinct ecosystem.\n\nWithin marine ecosystems, plants assume a vital role. Seaweed and algae harness sunlight for photosynthesis to produce food. Small animals consume these plants. Fish then prey on those small animals. Larger fish devour the smaller ones. This food chain maintains ecological balance. Disruption in one link affects the entire chain. Bacteria decompose dead plants and animals, recycling nutrients into the water. Waves and currents distribute food and oxygen, allowing all life to flourish.\n\nCoral reefs stand out as vibrant features in marine ecosystems. Tiny animals known as polyps construct the reefs. They secrete hard calcium shells. Algae reside inside polyps and supply them food. Reefs provide shelter for numerous fish and crabs, forming underwater cities. Reefs also shield coastlines from powerful waves. Storms can damage them, however. Warming waters from climate change bleach the corals. This process kills the reefs.\n\nHumans rely on marine ecosystems. Oceans supply fish for food. They generate half of our oxygen. Tourism delivers revenue to coastal regions. Yet pollution damages these ecosystems. Plastic waste suffocates sea animals. Oil spills kill birds and fish. Overfishing removes too many creatures from the sea. To protect them, people establish marine parks. These ban fishing in certain areas. Beach cleanups assist conservation. Everyone can cut plastic use. Healthy oceans ensure a healthy planet for all.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 285,
+    "sentence_count": 44,
+    "avg_sentence_len": 6.48,
+    "avg_word_len": 4.83,
+    "syllable_count": 425,
+    "complex_word_count": 9,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.1,
+    "flesch_kincaid_grade": 4.53,
+    "ari": 4.57,
+    "coleman_liau": 8.04,
+    "gunning_fog": 3.85
+  },
+  "final_metrics": {
+    "word_count": 282,
+    "sentence_count": 39,
+    "avg_sentence_len": 7.23,
+    "avg_word_len": 5.49,
+    "syllable_count": 492,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 51.9,
+    "flesch_kincaid_grade": 7.82,
+    "ari": 8.04,
+    "coleman_liau": 12.38,
+    "gunning_fog": 4.88
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 282,
+        "sentence_count": 39,
+        "avg_sentence_len": 7.23,
+        "avg_word_len": 5.49,
+        "syllable_count": 492,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 51.9,
+        "flesch_kincaid_grade": 7.82,
+        "ari": 8.04,
+        "coleman_liau": 12.38,
+        "gunning_fog": 4.88
+      },
+      "distance_to_target": 0.2504,
+      "fidelity": {
+        "overall": 0.885,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 30,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 713,
+        "completion_tokens": 1460,
+        "total_tokens": 2173,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 282,
+        "sentence_count": 39,
+        "avg_sentence_len": 7.23,
+        "avg_word_len": 5.49,
+        "syllable_count": 492,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 51.9,
+        "flesch_kincaid_grade": 7.82,
+        "ari": 8.04,
+        "coleman_liau": 12.38,
+        "gunning_fog": 4.88
+      },
+      "distance_to_target": 0.2504,
+      "fidelity": {
+        "overall": 0.885,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 30,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1420,
+        "completion_tokens": 3161,
+        "total_tokens": 4581,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 281,
+        "sentence_count": 43,
+        "avg_sentence_len": 6.53,
+        "avg_word_len": 4.96,
+        "syllable_count": 430,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 70.74,
+        "flesch_kincaid_grade": 5.02,
+        "ari": 5.19,
+        "coleman_liau": 8.82,
+        "gunning_fog": 4.32
+      },
+      "distance_to_target": 0.3653,
+      "fidelity": {
+        "overall": 0.915,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 30,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2127,
+        "completion_tokens": 4728,
+        "total_tokens": 6855,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.885,
+    "entity_recall": 0.8333,
+    "number_recall": 1,
+    "keyword_recall": 0.8,
+    "entity_total": 30,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2127,
+    "completion_tokens": 4728,
+    "total_tokens": 6855,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:34:43.957Z"
+}

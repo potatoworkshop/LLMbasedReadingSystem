@@ -1,0 +1,140 @@
+{
+  "article_id": "2c3e6835-ec7c-412c-a4d7-eba001875702",
+  "mode": "difficulty_adjust",
+  "original_article": "Long ago, people needed goods from far places. They made paths across lands and seas. These paths were trade routes. Trade routes joined cities and countries. Traders carried silk, spices, gold, and salt. They also shared stories and skills. This trade made the world feel smaller.\n\nThe Silk Road was the most famous route. It started in China and ended near the Mediterranean Sea. The road crossed mountains, deserts, and rivers. From China came soft silk cloth. Traders took it to Rome and India. In return, they got strong horses and bright glass. Camels helped carry loads through dry lands. Cities like Samarkand grew rich on this road.\n\nAnother key route was the Incense Route. It ran through hot deserts in Arabia. Merchants sold sweet-smelling incense and spices. These came from India and Africa. People in Egypt and Rome wanted them for temples and homes. Boats helped move goods across the Red Sea. This route linked Africa, Asia, and Europe.\n\nTrade routes did more than move goods. They spread new foods like rice and oranges. Ideas about math and art traveled too. Big cities rose along the paths. Markets buzzed with people from many lands. Trade brought peace at times, but also fights over control. In the end, these routes changed how people lived and worked.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_14437b00-2ac3-40e2-a14b-1112e936a901_to_l2_r7_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "14437b00-2ac3-40e2-a14b-1112e936a901",
+    "source_dataset": "generated",
+    "source_file": "14437b00-2ac3-40e2-a14b-1112e936a901.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In antiquity, people required commodities from distant regions. They established thoroughfares over continents and oceans. These paths were trade routes. Trade routes interconnected cities and countries. Merchants transported silk, spices, gold, and salt. They also disseminated stories and skills. This trade contracted the perceived scale of the globe.\n\nThe Silk Road was the preeminent route. It originated in China and culminated near the Mediterranean Sea. The road traversed mountains, deserts, and rivers. From China came delicate silken fabric. Traders conveyed it to Rome and India. Reciprocally, they got robust steeds and iridescent glassware. Camels facilitated conveyance of burdens through arid terrains. Cities like Samarkand amassed prosperity on this road.\n\nAnother vital conduit was the Incense Route. It extended through scorching deserts in Arabia. Emporia peddled fragrant resins and spices. These came from India and Africa. People in Egypt and Rome wanted them for temples and homes. Boats helped move goods across the Red Sea. This route linked Africa, Asia, and Europe.\n\nTrade routes transcended mere move goods. They disseminated new foods like rice and oranges. Ideas about math and art traveled too. Big cities emerged along the paths. Markets teemed with people from many lands. Trade fostered tranquility at times, but also conflicts for dominion. In the end, these routes transformed societal livelihoods and occupations.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 217,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.48,
+    "avg_word_len": 4.69,
+    "syllable_count": 300,
+    "complex_word_count": 1,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 82.28,
+    "flesch_kincaid_grade": 3.64,
+    "ari": 4.39,
+    "coleman_liau": 7.8,
+    "gunning_fog": 3.18
+  },
+  "final_metrics": {
+    "word_count": 215,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.41,
+    "avg_word_len": 5.56,
+    "syllable_count": 382,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 49,
+    "flesch_kincaid_grade": 8.27,
+    "ari": 8.46,
+    "coleman_liau": 12.89,
+    "gunning_fog": 5.57
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary lexical changes: substitutions of simple words and phrases with advanced, multi-syllabic, academic terminology|applied_edits=35|tier=dist_gt_2;dist=4.2475;center_gap=5.26;mode=both;dominant=sentence;dir_changed=0;wb=80;sb=11;est_wb=57;est_sb=11;lf=0.70;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 215,
+        "sentence_count": 29,
+        "avg_sentence_len": 7.41,
+        "avg_word_len": 5.56,
+        "syllable_count": 382,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 49,
+        "flesch_kincaid_grade": 8.27,
+        "ari": 8.46,
+        "coleman_liau": 12.89,
+        "gunning_fog": 5.57
+      },
+      "distance_to_target": 0.2025,
+      "fidelity": {
+        "overall": 0.9839,
+        "entity_recall": 0.9643,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 981,
+        "completion_tokens": 4635,
+        "total_tokens": 5616,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9839,
+    "entity_recall": 0.9643,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 28,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 4635,
+    "total_tokens": 5616,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:01:51.628Z"
+}

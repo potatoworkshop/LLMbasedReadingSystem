@@ -1,0 +1,60 @@
+{
+  "article_id": "039cb4b4-1508-481e-abd4-522e76f3ccf3",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Understanding Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are places in the sea where living things and the water around them work together. They include many kinds of areas such as shallow coasts, coral reefs, mangrove forests, and the deep open ocean. Each area has its own mix of plants, animals, and tiny life. These groups of life form links. For example, small plants and animals in the water feed fish, and fish feed larger animals. The links make the whole system work. When one part changes, other parts can change too.",
+    "Coastal zones are near the shore and often have more life than open waters. Mangroves and seagrass beds grow in shallow water and protect the land. They shelter young fish and other small animals. Coral reefs rise from the sea floor and form bright, busy homes for many species. The open ocean is large and seems empty at times, yet it holds huge numbers of tiny plants called phytoplankton. These tiny plants use sunlight to make food. They also help to remove carbon dioxide from the air. The deep sea is dark but rich with strange life. Some deep animals use chemicals from the earth to make food. Each part of the ocean supports life in a different way.",
+    "Marine ecosystems give people many goods and services that we use every day. Fish and shellfish are key sources of food for millions of people around the world. Wetlands and mangroves protect coasts from waves and storms. They also trap sand and keep water clear. Oceans help to regulate the climate by moving heat around the planet. Phytoplankton in the surface waters take in carbon and help to slow the build up of greenhouse gases. People also gain work and income from the sea through fishing, tourism, and shipping. For many communities, the sea is part of their culture and way of life. Therefore, keeping marine ecosystems healthy is important for both nature and human life.",
+    "However, these systems face several serious threats from human activities. Overfishing removes too many adults of many fish species. When adult numbers fall, young fish have fewer adults to help protect habitat and to keep the food web in balance. Pollution is another major threat. Plastic waste, oil spills, and run off from farms and cities can harm animals and plants. For example, plastic can trap turtles and birds, and chemical run off can cause algal blooms that reduce oxygen in the water. Climate change is warming the sea and altering currents. Warmer water can bleach corals and change where fish can live. Sea levels are rising and this can drown coastal habitats like mangroves. Habitat loss from coastal building and dredging also reduces places for species to live and breed.",
+    "People can take clear and practical steps to protect marine ecosystems. One step is to use less plastic and to dispose of waste carefully. This helps to keep plastic out of the sea. Another step is to fish in a controlled way so fish stocks can recover. Governments and groups can set fishing limits and protect breeding areas. Protecting key places as marine reserves gives wildlife a safe space to grow. Restoring habitats such as mangroves and seagrass beds can rebuild natural coast protection and nursery areas. In addition, reducing greenhouse gas emissions will slow warming and support long term ocean health. Local communities, scientists, and leaders must work together. When they do, people can keep the many benefits of marine life for future generations. Small actions by many people can add up to large change and help protect the sea we all depend on."
+  ],
+  "metrics": {
+    "word_count": 597,
+    "sentence_count": 47,
+    "avg_sentence_len": 12.7,
+    "avg_word_len": 4.73,
+    "syllable_count": 881,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 69.1,
+    "flesch_kincaid_grade": 6.78,
+    "ari": 7.19,
+    "coleman_liau": 9.66,
+    "gunning_fog": 5.88
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:25:25.755Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 3
+  },
+  "token_usage": {
+    "prompt_tokens": 549,
+    "completion_tokens": 5145,
+    "total_tokens": 5694,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:25:25.755Z"
+}

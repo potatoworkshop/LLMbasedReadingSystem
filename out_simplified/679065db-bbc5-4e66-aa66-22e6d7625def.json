@@ -1,0 +1,288 @@
+{
+  "article_id": "679065db-bbc5-4e66-aa66-22e6d7625def",
+  "mode": "difficulty_adjust",
+  "original_article": "In an epoch defined by unequivocal anthropogenic climate change, adaptation assumes paramount significance as a complementary paradigm to mitigation strategies, compelling societies to bolster their resilience against intensifying environmental stressors. Climate adaptation delineates a spectrum of proactive interventions aimed at mitigating the deleterious ramifications of climatic variability and extremes, encompassing infrastructural enhancements, transformative land-use practices, and behavioral shifts. Divergent from mitigation endeavors, which target the attenuation of greenhouse gas emissions at their provenance, adaptation pragmatically accommodates the inexorability of residual warming, thereby prioritizing the curtailment of socio-economic vulnerabilities and the preservation of ecosystem services integral to human well-being.\n\nAt the confluence of policy architecture and praxis, adaptation strategies variegate across scalar levels, from localized community initiatives to supranational accords. Ecosystem-based adaptations, such as the restoration of mangroves and coral reefs for coastal defense, harness biophysical synergies to attenuate erosion and storm surges, while agronomic innovations—including drought-tolerant cultivars derived from precision breeding—fortify food security in aridifying regions. Supranational frameworks, exemplified by the Paris Agreement's adaptation component, exhort nations to formulate nationally determined contributions that mainstream resilience into development trajectories, often integrating vulnerability assessments with iterative monitoring protocols to navigate evolving risks.\n\nEmpirical vignettes illuminate adaptation's vicissitudes; the Netherlands' Delta Programme exemplifies efficacious delta management through adaptive dike fortifications and saline intrusion barriers, safeguarding polders from inexorable sea-level encroachment. In juxtaposition, small island developing states grapple with existential threats, where fiscal paucity and technological lacunae amplify exposure, underscoring the exigency for multilateral financing conduits like the Adaptation Fund. Yet, maladaptive trajectories loom, wherein ostensibly ameliorative measures—such as expansive irrigation schemes—exacerbate resource scarcities, precipitating unintended escalations in long-term susceptibilities.\n\nProspectively, efficacious adaptation mandates anticipatory governance predicated on robust scenario modeling and polycentric decision-making architectures, which engender adaptive capacity amid profound epistemic uncertainties. This imperative necessitates interdisciplinary coalescence, synthesizing climatological prognostications, econometric valuations, and equity imperatives to sculpt just and enduring pathways amid the Anthropocene's inexorable flux.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb05",
+    "sample_id": "generated_09edb394-a0f6-4424-a226-f4deeb51e99f_to_l1_r3_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "09edb394-a0f6-4424-a226-f4deeb51e99f",
+    "source_dataset": "generated",
+    "source_file": "09edb394-a0f6-4424-a226-f4deeb51e99f.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "We live in a time of clear, human-caused climate change. Adaptation is now very important. It works alongside efforts to reduce climate change. It pushes communities to become stronger against growing environmental pressures. Climate adaptation describes a range of planned actions aimed at mitigating the harmful effects of climatic variability and extremes, encompassing infrastructural enhancements, transformative land-use practices, and behavioral shifts. Adaptation is different from mitigation. Mitigation tries to cut greenhouse gas emissions at their source. Adaptation deals with the fact that some warming will still happen. So, it focuses on reducing weaknesses in society and the economy. It also focuses on protecting nature's benefits, which are key to human well-being.\n\nAt the meeting point of policy architecture and praxis, adaptation strategies vary at different levels, from localized community initiatives to supranational accords. Ecosystem-based adaptations, such as the restoration of mangroves and coral reefs for coastal defense, use natural processes to reduce erosion and storm surges, while farming advances—including drought-tolerant crops derived from precision breeding—fortify food security in aridifying regions. International frameworks, exemplified by the Paris Agreement's adaptation component, urge nations to create their own plans that build in resilience into development trajectories, often integrating vulnerability assessments with iterative monitoring protocols to navigate evolving risks.\n\nReal examples show adaptation's mixed outcomes; the Netherlands' Delta Programme is an example of successful delta management through adaptive dike fortifications and saline intrusion barriers, safeguarding polders from inexorable sea-level encroachment. In juxtaposition, small island developing states face threats to their survival, where lack of funds and technological lacunae amplify exposure, underscoring the exigency for multilateral financing conduits like the Adaptation Fund. Yet, bad adaptation paths are a risk, wherein seemingly helpful actions—such as expansive irrigation schemes—worsen resource scarcities, precipitating unintended escalations in long-term susceptibilities.\n\nLooking forward, efficacious adaptation requires planning ahead predicated on robust scenario modeling and polycentric decision-making architectures, which engender adaptive capacity amid profound epistemic uncertainties. This imperative requires different fields to work together, combining climatological predictions, econometric valuations, and equity imperatives to sculpt just and enduring pathways amid the Anthropocene's inexorable flux.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 325,
+    "sentence_count": 11,
+    "avg_sentence_len": 29.55,
+    "avg_word_len": 7.55,
+    "syllable_count": 868,
+    "complex_word_count": 100,
+    "complex_word_ratio": 0.31,
+    "flesch_reading_ease": -49.1,
+    "flesch_kincaid_grade": 27.45,
+    "ari": 28.91,
+    "coleman_liau": 27.6,
+    "gunning_fog": 24.13
+  },
+  "final_metrics": {
+    "word_count": 353,
+    "sentence_count": 18,
+    "avg_sentence_len": 19.61,
+    "avg_word_len": 6.44,
+    "syllable_count": 781,
+    "complex_word_count": 65,
+    "complex_word_ratio": 0.18,
+    "flesch_reading_ease": -0.24,
+    "flesch_kincaid_grade": 18.17,
+    "ari": 18.73,
+    "coleman_liau": 20.59,
+    "gunning_fog": 15.21
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=A balanced approach combining both lexical substitutions and syntactic simplification to aggressively reduce complexity.|applied_edits=28|tier=coarse_jump;dist=20.0225;dir=simpler;est_wb=80;est_sb=4",
+      "metrics": {
+        "word_count": 353,
+        "sentence_count": 18,
+        "avg_sentence_len": 19.61,
+        "avg_word_len": 6.44,
+        "syllable_count": 781,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": -0.24,
+        "flesch_kincaid_grade": 18.17,
+        "ari": 18.73,
+        "coleman_liau": 20.59,
+        "gunning_fog": 15.21
+      },
+      "distance_to_target": 11.175,
+      "fidelity": {
+        "overall": 0.7825,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1071,
+        "completion_tokens": 6022,
+        "total_tokens": 7093,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=11.1750;center_gap=10.37;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.77;df=2.10;af=1.2631;pg=20.0225;pd=8.8475;af_fb=0",
+      "metrics": {
+        "word_count": 353,
+        "sentence_count": 18,
+        "avg_sentence_len": 19.61,
+        "avg_word_len": 6.44,
+        "syllable_count": 781,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": -0.24,
+        "flesch_kincaid_grade": 18.17,
+        "ari": 18.73,
+        "coleman_liau": 20.59,
+        "gunning_fog": 15.21
+      },
+      "distance_to_target": 11.175,
+      "fidelity": {
+        "overall": 0.7825,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2152,
+        "completion_tokens": 11442,
+        "total_tokens": 13594,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=11.1750;center_gap=10.37;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.77;df=2.10;af=1.0000;pg=11.1750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 353,
+        "sentence_count": 18,
+        "avg_sentence_len": 19.61,
+        "avg_word_len": 6.44,
+        "syllable_count": 781,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": -0.24,
+        "flesch_kincaid_grade": 18.17,
+        "ari": 18.73,
+        "coleman_liau": 20.59,
+        "gunning_fog": 15.21
+      },
+      "distance_to_target": 11.175,
+      "fidelity": {
+        "overall": 0.7825,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3010,
+        "completion_tokens": 14740,
+        "total_tokens": 17750,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=11.1750;center_gap=10.37;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.77;df=2.10;af=1.0000;pg=11.1750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 353,
+        "sentence_count": 18,
+        "avg_sentence_len": 19.61,
+        "avg_word_len": 6.44,
+        "syllable_count": 781,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": -0.24,
+        "flesch_kincaid_grade": 18.17,
+        "ari": 18.73,
+        "coleman_liau": 20.59,
+        "gunning_fog": 15.21
+      },
+      "distance_to_target": 11.175,
+      "fidelity": {
+        "overall": 0.7825,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4165,
+        "completion_tokens": 18331,
+        "total_tokens": 22496,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=11.1750;center_gap=10.37;mode=both;dominant=word;dir_changed=0;wb=52;sb=7;est_wb=80;est_sb=7;lf=0.77;df=2.10;af=1.0000;pg=11.1750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 353,
+        "sentence_count": 18,
+        "avg_sentence_len": 19.61,
+        "avg_word_len": 6.44,
+        "syllable_count": 781,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.18,
+        "flesch_reading_ease": -0.24,
+        "flesch_kincaid_grade": 18.17,
+        "ari": 18.73,
+        "coleman_liau": 20.59,
+        "gunning_fog": 15.21
+      },
+      "distance_to_target": 11.175,
+      "fidelity": {
+        "overall": 0.7825,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5023,
+        "completion_tokens": 21580,
+        "total_tokens": 26603,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7825,
+    "entity_recall": 0.5833,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 12,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 5023,
+    "completion_tokens": 21580,
+    "total_tokens": 26603,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T17:32:39.826Z"
+}

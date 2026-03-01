@@ -1,0 +1,57 @@
+{
+  "article_id": "9e7c84aa-f4c2-4506-ae8b-4340d4084fdd",
+  "topic": "public transportation",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Public Transportation: Benefits for Cities and People",
+  "article": [
+    "Public transportation plays a vital role in daily life for millions of people around the world. Buses, trains, subways, and trams move large numbers of passengers each day. These systems help cities handle growing populations without too much traffic. In many places, public transport is cheaper than owning a car. It also saves time during rush hours. For example, a bus can carry 50 people at once, while cars often hold just one or two.",
+    "One major benefit of public transportation is its effect on the environment. Cars release harmful gases that cause air pollution and climate change. Public transport uses less fuel per person. Electric trains and buses produce no exhaust at all. Cities like Copenhagen have cut carbon emissions by expanding bike lanes and bus routes. Riders also walk more to bus stops, which improves health. Studies show that regular users of public transport live longer and stay fit.",
+    "Despite these advantages, public transportation faces some challenges. In some cities, services run late or feel crowded. Poor maintenance leads to breakdowns. Funding is often short, so governments struggle to buy new vehicles. However, technology is helping. Apps now let people track buses in real time. Contactless payments make boarding faster. Many cities plan to add more electric buses soon.",
+    "Overall, strong public transportation systems make cities more livable. They reduce traffic jams and parking problems. They support local businesses by bringing shoppers easily. As urban areas grow, investing in these services will be key to a better future for everyone."
+  ],
+  "metrics": {
+    "word_count": 252,
+    "sentence_count": 25,
+    "avg_sentence_len": 10.08,
+    "avg_word_len": 5.13,
+    "syllable_count": 406,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 60.3,
+    "flesch_kincaid_grade": 7.35,
+    "ari": 7.8,
+    "coleman_liau": 11.46,
+    "gunning_fog": 5.3
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "public_transportation_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:03:52.671Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 48
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2237,
+    "total_tokens": 3242,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:03:52.672Z"
+}

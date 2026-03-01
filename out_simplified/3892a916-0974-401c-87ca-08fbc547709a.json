@@ -1,0 +1,287 @@
+{
+  "article_id": "3892a916-0974-401c-87ca-08fbc547709a",
+  "mode": "difficulty_adjust",
+  "original_article": "The British sculptor Henry Moore was a leading figure in the 20th-century art world\n\nHenry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father's wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War.\n\nAfter the war, Moore enrolled at the Leeds School of Art, where he studied for two years. In his first year, he spent most of his time drawing. Although he wanted to study sculpture, no teacher was appointed until his second year. At the end of that year, he passed the sculpture examination and was awarded a scholarship to the Royal College of Art in London. In September 1921, he moved to London and began three years of advanced study in sculpture.\n\nAlongside the instruction he received at the Royal College, Moore visited many of the London museums, particularly the British Museum, which had a wide-ranging collection of ancient sculpture. During these visits, he discovered the power and beauty of ancient Egyptian and African sculpture. As he became increasingly interested in these 'primitive' forms of art, he turned away from European sculptural traditions.\n\nAfter graduating, Moore spent the first six months of 1925 travelling in France. When he visited the Trocadero Museum in Paris, he was impressed by a cast of a Mayan* sculpture of the rain spirit. It was a male reclining figure with its knees drawn up together, and its head at a right angle to its body. Moore became fascinated with this stone sculpture, which he thought had a power and originality that no other stone sculpture possessed. He himself started carving a variety of subjects in stone, including depictions of reclining women, mother-and-child groups, and masks.\n\nMoore's exceptional talent soon gained recognition, and in 1926 he started work as a sculpture instructor at the Royal College. In 1933, he became a member of a group of young artists called Unit One. The aim of the group was to convince the English public of the merits of the emerging international movement in modern art and architecture.\n\nAround this time, Moore moved away from the human figure to experiment with abstract shapes. In 1931, he held an exhibition at the Leicester Galleries in London. His work was enthusiastically welcomed by fellow sculptors, but the reviews in the press were extremely negative and turned Moore into a notorious figure. There were calls for his resignation from the Royal College, and the following year, when his contract expired, he left to start a sculpture department at the Chelsea School of Art in London.\n\nThroughout the 1930s, Moore did not show any inclination to please the British public. He became interested in the paintings of the Spanish artist Pablo Picasso, whose work inspired him to distort the human body in a radical way. At times, he seemed to abandon the human figure altogether. The pages of his sketchbooks from this period show his ideas for abstract sculptures that bore little resemblance to the human form.\n\nIn 1940, during the Second World War, Moore stopped teaching at the Chelsea School and moved to a farmhouse about 20 miles north of London. A shortage of materials forced him to focus on drawing. He did numerous small sketches of Londoners, later turning these ideas into large coloured drawings in his studio. In 1942, he returned to Castleford to make a series of sketches of the miners who worked there.\n\nIn 1944, Harlow, a town near London, offered Moore a commission for a sculpture depicting a family. The resulting work signifies a dramatic change in Moore's style, away from the experimentation of the 1930s towards a more natural and humanistic subject matter. He did dozens of studies in clay for the sculpture, and these were cast in bronze and issued in editions of seven to nine copies each. In this way, Moore's work became available to collectors all over the world. The boost to his income enabled him to take on ambitious projects and start working on the scale he felt his sculpture demanded.\n\nCritics who had begun to think that Moore had become less revolutionary were proven wrong by the appearance, in 1950, of the first of Moore's series of standing figures in bronze, with their harsh and angular pierced forms and distinct impression of menace. Moore also varied his subject matter in the 1950s with such works as Warrior with Shield and Falling Warrior. These were rare examples of Moore's use of the male figure and owe something to his visit to Greece in 1951, when he had the opportunity to study ancient works of art.\n\nIn his final years, Moore created the Henry Moore Foundation to promote art appreciation and to display his work. Moore was the first modern English sculptor to achieve international critical acclaim and he is still regarded as one of the most important sculptors of the 20th century.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb08",
+    "sample_id": "questions_ielts_15_test3_passage1_e27hmj_to_l3_r4_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "ielts_15_test3_passage1_e27hmj",
+    "source_dataset": "questions",
+    "source_file": "ielts_15_test3_passage1_e27hmj.json"
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The British sculptor Henry Moore was a leading figure in the 20th-century art world\n\nHenry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father's wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War.\n\nAfter the war, Moore enrolled at the Leeds School of Art, where he studied for two years. In his first year, he spent most of his time drawing. Although he wanted to study sculpture, no teacher was appointed until his second year. At the end of that year, he passed the sculpture examination and was awarded a scholarship to the Royal College of Art in London. In September 1921, he moved to London and began three years of advanced study in sculpture.\n\nAlongside the instruction he received at the Royal College, Moore visited many of the London museums, particularly the British Museum, which had a wide-ranging collection of ancient sculpture. During these visits, he discovered the power and beauty of ancient Egyptian and African sculpture. As he became increasingly interested in these 'primitive' forms of art, he turned away from European sculptural traditions.\n\nAfter graduating, Moore spent the first six months of 1925 travelling in France. When he visited the Trocadero Museum in Paris, he was impressed by a cast of a Mayan* sculpture of the rain spirit. It was a male reclining figure with its knees drawn up together, and its head at a right angle to its body. Moore became fascinated with this stone sculpture, which he thought had a power and originality that no other stone sculpture possessed. He himself started carving a variety of subjects in stone, including depictions of reclining women, mother-and-child groups, and masks.\n\nMoore's exceptional talent soon gained recognition, and in 1926 he started work as a sculpture instructor at the Royal College. In 1933, he became a member of a group of young artists called Unit One. The aim of the group was to convince the English public of the merits of the emerging international movement in modern art and architecture.\n\nAround this time, Moore moved away from the human figure to experiment with abstract shapes. In 1931, he held an exhibition at the Leicester Galleries in London. His work was enthusiastically welcomed by fellow sculptors, but the reviews in the press were extremely negative and turned Moore into a notorious figure. There were calls for his resignation from the Royal College, and the following year, when his contract expired, he left to start a sculpture department at the Chelsea School of Art in London.\n\nThroughout the 1930s, Moore did not show any inclination to please the British public. He became interested in the paintings of the Spanish artist Pablo Picasso, whose work inspired him to distort the human body in a radical way. At times, he seemed to abandon the human figure altogether. The pages of his sketchbooks from this period show his ideas for abstract sculptures that bore little resemblance to the human form.\n\nIn 1940, during the Second World War, Moore stopped teaching at the Chelsea School and moved to a farmhouse about 20 miles north of London. A shortage of materials forced him to focus on drawing. He did numerous small sketches of Londoners, later turning these ideas into large coloured drawings in his studio. In 1942, he returned to Castleford to make a series of sketches of the miners who worked there.\n\nIn 1944, Harlow, a town near London, offered Moore a commission for a sculpture depicting a family. The resulting work signifies a dramatic change in Moore's style, away from the experimentation of the 1930s towards a more natural and humanistic subject matter. He did dozens of studies in clay for the sculpture, and these were cast in bronze and issued in editions of seven to nine copies each. In this way, Moore's work became available to collectors all over the world. The boost to his income enabled him to take on ambitious projects and start working on the scale he felt his sculpture demanded.\n\nCritics who had begun to think that Moore had become less revolutionary were proven wrong by the appearance, in 1950, of the first of Moore's series of standing figures in bronze, with their harsh and angular pierced forms and distinct impression of menace. Moore also varied his subject matter in the 1950s with such works as Warrior with Shield and Falling Warrior. These were rare examples of Moore's use of the male figure and owe something to his visit to Greece in 1951, when he had the opportunity to study ancient works of art.\n\nIn his final years, Moore created the Henry Moore Foundation to promote art appreciation and to display his work. Moore was the first modern English sculptor to achieve international critical acclaim and he is still regarded as one of the most important sculptors of the 20th century.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 884,
+    "sentence_count": 43,
+    "avg_sentence_len": 20.56,
+    "avg_word_len": 4.73,
+    "syllable_count": 1360,
+    "complex_word_count": 23,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 55.81,
+    "flesch_kincaid_grade": 10.58,
+    "ari": 11.14,
+    "coleman_liau": 10.59,
+    "gunning_fog": 9.26
+  },
+  "final_metrics": {
+    "word_count": 884,
+    "sentence_count": 43,
+    "avg_sentence_len": 20.56,
+    "avg_word_len": 4.73,
+    "syllable_count": 1360,
+    "complex_word_count": 23,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 55.81,
+    "flesch_kincaid_grade": 10.58,
+    "ari": 11.14,
+    "coleman_liau": 10.59,
+    "gunning_fog": 9.26
+  },
+  "hit_target": true,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.6075;center_gap=0.77;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=6;est_wb=53;est_sb=11;lf=1.21;df=1.20;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 884,
+        "sentence_count": 43,
+        "avg_sentence_len": 20.56,
+        "avg_word_len": 4.73,
+        "syllable_count": 1360,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 55.81,
+        "flesch_kincaid_grade": 10.58,
+        "ari": 11.14,
+        "coleman_liau": 10.59,
+        "gunning_fog": 9.26
+      },
+      "distance_to_target": 0.6075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 50,
+        "number_total": 14,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.6075;center_gap=0.77;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=6;est_wb=53;est_sb=11;lf=1.21;df=1.20;af=1.0000;pg=0.6075;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 884,
+        "sentence_count": 43,
+        "avg_sentence_len": 20.56,
+        "avg_word_len": 4.73,
+        "syllable_count": 1360,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 55.81,
+        "flesch_kincaid_grade": 10.58,
+        "ari": 11.14,
+        "coleman_liau": 10.59,
+        "gunning_fog": 9.26
+      },
+      "distance_to_target": 0.6075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 50,
+        "number_total": 14,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.6075;center_gap=0.77;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=6;est_wb=53;est_sb=11;lf=1.21;df=1.20;af=1.0000;pg=0.6075;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 884,
+        "sentence_count": 43,
+        "avg_sentence_len": 20.56,
+        "avg_word_len": 4.73,
+        "syllable_count": 1360,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 55.81,
+        "flesch_kincaid_grade": 10.58,
+        "ari": 11.14,
+        "coleman_liau": 10.59,
+        "gunning_fog": 9.26
+      },
+      "distance_to_target": 0.6075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 50,
+        "number_total": 14,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.6075;center_gap=0.77;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=6;est_wb=53;est_sb=11;lf=1.21;df=1.20;af=1.0000;pg=0.6075;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 884,
+        "sentence_count": 43,
+        "avg_sentence_len": 20.56,
+        "avg_word_len": 4.73,
+        "syllable_count": 1360,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 55.81,
+        "flesch_kincaid_grade": 10.58,
+        "ari": 11.14,
+        "coleman_liau": 10.59,
+        "gunning_fog": 9.26
+      },
+      "distance_to_target": 0.6075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 50,
+        "number_total": 14,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.6075;center_gap=0.77;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=6;est_wb=53;est_sb=11;lf=1.21;df=1.20;af=1.0000;pg=0.6075;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 884,
+        "sentence_count": 43,
+        "avg_sentence_len": 20.56,
+        "avg_word_len": 4.73,
+        "syllable_count": 1360,
+        "complex_word_count": 23,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 55.81,
+        "flesch_kincaid_grade": 10.58,
+        "ari": 11.14,
+        "coleman_liau": 10.59,
+        "gunning_fog": 9.26
+      },
+      "distance_to_target": 0.6075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 50,
+        "number_total": 14,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 50,
+    "number_total": 14,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:24.651Z"
+}

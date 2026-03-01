@@ -1,0 +1,16 @@
+{
+  "experiment_id": "ch5_e3_20260225",
+  "run_tag": "pilot",
+  "batch_id": "adj_g_b01",
+  "api_base": "http://localhost:3001/api",
+  "model": "x-ai/grok-4.1-fast",
+  "source_dataset": "generated_exp_ch5",
+  "source_dir": "out_generated",
+  "max_sources": 10,
+  "relative_targets": [-1, 1],
+  "skip_same_level": true,
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "delay_ms": 1000
+}
+

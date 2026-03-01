@@ -488,11 +488,30 @@ const results = baseArticles.map((article, index) => {
   };
 });
 
+const computeMean = (arr, selector) => {
+  const values = arr.map(selector).filter((v) => typeof v === "number" && !isNaN(v));
+  if (values.length === 0) return 0;
+  return round(values.reduce((a, b) => a + b, 0) / values.length);
+};
+
+const summary = {
+  flesch_kincaid_grade: computeMean(results, (r) => r.readability?.fleschKincaidGrade),
+  flesch_reading_ease: computeMean(results, (r) => r.readability?.fleschReadingEase),
+  ari: computeMean(results, (r) => r.readability?.ari),
+  coleman_liau: computeMean(results, (r) => r.readability?.colemanLiau),
+  gunning_fog: computeMean(results, (r) => r.readability?.gunningFog),
+  ttr: computeMean(results, (r) => r.informationDensity?.typeTokenRatio),
+  root_ttr: computeMean(results, (r) => r.informationDensity?.rootTypeTokenRatio),
+  mean_abstractness: computeMean(results, (r) => r.abstractness?.meanAbstractness),
+};
+
 const output = {
   total: results.length,
+  summary,
   articles: results,
 };
 
 fs.writeFileSync(outputFile, JSON.stringify(output, null, 2) + "\n", "utf8");
 
 console.log(`Wrote ${results.length} records to ${outputFile}`);
+console.log("Summary:", JSON.stringify(summary, null, 2));

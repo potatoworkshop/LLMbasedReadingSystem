@@ -1,0 +1,18 @@
+{
+  "experiment_id": "ch5_e3g_modelcmp_20260226",
+  "run_tag": "pilot",
+  "batch_id": "adj_g_gemini_b01",
+  "api_base": "http://localhost:3001/api",
+  "model": "google/gemini-3-flash-preview",
+  "source_dataset": "generated_exp_ch5",
+  "source_manifest": "experiments/ch5/manifests/generated_source_manifest_2026-02-26T18-25-29-836Z.json",
+  "source_filters": {
+    "batch_ids": ["gen_gemini_b02"]
+  },
+  "max_sources": 12,
+  "relative_targets": [-1, 1],
+  "skip_same_level": true,
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "delay_ms": 1000
+}

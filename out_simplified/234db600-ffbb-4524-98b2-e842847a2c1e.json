@@ -1,0 +1,213 @@
+{
+  "article_id": "234db600-ffbb-4524-98b2-e842847a2c1e",
+  "mode": "difficulty_adjust",
+  "original_article": "New Zealand is a small country of four million inhabitants, a long-haul flight from all the major tourist-generating markets of the world. Tourism currently makes up 9% of the country's gross domestic product, and is the country`s largest export sector. Unlike other export sectors, which make products and then sell them overseas, tourism brings its customers to New Zealand. The product is the country itself - the people, the places and the experiences. In 1999, Tourism New Zealand launched a campaign to communicate a new brand position to the world. The campaign focused on New Zealand's scenic beauty, exhilarating outdoor activities and authentic Maori culture, and it made New Zealand one of the strongest national brands in the world.\n\nA key feature of the campaign was the website www.newzealand.com, which provided potential visitors to New Zealand with a single gateway to everything the destination had to offer. The heart of the website was a database of tourism services operators, both those based in New Zealand and those based abroad which offered tourism services to the country. Any tourism-related business could be listed by filling in a simple form. This meant that even the smallest bed and breakfast address or specialist activity provider could gain a web presence with access to an audience of long-haul visitors. In addition, because participating businesses were able to update the details they gave on a regular basis, the information provided remained accurate. And to maintain and improve standards, Tourism New Zealand organised a scheme whereby organisations appearing on the website underwent an independent evaluation against a set of agreed national standards of quality. As part of this, the effect of each business on the environment was considered.\n\nTo communicate the New Zealand experience, the site also carried features relating to famous people and places. One of the most popular was an interview with former New Zealand All Blacks rugby captain Tana Umaga. Another feature that attracted a lot of attention was an interactive journey through a number of the locations chosen for blockbuster films which had made use of New Zealand's stunning scenery as a backdrop. As the site developed, additional features were added to help independent travellers devise their own customised itineraries. To make it easier to plan motoring holidays, the site catalogued the most popular driving routes in the country, highlighting different routes according to the season and indicating distances and times.\n\nLater, a Travel Planner feature was added, which allowed visitors to click and `bookmark, places or attractions they were interested in, and then view the results on a map. The Travel Planner offered suggested routes and public transport options between the chosen locations. There were also links to accommodation in the area. By registering with the website, users could save their Travel Plan and return to it later, or print it out to take on the visit. The website also had a `Your Words` section where anyone could submit a blog of their New Zealand travels for possible inclusion on the website.\n\nThe Tourism New Zealand website won two Webby awards for online achievement and innovation. More importantly perhaps, the growth of tourism to New Zealand was impressive. Overall tourism expenditure increased by an average of 6.9% per year between 1999 and 2004. From Britain, visits to New Zealand grew at an average annual rate of 13% between 2002 and 2006, compared to a rate of 4% overall for British visits abroad.\n\nThe website was set up to allow both individuals and travel organisations to create itineraries and travel packages to suit their own needs and interests. On the website, visitors can search for activities not solely by geographical location, but also by the particular nature of the activity. This is important as research shows that activities are the key driver of visitor satisfaction, contributing 74% to visitor satisfaction, while transport and accommodation account for the remaining 26%. The more activities that visitors undertake, the more satisfied they will be. It has also been found that visitors enjoy cultural activities most when they are interactive, such as visiting a marae (meeting ground) to learn about traditional Maori life. Many long-haul travellers enjoy such learning experiences, which provide them with stories to take home to their friends and family. In addition, it appears that visitors to New Zealand don't want to be `one of the crowd' and find activities that involve only a few people more special and meaningful.\n\nIt could be argued that New Zealand is not a typical destination. New Zealand is a small country with a visitor economy composed mainly of small businesses. It is generally perceived as a safe English-speaking country with a reliable transport infrastructure. Because of the long-haul flight,most visitors stay for longer (average 20 days) and want to see as much of the country as possible on what is often seen as a once-in-a-lifetime visit. However, the underlying lessons apply anywhere - the effectiveness of a strong brand, a strategy based on unique experiences and a comprehensive and user-friendly website.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb04",
+    "sample_id": "questions_ielts_13_test1_passage1_b1idvj_to_l1_r1_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test1_passage1_b1idvj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test1_passage1_b1idvj.json"
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "New Zealand is a small nation of four million residents. It is a long journey from many visitor areas. Tourism makes up 9% of the country's GDP. It is the country's major export industry. Other export areas make products and sell them overseas. Tourism is unusual because it brings visitors to New Zealand. The main offer is the country itself - the people, the places and the things to do. In 1999, Tourism New Zealand started a campaign. The aim was to tell the world a new story about the country. The campaign displayed New Zealand's scenery, fun outdoor activities and Maori culture. It helped New Zealand a very strong country image.\n\nA main part of the campaign was the site www.newzealand.com. It gave visitors one place to find information about the country. At the center of the site was a directory of tourism firms. It listed both NZ-based and overseas businesses assisting visitors. Any tourism-related business could be listed by completing in a simple form. This let even the small B&B or particular activity provider to have a web listing. They could reach long-haul visitors this way. Listed businesses could update their details often. This kept the information right. To keep levels up, Tourism New Zealand set up a program for third-party checks. Groups on the website were checked to country good standards. As part of this, the impact of each business on the nature was considered.\n\nTo communicate the New Zealand experience, the site also carried stories relating to well-known people and places. One of the most liked was an chat with ex New Zealand All Blacks rugby leader Tana Umaga. Another popular feature was an hands-on tour of locations used in hit films. The films had used New Zealand's scenery as a background. As the site grew, extra features were added to help independent travellers devise their own personal itineraries. The site listed the most popular driving routes. It showed which routes are best in each season and gave distances and travel times.\n\nLater, the site added a Travel Planner feature. Visitors could bookmark places or attractions and then see them on a map. The Travel Planner also suggested routes. It showed public transport options between the chosen places. There were also links to accommodation in the area. Registered users could save their Travel Plan. They could return to it later or print it to take on their trip. The website also had a `Your Words` section. People could submit a blog about their New Zealand travels for possible inclusion.\n\nThe Tourism New Zealand website won two Webby awards for online achievement and innovation. More importantly perhaps, the growth of tourism to New Zealand was impressive. Overall tourism spending grew by an average of 6.9% a year between 1999 and 2004. Visits from Britain grew by an average of 13% a year between 2002 and 2006. By contrast, British visits abroad grew by about 4%.\n\nThe website was set up to allow both individuals and travel organisations to create itineraries and travel packages to suit their own needs and interests. On the website, visitors could search for activities by place. They could also search by the type or nature of the activity. Research shows activities are the main driver of visitor satisfaction. Activities contribute 74% while transport and accommodation account for 26%. The more activities that visitors undertake, the more satisfied they will be. Visitors enjoy cultural activities most when they are interactive. For example, visiting a marae (meeting ground) lets people learn about traditional Maori life. Many long-haul travellers enjoy such learning experiences, which provide them with stories to take home to their friends and family. Also, many visitors do not want to be `one of the crowd'. They find small-group activities more special and meaningful.\n\nIt could be argued that New Zealand is not a typical destination. New Zealand is a small country with a visitor economy composed mainly of small businesses. It is generally perceived as a safe English-speaking country with a reliable transport infrastructure. Because of the long flight, most visitors stay longer (average 20 days). They try to see as much of the country as they can on a once-in-a-lifetime trip. However, these lessons apply anywhere. A strong brand, a focus on unique experiences, and a clear, easy website work well for many destinations.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 849,
+    "sentence_count": 42,
+    "avg_sentence_len": 20.21,
+    "avg_word_len": 5.05,
+    "syllable_count": 1444,
+    "complex_word_count": 51,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 42.43,
+    "flesch_kincaid_grade": 12.36,
+    "ari": 12.47,
+    "coleman_liau": 12.44,
+    "gunning_fog": 10.49
+  },
+  "final_metrics": {
+    "word_count": 737,
+    "sentence_count": 65,
+    "avg_sentence_len": 11.34,
+    "avg_word_len": 4.8,
+    "syllable_count": 1175,
+    "complex_word_count": 32,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 60.45,
+    "flesch_kincaid_grade": 7.64,
+    "ari": 6.84,
+    "coleman_liau": 9.8,
+    "gunning_fog": 6.27
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC: break long sentences into shorter ones and simplify sentence structure|applied_edits=24|tier=coarse_jump;dist=4.9400;dir=simpler;est_wb=80;est_sb=15",
+      "metrics": {
+        "word_count": 738,
+        "sentence_count": 65,
+        "avg_sentence_len": 11.35,
+        "avg_word_len": 4.99,
+        "syllable_count": 1223,
+        "complex_word_count": 39,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 55.11,
+        "flesch_kincaid_grade": 8.39,
+        "ari": 7.73,
+        "coleman_liau": 10.91,
+        "gunning_fog": 6.66
+      },
+      "distance_to_target": 1.4225,
+      "fidelity": {
+        "overall": 0.9845,
+        "entity_recall": 0.9655,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1382,
+        "completion_tokens": 11862,
+        "total_tokens": 13244,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED - mix of lexical and small syntactic word swaps|applied_edits=31|tier=dist_1_to_2;dist=1.4225;center_gap=0.82;mode=word_only;dominant=word;dir_changed=0;wb=32;sb=3;est_wb=80;est_sb=7;lf=1.11;df=1.61;af=0.4044;pg=4.9400;pd=3.5175;af_fb=0",
+      "metrics": {
+        "word_count": 731,
+        "sentence_count": 65,
+        "avg_sentence_len": 11.25,
+        "avg_word_len": 4.9,
+        "syllable_count": 1195,
+        "complex_word_count": 36,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 57.12,
+        "flesch_kincaid_grade": 8.09,
+        "ari": 7.29,
+        "coleman_liau": 10.4,
+        "gunning_fog": 6.47
+      },
+      "distance_to_target": 1.0625,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2706,
+        "completion_tokens": 21012,
+        "total_tokens": 23718,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced lexical and structural simplifications (word-only)|applied_edits=52|tier=dist_1_to_2;dist=1.0625;center_gap=0.64;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=23;est_wb=80;est_sb=9;lf=1.10;df=1.43;af=2.9514;pg=1.4225;pd=0.3600;af_fb=0",
+      "metrics": {
+        "word_count": 737,
+        "sentence_count": 65,
+        "avg_sentence_len": 11.34,
+        "avg_word_len": 4.8,
+        "syllable_count": 1175,
+        "complex_word_count": 32,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 60.45,
+        "flesch_kincaid_grade": 7.64,
+        "ari": 6.84,
+        "coleman_liau": 9.8,
+        "gunning_fog": 6.27
+      },
+      "distance_to_target": 0.6375,
+      "fidelity": {
+        "overall": 0.9845,
+        "entity_recall": 0.9655,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4021,
+        "completion_tokens": 31071,
+        "total_tokens": 35092,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9845,
+    "entity_recall": 0.9655,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 29,
+    "number_total": 11,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 4021,
+    "completion_tokens": 31071,
+    "total_tokens": 35092,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T13:13:58.817Z"
+}

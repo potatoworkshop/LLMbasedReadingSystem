@@ -1,0 +1,140 @@
+{
+  "article_id": "20bec2c8-d317-4d3b-9444-579febdeb319",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change is real. The Earth is getting warmer. This causes big problems. Storms grow stronger. Sea levels rise. Droughts last longer. People and nature must adapt. Adaptation means making smart changes. These changes help us live with the new climate.\n\nFarmers lead the way in adaptation. They switch to new crops. These crops grow well in heat. They need less water. In parts of India, farmers plant millet instead of rice. Millet survives dry spells. This gives them food and money. They also use better ways to save water. Drip irrigation waters plants drop by drop. It cuts waste.\n\nCities make big changes too. They build walls by the sea. These walls block floods. They plant trees in streets. Trees give shade and cool the air. In the Netherlands, people raise land to fight high water. They pump out extra water fast. These steps save homes and lives.\n\nNature adapts on its own. Birds move to cooler places. Fish swim to colder waters. Plants grow in new spots. But change happens fast. Some animals need help. People create safe areas for them. They stop cutting forests.\n\nAdaptation brings hope. It works best with less pollution. We cut carbon to slow warming. Then adaptation is easier. Everyone can help. Small steps add up. Our world can stay livable.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb07",
+    "sample_id": "generated_2593d2ce-cc8e-4356-979d-990202935fd8_to_l4_r2_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "2593d2ce-cc8e-4356-979d-990202935fd8",
+    "source_dataset": "generated",
+    "source_file": "2593d2ce-cc8e-4356-979d-990202935fd8.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate change is an incontrovertible phenomenon, evidenced by the Earth's measurable warming. These developments precipitate major challenges: storms intensify, sea levels rise, and droughts become more protracted. Both human societies and natural systems must adapt, a process that involves deliberate, strategic adjustments. Such adaptations enable communities to persist under altered climatic conditions.\n\nFarmers often spearhead adaptation by transitioning to crop varieties better suited to warmer, drier conditions. These varieties thrive under higher temperatures and require substantially less irrigation. In parts of India, for example, farmers plant millet instead of rice because millet withstands dry spells, thereby providing both sustenance and income. They adopt improved water-conservation methods; drip irrigation, which waters plants drop by drop, reduces waste.\n\nCities also implement large-scale defenses, such as building seawalls to block coastal flooding. They plant trees along streets to provide shade and mitigate urban heat. In the Netherlands, authorities elevate land and employ rapid pumping systems to manage excessive water levels. Together, these interventions protect homes and save lives.\n\nEcosystems also shift autonomously: birds relocate to cooler areas, fish migrate toward colder waters, and plants establish in new habitats. However, because these transformations occur swiftly, certain species require human assistance. People respond by creating protected areas and curbing deforestation to provide refuge.\n\nAdaptation offers hope, yet it is most effective when pollution is reduced; cutting carbon emissions to slow warming makes adaptation more tractable. If everyone contributes modest actions, their cumulative effect can help keep our world livable.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 218,
+    "sentence_count": 42,
+    "avg_sentence_len": 5.19,
+    "avg_word_len": 4.61,
+    "syllable_count": 291,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 88.64,
+    "flesch_kincaid_grade": 2.19,
+    "ari": 2.88,
+    "coleman_liau": 5.6,
+    "gunning_fog": 2.99
+  },
+  "final_metrics": {
+    "word_count": 246,
+    "sentence_count": 17,
+    "avg_sentence_len": 14.47,
+    "avg_word_len": 6.13,
+    "syllable_count": 485,
+    "complex_word_count": 24,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 25.35,
+    "flesch_kincaid_grade": 13.32,
+    "ari": 14.7,
+    "coleman_liau": 18.22,
+    "gunning_fog": 9.69
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC restructuring focusing on sentence-level replacements, merges, and complex clauses|applied_edits=17|tier=coarse_jump;dist=9.5850;dir=harder;est_wb=80;est_sb=15",
+      "metrics": {
+        "word_count": 246,
+        "sentence_count": 17,
+        "avg_sentence_len": 14.47,
+        "avg_word_len": 6.13,
+        "syllable_count": 485,
+        "complex_word_count": 24,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 25.35,
+        "flesch_kincaid_grade": 13.32,
+        "ari": 14.7,
+        "coleman_liau": 18.22,
+        "gunning_fog": 9.69
+      },
+      "distance_to_target": 0.9825,
+      "fidelity": {
+        "overall": 0.83,
+        "entity_recall": 0.7778,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 27,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 678,
+        "completion_tokens": 9684,
+        "total_tokens": 10362,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.83,
+    "entity_recall": 0.7778,
+    "number_recall": 1,
+    "keyword_recall": 0.65,
+    "entity_total": 27,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 678,
+    "completion_tokens": 9684,
+    "total_tokens": 10362,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T12:51:44.565Z"
+}

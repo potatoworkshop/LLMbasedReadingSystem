@@ -1,0 +1,140 @@
+{
+  "article_id": "dfe469cb-7a6e-49c7-b08e-96580c182ed6",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate adaptation refers to adjustments in human and natural systems to reduce harm from climate change. Unlike mitigation, which seeks to limit greenhouse gas emissions, adaptation accepts that some warming is already occurring. Decision makers now prioritise adaptation because even optimistic emissions scenarios still project increased heat, floods, and droughts. Adaptation can be incremental, such as raising road levels, or transformative, like redesigning cities around water. Both approaches require planning that anticipates future conditions rather than relying on past experience alone.\n\nInfrastructure modifications include flood barriers, elevated housing, and improved drainage to cope with more intense rainfall. In agriculture, shifts in planting dates, drought-resistant crops, and better soil management increase resilience and secure food supplies. Coastal communities combine hard engineering with nature-based solutions, such as wetland restoration, to reduce erosion and protect biodiversity. However, adaptation involves trade-offs, costs, and ethical questions about who gains and who bears residual risk.\n\nImplementation is complicated by uncertain projections, limited finance, and competing development priorities at multiple scales. Local knowledge and stakeholder participation can improve relevance and equity, but require capacity building and inclusive governance arrangements. Adaptive management — monitoring outcomes and adjusting actions over time — helps planners cope with surprises and learning. Public-private partnerships and innovative finance instruments, such as resilience bonds, mobilise resources for large projects that governments cannot afford alone. Yet small-scale interventions often deliver rapid benefits and can be scaled up when effective and supported by evidence.\n\nMonitoring, clear indicators, and transparent reporting enable accountability and guide future investment choices. Mainstreaming adaptation into development plans reduces duplication and creates co-benefits for health, livelihoods, and long-term sustainability. International cooperation is essential because many risks cross borders and poorer countries bear disproportionate burdens of loss and damage. Policymakers who adopt flexible, inclusive, and evidence-based strategies will improve resilience and reduce future costs. Effective adaptation depends on timely data, scientific research, and sustained political commitment at all levels.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb04",
+    "sample_id": "generated_388e6d31-3617-47aa-9b0f-94e7df01272e_to_l5_r7_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "388e6d31-3617-47aa-9b0f-94e7df01272e",
+    "source_dataset": "generated",
+    "source_file": "388e6d31-3617-47aa-9b0f-94e7df01272e.json",
+    "source_level": 3
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate adaptation refers to adjustments in human and natural systems to reduce harm from climate change. Unlike mitigation, which seeks to limit greenhouse gas emissions, adaptation accepts that some warming is already occurring. Decision makers now prioritise adaptation because even optimistic emissions scenarios still project increased heat, floods, and droughts. Adaptation can be incremental, such as raising road levels, or transformative, like redesigning cities around water. Both approaches require planning that anticipates future conditions rather than relying on past experience alone.\n\nInfrastructure modifications, encompassing flood barriers, elevated housing, and improved drainage, enable coping with more intense rainfall. In agriculture, shifts in planting dates, drought-resistant crops, and better soil management increase resilience and secure food supplies. Coastal communities combine hard engineering with nature-based solutions, such as wetland restoration, to reduce erosion and protect biodiversity. However, adaptation involves trade-offs, costs, and ethical questions about who gains and who bears residual risk.\n\nImplementation is complicated by uncertain projections, limited finance, and competing development priorities at multiple scales. Local knowledge and stakeholder participation can improve relevance and equity, but require capacity building and inclusive governance arrangements. Adaptive management — monitoring outcomes and adjusting actions over time — helps planners cope with surprises and learning. Public-private partnerships and innovative finance instruments, such as resilience bonds, mobilise resources for large projects that governments cannot afford alone. Yet small-scale interventions often deliver rapid benefits and can be scaled up when effective and supported by evidence.\n\nMonitoring, clear indicators, and transparent reporting enable accountability and guide future investment choices. Mainstreaming adaptation into development plans reduces duplication and creates co-benefits for health, livelihoods, and long-term sustainability. International cooperation is essential because many risks cross borders and poorer countries bear disproportionate burdens of loss and damage. Policymakers who adopt flexible, inclusive, and evidence-based strategies will improve resilience and reduce future costs. Effective adaptation depends on timely data, scientific research, and sustained political commitment at all levels.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 322,
+    "sentence_count": 19,
+    "avg_sentence_len": 16.95,
+    "avg_word_len": 6.5,
+    "syllable_count": 684,
+    "complex_word_count": 43,
+    "complex_word_ratio": 0.13,
+    "flesch_reading_ease": 9.92,
+    "flesch_kincaid_grade": 16.09,
+    "ari": 17.64,
+    "coleman_liau": 20.66,
+    "gunning_fog": 12.12
+  },
+  "final_metrics": {
+    "word_count": 322,
+    "sentence_count": 19,
+    "avg_sentence_len": 16.95,
+    "avg_word_len": 6.53,
+    "syllable_count": 688,
+    "complex_word_count": 44,
+    "complex_word_ratio": 0.14,
+    "flesch_reading_ease": 8.87,
+    "flesch_kincaid_grade": 16.23,
+    "ari": 17.8,
+    "coleman_liau": 20.86,
+    "gunning_fog": 12.24
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic changes (sentence restructuring for denser complexity)|applied_edits=1|tier=dist_lt_1;dist=0.1242;center_gap=2.14;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=10;sb=1;est_wb=24;est_sb=5;lf=0.73;df=0.96;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 322,
+        "sentence_count": 19,
+        "avg_sentence_len": 16.95,
+        "avg_word_len": 6.53,
+        "syllable_count": 688,
+        "complex_word_count": 44,
+        "complex_word_ratio": 0.14,
+        "flesch_reading_ease": 8.87,
+        "flesch_kincaid_grade": 16.23,
+        "ari": 17.8,
+        "coleman_liau": 20.86,
+        "gunning_fog": 12.24
+      },
+      "distance_to_target": 0.0725,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 18,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1042,
+        "completion_tokens": 6219,
+        "total_tokens": 7261,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 18,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 6219,
+    "total_tokens": 7261,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:06:53.395Z"
+}

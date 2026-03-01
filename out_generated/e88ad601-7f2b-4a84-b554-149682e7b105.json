@@ -1,0 +1,59 @@
+{
+  "article_id": "e88ad601-7f2b-4a84-b554-149682e7b105",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes",
+  "article": [
+    "For many centuries, people used long paths and sea lanes to buy and sell goods. These pathways are known today as ancient trade routes. Traders moved silk, spices, salt, gold and other goods across great distances. The routes also carried ideas, art and new technologies. Towns that sat along the routes often grew into busy centers of trade and learning. This passage explains the main routes and their wider effects on human history.",
+    "One of the best known routes was the Silk Road. It linked China to lands in Central Asia and the Mediterranean. Caravans carried silk, porcelain, tea and paper westward. From the west came glass, wool and horses. Along the coast, maritime routes connected ports from East Africa to Southeast Asia and China. Ships moved spices, timber and metal goods in large amounts. In the Sahara, camel caravans crossed desert tracks. They took salt and gold between West Africa and North Africa. Each route served many regions and many kinds of cargo.",
+    "Trade routes changed daily life in many places. New foods and plants spread along these lines. Craftspeople learned new methods from travelers and copied foreign styles. Religions and languages also traveled with merchants. Cities on the routes gained wealth from fees, markets and food supplies. Schools and workshops grew where traders met. Over time, these cities became hubs for scholars, artists and religious teachers. The movement of people and goods led to a steady flow of knowledge and new practices between distant lands.",
+    "Routes did not stay the same forever. Shifts in power, climate change and new sea technology could change or stop a route. For example, improved ships and maps reduced the need for some long land journeys. Wars and closed borders could also interrupt trade. Despite these changes, the legacy of ancient routes is clear today. Many modern roads and sea lanes follow old paths. Museums and ruins still show how important trade once was. In this way, ancient trade routes helped shape the modern world by linking people, goods and ideas across vast distances."
+  ],
+  "metrics": {
+    "word_count": 341,
+    "sentence_count": 31,
+    "avg_sentence_len": 11,
+    "avg_word_len": 4.91,
+    "syllable_count": 517,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 67.41,
+    "flesch_kincaid_grade": 6.59,
+    "ari": 7.21,
+    "coleman_liau": 10.39,
+    "gunning_fog": 4.75
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "ancient_trade_routes_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:17:19.712Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 2,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 41
+  },
+  "token_usage": {
+    "prompt_tokens": 366,
+    "completion_tokens": 3213,
+    "total_tokens": 3579,
+    "llm_calls": 2
+  },
+  "generated_at": "2026-02-25T20:17:19.713Z"
+}

@@ -1,0 +1,59 @@
+{
+  "article_id": "f34dbe93-323a-4241-938a-fa0d226f6671",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adapting to Climate Change",
+  "article": [
+    "Climate change brings many challenges. Temperatures rise around the world. Sea levels go up. Storms grow stronger and more often. Droughts last longer in some places. These changes harm people, farms, and cities. To fight back, humans need to adapt. Adaptation means changing ways of life to handle new weather patterns. It helps cut down damage and save lives. Governments, businesses, and people all play a part in this work.",
+    "Many places show good ways to adapt. In the Netherlands, tall sea walls called dikes protect low lands from floods. These walls have stopped water many times. Engineers make them stronger each year. In Bangladesh, floods cover fields often. Farmers there build floating gardens from bamboo and water plants. Crops grow on these rafts even when land is under water. They still get food for their families. Cities like Singapore plant trees and build green roofs on homes. This cools hot streets and soaks up heavy rain.",
+    "Farmers adapt their work too. They pick crops that need less water, like sorghum instead of rice in dry areas. They use smart tools to check soil and save water. In Australia, ranchers move cattle to safer spots during fires. They clear dry bushes to stop flames from spreading fast. Coastal towns raise roads and homes on higher ground. This keeps them safe from rising seas.",
+    "Adaptation costs money at first. But it saves more in the long run. Strong plans stop big losses from disasters. They create jobs in building and farming. Rich countries help poorer ones with tech and funds. Everyone must act now. Better knowledge sharing builds hope. With smart steps, people can live well in a warmer world."
+  ],
+  "metrics": {
+    "word_count": 279,
+    "sentence_count": 35,
+    "avg_sentence_len": 7.97,
+    "avg_word_len": 4.76,
+    "syllable_count": 383,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 82.61,
+    "flesch_kincaid_grade": 3.72,
+    "ari": 4.96,
+    "coleman_liau": 8.45,
+    "gunning_fog": 3.62
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "climate_adaptation_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:39:36.734Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 21
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3027,
+    "total_tokens": 4032,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:39:36.735Z"
+}

@@ -1,0 +1,58 @@
+{
+  "article_id": "445de9b3-b392-4724-9354-544c9f7b6494",
+  "topic": "public transportation",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "The Evolution and Impact of Urban Mass Transit",
+  "article": [
+    "Public transportation systems represent the circulatory framework of the modern metropolis, facilitating the movement of millions of individuals daily. Historically, the development of organized transit began with horse-drawn carriages, but the industrial revolution catalyzed a transition toward more efficient mechanical solutions. The introduction of underground railways in the nineteenth century marked a significant shift in urban planning, allowing cities to expand vertically and horizontally without the constraints of surface congestion. Today, these networks encompass a diverse array of modes, including high-speed rail, automated subways, and integrated bus rapid transit systems that define the functional capacity of global financial hubs.",
+    "From an environmental perspective, the expansion of public transit is frequently cited as a primary strategy for reducing carbon emissions. By consolidating passengers into high-capacity vehicles, cities can significantly lower the per capita energy consumption associated with commuting. Furthermore, modern transit initiatives often prioritize the electrification of fleets, which diminishes the reliance on fossil fuels and improves local air quality. Urban planners argue that a robust transit infrastructure encourages denser residential development, which ultimately preserves green spaces and reduces the ecological footprint of sprawling suburban neighborhoods. This shift is essential for meeting international sustainability targets in an era of rapid climate change.",
+    "Despite these advantages, the implementation of comprehensive transit networks faces substantial economic and logistical hurdles. The initial capital investment required for tunneling and track installation is immense, often necessitating complex public-private partnerships. Additionally, maintaining service reliability requires constant technological upgrades to signaling systems and rolling stock. Socially, the success of public transportation depends on accessibility and affordability for diverse demographic groups. When a system is well-integrated, it fosters economic mobility by connecting residents in peripheral districts to central employment opportunities. Consequently, the ongoing refinement of transit policy remains a cornerstone of equitable urban development and long-term economic resilience."
+  ],
+  "metrics": {
+    "word_count": 305,
+    "sentence_count": 15,
+    "avg_sentence_len": 20.33,
+    "avg_word_len": 6.59,
+    "syllable_count": 698,
+    "complex_word_count": 48,
+    "complex_word_ratio": 0.16,
+    "flesch_reading_ease": -7.41,
+    "flesch_kincaid_grade": 19.34,
+    "ari": 19.78,
+    "coleman_liau": 21.49,
+    "gunning_fog": 14.43
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "public_transportation_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:38:06.486Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 5
+  },
+  "token_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 368,
+    "total_tokens": 569,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:38:06.486Z"
+}

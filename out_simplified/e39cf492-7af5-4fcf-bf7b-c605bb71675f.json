@@ -1,0 +1,288 @@
+{
+  "article_id": "e39cf492-7af5-4fcf-bf7b-c605bb71675f",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems are special places in the oceans. They cover most of the Earth's surface. About 70 percent of our planet is ocean water. In these ecosystems, plants, animals, and tiny creatures live together. They depend on each other for food and shelter. Sunlight, water currents, and salt shape these homes. Different areas of the ocean have different ecosystems. Some are bright and full of color. Others are dark and cold. All of them help keep life on Earth in balance.\n\nCoral reefs are one of the most colorful marine ecosystems. They grow in warm, shallow waters near the coast. Tiny animals called coral polyps build the reefs. Each polyp makes a hard shell from calcium in the sea water. Over many years, these shells stack up to form huge structures. Reefs look like underwater gardens. Bright fish swim among the branches. Sea turtles rest in the shade. Sharks hunt for food nearby. Reefs protect coastlines from big waves. They also give homes to one quarter of all ocean species. Without reefs, many sea creatures would have no place to live.\n\nThe open ocean holds another key ecosystem. It starts where reefs end and goes far out to sea. Here, tiny plants called phytoplankton float on the surface. They use sunlight to make food. This process is called photosynthesis. Zooplankton, which are small animals, eat the phytoplankton. Small fish then eat the zooplankton. Larger fish chase the small fish. Whales and dolphins feed at the top of this food chain. Sometimes, whales gulp huge amounts of tiny krill. Ocean currents carry nutrients to keep this chain strong. The open ocean covers half the Earth. It supports big schools of tuna and swordfish that people catch for food.\n\nDeep-sea ecosystems are very different. They lie far below the sunlight zone. No light reaches depths over 200 meters. Water there is cold and under great pressure. Yet life thrives in strange ways. Anglerfish use glowing lures to catch prey. Their huge mouths help them grab food. Giant squid hide in the dark waters. On the ocean floor, hydrothermal vents spew hot water rich in minerals. Tube worms grow tall near these vents. Bacteria inside the worms turn chemicals into food. No sunlight is needed. These vents show life can exist in harsh places. They teach us about possible life on other planets.\n\nMarine ecosystems matter to all life. They produce half the oxygen in our air. Fish from these waters feed billions of people. Healthy oceans store carbon and help control weather. But threats harm them now. Plastic waste chokes sea animals. Overfishing empties fish stocks. Rising sea temperatures bleach coral white and kill it. Acidic water from pollution hurts shells. People must act to protect these vital systems. Reserves and clean-up efforts can help. Simple steps like reducing plastic use make a difference. By caring for marine ecosystems, we care for our own future.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_2f6c2454-faf6-4af1-86f6-e93e93d6181a_to_l4_r8_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "2f6c2454-faf6-4af1-86f6-e93e93d6181a",
+    "source_dataset": "generated",
+    "source_file": "2f6c2454-faf6-4af1-86f6-e93e93d6181a.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems are special places in the oceans. They cover most of the Earth's surface. About 70 percent of our planet is ocean water. In these ecosystems, plants, animals, and tiny creatures live together. They depend on each other for food and shelter. Sunlight, water currents, and salt shape these homes. Different areas of the ocean have different ecosystems. Some are bright and full of color. Others are dark and cold. All of them help keep life on Earth in balance.\n\nCoral reefs are one of the most colorful marine ecosystems. They grow in warm, shallow waters near the coast. Tiny animals called coral polyps build the reefs. Each polyp makes a hard shell from calcium in the sea water. Over many years, these shells stack up to form huge structures. Reefs look like underwater gardens. Bright fish swim among the branches. Sea turtles rest in the shade. Sharks hunt for food nearby. Reefs protect coastlines from big waves. They also give homes to one quarter of all ocean species. Without reefs, many sea creatures would have no place to live.\n\nThe open ocean holds another key ecosystem. It starts where reefs end and goes far out to sea. Here, tiny plants called phytoplankton float on the surface. They use sunlight to make food. This process is called photosynthesis. Zooplankton, which are small animals, eat the phytoplankton. Small fish then eat the zooplankton. Larger fish chase the small fish. Whales and dolphins feed at the top of this food chain. Sometimes, whales gulp huge amounts of tiny krill. Ocean currents carry nutrients to keep this chain strong. The open ocean covers half the Earth. It supports big schools of tuna and swordfish that people catch for food.\n\nDeep-sea ecosystems are very different. They lie far below the sunlight zone. No light reaches depths over 200 meters. Water there is cold and under great pressure. Yet life thrives in strange ways. Anglerfish use glowing lures to catch prey. Their huge mouths help them grab food. Giant squid hide in the dark waters. On the ocean floor, hydrothermal vents spew hot water rich in minerals. Tube worms grow tall near these vents. Bacteria inside the worms turn chemicals into food. No sunlight is needed. These vents show life can exist in harsh places. They teach us about possible life on other planets.\n\nMarine ecosystems matter to all life. They produce half the oxygen in our air. Fish from these waters feed billions of people. Healthy oceans store carbon and help control weather. But threats harm them now. Plastic waste chokes sea animals. Overfishing empties fish stocks. Rising sea temperatures bleach coral white and kill it. Acidic water from pollution hurts shells. People must act to protect these vital systems. Reserves and clean-up efforts can help. Simple steps like reducing plastic use make a difference. By caring for marine ecosystems, we care for our own future.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 485,
+    "sentence_count": 62,
+    "avg_sentence_len": 7.82,
+    "avg_word_len": 4.78,
+    "syllable_count": 712,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.7,
+    "flesch_kincaid_grade": 4.78,
+    "ari": 5,
+    "coleman_liau": 8.53,
+    "gunning_fog": 4.37
+  },
+  "final_metrics": {
+    "word_count": 485,
+    "sentence_count": 62,
+    "avg_sentence_len": 7.82,
+    "avg_word_len": 4.78,
+    "syllable_count": 712,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.7,
+    "flesch_kincaid_grade": 4.78,
+    "ari": 5,
+    "coleman_liau": 8.53,
+    "gunning_fog": 4.37
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=7.3300;dir=harder;est_wb=80;est_sb=22",
+      "metrics": {
+        "word_count": 485,
+        "sentence_count": 62,
+        "avg_sentence_len": 7.82,
+        "avg_word_len": 4.78,
+        "syllable_count": 712,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 74.7,
+        "flesch_kincaid_grade": 4.78,
+        "ari": 5,
+        "coleman_liau": 8.53,
+        "gunning_fog": 4.37
+      },
+      "distance_to_target": 7.33,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=7.3300;center_gap=8.28;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=22;est_wb=80;est_sb=22;lf=0.90;df=2.10;af=1.0000;pg=7.3300;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 485,
+        "sentence_count": 62,
+        "avg_sentence_len": 7.82,
+        "avg_word_len": 4.78,
+        "syllable_count": 712,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 74.7,
+        "flesch_kincaid_grade": 4.78,
+        "ari": 5,
+        "coleman_liau": 8.53,
+        "gunning_fog": 4.37
+      },
+      "distance_to_target": 7.33,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=7.3300;center_gap=8.28;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=22;est_wb=80;est_sb=22;lf=0.90;df=2.10;af=1.0000;pg=7.3300;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 485,
+        "sentence_count": 62,
+        "avg_sentence_len": 7.82,
+        "avg_word_len": 4.78,
+        "syllable_count": 712,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 74.7,
+        "flesch_kincaid_grade": 4.78,
+        "ari": 5,
+        "coleman_liau": 8.53,
+        "gunning_fog": 4.37
+      },
+      "distance_to_target": 7.33,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=7.3300;center_gap=8.28;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=22;est_wb=80;est_sb=22;lf=0.90;df=2.10;af=1.0000;pg=7.3300;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 485,
+        "sentence_count": 62,
+        "avg_sentence_len": 7.82,
+        "avg_word_len": 4.78,
+        "syllable_count": 712,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 74.7,
+        "flesch_kincaid_grade": 4.78,
+        "ari": 5,
+        "coleman_liau": 8.53,
+        "gunning_fog": 4.37
+      },
+      "distance_to_target": 7.33,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=7.3300;center_gap=8.28;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=22;est_wb=80;est_sb=22;lf=0.90;df=2.10;af=1.0000;pg=7.3300;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 485,
+        "sentence_count": 62,
+        "avg_sentence_len": 7.82,
+        "avg_word_len": 4.78,
+        "syllable_count": 712,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 74.7,
+        "flesch_kincaid_grade": 4.78,
+        "ari": 5,
+        "coleman_liau": 8.53,
+        "gunning_fog": 4.37
+      },
+      "distance_to_target": 7.33,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 44,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:39.503Z"
+}

@@ -1,0 +1,58 @@
+{
+  "article_id": "d5434f1a-e6a0-4063-8f31-4714d265751d",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes: Linking Civilizations",
+  "article": [
+    "Ancient trade routes connected distant parts of the world long ago. These paths allowed people to exchange goods, ideas, and cultures. Merchants traveled great distances by land and sea. Their journeys helped build strong economies and spread knowledge. One of the most famous routes was the Silk Road.",
+    "The Silk Road stretched from China to the Mediterranean Sea. It began around 200 BCE during the Han Dynasty. Traders carried silk, spices, and porcelain from the East. In return, they brought back gold, silver, and glass from the West. Camels formed long caravans across deserts and mountains. Cities like Samarkand became busy hubs for trade and rest.",
+    "Another key route was the Incense Route in the Arabian Peninsula. It ran from southern Arabia to the ports of the Red Sea. Merchants sold frankincense and myrrh, which were used in perfumes and religious rites. These goods reached Egypt and Rome. Sea routes in the Indian Ocean also linked India, Arabia, and East Africa. Spices, ivory, and textiles moved along these waters.",
+    "Trade routes changed the world in many ways. They boosted wealth for kingdoms and empires. New foods, technologies, and religions spread far and wide. Buddhism traveled from India to China via the Silk Road. Art and language mixed in vibrant markets. Even diseases sometimes followed these paths.",
+    "Today, the legacy of ancient trade routes lives on. Modern highways and shipping lanes follow similar paths. They remind us how trade has always united people across continents."
+  ],
+  "metrics": {
+    "word_count": 244,
+    "sentence_count": 26,
+    "avg_sentence_len": 9.38,
+    "avg_word_len": 5.01,
+    "syllable_count": 388,
+    "complex_word_count": 4,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 62.78,
+    "flesch_kincaid_grade": 6.83,
+    "ari": 6.85,
+    "coleman_liau": 10.49,
+    "gunning_fog": 4.41
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "ancient_trade_routes_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:07:38.357Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 56
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 2282,
+    "total_tokens": 3290,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:07:38.358Z"
+}

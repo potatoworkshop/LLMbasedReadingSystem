@@ -1,0 +1,140 @@
+{
+  "article_id": "f10ce48c-c933-47d5-a740-e52cd61ae30a",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change is real. The Earth is getting warmer. This causes big problems. Storms grow stronger. Sea levels rise. Droughts last longer. People and nature must adapt. Adaptation means making smart changes. These changes help us live with the new climate.\n\nFarmers lead the way in adaptation. They switch to new crops. These crops grow well in heat. They need less water. In parts of India, farmers plant millet instead of rice. Millet survives dry spells. This gives them food and money. They also use better ways to save water. Drip irrigation waters plants drop by drop. It cuts waste.\n\nCities make big changes too. They build walls by the sea. These walls block floods. They plant trees in streets. Trees give shade and cool the air. In the Netherlands, people raise land to fight high water. They pump out extra water fast. These steps save homes and lives.\n\nNature adapts on its own. Birds move to cooler places. Fish swim to colder waters. Plants grow in new spots. But change happens fast. Some animals need help. People create safe areas for them. They stop cutting forests.\n\nAdaptation brings hope. It works best with less pollution. We cut carbon to slow warming. Then adaptation is easier. Everyone can help. Small steps add up. Our world can stay livable.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb07",
+    "sample_id": "generated_2593d2ce-cc8e-4356-979d-990202935fd8_to_l4_r2_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "2593d2ce-cc8e-4356-979d-990202935fd8",
+    "source_dataset": "generated",
+    "source_file": "2593d2ce-cc8e-4356-979d-990202935fd8.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The reality of anthropogenic climate change is unequivocal. A discernible trend of planetary warming is underway. This phenomenon precipitates significant, multifaceted consequences. Atmospheric disturbances are intensifying in magnitude. Sea levels rise. Arid conditions are exhibiting increased temporal persistence. Both human societies and natural systems are compelled to undertake adaptation. Adaptation constitutes the implementation of strategic modifications. These changes help us live with the new climate.\n\nThe agricultural sector is at the vanguard of adaptive initiatives. They transition to cultivating alternative cultivars. These cultivars demonstrate superior thermal tolerance. They need less water. In parts of India, farmers plant millet instead of rice. Millet exhibits resilience during protracted dry intervals. This strategy ensures sustenance and generates revenue. They also use better ways to save water. Drip irrigation administers hydration with precise, incremental delivery. It cuts waste.\n\nUrban centers are likewise enacting substantial transformations. They build walls by the sea. These structures function as inundation barriers. They plant trees in streets. Foliage provides solar attenuation and induces atmospheric cooling. In the Netherlands, people raise land to fight high water. They pump out extra water fast. These interventions preserve domiciles and human lives.\n\nEcosystems possess an inherent capacity for autonomous adaptation. Birds move to cooler places. Fish swim to colder waters. Plants grow in new spots. However, the rate of environmental transformation is accelerating. Certain faunal species necessitate anthropogenic assistance. Humanity establishes protected refugia for these organisms. They stop cutting forests.\n\nAdaptive measures engender a degree of optimism. Its efficacy is maximized when concomitant with pollution mitigation. Anthropogenic carbon emission reduction decelerates the warming trajectory. Consequently, the adaptive burden is ameliorated. Universal participation is feasible. Cumulatively, incremental actions yield substantial impact. The habitability of our planet can thereby be preserved.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 218,
+    "sentence_count": 42,
+    "avg_sentence_len": 5.19,
+    "avg_word_len": 4.61,
+    "syllable_count": 291,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 88.64,
+    "flesch_kincaid_grade": 2.19,
+    "ari": 2.88,
+    "coleman_liau": 5.6,
+    "gunning_fog": 2.99
+  },
+  "final_metrics": {
+    "word_count": 286,
+    "sentence_count": 42,
+    "avg_sentence_len": 6.81,
+    "avg_word_len": 6.43,
+    "syllable_count": 635,
+    "complex_word_count": 50,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": 12.09,
+    "flesch_kincaid_grade": 13.27,
+    "ari": 12.24,
+    "coleman_liau": 17.64,
+    "gunning_fog": 9.72
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=LEXICAL changes|applied_edits=28|tier=coarse_jump;dist=9.5850;dir=harder;est_wb=80;est_sb=15",
+      "metrics": {
+        "word_count": 286,
+        "sentence_count": 42,
+        "avg_sentence_len": 6.81,
+        "avg_word_len": 6.43,
+        "syllable_count": 635,
+        "complex_word_count": 50,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": 12.09,
+        "flesch_kincaid_grade": 13.27,
+        "ari": 12.24,
+        "coleman_liau": 17.64,
+        "gunning_fog": 9.72
+      },
+      "distance_to_target": 0.2175,
+      "fidelity": {
+        "overall": 0.7767,
+        "entity_recall": 0.5926,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 27,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 611,
+        "completion_tokens": 3100,
+        "total_tokens": 3711,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7767,
+    "entity_recall": 0.5926,
+    "number_recall": 1,
+    "keyword_recall": 0.8,
+    "entity_total": 27,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 611,
+    "completion_tokens": 3100,
+    "total_tokens": 3711,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:34:04.903Z"
+}

@@ -1,0 +1,60 @@
+{
+  "article_id": "5a2093bd-4f3d-4247-8e42-085518048984",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Diversity and Importance of Marine Ecosystems",
+  "article": [
+    "Oceans cover more than 70 percent of Earth's surface. They form the largest ecosystems on the planet. Marine ecosystems support a huge variety of life. From tiny plankton to giant whales, these waters teem with creatures. These systems play key roles in global health. They produce half of the oxygen we breathe. They also help control the climate by absorbing carbon dioxide. Marine ecosystems include coral reefs, open seas, and deep ocean floors. Each area has unique features and species. Scientists study them to understand ocean balance.",
+    "Coral reefs stand out as colorful hotspots of life. They grow in warm, shallow waters near coasts. Tiny animals called polyps build these reefs with limestone skeletons. Reefs cover less than one percent of the ocean floor. Yet they host 25 percent of all marine species. Fish, sharks, and sea turtles find homes here. Algae live with corals in a close bond called symbiosis. This partnership gives corals food and color. Reefs protect shores from waves and storms. They support fishing for millions of people. But warming seas bleach corals and harm these vital spots.",
+    "The open ocean stretches far from land. It forms the biggest habitat on Earth. Plankton drift on surface currents and feed many animals. Small fish eat plankton, then bigger fish eat them. This food chain links all ocean life. Tuna and swordfish roam in large schools. Sea birds and dolphins hunt these groups. Whales migrate across oceans to breed and feed. Sargassum seaweed floats in patches, creating mini-reefs. These hold young fish and crabs. Open waters mix heat and nutrients worldwide. Strong currents like the Gulf Stream shape weather patterns on land.",
+    "Deep seas hide in total darkness below 200 meters. Pressure rises and cold grips this zone. Few plants grow here without sunlight. Creatures adapt in strange ways. Anglerfish use glowing lures to catch prey. Giant squid reach lengths of 13 meters. Tube worms thrive near hot vents on the seafloor. These vents spew minerals from Earth's core. Bacteria convert chemicals into food. This base supports crabs and fish. Explorers use submersibles to map these areas. They find new species each year. Deep ecosystems recycle nutrients back to surface waters.",
+    "Human actions threaten marine balance. Overfishing empties fish stocks in many areas. Plastic waste chokes sea life from turtles to whales. Oil spills poison coasts and kill birds. Climate change warms waters and raises sea levels. Acidic oceans harm shellfish shells. Coral reefs suffer most from these changes. Steps to protect include marine parks and bans on trawling. International rules limit catches of tuna and sharks. People reduce plastic use and clean beaches. Research tracks species health with tags and cameras. Restoring mangroves aids fish nurseries. These efforts aim to save marine wonders for the future."
+  ],
+  "metrics": {
+    "word_count": 460,
+    "sentence_count": 59,
+    "avg_sentence_len": 7.8,
+    "avg_word_len": 5.07,
+    "syllable_count": 688,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 72.39,
+    "flesch_kincaid_grade": 5.1,
+    "ari": 6.33,
+    "coleman_liau": 10.19,
+    "gunning_fog": 3.64
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "marine_ecosystems_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:53:04.758Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 140
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3213,
+    "total_tokens": 4218,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:53:04.758Z"
+}

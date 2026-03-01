@@ -1,0 +1,214 @@
+{
+  "article_id": "e59602ee-9e87-4456-9ed9-ccef0538481f",
+  "mode": "difficulty_adjust",
+  "original_article": "The genesis of modern public transportation is inextricably linked to the rapid urbanization that characterized the industrial era, necessitating a paradigm shift in how metropolitan populations navigated expanding territorial boundaries. Historically, the transition from horse-drawn omnibuses to sophisticated subterranean rail networks represented more than mere technological progression; it signified a fundamental reconfiguration of the urban fabric. These systems facilitated the separation of residential and commercial zones, thereby catalyzing the development of suburban peripheries while maintaining the economic vitality of the central business district. In contemporary discourse, the efficacy of public transit is often scrutinized through the lens of multimodal integration, where the seamless synchronization of buses, light rail, and rapid transit systems is deemed essential for mitigating the deleterious effects of vehicular congestion and atmospheric pollution. The strategic implementation of transit-oriented development further underscores the potential of these networks to dictate land-use patterns, fostering high-density corridors that prioritize pedestrian accessibility over private automobile dependency.\n\nFrom an economic perspective, the sustainability of public transportation hinges upon a delicate equilibrium between fiscal solvency and the provision of an essential social utility. While farebox recovery ratios remain a primary metric for assessing operational efficiency, they frequently fail to account for the substantial external benefits accrued by the broader community. These externalities include reduced infrastructure maintenance costs, enhanced labor market mobility, and the mitigation of carbon emissions, all of which contribute to the long-term resilience of the urban economy. However, the capital-intensive nature of expanding transit infrastructure often necessitates complex public-private partnerships or substantial government subsidies, sparking perennial debates regarding equitable resource allocation. Critics argue that disproportionate investment in prestige projects may marginalize peripheral communities, whereas proponents contend that a robust, interconnected network is a prerequisite for global competitiveness in an increasingly interconnected world. The challenge, therefore, lies in optimizing network architecture to ensure that service delivery is both economically viable and socially inclusive.\n\nTechnological innovation continues to redefine the parameters of public transit, introducing autonomous systems and real-time data analytics that promise to revolutionize passenger experiences. The advent of Mobility-as-a-Service (MaaS) platforms exemplifies this trend, integrating various transportation modes into a single digital interface that optimizes route planning and payment processing. Such advancements facilitate a more responsive and dynamic transit environment, capable of adapting to fluctuating demand patterns in real time. Nevertheless, the integration of these digital technologies necessitates rigorous cybersecurity protocols and a commitment to data privacy to maintain public trust. As cities grapple with the exigencies of climate change and demographic shifts, the evolution of public transportation will likely focus on decarbonization through electrification and the expansion of micro-mobility solutions to bridge the 'last-mile' gap. Ultimately, the success of future transit systems will depend on their ability to harmonize technological sophistication with the fundamental human need for reliable, accessible, and egalitarian movement within the built environment.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_2d1748ce-785b-4aef-9110-620163cc46ce_to_l4_r7_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "2d1748ce-785b-4aef-9110-620163cc46ce",
+    "source_dataset": "generated",
+    "source_file": "2d1748ce-785b-4aef-9110-620163cc46ce.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The start of modern public transportation is tied to the fast city growth that marked the industrial era, requiring a key change in how city people traveled growing city borders. Historically, the transition from horse-drawn buses to subway rail systems represented more than just tech improvements; it meant a big change of the city layout. These systems enabled the separation of residential and commercial zones, so starting the development of outer suburbs while maintaining the economic strength of the central business district. In modern talk, the success of public transit is often studied through the view of mode mixing, where the smooth coordination of buses, light rail, and rapid transit systems is seen as key for reducing the bad results of traffic jams and air pollution. The careful use of transit-oriented development further shows the potential of these networks to shape land-use patterns, building high-density corridors that favor walker access over car dependence.\n\nFrom an economic perspective, the long-term health of public transportation rests on a fine balance between financial balance and the supply of an essential social utility. Fare recovery measures efficiency. It skips major benefits for everyone. These side benefits include reduced infrastructure maintenance costs, enhanced labor market mobility, and the reduction of carbon emissions, all of which contribute to the long-term resilience of the urban economy. Expanding transit costs much. It needs partnerships or aid. This causes fair-share arguments. Critics argue that uneven spending in prestige projects may ignore outlying areas, whereas proponents contend that a robust, interconnected network is a must-have for global competitiveness in an increasingly interconnected world. The challenge, therefore, lies in optimizing network architecture to ensure that service delivery is both economically viable and socially inclusive.\n\nTech changes public transit rules. Self-driving and live data improve rides a lot. The rise of Mobility-as-a-Service (MaaS) platforms shows this trend, integrating various transportation modes into a single digital interface that optimizes route planning and payment processing. Such advancements facilitate a more responsive and dynamic transit environment, capable of adapting to changing demand in real time. Still, digital tech requires tough security rules. It requires privacy care to keep trust. As cities grapple with the pressures of climate change and population changes, the evolution of public transportation will likely focus on zero-carbon shift through electrification and the expansion of micro-mobility solutions to bridge the 'last-mile' gap. Ultimately, the success of future transit systems will depend on their ability to harmonize technological sophistication with the fundamental human need for reliable, accessible, and fair movement within the built environment.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 478,
+    "sentence_count": 17,
+    "avg_sentence_len": 28.12,
+    "avg_word_len": 6.59,
+    "syllable_count": 1099,
+    "complex_word_count": 99,
+    "complex_word_ratio": 0.21,
+    "flesch_reading_ease": -16.21,
+    "flesch_kincaid_grade": 22.51,
+    "ari": 23.66,
+    "coleman_liau": 21.88,
+    "gunning_fog": 19.53
+  },
+  "final_metrics": {
+    "word_count": 436,
+    "sentence_count": 22,
+    "avg_sentence_len": 19.82,
+    "avg_word_len": 5.57,
+    "syllable_count": 803,
+    "complex_word_count": 43,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 30.91,
+    "flesch_kincaid_grade": 13.87,
+    "ari": 14.71,
+    "coleman_liau": 15.45,
+    "gunning_fog": 11.87
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach: combine lexical simplification (word swaps) with syntactic restructuring (sentence splits and shortening) for comprehensive readability reduction|applied_edits=27|tier=dist_gt_2;dist=8.8950;center_gap=8.9;mode=both;dominant=word;dir_changed=0;wb=80;sb=6;est_wb=80;est_sb=6;lf=0.89;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 447,
+        "sentence_count": 21,
+        "avg_sentence_len": 21.29,
+        "avg_word_len": 6.07,
+        "syllable_count": 915,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": 12.06,
+        "flesch_kincaid_grade": 16.87,
+        "ari": 17.79,
+        "coleman_liau": 18.48,
+        "gunning_fog": 14.42
+      },
+      "distance_to_target": 3.89,
+      "fidelity": {
+        "overall": 0.955,
+        "entity_recall": 0.9,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1253,
+        "completion_tokens": 4682,
+        "total_tokens": 5935,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary lexical simplification (word and phrase substitutions for simpler vocabulary)|applied_edits=30|tier=dist_gt_2;dist=3.8900;center_gap=3.36;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=5;lf=0.86;df=2.10;af=0.7772;pg=8.8950;pd=5.0050;af_fb=0",
+      "metrics": {
+        "word_count": 445,
+        "sentence_count": 21,
+        "avg_sentence_len": 21.19,
+        "avg_word_len": 5.72,
+        "syllable_count": 850,
+        "complex_word_count": 53,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 23.73,
+        "flesch_kincaid_grade": 15.21,
+        "ari": 16.12,
+        "coleman_liau": 16.46,
+        "gunning_fog": 13.24
+      },
+      "distance_to_target": 2.2575,
+      "fidelity": {
+        "overall": 0.955,
+        "entity_recall": 0.9,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2467,
+        "completion_tokens": 12212,
+        "total_tokens": 14679,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced simplification combining lexical word substitutions and syntactic sentence restructurings/splits|applied_edits=17|tier=dist_gt_2;dist=2.2575;center_gap=1.86;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=2;lf=0.86;df=2.03;af=1.3828;pg=3.8900;pd=1.6325;af_fb=0",
+      "metrics": {
+        "word_count": 436,
+        "sentence_count": 22,
+        "avg_sentence_len": 19.82,
+        "avg_word_len": 5.57,
+        "syllable_count": 803,
+        "complex_word_count": 43,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 30.91,
+        "flesch_kincaid_grade": 13.87,
+        "ari": 14.71,
+        "coleman_liau": 15.45,
+        "gunning_fog": 11.87
+      },
+      "distance_to_target": 0.975,
+      "fidelity": {
+        "overall": 0.89,
+        "entity_recall": 0.8,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3661,
+        "completion_tokens": 21468,
+        "total_tokens": 25129,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.89,
+    "entity_recall": 0.8,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 10,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3661,
+    "completion_tokens": 21468,
+    "total_tokens": 25129,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T13:30:12.672Z"
+}

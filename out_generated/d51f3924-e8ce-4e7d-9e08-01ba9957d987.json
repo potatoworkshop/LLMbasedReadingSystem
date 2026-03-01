@@ -1,0 +1,60 @@
+{
+  "article_id": "d51f3924-e8ce-4e7d-9e08-01ba9957d987",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Diversity in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems make up the largest living spaces on Earth. They cover more than 70 percent of the planet's surface. Oceans, seas, and coastal zones form these vast habitats. A wide range of life thrives here. Tiny plankton float near the surface. Large whales swim in the deep waters. Seaweed and algae grow in shallow areas. These plants and small creatures support the entire food web.",
+    "Different types of marine ecosystems exist around the world. Coral reefs stand out for their bright colors and rich life. They shelter thousands of fish species and other animals. Kelp forests sway in cooler waters. These tall seaweeds offer homes to sea otters, seals, and many fish. The open ocean stretches far and wide. Its surface layer gets plenty of sunlight. Deeper zones grow dark and cold. Unique creatures like anglerfish live there with glowing lures.",
+    "Marine ecosystems play key roles for life on Earth. Phytoplankton, small ocean plants, produce about half of the world's oxygen. Fish and seafood feed billions of people. Many medicines come from sea creatures. Coral reefs protect coastlines from storms. They also draw tourists for jobs and income. Healthy oceans help control the climate. They absorb heat and carbon dioxide from the air.",
+    "Sadly, these ecosystems face serious threats. Overfishing removes too many fish. Plastic waste harms wildlife. Marine animals mistake bags for food. Warmer waters cause coral bleaching. Corals lose their color and die. Ocean acidification makes shells harder to build for crabs and oysters. Pollution from rivers adds dirt and chemicals.",
+    "People work to protect marine ecosystems. Marine protected areas ban fishing in key spots. Sustainable fishing limits catches. Clean-up efforts remove trash from beaches and seas. International rules fight illegal fishing. Education teaches everyone about ocean care. These steps help marine life recover and stay strong for the future."
+  ],
+  "metrics": {
+    "word_count": 304,
+    "sentence_count": 40,
+    "avg_sentence_len": 7.6,
+    "avg_word_len": 5.16,
+    "syllable_count": 485,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 64.15,
+    "flesch_kincaid_grade": 6.2,
+    "ari": 6.69,
+    "coleman_liau": 10.67,
+    "gunning_fog": 4.36
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "marine_ecosystems_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:52:24.074Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 4
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2729,
+    "total_tokens": 3734,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:52:24.075Z"
+}

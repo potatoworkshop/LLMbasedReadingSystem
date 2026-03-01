@@ -1,0 +1,11 @@
+{
+  "experiment_id": "ch5_test_decoupled_20260228",
+  "run_tag": null,
+  "batch_id": "test_grok_decoupled",
+  "source_dataset": "ielts_reference",
+  "total_jobs": 6,
+  "success_count": 0,
+  "fail_count": 6,
+  "generated_at": "2026-02-28T12:43:46.711Z",
+  "records": []
+}

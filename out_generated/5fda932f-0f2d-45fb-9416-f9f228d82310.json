@@ -1,0 +1,59 @@
+{
+  "article_id": "5fda932f-0f2d-45fb-9416-f9f228d82310",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Understanding Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are the communities of life and the physical environment found in the world’s oceans. They cover most of the Earth and support a huge variety of plants and animals. These systems provide food, oxygen, and climate regulation that benefit humans. They are also places of scientific study and wonder.",
+    "Marine habitats vary widely from shallow coasts to the deep sea. Coastal areas include sandy beaches, rocky shores, mangroves, and seagrass beds. Coral reefs sit in warm, clear waters and host many species of fish and invertebrates. The open ocean is vast and less crowded, but it still supports large animals like whales and sharks. Light, temperature, salinity, and currents shape which plants and animals live in each zone. For example, phytoplankton need light and nutrients, so they are abundant near the ocean surface.",
+    "Food webs in the sea begin with microscopic producers and move up through several consumer levels. Phytoplankton and seaweeds use sunlight to make food through photosynthesis. Small animals such as zooplankton eat these producers. Larger animals, including many fish, feed on zooplankton and smaller fish. Apex predators, like sharks and large tuna, sit at the top of these food webs. Nutrient cycles and processes like upwelling bring deep, cold water to the surface and boost productivity. Oceans also act as a major carbon sink, holding carbon that would otherwise warm the atmosphere.",
+    "Human activity affects marine ecosystems in many ways. Overfishing reduces fish populations and can change the balance of food webs. Pollution, including plastics and chemical runoff, harms animals and degrades habitats. Climate change warms sea waters and causes acidification, which stresses corals and shell-forming species. Conservation actions can help. Creating marine protected areas, limiting harmful fishing practices, and restoring coastal habitats increase resilience. Local communities and global policies both play roles in protecting the ocean. Understanding and caring for marine ecosystems is vital for nature and for the people who depend on the sea."
+  ],
+  "metrics": {
+    "word_count": 323,
+    "sentence_count": 25,
+    "avg_sentence_len": 12.92,
+    "avg_word_len": 5.35,
+    "syllable_count": 560,
+    "complex_word_count": 21,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 47.05,
+    "flesch_kincaid_grade": 9.91,
+    "ari": 10.21,
+    "coleman_liau": 13.35,
+    "gunning_fog": 7.77
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:26:19.236Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 2,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 23
+  },
+  "token_usage": {
+    "prompt_tokens": 364,
+    "completion_tokens": 4134,
+    "total_tokens": 4498,
+    "llm_calls": 2
+  },
+  "generated_at": "2026-02-25T20:26:19.238Z"
+}

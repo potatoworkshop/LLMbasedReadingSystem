@@ -1,0 +1,58 @@
+{
+  "article_id": "df1aa7cb-5edb-4d6a-a540-9c6bf770155f",
+  "topic": "marine ecosystems",
+  "level": 5,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Trophic Dynamics and Resilience in Pelagic Biomes",
+  "article": [
+    "The intricate architecture of marine ecosystems is predicated upon a sophisticated equilibrium of biogeochemical cycles and hierarchical trophic interactions. Within the pelagic zone, the primary productivity facilitated by phytoplanktonic assemblages serves as the fundamental catalyst for energy sequestration, converting solar radiation into chemical energy via complex enzymatic pathways. This foundational biomass sustains a diverse array of heterotrophic organisms, from microscopic zooplankton to apex predators, each occupying a specific niche within a multifaceted food web characterized by non-linear dynamics and synergistic feedback loops.",
+    "Anthropogenic perturbations, particularly the escalating phenomena of ocean acidification and thermal stratification, pose existential threats to these delicate biological frameworks. As excessive atmospheric carbon dioxide is absorbed by the hydrosphere, the resultant diminution in pH levels compromises the calcification processes of coccolithophores and various molluscan species. This physiological impairment propagates through the trophic hierarchy, potentially precipitating a catastrophic decoupling of predator-prey synchronicity. Furthermore, the intensification of thermocline stability restricts the vertical advection of nutrient-rich benthic waters, thereby inhibiting the replenishment of essential nitrates and phosphates necessary for sustained primary production.",
+    "Resilience within these aquatic environments is increasingly contingent upon the maintenance of functional redundancy and genetic biodiversity. The capacity of an ecosystem to withstand exogenous shocks—such as overexploitation or invasive species colonization—is intrinsically linked to the complexity of its internal connectivity. When keystone species are extirpated, the subsequent cascades can lead to regime shifts, transforming vibrant coral reef systems into depauperate, macroalgae-dominated states. Consequently, the implementation of robust maritime conservation strategies must transcend simplistic preservationism, embracing an integrated, ecosystem-based management paradigm that accounts for the stochasticity and inherent vulnerability of the global oceanic commons."
+  ],
+  "metrics": {
+    "word_count": 273,
+    "sentence_count": 11,
+    "avg_sentence_len": 24.82,
+    "avg_word_len": 7.03,
+    "syllable_count": 678,
+    "complex_word_count": 63,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -28.46,
+    "flesch_kincaid_grade": 23.39,
+    "ari": 24.07,
+    "coleman_liau": 24.32,
+    "gunning_fog": 19.16
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "marine_ecosystems_l5_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:43:43.753Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 27
+  },
+  "token_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 368,
+    "total_tokens": 568,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:43:43.754Z"
+}

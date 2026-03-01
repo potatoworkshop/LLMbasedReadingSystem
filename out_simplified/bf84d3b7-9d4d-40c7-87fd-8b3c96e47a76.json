@@ -1,0 +1,657 @@
+{
+  "article_id": "bf84d3b7-9d4d-40c7-87fd-8b3c96e47a76",
+  "mode": "difficulty_adjust",
+  "original_article": "New Zealand is a small country of four million inhabitants, a long-haul flight from all the major tourist-generating markets of the world. Tourism currently makes up 9% of the country's gross domestic product, and is the country`s largest export sector. Unlike other export sectors, which make products and then sell them overseas, tourism brings its customers to New Zealand. The product is the country itself - the people, the places and the experiences. In 1999, Tourism New Zealand launched a campaign to communicate a new brand position to the world. The campaign focused on New Zealand's scenic beauty, exhilarating outdoor activities and authentic Maori culture, and it made New Zealand one of the strongest national brands in the world.\n\nA key feature of the campaign was the website www.newzealand.com, which provided potential visitors to New Zealand with a single gateway to everything the destination had to offer. The heart of the website was a database of tourism services operators, both those based in New Zealand and those based abroad which offered tourism services to the country. Any tourism-related business could be listed by filling in a simple form. This meant that even the smallest bed and breakfast address or specialist activity provider could gain a web presence with access to an audience of long-haul visitors. In addition, because participating businesses were able to update the details they gave on a regular basis, the information provided remained accurate. And to maintain and improve standards, Tourism New Zealand organised a scheme whereby organisations appearing on the website underwent an independent evaluation against a set of agreed national standards of quality. As part of this, the effect of each business on the environment was considered.\n\nTo communicate the New Zealand experience, the site also carried features relating to famous people and places. One of the most popular was an interview with former New Zealand All Blacks rugby captain Tana Umaga. Another feature that attracted a lot of attention was an interactive journey through a number of the locations chosen for blockbuster films which had made use of New Zealand's stunning scenery as a backdrop. As the site developed, additional features were added to help independent travellers devise their own customised itineraries. To make it easier to plan motoring holidays, the site catalogued the most popular driving routes in the country, highlighting different routes according to the season and indicating distances and times.\n\nLater, a Travel Planner feature was added, which allowed visitors to click and `bookmark, places or attractions they were interested in, and then view the results on a map. The Travel Planner offered suggested routes and public transport options between the chosen locations. There were also links to accommodation in the area. By registering with the website, users could save their Travel Plan and return to it later, or print it out to take on the visit. The website also had a `Your Words` section where anyone could submit a blog of their New Zealand travels for possible inclusion on the website.\n\nThe Tourism New Zealand website won two Webby awards for online achievement and innovation. More importantly perhaps, the growth of tourism to New Zealand was impressive. Overall tourism expenditure increased by an average of 6.9% per year between 1999 and 2004. From Britain, visits to New Zealand grew at an average annual rate of 13% between 2002 and 2006, compared to a rate of 4% overall for British visits abroad.\n\nThe website was set up to allow both individuals and travel organisations to create itineraries and travel packages to suit their own needs and interests. On the website, visitors can search for activities not solely by geographical location, but also by the particular nature of the activity. This is important as research shows that activities are the key driver of visitor satisfaction, contributing 74% to visitor satisfaction, while transport and accommodation account for the remaining 26%. The more activities that visitors undertake, the more satisfied they will be. It has also been found that visitors enjoy cultural activities most when they are interactive, such as visiting a marae (meeting ground) to learn about traditional Maori life. Many long-haul travellers enjoy such learning experiences, which provide them with stories to take home to their friends and family. In addition, it appears that visitors to New Zealand don't want to be `one of the crowd' and find activities that involve only a few people more special and meaningful.\n\nIt could be argued that New Zealand is not a typical destination. New Zealand is a small country with a visitor economy composed mainly of small businesses. It is generally perceived as a safe English-speaking country with a reliable transport infrastructure. Because of the long-haul flight,most visitors stay for longer (average 20 days) and want to see as much of the country as possible on what is often seen as a once-in-a-lifetime visit. However, the underlying lessons apply anywhere - the effectiveness of a strong brand, a strategy based on unique experiences and a comprehensive and user-friendly website.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_small_adjust_questions_20260227_224849",
+    "run_tag": "debug_small",
+    "batch_id": "adj_q_small_20260227_224849",
+    "sample_id": "ielts_13_test1_passage1_b1idvj_to_l4"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test1_passage1_b1idvj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test1_passage1_b1idvj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "New Zealand is a small country of four million inhabitants, a long-haul flight from all the major tourist-generating markets of the world. Tourism currently makes up 9% of the country's gross domestic product, and is the country`s largest export sector. Unlike other export sectors, which make products and then sell them overseas, tourism brings its customers to New Zealand. The product is the country itself - the people, the places and the experiences. In 1999, Tourism New Zealand launched a campaign to communicate a new brand position to the world. The campaign focused on New Zealand's scenic beauty, exhilarating outdoor activities and authentic Maori culture, and it made New Zealand one of the strongest national brands in the world.\n\nA key feature of the campaign was the website www.newzealand.com, which provided potential visitors to New Zealand with a single gateway to everything the destination had to offer. The heart of the website was a database of tourism services operators, both those based in New Zealand and those based abroad which offered tourism services to the country. Any tourism-related business could be listed by filling in a simple form. This meant that even the smallest bed and breakfast address or specialist activity provider could gain a web presence with access to an audience of long-haul visitors. In addition, because participating businesses were able to update the details they gave on a regular basis, the information provided remained accurate. And to maintain and improve standards, Tourism New Zealand organised a scheme whereby organisations appearing on the website underwent an independent evaluation against a set of agreed national standards of quality. As part of this, the effect of each business on the environment was considered.\n\nTo communicate the New Zealand experience, the site also carried features relating to famous people and places. One of the most popular was an interview with former New Zealand All Blacks rugby captain Tana Umaga. Another feature that attracted a lot of attention was an interactive journey through a number of the locations chosen for blockbuster films which had made use of New Zealand's stunning scenery as a backdrop. As the site developed, additional features were added to help independent travellers devise their own customised itineraries. To make it easier to plan motoring holidays, the site catalogued the most popular driving routes in the country, highlighting different routes according to the season and indicating distances and times.\n\nLater, a Travel Planner feature was added, which allowed visitors to click and `bookmark, places or attractions they were interested in, and then view the results on a map. The Travel Planner offered suggested routes and public transport options between the chosen locations. There were also links to accommodation in the area. By registering with the website, users could save their Travel Plan and return to it later, or print it out to take on the visit. The website also had a `Your Words` section where anyone could submit a blog of their New Zealand travels for possible inclusion on the website.\n\nThe Tourism New Zealand website won two Webby awards for online achievement and innovation. More importantly perhaps, the growth of tourism to New Zealand was impressive. Overall tourism expenditure increased by an average of 6.9% per year between 1999 and 2004. From Britain, visits to New Zealand grew at an average annual rate of 13% between 2002 and 2006, compared to a rate of 4% overall for British visits abroad.\n\nThe website was set up to allow both individuals and travel organisations to create itineraries and travel packages to suit their own needs and interests. On the website, visitors can search for activities not solely by geographical location, but also by the particular nature of the activity. This is important as research shows that activities are the key driver of visitor satisfaction, contributing 74% to visitor satisfaction, while transport and accommodation account for the remaining 26%. The more activities that visitors undertake, the more satisfied they will be. It has also been found that visitors enjoy cultural activities most when they are interactive, such as visiting a marae (meeting ground) to learn about traditional Maori life. Many long-haul travellers enjoy such learning experiences, which provide them with stories to take home to their friends and family. In addition, it appears that visitors to New Zealand don't want to be `one of the crowd' and find activities that involve only a few people more special and meaningful.\n\nIt could be argued that New Zealand is not a typical destination. New Zealand is a small country with a visitor economy composed mainly of small businesses. It is generally perceived as a safe English-speaking country with a reliable transport infrastructure. Because of the long-haul flight,most visitors stay for longer (average 20 days) and want to see as much of the country as possible on what is often seen as a once-in-a-lifetime visit. However, the underlying lessons apply anywhere - the effectiveness of a strong brand, a strategy based on unique experiences and a comprehensive and user-friendly website.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Advanced",
+    "rewrite_guidance": "Use more discipline-specific terms and denser sentence structures while preserving coherence.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        11,
+        13.5
+      ],
+      "flesch_reading_ease": [
+        38,
+        55
+      ],
+      "ari": [
+        9.5,
+        14.5
+      ],
+      "coleman_liau": [
+        11,
+        15.5
+      ],
+      "gunning_fog": [
+        11,
+        16.5
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 849,
+    "sentence_count": 42,
+    "avg_sentence_len": 20.21,
+    "avg_word_len": 5.05,
+    "syllable_count": 1444,
+    "complex_word_count": 51,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 42.43,
+    "flesch_kincaid_grade": 12.36,
+    "ari": 12.47,
+    "coleman_liau": 12.44,
+    "gunning_fog": 10.49
+  },
+  "final_metrics": {
+    "word_count": 849,
+    "sentence_count": 42,
+    "avg_sentence_len": 20.21,
+    "avg_word_len": 5.05,
+    "syllable_count": 1444,
+    "complex_word_count": 51,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 42.43,
+    "flesch_kincaid_grade": 12.36,
+    "ari": 12.47,
+    "coleman_liau": 12.44,
+    "gunning_fog": 10.49
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 637,
+        "sentence_count": 38,
+        "avg_sentence_len": 16.76,
+        "avg_word_len": 6.61,
+        "syllable_count": 1418,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.14,
+        "flesch_reading_ease": 1.5,
+        "flesch_kincaid_grade": 17.22,
+        "ari": 18.07,
+        "coleman_liau": 21.28,
+        "gunning_fog": 12.29
+      },
+      "distance_to_target": 3.1596,
+      "fidelity": {
+        "overall": 0.7959,
+        "entity_recall": 0.7241,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1484,
+        "completion_tokens": 2085,
+        "total_tokens": 3569,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 1,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 590,
+        "sentence_count": 39,
+        "avg_sentence_len": 15.13,
+        "avg_word_len": 6.76,
+        "syllable_count": 1374,
+        "complex_word_count": 91,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": -5.54,
+        "flesch_kincaid_grade": 17.79,
+        "ari": 17.99,
+        "coleman_liau": 22.01,
+        "gunning_fog": 12.22
+      },
+      "distance_to_target": 3.48,
+      "fidelity": {
+        "overall": 0.7393,
+        "entity_recall": 0.6207,
+        "number_recall": 1,
+        "keyword_recall": 0.55,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2968,
+        "completion_tokens": 3804,
+        "total_tokens": 6772,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 1,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 606,
+        "sentence_count": 40,
+        "avg_sentence_len": 15.15,
+        "avg_word_len": 6.61,
+        "syllable_count": 1362,
+        "complex_word_count": 88,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": 1.32,
+        "flesch_kincaid_grade": 16.84,
+        "ari": 17.27,
+        "coleman_liau": 21.1,
+        "gunning_fog": 11.87
+      },
+      "distance_to_target": 3.0536,
+      "fidelity": {
+        "overall": 0.7493,
+        "entity_recall": 0.6207,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4452,
+        "completion_tokens": 5707,
+        "total_tokens": 10159,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 546,
+        "sentence_count": 29,
+        "avg_sentence_len": 18.83,
+        "avg_word_len": 6.57,
+        "syllable_count": 1223,
+        "complex_word_count": 80,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": -1.77,
+        "flesch_kincaid_grade": 18.18,
+        "ari": 18.93,
+        "coleman_liau": 21.26,
+        "gunning_fog": 13.39
+      },
+      "distance_to_target": 3.3771,
+      "fidelity": {
+        "overall": 0.7648,
+        "entity_recall": 0.6552,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5936,
+        "completion_tokens": 7339,
+        "total_tokens": 13275,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 682,
+        "sentence_count": 42,
+        "avg_sentence_len": 16.24,
+        "avg_word_len": 6.72,
+        "syllable_count": 1567,
+        "complex_word_count": 104,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": -4.03,
+        "flesch_kincaid_grade": 17.86,
+        "ari": 18.33,
+        "coleman_liau": 21.88,
+        "gunning_fog": 12.59
+      },
+      "distance_to_target": 3.4444,
+      "fidelity": {
+        "overall": 0.7703,
+        "entity_recall": 0.6897,
+        "number_recall": 1,
+        "keyword_recall": 0.55,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 7420,
+        "completion_tokens": 11137,
+        "total_tokens": 18557,
+        "llm_calls": 5
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 637,
+        "sentence_count": 40,
+        "avg_sentence_len": 15.93,
+        "avg_word_len": 5.77,
+        "syllable_count": 1226,
+        "complex_word_count": 55,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 27.85,
+        "flesch_kincaid_grade": 13.33,
+        "ari": 13.71,
+        "coleman_liau": 16.26,
+        "gunning_fog": 9.82
+      },
+      "distance_to_target": 1.3018,
+      "fidelity": {
+        "overall": 0.9534,
+        "entity_recall": 0.8966,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 8904,
+        "completion_tokens": 12646,
+        "total_tokens": 21550,
+        "llm_calls": 6
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 728,
+        "sentence_count": 42,
+        "avg_sentence_len": 17.33,
+        "avg_word_len": 5.95,
+        "syllable_count": 1455,
+        "complex_word_count": 65,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 20.16,
+        "flesch_kincaid_grade": 14.75,
+        "ari": 15.28,
+        "coleman_liau": 17.5,
+        "gunning_fog": 10.5
+      },
+      "distance_to_target": 1.8963,
+      "fidelity": {
+        "overall": 0.9179,
+        "entity_recall": 0.8621,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 10388,
+        "completion_tokens": 15589,
+        "total_tokens": 25977,
+        "llm_calls": 7
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 605,
+        "sentence_count": 38,
+        "avg_sentence_len": 15.92,
+        "avg_word_len": 6.54,
+        "syllable_count": 1350,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": 1.9,
+        "flesch_kincaid_grade": 16.95,
+        "ari": 17.35,
+        "coleman_liau": 20.82,
+        "gunning_fog": 12.25
+      },
+      "distance_to_target": 3.0114,
+      "fidelity": {
+        "overall": 0.7748,
+        "entity_recall": 0.6552,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 11872,
+        "completion_tokens": 18072,
+        "total_tokens": 29944,
+        "llm_calls": 8
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 38,
+        "avg_sentence_len": 15.63,
+        "avg_word_len": 6.76,
+        "syllable_count": 1382,
+        "complex_word_count": 92,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": -5.86,
+        "flesch_kincaid_grade": 17.96,
+        "ari": 18.21,
+        "coleman_liau": 22.03,
+        "gunning_fog": 12.45
+      },
+      "distance_to_target": 3.5174,
+      "fidelity": {
+        "overall": 0.7448,
+        "entity_recall": 0.6552,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 13356,
+        "completion_tokens": 20003,
+        "total_tokens": 33359,
+        "llm_calls": 9
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 844,
+        "sentence_count": 42,
+        "avg_sentence_len": 20.1,
+        "avg_word_len": 5.12,
+        "syllable_count": 1454,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 40.69,
+        "flesch_kincaid_grade": 12.58,
+        "ari": 12.75,
+        "coleman_liau": 12.86,
+        "gunning_fog": 10.5
+      },
+      "distance_to_target": 0.5205,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 14840,
+        "completion_tokens": 23300,
+        "total_tokens": 38140,
+        "llm_calls": 10
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 683,
+        "sentence_count": 42,
+        "avg_sentence_len": 16.26,
+        "avg_word_len": 6.18,
+        "syllable_count": 1416,
+        "complex_word_count": 76,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 14.94,
+        "flesch_kincaid_grade": 15.22,
+        "ari": 15.8,
+        "coleman_liau": 18.71,
+        "gunning_fog": 10.96
+      },
+      "distance_to_target": 2.21,
+      "fidelity": {
+        "overall": 0.9279,
+        "entity_recall": 0.8621,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 16324,
+        "completion_tokens": 24979,
+        "total_tokens": 41303,
+        "llm_calls": 11
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 660,
+        "sentence_count": 41,
+        "avg_sentence_len": 16.1,
+        "avg_word_len": 6.28,
+        "syllable_count": 1408,
+        "complex_word_count": 80,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 10.02,
+        "flesch_kincaid_grade": 15.86,
+        "ari": 16.19,
+        "coleman_liau": 19.28,
+        "gunning_fog": 11.29
+      },
+      "distance_to_target": 2.4861,
+      "fidelity": {
+        "overall": 0.8869,
+        "entity_recall": 0.7931,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 17808,
+        "completion_tokens": 26682,
+        "total_tokens": 44490,
+        "llm_calls": 12
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 848,
+        "sentence_count": 42,
+        "avg_sentence_len": 20.19,
+        "avg_word_len": 5.08,
+        "syllable_count": 1449,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 41.78,
+        "flesch_kincaid_grade": 12.45,
+        "ari": 12.59,
+        "coleman_liau": 12.6,
+        "gunning_fog": 10.53
+      },
+      "distance_to_target": 0.4822,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 19292,
+        "completion_tokens": 28363,
+        "total_tokens": 47655,
+        "llm_calls": 13
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 589,
+        "sentence_count": 36,
+        "avg_sentence_len": 16.36,
+        "avg_word_len": 6.68,
+        "syllable_count": 1345,
+        "complex_word_count": 93,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -2.96,
+        "flesch_kincaid_grade": 17.74,
+        "ari": 18.23,
+        "coleman_liau": 21.69,
+        "gunning_fog": 12.86
+      },
+      "distance_to_target": 3.3555,
+      "fidelity": {
+        "overall": 0.7648,
+        "entity_recall": 0.6552,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 20776,
+        "completion_tokens": 30623,
+        "total_tokens": 51399,
+        "llm_calls": 14
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate|tier=dist_lt_1;dist=0.4601;center_gap=1.28;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=13;sb=3;lf=1.19;df=1.13;af=1.0000;pg=0.4601;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 628,
+        "sentence_count": 38,
+        "avg_sentence_len": 16.53,
+        "avg_word_len": 6.72,
+        "syllable_count": 1451,
+        "complex_word_count": 99,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -5.41,
+        "flesch_kincaid_grade": 18.12,
+        "ari": 18.48,
+        "coleman_liau": 21.92,
+        "gunning_fog": 12.92
+      },
+      "distance_to_target": 3.51,
+      "fidelity": {
+        "overall": 0.7293,
+        "entity_recall": 0.6207,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 22260,
+        "completion_tokens": 36465,
+        "total_tokens": 58725,
+        "llm_calls": 15
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 29,
+    "number_total": 11,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 22260,
+    "completion_tokens": 36465,
+    "total_tokens": 58725,
+    "llm_calls": 15
+  },
+  "transformed_at": "2026-02-27T20:56:43.842Z"
+}

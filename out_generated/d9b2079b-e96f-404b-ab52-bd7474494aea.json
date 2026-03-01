@@ -1,0 +1,60 @@
+{
+  "article_id": "d9b2079b-e96f-404b-ab52-bd7474494aea",
+  "topic": "ancient trade routes",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes That Linked the World",
+  "article": [
+    "Long ago, people wanted goods from far away. They could not make everything themselves. So, they made trade routes. These were paths over land and sea. Trade routes connected distant lands. They helped people share food, cloth, and tools. Trade also spread ideas and stories. It made the world feel smaller.",
+    "The Silk Road was the most famous land route. It began in China over 2,000 years ago. The road stretched west for thousands of miles. It crossed mountains, deserts, and rivers. Traders from China sold silk. Silk was light and strong. People in Rome loved it. In return, traders took gold, glass, and horses back to China. Camels carried the loads across dry sands. Cities grew big along the Silk Road. Places like Samarkand became busy hubs.",
+    "Sea routes were also key. Ships sailed from India to Arabia. They carried spices like pepper and cinnamon. These spices made food taste better. They came from wet lands in Asia. Arab traders took the spices north to Europe. The Incense Route joined land and sea paths. It brought sweet-smelling resins from Arabia. Temples used them for holy fires. Trade ships hugged coasts to avoid storms. Monsoons helped sailors know when to go.",
+    "Trade routes did more than move goods. They spread new ways of life. Buddhism traveled the Silk Road from India to China. Islam followed trade paths across Asia. People learned to make paper and gunpowder from China. Glass making came from the Middle East. Cities traded words too. Greek ideas reached India. Rich kings built strong roads and ports. Armies guarded the paths from robbers.",
+    "Ancient trade routes shaped our world. They linked East and West. People met strangers and made friends. Goods from far lands became common. Today, we eat spices and wear silk. Modern roads and ships follow old paths. Trade still brings people together. It reminds us of brave traders from long ago."
+  ],
+  "metrics": {
+    "word_count": 319,
+    "sentence_count": 48,
+    "avg_sentence_len": 6.65,
+    "avg_word_len": 4.69,
+    "syllable_count": 441,
+    "complex_word_count": 1,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 83.13,
+    "flesch_kincaid_grade": 3.31,
+    "ari": 3.97,
+    "coleman_liau": 7.3,
+    "gunning_fog": 2.78
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "ancient_trade_routes_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:47:13.663Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 19
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 2973,
+    "total_tokens": 3981,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:47:13.664Z"
+}

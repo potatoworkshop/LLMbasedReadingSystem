@@ -1,0 +1,288 @@
+{
+  "article_id": "1f77e6d2-2024-42d5-b79f-4968cce1fd03",
+  "mode": "difficulty_adjust",
+  "original_article": "In the inexorable march toward hyper-urbanization, wherein over half of the global populace now congregates within sprawling metropolises, public transportation emerges not merely as a logistical expedient but as an indispensable bulwark against the pernicious specter of congestion and environmental degradation. This intricate web of subways, buses, trams, and ferries, meticulously engineered to ferry multitudes across labyrinthine cityscapes, mitigates the deleterious externalities attendant upon private vehicular proliferation—namely, exacerbated air pollution, astronomical fuel consumption, and the erosion of communal thoroughfares into gridlocked morasses. Empirical analyses, such as those disseminated by the International Transport Forum, underscore that efficacious public transit regimes can attenuate urban carbon emissions by upwards of 40 percent, thereby furnishing a pragmatic paradigm for sustainable mobility amid escalating anthropogenic pressures.\n\nHistorically, the ascendancy of public transportation has been inextricably yoked to the vicissitudes of industrialization and technological innovation. From the nascent horse-drawn omnibuses of 19th-century London to the electrified subterranean networks that burrowed beneath Paris and New York during the Belle Époque, these systems have perpetually redefined the contours of urban habitability. The advent of high-speed rail corridors, epitomized by Japan's Shinkansen since 1964, exemplifies how infrastructural audacity can compress temporal distances, fostering economic agglomeration while obviating the exigencies of aerial conveyance. Yet, this evolutionary trajectory has not been devoid of tribulations; recurrent underfunding and politicized mismanagement have engendered dilapidated fleets and protracted commutes, perpetuating socioeconomic disparities wherein affluent suburbs luxuriate in automotive autonomy at the expense of proletarian precincts.\n\nProspectively, the confluence of digital ubiquity and automaton ingenuity portends a renaissance for public transit, wherein predictive algorithms orchestrate real-time flux optimizations and autonomous shuttles supplant human fallibility. Initiatives like Singapore's Smart Nation blueprint, integrating bimodal transport with pervasive sensorium, herald an era of hyper-efficient, equitable peregrination. Nonetheless, realizing this utopian vista necessitates resolute policy interventions: augmented fiscal allocations, intermodal synergies, and populist incentives to eclipse the seductive hegemony of personal automobiles. Ultimately, public transportation's transcendence from mere conveyance to societal linchpin hinges upon a collective resolve to recalibrate urban paradigms toward inclusivity and ecological stewardship.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb07",
+    "sample_id": "generated_23e68211-0ca0-4ca3-bbd5-c133ca9884b9_to_l3_r8_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "23e68211-0ca0-4ca3-bbd5-c133ca9884b9",
+    "source_dataset": "generated",
+    "source_file": "23e68211-0ca0-4ca3-bbd5-c133ca9884b9.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In the constant push toward extreme city growth, where over half of the global populace now lives within large cities, public transportation is not just a useful tool but a key defense against the serious problem of congestion and environmental harm. This complex system of subways, buses, trams, and ferries, made to move many people across big city areas, reduces the bad effects that come with too many private cars—such as, worse air pollution, very high fuel consumption, and the clogging of streets into traffic jams. Studies, such as those published by the International Transport Forum, show that good public transit systems can reduce urban carbon emissions by upwards of 40 percent, thereby providing a good way for eco-friendly travel during growing populations.\n\nHistorically, the rise of public transportation has been tied to the growth of industry and new technology. From the early horse-drawn buses of 19th-century London to the electric subway systems that built beneath Paris and New York during the Belle Époque, these systems have constantly changed the shape of city living. The arrival of high-speed rail corridors, shown by by Japan's Shinkansen since 1964, shows how major building projects can cut travel time, helping economies connect while cutting the need of air travel. Yet, this process of change has not been without issues; ongoing lack of funds and poor planning have led to old equipment and long trips to work, and keep social and economic divides where rich suburbs rely on cars while harm working-class areas.\n\nIn the future, the mixing of common digital tech and smart automation points to a new life for public transit, where smart software handle live traffic flow and self-driving buses cut human mistakes. Projects like Singapore's Smart Nation plan, linking different transport with many sensors, point to a time of highly efficient, equal travel. Nonetheless, making this future happen needs strong policy steps: more public money, better links between transport types, and public rewards to beat the strong pull of private cars. Ultimately, public transportation's shift from just moving people to central part of society needs a shared choice to change city plans toward including everyone and caring for the environment.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 344,
+    "sentence_count": 11,
+    "avg_sentence_len": 31.27,
+    "avg_word_len": 6.94,
+    "syllable_count": 847,
+    "complex_word_count": 78,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -33.21,
+    "flesch_kincaid_grade": 25.66,
+    "ari": 26.88,
+    "coleman_liau": 24.04,
+    "gunning_fog": 21.58
+  },
+  "final_metrics": {
+    "word_count": 367,
+    "sentence_count": 11,
+    "avg_sentence_len": 33.36,
+    "avg_word_len": 5.06,
+    "syllable_count": 587,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 37.66,
+    "flesch_kincaid_grade": 16.3,
+    "ari": 19.1,
+    "coleman_liau": 13.08,
+    "gunning_fog": 14.98
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily lexical changes (word substitutions)|applied_edits=86|tier=coarse_jump;dist=13.5400;dir=simpler;est_wb=80;est_sb=4",
+      "metrics": {
+        "word_count": 368,
+        "sentence_count": 11,
+        "avg_sentence_len": 33.45,
+        "avg_word_len": 5.6,
+        "syllable_count": 673,
+        "complex_word_count": 27,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 18.16,
+        "flesch_kincaid_grade": 19.04,
+        "ari": 21.69,
+        "coleman_liau": 16.26,
+        "gunning_fog": 16.32
+      },
+      "distance_to_target": 7.3275,
+      "fidelity": {
+        "overall": 0.7594,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1126,
+        "completion_tokens": 5450,
+        "total_tokens": 6576,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary focus on LEXICAL changes (word substitutions to simpler alternatives).|applied_edits=63|tier=dist_gt_2;dist=7.3275;center_gap=8.02;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.78;df=2.10;af=1.1795;pg=13.5400;pd=6.2125;af_fb=0",
+      "metrics": {
+        "word_count": 367,
+        "sentence_count": 11,
+        "avg_sentence_len": 33.36,
+        "avg_word_len": 5.06,
+        "syllable_count": 587,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 37.66,
+        "flesch_kincaid_grade": 16.3,
+        "ari": 19.1,
+        "coleman_liau": 13.08,
+        "gunning_fog": 14.98
+      },
+      "distance_to_target": 4.865,
+      "fidelity": {
+        "overall": 0.7294,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.35,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1975,
+        "completion_tokens": 9854,
+        "total_tokens": 11829,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=4.8650;center_gap=5.79;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.78;df=2.10;af=1.9756;pg=7.3275;pd=2.4625;af_fb=0",
+      "metrics": {
+        "word_count": 367,
+        "sentence_count": 11,
+        "avg_sentence_len": 33.36,
+        "avg_word_len": 5.06,
+        "syllable_count": 587,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 37.66,
+        "flesch_kincaid_grade": 16.3,
+        "ari": 19.1,
+        "coleman_liau": 13.08,
+        "gunning_fog": 14.98
+      },
+      "distance_to_target": 4.865,
+      "fidelity": {
+        "overall": 0.7294,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.35,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3041,
+        "completion_tokens": 17540,
+        "total_tokens": 20581,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=4.8650;center_gap=5.79;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.78;df=2.10;af=1.0000;pg=4.8650;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 367,
+        "sentence_count": 11,
+        "avg_sentence_len": 33.36,
+        "avg_word_len": 5.06,
+        "syllable_count": 587,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 37.66,
+        "flesch_kincaid_grade": 16.3,
+        "ari": 19.1,
+        "coleman_liau": 13.08,
+        "gunning_fog": 14.98
+      },
+      "distance_to_target": 4.865,
+      "fidelity": {
+        "overall": 0.7294,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.35,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3884,
+        "completion_tokens": 20081,
+        "total_tokens": 23965,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_gt_2;dist=4.8650;center_gap=5.79;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.78;df=2.10;af=1.0000;pg=4.8650;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 367,
+        "sentence_count": 11,
+        "avg_sentence_len": 33.36,
+        "avg_word_len": 5.06,
+        "syllable_count": 587,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 37.66,
+        "flesch_kincaid_grade": 16.3,
+        "ari": 19.1,
+        "coleman_liau": 13.08,
+        "gunning_fog": 14.98
+      },
+      "distance_to_target": 4.865,
+      "fidelity": {
+        "overall": 0.7294,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.35,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5024,
+        "completion_tokens": 24008,
+        "total_tokens": 29032,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7294,
+    "entity_recall": 0.6875,
+    "number_recall": 1,
+    "keyword_recall": 0.35,
+    "entity_total": 16,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 5024,
+    "completion_tokens": 24008,
+    "total_tokens": 29032,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T17:43:36.087Z"
+}

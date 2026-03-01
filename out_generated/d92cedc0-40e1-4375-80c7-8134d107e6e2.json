@@ -1,0 +1,58 @@
+{
+  "article_id": "d92cedc0-40e1-4375-80c7-8134d107e6e2",
+  "topic": "public transportation",
+  "level": 4,
+  "target_words": 300,
+  "lang": "en",
+  "title": "The Structural Evolution of Urban Mobility Systems",
+  "article": [
+    "The contemporary urban landscape is increasingly defined by the logistical sophistication of its public transportation infrastructure, a multifaceted network essential for mitigating the ecological externalities of private vehicular congestion. Modern transit systems are no longer merely auxiliary services; they represent the primary circulatory mechanism of global metropolises, facilitating the socioeconomic integration of disparate demographic sectors. The transition toward high-capacity rapid transit exemplifies a strategic shift in urban planning, prioritizing spatial efficiency and the reduction of per capita carbon emissions through the implementation of electrified rail and integrated multimodal hubs.",
+    "Technological integration has revolutionized the operational efficacy of these networks, introducing automated signaling and real-time data analytics to optimize fleet deployment. By synchronizing disparate modes of conveyance—ranging from subterranean heavy rail to surface-level autonomous shuttles—municipalities can significantly diminish the friction of daily commutes. This seamless connectivity is predicated upon the deployment of intelligent transportation systems (ITS), which utilize sophisticated algorithms to manage passenger flow and minimize temporal bottlenecks. Such advancements are critical in addressing the logistical challenges posed by unprecedented urbanization and the resultant strain on existing arterial corridors.",
+    "Furthermore, the fiscal sustainability of public transit remains a focal point of academic discourse, particularly regarding the equilibrium between subsidized fare structures and the necessity of capital reinvestment. While the societal dividends of robust transit—such as enhanced accessibility and improved public health outcomes—are quantifiable, the initial expenditure for subterranean expansion remains prohibitively high for many developing jurisdictions. Nevertheless, the adoption of transit-oriented development (TOD) models suggests that strategic density around transit nodes can catalyze economic revitalization. Ultimately, the evolution of public conveyance is inextricably linked to the broader objectives of sustainable urbanism and the mitigation of anthropogenic climate change."
+  ],
+  "metrics": {
+    "word_count": 285,
+    "sentence_count": 11,
+    "avg_sentence_len": 25.91,
+    "avg_word_len": 6.84,
+    "syllable_count": 693,
+    "complex_word_count": 65,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -25.17,
+    "flesch_kincaid_grade": 23.21,
+    "ari": 23.75,
+    "coleman_liau": 23.29,
+    "gunning_fog": 19.49
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "public_transportation_l4_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:38:30.395Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 15
+  },
+  "token_usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 356,
+    "total_tokens": 558,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:38:30.395Z"
+}

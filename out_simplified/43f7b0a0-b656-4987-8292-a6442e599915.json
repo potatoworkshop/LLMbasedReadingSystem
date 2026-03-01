@@ -1,0 +1,207 @@
+{
+  "article_id": "43f7b0a0-b656-4987-8292-a6442e599915",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change is here. It brings hotter days, stronger storms, and rising seas. People feel these changes now. They hurt farms, homes, and water supplies. So, communities must adapt. Adaptation means making smart changes. These changes help people live with new weather patterns. For example, cities plant more trees to cool streets. This fights the heat. Adaptation also saves lives and money in the long run.\n\nFarmers lead the way in adaptation. They face dry lands and wild rains. Many switch to new crops. These crops need less water. They grow well in heat. In Africa, farmers use drip systems. These systems give water drop by drop to plants. This saves water and boosts food. In Asia, rice farmers build higher fields. This keeps crops dry during floods. These steps help feed more people.\n\nCities also adapt fast. They build sea walls to block high water. In the Netherlands, strong dikes protect low lands. New York plans green roofs on buildings. These roofs hold rain water and cool air. Parks grow bigger to fight city heat. People walk or bike more. This cuts down on car fumes that warm the air. Governments help with rules and funds.\n\nAdaptation has challenges. It costs a lot of money. Poor places struggle most. They need help from rich nations. But success stories grow. Bangladesh cut flood deaths with early warnings and shelters. This shows adaptation works. Everyone must join in. Governments make plans. Companies build green tools. People change daily habits. Together, they build a safe future against climate change.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "61acdb90-d6a9-4bf2-8336-4321d01eb56a_to_l2"
+  },
+  "source": {
+    "source_article_id": "61acdb90-d6a9-4bf2-8336-4321d01eb56a",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "61acdb90-d6a9-4bf2-8336-4321d01eb56a.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate change has arrived. It causes hotter days, stronger storms, and rising sea levels. People experience these changes today. They damage farms, homes, and water supplies. Therefore, communities must adapt. Adaptation involves making intelligent changes. These adjustments help people cope with shifting weather patterns. For example, cities plant more trees to shade streets. This combats excessive heat. In the long run, adaptation saves lives and money.\n\nFarmers lead adaptation efforts. They face drought-stricken lands and erratic heavy rains. Many switch to drought-resistant crops. These crops require less water. They thrive in high temperatures. In Africa, farmers use drip irrigation systems. These systems deliver water drop by drop to plants. This conserves water and increases food production. In Asia, rice farmers raise their fields higher. This keeps crops dry during floods. These measures help feed more people.\n\nCities adapt rapidly too. They construct seawalls to block rising water. In the Netherlands, sturdy dikes protect low-lying lands. New York plans green roofs on buildings. These roofs capture rainwater and cool the air. Parks expand to combat urban heat. People walk or bike more often. This reduces car emissions that warm the atmosphere. Governments provide support through regulations and funding.\n\nAdaptation faces major challenges. It demands large amounts of money. Poor regions struggle the most. They require aid from wealthy nations. Yet success stories are increasing. Bangladesh reduced flood deaths with early warnings and shelters. This proves adaptation works. Everyone must participate. Governments create plans. Companies develop green technologies. People alter daily habits. Together, they build a secure future against climate change.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 257,
+    "sentence_count": 42,
+    "avg_sentence_len": 6.12,
+    "avg_word_len": 4.79,
+    "syllable_count": 351,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 85.08,
+    "flesch_kincaid_grade": 2.91,
+    "ari": 4.21,
+    "coleman_liau": 7.55,
+    "gunning_fog": 3.38
+  },
+  "final_metrics": {
+    "word_count": 262,
+    "sentence_count": 42,
+    "avg_sentence_len": 6.24,
+    "avg_word_len": 5.61,
+    "syllable_count": 439,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 58.75,
+    "flesch_kincaid_grade": 6.61,
+    "ari": 8.13,
+    "coleman_liau": 12.47,
+    "gunning_fog": 4.33
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 257,
+        "sentence_count": 42,
+        "avg_sentence_len": 6.12,
+        "avg_word_len": 4.79,
+        "syllable_count": 351,
+        "complex_word_count": 6,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 85.08,
+        "flesch_kincaid_grade": 2.91,
+        "ari": 4.21,
+        "coleman_liau": 7.55,
+        "gunning_fog": 3.38
+      },
+      "distance_to_target": 0.8856,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 678,
+        "completion_tokens": 1408,
+        "total_tokens": 2086,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 262,
+        "sentence_count": 42,
+        "avg_sentence_len": 6.24,
+        "avg_word_len": 5.61,
+        "syllable_count": 439,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 58.75,
+        "flesch_kincaid_grade": 6.61,
+        "ari": 8.13,
+        "coleman_liau": 12.47,
+        "gunning_fog": 4.33
+      },
+      "distance_to_target": 0.1775,
+      "fidelity": {
+        "overall": 0.9371,
+        "entity_recall": 0.9048,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1356,
+        "completion_tokens": 2854,
+        "total_tokens": 4210,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 264,
+        "sentence_count": 42,
+        "avg_sentence_len": 6.29,
+        "avg_word_len": 5.19,
+        "syllable_count": 395,
+        "complex_word_count": 9,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 73.88,
+        "flesch_kincaid_grade": 4.52,
+        "ari": 6.17,
+        "coleman_liau": 10.03,
+        "gunning_fog": 3.88
+      },
+      "distance_to_target": 0.4735,
+      "fidelity": {
+        "overall": 0.9686,
+        "entity_recall": 0.9524,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2042,
+        "completion_tokens": 4538,
+        "total_tokens": 6580,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9371,
+    "entity_recall": 0.9048,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 21,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2042,
+    "completion_tokens": 4538,
+    "total_tokens": 6580,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:33:47.455Z"
+}

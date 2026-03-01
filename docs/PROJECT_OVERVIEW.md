@@ -116,6 +116,8 @@
 统计脚本：
 
 - `scripts/compute_article_stats.js`
+ - `scripts/run_ch5_generation_batch.js`（第5章生成批量实验）
+ - `scripts/run_ch5_adjust_batch.js`（第5章难度调节批量实验）
 
 输入目录中的 JSON 文章，输出：
 
@@ -141,6 +143,18 @@
   - `server/src/utils/metrics.ts`：文本指标计算
 - `scripts/compute_article_stats.js`
   - 批量统计脚本（可读性、信息密度、关键词密度、抽象度）
+- `scripts/run_ch5_generation_batch.js`
+  - 读取 `experiments/ch5/configs/*.json`，批量调用 `/api/generate-article`
+  - 输出 `experiments/ch5/logs/*.jsonl` 和 `experiments/ch5/manifests/*.json`
+- `scripts/run_ch5_adjust_batch.js`
+  - 读取 `experiments/ch5/configs/*.json`，批量调用 `/api/adjust-difficulty`
+  - 输出 `experiments/ch5/logs/*.jsonl` 和 `experiments/ch5/manifests/*.json`
+- `experiments/ch5/configs/`
+  - 第5章实验配置（按模型拆分 generation/adjust 批次）
+- `experiments/ch5/logs/`
+  - 批量实验逐条执行日志（成功/失败、耗时、token）
+- `experiments/ch5/manifests/`
+  - 批量实验成功样本清单与批次汇总
 - `out_generated/`
   - 生成文章归档
 - `out_simplified/`
@@ -226,16 +240,19 @@
 - 全部请求先经 Zod schema 校验
 - 统一返回错误结构（`error` + `message/details`）
 - 生成/改写/调节/出题结果都会归档到本地目录
+- `generate-article` / `adjust-difficulty` 已支持实验元数据字段（`experiment` / `source`），便于第5章批量实验追踪
 
 ### 5.2 文章生成 `server/src/services/articleService.ts`
 
 关键实现点：
 
 - `buildPrompt()`：提示词包含主题、目标字数范围、等级难度描述、JSON 返回格式
+- 已加入按等级长度补偿（length compensation）校准低等级文本系统性偏短
 - `computeMetrics()`：生成后立即计算文本指标
 - `MAX_GENERATION_ATTEMPTS`：多次尝试
 - `bestCandidate`：保留最接近目标字数的候选
 - `archiveArticle()`：写入 `out_generated/`
+- 归档包含实验元数据、长度补偿信息、生成尝试信息、token 消耗统计
 
 ### 5.3 基础改写 `server/src/services/lexicalTransform.ts`
 
@@ -262,6 +279,8 @@
 - `rounds_used`
 - `history`
 - `fidelity`
+- `model` / `provider`
+- `token_usage`（累计 token 与 LLM 调用次数）
 
 ### 5.5 题目生成与校验（扩展）
 
@@ -364,6 +383,8 @@
   - `scripts/compute_article_stats.js`
   - `app/article-stats/page.tsx`
 - 修改页面交互时，主要入口是 `app/page.tsx`
+- 做第5章实验时，优先用 `experiments/ch5/configs/*.json` + 批量脚本，不要手工重复点击前端以免参数不可追踪
+- 做实验统计时，优先使用归档中的 `experiment`、`request_meta`、`generation_meta`、`token_usage` 字段筛选样本与分组
 - 若新增统计指标，需要同时更新：
   - `scripts/compute_article_stats.js` 输出
   - `app/article-stats/page.tsx` 读取与展示逻辑
@@ -371,3 +392,20 @@
   - `app/page.tsx`
   - `app/api/local-articles/route.ts`
   - `server/src/routes/generateArticle.ts`
+
+## 11. 第5章实验阶段性状态（便于接手）
+
+- 生成基线（补偿前）已完成：`gen_b01`
+  - 结果：结构成功率高，但长度命中率偏低；L1/L2 显著偏短（据此已加入长度补偿）
+- 生成模型对比 pilot（补偿后）已完成：
+  - `gen_grok_b02`
+  - `gen_gpt5mini_b02`
+  - `gen_gemini_b02`
+- 真实语料难度调节模型对比 pilot 已部分完成：
+  - `adj_q_grok_b01`
+  - `adj_q_gpt5mini_b01`
+  - 当前观察：真实语料上命中率为 0%，但保真度高、成本高，提示方法策略需要后续改进
+- 继续工作前建议先检查：
+  - `experiments/ch5/manifests/*.json`
+  - `experiments/ch5/logs/*.jsonl`
+  - `docs/Draft.md` 第5章“实验过程记录（暂存）”

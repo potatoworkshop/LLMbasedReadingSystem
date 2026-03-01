@@ -1,0 +1,59 @@
+{
+  "article_id": "0c073ba2-1279-4572-a200-bd170c99d332",
+  "topic": "marine ecosystems",
+  "level": 4,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Marine Ecosystems: Structure, Processes and Threats",
+  "article": [
+    "Marine ecosystems encompass a diverse array of environments, ranging from the sunlit euphotic zone of the open ocean to the aphotic depths of the abyssal plain, and include structurally complex coastal habitats such as coral reefs, mangroves and seagrass meadows. Primary production in these systems is dominated by phytoplankton in pelagic realms and by macroalgae and seagrasses in shallow coastal areas, and the spatial distribution of productivity reflects gradients in light availability, nutrient supply and water column stability. Biologically, marine communities are commonly partitioned into functional groups—primary producers, heterotrophic microbes, benthic invertebrates, and nektonic predators—whose interactions generate food webs characterised by substantial energy transfer inefficiencies and frequent trophic cascades. The structural integrity of these ecosystems depends on keystone taxa; for example, reef-building corals and seagrasses provide three-dimensional habitat that enhances biodiversity and mediates sediment dynamics, whereas filter-feeders influence particulate organic matter fluxes and water clarity.",
+    "The functioning of marine ecosystems is underpinned by biogeochemical cycles and physical processes that connect disparate habitats across temporal and spatial scales, and anthropogenic modification of these linkages often precipitates system-level change. Upwelling events, driven by wind patterns and coastal geomorphology, inject deep, nutrient-rich waters into the euphotic zone, stimulating phytoplankton blooms and supporting high secondary productivity, while mesoscale eddies and thermohaline circulation redistribute heat, carbon and biota globally. Microbial loops, encompassing bacteria and protozoa, recycle dissolved organic matter and control nutrient remineralisation, thereby influencing the stoichiometry of available nutrients and the composition of primary producer assemblages. Connectivity between pelagic and benthic domains occurs through vertical fluxes of particulate organic carbon and through the life-history movements of fish and invertebrates, with larval dispersal shaping population genetics and the capacity for recolonisation after disturbance.",
+    "Contemporary pressures—chiefly climate change, overexploitation, nutrient enrichment and pollution—have amplified the frequency and magnitude of ecological perturbations, and cumulatively these stressors erode resilience and alter ecosystem trajectories. Elevated sea surface temperatures increase metabolic rates but also precipitate coral bleaching and shifts in species distributions toward higher latitudes, while ocean acidification reduces carbonate ion availability, compromising calcification in corals, molluscs and some planktonic taxa. Excessive nutrient loading from agriculture and sewage induces eutrophication, promoting harmful algal blooms and subsequent hypoxia as microbial decomposition depletes dissolved oxygen in bottom waters, thereby creating dead zones intolerant of most macrofauna. Overfishing truncates trophic structures, often removing apex predators and enabling mesopredator release or herbivore decline, which can facilitate regime shifts such as the transition from coral-dominated to algal-dominated communities; concurrently, persistent contaminants and microplastics introduce sublethal physiological stressors that can reduce reproductive success and bioaccumulate along food chains.",
+    "Maintaining the provisioning, regulating and cultural services of marine ecosystems will require integrated management that reconciles conservation science with socio-economic realities, and contemporary strategies emphasise adaptive, multi-scalar interventions. Marine protected areas, when designed with attention to connectivity and enforced to limit extractive activities, can safeguard critical habitats and provide demographic reservoirs for exploited populations, but their efficacy depends on adequate spatial coverage and compliance. Fisheries management incorporating precautionary harvest limits, gear restrictions, and ecosystem-based assessments aims to reduce overcapacity and prevent trophic collapse, whereas restoration techniques—such as coral gardening, seagrass transplantation and artificial reefs—seek to accelerate recovery of structural habitats. Addressing global drivers like climate change and ocean acidification necessitates mitigation of greenhouse gas emissions, complemented by local measures to reduce nutrient and pollutant inputs, thereby enhancing the capacity of marine ecosystems to absorb disturbances and to sustain human well-being over the long term."
+  ],
+  "metrics": {
+    "word_count": 584,
+    "sentence_count": 16,
+    "avg_sentence_len": 36.5,
+    "avg_word_len": 6.82,
+    "syllable_count": 1370,
+    "complex_word_count": 101,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -28.67,
+    "flesch_kincaid_grade": 26.33,
+    "ari": 28.95,
+    "coleman_liau": 23.5,
+    "gunning_fog": 21.52
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l4_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:31:19.118Z",
+    "effective_target_words": 600,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 2,
+    "selected_attempt": 2,
+    "within_preferred_range": true,
+    "distance_to_target_words": 16
+  },
+  "token_usage": {
+    "prompt_tokens": 360,
+    "completion_tokens": 2578,
+    "total_tokens": 2938,
+    "llm_calls": 2
+  },
+  "generated_at": "2026-02-25T20:31:19.119Z"
+}

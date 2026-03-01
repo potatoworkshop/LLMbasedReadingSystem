@@ -1,0 +1,11 @@
+{
+  "experiment_id": "ch5_small_adjust_questions_20260228_221503",
+  "run_tag": "quick_check",
+  "batch_id": "adj_q_small_20260228_221503",
+  "source_dataset": "questions",
+  "total_jobs": 1,
+  "success_count": 0,
+  "fail_count": 1,
+  "generated_at": "2026-02-28T20:20:11.952Z",
+  "records": []
+}

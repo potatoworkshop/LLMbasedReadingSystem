@@ -1,0 +1,57 @@
+{
+  "article_id": "699a241b-da70-4f11-a345-47f0ea192f92",
+  "topic": "marine ecosystems",
+  "level": 5,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Resilience and Vulnerability in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems, spanning from the sunlit epipelagic zones to the lightless abyssal plains, represent the planet's most extensive and biodiverse habitats, accommodating an estimated 91 percent of global species despite covering over 70 percent of Earth's surface area. These intricate systems, governed by multifaceted physicochemical gradients and trophic interdependencies, underpin critical biogeochemical cycles, including oceanic primary production that generates approximately 50 percent of atmospheric oxygen and facilitates substantial carbon sequestration through biological pumps. The pelagic realm, characterized by vertical migrations of phytoplankton and zooplankton, exemplifies the dynamic flux of nutrients, while benthic communities in deep-sea trenches sustain chemosynthetic symbioses reliant on hydrothermal vent emissions rather than solar energy.",
+    "Keystone species exert profound influence over community structures via top-down regulation, averting trophic cascades that might otherwise culminate in ecosystem destabilization; for instance, overharvesting of large-bodied predators like sharks disrupts herbivore populations, precipitating macroalgal overgrowth on coral reefs and consequent biodiversity attrition. Symbiotic associations, such as those between scleractinian corals and dinoflagellate algae, underscore the fragility of these equilibria, wherein elevated sea surface temperatures provoke bleaching events that dismantle reef frameworks, thereby compromising habitats for myriad reef-associated taxa including reef fish and invertebrates essential to fisheries yields.",
+    "Anthropogenic perturbations intensify systemic vulnerabilities: commercial overexploitation has precipitated population collapses across teleost and elasmobranch lineages, eutrophication from terrestrial nutrient runoff engenders hypoxic dead zones expansive enough to rival small nations, and progressive ocean acidification—stemming from anthropogenic CO2 dissolution—corrodes biogenic calcium carbonate structures in pteropods and molluscs, propagating disruptions through pelagic food webs. Plastic microdebris accumulation further imperils marine biota by inducing sublethal toxicities and bioaccumulation in apex consumers.",
+    "Contemporary conservation paradigms, encompassing expansive marine protected areas and ecosystem-based fisheries management, seek to bolster resilience against these multifarious threats; nonetheless, the inexorable momentum of climatic perturbations, including intensified stratification and deoxygenation, portends profound reconfiguration of marine ecosystems, necessitating unprecedented international stewardship to safeguard their ecological services for posterity."
+  ],
+  "metrics": {
+    "word_count": 320,
+    "sentence_count": 8,
+    "avg_sentence_len": 40,
+    "avg_word_len": 7.36,
+    "syllable_count": 806,
+    "complex_word_count": 70,
+    "complex_word_ratio": 0.22,
+    "flesch_reading_ease": -46.85,
+    "flesch_kincaid_grade": 29.73,
+    "ari": 33.23,
+    "coleman_liau": 26.73,
+    "gunning_fog": 24.75
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l5_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:14:54.050Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 20
+  },
+  "token_usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 1096,
+    "total_tokens": 1428,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T19:14:54.050Z"
+}

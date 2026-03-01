@@ -1,0 +1,56 @@
+{
+  "article_id": "f6c961ad-20dc-48ee-b68c-8291f2536141",
+  "topic": "marine ecosystems",
+  "level": 4,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Interdependence and Perturbation in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems constitute the most extensive biome on Earth, spanning over 70 percent of the planet's surface and encompassing diverse habitats from the photic zones of coral reefs to the aphotic depths of abyssal plains. These environments harbor extraordinary biodiversity, with estimates suggesting that more than 80 percent of all known species reside in oceanic realms. Phytoplankton, microscopic autotrophs, underpin primary productivity through photosynthesis, converting solar energy into biomass that sustains intricate food webs. Zooplankton and nekton, in turn, transfer this energy across trophic levels, culminating in apex predators such as sharks and cetaceans. Benthic communities, anchored to the seafloor, exhibit adaptations to hydrostatic pressures and low oxygen levels, fostering chemosynthetic symbioses around hydrothermal vents.",
+    "The structural complexity of marine ecosystems arises from dynamic physical processes like upwelling and thermocline formation, which redistribute nutrients and modulate species distributions. For instance, coastal upwelling zones off Peru and California support some of the world's richest fisheries by elevating nutrient-rich deep waters to the surface, thereby amplifying phytoplankton blooms. Symbiotic interactions further enhance resilience; zooxanthellae algae within scleractinian corals provide photosynthetic products in exchange for protection and inorganic nutrients. Disruptions to these equilibria, however, can precipitate cascading effects, as evidenced by trophic downgrading where overexploitation of keystone species like sea otters leads to kelp forest collapse and proliferation of herbivorous urchins.",
+    "Anthropogenic perturbations pose existential threats to marine ecosystem integrity. Ocean acidification, driven by anthropogenic CO2 absorption, erodes calcifying organisms' shells, impairing calcification in pteropods and foraminifera critical to global carbon cycling. Eutrophication from agricultural runoff induces hypoxic dead zones, while microplastic ingestion disrupts endocrine functions in marine vertebrates. Climate-induced shifts in sea surface temperatures exacerbate coral bleaching events, diminishing reef structural complexity and biodiversity hotspots. Mitigation strategies, including marine protected areas and sustainable aquaculture, aim to restore balance, yet their efficacy hinges on international cooperation and stringent pollution controls."
+  ],
+  "metrics": {
+    "word_count": 309,
+    "sentence_count": 14,
+    "avg_sentence_len": 22.07,
+    "avg_word_len": 6.8,
+    "syllable_count": 704,
+    "complex_word_count": 54,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -8.31,
+    "flesch_kincaid_grade": 19.9,
+    "ari": 21.65,
+    "coleman_liau": 22.86,
+    "gunning_fog": 15.82
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l4_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:13:28.346Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 9
+  },
+  "token_usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 864,
+    "total_tokens": 1197,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T19:13:28.347Z"
+}

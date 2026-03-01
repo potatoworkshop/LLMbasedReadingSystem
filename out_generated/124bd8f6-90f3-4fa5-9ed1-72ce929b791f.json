@@ -1,0 +1,57 @@
+{
+  "article_id": "124bd8f6-90f3-4fa5-9ed1-72ce929b791f",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Ancient Trade Routes: Pathways of Exchange",
+  "article": [
+    "Long ago, traders journeyed across deserts, mountains, and seas to exchange goods. These paths, known as ancient trade routes, connected distant civilizations. They carried not just items but also ideas, religions, and cultures. One of the most famous routes was the Silk Road. It linked China with the Mediterranean world for over 1,500 years, from around 130 B.C. to the 1400s A.D. Merchants faced harsh conditions like sandstorms and bandits. Yet, the promise of profit drove them forward. Silk from China was the star product. Romans prized it for clothing and banners. In return, China received glassware, wool, and precious metals.",
+    "The Silk Road was not a single road but a network of paths. It split into northern and southern branches to avoid dangers. Cities like Samarkand in Central Asia became busy hubs. Here, traders from Persia, India, and Europe met. Camels, called ships of the desert, carried heavy loads. Spices like cinnamon and pepper also traveled west from India. These added flavor to Roman meals. Buddhism spread along the route too. Monks carried scriptures from India to China. Art and music crossed borders as well. For example, Persian rugs influenced Chinese designs.",
+    "Other routes complemented the Silk Road. The Incense Route ran through Arabia. Traders brought frankincense and myrrh from southern Arabia to Egypt and Rome. These resins were vital for perfumes and religious rites. Ships sailed the Indian Ocean on monsoon winds. The Spice Route connected India with East Africa and the Middle East. Pepper, cloves, and nutmeg fetched high prices in Europe. Arab and Indian sailors navigated by stars. Their dhow boats with lateen sails handled rough seas. Ports like Berenike in Egypt buzzed with activity. Goods moved from ship to camel caravans.",
+    "These trade routes boosted economies and changed societies. Cities grew rich from taxes on trade. New foods like lemons from China reached Europe. Technologies spread too. Papermaking from China revolutionized writing in the West. Gunpowder later followed the same paths. Trade fostered peace at times. Rulers protected caravans to gain wealth. But wars also arose over control of routes. The rise of Islam helped link East and West further. Overall, ancient trade routes wove the world together. They showed how exchange builds civilizations. Today, we still feel their impact in global trade."
+  ],
+  "metrics": {
+    "word_count": 381,
+    "sentence_count": 48,
+    "avg_sentence_len": 7.94,
+    "avg_word_len": 5.06,
+    "syllable_count": 606,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 64.22,
+    "flesch_kincaid_grade": 6.27,
+    "ari": 6.36,
+    "coleman_liau": 10.21,
+    "gunning_fog": 4.01
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "ancient_trade_routes_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:08:13.618Z",
+    "length_bounds": {
+      "lower": 540,
+      "upper": 720
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 219
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 2630,
+    "total_tokens": 3638,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:08:13.618Z"
+}

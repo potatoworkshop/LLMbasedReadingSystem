@@ -1,0 +1,142 @@
+{
+  "experiment_id": "ch5_small_adjust_questions_20260227_142712",
+  "run_tag": "debug_small",
+  "batch_id": "adj_q_small_20260227_142712",
+  "source_dataset": "questions",
+  "total_jobs": 6,
+  "success_count": 5,
+  "fail_count": 1,
+  "generated_at": "2026-02-27T12:40:38.423Z",
+  "records": [
+    {
+      "ts": "2026-02-27T12:28:25.864Z",
+      "ok": true,
+      "index": 1,
+      "total": 6,
+      "article_id": "f09de16d-63db-480f-b6f4-741dd30a1aab",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l2",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 2,
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.8769,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 7067,
+        "completion_tokens": 9310,
+        "total_tokens": 16377,
+        "llm_calls": 5
+      },
+      "elapsed_ms": 72522
+    },
+    {
+      "ts": "2026-02-27T12:30:07.235Z",
+      "ok": true,
+      "index": 2,
+      "total": 6,
+      "article_id": "d276e1d2-589c-497c-b548-69bcf903be4b",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l4",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 4,
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 8055,
+        "completion_tokens": 11323,
+        "total_tokens": 19378,
+        "llm_calls": 5
+      },
+      "elapsed_ms": 100364
+    },
+    {
+      "ts": "2026-02-27T12:31:52.564Z",
+      "ok": true,
+      "index": 3,
+      "total": 6,
+      "article_id": "24c979e2-dcac-474a-92eb-53e114ebbb50",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l2",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 2,
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 0.9579,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 7609,
+        "completion_tokens": 14955,
+        "total_tokens": 22564,
+        "llm_calls": 5
+      },
+      "elapsed_ms": 104317
+    },
+    {
+      "ts": "2026-02-27T12:33:27.384Z",
+      "ok": true,
+      "index": 4,
+      "total": 6,
+      "article_id": "275aa116-41b2-4fbd-a50a-19e14046184f",
+      "sample_id": "ielts_13_test1_passage3_91iewj_to_l4",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage3_91iewj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage3_91iewj.json"
+      },
+      "target_level": 4,
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 8505,
+        "completion_tokens": 10344,
+        "total_tokens": 18849,
+        "llm_calls": 5
+      },
+      "elapsed_ms": 93807
+    },
+    {
+      "ts": "2026-02-27T12:40:38.422Z",
+      "ok": true,
+      "index": 6,
+      "total": 6,
+      "article_id": "bef06f43-6e43-4c78-8341-068c915e3c48",
+      "sample_id": "ielts_13_test2_passage1_21iffj_to_l4",
+      "source": {
+        "source_article_id": "ielts_13_test2_passage1_21iffj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test2_passage1_21iffj.json"
+      },
+      "target_level": 4,
+      "hit_target": false,
+      "rounds_used": 5,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 8050,
+        "completion_tokens": 13893,
+        "total_tokens": 21943,
+        "llm_calls": 5
+      },
+      "elapsed_ms": 121652
+    }
+  ]
+}

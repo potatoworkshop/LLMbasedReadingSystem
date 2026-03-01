@@ -1,0 +1,38 @@
+{
+  "experiment_id": "ch5_test_single_20260228",
+  "run_tag": null,
+  "batch_id": "test_gpt5_single_ultra_fast",
+  "source_dataset": "questions",
+  "total_jobs": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "generated_at": "2026-02-28T17:14:49.103Z",
+  "records": [
+    {
+      "ts": "2026-02-28T17:14:49.102Z",
+      "ok": true,
+      "index": 1,
+      "total": 1,
+      "article_id": "9a05c3c0-c18f-42d5-9144-d2f758a7d2cc",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l4",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 4,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 1,
+      "provider": "openrouter",
+      "model": "openai/gpt-5-mini",
+      "token_usage": {
+        "prompt_tokens": 1223,
+        "completion_tokens": 2577,
+        "total_tokens": 3800,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 35829
+    }
+  ]
+}

@@ -3,6 +3,11 @@ import { callOllama } from "./ollamaClient";
 
 type Provider = "openrouter" | "ollama";
 
+export type StructuredOutputSchema = {
+  name: string;
+  schema: Record<string, unknown>;
+};
+
 const resolveProvider = (): Provider => {
   const explicit = process.env.LLM_PROVIDER?.toLowerCase();
   if (explicit === "openrouter" || explicit === "ollama") {
@@ -30,15 +35,37 @@ const resolveProvider = (): Provider => {
 
 type LlmOptions = {
   model?: OpenRouterModel;
+  structured_output?: StructuredOutputSchema;
+};
+
+export type LlmUsage = {
+  prompt_tokens: number | null;
+  completion_tokens: number | null;
+  total_tokens: number | null;
+};
+
+export type LlmResponse = {
+  content: string;
+  provider: Provider;
+  model: string | null;
+  usage: LlmUsage | null;
+};
+
+export const getLlmResponseWithMeta = async (
+  prompt: string,
+  options: LlmOptions = {}
+): Promise<LlmResponse> => {
+  const provider = resolveProvider();
+  if (provider === "openrouter") {
+    return callOpenRouter(prompt, options.model, options.structured_output);
+  }
+  return callOllama(prompt, options.structured_output);
 };
 
 export const getLlmResponse = async (
   prompt: string,
   options: LlmOptions = {}
 ) => {
-  const provider = resolveProvider();
-  if (provider === "openrouter") {
-    return callOpenRouter(prompt, options.model);
-  }
-  return callOllama(prompt);
+  const response = await getLlmResponseWithMeta(prompt, options);
+  return response.content;
 };

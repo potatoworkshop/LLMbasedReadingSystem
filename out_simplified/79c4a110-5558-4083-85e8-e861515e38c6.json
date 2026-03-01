@@ -1,0 +1,214 @@
+{
+  "article_id": "79c4a110-5558-4083-85e8-e861515e38c6",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change is happening now. Temperatures are rising. Storms are getting stronger. Sea levels are climbing higher. These changes affect people all over the world. Adaptation is key to handling these shifts. It means making changes to live safely in a warmer world. Governments, communities, and businesses all play a role. They build better homes. They change farming ways. They plan cities with the future in mind. Without adaptation, damage from weather events will grow. Lives and money are at risk. But smart steps can reduce harm and save resources.\n\nMany places face floods from rising seas. Coastal cities like Miami and Jakarta fight back. They build sea walls to block water. They also restore natural barriers like mangroves and dunes. These plants slow waves and hold soil in place. In the Netherlands, strong dikes protect low lands. This country has spent years perfecting flood control. Farmers deal with dry spells and heavy rains. They switch to crops that need less water. Drought-resistant seeds help fields stay green. In Africa, some farms use drip irrigation. This method saves water and boosts yields. It lets food grow even when rains fail.\n\nCities heat up fast under the sun. Concrete and asphalt trap warmth. Urban planners fight this with green spaces. They plant trees along streets. These shade walks and cool the air. Green roofs on buildings hold rain and cut energy use for cooling. In Singapore, parks cover much of the city. This lowers temperatures by several degrees. Early warning systems save lives too. Satellites track storms. Apps send alerts to phones. People evacuate in time. Bangladesh uses these tools well. River floods there kill fewer now than before.\n\nAdaptation costs money upfront. But it saves more later. The World Bank says every dollar spent stops up to seven dollars in losses. Poor countries need help from richer ones. They lack funds for big projects. Global deals like the Paris Agreement push for aid. Success stories inspire others. The Great Green Wall in Africa fights desert spread. Trees across the Sahel hold soil and bring rain. Communities own the effort. They plant and care for the trees.\n\nLooking ahead, adaptation must speed up. New tech like better forecasts aids planning. Education teaches people what to do. Every nation must act. From small islands to big cities, changes are needed. Adaptation builds a safer future. It turns threats into chances for growth.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb06",
+    "sample_id": "generated_0f1efd6f-a3bd-4915-bd74-9a73aa50720b_to_l2_r4_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "0f1efd6f-a3bd-4915-bd74-9a73aa50720b",
+    "source_dataset": "generated",
+    "source_file": "0f1efd6f-a3bd-4915-bd74-9a73aa50720b.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate change is occurring now, manifesting through rising temperatures, storms of increasing intensity, and rising sea levels. These changes impact people all over the world. Adaptation is vital for managing these shifts. It involves changing how we live to stay safe as the world warms. Governments, communities, and businesses all take on tasks. They create resilient infrastructure, modify agricultural methodologies, and design urban development with the future in mind. Without it, damage from severe weather will get worse. Lives and money are at risk. But wise actions can reduce negative impacts and save funds.\n\nMany regions face flooding due to higher seas. Coastal cities like Miami and Jakarta take steps. They build sea walls to block water entry. They also repair natural barriers like mangroves and dunes. These plants reduce wave power and secure the soil. In the Netherlands, sturdy dikes protect low lands. This nation has spent years perfecting water management. Farmers confront dry periods and intense rainfall. They shift to crops that have lower water needs. Drought-resistant crops sustain farm yields. In Africa, some farms use precise irrigation systems. This method saves water supplies and boosts harvest amounts. It allows farming to continue even when rainfall is low.\n\nCities experience rapid heat buildup under the sun because concrete and asphalt absorb and hold heat. Urban planners address this issue with planted areas. They plant trees along streets. These offer shade for people and cool the surrounding air. Green roofs on buildings capture rainfall and lower cooling energy use. In Singapore, parks form a large share of the urban space. This reduces temperature readings by several degrees. Early warning systems, which use satellites to track weather systems and apps to broadcast warnings to phones, also protect human lives by enabling prompt evacuation. Bangladesh applies these tools successfully. River floods there result in fewer fatalities now than before.\n\nAlthough adaptation demands an initial monetary investment, it produces larger future savings. According to the World Bank, each dollar spent can prevent up to seven dollars in potential losses. Poor countries need aid from richer ones. They lack sufficient funds for major projects. Global deals like the Paris Agreement promote monetary aid. Successful cases act as models. The Great Green Wall in Africa fights desert expansion. Trees across the Sahel secure the soil and alter local rainfall patterns. Communities undertake management. They plant and care for the trees.\n\nMoving forward, adaptation needs to happen faster. New tech like better forecasts aids in planning. Education provides the required skills. Every nation must act. From tiny islands to huge cities, adjustments are crucial. Adaptation creates a more secure future. It changes dangers into possibilities for development.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 401,
+    "sentence_count": 59,
+    "avg_sentence_len": 6.8,
+    "avg_word_len": 4.91,
+    "syllable_count": 593,
+    "complex_word_count": 11,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.83,
+    "flesch_kincaid_grade": 4.51,
+    "ari": 5.11,
+    "coleman_liau": 8.73,
+    "gunning_fog": 3.82
+  },
+  "final_metrics": {
+    "word_count": 443,
+    "sentence_count": 49,
+    "avg_sentence_len": 9.04,
+    "avg_word_len": 5.4,
+    "syllable_count": 756,
+    "complex_word_count": 25,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 53.28,
+    "flesch_kincaid_grade": 8.07,
+    "ari": 8.51,
+    "coleman_liau": 12.66,
+    "gunning_fog": 5.87
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily lexical changes, introducing more precise and advanced vocabulary.|applied_edits=70|tier=dist_gt_2;dist=3.4575;center_gap=4.52;mode=both;dominant=sentence;dir_changed=0;wb=80;sb=21;est_wb=80;est_sb=21;lf=0.82;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 425,
+        "sentence_count": 59,
+        "avg_sentence_len": 7.2,
+        "avg_word_len": 6.35,
+        "syllable_count": 902,
+        "complex_word_count": 54,
+        "complex_word_ratio": 0.13,
+        "flesch_reading_ease": 19.97,
+        "flesch_kincaid_grade": 12.26,
+        "ari": 12.09,
+        "coleman_liau": 17.45,
+        "gunning_fog": 7.96
+      },
+      "distance_to_target": 3.44,
+      "fidelity": {
+        "overall": 0.9495,
+        "entity_recall": 0.9767,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 43,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1197,
+        "completion_tokens": 5169,
+        "total_tokens": 6366,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED approach combining both strategies|applied_edits=62|tier=dist_gt_2;dist=3.4400;center_gap=2.46;mode=word_budget_3;dominant=word;dir_changed=1;wb=52;sb=21;est_wb=80;est_sb=11;lf=0.84;df=2.10;af=3.0000;pg=3.4575;pd=0.0175;af_fb=0",
+      "metrics": {
+        "word_count": 439,
+        "sentence_count": 59,
+        "avg_sentence_len": 7.44,
+        "avg_word_len": 5.34,
+        "syllable_count": 739,
+        "complex_word_count": 21,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 56.87,
+        "flesch_kincaid_grade": 7.18,
+        "ari": 7.46,
+        "coleman_liau": 11.64,
+        "gunning_fog": 4.89
+      },
+      "distance_to_target": 1.2075,
+      "fidelity": {
+        "overall": 0.9591,
+        "entity_recall": 0.9535,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 43,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2412,
+        "completion_tokens": 10405,
+        "total_tokens": 12817,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC changes (sentence replacements/splits/merges)|applied_edits=5|tier=dist_1_to_2;dist=1.2075;center_gap=2.49;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=22;sb=5;est_wb=70;est_sb=21;lf=0.86;df=1.50;af=0.5409;pg=3.4400;pd=2.2325;af_fb=0",
+      "metrics": {
+        "word_count": 443,
+        "sentence_count": 49,
+        "avg_sentence_len": 9.04,
+        "avg_word_len": 5.4,
+        "syllable_count": 756,
+        "complex_word_count": 25,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 53.28,
+        "flesch_kincaid_grade": 8.07,
+        "ari": 8.51,
+        "coleman_liau": 12.66,
+        "gunning_fog": 5.87
+      },
+      "distance_to_target": 0.2225,
+      "fidelity": {
+        "overall": 0.9591,
+        "entity_recall": 0.9535,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 43,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3628,
+        "completion_tokens": 11227,
+        "total_tokens": 14855,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9591,
+    "entity_recall": 0.9535,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 43,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3628,
+    "completion_tokens": 11227,
+    "total_tokens": 14855,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T17:19:12.314Z"
+}

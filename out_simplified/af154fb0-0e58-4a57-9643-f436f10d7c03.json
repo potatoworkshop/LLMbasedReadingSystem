@@ -1,0 +1,288 @@
+{
+  "article_id": "af154fb0-0e58-4a57-9643-f436f10d7c03",
+  "mode": "difficulty_adjust",
+  "original_article": "The genesis of modern public transportation is inextricably linked to the rapid urbanization that characterized the industrial era, necessitating a paradigm shift in how metropolitan populations navigated expanding territorial boundaries. Historically, the transition from horse-drawn omnibuses to sophisticated subterranean rail networks represented more than mere technological progression; it signified a fundamental reconfiguration of the urban fabric. These systems facilitated the separation of residential and commercial zones, thereby catalyzing the development of suburban peripheries while maintaining the economic vitality of the central business district. In contemporary discourse, the efficacy of public transit is often scrutinized through the lens of multimodal integration, where the seamless synchronization of buses, light rail, and rapid transit systems is deemed essential for mitigating the deleterious effects of vehicular congestion and atmospheric pollution. The strategic implementation of transit-oriented development further underscores the potential of these networks to dictate land-use patterns, fostering high-density corridors that prioritize pedestrian accessibility over private automobile dependency.\n\nFrom an economic perspective, the sustainability of public transportation hinges upon a delicate equilibrium between fiscal solvency and the provision of an essential social utility. While farebox recovery ratios remain a primary metric for assessing operational efficiency, they frequently fail to account for the substantial external benefits accrued by the broader community. These externalities include reduced infrastructure maintenance costs, enhanced labor market mobility, and the mitigation of carbon emissions, all of which contribute to the long-term resilience of the urban economy. However, the capital-intensive nature of expanding transit infrastructure often necessitates complex public-private partnerships or substantial government subsidies, sparking perennial debates regarding equitable resource allocation. Critics argue that disproportionate investment in prestige projects may marginalize peripheral communities, whereas proponents contend that a robust, interconnected network is a prerequisite for global competitiveness in an increasingly interconnected world. The challenge, therefore, lies in optimizing network architecture to ensure that service delivery is both economically viable and socially inclusive.\n\nTechnological innovation continues to redefine the parameters of public transit, introducing autonomous systems and real-time data analytics that promise to revolutionize passenger experiences. The advent of Mobility-as-a-Service (MaaS) platforms exemplifies this trend, integrating various transportation modes into a single digital interface that optimizes route planning and payment processing. Such advancements facilitate a more responsive and dynamic transit environment, capable of adapting to fluctuating demand patterns in real time. Nevertheless, the integration of these digital technologies necessitates rigorous cybersecurity protocols and a commitment to data privacy to maintain public trust. As cities grapple with the exigencies of climate change and demographic shifts, the evolution of public transportation will likely focus on decarbonization through electrification and the expansion of micro-mobility solutions to bridge the 'last-mile' gap. Ultimately, the success of future transit systems will depend on their ability to harmonize technological sophistication with the fundamental human need for reliable, accessible, and egalitarian movement within the built environment.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_2d1748ce-785b-4aef-9110-620163cc46ce_to_l4_r7_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "2d1748ce-785b-4aef-9110-620163cc46ce",
+    "source_dataset": "generated",
+    "source_file": "2d1748ce-785b-4aef-9110-620163cc46ce.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The genesis of modern public transportation is inextricably linked to the rapid urbanization that characterized the industrial era, necessitating a paradigm shift in how metropolitan populations navigated expanding territorial boundaries. Historically, the transition from horse-drawn omnibuses to sophisticated subterranean rail networks represented more than mere technological progression; it signified a fundamental reconfiguration of the urban fabric. These systems facilitated the separation of residential and commercial zones, thereby catalyzing the development of suburban peripheries while maintaining the economic vitality of the central business district. In contemporary discourse, the efficacy of public transit is often scrutinized through the lens of multimodal integration, where the seamless synchronization of buses, light rail, and rapid transit systems is deemed essential for mitigating the deleterious effects of vehicular congestion and atmospheric pollution. The strategic implementation of transit-oriented development further underscores the potential of these networks to dictate land-use patterns, fostering high-density corridors that prioritize pedestrian accessibility over private automobile dependency.\n\nFrom an economic perspective, the sustainability of public transportation hinges upon a delicate equilibrium between fiscal solvency and the provision of an essential social utility. While farebox recovery ratios remain a primary metric for assessing operational efficiency, they frequently fail to account for the substantial external benefits accrued by the broader community. These externalities include reduced infrastructure maintenance costs, enhanced labor market mobility, and the mitigation of carbon emissions, all of which contribute to the long-term resilience of the urban economy. However, the capital-intensive nature of expanding transit infrastructure often necessitates complex public-private partnerships or substantial government subsidies, sparking perennial debates regarding equitable resource allocation. Critics argue that disproportionate investment in prestige projects may marginalize peripheral communities, whereas proponents contend that a robust, interconnected network is a prerequisite for global competitiveness in an increasingly interconnected world. The challenge, therefore, lies in optimizing network architecture to ensure that service delivery is both economically viable and socially inclusive.\n\nTechnological innovation continues to redefine the parameters of public transit, introducing autonomous systems and real-time data analytics that promise to revolutionize passenger experiences. The advent of Mobility-as-a-Service (MaaS) platforms exemplifies this trend, integrating various transportation modes into a single digital interface that optimizes route planning and payment processing. Such advancements facilitate a more responsive and dynamic transit environment, capable of adapting to fluctuating demand patterns in real time. Nevertheless, the integration of these digital technologies necessitates rigorous cybersecurity protocols and a commitment to data privacy to maintain public trust. As cities grapple with the exigencies of climate change and demographic shifts, the evolution of public transportation will likely focus on decarbonization through electrification and the expansion of micro-mobility solutions to bridge the 'last-mile' gap. Ultimately, the success of future transit systems will depend on their ability to harmonize technological sophistication with the fundamental human need for reliable, accessible, and egalitarian movement within the built environment.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 478,
+    "sentence_count": 17,
+    "avg_sentence_len": 28.12,
+    "avg_word_len": 6.59,
+    "syllable_count": 1099,
+    "complex_word_count": 99,
+    "complex_word_ratio": 0.21,
+    "flesch_reading_ease": -16.21,
+    "flesch_kincaid_grade": 22.51,
+    "ari": 23.66,
+    "coleman_liau": 21.88,
+    "gunning_fog": 19.53
+  },
+  "final_metrics": {
+    "word_count": 478,
+    "sentence_count": 17,
+    "avg_sentence_len": 28.12,
+    "avg_word_len": 6.59,
+    "syllable_count": 1099,
+    "complex_word_count": 99,
+    "complex_word_ratio": 0.21,
+    "flesch_reading_ease": -16.21,
+    "flesch_kincaid_grade": 22.51,
+    "ari": 23.66,
+    "coleman_liau": 21.88,
+    "gunning_fog": 19.53
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=8.8950;center_gap=8.9;mode=both;dominant=word;dir_changed=0;wb=80;sb=6;est_wb=80;est_sb=6;lf=0.89;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 478,
+        "sentence_count": 17,
+        "avg_sentence_len": 28.12,
+        "avg_word_len": 6.59,
+        "syllable_count": 1099,
+        "complex_word_count": 99,
+        "complex_word_ratio": 0.21,
+        "flesch_reading_ease": -16.21,
+        "flesch_kincaid_grade": 22.51,
+        "ari": 23.66,
+        "coleman_liau": 21.88,
+        "gunning_fog": 19.53
+      },
+      "distance_to_target": 8.895,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=8.8950;center_gap=8.9;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.89;df=2.10;af=1.0000;pg=8.8950;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 478,
+        "sentence_count": 17,
+        "avg_sentence_len": 28.12,
+        "avg_word_len": 6.59,
+        "syllable_count": 1099,
+        "complex_word_count": 99,
+        "complex_word_ratio": 0.21,
+        "flesch_reading_ease": -16.21,
+        "flesch_kincaid_grade": 22.51,
+        "ari": 23.66,
+        "coleman_liau": 21.88,
+        "gunning_fog": 19.53
+      },
+      "distance_to_target": 8.895,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=8.8950;center_gap=8.9;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.89;df=2.10;af=1.0000;pg=8.8950;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 478,
+        "sentence_count": 17,
+        "avg_sentence_len": 28.12,
+        "avg_word_len": 6.59,
+        "syllable_count": 1099,
+        "complex_word_count": 99,
+        "complex_word_ratio": 0.21,
+        "flesch_reading_ease": -16.21,
+        "flesch_kincaid_grade": 22.51,
+        "ari": 23.66,
+        "coleman_liau": 21.88,
+        "gunning_fog": 19.53
+      },
+      "distance_to_target": 8.895,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=8.8950;center_gap=8.9;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.89;df=2.10;af=1.0000;pg=8.8950;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 478,
+        "sentence_count": 17,
+        "avg_sentence_len": 28.12,
+        "avg_word_len": 6.59,
+        "syllable_count": 1099,
+        "complex_word_count": 99,
+        "complex_word_ratio": 0.21,
+        "flesch_reading_ease": -16.21,
+        "flesch_kincaid_grade": 22.51,
+        "ari": 23.66,
+        "coleman_liau": 21.88,
+        "gunning_fog": 19.53
+      },
+      "distance_to_target": 8.895,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=8.8950;center_gap=8.9;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.89;df=2.10;af=1.0000;pg=8.8950;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 478,
+        "sentence_count": 17,
+        "avg_sentence_len": 28.12,
+        "avg_word_len": 6.59,
+        "syllable_count": 1099,
+        "complex_word_count": 99,
+        "complex_word_ratio": 0.21,
+        "flesch_reading_ease": -16.21,
+        "flesch_kincaid_grade": 22.51,
+        "ari": 23.66,
+        "coleman_liau": 21.88,
+        "gunning_fog": 19.53
+      },
+      "distance_to_target": 8.895,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 10,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 10,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:35.012Z"
+}

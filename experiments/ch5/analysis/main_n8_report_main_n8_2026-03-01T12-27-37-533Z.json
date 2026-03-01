@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-03-01T12:41:05.156Z",
+  "config_path": "experiments\\ch5\\configs\\adjust_main_n8_master.json",
+  "total_micro_batches": 1,
+  "total_jobs": 10,
+  "success_count": 9,
+  "fail_count": 1,
+  "micro_batches": [
+    {
+      "batch_id": "main_n8_mb01",
+      "micro_batch_index": 1,
+      "total_jobs": 10,
+      "success_count": 9,
+      "fail_count": 1,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb01_2026-03-01T12-27-37-541Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb01_2026-03-01T12-27-37-541Z.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "article_id": "0c812562-e605-4eec-9b15-fa0701517dd0",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Marine Ecosystems: Vital Worlds Beneath the Waves",
+  "article": [
+    "Marine ecosystems form the backbone of life in the oceans. These vast areas cover more than 70 percent of Earth's surface. They support a wide range of plants, animals, and tiny organisms. Plankton floats near the surface and feeds many sea creatures. Fish, sharks, and whales swim through these waters. Coral reefs and kelp forests create homes for countless species. These systems work in balance, with each part depending on others.",
+    "Coral reefs stand out as colorful hotspots of life. They grow in warm, shallow waters and shelter fish, turtles, and crabs. Kelp forests sway in cooler seas, offering cover for sea otters and seals. The open ocean stretches far and wide, home to migratory birds and huge squid. Deep-sea vents spew hot water and support strange life forms that do not need sunlight. Each habitat plays a unique role in the ocean's web of life.",
+    "These ecosystems provide key benefits to humans. Oceans supply half of the oxygen we breathe through tiny plants called phytoplankton. They offer food like fish and shrimp for billions of people. Marine life also helps regulate the planet's climate by absorbing carbon dioxide. Tourism to reefs brings money to coastal towns. Without healthy oceans, life on land would suffer greatly.",
+    "Sadly, threats loom large over marine ecosystems. Pollution from plastics and chemicals poisons sea animals. Overfishing empties waters of key species. Rising ocean temperatures from climate change bleach corals and disrupt food chains. Acidic waters harm shellfish shells. Human actions upset the delicate balance.",
+    "Efforts to protect these treasures grow stronger. Marine protected areas ban fishing in vital spots. International rules limit pollution. People can help by cutting plastic waste and supporting sustainable seafood. Saving marine ecosystems ensures a healthy planet for all."
+  ],
+  "metrics": {
+    "word_count": 290,
+    "sentence_count": 30,
+    "avg_sentence_len": 9.67,
+    "avg_word_len": 5.19,
+    "syllable_count": 461,
+    "complex_word_count": 9,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 62.54,
+    "flesch_kincaid_grade": 6.94,
+    "ari": 7.86,
+    "coleman_liau": 11.67,
+    "gunning_fog": 5.11
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:11:56.918Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 2,
+    "selected_attempt": 2,
+    "within_preferred_range": true,
+    "distance_to_target_words": 10
+  },
+  "token_usage": {
+    "prompt_tokens": 670,
+    "completion_tokens": 1834,
+    "total_tokens": 2504,
+    "llm_calls": 2
+  },
+  "generated_at": "2026-02-25T19:11:56.918Z"
+}

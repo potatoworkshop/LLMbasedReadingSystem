@@ -1,0 +1,4 @@
+{"ts":"2026-02-28T19:19:48.019Z","ok":false,"index":1,"total":4,"source_file":"ielts_13_test1_passage1_b1idvj.json","source_article_id":"ielts_13_test1_passage1_b1idvj","mode":"simpler","elapsed_ms":1,"error":"OPENROUTER_API_KEY is not set"}
+{"ts":"2026-02-28T19:19:49.034Z","ok":false,"index":2,"total":4,"source_file":"ielts_13_test1_passage1_b1idvj.json","source_article_id":"ielts_13_test1_passage1_b1idvj","mode":"harder","elapsed_ms":1,"error":"OPENROUTER_API_KEY is not set"}
+{"ts":"2026-02-28T19:19:50.038Z","ok":false,"index":3,"total":4,"source_file":"ielts_13_test1_passage3_91iewj.json","source_article_id":"ielts_13_test1_passage3_91iewj","mode":"simpler","elapsed_ms":1,"error":"OPENROUTER_API_KEY is not set"}
+{"ts":"2026-02-28T19:19:51.049Z","ok":false,"index":4,"total":4,"source_file":"ielts_13_test1_passage3_91iewj.json","source_article_id":"ielts_13_test1_passage3_91iewj","mode":"harder","elapsed_ms":1,"error":"OPENROUTER_API_KEY is not set"}

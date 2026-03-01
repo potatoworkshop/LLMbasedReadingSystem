@@ -1,0 +1,287 @@
+{
+  "article_id": "7daa0f6f-f98f-4ea3-8a09-140d17f0023d",
+  "mode": "difficulty_adjust",
+  "original_article": "Some people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons\n\nPeople of every culture tell each other fairy tales but the same story often takes a variety of forms in different parts of the world. In the story of Little Red Riding Hood that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother's clothes to wait for Little Red Riding Hood. You may think you know the story – but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue.\n\nThe universal appeal of these tales is frequently attributed to the idea that they contain cautionary messages: in the case of Little Red Riding Hood, to listen to your mother, and avoid talking to strangers. 'It might be what we find interesting about this story is that it's got this survival- relevant information in it,' says anthropologist Jamie Tehrani at Durham University in the UK. But his research suggests otherwise. 'We have this huge gap in our knowledge about the history and prehistory of storytelling, despite the fact that we know this genre is an incredibly ancient one,' he says. That hasn't stopped anthropologists, folklorists* and other academics devising theories to explain the importance of fairy tales in human society. Now Tehrani has found a way to test these ideas, borrowing a technique from evolutionary biologists.\n\nTo work out the evolutionary history, development and relationships among groups of organisms, biologists compare the characteristics of living species in a process called 'phylogenetic analysis'. Tehrani has used the same approach to compare related versions of fairy tales to discover how they have evolved and which elements have survived longest.\n\nTehrani's analysis focused on Little Red Riding Hood in its many forms, which include another Western fairy tale known as The Wolf and the Kids. Checking for variants of these two tales and similar stories from Africa, East Asia and other regions, he ended up with 58 stories recorded from oral traditions. Once his phylogenetic analysis had established that they were indeed related, he used the same methods to explore how they have developed and altered over time.\n\nFirst he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it – that visiting a relative, only to be met by a scary animal in disguise, is more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf.\n\nHowever, Tehrani found no significant difference in the rate of evolution of incidents compared with that of characters. 'Certain episodes are very stable because they are crucial to the story, but there are lots of other details that can evolve quite freely,' he says. Neither did his analysis support the theory that the central section of a story is the most conserved part. He found no significant difference in the flexibility of events there compared with the beginning or the end.\n\nBut the really big surprise came when he looked at the cautionary elements of the story. 'Studies on hunter-gatherer folk tales suggest that these narratives include really important information about the environment and the possible dangers that may be faced there – stuff that's relevant to survival,' he says. Yet in his analysis such elements were just as flexible as seemingly trivial details. What, then, is important enough to be reproduced from generation to generation?\n\nThe answer, it would appear, is fear – blood-thirsty and gruesome aspects of the story, such as the eating of the grandmother by the wolf, turned out to be the best preserved of all. Why are these details retained by generations of storytellers, when other features are not? Tehrani has an idea: 'In an oral context, a story won't survive because of one great teller. It also needs to be interesting when it's told by someone who's not necessarily a great storyteller.' Maybe being swallowed whole by a wolf, then cut out of its stomach alive is so gripping that it helps the story remain popular, no matter how badly it's told.\n\nJack Zipes at the University of Minnesota, Minneapolis, is unconvinced by Tehrani's views on fairy tales. 'Even if they're gruesome, they won't stick unless they matter,' he says. He believes the perennial theme of women as victims in stories like Little Red Riding Hood explains why they continue to feel relevant. But Tehrani points out that although this is often the case in Western versions, it is not always true elsewhere. In Chinese and Japanese versions, often known as The Tiger Grandmother, the villain is a woman, and in both Iran and Nigeria, the victim is a boy.\n\nMathias Clasen at Aarhus University in Denmark isn't surprised by Tehrani's findings. 'Habits and morals change, but the things that scare us, and the fact that we seek out entertainment that's designed to scare us – those are constant,' he says. Clasen believes that scary stories teach us what it feels like to be afraid without having to experience real danger, and so build up resistance to negative emotions.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb08",
+    "sample_id": "questions_ielts_15_test3_passage3_b27iij_to_l3_r5_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "ielts_15_test3_passage3_b27iij",
+    "source_dataset": "questions",
+    "source_file": "ielts_15_test3_passage3_b27iij.json"
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Some people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons\n\nPeople of every culture tell each other fairy tales but the same story often takes a variety of forms in different parts of the world. In the story of Little Red Riding Hood that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother's clothes to wait for Little Red Riding Hood. You may think you know the story – but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue.\n\nThe universal appeal of these tales is frequently attributed to the idea that they contain cautionary messages: in the case of Little Red Riding Hood, to listen to your mother, and avoid talking to strangers. 'It might be what we find interesting about this story is that it's got this survival- relevant information in it,' says anthropologist Jamie Tehrani at Durham University in the UK. But his research suggests otherwise. 'We have this huge gap in our knowledge about the history and prehistory of storytelling, despite the fact that we know this genre is an incredibly ancient one,' he says. That hasn't stopped anthropologists, folklorists* and other academics devising theories to explain the importance of fairy tales in human society. Now Tehrani has found a way to test these ideas, borrowing a technique from evolutionary biologists.\n\nTo work out the evolutionary history, development and relationships among groups of organisms, biologists compare the characteristics of living species in a process called 'phylogenetic analysis'. Tehrani has used the same approach to compare related versions of fairy tales to discover how they have evolved and which elements have survived longest.\n\nTehrani's analysis focused on Little Red Riding Hood in its many forms, which include another Western fairy tale known as The Wolf and the Kids. Checking for variants of these two tales and similar stories from Africa, East Asia and other regions, he ended up with 58 stories recorded from oral traditions. Once his phylogenetic analysis had established that they were indeed related, he used the same methods to explore how they have developed and altered over time.\n\nFirst he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it – that visiting a relative, only to be met by a scary animal in disguise, is more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf.\n\nHowever, Tehrani found no significant difference in the rate of evolution of incidents compared with that of characters. 'Certain episodes are very stable because they are crucial to the story, but there are lots of other details that can evolve quite freely,' he says. Neither did his analysis support the theory that the central section of a story is the most conserved part. He found no significant difference in the flexibility of events there compared with the beginning or the end.\n\nBut the really big surprise came when he looked at the cautionary elements of the story. 'Studies on hunter-gatherer folk tales suggest that these narratives include really important information about the environment and the possible dangers that may be faced there – stuff that's relevant to survival,' he says. Yet in his analysis such elements were just as flexible as seemingly trivial details. What, then, is important enough to be reproduced from generation to generation?\n\nThe answer, it would appear, is fear – blood-thirsty and gruesome aspects of the story, such as the eating of the grandmother by the wolf, turned out to be the best preserved of all. Why are these details retained by generations of storytellers, when other features are not? Tehrani has an idea: 'In an oral context, a story won't survive because of one great teller. It also needs to be interesting when it's told by someone who's not necessarily a great storyteller.' Maybe being swallowed whole by a wolf, then cut out of its stomach alive is so gripping that it helps the story remain popular, no matter how badly it's told.\n\nJack Zipes at the University of Minnesota, Minneapolis, is unconvinced by Tehrani's views on fairy tales. 'Even if they're gruesome, they won't stick unless they matter,' he says. He believes the perennial theme of women as victims in stories like Little Red Riding Hood explains why they continue to feel relevant. But Tehrani points out that although this is often the case in Western versions, it is not always true elsewhere. In Chinese and Japanese versions, often known as The Tiger Grandmother, the villain is a woman, and in both Iran and Nigeria, the victim is a boy.\n\nMathias Clasen at Aarhus University in Denmark isn't surprised by Tehrani's findings. 'Habits and morals change, but the things that scare us, and the fact that we seek out entertainment that's designed to scare us – those are constant,' he says. Clasen believes that scary stories teach us what it feels like to be afraid without having to experience real danger, and so build up resistance to negative emotions.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 951,
+    "sentence_count": 40,
+    "avg_sentence_len": 23.77,
+    "avg_word_len": 4.78,
+    "syllable_count": 1531,
+    "complex_word_count": 45,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 46.51,
+    "flesch_kincaid_grade": 12.68,
+    "ari": 12.95,
+    "coleman_liau": 11.04,
+    "gunning_fog": 11.4
+  },
+  "final_metrics": {
+    "word_count": 951,
+    "sentence_count": 40,
+    "avg_sentence_len": 23.77,
+    "avg_word_len": 4.78,
+    "syllable_count": 1531,
+    "complex_word_count": 45,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 46.51,
+    "flesch_kincaid_grade": 12.68,
+    "ari": 12.95,
+    "coleman_liau": 11.04,
+    "gunning_fog": 11.4
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.0175;center_gap=1.34;mode=word_only;dominant=word;dir_changed=0;wb=80;sb=5;est_wb=80;est_sb=5;lf=1.26;df=1.41;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 951,
+        "sentence_count": 40,
+        "avg_sentence_len": 23.77,
+        "avg_word_len": 4.78,
+        "syllable_count": 1531,
+        "complex_word_count": 45,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 46.51,
+        "flesch_kincaid_grade": 12.68,
+        "ari": 12.95,
+        "coleman_liau": 11.04,
+        "gunning_fog": 11.4
+      },
+      "distance_to_target": 1.0175,
+      "fidelity": {
+        "overall": 0.9625,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 48,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.0175;center_gap=1.34;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.26;df=1.41;af=1.0000;pg=1.0175;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 951,
+        "sentence_count": 40,
+        "avg_sentence_len": 23.77,
+        "avg_word_len": 4.78,
+        "syllable_count": 1531,
+        "complex_word_count": 45,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 46.51,
+        "flesch_kincaid_grade": 12.68,
+        "ari": 12.95,
+        "coleman_liau": 11.04,
+        "gunning_fog": 11.4
+      },
+      "distance_to_target": 1.0175,
+      "fidelity": {
+        "overall": 0.9625,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 48,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.0175;center_gap=1.34;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.26;df=1.41;af=1.0000;pg=1.0175;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 951,
+        "sentence_count": 40,
+        "avg_sentence_len": 23.77,
+        "avg_word_len": 4.78,
+        "syllable_count": 1531,
+        "complex_word_count": 45,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 46.51,
+        "flesch_kincaid_grade": 12.68,
+        "ari": 12.95,
+        "coleman_liau": 11.04,
+        "gunning_fog": 11.4
+      },
+      "distance_to_target": 1.0175,
+      "fidelity": {
+        "overall": 0.9625,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 48,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.0175;center_gap=1.34;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.26;df=1.41;af=1.0000;pg=1.0175;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 951,
+        "sentence_count": 40,
+        "avg_sentence_len": 23.77,
+        "avg_word_len": 4.78,
+        "syllable_count": 1531,
+        "complex_word_count": 45,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 46.51,
+        "flesch_kincaid_grade": 12.68,
+        "ari": 12.95,
+        "coleman_liau": 11.04,
+        "gunning_fog": 11.4
+      },
+      "distance_to_target": 1.0175,
+      "fidelity": {
+        "overall": 0.9625,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 48,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_1_to_2;dist=1.0175;center_gap=1.34;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=1.26;df=1.41;af=1.0000;pg=1.0175;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 951,
+        "sentence_count": 40,
+        "avg_sentence_len": 23.77,
+        "avg_word_len": 4.78,
+        "syllable_count": 1531,
+        "complex_word_count": 45,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 46.51,
+        "flesch_kincaid_grade": 12.68,
+        "ari": 12.95,
+        "coleman_liau": 11.04,
+        "gunning_fog": 11.4
+      },
+      "distance_to_target": 1.0175,
+      "fidelity": {
+        "overall": 0.9625,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 48,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9625,
+    "entity_recall": 0.9167,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 48,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:29.068Z"
+}

@@ -1,0 +1,140 @@
+{
+  "article_id": "4ff2ce51-e2b8-46a3-8dd7-2662beea8161",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation constitutes the arterial network of contemporary metropolitan regions, providing collective mobility that mitigates negative externalities associated with private automobile dependence while shaping land-use patterns and economic accessibility. Transit systems—composed of rail, bus, tram, ferry, and assorted paratransit services—contribute to modal share, influence vehicle-kilometres traveled, and enable higher densities that are conducive to agglomeration economies; however, their effectiveness depends on institutional governance, capital endowments, and coherent regulatory frameworks. In economic terms, public transit internalizes fewer social costs per passenger-kilometre than individual cars, particularly when vehicle occupancy and energy sources are optimized; yet investment decisions must reconcile short-term fiscal constraints with long-term lifecycle costs, resilience imperatives, and social equity objectives. Planners therefore confront the dual mandate of expanding accessibility while managing operational efficiency and environmental externalities, which requires analytically robust performance metrics and cross-sectoral coordination.\n\nOperational characteristics determine how transit systems perform under variable demand conditions, and technical parameters such as headways, dwell times, vehicle capacity, and network connectivity translate directly into service reliability and throughput. Ridership levels exhibit elasticity with respect to fare structures, frequency, and perceived travel time; modest reductions in headway or improvements in intermodal integration can produce disproportionate increases in patronage because of network effects and reduced generalized cost. Last-mile connectivity remains a persistent friction point that attenuates ridership potential, prompting municipalities to pilot microtransit, bikeshare, and demand-responsive feeder networks that synchronize with timetabled trunk services. Advanced transport management systems and integrated fare media, including contactless payments and mobility-as-a-service platforms, facilitate trip chaining and reduce transaction costs, but they also raise governance questions about data stewardship and equitable access for digitally marginalized populations.\n\nFiscal arrangements and policy instruments are decisive in shaping service provision and long-term sustainability, since most transit agencies operate with negative net operating margins and rely on subsidies, earmarked taxes, or value-capture mechanisms to fund both capital and recurrent expenditures. Capital-intensive rail projects, for example, exhibit high upfront sunk costs yet often achieve favorable cost-benefit ratios over extended horizons through induced development and congestion mitigation; conversely, bus-based corridors present lower capital intensity but greater exposure to operating volatility and road congestion. Pricing regimes such as distance-based fares, zonal systems, and time-of-day differentials influence peak spreading and revenue stability, while supply-side interventions—dedicated bus lanes, signal priority, and grade separation—augment service reliability but demand interjurisdictional coordination and political capital. Innovative financing instruments, including public-private partnerships and transit-oriented development strategies, can mobilize additional resources but necessitate transparent governance to avoid regressive distributional outcomes.\n\nContemporary challenges for public transportation encompass pandemic-induced ridership shocks, the acceleration of telecommuting, and the imperative of decarbonization through electrification and renewable energy integration. The COVID-19 crisis exposed vulnerabilities in farebox-dependent models and prompted agencies to re-evaluate contingency planning and public-health protocols, catalyzing experiments in flexible scheduling and contactless operations. Looking forward, policymakers must balance investments in low-emission rolling stock, grid resiliency, and climate adaptation measures against equity imperatives that ensure marginalized communities retain access to essential mobility. The trajectory of urban mobility will be defined by the capacity of governance institutions to reconcile technological innovation, fiscal realism, and social inclusion, thereby sustaining transit systems that are efficient, resilient, and aligned with broader metropolitan sustainability goals.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb07",
+    "sample_id": "generated_37fadc6b-1e87-440c-b8b3-aec0905e222a_to_l5_r6_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "37fadc6b-1e87-440c-b8b3-aec0905e222a",
+    "source_dataset": "generated",
+    "source_file": "37fadc6b-1e87-440c-b8b3-aec0905e222a.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation constitutes the main network of modern cities, providing shared travel that reduces harms from car use while shaping land use and access to jobs. Transit systems—composed of rail, bus, tram, ferry, and other paratransit services—add to mode share, influence vehicle-kilometres traveled, and allow denser development that supports economic clustering; however, their effectiveness depends on management, funding, and clear rules. In economic terms, public transit has lower social costs per passenger-km than private cars, particularly when higher occupancy and cleaner energy are used; yet investment decisions must reconcile short-term budget limits with long-term costs, resilience needs, and fairness goals. Planners therefore confront the two tasks of expanding access while managing operational efficiency and environmental harms, which requires clear performance measures and coordination across sectors.\n\nOperational features determine how transit systems perform under changing demand, and technical parameters such as headways, dwell times, vehicle capacity, and network links translate directly into service reliability and capacity. Ridership levels are sensitive to fares, frequency, and perceived travel time; small cuts in headway or better intermodal links can lead to larger patronage gains thanks to network effects and lower overall cost. Last-mile links remains a ongoing obstacle that reduces ridership, prompting municipalities to pilot microtransit, bikeshare, and on-demand feeder services that match scheduled trunk services. Modern management systems and integrated fares, like contactless payments and MaaS platforms, facilitate trip chaining and cut transaction costs, but they also raise governance questions about data handling and fair access for people without digital access.\n\nFunding setups and policy tools shape service delivery and long-term sustainability, since most transit agencies operate with operating losses and rely on subsidies, dedicated taxes, or value capture tools to fund both capital and recurrent expenditures. Rail projects with high capital needs, for example, exhibit large upfront costs yet often achieve good cost-benefit results over time through new development and less congestion; conversely, bus corridors need less capital but face more operational swings and road congestion. Fares like distance-based, zonal, and time-of-day pricing affect peak spreading and revenue steadiness, while supply measures—dedicated bus lanes, signal priority, and grade separation—improve service reliability but demand coordination across jurisdictions and political support. New financing tools like public-private partnerships and TOD strategies, can mobilize additional resources but necessitate clear governance to avoid unfair distributional results.\n\nContemporary challenges for public transportation encompass pandemic-driven ridership drops, more telecommuting, and the need to cut emissions via electrification and renewables. The COVID-19 crisis exposed vulnerabilities in farebox-reliant models and prompted agencies to rethink contingency plans and health protocols, leading to trials in flexible scheduling and contactless operations. Looking forward, policymakers must balance investments in low-emission vehicles, a resilient grid, and climate adaptation steps against equity needs that keep marginalized communities' access to key mobility. Urban mobility's path will depend on whether governing bodies can balance tech change, fiscal realities, and inclusion to keep transit efficient, resilient, and aligned with city sustainability goals.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 555,
+    "sentence_count": 16,
+    "avg_sentence_len": 34.69,
+    "avg_word_len": 6.93,
+    "syllable_count": 1331,
+    "complex_word_count": 99,
+    "complex_word_ratio": 0.18,
+    "flesch_reading_ease": -31.26,
+    "flesch_kincaid_grade": 26.24,
+    "ari": 28.57,
+    "coleman_liau": 24.11,
+    "gunning_fog": 21.01
+  },
+  "final_metrics": {
+    "word_count": 502,
+    "sentence_count": 16,
+    "avg_sentence_len": 31.38,
+    "avg_word_len": 6.08,
+    "syllable_count": 1007,
+    "complex_word_count": 52,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 5.28,
+    "flesch_kincaid_grade": 20.32,
+    "ari": 22.89,
+    "coleman_liau": 19.01,
+    "gunning_fog": 16.69
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily LEXICAL substitutions to simplify vocabulary and shorten long words/phrases.|applied_edits=58|tier=dist_gt_2;dist=2.6608;center_gap=8.27;mode=both;dominant=word;dir_changed=0;wb=80;sb=6;est_wb=80;est_sb=3;lf=0.96;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 502,
+        "sentence_count": 16,
+        "avg_sentence_len": 31.38,
+        "avg_word_len": 6.08,
+        "syllable_count": 1007,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 5.28,
+        "flesch_kincaid_grade": 20.32,
+        "ari": 22.89,
+        "coleman_liau": 19.01,
+        "gunning_fog": 16.69
+      },
+      "distance_to_target": 0.9092,
+      "fidelity": {
+        "overall": 0.9257,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 14,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1183,
+        "completion_tokens": 10233,
+        "total_tokens": 11416,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9257,
+    "entity_recall": 0.8571,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 14,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 10233,
+    "total_tokens": 11416,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:22:12.885Z"
+}

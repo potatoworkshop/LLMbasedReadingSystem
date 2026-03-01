@@ -17,6 +17,11 @@ app.use("/api", generateArticleRouter);
 
 const port = process.env.PORT ? Number(process.env.PORT) : 3001;
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server listening on http://localhost:${port}`);
 });
+
+// 延长超时时间以支持多轮 LLM 迭代 (15 minutes)
+server.timeout = 900000;
+server.headersTimeout = 900000;
+server.keepAliveTimeout = 900000;

@@ -1,0 +1,140 @@
+{
+  "article_id": "0f1084f5-20f4-4ce2-b9a8-6ef318cf8833",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems are special places in the oceans. They cover most of the Earth's surface. About 70 percent of our planet is ocean water. In these ecosystems, plants, animals, and tiny creatures live together. They depend on each other for food and shelter. Sunlight, water currents, and salt shape these homes. Different areas of the ocean have different ecosystems. Some are bright and full of color. Others are dark and cold. All of them help keep life on Earth in balance.\n\nCoral reefs are one of the most colorful marine ecosystems. They grow in warm, shallow waters near the coast. Tiny animals called coral polyps build the reefs. Each polyp makes a hard shell from calcium in the sea water. Over many years, these shells stack up to form huge structures. Reefs look like underwater gardens. Bright fish swim among the branches. Sea turtles rest in the shade. Sharks hunt for food nearby. Reefs protect coastlines from big waves. They also give homes to one quarter of all ocean species. Without reefs, many sea creatures would have no place to live.\n\nThe open ocean holds another key ecosystem. It starts where reefs end and goes far out to sea. Here, tiny plants called phytoplankton float on the surface. They use sunlight to make food. This process is called photosynthesis. Zooplankton, which are small animals, eat the phytoplankton. Small fish then eat the zooplankton. Larger fish chase the small fish. Whales and dolphins feed at the top of this food chain. Sometimes, whales gulp huge amounts of tiny krill. Ocean currents carry nutrients to keep this chain strong. The open ocean covers half the Earth. It supports big schools of tuna and swordfish that people catch for food.\n\nDeep-sea ecosystems are very different. They lie far below the sunlight zone. No light reaches depths over 200 meters. Water there is cold and under great pressure. Yet life thrives in strange ways. Anglerfish use glowing lures to catch prey. Their huge mouths help them grab food. Giant squid hide in the dark waters. On the ocean floor, hydrothermal vents spew hot water rich in minerals. Tube worms grow tall near these vents. Bacteria inside the worms turn chemicals into food. No sunlight is needed. These vents show life can exist in harsh places. They teach us about possible life on other planets.\n\nMarine ecosystems matter to all life. They produce half the oxygen in our air. Fish from these waters feed billions of people. Healthy oceans store carbon and help control weather. But threats harm them now. Plastic waste chokes sea animals. Overfishing empties fish stocks. Rising sea temperatures bleach coral white and kill it. Acidic water from pollution hurts shells. People must act to protect these vital systems. Reserves and clean-up efforts can help. Simple steps like reducing plastic use make a difference. By caring for marine ecosystems, we care for our own future.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb08",
+    "sample_id": "generated_2f6c2454-faf6-4af1-86f6-e93e93d6181a_to_l4_r8_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "2f6c2454-faf6-4af1-86f6-e93e93d6181a",
+    "source_dataset": "generated",
+    "source_file": "2f6c2454-faf6-4af1-86f6-e93e93d6181a.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems constitute distinctive realms within the oceans, encompassing the majority of the Earth's surface. About 70 percent of our planet is ocean water. In these ecosystems, plants, animals, and microscopic organisms live together. These organisms coexist in a complex interdependence for sustenance and habitat, sculpted by sunlight, aqueous currents, and salinity. Oceanic regions host diverse ecosystems, ranging from vibrant, illuminated zones to dark, frigid depths. All of them contribute to the planet's ecological equilibrium.\n\nCoral reefs are one of the most vibrant marine ecosystems. These reefs develop in warm, shallow coastal waters. Tiny animals called coral polyps construct the reefs. Each polyp secretes a calcified exoskeleton from seawater calcium, and over centuries these structures accumulate into massive formations. Resembling submerged gardens, reefs host brightly colored fish navigating their branches, sea turtles reposing in their shade, and sharks foraging nearby. Reefs shield coastlines from big waves. They also give homes to one quarter of all ocean species. Consequently, without reefs, numerous marine species would be deprived of habitat.\n\nThe open ocean contains another key ecosystem. This ecosystem commences at the reef margin and extends into the vast pelagic zone. Here, tiny plants called phytoplankton drift on the surface. They use sunlight to synthesize sustenance. This process is called photosynthesis. Zooplankton, comprising small animals, consume the phytoplankton and are subsequently preyed upon by small fish. Larger fish pursue the small fish. Whales and dolphins occupy the apex of this food chain. For instance, whales ingest massive quantities of minute krill, while ocean currents transport nutrients that sustain this trophic cascade. The open ocean covers half the Earth. It sustains big schools of tuna and swordfish that people harvest for sustenance.\n\nDeep-sea ecosystems are profoundly distinct. Existing far beneath the sunlit zone, these depths beyond 200 meters are devoid of light. Water there is cold and under immense pressure. Yet life persists in remarkable adaptations. Anglerfish, for example, employ bioluminescent lures to attract prey, utilizing their capacious mouths for capture. Giant squid dwell in the dark waters. On the abyssal plain, hydrothermal vents expel mineral-laden hot water, around which tube worms proliferate. Bacteria inside the worms chemosynthesize nutrients. No sunlight is needed. These vents demonstrate life's capacity to endure in extreme environments, thereby informing hypotheses regarding potential extraterrestrial life.\n\nMarine ecosystems are integral to all life. They generate half of atmospheric oxygen and sustain billions of people through piscine resources. Healthy oceans sequester carbon and moderate weather. However, anthropogenic threats currently imperil them: plastic waste entangles and asphyxiates marine fauna, while overfishing depletes piscine populations. Rising sea temperatures induce coral bleaching and mortality. Acidic water from pollution compromises calcified structures. Humanity must implement conservation measures; marine protected areas and remediation initiatives offer potential solutions. Simple steps like reducing plastic use yield significant impact. Ultimately, stewarding marine ecosystems is synonymous with safeguarding our own future.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 485,
+    "sentence_count": 62,
+    "avg_sentence_len": 7.82,
+    "avg_word_len": 4.78,
+    "syllable_count": 712,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.7,
+    "flesch_kincaid_grade": 4.78,
+    "ari": 5,
+    "coleman_liau": 8.53,
+    "gunning_fog": 4.37
+  },
+  "final_metrics": {
+    "word_count": 474,
+    "sentence_count": 44,
+    "avg_sentence_len": 10.77,
+    "avg_word_len": 6,
+    "syllable_count": 926,
+    "complex_word_count": 48,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 30.63,
+    "flesch_kincaid_grade": 11.66,
+    "ari": 12.23,
+    "coleman_liau": 16.74,
+    "gunning_fog": 8.36
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=balanced|applied_edits=42|tier=coarse_jump;dist=7.3300;dir=harder;est_wb=80;est_sb=22",
+      "metrics": {
+        "word_count": 474,
+        "sentence_count": 44,
+        "avg_sentence_len": 10.77,
+        "avg_word_len": 6,
+        "syllable_count": 926,
+        "complex_word_count": 48,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 30.63,
+        "flesch_kincaid_grade": 11.66,
+        "ari": 12.23,
+        "coleman_liau": 16.74,
+        "gunning_fog": 8.36
+      },
+      "distance_to_target": 0.7525,
+      "fidelity": {
+        "overall": 0.8984,
+        "entity_recall": 0.8409,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 44,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1219,
+        "completion_tokens": 4653,
+        "total_tokens": 5872,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8984,
+    "entity_recall": 0.8409,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 44,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1219,
+    "completion_tokens": 4653,
+    "total_tokens": 5872,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:19:48.911Z"
+}

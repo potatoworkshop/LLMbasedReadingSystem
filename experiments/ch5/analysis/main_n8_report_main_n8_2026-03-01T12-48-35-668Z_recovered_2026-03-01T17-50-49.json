@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-03-01T14:11:49.924Z",
+  "config_path": "experiments\\ch5\\configs\\adjust_main_n8_master.json",
+  "total_micro_batches": 10,
+  "total_jobs": 240,
+  "success_count": 216,
+  "fail_count": 24,
+  "micro_batches": [
+    {
+      "batch_id": "main_n8_mb01",
+      "micro_batch_index": 1,
+      "total_jobs": 24,
+      "success_count": 24,
+      "fail_count": 0,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb01_2026-03-01T12-48-35-675Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb01_2026-03-01T12-48-35-675Z.json",
+      "recovered_from_output_count": 0,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb02",
+      "micro_batch_index": 2,
+      "total_jobs": 24,
+      "success_count": 21,
+      "fail_count": 3,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb02_2026-03-01T12-48-35-695Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb02_2026-03-01T12-48-35-695Z.json",
+      "recovered_from_output_count": 3,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb03",
+      "micro_batch_index": 3,
+      "total_jobs": 24,
+      "success_count": 24,
+      "fail_count": 0,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb03_2026-03-01T12-48-35-695Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb03_2026-03-01T12-48-35-695Z.json",
+      "recovered_from_output_count": 0,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb04",
+      "micro_batch_index": 4,
+      "total_jobs": 24,
+      "success_count": 18,
+      "fail_count": 6,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb04_2026-03-01T12-48-35-696Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb04_2026-03-01T12-48-35-696Z.json",
+      "recovered_from_output_count": 6,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb05",
+      "micro_batch_index": 5,
+      "total_jobs": 24,
+      "success_count": 20,
+      "fail_count": 4,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb05_2026-03-01T12-48-35-696Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb05_2026-03-01T12-48-35-696Z.json",
+      "recovered_from_output_count": 4,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb06",
+      "micro_batch_index": 6,
+      "total_jobs": 24,
+      "success_count": 14,
+      "fail_count": 10,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb06_2026-03-01T12-48-35-696Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb06_2026-03-01T12-48-35-696Z.json",
+      "recovered_from_output_count": 10,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb07",
+      "micro_batch_index": 7,
+      "total_jobs": 24,
+      "success_count": 23,
+      "fail_count": 1,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb07_2026-03-01T12-48-35-697Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb07_2026-03-01T12-48-35-697Z.json",
+      "recovered_from_output_count": 1,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb08",
+      "micro_batch_index": 8,
+      "total_jobs": 24,
+      "success_count": 24,
+      "fail_count": 0,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb08_2026-03-01T12-48-35-697Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb08_2026-03-01T12-48-35-697Z.json",
+      "recovered_from_output_count": 0,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb09",
+      "micro_batch_index": 9,
+      "total_jobs": 24,
+      "success_count": 24,
+      "fail_count": 0,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb09_2026-03-01T12-48-35-697Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb09_2026-03-01T12-48-35-697Z.json",
+      "recovered_from_output_count": 0,
+      "unrecovered_fail_count": 0
+    },
+    {
+      "batch_id": "main_n8_mb10",
+      "micro_batch_index": 10,
+      "total_jobs": 24,
+      "success_count": 24,
+      "fail_count": 0,
+      "log_path": "experiments\\ch5\\logs\\adjust_main_n8_mb10_2026-03-01T12-48-35-698Z.jsonl",
+      "manifest_path": "experiments\\ch5\\manifests\\adjusted_main_n8_mb10_2026-03-01T12-48-35-698Z.json",
+      "recovered_from_output_count": 0,
+      "unrecovered_fail_count": 0
+    }
+  ],
+  "recovery_summary": {
+    "total_failed": 24,
+    "recovered": 24,
+    "unrecovered": 0
+  },
+  "recovered_from_output": true
+}

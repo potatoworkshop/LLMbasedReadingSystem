@@ -1,0 +1,177 @@
+{
+  "article_id": "f2ecabc8-00d1-4f04-8d5a-b104cb369c02",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transport helps many people move around cities each day. It includes buses, trains, trams and subways. These services run on fixed routes and set times. People can use them to reach work, school and shops. In this way, public transport joins homes, jobs and services across a city. It also gives a clear choice to people who do not own a car.\n\nPublic transport can save money for riders and for the city. A bus or train ticket costs less than the cost of fuel and parking for one car. Therefore, people who ride often can keep more of their pay. Cities also spend less on roads when more people ride public transport. When many people share a ride, fewer cars use the roads. This reduces traffic jams and makes travel times more stable. In addition, shared transport can cut air pollution. Cars emit gases that harm air quality. Trains and buses move more people with less fuel per person. Therefore, public transport can help make the air cleaner and the city healthier.\n\nUsing public transport brings other benefits for people and for health. Riders often walk to stops and stations. This walking gives daily exercise without needing a special trip to the gym. For many older people, students and families, buses and trains are a vital link to services. A short and cheap ride can mean the difference between seeing a doctor or not. It can also mean easier access to a job or to education. In this way, public transport supports equal access to chance and choice. For example, a city train that runs on time helps a person arrive at work without stress. A reliable bus that comes often lets people plan their day with confidence.\n\nDespite the many benefits, public transport faces clear challenges. Many systems are crowded at peak times. Overcrowding can lower comfort and cause stress. Delays and service cuts also harm trust in the system. In some places, vehicles and stations are old and need repair. Funding is a common issue because maintaining and expanding services costs a lot. In addition, some routes do not reach outer neighborhoods. This creates a last-mile problem for riders who live far from a stop. Safety and cleanliness also matter. Passengers are less likely to ride if they feel unsafe or if stations are dirty. To solve these problems, cities use a mix of actions. They add more vehicles and increase the number of trips during busy hours. They use clear timetables and real-time apps to tell riders when a bus will arrive. They invest in new vehicles that use less fuel and in rails that need less repair. They plan routes that link to bikes and short rides so that a person can reach home from a stop easily.\n\nThe future of public transport will likely use more technology and better design. Digital tickets and apps make it easier to plan and to pay. Smart cards and contactless payments let people enter quickly and avoid queues. Data from apps helps planners find when and where to add services. Dedicated bus lanes and priority signals can make buses faster and more reliable. In many cities, officials also test shared small buses and on-demand shuttles for low-demand areas. These services can fill gaps where a large bus is not practical. If cities keep to careful plans and steady investment, public transport can grow in a fair and useful way.\n\nFor an individual rider, small steps make travel simpler and safer. Check a route map and a timetable before you leave. Carry a small pass or use a mobile ticket to save time at the gate. If a route is often crowded, try an earlier or later ride. Keep a small bag and keep it close to your body for safety. Offer your seat to older riders or to those with young children when you can. Be polite and keep noise low so that others can rest or work. By planning and by riding with care, each person helps the whole system work better and serve more people in the city.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb04",
+    "sample_id": "generated_379ed5d3-997f-49b8-a1ee-43bec1e73b4f_to_l5_r5_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "379ed5d3-997f-49b8-a1ee-43bec1e73b4f",
+    "source_dataset": "generated",
+    "source_file": "379ed5d3-997f-49b8-a1ee-43bec1e73b4f.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Facilitating the quotidian urban peregrinations of innumerable inhabitants, public transport constitutes an indispensable municipal conduit; It includes buses, trains, trams and subways; Operating along invariable trajectories and adhering to inflexible chronologies, these apparatuses ensure punctilious functionality; Thereby enabling denizens to attain occupational locales, educational institutions, and mercantile establishments with alacrity; In such manner, public transport seamlessly amalgamates residential enclaves, vocational pursuits, and utilitarian facilities spanning the civic domain; It also gives a clear choice to people who do not own a car.\n\nNot only does public transport attenuate pecuniary burdens upon passengers, but it also curtails municipal disbursements. Whereas a solitary omnibus or rail admission incurs markedly inferior outlays relative to petroleum and vehicular stasis, habitual voyagers thereby preserve augmented emoluments; Cities also spend less on roads when more people ride public transport; Multitudinous shared sojourns precipitate diminished automotive throughput on thoroughfares, concomitantly assuaging obstructions and stabilizing transit chronometries; Furthermore, collective conveyance substantially ameliorates atmospheric adulteration. Cars emit gases that harm air quality; Conveying vaster cohorts via parsimonious per-capita combustibles, rail and omnibus systems thereby purge aerial effluents, engendering salubrity across the urban polity.\n\nUsing public transport brings other benefits for people and for health. Passengers recurrently perambulate toward halts and depots, thereby incidentally procuring ambulatory exertion. This walking gives daily exercise without needing a special trip to the gym; Constituting an indispensable nexus to amenities for geriatrics, juveniles, and kinships alike, omnibuses and railcars fulfill paramount connectivity imperatives. A short and cheap ride can mean the difference between seeing a doctor or not; It can also mean easier access to a job or to education; In this way, public transport supports equal access to chance and choice. For example, a city train that runs on time helps a person arrive at work without stress. A reliable bus that comes often lets people plan their day with confidence;\n\nNotwithstanding its manifold prerogatives, public transport confronts manifest adversities. Many systems are crowded at peak times; Superfluous throngs invariably erode ergonomic felicity while engendering psychological duress. Delays and service cuts also harm trust in the system; In some places, vehicles and stations are old and need repair. Fiscal provisioning recurrently falters, inasmuch as perpetuating and augmenting infrastructures exacts exorbitant tolls. In addition, some routes do not reach outer neighborhoods. This creates a last-mile problem for riders who live far from a stop. Safety and cleanliness also matter. Passengers are less likely to ride if they feel unsafe or if stations are dirty. Municipalities, in redressing these impediments, deploy heterogeneous remedial stratagems. They add more vehicles and increase the number of trips during busy hours. They use clear timetables and real-time apps to tell riders when a bus will arrive. They invest in new vehicles that use less fuel and in rails that need less repair. They plan routes that link to bikes and short rides so that a person can reach home from a stop easily.\n\nProspectively, public transport shall increasingly harness augmented technologic paradigms and refined architectonics. Electronically encoded admissions and applicatures expedite itinerary orchestration and pecuniary consummation. Smart cards and contactless payments let people enter quickly and avoid queues. Applicature-derived analytics empower functionaries to pinpoint spatiotemporal junctures for infrastructural accretions. Dedicated bus lanes and priority signals can make buses faster and more reliable. In many cities, officials also test shared small buses and on-demand shuttles for low-demand areas. These services can fill gaps where a large bus is not practical. If cities keep to careful plans and steady investment, public transport can grow in a fair and useful way.\n\nFor an individual rider, small steps make travel simpler and safer. Check a route map and a timetable before you leave. Carry a small pass or use a mobile ticket to save time at the gate. If a route is often crowded, try an earlier or later ride. Keep a small bag and keep it close to your body for safety. Offer your seat to older riders or to those with young children when you can. Be polite and keep noise low so that others can rest or work. By planning and by riding with care, each person helps the whole system work better and serve more people in the city.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 687,
+    "sentence_count": 56,
+    "avg_sentence_len": 12.27,
+    "avg_word_len": 4.49,
+    "syllable_count": 976,
+    "complex_word_count": 4,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 74.19,
+    "flesch_kincaid_grade": 5.96,
+    "ari": 5.85,
+    "coleman_liau": 8.18,
+    "gunning_fog": 5.14
+  },
+  "final_metrics": {
+    "word_count": 706,
+    "sentence_count": 38,
+    "avg_sentence_len": 18.58,
+    "avg_word_len": 5.68,
+    "syllable_count": 1346,
+    "complex_word_count": 82,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": 26.69,
+    "flesch_kincaid_grade": 14.15,
+    "ari": 14.63,
+    "coleman_liau": 16.03,
+    "gunning_fog": 12.08
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary focus on syntactic changes via sentence restructurings, mergers, and densifications|applied_edits=18|tier=coarse_jump;dist=3.5725;dir=harder;est_wb=80;est_sb=20",
+      "metrics": {
+        "word_count": 706,
+        "sentence_count": 53,
+        "avg_sentence_len": 13.32,
+        "avg_word_len": 5.68,
+        "syllable_count": 1346,
+        "complex_word_count": 82,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 32.02,
+        "flesch_kincaid_grade": 12.1,
+        "ari": 12,
+        "coleman_liau": 15.4,
+        "gunning_fog": 9.97
+      },
+      "distance_to_target": 1.5442,
+      "fidelity": {
+        "overall": 0.8962,
+        "entity_recall": 0.7692,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1407,
+        "completion_tokens": 4351,
+        "total_tokens": 5758,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic changes (sentence replacements/merges)|applied_edits=15|tier=dist_1_to_2;dist=1.5442;center_gap=5.64;mode=sentence_only;dominant=sentence;dir_changed=0;wb=30;sb=14;est_wb=80;est_sb=17;lf=1.08;df=1.67;af=0.7613;pg=3.5725;pd=2.0283;af_fb=0",
+      "metrics": {
+        "word_count": 706,
+        "sentence_count": 38,
+        "avg_sentence_len": 18.58,
+        "avg_word_len": 5.68,
+        "syllable_count": 1346,
+        "complex_word_count": 82,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 26.69,
+        "flesch_kincaid_grade": 14.15,
+        "ari": 14.63,
+        "coleman_liau": 16.03,
+        "gunning_fog": 12.08
+      },
+      "distance_to_target": 0.9258,
+      "fidelity": {
+        "overall": 0.8962,
+        "entity_recall": 0.7692,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 26,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3009,
+        "completion_tokens": 15583,
+        "total_tokens": 18592,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8962,
+    "entity_recall": 0.7692,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 26,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3009,
+    "completion_tokens": 15583,
+    "total_tokens": 18592,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:00:35.352Z"
+}

@@ -1,0 +1,207 @@
+{
+  "article_id": "b2c9b101-197a-475e-b7d4-da675cf2afc0",
+  "mode": "difficulty_adjust",
+  "original_article": "Long ago, traders crossed deserts, mountains, and seas to exchange goods. Ancient trade routes formed networks that connected empires and cultures. These paths carried silk, spices, gold, ivory, and precious stones. Merchants faced dangers like bandits and harsh weather, but the profits were great. Trade routes not only moved items but also ideas, religions, and technologies. They helped build great cities and strong economies.\n\nThe Silk Road was the most famous of these routes. It began in China and ended in the Mediterranean ports of Europe. Named for Chinese silk, it carried many other goods too. Caravans of camels traveled in stages across Central Asia. Cities like Samarkand and Bukhara became busy hubs. Traders swapped silk for horses from the steppes and glassware from Rome. The route opened in the 2nd century BCE during the Han Dynasty. It lasted for over a thousand years until sea travel grew.\n\nOther routes played key roles as well. The Incense Route crossed the Arabian Desert. Merchants sold frankincense and myrrh from southern Arabia to markets in Egypt and Rome. These resins were used in temples and medicines. Maritime routes linked India, Arabia, and East Africa. Ships sailed the Indian Ocean with monsoon winds. They brought pepper, cinnamon, and cotton. The Amber Road ran from the Baltic Sea to the Mediterranean. It traded amber jewels for Roman silver.\n\nAncient trade routes had lasting effects. They spread Buddhism from India to China and beyond. Technologies like papermaking and gunpowder moved west. Languages and art styles mixed in shared markets. Economies grew as rulers taxed trade goods. However, routes also spread diseases like the plague. Today, these paths inspire modern projects like the Belt and Road Initiative. They remind us how trade unites people across distances.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "9af6ed5d-da86-4b69-b90f-011f09e31df0_to_l1"
+  },
+  "source": {
+    "source_article_id": "9af6ed5d-da86-4b69-b90f-011f09e31df0",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "9af6ed5d-da86-4b69-b90f-011f09e31df0.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Long ago, traders crossed deserts, mountains, and seas. They traded goods. Old trade routes made links. These links joined empires and cultures. The paths carried silk, spices, gold, ivory, and precious stones. Merchants met dangers like bandits and bad weather. But profits were big. Trade routes moved goods. They also moved ideas, religions, and technologies. They helped build big cities and strong economies.\n\nThe Silk Road was the most famous route. It started in China. It ended in Mediterranean ports of Europe. People named it for Chinese silk. It carried many other goods too. Camel groups traveled in stages across Central Asia. Cities like Samarkand and Bukhara became busy centers. Traders swapped silk for horses from the steppes. They got glassware from Rome. The route opened in the 2nd century BCE. This was during the Han Dynasty. It lasted over a thousand years. It ended when sea travel grew.\n\nOther routes played key roles too. The Incense Route crossed the Arabian Desert. Merchants sold frankincense and myrrh. These came from southern Arabia. They sold to markets in Egypt and Rome. People used these resins in temples and medicines. Sea routes linked India, Arabia, and East Africa. Ships sailed the Indian Ocean with monsoon winds. They brought pepper, cinnamon, and cotton. The Amber Road ran from the Baltic Sea to the Mediterranean. It traded amber jewels for Roman silver.\n\nOld trade routes had lasting effects. They spread Buddhism from India to China and beyond. Technologies like papermaking and gunpowder moved west. Languages and art styles mixed in shared markets. Economies grew as rulers taxed trade goods. But routes also spread diseases like the plague. Today, these paths inspire projects like the Belt and Road Initiative. They show how trade unites people across distances.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Very Easy",
+    "rewrite_guidance": "Use very common words, short declarative sentences, and explicit logical links.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        4,
+        6.5
+      ],
+      "flesch_reading_ease": [
+        70,
+        90
+      ],
+      "avg_sentence_len": [
+        8,
+        14
+      ],
+      "complex_word_ratio": [
+        0.02,
+        0.08
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 290,
+    "sentence_count": 31,
+    "avg_sentence_len": 9.35,
+    "avg_word_len": 5.11,
+    "syllable_count": 479,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 57.6,
+    "flesch_kincaid_grade": 7.55,
+    "ari": 7.33,
+    "coleman_liau": 11.1,
+    "gunning_fog": 4.85
+  },
+  "final_metrics": {
+    "word_count": 292,
+    "sentence_count": 42,
+    "avg_sentence_len": 6.95,
+    "avg_word_len": 5.02,
+    "syllable_count": 466,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 64.77,
+    "flesch_kincaid_grade": 5.95,
+    "ari": 5.69,
+    "coleman_liau": 9.46,
+    "gunning_fog": 3.88
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 290,
+        "sentence_count": 31,
+        "avg_sentence_len": 9.35,
+        "avg_word_len": 5.11,
+        "syllable_count": 479,
+        "complex_word_count": 8,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 57.6,
+        "flesch_kincaid_grade": 7.55,
+        "ari": 7.33,
+        "coleman_liau": 11.1,
+        "gunning_fog": 4.85
+      },
+      "distance_to_target": 0.26,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 42,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 718,
+        "completion_tokens": 1646,
+        "total_tokens": 2364,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 290,
+        "sentence_count": 31,
+        "avg_sentence_len": 9.35,
+        "avg_word_len": 5.11,
+        "syllable_count": 479,
+        "complex_word_count": 8,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 57.6,
+        "flesch_kincaid_grade": 7.55,
+        "ari": 7.33,
+        "coleman_liau": 11.1,
+        "gunning_fog": 4.85
+      },
+      "distance_to_target": 0.26,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 42,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1436,
+        "completion_tokens": 3358,
+        "total_tokens": 4794,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 292,
+        "sentence_count": 42,
+        "avg_sentence_len": 6.95,
+        "avg_word_len": 5.02,
+        "syllable_count": 466,
+        "complex_word_count": 8,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 64.77,
+        "flesch_kincaid_grade": 5.95,
+        "ari": 5.69,
+        "coleman_liau": 9.46,
+        "gunning_fog": 3.88
+      },
+      "distance_to_target": 0.1091,
+      "fidelity": {
+        "overall": 0.9371,
+        "entity_recall": 0.9048,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 42,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2154,
+        "completion_tokens": 5041,
+        "total_tokens": 7195,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9371,
+    "entity_recall": 0.9048,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 42,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2154,
+    "completion_tokens": 5041,
+    "total_tokens": 7195,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:41:15.892Z"
+}

@@ -1,0 +1,139 @@
+{
+  "article_id": "806d2b06-4aa0-4f34-9240-68603dc0f0e3",
+  "mode": "difficulty_adjust",
+  "original_article": "The environmental practices of big businesses are shaped by a fundamental fact that for many of us offends our sense of justice. Depending on the circumstances, a business may maximize the amount of money it makes, at least in the short term, by damaging the environment and hurting people. That is still the case today for fishermen in an unmanaged fishery without quotas, and for international logging companies with short-term leases on tropical rainforest land in places with corrupt officials and unsophisticated landowners. When government regulation is effective, and when the public is environmentally aware, environmentally clean big businesses may out-compete dirty ones, but the reverse is likely to be true if government regulation is ineffective and if the public doesn't care.\n\nIt is easy for the rest of us to blame a business for helping itself by hurting other people. But blaming alone is unlikely to produce change. It ignores the fact that businesses are not charities but profit-making companies, and that publicly owned companies with shareholders are under obligation to those shareholders to maximize profits, provided that they do so by legal means. US laws make a company's directors legally liable for something termed 'breach of fiduciary responsibility' if they knowingly manage a company in a way that reduces profits. The car manufacturer Henry Ford was in fact successfully sued by shareholders in 1919 for raising the minimum wage of his workers to $5 per day: the courts declared that, while Ford's humanitarian sentiments about his employees were nice, his business existed to make profits for its stockholders.\n\nOur blaming of businesses also ignores the ultimate responsibility of the public for creating the conditions that let a business profit through destructive environmental policies. In the long run, it is the public, either directly or through its politicians, that has the power to make such destructive policies unprofitable and illegal, and to make sustainable environmental policies profitable.\n\nThe public can do that by suing businesses for harming them, as happened after the Exxon Valdez disaster, in which over 40,000 m3 of oil were spilled off the coast of Alaska. The public may also make their opinion felt by preferring to buy sustainably harvested products; by making employees of companies with poor track records feel ashamed of their company and complain to their own management; by preferring their governments to award valuable contracts to businesses with a good environmental track record; and by pressing their governments to pass and enforce laws and regulations requiring good environmental practices.\n\nIn turn, big businesses can exert powerful pressure on any suppliers that might ignore public or government pressure. For instance, after the US public became concerned about the spread of a disease known as BSE, which was transmitted to humans through infected meat, the US government's Food and Drug Administration introduced rules demanding that the meat industry abandon practices associated with the risk of the disease spreading. But for five years the meat packers refused to follow these, claiming that they would be too expensive to obey. However, when a major fast-food company then made the same demands after customer purchases of its hamburgers plummeted, the meat industry complied within weeks. The public's task is therefore to identify which links in the supply chain are sensitive to public pressure: for instance, fast–food chains or jewelry stores, but not meat packers or gold miners.\n\nSome readers may be disappointed or outraged that I place the ultimate responsibility for business practices harming the public on the public itself. I also believe that the public must accept the necessity for higher prices for products to cover the added costs, if any, of sound environmental practices. My views may seem to ignore the belief that businesses should act in accordance with moral principles even if this leads to a reduction in their profits. But I think we have to recognize that, throughout human history, in all politically complex human societies, government regulation has arisen precisely because it was found that not only did moral principles need to be made explicit, they also needed to be enforced.\n\nTo me, the conclusion that the public has the ultimate responsibility for the behavior of even the biggest businesses is empowering and hopeful, rather than disappointing. My conclusion is not a moralistic one about who is right or wrong, admirable or selfish, a good guy or a bad guy. In the past, businesses have changed when the public came to expect and require different behavior, to reward businesses for behavior that the public wanted, and to make things difficult for businesses practicing behaviors that the public didn't want. I predict that in the future, just as in the past, changes in public attitudes will be essential for changes in businesses' environmental practices.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb03",
+    "sample_id": "questions_ielts_15_test4_passage3_027jxj_to_l3_r8_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_15_test4_passage3_027jxj",
+    "source_dataset": "questions",
+    "source_file": "ielts_15_test4_passage3_027jxj.json"
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Big businesses often harm the environment. A basic truth drives this. Many of us find this truth unfair. Depending on the circumstances, a business may make the most money, at least in the short term, by damaging the environment and hurting people. This is still true today. For example, fishermen with no catch limits do this. Logging companies with short rainforest leases do it too. This happens where officials are corrupt and landowners lack knowledge. Strong rules and a caring public help clean businesses. They can beat polluting ones. But with weak rules and an uncaring public, polluters usually win.\n\nIt is easy for the rest of us to blame a business for helping itself by hurting other people. But just blaming them won't change things. It ignores a key point. Businesses are not charities. They aim to make money. Public companies have a duty to shareholders. They must try to make the most profit, but only by legal methods. US laws make a company's directors legally responsible for something termed 'breach of fiduciary responsibility' if they knowingly manage a company in a way that reduces profits. The car manufacturer Henry Ford was in fact successfully sued by shareholders in 1919 for raising the minimum wage of his workers to $5 per day: the courts declared that, while Ford's humanitarian sentiments about his employees were nice, his business existed to make profits for its stockholders.\n\nOur blaming of businesses also ignores the final responsibility of the public for creating the conditions that let a business profit through destructive environmental policies. In the long run, it is the public, either directly or through its politicians, that has the power to make such destructive policies unprofitable and illegal, and to make sustainable environmental policies profitable.\n\nThe public can do that by suing businesses for harming them, as happened after the Exxon Valdez disaster, in which over 40,000 m3 of oil were spilled off the coast of Alaska. People can also act in several ways. They can choose to buy sustainable products. They can shame employees of bad companies, who may then complain to bosses. They can ask governments to give contracts only to businesses with good records. They can also push for strong environmental laws.\n\nIn turn, big businesses can use strong pressure on any suppliers that might ignore public or government pressure. For instance, after the US public became concerned about the spread of a disease known as BSE, which was transmitted to humans through infected meat, the US government's Food and Drug Administration introduced rules demanding that the meat industry abandon practices associated with the risk of the disease spreading. But for five years the meat packers refused to follow these, claiming that they would be too expensive to obey. However, when a major fast-food company then made the same demands after customer purchases of its hamburgers fell sharply, the meat industry complied within weeks. The public's task is therefore to identify which links in the supply chain are sensitive to public pressure: for instance, fast–food chains or jewelry stores, but not meat packers or gold miners.\n\nSome readers may be disappointed or outraged that I place the ultimate responsibility for business practices harming the public on the public itself. I also believe that the public must accept the necessity for higher prices for products to cover the added costs, if any, of good environmental practices. My views may seem to ignore the belief that businesses should act in accordance with moral principles even if this leads to a reduction in their profits. But history shows us something. In all advanced societies, government rules developed for a reason. People learned that moral ideas were not enough. These ideas had to be clearly stated. They also had to be forced upon everyone.\n\nTo me, the conclusion that the public has the ultimate responsibility for the behavior of even the biggest businesses is giving power and hope, rather than disappointing. My conclusion is not a moralistic one about who is right or wrong, admirable or selfish, a good guy or a bad guy. In the past, businesses have changed when the public came to expect and require different behavior, to reward businesses for behavior that the public wanted, and to make things difficult for businesses practicing behaviors that the public didn't want. I predict that in the future, just as in the past, changes in public attitudes will be essential for changes in businesses' environmental practices.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 797,
+    "sentence_count": 26,
+    "avg_sentence_len": 30.65,
+    "avg_word_len": 5.17,
+    "syllable_count": 1396,
+    "complex_word_count": 44,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 27.54,
+    "flesch_kincaid_grade": 17.03,
+    "ari": 18.24,
+    "coleman_liau": 13.62,
+    "gunning_fog": 14.47
+  },
+  "final_metrics": {
+    "word_count": 747,
+    "sentence_count": 45,
+    "avg_sentence_len": 16.6,
+    "avg_word_len": 4.98,
+    "syllable_count": 1239,
+    "complex_word_count": 25,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 49.67,
+    "flesch_kincaid_grade": 10.46,
+    "ari": 10.33,
+    "coleman_liau": 11.71,
+    "gunning_fog": 7.98
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED approach combining both lexical and syntactic strategies|applied_edits=14|tier=coarse_jump;dist=4.8400;dir=simpler;est_wb=80;est_sb=10",
+      "metrics": {
+        "word_count": 747,
+        "sentence_count": 45,
+        "avg_sentence_len": 16.6,
+        "avg_word_len": 4.98,
+        "syllable_count": 1239,
+        "complex_word_count": 25,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 49.67,
+        "flesch_kincaid_grade": 10.46,
+        "ari": 10.33,
+        "coleman_liau": 11.71,
+        "gunning_fog": 7.98
+      },
+      "distance_to_target": 0.88,
+      "fidelity": {
+        "overall": 0.99,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 15,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 2452,
+        "total_tokens": 3689,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.99,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 15,
+    "number_total": 4,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 2452,
+    "total_tokens": 3689,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T17:24:57.871Z"
+}

@@ -1,0 +1,59 @@
+{
+  "article_id": "b34c8ac4-2a6f-4581-a8e4-f65f01c1040e",
+  "topic": "public transportation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Public Transportation in Modern Cities",
+  "article": [
+    "Public transportation plays a big role in daily life. It helps people travel around cities and towns without using their own cars. Buses, trains, subways, and trams are common types. These services run on set routes and schedules. Millions of people use them each day. They make travel fast and easy. Cities depend on public transport to keep traffic light and streets clear.",
+    "Buses are the most widely used form of public transport. They travel on regular roads and stop at marked bus stops. People pay a fare when they get on. Trains run on special tracks and can hold hundreds of passengers. Subways go underground in busy areas to avoid road traffic. Trams share streets with cars but have their own lines in some places. Each type connects different parts of the city. Schedules help riders plan their trips well.",
+    "Public transportation offers many clear benefits. First, it costs less than driving a car. Riders save money on fuel, insurance, and parking. Second, it reduces harm to the environment. One bus can replace many cars, which cuts down on pollution and fuel use. Third, it eases traffic jams. When more people use buses or trains, fewer cars fill the roads. This makes trips quicker for everyone. Studies show big cities with good public transport have cleaner air and happier people.",
+    "Even with these advantages, public transport has some problems. Crowds can make rides uncomfortable during rush hours. Bad weather or repairs sometimes cause delays. But cities work hard to fix these issues. They buy more vehicles and build new routes. Electric buses are becoming popular because they produce no exhaust. Apps now let riders check real-time schedules and avoid waits. In the future, public transport will grow even better. It will help cities handle more people in a smart way."
+  ],
+  "metrics": {
+    "word_count": 302,
+    "sentence_count": 33,
+    "avg_sentence_len": 9.15,
+    "avg_word_len": 4.79,
+    "syllable_count": 440,
+    "complex_word_count": 4,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 74.29,
+    "flesch_kincaid_grade": 5.17,
+    "ari": 5.73,
+    "coleman_liau": 9.16,
+    "gunning_fog": 4.19
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "public_transportation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:42:38.818Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 2
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2689,
+    "total_tokens": 3694,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:42:38.819Z"
+}

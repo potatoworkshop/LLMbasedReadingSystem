@@ -1,0 +1,59 @@
+{
+  "article_id": "b98715bb-256d-46c0-93c7-b0e0811adc42",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate change now affects many parts of the world. People see more floods, stronger storms, longer heat waves and drier seasons. These changes bring harm to homes, farms, roads and health. Adaptation means making changes to live with the new climate. It does not stop the climate from changing. Instead, it helps people reduce harm and keep their lives stable. For example, in places that flood often, people may build higher foundations for their houses. In areas that are hotter, towns may add more trees and shade. Farmers can use seeds that need less water. These actions make daily life safer and more stable. They also save money over time when they stop damage from getting worse. Many different groups must work together for this to succeed. Local people, town planners, health workers and national leaders all have a role. The aim is to plan ahead, act early and help the most at risk people first.",
+    "Adaptation uses many kinds of measures. One kind is building or changing physical structures. For example, people build sea walls to stop coastal flooding. They raise roads and add drains to move storm water away. They also redesign houses to let wind pass and reduce damage. A second kind is changes in how we grow food. Farmers change planting dates and choose different crops. They use simple irrigation and soil methods to keep water in the ground. A third kind is early warning and health plans. Weather alerts and clear evacuation plans give people time to leave dangerous places. Health services prepare for more heat illness and spread of disease. A fourth kind is soft measures such as laws and insurance. Rules can prevent building in high risk places. Insurance can help people recover faster after a disaster. In each case, the measure must fit the local place. A plan that works in one town may not work in another.",
+    "Adaptation has clear benefits but also limits. It can protect lives, homes and jobs. It can reduce the cost of repair and loss in the long run. For example, simple flood proofing can stop repeated repair bills. Green spaces in cities can cool streets and reduce health problems. However, adaptation can be costly at first. Some places, especially poor areas, may lack money to act. Also, some measures can have side effects. A big sea wall might harm coastal habitats. A change in water use upstream can reduce flows downstream. Therefore, adaptation needs careful study and planning. It needs good data on the local climate and clear rules on land use. It also needs wide discussion so that projects do not unfairly harm some people. In many cases, simple and low cost actions bring large benefits. But more complex changes need long term plans and steady funding.",
+    "People and governments can take practical steps now. Local communities can map their risks and make clear plans. They can test simple projects like tree planting or rainwater harvesting. Governments can fund early warning systems and update building rules. Businesses can make supply chains less vulnerable by using local sources when possible. Donors and rich countries can support developing places with money and skills. Schools and health centers can teach what to do in heat waves and floods. In addition, sharing knowledge helps. When towns share what worked, others can copy the best ideas. In short, adaptation is about careful action and fairness. It is a practical response to a changing world. With planning, simple tools and shared effort, people can reduce harm and make a safer future for all."
+  ],
+  "metrics": {
+    "word_count": 593,
+    "sentence_count": 57,
+    "avg_sentence_len": 10.4,
+    "avg_word_len": 4.78,
+    "syllable_count": 857,
+    "complex_word_count": 11,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 74.01,
+    "flesch_kincaid_grade": 5.52,
+    "ari": 6.3,
+    "coleman_liau": 9.48,
+    "gunning_fog": 4.9
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:57:19.490Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 7
+  },
+  "token_usage": {
+    "prompt_tokens": 549,
+    "completion_tokens": 4728,
+    "total_tokens": 5277,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:57:19.490Z"
+}

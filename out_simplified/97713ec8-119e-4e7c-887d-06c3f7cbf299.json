@@ -1,0 +1,177 @@
+{
+  "article_id": "97713ec8-119e-4e7c-887d-06c3f7cbf299",
+  "mode": "difficulty_adjust",
+  "original_article": "The ancient trade routes constituted intricate networks that interlinked distant civilizations, fostering the exchange of commodities, technologies, and ideologies across vast continental expanses. Predominantly overland pathways, supplemented by maritime conduits, these routes emerged as early as the third millennium BCE, propelled by the exigencies of resource scarcity and the allure of exotic wares. The Silk Road, paradigmatic of such arteries, traversed from Xi'an in Han Dynasty China through the formidable Taklamakan Desert and Pamir Mountains, culminating at Antioch on the Mediterranean littoral. Caravansaries, fortified waystations, mitigated the perils of brigandage and climatic vicissitudes, while mercantile guilds ensured transactional integrity amid linguistic babel.\n\nMaritime counterparts, leveraging monsoon predictability, augmented terrestrial limitations by circumnavigating the Indian Ocean. Arab dhows and Roman triremes ferried spices from Malabar Coast entrepôts to Red Sea ports, thence overland to Alexandrian emporia. The Incense Route, bifurcating from southern Arabian frankincense groves to Gaza, epitomized luxury provisioning for Mediterranean rituals, its resinous cargoes valorized at premiums defying terrestrial bulk constraints. These sea lanes disseminated not merely pepper and myrrh but navigational arcana, catalyzing Hellenistic cartography's maturation.\n\nEconomically, these conduits engendered unprecedented prosperity, engendering urban efflorescences like Petra and Palmyra as nodal hubs. Fiscal apparatuses, predicated on tolls and tariffs, underwrote imperial infrastructures, from Roman aqueducts to Sassanid qanats. Culturally, syncretic tapestries unfurled: Buddhism percolated westward via Bactrian intermediaries, while Nestorian Christianity infiltrated Tang China. Linguistic amalgams and metallurgical refinements testified to osmotic exchanges, underscoring trade's role as civilizational crucible.\n\nNotwithstanding their effulgence, these routes succumbed to geopolitical upheavals and epidemiological scourges by the fourteenth century, supplanted by Atlantic paradigms post-1498. Their vestiges, however, indelibly contour contemporary globalism, evincing antiquity's prescience in interconnectivity's inexorable logic.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb06",
+    "sample_id": "generated_1aa948e6-8ed3-4f58-9bf3-6c597cef030b_to_l3_r3_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "1aa948e6-8ed3-4f58-9bf3-6c597cef030b",
+    "source_dataset": "generated",
+    "source_file": "1aa948e6-8ed3-4f58-9bf3-6c597cef030b.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Ancient trade routes formed complex webs that connected distant civilizations. They allowed goods, technologies, and ideas to be shared across huge continents. Primarily terrestrial corridors, supplemented by maritime passages, these networks originated as early as the third millennium BCE, expanding in response to both resource necessity and demand for foreign goods. The Silk Road is a key example. It went from Xi'an in Han Dynasty China, across the harsh Taklamakan Desert and Pamir Mountains, and ended at Antioch on the Mediterranean coast. Fortified waystations called caravansaries reduced dangers from robbers and bad weather. Merchant guilds made sure trading was fair, even when people spoke different languages.\n\nSea routes used reliable monsoon winds. They worked around the limits of land travel by sailing around the Indian Ocean. Arab dhows and Roman triremes carried spices from trading posts on the Malabar Coast to Red Sea ports. From there, the spices traveled over land to markets in Alexandria. The Incense Route split from frankincense groves in southern Arabia to Gaza. It supplied luxury goods for Mediterranean rituals. Its resin cargo was so valuable that the high cost of land transport did not matter. These sea lanes spread more than just pepper and myrrh. They also spread advanced sailing knowledge, which helped Greek mapmaking improve.\n\nEconomically, these routes brought great wealth. This wealth caused cities like Petra and Palmyra to grow into important trade hubs. Financial systems based on tolls and taxes paid for imperial projects. These included Roman aqueducts and Sassanid qanats. Culturally, a blending occurred. Buddhism moved west through Bactrian traders. At the same time, Nestorian Christianity entered Tang China. New mixed languages and better metalworking showed this blending of cultures. This highlights trade's role as a melting pot for civilizations.\n\nDespite their success, these routes ended by the fourteenth century due to political changes and disease outbreaks. After 1498, Atlantic trade models replaced them. However, their legacy still shapes modern globalism. This shows how the ancient world understood the powerful, unstoppable force of connections.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 278,
+    "sentence_count": 14,
+    "avg_sentence_len": 19.86,
+    "avg_word_len": 7.05,
+    "syllable_count": 678,
+    "complex_word_count": 52,
+    "complex_word_ratio": 0.19,
+    "flesch_reading_ease": -19.65,
+    "flesch_kincaid_grade": 20.93,
+    "ari": 21.69,
+    "coleman_liau": 24.14,
+    "gunning_fog": 15.42
+  },
+  "final_metrics": {
+    "word_count": 333,
+    "sentence_count": 29,
+    "avg_sentence_len": 11.48,
+    "avg_word_len": 5.53,
+    "syllable_count": 587,
+    "complex_word_count": 16,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 46.05,
+    "flesch_kincaid_grade": 9.69,
+    "ari": 10.35,
+    "coleman_liau": 14.13,
+    "gunning_fog": 6.52
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED approach: combining simpler vocabulary with restructured, clearer sentences.|applied_edits=15|tier=coarse_jump;dist=9.5450;dir=simpler;est_wb=80;est_sb=5",
+      "metrics": {
+        "word_count": 333,
+        "sentence_count": 30,
+        "avg_sentence_len": 11.1,
+        "avg_word_len": 5.43,
+        "syllable_count": 571,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 50.5,
+        "flesch_kincaid_grade": 8.97,
+        "ari": 9.68,
+        "coleman_liau": 13.44,
+        "gunning_fog": 6
+      },
+      "distance_to_target": 1.4775,
+      "fidelity": {
+        "overall": 0.7743,
+        "entity_recall": 0.7429,
+        "number_recall": 1,
+        "keyword_recall": 0.45,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 782,
+        "completion_tokens": 3748,
+        "total_tokens": 4530,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primarily SYNTACTIC changes: merging and expanding sentences to increase structural complexity, with minimal vocabulary alteration.|applied_edits=1|tier=dist_1_to_2;dist=1.4775;center_gap=2.78;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=10;sb=1;est_wb=52;est_sb=11;lf=0.74;df=1.64;af=0.2500;pg=9.5450;pd=8.0675;af_fb=0",
+      "metrics": {
+        "word_count": 333,
+        "sentence_count": 29,
+        "avg_sentence_len": 11.48,
+        "avg_word_len": 5.53,
+        "syllable_count": 587,
+        "complex_word_count": 16,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 46.05,
+        "flesch_kincaid_grade": 9.69,
+        "ari": 10.35,
+        "coleman_liau": 14.13,
+        "gunning_fog": 6.52
+      },
+      "distance_to_target": 0.8275,
+      "fidelity": {
+        "overall": 0.8071,
+        "entity_recall": 0.7714,
+        "number_recall": 1,
+        "keyword_recall": 0.55,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1605,
+        "completion_tokens": 4188,
+        "total_tokens": 5793,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8071,
+    "entity_recall": 0.7714,
+    "number_recall": 1,
+    "keyword_recall": 0.55,
+    "entity_total": 35,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1605,
+    "completion_tokens": 4188,
+    "total_tokens": 5793,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T17:35:52.566Z"
+}

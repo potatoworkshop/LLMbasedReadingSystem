@@ -1,0 +1,59 @@
+{
+  "article_id": "f33f01bf-3dc2-42fb-be58-9a132c73215d",
+  "topic": "public transportation",
+  "level": 4,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Urban Transit Systems and Policy Dynamics",
+  "article": [
+    "Public transportation constitutes the circulatory system of contemporary cities, mediating urban mobility through buses, metros, trams and commuter rail, each modality characterized by discrete capacity envelopes, headways and operational reliability. Planners assess modal share and network topology to optimise connectivity, while analysts scrutinise passenger throughput and dwell time metrics to reduce bottlenecks; reliability, measured by on-time performance and variance in travel time, often governs modal choice more than nominal speed. Infrastructure investments therefore prioritize corridor capacity and signal priority interventions that alter systemic resilience under peak-load conditions.",
+    "Policy frameworks influence service provision as much as engineering solutions, with fiscal instruments—farebox recovery ratios, subsidies and congestion pricing—shaping both supply and demand. Transit-oriented development (TOD) integrates land-use planning with transit capacity to enhance accessibility and reduce vehicle kilometres travelled, but equitable outcomes require targeted service allocation and means-tested pricing to address spatial mismatches and transport poverty. Regulatory regimes that permit public-private partnerships introduce capital and operational expertise but also necessitate rigorous performance contracts to align private incentives with public objectives.",
+    "Technological innovations are reshaping operations, from automated vehicle trials and electrification of rolling stock to predictive maintenance driven by sensor analytics; real-time passenger information systems and integrated fare media improve intermodal transfers and reduce perceived wait times. Operational research contributes scheduling algorithms that minimise crew costs while respecting regulatory work rules, and simulation models project the elasticity of ridership to changes in frequency, reliability and fare levels.",
+    "Despite advances, urban transit systems confront persistent challenges: climate mitigation targets demand rapid decarbonisation, demographic shifts alter peak demand patterns, and extreme-weather events expose network vulnerabilities. Future policy must balance scalability with equity, leveraging data-driven management and adaptive governance to sustain ridership, optimise capital allocation and ensure that transit remains an inclusive, efficient alternative to private motorised travel."
+  ],
+  "metrics": {
+    "word_count": 304,
+    "sentence_count": 10,
+    "avg_sentence_len": 30.4,
+    "avg_word_len": 6.85,
+    "syllable_count": 713,
+    "complex_word_count": 45,
+    "complex_word_ratio": 0.15,
+    "flesch_reading_ease": -22.44,
+    "flesch_kincaid_grade": 23.94,
+    "ari": 26.01,
+    "coleman_liau": 23.48,
+    "gunning_fog": 18.08
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "public_transportation_l4_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:09:18.894Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 4
+  },
+  "token_usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 955,
+    "total_tokens": 1135,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:09:18.895Z"
+}

@@ -1,0 +1,139 @@
+{
+  "article_id": "ac047722-6f5c-4589-aee4-e5a04696e9ff",
+  "mode": "difficulty_adjust",
+  "original_article": "Wendy Moore reviews Ed Yong's book about microbes\n\nMicrobes, most of them bacteria, have populated this planet since long before animal life developed and they will outlive us. Invisible to the naked eye, they are ubiquitous. They inhabit the soil, air, rocks and water and are present within every form of life, from seaweed and coral to dogs and humans. And, as Yong explains in his utterly absorbing and hugely important book, we mess with them at our peril.\n\nEvery species has its own colony of microbes, called a 'microbiome', and these microbes vary not only between species but also between individuals and within different parts of each individual. What is amazing is that while the number of human cells in the average person is about 30 trillion, the number of microbial ones is higher – about 39 trillion. At best, Yong informs us, we are only 50 per cent human. Indeed, some scientists even suggest we should think of each species and its microbes as a single unit, dubbed a 'holobiont'.\n\nIn each human there are microbes that live only in the stomach, the mouth or the armpit and by and large they do so peacefully. So 'bad' microbes are just microbes out of context. Microbes that sit contentedly in the human gut (where there are more microbes than there are stars in the galaxy) can become deadly if they find their way into the bloodstream. These communities are constantly changing too. The right hand shares just one sixth of its microbes with the left hand. And, of course, we are surrounded by microbes. Every time we eat, we swallow a million microbes in each gram of food; we are continually swapping microbes with other humans, pets and the world at large.\n\nIt's a fascinating topic and Yong, a young British science journalist, is an extraordinarily adept guide. Writing with lightness and panache, he has a knack of explaining complex science in terms that are both easy to understand and totally enthralling. Yong is on a mission. Leading us gently by the hand, he takes us into the world of microbes – a bizarre, alien planet – in a bid to persuade us to love them as much as he does. By the end, we do.\n\nFor most of human history we had no idea that microbes existed. The first man to see these extraordinarily potent creatures was a Dutch lens-maker called Antony van Leeuwenhoek in the 1670s. Using microscopes of his own design that could magnify up to 270 times, he examined a drop of water from a nearby lake and found it teeming with tiny creatures he called 'animalcules'. It wasn't until nearly two hundred years later that the research of French biologist Louis Pasteur indicated that some microbes caused disease. It was Pasteur's 'germ theory' that gave bacteria the poor image that endures today.\n\nYong's book is in many ways a plea for microbial tolerance, pointing out that while fewer than one hundred species of bacteria bring disease, many thousands more play a vital role in maintaining our health. The book also acknowledges that our attitude towards bacteria is not a simple one. We tend to see the dangers posed by bacteria, yet at the same time we are sold yoghurts and drinks that supposedly nurture 'friendly' bacteria. In reality, says Yong, bacteria should not be viewed as either friends or foes, villains or heroes. Instead we should realise we have a symbiotic relationship, that can be mutually beneficial or mutually destructive.\n\nWhat then do these millions of organisms do? The answer is pretty much everything. New research is now unravelling the ways in which bacteria aid digestion, regulate our immune systems, eliminate toxins, produce vitamins, affect our behaviour and even combat obesity. 'They actually help us become who we are,' says Yong. But we are facing a growing problem. Our obsession with hygiene, our overuse of antibiotics and our unhealthy, low-fibre diets are disrupting the bacterial balance and may be responsible for soaring rates of allergies and immune problems, such as inflammatory bowel disease (IBD).\n\nThe most recent research actually turns accepted norms upside down. For example, there are studies indicating that the excessive use of household detergents and antibacterial products actually destroys the microbes that normally keep the more dangerous germs at bay. Other studies show that keeping a dog as a pet gives children early exposure to a diverse range of bacteria, which may help protect them against allergies later.\n\nThe readers of Yong's book must be prepared for a decidedly unglamorous world. Among the less appealing case studies is one about a fungus that is wiping out entire populations of frogs and that can be halted by a rare microbial bacterium. Another is about squid that carry luminescent bacteria that protect them against predators. However, if you can overcome your distaste for some of the investigations, the reasons for Yong's enthusiasm become clear. The microbial world is a place of wonder. Already, in an attempt to stop mosquitoes spreading dengue fever – a disease that infects 400 million people a year – mosquitoes are being loaded with a bacterium to block the disease. In the future, our ability to manipulate microbes means we could construct buildings with useful microbes built into their walls to fight off infections. Just imagine a neonatal hospital ward coated in a specially mixed cocktail of microbes so that babies get the best start in life.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb05",
+    "sample_id": "questions_ielts_16_test2_passage2_a27mbj_to_l4_r4_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_16_test2_passage2_a27mbj",
+    "source_dataset": "questions",
+    "source_file": "ielts_16_test2_passage2_a27mbj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Wendy Moore reviews Ed Yong's book about microbes\n\nMicrobes, most of them bacteria, have populated this planet since long before animal life developed and they will outlive us. Invisible to the naked eye, they are ubiquitous. They inhabit the soil, air, rocks and water and are present within every form of life, from seaweed and coral to dogs and humans. And, as Yong explains in his utterly absorbing and hugely important book, we mess with them at our peril.\n\nEvery species has its own colony of microbes, called a 'microbiome', and these microbes vary not only between species but also between individuals and within different parts of each individual. What is amazing is that while the number of human cells in the average person is about 30 trillion, the number of microbial ones is higher – about 39 trillion. At best, Yong informs us, we are only 50 per cent human. Indeed, some scientists even suggest we should think of each species and its microbes as a single unit, dubbed a 'holobiont'.\n\nIn each human there are microbes that live only in the stomach, the mouth or the armpit and by and large they do so peacefully. So 'bad' microbes are just microbes out of context. Microbes that sit contentedly in the human gut (where there are more microbes than there are stars in the galaxy) can become deadly if they find their way into the bloodstream. These communities are constantly changing too. The right hand shares just one sixth of its microbes with the left hand. And, of course, we are surrounded by microbes. Every time we eat, we swallow a million microbes in each gram of food; we are continually swapping microbes with other humans, pets and the world at large.\n\nIt's a fascinating topic and Yong, a young British science journalist, is an extraordinarily adept guide. Writing with lightness and panache, he has a knack of explaining complex science in terms that are both easy to understand and totally enthralling. Yong is on a mission. Leading us gently by the hand, he takes us into the world of microbes – a bizarre, alien planet – in a bid to persuade us to love them as much as he does. By the end, we do.\n\nFor much of human history, humanity remained oblivious to the existence of microbes, their presence undetected until the advent of microscopy. The first person to see these extraordinarily potent creatures was a Dutch instrument-maker called Antony van Leeuwenhoek in the 1670s. Employing microscopes of his own manufacture, which achieved magnifications of up to 270-fold, he scrutinized a drop of lake water and discovered it teeming with diminutive organisms he termed 'animalcules'. It was not until almost two centuries later that Louis Pasteur's experimental research demonstrated that certain microbes were causative agents of disease. It was Pasteur's ''germ theory'' that gave bacteria the poor image that endures today.\n\nYong's book functions in many respects as an entreaty for microbial tolerance: he emphasises that while fewer than one hundred bacterial species are pathogenic, myriad others are indispensable for the maintenance of health. The book also acknowledges that our attitude towards bacteria is not a simple one. We tend to see the dangers posed by bacteria, yet at the same time we are sold yoghurts and drinks that supposedly nurture 'friendly' bacteria. In Yong's view, bacteria elude simplistic moral metaphors—neither unambiguous friends nor foes, they occupy a spectrum of relational roles that may be beneficial or harmful depending on context. Instead we should realise we have a symbiotic relationship, that can be mutually beneficial or mutually destructive.\n\nWhat, then, are the functions of these millions of organisms? The answer is pretty much everything. Emerging research is elucidating myriad mechanisms by which bacteria facilitate digestion, modulate immune function, detoxify xenobiotics, biosynthesize essential vitamins, influence behaviour, and even contribute to the regulation of adiposity. 'They actually help us become who we are,' Yong observes, underscoring the formative role of microbiota in human development. But we are facing a growing problem. Our preoccupation with sterility, our overuse of antibiotics and our unhealthy, low-fibre diets are disrupting the bacterial balance and may be responsible for soaring rates of allergies and immune problems, such as inflammatory bowel disease (IBD).\n\nRecent findings often subvert established norms and challenge conventional wisdom about microbial risk and benefit. For example, there are studies indicating that the excessive use of domestic detergents and antimicrobial agents actually destroys the microbes that normally keep the more dangerous germs at bay. Other studies indicate that household dog ownership exposes children early to a diverse bacterial assemblage, an exposure that may confer protection against later allergic sensitisation.\n\nThe readers of Yong's book must be prepared for a decidedly unglamorous world. Among the less appealing case studies is a fungal pathogen that is decimating frog populations, a crisis that, in some instances, can be arrested through the activity of an uncommon bacterial species. Another is about squid that carry luminescent bacteria that protect them against predators. However, if you can overcome your distaste for some of the investigations, the reasons for Yong's enthusiasm become clear. The microbial world is a place of wonder. Already, as part of vector-control strategies aimed at curbing dengue fever—an illness that infects about 400 million people annually—mosquitoes are being inoculated with a bacterium designed to impede transmission. In future applications, our capacity to engineer microbial communities might permit the design of buildings whose fabric incorporates beneficial microbes capable of mitigating nosocomial and environmental infections. Just imagine a neonatal hospital ward coated in a customized microbial consortium so that neonates achieve optimal early colonization and health.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 906,
+    "sentence_count": 47,
+    "avg_sentence_len": 19.28,
+    "avg_word_len": 4.82,
+    "syllable_count": 1452,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 51.69,
+    "flesch_kincaid_grade": 10.84,
+    "ari": 10.91,
+    "coleman_liau": 11.01,
+    "gunning_fog": 9.04
+  },
+  "final_metrics": {
+    "word_count": 944,
+    "sentence_count": 47,
+    "avg_sentence_len": 20.09,
+    "avg_word_len": 5.23,
+    "syllable_count": 1667,
+    "complex_word_count": 62,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 37.05,
+    "flesch_kincaid_grade": 13.08,
+    "ari": 13.25,
+    "coleman_liau": 13.48,
+    "gunning_fog": 10.66
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach: combine targeted lexical elevation with syntactic elaboration to raise academic density and complexity|applied_edits=20|tier=dist_gt_2;dist=2.5500;center_gap=2.74;mode=both;dominant=sentence;dir_changed=0;wb=80;sb=17;est_wb=80;est_sb=17;lf=1.23;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 944,
+        "sentence_count": 47,
+        "avg_sentence_len": 20.09,
+        "avg_word_len": 5.23,
+        "syllable_count": 1667,
+        "complex_word_count": 62,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 37.05,
+        "flesch_kincaid_grade": 13.08,
+        "ari": 13.25,
+        "coleman_liau": 13.48,
+        "gunning_fog": 10.66
+      },
+      "distance_to_target": 0.3825,
+      "fidelity": {
+        "overall": 0.9471,
+        "entity_recall": 0.8824,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 34,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1571,
+        "completion_tokens": 8839,
+        "total_tokens": 10410,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9471,
+    "entity_recall": 0.8824,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 34,
+    "number_total": 5,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1571,
+    "completion_tokens": 8839,
+    "total_tokens": 10410,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:14:38.017Z"
+}

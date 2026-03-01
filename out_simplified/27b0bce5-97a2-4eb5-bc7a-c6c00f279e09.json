@@ -1,0 +1,140 @@
+{
+  "article_id": "27b0bce5-97a2-4eb5-bc7a-c6c00f279e09",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation helps people move around cities every day. It includes buses, trains, subways, and trams. Millions of riders use these services. They go to work, school, or shops. Public transport is fast and easy. It keeps roads less crowded.\n\nBuses travel on streets. They stop at many places for riders. Trains run on tracks between cities or towns. Subways go under the ground. This keeps them away from traffic. Trams share roads with cars but have their own paths. Each type fits different trips. Buses are good for short rides. Trains work best for longer ones.\n\nPublic transportation brings big benefits. It saves money. A bus ticket costs less than driving a car. You do not pay for gas or parking. It helps the air stay clean. One bus takes many cars off the road. This cuts down pollution. It also stops traffic jams. Riders feel safe with trained drivers.\n\nSome cities face problems with public transport. Rides can get too full at busy times. Delays happen from rain or fixes. But leaders are helping. They buy new buses and build more tracks. Apps now show when the next bus comes.\n\nIn the future, public transport will improve. Electric buses will run with no dirty smoke. Smart trains will go even faster. More people will use them. Cities will be greener and easier to live in.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_1679e35f-e594-4859-a7ba-551d81fc8369_to_l2_r8_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "1679e35f-e594-4859-a7ba-551d81fc8369",
+    "source_dataset": "generated",
+    "source_file": "1679e35f-e594-4859-a7ba-551d81fc8369.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation facilitates people move around cities every day. It includes buses, trains, subways, and trams. Millions of passengers use these services. They go to work, school, or shops. Public transport is efficient and convenient. It alleviates congestion.\n\nBuses navigate streets, halting frequently to accommodate passengers. Trains run on tracks between cities or towns. Subways burrow underground. This shields them from gridlock. Trams share roads with cars but have their own paths. Each modality suits distinct journeys, buses excelling in short distances whereas trains perform optimally over longer routes.\n\nPublic transportation confers major advantages. It economizes costs because a bus ticket is cheaper than driving a car, eliminating payments for fuel or parking. It helps the air stay clean. One bus takes many cars off the road. This curbs emissions. It also stops traffic jams. Riders feel safe with professional operators.\n\nCertain cities grapple with public transport challenges, including overcrowding during peak hours and delays stemming from precipitation or maintenance. But municipal authorities are helping. They buy new buses and build more tracks. Applications currently indicate the arrival time of the subsequent bus.\n\nIn the future, public transport will improve. Electric buses will run with zero exhaust emissions. Smart trains will go even faster. More people will use them. Cities will be greener and easier to live in.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 227,
+    "sentence_count": 35,
+    "avg_sentence_len": 6.49,
+    "avg_word_len": 4.53,
+    "syllable_count": 311,
+    "complex_word_count": 2,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 84.35,
+    "flesch_kincaid_grade": 3.11,
+    "ari": 3.16,
+    "coleman_liau": 6.29,
+    "gunning_fog": 2.95
+  },
+  "final_metrics": {
+    "word_count": 218,
+    "sentence_count": 28,
+    "avg_sentence_len": 7.79,
+    "avg_word_len": 5.54,
+    "syllable_count": 377,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 52.63,
+    "flesch_kincaid_grade": 7.85,
+    "ari": 8.54,
+    "coleman_liau": 12.95,
+    "gunning_fog": 5.87
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced: combined lexical substitutions and syntactic restructurings|applied_edits=16|tier=dist_gt_2;dist=5.1225;center_gap=5.93;mode=both;dominant=sentence;dir_changed=0;wb=80;sb=13;est_wb=75;est_sb=13;lf=0.70;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 218,
+        "sentence_count": 28,
+        "avg_sentence_len": 7.79,
+        "avg_word_len": 5.54,
+        "syllable_count": 377,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 52.63,
+        "flesch_kincaid_grade": 7.85,
+        "ari": 8.54,
+        "coleman_liau": 12.95,
+        "gunning_fog": 5.87
+      },
+      "distance_to_target": 0.1975,
+      "fidelity": {
+        "overall": 0.8843,
+        "entity_recall": 0.8095,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 21,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 994,
+        "completion_tokens": 6599,
+        "total_tokens": 7593,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8843,
+    "entity_recall": 0.8095,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 21,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 6599,
+    "total_tokens": 7593,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:02:39.877Z"
+}

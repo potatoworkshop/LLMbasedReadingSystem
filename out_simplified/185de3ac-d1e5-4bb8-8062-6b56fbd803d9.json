@@ -1,0 +1,250 @@
+{
+  "article_id": "185de3ac-d1e5-4bb8-8062-6b56fbd803d9",
+  "mode": "difficulty_adjust",
+  "original_article": "In late 1946 or early 1947, three Bedouin teenagers were tending their goats and sheep near the ancient settlement of Qumran, located on the northwest shore of the Dead Sea in what is now known as the West Bank. One of these young shepherds tossed a rock into an opening on the side of a cliff and was surprised to hear a shattering sound. He and his companions later entered the cave and stumbled across a collection of large clay jars, seven of which contained scrolls with writing on them. The teenagers took the seven scrolls to a nearby town where they were sold for a small sum to a local antiquities dealer. Word of the find spread, and Bedouins and archaeologists eventually unearthed tens of thousands of additional scroll fragments from 10 nearby caves; together they make up between 800 and 900 manuscripts. It soon became clear that this was one of the greatest archaeological discoveries ever made.\n\nThe origin of the Dead Sea Scrolls, which were written around 2,000 years ago between 150 BCE and 70 CE, is still the subject of scholarly debate even today. According to the prevailing theory, they are the work of a population that inhabited the area until Roman troops destroyed the settlement around 70 CE. The area was known as Judea at that time, and the people are thought to have belonged to a group called the Essenes, a devout Jewish sect.\n\nThe majority of the texts on the Dead Sea Scrolls are in Hebrew, with some fragments written in an ancient version of its alphabet thought to have fallen out of use in the fifth century BCE. But there are other languages as well. Some scrolls are in Aramaic, the language spoken by many inhabitants of the region from the sixth century BCE to the siege of Jerusalem in 70 CE. In addition, several texts feature translations of the Hebrew Bible into Greek.\n\nThe Dead Sea Scrolls include fragments from every book of the Old Testament of the Bible except for the Book of Esther. The only entire book of the Hebrew Bible preserved among the manuscripts from Qumran is Isaiah; this copy, dated to the first century BCE, is considered the earliest biblical manuscript still in existence. Along with biblical texts, the scrolls include documents about sectarian regulations and religious writings that do not appear in the Old Testament.\n\nThe writing on the Dead Sea Scrolls is mostly in black or occasionally red ink, and the scrolls themselves are nearly all made of either parchment (animal skin) or an early form of paper called 'papyrus'. The only exception is the scroll numbered 3Q15, which was created out of a combination of copper and tin. Known as the Copper Scroll, this curious document features letters chiselled onto metal – perhaps, as some have theorized, to better withstand the passage of time. One of the most intriguing manuscripts from Qumran, this is a sort of ancient treasure map that lists dozens of gold and silver caches. Using an unconventional vocabulary and odd spelling, it describes 64 underground hiding places that supposedly contain riches buried for safekeeping. None of these hoards have been recovered, possibly because the Romans pillaged Judea during the first century CE. According to various hypotheses, the treasure belonged to local people, or was rescued from the Second Temple before its destruction or never existed to begin with.\n\nSome of the Dead Sea Scrolls have been on interesting journeys. In 1948, a Syrian Orthodox archbishop known as Mar Samuel acquired four of the original seven scrolls from a Jerusalem shoemaker and part-time antiquity dealer, paying less than $100 for them. He then travelled to the United States and unsuccessfully offered them to a number of universities, including Yale. Finally, in 1954, he placed an advertisement in the business newspaper The Wall Street Journal – under the category 'Miscellaneous Items for Sale' – that read: 'Biblical Manuscripts dating back to at least 200 B.C. are for sale. This would be an ideal gift to an educational or religious institution by an individual or group.' Fortunately, Israeli archaeologist and statesman Yigael Yadin negotiated their purchase and brought the scrolls back to Jerusalem, where they remain to this day.\n\nIn 2017, researchers from the University of Haifa restored and deciphered one of the last untranslated scrolls. The university's Eshbal Ratson and Jonathan Ben-Dov spent one year reassembling the 60 fragments that make up the scroll. Deciphered from a band of coded text on parchment, the find provides insight into the community of people who wrote it and the 364-day calendar they would have used. The scroll names celebrations that indicate shifts in seasons and details two yearly religious events known from another Dead Sea Scroll. Only one more known scroll remains untranslated.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb02",
+    "sample_id": "questions_ielts_17_test2_passage1_627s9j_to_l5_r5_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "ielts_17_test2_passage1_627s9j",
+    "source_dataset": "questions",
+    "source_file": "ielts_17_test2_passage1_627s9j.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In late 1946 or early 1947, three Bedouin teenagers were tending their goats and sheep near the ancient settlement of Qumran, located on the northwest shore of the Dead Sea in what is now known as the West Bank. Having propelled a stone into a cliffside aperture, one of these juvenile herders stood astonished upon perceiving the resounding fracassation. Subsequently, he and his fellows ventured into the cavern, wherein they fortuitously discovered an assemblage of voluminous earthen vessels, septet of which harbored inscribed scrolls. Conveying the septenary scrolls to an adjacent settlement, the adolescents effectuated their conveyance for negligible compensation to a proximate relic vendor. As tidings of the discovery proliferated, nomadic herders and savants progressively exhumed myriad supplementary parchment shards from a decuple of contiguous caverns, collectively aggregating 800 to 900 manuscripts. Erelong, it transpired incontrovertibly that this constituted among the paramount epigraphic revelations in annals.\n\nNotwithstanding contemporary erudition, the genesis of the Dead Sea Scrolls—penned circa two millennia prior, spanning 150 BCE to 70 CE—persists as a contentious academic locus. Pursuant to the ascendant paradigm, these artifacts emanate from a populace ensconced in the region until its effacement by Roman legions circa 70 CE. Concomitantly denominated Judea, the denizens are conjectured affiliates of the Essenes, an ascetic Hebraic order.\n\nPredominating in Hebrew upon the Dead Sea Scrolls, certain shards employ an archaic palaeo-Hebraic script presumed lapsed postdating the fifth century BCE, although there are other languages as well. Interspersed Aramaic scrolls reflect the lingua franca of regional populaces from the sixth century BCE until Jerusalem's 70 CE encirclement, and furthermore, sundry documents proffer Hellenic renditions of the Tanakh.\n\nThe Dead Sea Scrolls include fragments from every book of the Old Testament of the Bible except for the Book of Esther. Solely the Book of Isaiah endures intact amidst Qumranic codices; this exemplar, chronographed to the first century BCE, reigns as the primordial extant scriptural codex. Complementing canonical excerpts, the corpus encompasses partisan bylaws and heterodox devotional compositions absent from the Hebrew canon.\n\nThe writing on the Dead Sea Scrolls is mostly in black or occasionally red ink, and the scrolls themselves are nearly all made of either parchment (animal skin) or an early form of paper called 'papyrus', with the 3Q15 scroll being singularly deviant as it amalgamates cuprous and stannic elements. Dubbed the Copper Scroll, this anomalous relic bears glyptic inscriptions upon its metallic substrate—potentially, per conjectural exegeses, optimized for trans-temporal durability. One of the most intriguing manuscripts from Qumran, the Copper Scroll is a sort of ancient treasure map that lists dozens of gold and silver caches. Employing idiosyncratic lexicon and orthography, it delineates 64 subterranean repositories purportedly concealing troves interred for preservation. Plausibly attributable to Roman depredations in first-century CE Judea, these caches remain unrecovered. Various hypotheses posit that the treasure belonged to local people, was rescued from the Second Temple before its destruction, or never existed to begin with.\n\nCertain Dead Sea Scrolls have undertaken interesting journeys. In 1948, a Syrian Orthodox archbishop known as Mar Samuel acquired four of the original seven scrolls from a Jerusalem shoemaker and part-time antiquity dealer, paying less than $100 for them. Thereafter, he travelled to the United States, where he unsuccessfully offered them to a number of universities, including Yale. Finally, in 1954 he placed, in the business newspaper The Wall Street Journal under the category 'Miscellaneous Items for Sale', an advertisement that read: 'Biblical Manuscripts dating back to at least 200 B.C. are for sale. This would be an ideal gift to an educational or religious institution by an individual or group.' Fortunately, Israeli archaeologist and statesman Yigael Yadin negotiated their purchase and brought the scrolls back to Jerusalem, where they remain to this day.\n\nIn 2017, researchers from the University of Haifa restored and deciphered one of the last remaining untranslated scrolls. The university's Eshbal Ratson and Jonathan Ben-Dov spent one year reassembling the 60 fragments comprising the scroll. Deciphered from a band of coded text on parchment, the find provides insight into the community of people who wrote it and the 364-day calendar they would have used. The scroll, which names celebrations indicating shifts in seasons, also details two yearly religious events known from another Dead Sea Scroll. Merely one additional known scroll remains untranslated.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 802,
+    "sentence_count": 36,
+    "avg_sentence_len": 22.28,
+    "avg_word_len": 4.86,
+    "syllable_count": 1279,
+    "complex_word_count": 36,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 49.31,
+    "flesch_kincaid_grade": 11.92,
+    "ari": 12.61,
+    "coleman_liau": 11.46,
+    "gunning_fog": 10.71
+  },
+  "final_metrics": {
+    "word_count": 722,
+    "sentence_count": 33,
+    "avg_sentence_len": 21.88,
+    "avg_word_len": 5.61,
+    "syllable_count": 1364,
+    "complex_word_count": 69,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 24.8,
+    "flesch_kincaid_grade": 15.24,
+    "ari": 15.94,
+    "coleman_liau": 15.84,
+    "gunning_fog": 12.57
+  },
+  "hit_target": true,
+  "rounds_used": 4,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary focus on syntactic changes via sentence restructurings, mergers, and densified clause integrations for heightened complexity|applied_edits=17|tier=coarse_jump;dist=1.7750;dir=harder;est_wb=80;est_sb=10",
+      "metrics": {
+        "word_count": 719,
+        "sentence_count": 36,
+        "avg_sentence_len": 19.97,
+        "avg_word_len": 5.55,
+        "syllable_count": 1344,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 28.42,
+        "flesch_kincaid_grade": 14.26,
+        "ari": 14.69,
+        "coleman_liau": 15.35,
+        "gunning_fog": 11.66
+      },
+      "distance_to_target": 1.0033,
+      "fidelity": {
+        "overall": 0.8884,
+        "entity_recall": 0.8421,
+        "number_recall": 0.9412,
+        "keyword_recall": 0.9,
+        "entity_total": 57,
+        "number_total": 17,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1575,
+        "completion_tokens": 5393,
+        "total_tokens": 6968,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON|tier=dist_1_to_2;dist=1.0033;center_gap=3.46;mode=sentence_only;dominant=sentence;dir_changed=0;wb=52;sb=13;est_wb=61;est_sb=9;lf=1.09;df=1.40;af=1.3001;pg=1.7750;pd=0.7717;af_fb=0",
+      "metrics": {
+        "word_count": 719,
+        "sentence_count": 36,
+        "avg_sentence_len": 19.97,
+        "avg_word_len": 5.55,
+        "syllable_count": 1344,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 28.42,
+        "flesch_kincaid_grade": 14.26,
+        "ari": 14.69,
+        "coleman_liau": 15.35,
+        "gunning_fog": 11.66
+      },
+      "distance_to_target": 1.0033,
+      "fidelity": {
+        "overall": 0.8884,
+        "entity_recall": 0.8421,
+        "number_recall": 0.9412,
+        "keyword_recall": 0.9,
+        "entity_total": 57,
+        "number_total": 17,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3213,
+        "completion_tokens": 17839,
+        "total_tokens": 21052,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON|tier=dist_1_to_2;dist=1.0033;center_gap=3.46;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=13;est_wb=61;est_sb=9;lf=1.09;df=1.40;af=1.0000;pg=1.0033;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 719,
+        "sentence_count": 36,
+        "avg_sentence_len": 19.97,
+        "avg_word_len": 5.55,
+        "syllable_count": 1344,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 28.42,
+        "flesch_kincaid_grade": 14.26,
+        "ari": 14.69,
+        "coleman_liau": 15.35,
+        "gunning_fog": 11.66
+      },
+      "distance_to_target": 1.0033,
+      "fidelity": {
+        "overall": 0.8884,
+        "entity_recall": 0.8421,
+        "number_recall": 0.9412,
+        "keyword_recall": 0.9,
+        "entity_total": 57,
+        "number_total": 17,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4851,
+        "completion_tokens": 32158,
+        "total_tokens": 37009,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=syntactic|applied_edits=13|tier=dist_1_to_2;dist=1.0033;center_gap=3.46;mode=sentence_only;dominant=sentence;dir_changed=0;wb=40;sb=13;est_wb=61;est_sb=9;lf=1.09;df=1.40;af=1.0000;pg=1.0033;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 722,
+        "sentence_count": 33,
+        "avg_sentence_len": 21.88,
+        "avg_word_len": 5.61,
+        "syllable_count": 1364,
+        "complex_word_count": 69,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 24.8,
+        "flesch_kincaid_grade": 15.24,
+        "ari": 15.94,
+        "coleman_liau": 15.84,
+        "gunning_fog": 12.57
+      },
+      "distance_to_target": 0.7008,
+      "fidelity": {
+        "overall": 0.8468,
+        "entity_recall": 0.7719,
+        "number_recall": 0.9412,
+        "keyword_recall": 0.85,
+        "entity_total": 57,
+        "number_total": 17,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6489,
+        "completion_tokens": 43642,
+        "total_tokens": 50131,
+        "llm_calls": 4
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8468,
+    "entity_recall": 0.7719,
+    "number_recall": 0.9412,
+    "keyword_recall": 0.85,
+    "entity_total": 57,
+    "number_total": 17,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 6489,
+    "completion_tokens": 43642,
+    "total_tokens": 50131,
+    "llm_calls": 4
+  },
+  "transformed_at": "2026-03-01T13:15:06.873Z"
+}

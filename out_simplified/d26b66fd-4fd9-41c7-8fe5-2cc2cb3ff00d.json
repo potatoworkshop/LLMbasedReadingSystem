@@ -1,0 +1,214 @@
+{
+  "article_id": "d26b66fd-4fd9-41c7-8fe5-2cc2cb3ff00d",
+  "mode": "difficulty_adjust",
+  "original_article": "In the inexorable march toward hyper-urbanization, wherein over half of the global populace now congregates within sprawling metropolises, public transportation emerges not merely as a logistical expedient but as an indispensable bulwark against the pernicious specter of congestion and environmental degradation. This intricate web of subways, buses, trams, and ferries, meticulously engineered to ferry multitudes across labyrinthine cityscapes, mitigates the deleterious externalities attendant upon private vehicular proliferation—namely, exacerbated air pollution, astronomical fuel consumption, and the erosion of communal thoroughfares into gridlocked morasses. Empirical analyses, such as those disseminated by the International Transport Forum, underscore that efficacious public transit regimes can attenuate urban carbon emissions by upwards of 40 percent, thereby furnishing a pragmatic paradigm for sustainable mobility amid escalating anthropogenic pressures.\n\nHistorically, the ascendancy of public transportation has been inextricably yoked to the vicissitudes of industrialization and technological innovation. From the nascent horse-drawn omnibuses of 19th-century London to the electrified subterranean networks that burrowed beneath Paris and New York during the Belle Époque, these systems have perpetually redefined the contours of urban habitability. The advent of high-speed rail corridors, epitomized by Japan's Shinkansen since 1964, exemplifies how infrastructural audacity can compress temporal distances, fostering economic agglomeration while obviating the exigencies of aerial conveyance. Yet, this evolutionary trajectory has not been devoid of tribulations; recurrent underfunding and politicized mismanagement have engendered dilapidated fleets and protracted commutes, perpetuating socioeconomic disparities wherein affluent suburbs luxuriate in automotive autonomy at the expense of proletarian precincts.\n\nProspectively, the confluence of digital ubiquity and automaton ingenuity portends a renaissance for public transit, wherein predictive algorithms orchestrate real-time flux optimizations and autonomous shuttles supplant human fallibility. Initiatives like Singapore's Smart Nation blueprint, integrating bimodal transport with pervasive sensorium, herald an era of hyper-efficient, equitable peregrination. Nonetheless, realizing this utopian vista necessitates resolute policy interventions: augmented fiscal allocations, intermodal synergies, and populist incentives to eclipse the seductive hegemony of personal automobiles. Ultimately, public transportation's transcendence from mere conveyance to societal linchpin hinges upon a collective resolve to recalibrate urban paradigms toward inclusivity and ecological stewardship.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_23e68211-0ca0-4ca3-bbd5-c133ca9884b9_to_l3_r8_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "23e68211-0ca0-4ca3-bbd5-c133ca9884b9",
+    "source_dataset": "generated",
+    "source_file": "23e68211-0ca0-4ca3-bbd5-c133ca9884b9.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Half the world lives in big cities. Public transport is key. It stops jams and harm. This system of subways, buses, trams, and ferries, carefully made to carry crowds across winding cities, cuts the bad side effects caused by private car growth—namely, worse air pollution, huge fuel use, and the breakdown of public streets into stuck traffic. Data studies, such as those shared by the International Transport Forum, show that working public transit systems can reduce urban carbon emissions by upwards of 40 percent, thereby offering a useful example for eco mobility amid rising human pressures.\n\nHistorically, the growth of public transportation has been closely linked to the rises and falls of industry and technological innovation. From early horse buses in 1800s London to electric subways in Paris and New York during the Belle Époque. They reshaped city life. The start of high-speed rail corridors, best shown by by Japan's Shinkansen since 1964, shows how big infrastructure can shorten travel time, helping economic growth while avoiding the needs of air travel. Yet, this development path has not been free of challenges; repeated no money and political bad control have led to worn-out fleets and longer trips, causing income gaps wherein rich suburbs enjoy in car freedom at the expense of poor areas.\n\nLooking ahead, digital tools and smart machines will improve public transit. Forecast tools will handle real-time traffic. Autonomous cars will stop driver mistakes. Initiatives like Singapore's Smart Nation blueprint, integrating bimodal transport with full sensors, signal an era of very efficient, fair travel. Need more cash, joined lines, and perks to win over cars. Ultimately, public transportation's rise from simple transport to key part depends on a group commitment to adjust urban patterns toward fairness and environment care.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 344,
+    "sentence_count": 11,
+    "avg_sentence_len": 31.27,
+    "avg_word_len": 6.94,
+    "syllable_count": 847,
+    "complex_word_count": 78,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -33.21,
+    "flesch_kincaid_grade": 25.66,
+    "ari": 26.88,
+    "coleman_liau": 24.04,
+    "gunning_fog": 21.58
+  },
+  "final_metrics": {
+    "word_count": 294,
+    "sentence_count": 16,
+    "avg_sentence_len": 18.38,
+    "avg_word_len": 5.17,
+    "syllable_count": 490,
+    "complex_word_count": 18,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 47.18,
+    "flesch_kincaid_grade": 11.24,
+    "ari": 12.12,
+    "coleman_liau": 13.01,
+    "gunning_fog": 9.8
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced lexical and syntactic simplification|applied_edits=28|tier=coarse_jump;dist=13.5400;dir=simpler;est_wb=80;est_sb=4",
+      "metrics": {
+        "word_count": 332,
+        "sentence_count": 14,
+        "avg_sentence_len": 23.71,
+        "avg_word_len": 6.32,
+        "syllable_count": 724,
+        "complex_word_count": 51,
+        "complex_word_ratio": 0.15,
+        "flesch_reading_ease": -1.72,
+        "flesch_kincaid_grade": 19.39,
+        "ari": 20.19,
+        "coleman_liau": 20.11,
+        "gunning_fog": 15.63
+      },
+      "distance_to_target": 7.83,
+      "fidelity": {
+        "overall": 0.8575,
+        "entity_recall": 0.75,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1089,
+        "completion_tokens": 5004,
+        "total_tokens": 6093,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary lexical simplification via word substitutions|applied_edits=81|tier=dist_gt_2;dist=7.8300;center_gap=7.4;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.74;df=2.10;af=1.3713;pg=13.5400;pd=5.7100;af_fb=0",
+      "metrics": {
+        "word_count": 333,
+        "sentence_count": 14,
+        "avg_sentence_len": 23.79,
+        "avg_word_len": 5.47,
+        "syllable_count": 591,
+        "complex_word_count": 25,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 32.55,
+        "flesch_kincaid_grade": 14.63,
+        "ari": 16.21,
+        "coleman_liau": 15.09,
+        "gunning_fog": 12.52
+      },
+      "distance_to_target": 3.6125,
+      "fidelity": {
+        "overall": 0.7775,
+        "entity_recall": 0.75,
+        "number_recall": 1,
+        "keyword_recall": 0.45,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2219,
+        "completion_tokens": 9677,
+        "total_tokens": 11896,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced: combine lexical word substitutions with syntactic sentence restructurings|applied_edits=12|tier=dist_gt_2;dist=3.6125;center_gap=3.45;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=3;lf=0.74;df=2.10;af=0.8566;pg=7.8300;pd=4.2175;af_fb=0",
+      "metrics": {
+        "word_count": 294,
+        "sentence_count": 16,
+        "avg_sentence_len": 18.38,
+        "avg_word_len": 5.17,
+        "syllable_count": 490,
+        "complex_word_count": 18,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 47.18,
+        "flesch_kincaid_grade": 11.24,
+        "ari": 12.12,
+        "coleman_liau": 13.01,
+        "gunning_fog": 9.8
+      },
+      "distance_to_target": 0.5425,
+      "fidelity": {
+        "overall": 0.7494,
+        "entity_recall": 0.6875,
+        "number_recall": 1,
+        "keyword_recall": 0.45,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3327,
+        "completion_tokens": 17544,
+        "total_tokens": 20871,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7494,
+    "entity_recall": 0.6875,
+    "number_recall": 1,
+    "keyword_recall": 0.45,
+    "entity_total": 16,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3327,
+    "completion_tokens": 17544,
+    "total_tokens": 20871,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T13:17:28.596Z"
+}

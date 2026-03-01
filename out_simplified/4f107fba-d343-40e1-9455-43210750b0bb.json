@@ -1,0 +1,139 @@
+{
+  "article_id": "4f107fba-d343-40e1-9455-43210750b0bb",
+  "mode": "difficulty_adjust",
+  "original_article": "La Gomera is one of the Canary Islands situated in the Atlantic Ocean off the northwest coast of Africa. This small volcanic island is mountainous, with steep rocky slopes and deep, wooded ravines, rising to 1,487 metres at its highest peak. It is also home to the best known of the world's whistle 'languages', a means of transmitting information over long distances which is perfectly adapted to the extreme terrain of the island.\n\nThis 'language', known as 'Silbo' or 'Silbo Gomero' – from the Spanish word for 'whistle' – is now shedding light on the language-processing abilities of the human brain, according to scientists. Researchers say that Silbo activates parts of the brain normally associated with spoken language, suggesting that the brain is remarkably flexible in its ability to interpret sounds as language.\n\n'Science has developed the idea of brain areas that are dedicated to language, and we are starting to understand the scope of signals that can be recognised as language,' says David Corina, co-author of a recent study and associate professor of psychology at the University of Washington in Seattle.\n\nSilbo is a substitute for Spanish, with individual words recoded into whistles which have high- and low-frequency tones. A whistler – or silbador – puts a finger in his or her mouth to increase the whistle's pitch, while the other hand can be cupped to adjust the direction of the sound. 'There is much more ambiguity in the whistled signal than in the spoken signal,' explains lead researcher Manuel Carreiras, psychology professor at the University of La Laguna on the Canary island of Tenerife. Because whistled 'words' can be hard to distinguish, silbadores rely on repetition, as well as awareness of context, to make themselves understood.\n\nThe silbadores of Gomera are traditionally shepherds and other isolated mountain folk, and their novel means of staying in touch allows them to communicate over distances of up to 10 kilometres. Carreiras explains that silbadores are able to pass a surprising amount of information via their whistles. 'In daily life they use whistles to communicate short commands, but any Spanish sentence could be whistled.' Silbo has proved particularly useful when fires have occurred on the island and rapid communication across large areas has been vital.\n\nThe study team used neuroimaging equipment to contrast the brain activity of silbadores while listening to whistled and spoken Spanish. Results showed the left temporal lobe of the brain, which is usually associated with spoken language, was engaged during the processing of Silbo. The researchers found that other key regions in the brain's frontal lobe also responded to the whistles, including those activated in response to sign language among deaf people. When the experiments were repeated with non-whistlers, however, activation was observed in all areas of the brain.\n\n'Our results provide more evidence about the flexibility of human capacity for language in a variety of forms,' Corina says. 'These data suggest that left-hemisphere language regions are uniquely adapted for communicative purposes, independent of the modality of signal. The non- Silbo speakers were not recognising Silbo as a language. They had nothing to grab onto, so multiple areas of their brains were activated.'\n\nCarreiras says the origins of Silbo Gomero remain obscure, but that indigenous Canary Islanders, who were of North African origin, already had a whistled language when Spain conquered the volcanic islands in the 15th century. Whistled languages survive today in Papua New Guinea, Mexico, Vietnam, Guyana, China, Nepal, Senegal, and a few mountainous pockets in southern Europe. There are thought to be as many as 70 whistled languages still in use, though only 12 have been described and studied scientifically. This form of communication is an adaptation found among cultures where people are often isolated from each other, according to Julien Meyer, a researcher at the Institute of Human Sciences in Lyon, France. 'They are mostly used in mountains or dense forests,' he says. 'Whistled languages are quite clearly defined and represent an original adaptation of the spoken language for the needs of isolated human groups.'\n\nBut with modern communication technology now widely available, researchers say whistled languages like Silbo are threatened with extinction. With dwindling numbers of Gomera islanders still fluent in the language, Canaries' authorities are taking steps to try to ensure its survival.\n\nSince 1999, Silbo Gomero has been taught in all of the island's elementary schools. In addition, locals are seeking assistance from the United Nations Educational, Scientific and Cultural Organization (UNESCO). 'The local authorities are trying to get an award from the organisation to declare [Silbo Gomero] as something that should be preserved for humanity,' Carreiras adds.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb01",
+    "sample_id": "questions_ielts_15_test4_passage2_027jhj_to_l3_r7_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "ielts_15_test4_passage2_027jhj",
+    "source_dataset": "questions",
+    "source_file": "ielts_15_test4_passage2_027jhj.json"
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "La Gomera is one of the Canary Islands situated in the Atlantic Ocean off the northwest coast of Africa. This small volcanic island has steep rocky slopes. It has deep, wooded ravines. It rises to 1,487 metres at its highest peak. It also has the world's best-known whistle language. This language sends information over long distances. It fits the island's rough land well.\n\nThis 'language', known as 'Silbo' or 'Silbo Gomero' – from the Spanish word for 'whistle' – is now shedding light on the language-processing abilities of the human brain, according to scientists. Researchers say Silbo activates brain parts for spoken language. The brain easily interprets sounds as language.\n\n'Science has developed the idea of brain areas that are dedicated to language, and we are starting to understand the scope of signals that can be recognised as language,' says David Corina, co-author of a recent study and associate professor of psychology at the University of Washington in Seattle.\n\nSilbo takes the place of Spanish. Words become whistles with high and low tones. A whistler, or silbador, puts a finger in the mouth to raise pitch. The other hand cups to direct the sound. 'There is much more ambiguity in the whistled signal than in the spoken signal,' explains lead researcher Manuel Carreiras, psychology professor at the University of La Laguna on the Canary island of Tenerife. Whistled words are hard to tell apart. Silbadores repeat them. They use context too.\n\nGomera silbadores are shepherds and lonely mountain people. Their way lets them talk up to 10 kilometres. Carreiras explains that silbadores are able to pass a surprising amount of information via their whistles. 'In daily life they use whistles to communicate short commands, but any Spanish sentence could be whistled.' Silbo has proved particularly useful when fires have occurred on the island and rapid communication across large areas has been vital.\n\nThe team used brain scans on silbadores. They listened to whistled and spoken Spanish. Results showed the left temporal lobe lit up. It handles spoken language. It worked on Silbo. Other frontal lobe areas reacted to whistles. They also react to sign language for deaf people. When the experiments were repeated with non-whistlers, however, activation was observed in all areas of the brain.\n\n'Our results provide more evidence about the flexibility of human capacity for language in a variety of forms,' Corina says. 'These data suggest that left-hemisphere language regions are uniquely adapted for communicative purposes, independent of the modality of signal. The non- Silbo speakers were not recognising Silbo as a language. They had nothing to grab onto, so multiple areas of their brains were activated.'\n\nCarreiras says the origins of Silbo Gomero remain obscure, but that indigenous Canary Islanders, who were of North African origin, already had a whistled language when Spain conquered the volcanic islands in the 15th century. Whistled languages survive today in Papua New Guinea, Mexico, Vietnam, Guyana, China, Nepal, Senegal, and a few mountainous pockets in southern Europe. There are thought to be as many as 70 whistled languages still in use, though only 12 have been described and studied scientifically. This form of communication is an adaptation found among cultures where people are often isolated from each other, according to Julien Meyer, a researcher at the Institute of Human Sciences in Lyon, France. 'They are mostly used in mountains or dense forests,' he says. 'Whistled languages are quite clearly defined and represent an original adaptation of the spoken language for the needs of isolated human groups.'\n\nBut with modern communication technology now widely available, researchers say whistled languages like Silbo are threatened with extinction. With dwindling numbers of Gomera islanders still fluent in the language, Canaries' authorities are taking steps to try to ensure its survival.\n\nSince 1999, Silbo Gomero has been taught in all of the island's elementary schools. In addition, locals are seeking assistance from the United Nations Educational, Scientific and Cultural Organization (UNESCO). 'The local authorities are trying to get an award from the organisation to declare [Silbo Gomero] as something that should be preserved for humanity,' Carreiras adds.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 777,
+    "sentence_count": 33,
+    "avg_sentence_len": 23.55,
+    "avg_word_len": 5.2,
+    "syllable_count": 1368,
+    "complex_word_count": 44,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 33.99,
+    "flesch_kincaid_grade": 14.37,
+    "ari": 14.81,
+    "coleman_liau": 13.49,
+    "gunning_fog": 11.68
+  },
+  "final_metrics": {
+    "word_count": 693,
+    "sentence_count": 47,
+    "avg_sentence_len": 14.74,
+    "avg_word_len": 5.12,
+    "syllable_count": 1195,
+    "complex_word_count": 35,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 45.99,
+    "flesch_kincaid_grade": 10.51,
+    "ari": 10.06,
+    "coleman_liau": 12.31,
+    "gunning_fog": 7.92
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Syntactic changes: sentence splits and shortenings for simpler structure|applied_edits=10|tier=dist_gt_2;dist=2.5875;center_gap=2.62;mode=both;dominant=word;dir_changed=0;wb=80;sb=12;est_wb=80;est_sb=5;lf=1.14;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 693,
+        "sentence_count": 47,
+        "avg_sentence_len": 14.74,
+        "avg_word_len": 5.12,
+        "syllable_count": 1195,
+        "complex_word_count": 35,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 45.99,
+        "flesch_kincaid_grade": 10.51,
+        "ari": 10.06,
+        "coleman_liau": 12.31,
+        "gunning_fog": 7.92
+      },
+      "distance_to_target": 0.8,
+      "fidelity": {
+        "overall": 0.964,
+        "entity_recall": 0.92,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 50,
+        "number_total": 6,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1641,
+        "completion_tokens": 6697,
+        "total_tokens": 8338,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.964,
+    "entity_recall": 0.92,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 50,
+    "number_total": 6,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 6697,
+    "total_tokens": 8338,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:20:48.318Z"
+}

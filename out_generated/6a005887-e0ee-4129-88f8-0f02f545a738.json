@@ -1,0 +1,59 @@
+{
+  "article_id": "6a005887-e0ee-4129-88f8-0f02f545a738",
+  "topic": "ancient trade routes",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes and Their Impact",
+  "article": [
+    "Ancient trade routes connected distant communities and shaped early global exchange networks. Over centuries, caravans and ships carried goods, people and ideas across deserts, seas and mountain passes. The Silk Road, trans-Saharan lanes and Indian Ocean corridors are familiar examples of such pathways. These routes emerged from technological innovations, environmental constraints and political agreements that permitted steady movement. Local markets often connected to larger networks through itinerant traders and seasonal fairs.",
+    "Merchants relied on specialized infrastructure, including caravanserai, ports and waystations that reduced travel risk and facilitated exchange. Advances such as the domestication of the camel, the development of lateen sails and knowledge of monsoon winds extended operational ranges. Intermediaries and credit systems helped overcome the difficulties of transporting bulk commodities like silk, salt and metals. Coinage and written agreements standardized transactions and increased trust between distant partners. Seasonal rhythms and political stability were equally important in determining route viability.",
+    "Trade influenced the rise of cities and the concentration of wealth in strategic hubs along the routes. It also promoted cultural diffusion, spreading languages, religious ideas, artistic styles and culinary practices across continents. Sometimes the movement of people and goods transmitted diseases and created economic dependencies that reshaped local production. Exchange networks produced syncretic cultures where imported beliefs blended with indigenous traditions and altered social structures. Luxury goods often moved long distances while everyday items circulated regionally, creating diverse economic scales.",
+    "Changes in political power, climate shifts and maritime innovation gradually redirected trade to different corridors. The Age of Sail and improved navigation reduced overland dominance, but many inland networks remained important regionally. Archaeological research, historical records and linguistic evidence now reconstruct these complex systems and show their long-term influence. Understanding ancient trade routes illuminates how early globalization formed and why connectivity continues to shape economies and cultures today. Modern infrastructure projects and digital mapping continue to reveal unexpected links between ancient nodes."
+  ],
+  "metrics": {
+    "word_count": 315,
+    "sentence_count": 20,
+    "avg_sentence_len": 15.75,
+    "avg_word_len": 6.54,
+    "syllable_count": 685,
+    "complex_word_count": 39,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": 6.88,
+    "flesch_kincaid_grade": 16.21,
+    "ari": 17.25,
+    "coleman_liau": 20.77,
+    "gunning_fog": 11.25
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "ancient_trade_routes_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:19:17.688Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 15
+  },
+  "token_usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 3324,
+    "total_tokens": 3505,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:19:17.689Z"
+}

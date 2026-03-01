@@ -63,7 +63,7 @@ const transformSchema = z.object({
 const adjustDifficultySchema = z.object({
   article: z.string().min(1),
   target_level: z.number().int().min(1).max(5),
-  max_rounds: z.number().int().min(1).max(5).default(3),
+  max_rounds: z.number().int().min(1).max(5).default(5),
   fidelity_threshold: z.number().min(0.5).max(1).default(0.72),
   model: z.enum(OPENROUTER_MODEL_OPTIONS).optional(),
   experiment: experimentMetaSchema,
@@ -159,8 +159,6 @@ router.post("/adjust-difficulty", async (req, res) => {
       original_article: parsed.data.article,
       max_rounds: parsed.data.max_rounds,
       fidelity_threshold: parsed.data.fidelity_threshold,
-      model: parsed.data.model ?? null,
-      provider: process.env.LLM_PROVIDER ?? null,
       experiment: parsed.data.experiment ?? null,
       source: parsed.data.source ?? null,
       request_meta: {

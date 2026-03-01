@@ -1,0 +1,38 @@
+{
+  "experiment_id": "ch5_small_adjust_questions_20260228_225356",
+  "run_tag": "grok_default_test",
+  "batch_id": "adj_q_small_20260228_225356",
+  "source_dataset": "questions",
+  "total_jobs": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "generated_at": "2026-02-28T20:54:51.648Z",
+  "records": [
+    {
+      "ts": "2026-02-28T20:54:51.647Z",
+      "ok": true,
+      "index": 1,
+      "total": 1,
+      "article_id": "1c57a44c-0586-446f-90aa-cd9710526db0",
+      "sample_id": "ielts_13_test1_passage1_b1idvj_to_l1",
+      "source": {
+        "source_article_id": "ielts_13_test1_passage1_b1idvj",
+        "source_dataset": "questions",
+        "source_file": "ielts_13_test1_passage1_b1idvj.json"
+      },
+      "target_level": 1,
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9534,
+      "provider": "openrouter",
+      "model": "x-ai/grok-4.1-fast",
+      "token_usage": {
+        "prompt_tokens": 1611,
+        "completion_tokens": 7428,
+        "total_tokens": 9039,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 54663
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "article_id": "5c8096de-753e-40f3-9809-ba3a4ab50e47",
+  "mode": "difficulty_adjust",
+  "original_article": "Born in Scotland, Henderson emigrated to Canada in 1855 and became a well-known landscape\n\nAlexander Henderson was born in Scotland in 1831 and was the son of a successful merchant. His grandfather, also called Alexander, had founded the family business, and later became the first chairman of the National Bank of Scotland. The family had extensive landholdings in Scotland. Besides its residence in Edinburgh, it owned Press Estate, 650 acres of farmland about 35 miles southeast of the city. 'The family often stayed at Press Castle, the large mansion on the northern edge of the property, and Alexander spent much of his childhood in the area, playing on the beach near Eyemouth or fishing in the streams nearby.\n\nEven after he went to school at Murcheston Academy on the outskirts of Edinburgh, Henderson returned to Press at weekends. In 1849 he began a three-year apprenticeship to become an accountant. Although he never liked the prospect of a business career, he stayed with it to please his family. In October 1855, however, he emigrated to Canada with his wife Agnes Elder Roberts on and they settled in Montreal.\n\nHenderson learned photography in Montreal around the year 1857 and quickly took it up as a serious amateur. He became a personal friend and colleague of the Scottish-Canadian photographer William Notman. The two men made a photographic excursion to Niagara Falls in 1860 and they cooperated on experiments with magnesium flares as a source of artificial light in 1865. They belonged to the same societies and were among the founding members of the Art Association of Montreal. Henderson acted as chairman of the association's first meeting, which was held in Notman's studio on 11 January 1860.\n\nIn spite of their friendship, their styles of photography were quite different. While Notman's landscapes were noted for their bold realism, Henderson for the first 20 years of his career produced romantic images, showing the strong influence of the British landscape tradition. His artistic and technical progress was rapid and in 1865 he published his first major collection of landscape photographs. The publication had limited circulation (only seven copies have ever been found), and was called Canadian Views and Studies. The contents of each copy vary significantly and have proved a useful source for evaluating Henderson's early work.\n\nIn 1866, he gave up his business to open a photographic studio, advertising himself as a portrait and landscape photographer. From about 1870 he dropped portraiture to specialize in landscape photography and other views. His numerous photographs of city life revealed in street scenes, houses, and markets are alive with human activity, and although his favourite subject was landscape he usually composed his scenes around such human pursuits as farming the land, cutting ice on a river, or sailing down a woodland stream. There was sufficient demand for these types of scenes and others he took depicting the lumber trade, steamboats and waterfalls to enable him to make a living. There was little competing hobby or amateur photography before the late1880s because of the time-consuming techniques involved and the weight of the equipment. People wanted to buy photographs as souvenirs of a trip or as gifts, and catering to this market, Henderson had stock photographs on display at his studio for mounting, framing, or inclusion in albums.[br/br/] Henderson frequently exhibited his photographs in Montreal and abroad, in London, Edinburgh, Dublin, Paris, New York, and Philadelphia. He met with greater success in 1877 and 1878 in New York when he won first prizes in the exhibition held by E and H T Anthony and Company for landscapes using the Lambertype process. In 1878 his work won second prize at the world exhibition in Paris.\n\nIn the 1870s and 1880s Henderson travelled widely throughout Quebec and Ontario, in Canada, documenting the major cities of the two provinces and many of the villages in Quebec. He was especially fond of the wilderness and often travelled by canoe on the Blanche, du Lièvre, and other noted eastern rivers. He went on several occasions to the Maritimes and in 1872 he sailed by yacht along the lower north shore of the St Lawrence River. That same year, while in the lower St Lawrence River region, he took some photographs of the construction of the Intercolonial Railway. This undertaking led in 1875 to a commission from the railway to record the principal structures along the almost-completed line connecting Montreal to Halifax. Commissions from other railways followed. In 1876 he photographed bridges on the Quebec, Montreal, Ottawa and Occidental Railway between Montreal and Ottawa. In 1885 he went west along the Canadian Pacific Railway (CPR) as far as Rogers Pass in British Columbia, where he took photographs of the mountains and the progress of construction.\n\nIn 1892 Henderson accepted a fulltime position with the CPR as manager of a photographic department which he was to set up and administer. His duties included spending four months in the field each year. That summer he made his second trip west, photographing extensively along the railway line as far as Victoria. He continued in this post until 1897, when he retired completely from photography.\n\nWhen Henderson died in 1913, his huge collection of glass negatives was stored in the basement of his house. Today collections of his work are held at the National Archives of Canada, Ottawa, and the McCord Museum of Canadian History, Montreal.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "adj_q_gpt5mini_b01",
+    "sample_id": "ielts_14_test2_passage1_f279uj_to_l4"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test2_passage1_f279uj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test2_passage1_f279uj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Born in Scotland, Henderson emigrated to Canada in 1855 and became a well-known landscape photographer.\n\nAlexander Henderson was born in Scotland in 1831 and was the son of a successful merchant. His grandfather, also called Alexander, had founded the family business and later became the first chairman of the National Bank of Scotland. The family held extensive landholdings in Scotland. Besides its residence in Edinburgh, it owned Press Estate, 650 acres of farmland about 35 miles southeast of the city. The family often stayed at Press Castle, the large mansion on the northern edge of the property, and Alexander spent much of his childhood in the area, playing on the beach near Eyemouth or fishing in the streams nearby.\n\nEven after he went to school at Murcheston Academy on the outskirts of Edinburgh, Henderson returned to Press at weekends. In 1849 he began a three-year apprenticeship to become an accountant. Although he never liked the prospect of a business career, he stayed with it to please his family. In October 1855, however, he emigrated to Canada with his wife Agnes Elder Roberts and they settled in Montreal.\n\nHenderson learned photography in Montreal around the year 1857 and rapidly adopted it as a serious amateur pursuit. He became a personal friend and colleague of the Scottish-Canadian photographer William Notman. The two men made a photographic excursion to Niagara Falls in 1860 and later cooperated on experiments with magnesium flares as a source of artificial light in 1865. They belonged to the same professional societies and were among the founding members of the Art Association of Montreal. Henderson acted as chairman of the association's first meeting, held in Notman's studio on 11 January 1860.\n\nIn spite of their friendship, their photographic styles diverged. While Notman's landscapes favoured bold realism, Henderson produced romantic images for the first twenty years of his career, showing the influence of the British landscape tradition. His artistic and technical progress was rapid, and in 1865 he published his first major collection of landscape photographs. The publication had very limited circulation—only seven copies have ever been found—and was called Canadian Views and Studies. The contents of each copy vary significantly and have proved a useful source for evaluating Henderson's early work.\n\nIn 1866 he gave up his business to open a photographic studio, advertising himself as a portrait and landscape photographer. From about 1870 he dropped portraiture to specialize in landscape photography and allied views. His numerous photographs of city life—street scenes, houses, and markets—are animated by human activity. Although his favourite subject was landscape, he usually composed scenes around human pursuits: farming the land, cutting ice on a river, or sailing down a woodland stream. There was sufficient demand for scenes depicting the lumber trade, steamboats and waterfalls to enable him to make a living. Before the late 1880s hobby or amateur photography was rare because techniques were time-consuming and equipment heavy. People bought photographs as souvenirs or gifts, and Henderson kept stock photographs in his studio for mounting, framing, or inclusion in albums.\n\nHenderson frequently exhibited his photographs in Montreal and abroad: London, Edinburgh, Dublin, Paris, New York, and Philadelphia. He met with notable success in 1877 and 1878 in New York when he won first prizes in the exhibition held by E. and H. T. Anthony and Company for landscapes using the Lambertype process. In 1878 his work won second prize at the world exhibition in Paris.\n\nIn the 1870s and 1880s Henderson travelled widely throughout Quebec and Ontario, documenting major cities and many Quebec villages. He was fond of the wilderness and often travelled by canoe on the Blanche, du Lièvre, and other noted eastern rivers. He visited the Maritimes on several occasions and in 1872 sailed by yacht along the lower north shore of the St Lawrence River. That same year he photographed construction of the Intercolonial Railway in the lower St Lawrence region. This documentation led in 1875 to a commission from the railway to record principal structures along the almost-completed line connecting Montreal to Halifax. Commissions from other railways followed. In 1876 he photographed bridges on the Quebec, Montreal, Ottawa and Occidental Railway between Montreal and Ottawa. In 1885 he travelled west along the Canadian Pacific Railway (CPR) as far as Rogers Pass in British Columbia, photographing mountains and construction progress.\n\nIn 1892 Henderson accepted a full-time position with the CPR as manager of a photographic department he was to establish and administer. His duties included spending four months in the field each year. That summer he made his second trip west, photographing extensively along the railway line as far as Victoria. He continued in this post until 1897, when he retired completely from photography.\n\nWhen Henderson died in 1913, his huge collection of glass negatives was stored in the basement of his house. Today collections of his work are held at the National Archives of Canada, Ottawa, and the McCord Museum of Canadian History, Montreal.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Advanced",
+    "rewrite_guidance": "Use more discipline-specific terms and denser sentence structures while preserving coherence.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        11,
+        13.5
+      ],
+      "flesch_reading_ease": [
+        38,
+        55
+      ],
+      "avg_sentence_len": [
+        16,
+        24
+      ],
+      "complex_word_ratio": [
+        0.12,
+        0.22
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 904,
+    "sentence_count": 42,
+    "avg_sentence_len": 21.52,
+    "avg_word_len": 5,
+    "syllable_count": 1506,
+    "complex_word_count": 37,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 44.05,
+    "flesch_kincaid_grade": 12.46,
+    "ari": 12.87,
+    "coleman_liau": 12.21,
+    "gunning_fog": 10.25
+  },
+  "final_metrics": {
+    "word_count": 835,
+    "sentence_count": 47,
+    "avg_sentence_len": 17.77,
+    "avg_word_len": 5.16,
+    "syllable_count": 1440,
+    "complex_word_count": 39,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 42.91,
+    "flesch_kincaid_grade": 11.69,
+    "ari": 11.76,
+    "coleman_liau": 12.88,
+    "gunning_fog": 8.97
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 835,
+        "sentence_count": 47,
+        "avg_sentence_len": 17.77,
+        "avg_word_len": 5.16,
+        "syllable_count": 1440,
+        "complex_word_count": 39,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 42.91,
+        "flesch_kincaid_grade": 11.69,
+        "ari": 11.76,
+        "coleman_liau": 12.88,
+        "gunning_fog": 8.97
+      },
+      "distance_to_target": 0.175,
+      "fidelity": {
+        "overall": 0.9733,
+        "entity_recall": 1,
+        "number_recall": 0.9524,
+        "keyword_recall": 0.95,
+        "entity_total": 64,
+        "number_total": 21,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1303,
+        "completion_tokens": 2364,
+        "total_tokens": 3667,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 849,
+        "sentence_count": 26,
+        "avg_sentence_len": 32.65,
+        "avg_word_len": 5.55,
+        "syllable_count": 1607,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 13.56,
+        "flesch_kincaid_grade": 19.48,
+        "ari": 21.05,
+        "coleman_liau": 15.95,
+        "gunning_fog": 16.17
+      },
+      "distance_to_target": 1.3277,
+      "fidelity": {
+        "overall": 0.9352,
+        "entity_recall": 0.9375,
+        "number_recall": 0.9524,
+        "keyword_recall": 0.9,
+        "entity_total": 64,
+        "number_total": 21,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2540,
+        "completion_tokens": 5967,
+        "total_tokens": 8507,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 845,
+        "sentence_count": 30,
+        "avg_sentence_len": 28.17,
+        "avg_word_len": 5.58,
+        "syllable_count": 1599,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 18.16,
+        "flesch_kincaid_grade": 17.72,
+        "ari": 18.95,
+        "coleman_liau": 15.98,
+        "gunning_fog": 14.11
+      },
+      "distance_to_target": 0.9691,
+      "fidelity": {
+        "overall": 0.9352,
+        "entity_recall": 0.9375,
+        "number_recall": 0.9524,
+        "keyword_recall": 0.9,
+        "entity_total": 64,
+        "number_total": 21,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3777,
+        "completion_tokens": 9287,
+        "total_tokens": 13064,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9733,
+    "entity_recall": 1,
+    "number_recall": 0.9524,
+    "keyword_recall": 0.95,
+    "entity_total": 64,
+    "number_total": 21,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3777,
+    "completion_tokens": 9287,
+    "total_tokens": 13064,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-25T22:25:17.874Z"
+}

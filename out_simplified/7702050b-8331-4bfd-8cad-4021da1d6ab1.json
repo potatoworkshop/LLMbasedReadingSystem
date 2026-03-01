@@ -1,0 +1,139 @@
+{
+  "article_id": "7702050b-8331-4bfd-8cad-4021da1d6ab1",
+  "mode": "difficulty_adjust",
+  "original_article": "The extinct thylacine, also known as the Tasmanian tiger, was a marsupial* that bore a superficial resemblance to a dog. Its most distinguishing feature was the 13–19 dark brown stripes over its back, beginning at the rear of the body and extending onto the tail. The thylacine's average noseto- tail length for adult males was 162.6 cm, compared to 153.7 cm for females.\n\nThe thylacine appeared to occupy most types of terrain except dense rainforest, with open eucalyptus forest thought to be its prime habitat. In terms of feeding, it was exclusively carnivorous, and its stomach was muscular with an ability to distend so that it could eat large amounts of food at one time, probably an adaptation to compensate for long periods when hunting was unsuccessful and food scarce. The thylacine was not a fast runner and probably caught its prey by exhausting it during a long pursuit. During long-distance chases, thylacines were likely to have relied more on scent than any other sense. They emerged to hunt during the evening, night and early morning and tended to retreat to the hills and forest for shelter during the day. Despite the common name 'tiger', the thylacine had a shy, nervous temperament. Although mainly nocturnal, it was sighted moving during the day and some individuals were even recorded basking in the sun.\n\nThe thylacine had an extended breeding season from winter to spring, with indications that some breeding took place throughout the year. The thylacine, like all marsupials, was tiny and hairless when born. Newborns crawled into the pouch on the belly of their mother, and attached themselves to one of the four teats, remaining there for up to three months. When old enough to leave the pouch, the young stayed in a lair such as a deep rocky cave, well-hidden nest or hollow log, whilst the mother hunted.\n\nApproximately 4,000 years ago, the thylacine was widespread throughout New Guinea and most of mainland Australia, as well as the island of Tasmania. The most recent, well-dated occurrence of a thylacine on the mainland is a carbon-dated fossil from Murray Cave in Western Australia, which is around 3,100 years old. Its extinction coincided closely with the arrival of wild dogs called dingoes in Australia and a similar predator in New Guinea. Dingoes never reached Tasmania, and most scientists see this as the main reason for the thylacine's survival there.\n\nThe dramatic decline of the thylacine in Tasmania, which began in the 1830s and continued for a century, is generally attributed to the relentless efforts of sheep farmers and bounty hunters** with shotguns. While this determined campaign undoubtedly played a large part, it is likely that various other factors also contributed to the decline and eventual extinction of the species. These include competition with wild dogs introduced by European settlers, loss of habitat along with the disappearance of prey species, and a distemper-like disease which may also have affected the thylacine.\n\nThere was only one successful attempt to breed a thylacine in captivity, at Melbourne Zoo in 1899. This was despite the large numbers that went through some zoos, particularly London Zoo and Tasmania's Hobart Zoo. The famous naturalist John Gould foresaw the thylacine's demise when he published his Mammals of Australia between 1848 and 1863, writing, 'The numbers of this singular animal will speedily diminish, extermination will have its full sway, and it will then, like the wolf of England and Scotland, be recorded as an animal of the past.'\n\nHowever, there seems to have been little public pressure to preserve the thylacine, nor was much concern expressed by scientists at the decline of this species in the decades that followed. A notable exception was T.T. Flynn, Professor of Biology at the University of Tasmania. In 1914, he was sufficiently concerned about the scarcity of the thylacine to suggest that some should be captured and placed on a small island. But it was not until 1929, with the species on the very edge of extinction, that Tasmania's Animals and Birds Protection Board passed a motion protecting thylacines only for the month of December, which was thought to be their prime breeding season. The last known wild thylacine to be killed was shot by a farmer in the north-east of Tasmania in 1930, leaving just captive specimens. Official protection of the species by the Tasmanian government was introduced in July 1936, 59 days before the last known individual died in Hobart Zoo on 7th September, 1936.\n\nThere have been numerous expeditions and searches for the thylacine over the years, none of which has produced definitive evidence that thylacines still exist. The species was declared extinct by the Tasmanian government in 1986.\n\n* marsupial: a mammal, such as a kangaroo, whose young are born incompletely developed and are typically carried and suckled in a pouch on the mother's belly\n\n** bounty hunters: people who are paid a reward for killing a wild animal",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb02",
+    "sample_id": "questions_ielts_17_test3_passage1_c27tpj_to_l5_r7_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "ielts_17_test3_passage1_c27tpj",
+    "source_dataset": "questions",
+    "source_file": "ielts_17_test3_passage1_c27tpj.json"
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Denominated alternatively as the Tasmanian tiger, the extinct thylacine, a marsupial*, evinced merely a superficial resemblance unto a dog whilst possessing distinctive marsupial attributes. Commencing posteriorly upon the torso and protracting caudad, the 13–19 dark brown stripes adorning its dorsum constituted the thylacine’s paramount distinguishing feature. The thylacine's average noseto- tail length for adult males was 162.6 cm, compared to 153.7 cm for females.\n\nSave for dense rainforest which it eschewed, the thylacine ostensibly inhabited multifarious terrains, wherein eucalyptus forests openly configured were conjectured to comprise its preeminent habitat. In terms of feeding, it was exclusively carnivorous, and its stomach was muscular with an ability to distend so that it could eat large amounts of food at one time, probably an adaptation to compensate for long periods when hunting was unsuccessful and food scarce. Lacking celerity in sprinting, the thylacine likely subjugated prey through exhaustive attrition sustained across protracted pursuits. Whilst engaged in long-distance chases, thylacines, more than upon vision or audition, were wont to depend principally upon olfactory cues. Foraging at vespertine, nocturnal, and auroral intervals before recidivating to montane and forested refugia by daylight, thylacines prosecuted their hunts. Notwithstanding its vulgar designation 'tiger', the thylacine exhibited a temperament characterized by diffidence and nervous apprehension. Predominantly nocturnal albeit sighted ambulatory diurnally, certain thylacines were documented basking beneath solar irradiance.\n\nFrom winter extending into spring, the thylacine’s breeding season protracted, albeit sundry intimations suggest perennial generativity. The thylacine, like all marsupials, was tiny and hairless when born. Whilst affixed to quaternary teats within the maternal marsupium, neonates crawled thereto, lingering up to tri-monthly. Post-pouch egress upon maturation, juveniles denned in lairs comprising profound cavernous recesses, occultated nidi, or hollowed arboreal detritus as dams foraged.\n\nApproximately 4,000 years ago, the thylacine was widespread throughout New Guinea and most of mainland Australia, as well as the island of Tasmania. A carbon-dated fossil from Murray Cave, Western Australia—circa 3,100 years of age—evidences the most recent chronometrically ratified thylacine incidence upon the mainland. Concomitant with dingo ingress in Australia and analogous predator advent in New Guinea, thylacine extinction supervened. Thylacine persistence in Tasmania, which dingoes never colonized, savants preponderantly adduce to this lacuna.\n\nCommencing 1830s-ward and perduring century-long, Tasmania’s thylacine declension is conventionally imputed to shotgun-wielding sheep farmers’ and bounty hunters** unremitting campaigns. While this determined campaign undoubtedly played a large part, it is likely that various other factors also contributed to the decline and eventual extinction of the species. These include competition with wild dogs introduced by European settlers, loss of habitat along with the disappearance of prey species, and a distemper-like disease which may also have affected the thylacine.\n\nUnique in success, a solitary endeavor fructified captive thylacine breeding at Melbourne Zoo, 1899. This was despite the large numbers that went through some zoos, particularly London Zoo and Tasmania's Hobart Zoo. Anticipating thylacine obsolescence upon promulgating Mammals of Australia (1848–1863), the eminent naturalist John Gould inscribed: 'The numbers of this singular animal will speedily diminish, extermination will have its full sway, and it will then, like the wolf of England and Scotland, be recorded as an animal of the past.''\n\nPublic clamor for thylacine conservation languished scantily evinced, whilst scientists evinced minimal solicitude vis-à-vis the succedent decades’ species attenuation. A notable exception was T.T. Flynn, Professor of Biology at the University of Tasmania. In 1914, he was sufficiently concerned about the scarcity of the thylacine to suggest that some should be captured and placed on a small island. But it was not until 1929, with the species on the very edge of extinction, that Tasmania's Animals and Birds Protection Board passed a motion protecting thylacines only for the month of December, which was thought to be their prime breeding season. The last known wild thylacine to be killed was shot by a farmer in the north-east of Tasmania in 1930, leaving just captive specimens. Tasmanian gubernatorial aegis for the species inaugurated July 1936, a mere 59 days antecedent to the terminal specimen’s demise at Hobart Zoo, 7 September 1936.\n\nOver annals, multitudinous expeditions and perquisitions for thylacines have transpired, sans incontrovertible attestation of perdurance. In 1986, Tasmanian authorities proclaimed the species extinct.\n\n* marsupial: a mammal, such as a kangaroo, whose young are born incompletely developed and are typically carried and suckled in a pouch on the mother's belly\n\n** bounty hunters: people who are paid a reward for killing a wild animal",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 831,
+    "sentence_count": 37,
+    "avg_sentence_len": 22.46,
+    "avg_word_len": 4.88,
+    "syllable_count": 1347,
+    "complex_word_count": 30,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 46.91,
+    "flesch_kincaid_grade": 12.3,
+    "ari": 12.8,
+    "coleman_liau": 11.6,
+    "gunning_fog": 10.43
+  },
+  "final_metrics": {
+    "word_count": 753,
+    "sentence_count": 37,
+    "avg_sentence_len": 20.35,
+    "avg_word_len": 5.75,
+    "syllable_count": 1482,
+    "complex_word_count": 62,
+    "complex_word_ratio": 0.08,
+    "flesch_reading_ease": 19.67,
+    "flesch_kincaid_grade": 15.57,
+    "ari": 15.81,
+    "coleman_liau": 16.53,
+    "gunning_fog": 11.43
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=syntactic|applied_edits=21|tier=coarse_jump;dist=1.7392;dir=harder;est_wb=80;est_sb=11",
+      "metrics": {
+        "word_count": 753,
+        "sentence_count": 37,
+        "avg_sentence_len": 20.35,
+        "avg_word_len": 5.75,
+        "syllable_count": 1482,
+        "complex_word_count": 62,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 19.67,
+        "flesch_kincaid_grade": 15.57,
+        "ari": 15.81,
+        "coleman_liau": 16.53,
+        "gunning_fog": 11.43
+      },
+      "distance_to_target": 0.7217,
+      "fidelity": {
+        "overall": 0.91,
+        "entity_recall": 0.8,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 17,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1689,
+        "completion_tokens": 6903,
+        "total_tokens": 8592,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.91,
+    "entity_recall": 0.8,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 35,
+    "number_total": 17,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1689,
+    "completion_tokens": 6903,
+    "total_tokens": 8592,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:17:20.129Z"
+}

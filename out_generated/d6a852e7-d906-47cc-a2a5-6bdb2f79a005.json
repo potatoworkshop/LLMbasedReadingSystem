@@ -1,0 +1,60 @@
+{
+  "article_id": "d6a852e7-d906-47cc-a2a5-6bdb2f79a005",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Ways Humans Adjust to a Changing World",
+  "article": [
+    "The world is getting warmer every year. This happens because humans burn fuel to make power. This fuel sends gases into the air. These gases trap heat like a blanket around the Earth. Scientists call this global warming. Many people talk about how to stop this heat. However, some changes are already happening right now. We must learn how to live with these changes. This process is called climate adaptation. It means changing how we build our homes. It means changing how we grow our food. It means making new plans for a different future. We do this to stay safe and healthy in a changing world.",
+    "Water is a very big part of the problem. In some places, there is too much water. The ice at the North Pole is melting into the sea. This makes the ocean rise higher. Cities near the beach must build big walls to keep the water out. These walls are called sea walls. They act like a shield for the land. In other places, people build houses on tall poles. This keeps the floor dry when the water rises. Other places have the opposite problem. They have too little water. It does not rain for a long time. This is called a drought. People in these dry places must learn to save every drop. They build big tanks to catch rain. They also use pipes that give water only to the roots of plants. This saves water and helps the plants grow.",
+    "Farming is also changing because of the heat. Some crops do not like hot weather. They might die if the sun is too strong. Farmers are now planting new types of seeds. These seeds can grow even when it is very dry and hot. Some farmers are also planting trees next to their crops. The trees provide shade and keep the ground cool. This helps the soil stay moist. In some countries, people are moving their farms to cooler places. They go higher up into the mountains where the air is fresh. This helps them grow enough food for everyone to eat. Food is very important for a growing world. We must make sure we can always grow enough.",
+    "Heat can also make people sick. When the air is very hot, it is hard to work outside. Many cities are planting more trees on their streets. Trees make the air cooler and give shade to people walking. Some cities are also painting their roofs white. Dark colors soak up heat, but white reflects the sun away. This keeps the buildings cool inside. People do not have to use as much electricity for fans or cooling machines. This is a simple way to adapt to a hotter world. It helps people stay safe during the summer months. It also saves money for the people living in the city.",
+    "Finally, we must think about how we plan for the future. Governments are making new rules for building. They want to make sure new buildings are strong. These buildings must stay safe during big storms or floods. People are also learning how to help each other. When a storm comes, neighbors work together to stay safe. They share food and water. They have a plan for where to go if they must leave their homes. Adaptation is not just about big walls or new seeds. It is also about how we think and how we help our friends. By working together, we can face the changes in our world. We can build a future that is safe for everyone. This is how we will live on a warmer Earth."
+  ],
+  "metrics": {
+    "word_count": 605,
+    "sentence_count": 67,
+    "avg_sentence_len": 9.03,
+    "avg_word_len": 4.2,
+    "syllable_count": 778,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 88.88,
+    "flesch_kincaid_grade": 3.11,
+    "ari": 2.87,
+    "coleman_liau": 5.62,
+    "gunning_fog": 3.81
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "climate_adaptation_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:35:48.612Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 5
+  },
+  "token_usage": {
+    "prompt_tokens": 601,
+    "completion_tokens": 1921,
+    "total_tokens": 2522,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:35:48.612Z"
+}

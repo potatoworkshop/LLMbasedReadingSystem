@@ -1,0 +1,288 @@
+{
+  "article_id": "b8e0c916-71b8-4650-840f-c49c9d588bb0",
+  "mode": "difficulty_adjust",
+  "original_article": "The ancient trade routes constituted intricate networks that interlinked distant civilizations, fostering the exchange of commodities, technologies, and ideologies across vast continental expanses. Predominantly overland pathways, supplemented by maritime conduits, these routes emerged as early as the third millennium BCE, propelled by the exigencies of resource scarcity and the allure of exotic wares. The Silk Road, paradigmatic of such arteries, traversed from Xi'an in Han Dynasty China through the formidable Taklamakan Desert and Pamir Mountains, culminating at Antioch on the Mediterranean littoral. Caravansaries, fortified waystations, mitigated the perils of brigandage and climatic vicissitudes, while mercantile guilds ensured transactional integrity amid linguistic babel.\n\nMaritime counterparts, leveraging monsoon predictability, augmented terrestrial limitations by circumnavigating the Indian Ocean. Arab dhows and Roman triremes ferried spices from Malabar Coast entrepôts to Red Sea ports, thence overland to Alexandrian emporia. The Incense Route, bifurcating from southern Arabian frankincense groves to Gaza, epitomized luxury provisioning for Mediterranean rituals, its resinous cargoes valorized at premiums defying terrestrial bulk constraints. These sea lanes disseminated not merely pepper and myrrh but navigational arcana, catalyzing Hellenistic cartography's maturation.\n\nEconomically, these conduits engendered unprecedented prosperity, engendering urban efflorescences like Petra and Palmyra as nodal hubs. Fiscal apparatuses, predicated on tolls and tariffs, underwrote imperial infrastructures, from Roman aqueducts to Sassanid qanats. Culturally, syncretic tapestries unfurled: Buddhism percolated westward via Bactrian intermediaries, while Nestorian Christianity infiltrated Tang China. Linguistic amalgams and metallurgical refinements testified to osmotic exchanges, underscoring trade's role as civilizational crucible.\n\nNotwithstanding their effulgence, these routes succumbed to geopolitical upheavals and epidemiological scourges by the fourteenth century, supplanted by Atlantic paradigms post-1498. Their vestiges, however, indelibly contour contemporary globalism, evincing antiquity's prescience in interconnectivity's inexorable logic.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_1aa948e6-8ed3-4f58-9bf3-6c597cef030b_to_l3_r3_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "1aa948e6-8ed3-4f58-9bf3-6c597cef030b",
+    "source_dataset": "generated",
+    "source_file": "1aa948e6-8ed3-4f58-9bf3-6c597cef030b.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The ancient trade routes constituted intricate networks that interlinked distant civilizations, fostering the exchange of commodities, technologies, and ideologies across vast continental expanses. Predominantly overland pathways, supplemented by maritime conduits, these routes emerged as early as the third millennium BCE, propelled by the exigencies of resource scarcity and the allure of exotic wares. The Silk Road, paradigmatic of such arteries, traversed from Xi'an in Han Dynasty China through the formidable Taklamakan Desert and Pamir Mountains, culminating at Antioch on the Mediterranean littoral. Caravansaries, fortified waystations, mitigated the perils of brigandage and climatic vicissitudes, while mercantile guilds ensured transactional integrity amid linguistic babel.\n\nMaritime counterparts, leveraging monsoon predictability, augmented terrestrial limitations by circumnavigating the Indian Ocean. Arab dhows and Roman triremes ferried spices from Malabar Coast entrepôts to Red Sea ports, thence overland to Alexandrian emporia. The Incense Route, bifurcating from southern Arabian frankincense groves to Gaza, epitomized luxury provisioning for Mediterranean rituals, its resinous cargoes valorized at premiums defying terrestrial bulk constraints. These sea lanes disseminated not merely pepper and myrrh but navigational arcana, catalyzing Hellenistic cartography's maturation.\n\nEconomically, these conduits engendered unprecedented prosperity, engendering urban efflorescences like Petra and Palmyra as nodal hubs. Fiscal apparatuses, predicated on tolls and tariffs, underwrote imperial infrastructures, from Roman aqueducts to Sassanid qanats. Culturally, syncretic tapestries unfurled: Buddhism percolated westward via Bactrian intermediaries, while Nestorian Christianity infiltrated Tang China. Linguistic amalgams and metallurgical refinements testified to osmotic exchanges, underscoring trade's role as civilizational crucible.\n\nNotwithstanding their effulgence, these routes succumbed to geopolitical upheavals and epidemiological scourges by the fourteenth century, supplanted by Atlantic paradigms post-1498. Their vestiges, however, indelibly contour contemporary globalism, evincing antiquity's prescience in interconnectivity's inexorable logic.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 278,
+    "sentence_count": 14,
+    "avg_sentence_len": 19.86,
+    "avg_word_len": 7.05,
+    "syllable_count": 678,
+    "complex_word_count": 52,
+    "complex_word_ratio": 0.19,
+    "flesch_reading_ease": -19.65,
+    "flesch_kincaid_grade": 20.93,
+    "ari": 21.69,
+    "coleman_liau": 24.14,
+    "gunning_fog": 15.42
+  },
+  "final_metrics": {
+    "word_count": 278,
+    "sentence_count": 14,
+    "avg_sentence_len": 19.86,
+    "avg_word_len": 7.05,
+    "syllable_count": 678,
+    "complex_word_count": 52,
+    "complex_word_ratio": 0.19,
+    "flesch_reading_ease": -19.65,
+    "flesch_kincaid_grade": 20.93,
+    "ari": 21.69,
+    "coleman_liau": 24.14,
+    "gunning_fog": 15.42
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=9.5450;dir=simpler;est_wb=80;est_sb=5",
+      "metrics": {
+        "word_count": 278,
+        "sentence_count": 14,
+        "avg_sentence_len": 19.86,
+        "avg_word_len": 7.05,
+        "syllable_count": 678,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -19.65,
+        "flesch_kincaid_grade": 20.93,
+        "ari": 21.69,
+        "coleman_liau": 24.14,
+        "gunning_fog": 15.42
+      },
+      "distance_to_target": 9.545,
+      "fidelity": {
+        "overall": 0.9871,
+        "entity_recall": 0.9714,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.5450;center_gap=8.35;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.70;df=2.10;af=1.0000;pg=9.5450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 278,
+        "sentence_count": 14,
+        "avg_sentence_len": 19.86,
+        "avg_word_len": 7.05,
+        "syllable_count": 678,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -19.65,
+        "flesch_kincaid_grade": 20.93,
+        "ari": 21.69,
+        "coleman_liau": 24.14,
+        "gunning_fog": 15.42
+      },
+      "distance_to_target": 9.545,
+      "fidelity": {
+        "overall": 0.9871,
+        "entity_recall": 0.9714,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.5450;center_gap=8.35;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.70;df=2.10;af=1.0000;pg=9.5450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 278,
+        "sentence_count": 14,
+        "avg_sentence_len": 19.86,
+        "avg_word_len": 7.05,
+        "syllable_count": 678,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -19.65,
+        "flesch_kincaid_grade": 20.93,
+        "ari": 21.69,
+        "coleman_liau": 24.14,
+        "gunning_fog": 15.42
+      },
+      "distance_to_target": 9.545,
+      "fidelity": {
+        "overall": 0.9871,
+        "entity_recall": 0.9714,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.5450;center_gap=8.35;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.70;df=2.10;af=1.0000;pg=9.5450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 278,
+        "sentence_count": 14,
+        "avg_sentence_len": 19.86,
+        "avg_word_len": 7.05,
+        "syllable_count": 678,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -19.65,
+        "flesch_kincaid_grade": 20.93,
+        "ari": 21.69,
+        "coleman_liau": 24.14,
+        "gunning_fog": 15.42
+      },
+      "distance_to_target": 9.545,
+      "fidelity": {
+        "overall": 0.9871,
+        "entity_recall": 0.9714,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=9.5450;center_gap=8.35;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.70;df=2.10;af=1.0000;pg=9.5450;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 278,
+        "sentence_count": 14,
+        "avg_sentence_len": 19.86,
+        "avg_word_len": 7.05,
+        "syllable_count": 678,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -19.65,
+        "flesch_kincaid_grade": 20.93,
+        "ari": 21.69,
+        "coleman_liau": 24.14,
+        "gunning_fog": 15.42
+      },
+      "distance_to_target": 9.545,
+      "fidelity": {
+        "overall": 0.9871,
+        "entity_recall": 0.9714,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9871,
+    "entity_recall": 0.9714,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 35,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:48:49.180Z"
+}

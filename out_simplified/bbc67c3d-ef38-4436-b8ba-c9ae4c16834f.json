@@ -1,0 +1,206 @@
+{
+  "article_id": "bbc67c3d-ef38-4436-b8ba-c9ae4c16834f",
+  "mode": "difficulty_adjust",
+  "original_article": "A critical ingredient in the success of hotels is developing and maintaining superior performance from their employees. How is that accomplished? What Human Resource Management (HRM) practices should organizations invest in to acquire and retain great employees?\n\nSome hotels aim to provide superior working conditions for their employees. The idea originated from workplaces usually in the non-service sector - that emphasized fun and enjoyment as part of work - life balance. By contrast, the service sector, and more specifically hotels, has traditionally not extended these practices to address basic employee needs, such as good working conditions:\n\nPfeffer (1994) emphasizes that in order to succeed in a global business environment, organizations must make investment in Human Resource Management (HRM) to allow them to acquire employees who possess better skills and capabilities than their competitors. This investment will be to their competitive advantage. Despite this recognition of the importance of employee development, the hospitality industry has historically been dominated by underdeveloped HR practices (Lucas, 2002).\n\nLucas also points out that 'the substance of HRM practices does not appear to be designed to foster constructive relations with employees or to represent a managerial approach that enables developing and drawing out the full potential of people, even though employees may be broadly satisfied with many aspects of their work' (Lucas, 2002). In addition, or maybe as a result, high employee turnover has been a recurring problem throughout the hospitality industry. Among the many cited reasons are low compensation, inadequate benefits, poor working conditions and compromised employee morale and attitudes (Maroudas et al., 2008).\n\nNg and Sorensen (2008) demonstrated that when managers provide recognition to employees, motivate employees to work together, and remove obstacles preventing effective performance, employees feel more obligated to stay with the company. This was succinctly summarized by Michel et al. (2013): '[P]roviding support to employees gives them the confidence to perform their jobs better and the motivation to stay with the organization.' Hospitality organizations can therefore enhance employee motivation and retention through the development and improvement of their working conditions. These conditions are inherently linked to the working environment.\n\nWhile it seems likely that employees' reactions to their job characteristics could be affected by a predisposition to view their work environment negatively, no evidence exists to support this hypothesis (Spector et al., 2000). However, given the opportunity, many people will find something to complain about in relation to their workplace (Poulston, 2009). There is a strong link between the perceptions of employees and particular factors of their work environment that are separate from the work itself, including company policies, salary and vacations.\n\nSuch conditions are particularly troubling for the luxury hotel market, where high-quality service, requiring a sophisticated approach to HRM, is recognized as a critical source of competitive advantage (Maroudas et al., 2008). In a real sense, the services of 'hotel employees represent their industry (Schneider and Bowen, 1993). This representation has commonly been limited to guest experiences. This suggests that there has been a dichotomy between the guest environment provided in luxury hotels and the working conditions of their employees.\n\nIt is therefore essential for hotel management to develop HRM practices that enable them to inspire and retain competent employees. This requires an understanding of what motivates employees at different levels of management and different stages of their careers (Enz and Siguaw, 2000). This implies that it is beneficial for hotel managers to understand what practices are most favorable to increase employee satisfaction and retention.\n\nHerzberg (1966) proposes that people have two major types of needs, the first being extrinsic motivation factors relating to the context in which work is performed, rather than the work itself. These include working conditions and job security. When these factors are unfavorable, job dissatisfaction may result. Significantly, though, just fulfilling these needs does not result in satisfaction, but only in the reduction of is satisfaction (Maroudas et al., 2008).\n\nEmployees also have intrinsic motivation needs or motivators, which include such factors as achievement and recognition. Unlike extrinsic factors, motivator factors may ideally result in job satisfaction (Maroudas et al., 2008). Herzberg's (1966) theory discusses the need for a 'balance' of these two types of needs.\n\nThe impact of fun as a motivating factor at work has also been explored. For example, Tews, Michel and Stafford (2013) conducted a study focusing on staff from a chain of themed restaurants in the United States. It was found that fun activities had a favorable impact on performance and manager support for fun had a favorable impact in reducing turnover. Their findings support the view that fun may indeed have a beneficial effect, but the framing of that fun must be carefully aligned with both organizational goals and employee characteristics. 'Managers must learn how to achieve the delicate balance of allowing employees the freedom to enjoy themselves at work while simultaneously maintaining high levels of performance' (Tews et al., 2013).\n\nDeery (2008) has recommended several actions that can be adopted at the organizational level to retain good staff as well as assist in balancing work and family life. Those particularly appropriate to the hospitality industry include allowing adequate breaks during the working day, staff functions that involve families, and providing health and well-being opportunities.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "adj_q_grok_b01",
+    "sample_id": "ielts_14_test1_passage3_f278wj_to_l2"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test1_passage3_f278wj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test1_passage3_f278wj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Hotels succeed by getting strong work from employees. How? What Human Resource Management (HRM) practices help firms get and keep great workers?\n\nSome hotels try to give good work conditions to staff. This idea came from non-service jobs. Those jobs stress fun and joy for work-life balance. Service jobs, especially hotels, have not done this much. They ignore basic needs like good work conditions.\n\nPfeffer (1994) says firms must invest in HRM to win in global business. This helps get workers with better skills than rivals. It gives a competitive edge. But the hospitality field has long had weak HR practices (Lucas, 2002).\n\nLucas says HRM practices do not build good ties with workers. They do not help draw out full worker potential. Workers like some parts of their jobs (Lucas, 2002). High turnover is a big issue in hospitality. Reasons include low pay, poor benefits, bad work conditions, and low morale (Maroudas et al., 2008).\n\nNg and Sorensen (2008) showed that praise from managers helps. It makes workers team up and work well. It removes blocks to good work. Workers then feel a duty to stay. Michel et al. (2013) said it well: '[P]roviding support to employees gives them the confidence to perform their jobs better and the motivation to stay with the organization.' Hotels can boost motivation and keep staff by improving work conditions. These link to the work setting.\n\nWorkers may view their jobs in a bad light at first. But no proof shows this (Spector et al., 2000). Still, people often complain about work (Poulston, 2009). Worker views tie to work setting factors. These include policies, pay, and time off. They differ from the job tasks.\n\nBad conditions hurt luxury hotels most. They need top service. This calls for smart HRM. It is key to winning (Maroudas et al., 2008). Hotel staff represent the field (Schneider and Bowen, 1993). This shows in guest care. But guest areas differ from staff work zones in luxury hotels.\n\nHotel leaders must build HRM to inspire and keep good staff. They need to know what motivates workers at all levels and career steps (Enz and Siguaw, 2000). Hotel managers gain from knowing top practices for worker joy and staying power.\n\nHerzberg (1966) says people have two need types. First are extrinsic factors. These tie to work context, not tasks. They include work conditions and job security. Bad ones cause job dislike. Meeting them cuts dislike but does not bring joy (Maroudas et al., 2008).\n\nWorkers also have intrinsic needs or motivators. These include success and praise. Unlike extrinsic ones, they can bring job joy (Maroudas et al., 2008). Herzberg (1966) calls for balance of both types.\n\nStudies look at fun as a work motivator. Tews, Michel and Stafford (2013) studied themed restaurant staff in the US. Fun activities helped performance. Manager backing for fun cut turnover. Fun works if it fits firm goals and worker traits. 'Managers must learn how to achieve the delicate balance of allowing employees the freedom to enjoy themselves at work while simultaneously maintaining high levels of performance' (Tews et al., 2013).\n\nDeery (2008) suggests firm steps to keep good staff. They also help balance work and family. Key ones for hospitality: enough breaks in shifts, family staff events, and health programs.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 871,
+    "sentence_count": 46,
+    "avg_sentence_len": 18.93,
+    "avg_word_len": 5.58,
+    "syllable_count": 1619,
+    "complex_word_count": 76,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 30.36,
+    "flesch_kincaid_grade": 13.73,
+    "ari": 14.34,
+    "coleman_liau": 15.47,
+    "gunning_fog": 11.06
+  },
+  "final_metrics": {
+    "word_count": 551,
+    "sentence_count": 66,
+    "avg_sentence_len": 8.35,
+    "avg_word_len": 4.72,
+    "syllable_count": 807,
+    "complex_word_count": 15,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 74.46,
+    "flesch_kincaid_grade": 4.95,
+    "ari": 4.99,
+    "coleman_liau": 8.42,
+    "gunning_fog": 4.43
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON",
+      "metrics": {
+        "word_count": 871,
+        "sentence_count": 46,
+        "avg_sentence_len": 18.93,
+        "avg_word_len": 5.58,
+        "syllable_count": 1619,
+        "complex_word_count": 76,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 30.36,
+        "flesch_kincaid_grade": 13.73,
+        "ari": 14.34,
+        "coleman_liau": 15.47,
+        "gunning_fog": 11.06
+      },
+      "distance_to_target": 1.2698,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 35,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1421,
+        "completion_tokens": 2188,
+        "total_tokens": 3609,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 551,
+        "sentence_count": 66,
+        "avg_sentence_len": 8.35,
+        "avg_word_len": 4.72,
+        "syllable_count": 807,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 74.46,
+        "flesch_kincaid_grade": 4.95,
+        "ari": 4.99,
+        "coleman_liau": 8.42,
+        "gunning_fog": 4.43
+      },
+      "distance_to_target": 0.3339,
+      "fidelity": {
+        "overall": 0.84,
+        "entity_recall": 0.8,
+        "number_recall": 1,
+        "keyword_recall": 0.65,
+        "entity_total": 35,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2842,
+        "completion_tokens": 3665,
+        "total_tokens": 6507,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 550,
+        "sentence_count": 65,
+        "avg_sentence_len": 8.46,
+        "avg_word_len": 6.11,
+        "syllable_count": 1102,
+        "complex_word_count": 56,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 28.74,
+        "flesch_kincaid_grade": 11.35,
+        "ari": 11.58,
+        "coleman_liau": 16.63,
+        "gunning_fog": 7.46
+      },
+      "distance_to_target": 0.9414,
+      "fidelity": {
+        "overall": 0.9,
+        "entity_recall": 0.8,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 35,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3931,
+        "completion_tokens": 5632,
+        "total_tokens": 9563,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.84,
+    "entity_recall": 0.8,
+    "number_recall": 1,
+    "keyword_recall": 0.65,
+    "entity_total": 35,
+    "number_total": 8,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 5632,
+    "total_tokens": 9563,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-25T21:17:23.863Z"
+}

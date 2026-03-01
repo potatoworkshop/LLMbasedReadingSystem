@@ -1,0 +1,11 @@
+{
+  "experiment_id": "ch5_small_adjust_questions_20260228_214727",
+  "run_tag": "strategy_exec",
+  "batch_id": "adj_q_small_20260228_214727",
+  "source_dataset": "questions",
+  "total_jobs": 2,
+  "success_count": 0,
+  "fail_count": 2,
+  "generated_at": "2026-02-28T19:57:44.082Z",
+  "records": []
+}

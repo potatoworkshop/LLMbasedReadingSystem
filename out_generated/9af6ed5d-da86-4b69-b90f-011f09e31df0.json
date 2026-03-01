@@ -1,0 +1,59 @@
+{
+  "article_id": "9af6ed5d-da86-4b69-b90f-011f09e31df0",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes: Linking Distant Worlds",
+  "article": [
+    "Long ago, traders crossed deserts, mountains, and seas to exchange goods. Ancient trade routes formed networks that connected empires and cultures. These paths carried silk, spices, gold, ivory, and precious stones. Merchants faced dangers like bandits and harsh weather, but the profits were great. Trade routes not only moved items but also ideas, religions, and technologies. They helped build great cities and strong economies.",
+    "The Silk Road was the most famous of these routes. It began in China and ended in the Mediterranean ports of Europe. Named for Chinese silk, it carried many other goods too. Caravans of camels traveled in stages across Central Asia. Cities like Samarkand and Bukhara became busy hubs. Traders swapped silk for horses from the steppes and glassware from Rome. The route opened in the 2nd century BCE during the Han Dynasty. It lasted for over a thousand years until sea travel grew.",
+    "Other routes played key roles as well. The Incense Route crossed the Arabian Desert. Merchants sold frankincense and myrrh from southern Arabia to markets in Egypt and Rome. These resins were used in temples and medicines. Maritime routes linked India, Arabia, and East Africa. Ships sailed the Indian Ocean with monsoon winds. They brought pepper, cinnamon, and cotton. The Amber Road ran from the Baltic Sea to the Mediterranean. It traded amber jewels for Roman silver.",
+    "Ancient trade routes had lasting effects. They spread Buddhism from India to China and beyond. Technologies like papermaking and gunpowder moved west. Languages and art styles mixed in shared markets. Economies grew as rulers taxed trade goods. However, routes also spread diseases like the plague. Today, these paths inspire modern projects like the Belt and Road Initiative. They remind us how trade unites people across distances."
+  ],
+  "metrics": {
+    "word_count": 290,
+    "sentence_count": 31,
+    "avg_sentence_len": 9.35,
+    "avg_word_len": 5.11,
+    "syllable_count": 479,
+    "complex_word_count": 8,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 57.6,
+    "flesch_kincaid_grade": 7.55,
+    "ari": 7.33,
+    "coleman_liau": 11.1,
+    "gunning_fog": 4.85
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "ancient_trade_routes_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:48:27.849Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 10
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 2759,
+    "total_tokens": 3767,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:48:27.850Z"
+}

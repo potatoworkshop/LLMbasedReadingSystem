@@ -1,0 +1,59 @@
+{
+  "article_id": "32d83859-e1a7-45f6-8295-7e6df0e27fd2",
+  "topic": "public transportation",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Public Transportation: Challenges and Opportunities",
+  "article": [
+    "Public transportation plays a central role in the functioning of contemporary cities, shaping patterns of mobility, land use, and social interaction. Reliable transit systems enable commuters to travel efficiently while reducing the need for private cars, which in turn can alleviate congestion and lower urban pollution. Beyond commuting, public transport supports access to education, healthcare and employment, so its reach and quality exert a direct influence on economic opportunity and social equity within metropolitan regions.",
+    "The design and performance of transit networks depend on multiple interrelated factors, including route geometry, service frequency, vehicle capacity and fare policy. Historical investments have favoured either heavy rail, light rail or bus networks in different cities, producing distinctive travel cultures and infrastructure legacies. Ridership levels reflect not only the technical attributes of the system but also demographic trends, land‑use density and the affordability of alternative transport modes. Integrated planning that aligns transit with zoning and pedestrian environments tends to increase patronage and operational efficiency.",
+    "Public transport confers several environmental and economic benefits: it reduces per‑passenger energy use, diminishes greenhouse‑gas emissions and can lower household transportation costs. Nevertheless, agencies face persistent challenges such as underfunding, aging fleets and fluctuating demand. First‑ and last‑mile connectivity is a particular problem in low‑density suburbs, where insufficient feeder services discourage potential users. Service reliability and safety perceptions also shape public willingness to choose transit over private vehicles or ride‑hailing services.",
+    "Future improvements hinge on coordinated policy, technological innovation and targeted investment. Smart ticketing, real‑time passenger information and demand‑responsive microtransit can enhance user experience, while transit‑oriented development can increase density around stations. Equitable funding models and governance reforms are necessary to maintain service quality across diverse neighbourhoods. When planned and managed effectively, public transportation can contribute to more sustainable and inclusive cities."
+  ],
+  "metrics": {
+    "word_count": 301,
+    "sentence_count": 15,
+    "avg_sentence_len": 20.07,
+    "avg_word_len": 6.47,
+    "syllable_count": 650,
+    "complex_word_count": 37,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": 3.78,
+    "flesch_kincaid_grade": 17.72,
+    "ari": 19.09,
+    "coleman_liau": 20.78,
+    "gunning_fog": 12.94
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "public_transportation_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:08:00.248Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 1
+  },
+  "token_usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 1061,
+    "total_tokens": 1241,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:08:00.248Z"
+}

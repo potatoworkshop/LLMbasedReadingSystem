@@ -1,0 +1,140 @@
+{
+  "article_id": "d42eb973-f0ae-4887-b9e7-a74024dbe112",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems constitute the most extensive biome on Earth, encompassing over 70 percent of the planet's surface and harboring an extraordinary diversity of life forms adapted to a spectrum of environmental conditions. From the photic zones of coral reefs, where symbiotic algae provide primary production through photosynthesis, to the aphotic depths of the abyssal plains, these systems exhibit profound gradients in light penetration, temperature, pressure, and nutrient availability. The pelagic realm, dominated by planktonic organisms and nektonic species such as tuna and cetaceans, contrasts sharply with benthic communities anchored to the seafloor, including polychaete worms, echinoderms, and chemosynthetic bacteria thriving around hydrothermal vents. Such vertical stratification fosters specialized niches, where upwelling currents deliver nutrient-rich waters to sustain high productivity in regions like the Benguela Current off southwestern Africa. Moreover, physicochemical parameters like salinity fluctuations in estuarine environments and oxygen minimum zones influence species distributions, underscoring the ecosystems' sensitivity to perturbations in global ocean circulation patterns driven by thermohaline dynamics.\n\nTrophic structures within marine ecosystems reveal complex food webs underpinned by microbial loops and bentho-pelagic coupling. Phytoplankton, primarily diatoms and dinoflagellates, form the base of these networks, channeling solar energy into biomass that cascades through zooplankton herbivores, forage fish, and apex predators. Keystone species, such as sea otters in kelp forests, exert disproportionate control by regulating herbivore populations, thereby preserving habitat complexity and carbon sequestration capacities. Disruptions in these interactions, as evidenced by jellyfish blooms following overfishing of planktivores, can propagate through the web, leading to phase shifts from coral-dominated to algal-dominated reefs. Energy transfer efficiency remains low, typically around 10 percent per trophic level, necessitating vast primary production to support top carnivores like great white sharks, whose wide-ranging migrations highlight connectivity across ocean basins. Symbiotic relationships, including those between clownfish and anemones or chemosynthetic tubeworms and endosymbiotic bacteria, further enhance resilience against environmental stressors.\n\nAnthropogenic pressures increasingly imperil marine ecosystems, with ocean acidification from elevated atmospheric CO2 levels eroding calcifying organisms' shells, such as pteropods critical to salmon food chains. Eutrophication from agricultural runoff triggers hypoxic dead zones, exemplified by the Gulf of Mexico's expansive oxygen-depleted expanse, devastating demersal fisheries. Plastic microplastics ingested by filter-feeders bioaccumulate toxins, disrupting endocrine functions across taxa, while thermal anomalies induce coral bleaching events, as witnessed in the Great Barrier Reef's recurrent mass mortalities. Overexploitation via industrial trawling depletes biodiversity hotspots, collapsing stocks like the North Atlantic cod, and bycatch exacerbates declines in megafauna populations. Climate-driven phenomena, including intensified El Niño oscillations, exacerbate these threats by altering migration routes and spawning grounds, potentially triggering cascading extinctions in tightly coupled systems.\n\nConservation strategies emphasize marine protected areas (MPAs), which, when effectively enforced, restore biomass and genetic diversity, as demonstrated by Palau's no-take zones yielding spillover benefits to adjacent fisheries. Sustainable practices like ecosystem-based fisheries management integrate spatial planning and quotas informed by stock assessments, while international accords such as the UN Convention on Biological Diversity advocate for 30 percent ocean protection by 2030. Technological innovations, including acoustic monitoring and eDNA sampling, facilitate precise biodiversity inventories, informing adaptive management amid accelerating climate change. Ultimately, mitigating these pressures demands holistic governance transcending national boundaries to safeguard marine ecosystems' provisioning, regulatory, and cultural services essential for human well-being.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_27257511-4248-4cb3-88f7-c1bc2f51ffb5_to_l4_r4_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "27257511-4248-4cb3-88f7-c1bc2f51ffb5",
+    "source_dataset": "generated",
+    "source_file": "27257511-4248-4cb3-88f7-c1bc2f51ffb5.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems form Earth's largest biome. They cover over 70 percent of the planet's surface. They hold a great variety of life forms. These life forms adapt to many environmental conditions. Sunlit areas of coral reefs get light. Partner algae there make food using sunlight. Dark depths of deep plains get no light. These areas show big changes in light, heat, pressure, and food. Open water has drifting life and swimming animals like tuna and cetaceans. Seafloor groups stay fixed on the bottom. They include polychaete worms, echinoderms, and chemical-making bacteria near hydrothermal vents. These differ a lot. This up-down layering creates unique spots. Rising currents bring nutrient-full water. This supports high growth in areas like the Benguela Current off southwestern Africa. Physical and chemical factors matter too. Salt changes in river-mouth areas affect animals. Oxygen minimum zones do too. This shows weakness to changes in world ocean currents from salt-heat flows.\n\nFood chains in ocean habitats show complex webs. Tiny life loops support them. Seafloor and water layers connect too. Tiny plants like diatoms and dinoflagellates form the base. They turn sun energy into food mass. This food goes to small animals, small fish, and top hunters. Key species like sea otters in kelp forests control much. They limit plant-eaters. This keeps homes complex and stores carbon. Changes in links hurt. Jellyfish booms follow overfishing of small fish eaters. This spreads. It changes reefs from coral to algae control. Energy transfer efficiency remains low, typically around 10 percent per trophic level, necessitating vast primary production to support top carnivores like great white sharks, whose wide-ranging migrations highlight connectivity across ocean basins. Symbiotic relationships, including those between clownfish and anemones or chemosynthetic tubeworms and endosymbiotic bacteria, further enhance resilience against environmental stressors.\n\nHuman actions threaten ocean habitats more. Ocean acid from extra air CO2 eats shells of shell-makers. Pteropods need salmon food chains. Eutrophication from agricultural runoff triggers hypoxic dead zones, exemplified by the Gulf of Mexico's expansive oxygen-depleted expanse, devastating demersal fisheries. Plastic microplastics ingested by filter-feeders bioaccumulate toxins, disrupting endocrine functions across taxa, while thermal anomalies induce coral bleaching events, as witnessed in the Great Barrier Reef's recurrent mass mortalities. Overexploitation via industrial trawling depletes biodiversity hotspots, collapsing stocks like the North Atlantic cod, and bycatch exacerbates declines in megafauna populations. Climate-driven phenomena, including intensified El Niño oscillations, exacerbate these threats by altering migration routes and spawning grounds, potentially triggering cascading extinctions in tightly coupled systems.\n\nConservation strategies emphasize marine protected areas (MPAs), which, when effectively enforced, restore biomass and genetic diversity, as demonstrated by Palau's no-take zones yielding spillover benefits to adjacent fisheries. Sustainable practices like ecosystem-based fisheries management integrate spatial planning and quotas informed by stock assessments, while international accords such as the UN Convention on Biological Diversity advocate for 30 percent ocean protection by 2030. Technological innovations, including acoustic monitoring and eDNA sampling, facilitate precise biodiversity inventories, informing adaptive management amid accelerating climate change. Ultimately, mitigating these pressures demands holistic governance transcending national boundaries to safeguard marine ecosystems' provisioning, regulatory, and cultural services essential for human well-being.",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 541,
+    "sentence_count": 20,
+    "avg_sentence_len": 27.05,
+    "avg_word_len": 6.87,
+    "syllable_count": 1254,
+    "complex_word_count": 90,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -16.72,
+    "flesch_kincaid_grade": 22.31,
+    "ari": 24.45,
+    "coleman_liau": 23.49,
+    "gunning_fog": 17.47
+  },
+  "final_metrics": {
+    "word_count": 527,
+    "sentence_count": 45,
+    "avg_sentence_len": 11.71,
+    "avg_word_len": 6.08,
+    "syllable_count": 1042,
+    "complex_word_count": 53,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 27.67,
+    "flesch_kincaid_grade": 12.31,
+    "ari": 13.05,
+    "coleman_liau": 17.41,
+    "gunning_fog": 8.71
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary syntactic simplification: split long complex sentences into shorter simpler ones|applied_edits=10|tier=dist_gt_2;dist=8.9300;center_gap=8.41;mode=both;dominant=word;dir_changed=0;wb=80;sb=7;est_wb=80;est_sb=7;lf=0.95;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 527,
+        "sentence_count": 45,
+        "avg_sentence_len": 11.71,
+        "avg_word_len": 6.08,
+        "syllable_count": 1042,
+        "complex_word_count": 53,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 27.67,
+        "flesch_kincaid_grade": 12.31,
+        "ari": 13.05,
+        "coleman_liau": 17.41,
+        "gunning_fog": 8.71
+      },
+      "distance_to_target": 0.13,
+      "fidelity": {
+        "overall": 0.87,
+        "entity_recall": 0.7333,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 30,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1418,
+        "completion_tokens": 3763,
+        "total_tokens": 5181,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.87,
+    "entity_recall": 0.7333,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 30,
+    "number_total": 4,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 3763,
+    "total_tokens": 5181,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:23:54.668Z"
+}

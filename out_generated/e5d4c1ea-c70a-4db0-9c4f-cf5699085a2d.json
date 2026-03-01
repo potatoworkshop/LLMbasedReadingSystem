@@ -1,0 +1,60 @@
+{
+  "article_id": "e5d4c1ea-c70a-4db0-9c4f-cf5699085a2d",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate change affects the whole world. Temperatures are rising. Storms are getting stronger. Sea levels go up. Droughts last longer in some places. Floods hit others hard. These changes hurt people. They harm animals and plants too. Farmers lose their crops. Homes get washed away. Many people face danger. So, we must adapt to these changes. Adaptation means making smart changes in how we live and work. It helps us stay safe and keep going. Adaptation is different from mitigation. Mitigation tries to slow climate change. Adaptation deals with problems we see now. For example, cities build higher walls to stop floods. This protects homes and roads. Adaptation saves lives. It also saves money in the long run. Everyone can play a part. Governments make plans. People change daily habits. Together, we build a stronger future.",
+    "Farmers adapt in many ways. They pick seeds that grow well in hot, dry weather. These seeds need less water. Farmers also use drip systems to save water. This way, crops grow even when rain is scarce. In Africa, some farmers plant trees around fields. Trees give shade. They stop soil from washing away. Yields go up. Food stays on the table. Cities adapt too. They plant green roofs on buildings. Green roofs cool the air. They hold rain water. This cuts down on floods. Parks and trees make shade. People feel cooler in summer. Heat waves hurt less. Coastal towns build sea walls. They raise roads and homes. This fights rising seas. Islands like Kiribati plan to move people. They find new safe land. These steps work because leaders plan ahead. They listen to experts. They use science to guide choices.",
+    "People in homes adapt every day. They use fans and open windows to stay cool. They paint homes white to reflect heat. Insulated walls keep heat out. In winter, they trap warmth inside. Water saving starts at home. Short showers use less water. Low-flow taps help too. Rain barrels catch roof water for gardens. This cuts water bills. Schools teach kids these ways. Children learn to recycle. They plant school gardens. This builds good habits early. Businesses adapt by going green. Factories use less energy. They switch to solar power. Offices have bike racks. Workers walk or bike to work. This cuts car use. It lowers pollution. Governments help with laws and money. They fund new tech. They build strong bridges and dams. Bangladesh shows success. They raise homes on stilts. They dig ponds for fish during floods. Lives are saved. Crops recover fast.",
+    "Success stories give hope. The Netherlands fights the sea with dikes. These big walls hold back water. Pumps remove extra water fast. Their land stays dry. Australia helps the Great Barrier Reef. They cut farm runoff. Cleaner water aids coral. It fights bleaching from heat. Vietnam plants mangroves along shores. Mangroves block storm waves. They grow fish too. Nature and people win. These places adapt well because they act early. They work as teams. Local people join in. Experts share knowledge. Money comes from home and abroad. Challenges remain. Poor places need more help. Rich nations must share tech and funds. Adaptation costs money now. But it stops bigger losses later.",
+    "The future can be bright with good adaptation. We must speed up efforts. Learn from wins and fails. Use new tools like apps for weather alerts. Train more people in green jobs. Kids grow up ready for change. World leaders meet to plan. They set goals like the Paris Agreement. But adaptation needs local action too. You can start today. Plant a tree. Save energy. Talk to friends. Every step counts. Climate change is here. We can live with it. Adaptation makes us strong. It keeps our world livable for all."
+  ],
+  "metrics": {
+    "word_count": 625,
+    "sentence_count": 121,
+    "avg_sentence_len": 5.17,
+    "avg_word_len": 4.7,
+    "syllable_count": 860,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 85.18,
+    "flesch_kincaid_grade": 2.66,
+    "ari": 3.29,
+    "coleman_liau": 6.11,
+    "gunning_fog": 2.83
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "climate_adaptation_l1_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:39:01.705Z",
+    "effective_target_words": 840,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 756,
+      "upper": 1008
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 25
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 3454,
+    "total_tokens": 4462,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:39:01.706Z"
+}

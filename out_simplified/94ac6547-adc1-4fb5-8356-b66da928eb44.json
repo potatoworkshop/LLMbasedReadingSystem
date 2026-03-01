@@ -1,0 +1,176 @@
+{
+  "article_id": "94ac6547-adc1-4fb5-8356-b66da928eb44",
+  "mode": "difficulty_adjust",
+  "original_article": "27\n\nA Organisation is big business. Whether it is of our lives - all those inboxes and calendars or how companies are structured, a multi-billion dollar industry helps to meet this need.\n\nWe have more strategies for time management, project management and self-organisation than at any other time in human history. We are told that we ought to organise our company, our home life, our week, our day and even our sleep, all as a means to becoming more productive. Every week, countless seminars and workshops take place around the world to tell a paying public that they ought to structure their lives in order to achieve this,\n\nThis rhetoric has also crept into the thinking of business leaders and entrepreneurs, much to the delight of self-proclaimed perfectionists with the need to get everything right. The number of business schools and graduates has massively increased over the past 50 years, essentially teaching people how to organise well.\n\n28\n\nB Ironically however, the number of businesses that fail has also steadily increased. Work-related stress has increased. A large proportion of workers from all demographics claim to be dissatisfied with the way their work is structured and the way they are managed.\n\nThis begs the question: what has gone wrong? Why is it that on paper the drive for organisation seems a sure shot for increasing productivity, but in reality falls well short of what is expected?\n\n29\n\nC This has been a problem for a while now. Frederick Taylor was one of the forefathers of scientific management. Writing in the first half of the 20th century, he designed a number of principles to improve the efficiency of the work process, which have since become widespread in modern companies. So the approach has been around for a while.\n\n30\n\nD New research suggests that this obsession with efficiency is misguided. The problem is not necessarily the management theories or strategies we use to organise our work; it's the basic assumptions we hold in approaching how we work. Here it's the assumption that order is a necessary condition for productivity. This assumption has also fostered the idea that disorder must be detrimental to organisational productivity. The result is that businesses and people spend time and money organising themselves for the sake of organising, rather than actually looking at the end goal and usefulness of such an effort.\n\n31\n\nE What's more, recent studies show that order actually has diminishing returns. Order does increase productivity to a certain extent, but eventually the usefulness of the process of organisation, and the benefit it yields, reduce until the point where any further increase in order reduces productivity. Some argue that in a business, if the cost of formally structuring something outweighs the benefit of doing it, then that thing ought not to be formally structured. Instead, the resources involved can be better used elsewhere.\n\n32\n\nF In fact, research shows that, when innovating, the best approach is to create an environment devoid of structure and hierarchy and enable everyone involved to engage as one organic group. These environments can lead to new solutions that, under conventionally structured environments (filled with bottlenecks in terms of information flow, power structures, rules, and routines) would never be reached.\n\n33\n\nG In recent times companies have slowly started to embrace this disorganisation. Many of them embrace it in terms of perception (embracing the idea of disorder, as opposed to fearing it) and in terms of process (putting mechanisms in place to reduce structure).For example, Oticon, a large Danish manufacturer of hearing aids, used what it called a. spaghetti structure in order to reduce the organisation's rigid hierarchies. This involved scrapping formal job titles and giving staff huge amounts of ownership over their own time and projects. This approach proved to be highly successful initially, with clear improvements in worker productivity in all facets of the business.\n\nIn similar fashion, the former chairman of General Electric embraced disorganisation, putting forward the idea of the 'boundaryless' organisation. Again, it involves breaking down the barriers between different parts of a company and encouraging virtual collaboration and flexible working. Google and a number of other tech. companies have embraced (at least in part) these kinds of flexible structures, facilitated by technology and strong company values which glue people together.\n\n34\n\nH A word of warning to others thinking of jumping on this bandwagon: the evidence so far suggests disorder, much like order, also seems to have diminishing utility, and can also have detrimental effects on performance if overused. Like order, disorder should be embraced only so far as it is useful. But we should not fear it - nor venerate one over the other. This research also shows that we should continually question whether or not our existing assumptions work.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb02",
+    "sample_id": "questions_ielts_14_test2_passage3_827asj_to_l2_r3_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test2_passage3_827asj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test2_passage3_827asj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "27\n\nA Organization is big business. Whether it is of our lives - all those inboxes and calendars or how companies are structured, a big industry worth billions helps to meet this need.\n\nWe have more plans for managing time, projects, and ourselves than ever before. We are told to organize our company, home life, week, day, and even sleep. This is said to make us more productive. Every week, many classes and meetings take place around the world to tell a paying public that they ought to structure their lives in order to achieve this,\n\nThis talk has also entered the thinking of business leaders and entrepreneurs, much to the delight of self-proclaimed perfectionists with the need to get everything right. The number of business schools and graduates has greatly increased over the past 50 years, essentially teaching people how to organise well.\n\n28\n\nB Oddly however, the number of businesses that fail has also slowly and surely increased. Work-related stress has increased. A large proportion of workers from all groups claim to be unhappy with the way their work is structured and the way they are managed.\n\nThis makes us ask: what has gone wrong? Why is it that on paper the drive for organisation seems a sure shot for increasing productivity, but in reality falls well short of what is expected?\n\n29\n\nC This has been a problem for a while now. Frederick Taylor was one of the early leaders of scientific management. Writing in the first half of the 20th century, he designed a number of rules to improve the working well of the work process, which have since become common in modern companies. So the approach has been around for a while.\n\n30\n\nD New research suggests that this strong focus with efficiency is wrong. The problem is not necessarily the management theories or strategies we use to organise our work; it's the basic beliefs we hold in approaching how we work. Here it's the assumption that order is a needed thing for productivity. This assumption has also helped grow the idea that disorder must be bad to organisational productivity. So, businesses and people spend time and money organizing just to organize. They do not look at the end goal or how useful it is.\n\n31\n\nE What's more, recent studies show that order actually has less and less benefit. Order does raise productivity to a point. But eventually, the usefulness of organizing and the benefit it gives get smaller. After a point, more order lowers productivity. Some argue that in a business, if the cost of formally structuring something is greater than the benefit of doing it, then that thing ought not to be formally structured. Instead, the time and money involved can be better used elsewhere.\n\n32\n\nF In fact, research shows that, when innovating, the best approach is to create an environment without structure and levels of power and enable everyone involved to engage as one unified team. These environments can lead to new solutions that, under normally structured environments (filled with slow points in terms of information flow, power structures, rules, and habits) would never be reached.\n\n33\n\nG In recent times companies have slowly started to accept this lack of organization. Many accept it in their thinking. They accept the idea of disorder instead of fearing it. They also accept it in process by putting ways in place to reduce structure.For example, Oticon, a large Danish manufacturer of hearing aids, used what it called a. spaghetti structure in order to reduce the organisation's strict hierarchies. This involved getting rid of formal job titles and giving staff huge amounts of control over their own time and projects. This approach proved to be highly successful initially, with clear improvements in worker productivity in all parts of the business.\n\nIn similar fashion, the former chairman of General Electric embraced disorganisation, putting forward the idea of the 'without boundaries' organisation. Again, it involves breaking down the walls between different parts of a company and encouraging online teamwork and flexible working. Google and a number of other tech. companies have embraced (at least in part) these kinds of flexible structures, made easier by technology and strong company values which hold people together.\n\n34\n\nH A word of warning to others thinking of jumping on this trend: the evidence so far suggests disorder, much like order, also seems to have diminishing usefulness, and can also have detrimental effects on how well they do if overused. Like order, disorder should be accepted only when it is useful. But we should not fear it - nor value highly one over the other. This research also shows we should always ask if our current beliefs work.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 799,
+    "sentence_count": 40,
+    "avg_sentence_len": 19.98,
+    "avg_word_len": 5.08,
+    "syllable_count": 1375,
+    "complex_word_count": 57,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 40.97,
+    "flesch_kincaid_grade": 12.51,
+    "ari": 12.48,
+    "coleman_liau": 12.59,
+    "gunning_fog": 10.84
+  },
+  "final_metrics": {
+    "word_count": 788,
+    "sentence_count": 46,
+    "avg_sentence_len": 17.13,
+    "avg_word_len": 4.81,
+    "syllable_count": 1272,
+    "complex_word_count": 38,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 52.89,
+    "flesch_kincaid_grade": 10.14,
+    "ari": 9.81,
+    "coleman_liau": 10.78,
+    "gunning_fog": 8.78
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:Failed to parse JSON|tier=coarse_jump;dist=3.1050;dir=simpler;est_wb=80;est_sb=11",
+      "metrics": {
+        "word_count": 799,
+        "sentence_count": 40,
+        "avg_sentence_len": 19.98,
+        "avg_word_len": 5.08,
+        "syllable_count": 1375,
+        "complex_word_count": 57,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 40.97,
+        "flesch_kincaid_grade": 12.51,
+        "ari": 12.48,
+        "coleman_liau": 12.59,
+        "gunning_fog": 10.84
+      },
+      "distance_to_target": 3.105,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 24,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1561,
+        "completion_tokens": 6635,
+        "total_tokens": 8196,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=A BALANCED approach combining both LEXICAL and SYNTACTIC strategies|applied_edits=52|tier=dist_gt_2;dist=3.1050;center_gap=2.94;mode=both;dominant=word;dir_changed=0;wb=52;sb=14;est_wb=80;est_sb=11;lf=1.15;df=2.10;af=1.0000;pg=3.1050;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 788,
+        "sentence_count": 46,
+        "avg_sentence_len": 17.13,
+        "avg_word_len": 4.81,
+        "syllable_count": 1272,
+        "complex_word_count": 38,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 52.89,
+        "flesch_kincaid_grade": 10.14,
+        "ari": 9.81,
+        "coleman_liau": 10.78,
+        "gunning_fog": 8.78
+      },
+      "distance_to_target": 0.8775,
+      "fidelity": {
+        "overall": 0.9812,
+        "entity_recall": 0.9583,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 24,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3204,
+        "completion_tokens": 12386,
+        "total_tokens": 15590,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9812,
+    "entity_recall": 0.9583,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 24,
+    "number_total": 9,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 12386,
+    "total_tokens": 15590,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T17:17:54.517Z"
+}

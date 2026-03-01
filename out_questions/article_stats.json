@@ -1,5 +1,15 @@
 {
   "total": 65,
+  "summary": {
+    "flesch_kincaid_grade": 12.649523,
+    "flesch_reading_ease": 45.800353,
+    "ari": 13.325149,
+    "coleman_liau": 11.762853,
+    "gunning_fog": 11.329253,
+    "ttr": 0.454466,
+    "root_ttr": 13.565686,
+    "mean_abstractness": 3.563378
+  },
   "articles": [
     {
       "file": "ielts_13_test1_passage1_b1idvj.json",

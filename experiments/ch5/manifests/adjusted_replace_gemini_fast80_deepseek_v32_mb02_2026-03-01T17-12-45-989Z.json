@@ -1,0 +1,201 @@
+{
+  "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+  "run_tag": "replace_gemini_fast80_deepseek_v32",
+  "batch_id": "replace_gemini_fast80_deepseek_v32_mb02",
+  "micro_batch_index": 2,
+  "total_jobs": 10,
+  "success_count": 7,
+  "fail_count": 3,
+  "generated_at": "2026-03-01T17:46:20.677Z",
+  "records": [
+    {
+      "ts": "2026-03-01T17:22:27.111Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 2,
+      "total": 10,
+      "article_id": "e8c6e97e-f1e7-4054-ad0c-44972d9484d6",
+      "sample_id": "questions_ielts_14_test3_passage1_927bfj_to_l2_r4_deepseek_deepseek-v3.2",
+      "target_level": 2,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test3_passage1_927bfj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test3_passage1_927bfj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9386,
+      "token_usage": {
+        "prompt_tokens": 1375,
+        "completion_tokens": 3477,
+        "total_tokens": 4852,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 273760
+    },
+    {
+      "ts": "2026-03-01T17:26:20.240Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 3,
+      "total": 10,
+      "article_id": "54baf8e5-d30f-4ce3-b5b4-1d811cd0b822",
+      "sample_id": "questions_ielts_14_test3_passage3_527cnj_to_l2_r5_deepseek_deepseek-v3.2",
+      "target_level": 2,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test3_passage3_527cnj",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test3_passage3_527cnj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.9888,
+      "token_usage": {
+        "prompt_tokens": 3341,
+        "completion_tokens": 10466,
+        "total_tokens": 13807,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 233128
+    },
+    {
+      "ts": "2026-03-01T17:29:17.474Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 4,
+      "total": 10,
+      "article_id": "b4a935a3-2224-475a-ab0b-143333ff3c02",
+      "sample_id": "questions_ielts_14_test4_passage1_c27d7j_to_l2_r6_deepseek_deepseek-v3.2",
+      "target_level": 2,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_14_test4_passage1_c27d7j",
+        "source_dataset": "questions",
+        "source_file": "ielts_14_test4_passage1_c27d7j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.975,
+      "token_usage": {
+        "prompt_tokens": 3290,
+        "completion_tokens": 6801,
+        "total_tokens": 10091,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 177234
+    },
+    {
+      "ts": "2026-03-01T17:39:58.425Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 7,
+      "total": 10,
+      "article_id": "d95d95c4-1a82-4452-8c5a-829884f549ea",
+      "sample_id": "questions_ielts_15_test1_passage1_727epj_to_l3_r1_deepseek_deepseek-v3.2",
+      "target_level": 3,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test1_passage1_727epj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test1_passage1_727epj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9936,
+      "token_usage": {
+        "prompt_tokens": 1770,
+        "completion_tokens": 1003,
+        "total_tokens": 2773,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 26543
+    },
+    {
+      "ts": "2026-03-01T17:40:45.544Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 8,
+      "total": 10,
+      "article_id": "a635c043-4627-44fe-a541-9e662c5984ce",
+      "sample_id": "questions_ielts_15_test1_passage3_e27fnj_to_l3_r2_deepseek_deepseek-v3.2",
+      "target_level": 3,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test1_passage3_e27fnj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test1_passage3_e27fnj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.971,
+      "token_usage": {
+        "prompt_tokens": 1760,
+        "completion_tokens": 1853,
+        "total_tokens": 3613,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 47119
+    },
+    {
+      "ts": "2026-03-01T17:45:08.438Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 9,
+      "total": 10,
+      "article_id": "09b5c00f-0ef8-4611-821c-eb3378452c46",
+      "sample_id": "questions_ielts_15_test2_passage3_827h2j_to_l3_r3_deepseek_deepseek-v3.2",
+      "target_level": 3,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test2_passage3_827h2j",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test2_passage3_827h2j.json"
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.925,
+      "token_usage": {
+        "prompt_tokens": 3570,
+        "completion_tokens": 11541,
+        "total_tokens": 15111,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 262894
+    },
+    {
+      "ts": "2026-03-01T17:46:20.677Z",
+      "ok": true,
+      "micro_batch_index": 2,
+      "index": 10,
+      "total": 10,
+      "article_id": "e084ee5a-69cb-49a3-8d03-dd2321bdf4d9",
+      "sample_id": "questions_ielts_15_test3_passage1_e27hmj_to_l3_r4_deepseek_deepseek-v3.2",
+      "target_level": 3,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "ielts_15_test3_passage1_e27hmj",
+        "source_dataset": "questions",
+        "source_file": "ielts_15_test3_passage1_e27hmj.json"
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 1416,
+        "completion_tokens": 919,
+        "total_tokens": 2335,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 72239
+    }
+  ]
+}

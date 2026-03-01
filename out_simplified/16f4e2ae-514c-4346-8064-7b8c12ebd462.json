@@ -1,0 +1,207 @@
+{
+  "article_id": "16f4e2ae-514c-4346-8064-7b8c12ebd462",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems make up the largest living spaces on Earth. They cover more than 70 percent of the planet's surface. Oceans, seas, and coastal zones form these vast habitats. A wide range of life thrives here. Tiny plankton float near the surface. Large whales swim in the deep waters. Seaweed and algae grow in shallow areas. These plants and small creatures support the entire food web.\n\nDifferent types of marine ecosystems exist around the world. Coral reefs stand out for their bright colors and rich life. They shelter thousands of fish species and other animals. Kelp forests sway in cooler waters. These tall seaweeds offer homes to sea otters, seals, and many fish. The open ocean stretches far and wide. Its surface layer gets plenty of sunlight. Deeper zones grow dark and cold. Unique creatures like anglerfish live there with glowing lures.\n\nMarine ecosystems play key roles for life on Earth. Phytoplankton, small ocean plants, produce about half of the world's oxygen. Fish and seafood feed billions of people. Many medicines come from sea creatures. Coral reefs protect coastlines from storms. They also draw tourists for jobs and income. Healthy oceans help control the climate. They absorb heat and carbon dioxide from the air.\n\nSadly, these ecosystems face serious threats. Overfishing removes too many fish. Plastic waste harms wildlife. Marine animals mistake bags for food. Warmer waters cause coral bleaching. Corals lose their color and die. Ocean acidification makes shells harder to build for crabs and oysters. Pollution from rivers adds dirt and chemicals.\n\nPeople work to protect marine ecosystems. Marine protected areas ban fishing in key spots. Sustainable fishing limits catches. Clean-up efforts remove trash from beaches and seas. International rules fight illegal fishing. Education teaches everyone about ocean care. These steps help marine life recover and stay strong for the future.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "d51f3924-e8ce-4e7d-9e08-01ba9957d987_to_l1"
+  },
+  "source": {
+    "source_article_id": "d51f3924-e8ce-4e7d-9e08-01ba9957d987",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "d51f3924-e8ce-4e7d-9e08-01ba9957d987.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems are the largest homes on Earth. They cover more than 70 percent of the planet's surface. Oceans, seas, and coastal zones make these big homes. Many types of life live here. Tiny plankton float near the surface. Large whales swim in deep waters. Seaweed and algae grow in shallow areas. These plants and small creatures feed the whole food web.\n\nDifferent types of marine ecosystems live around the world. Coral reefs have bright colors and rich life. They give homes to thousands of fish species and other animals. Kelp forests grow in cooler waters. These tall seaweeds give homes to sea otters, seals, and many fish. The open ocean goes far and wide. Its top layer gets lots of sunlight. Deeper zones get dark and cold. Special creatures like anglerfish live there. They have glowing lures.\n\nMarine ecosystems help life on Earth. Phytoplankton are small ocean plants. They make about half of the world's oxygen. Fish and seafood feed billions of people. Many medicines come from sea creatures. Coral reefs guard coastlines from storms. They also bring tourists for jobs and money. Healthy oceans help control the climate. They take in heat and carbon dioxide from the air.\n\nSadly, these ecosystems face big threats. Overfishing takes too many fish. Plastic waste hurts wildlife. Marine animals think bags are food. Warmer waters cause coral bleaching. Corals lose their color and die. Ocean acidification makes shells hard to build for crabs and oysters. Pollution from rivers adds dirt and chemicals.\n\nPeople work to save marine ecosystems. Marine protected areas ban fishing in key spots. Sustainable fishing limits catches. Clean-up efforts remove trash from beaches and seas. International rules fight illegal fishing. Education teaches ocean care. These steps help marine life get better and stay strong.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Very Easy",
+    "rewrite_guidance": "Use very common words, short declarative sentences, and explicit logical links.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        4,
+        6.5
+      ],
+      "flesch_reading_ease": [
+        70,
+        90
+      ],
+      "avg_sentence_len": [
+        8,
+        14
+      ],
+      "complex_word_ratio": [
+        0.02,
+        0.08
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 304,
+    "sentence_count": 40,
+    "avg_sentence_len": 7.6,
+    "avg_word_len": 5.16,
+    "syllable_count": 485,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 64.15,
+    "flesch_kincaid_grade": 6.2,
+    "ari": 6.69,
+    "coleman_liau": 10.67,
+    "gunning_fog": 4.36
+  },
+  "final_metrics": {
+    "word_count": 296,
+    "sentence_count": 42,
+    "avg_sentence_len": 7.05,
+    "avg_word_len": 5.01,
+    "syllable_count": 454,
+    "complex_word_count": 10,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 69.92,
+    "flesch_kincaid_grade": 5.26,
+    "ari": 5.69,
+    "coleman_liau": 9.46,
+    "gunning_fog": 4.17
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 296,
+        "sentence_count": 42,
+        "avg_sentence_len": 7.05,
+        "avg_word_len": 5.01,
+        "syllable_count": 454,
+        "complex_word_count": 10,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 69.92,
+        "flesch_kincaid_grade": 5.26,
+        "ari": 5.69,
+        "coleman_liau": 9.46,
+        "gunning_fog": 4.17
+      },
+      "distance_to_target": 0.0406,
+      "fidelity": {
+        "overall": 0.9845,
+        "entity_recall": 0.9655,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 732,
+        "completion_tokens": 1560,
+        "total_tokens": 2292,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 296,
+        "sentence_count": 42,
+        "avg_sentence_len": 7.05,
+        "avg_word_len": 5.01,
+        "syllable_count": 454,
+        "complex_word_count": 10,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 69.92,
+        "flesch_kincaid_grade": 5.26,
+        "ari": 5.69,
+        "coleman_liau": 9.46,
+        "gunning_fog": 4.17
+      },
+      "distance_to_target": 0.0406,
+      "fidelity": {
+        "overall": 0.9845,
+        "entity_recall": 0.9655,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1456,
+        "completion_tokens": 3119,
+        "total_tokens": 4575,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 296,
+        "sentence_count": 42,
+        "avg_sentence_len": 7.05,
+        "avg_word_len": 5.01,
+        "syllable_count": 454,
+        "complex_word_count": 10,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 69.92,
+        "flesch_kincaid_grade": 5.26,
+        "ari": 5.69,
+        "coleman_liau": 9.46,
+        "gunning_fog": 4.17
+      },
+      "distance_to_target": 0.0406,
+      "fidelity": {
+        "overall": 0.9845,
+        "entity_recall": 0.9655,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 29,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2180,
+        "completion_tokens": 4692,
+        "total_tokens": 6872,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9845,
+    "entity_recall": 0.9655,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 29,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2180,
+    "completion_tokens": 4692,
+    "total_tokens": 6872,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:43:22.433Z"
+}

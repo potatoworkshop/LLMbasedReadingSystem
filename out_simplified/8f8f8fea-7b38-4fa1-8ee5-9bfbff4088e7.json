@@ -1,0 +1,140 @@
+{
+  "article_id": "8f8f8fea-7b38-4fa1-8ee5-9bfbff4088e7",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation plays a central role in the functioning of contemporary cities, shaping patterns of mobility, land use, and social interaction. Reliable transit systems enable commuters to travel efficiently while reducing the need for private cars, which in turn can alleviate congestion and lower urban pollution. Beyond commuting, public transport supports access to education, healthcare and employment, so its reach and quality exert a direct influence on economic opportunity and social equity within metropolitan regions.\n\nThe design and performance of transit networks depend on multiple interrelated factors, including route geometry, service frequency, vehicle capacity and fare policy. Historical investments have favoured either heavy rail, light rail or bus networks in different cities, producing distinctive travel cultures and infrastructure legacies. Ridership levels reflect not only the technical attributes of the system but also demographic trends, land‑use density and the affordability of alternative transport modes. Integrated planning that aligns transit with zoning and pedestrian environments tends to increase patronage and operational efficiency.\n\nPublic transport confers several environmental and economic benefits: it reduces per‑passenger energy use, diminishes greenhouse‑gas emissions and can lower household transportation costs. Nevertheless, agencies face persistent challenges such as underfunding, aging fleets and fluctuating demand. First‑ and last‑mile connectivity is a particular problem in low‑density suburbs, where insufficient feeder services discourage potential users. Service reliability and safety perceptions also shape public willingness to choose transit over private vehicles or ride‑hailing services.\n\nFuture improvements hinge on coordinated policy, technological innovation and targeted investment. Smart ticketing, real‑time passenger information and demand‑responsive microtransit can enhance user experience, while transit‑oriented development can increase density around stations. Equitable funding models and governance reforms are necessary to maintain service quality across diverse neighbourhoods. When planned and managed effectively, public transportation can contribute to more sustainable and inclusive cities.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb07",
+    "sample_id": "generated_32d83859-e1a7-45f6-8295-7e6df0e27fd2_to_l5_r2_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "32d83859-e1a7-45f6-8295-7e6df0e27fd2",
+    "source_dataset": "generated",
+    "source_file": "32d83859-e1a7-45f6-8295-7e6df0e27fd2.json",
+    "source_level": 3
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation plays a key role in the functioning of contemporary cities, shaping patterns of mobility, land use, and social interaction. Dependable transit systems enable commuters to travel efficiently while reducing the need for private cars, which in turn can ease congestion and lower urban pollution. Beyond commuting, public transport supports access to education, healthcare and employment, so its reach and quality exert a direct influence on economic opportunity and social equity within metropolitan regions.\n\nThe design and performance of transit networks depend on multiple interrelated factors, including route geometry, service frequency, vehicle capacity and fare policy. Historical investments have favoured either heavy rail, light rail or bus networks in different cities, producing distinctive travel cultures and infrastructure legacies. Ridership levels reflect not only the technical attributes of the system but also demographic trends, land‑use density and the affordability of alternative transport modes. Integrated planning that aligns transit with zoning and pedestrian environments tends to increase patronage and operational efficiency.\n\nPublic transport confers several environmental and economic benefits: it reduces per‑passenger energy use, diminishes greenhouse‑gas emissions and can lower household transportation costs. Nevertheless, agencies face persistent challenges such as underfunding, aging fleets and fluctuating demand. First‑ and last‑mile connectivity is a particular problem in low‑density suburbs. Insufficient feeder services there discourage potential users. Service reliability and safety perceptions also shape public willingness to choose transit over private vehicles or ride‑hailing services.\n\nFuture improvements hinge on coordinated policy, technological innovation and targeted investment. Smart ticketing, real‑time passenger information and demand‑responsive microtransit can enhance user experience, while transit‑oriented development can increase density around stations. Equitable funding models and governance reforms are necessary to maintain service quality across diverse neighbourhoods. When planned and managed effectively, public transportation can contribute to more sustainable and inclusive cities.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 301,
+    "sentence_count": 15,
+    "avg_sentence_len": 20.07,
+    "avg_word_len": 6.47,
+    "syllable_count": 650,
+    "complex_word_count": 37,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": 3.78,
+    "flesch_kincaid_grade": 17.72,
+    "ari": 19.09,
+    "coleman_liau": 20.78,
+    "gunning_fog": 12.94
+  },
+  "final_metrics": {
+    "word_count": 301,
+    "sentence_count": 16,
+    "avg_sentence_len": 18.81,
+    "avg_word_len": 6.45,
+    "syllable_count": 648,
+    "complex_word_count": 37,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": 5.61,
+    "flesch_kincaid_grade": 17.15,
+    "ari": 18.35,
+    "coleman_liau": 20.54,
+    "gunning_fog": 12.44
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED approach: few lexical substitutions plus one targeted sentence split to improve readability|applied_edits=4|tier=dist_lt_1;dist=0.2108;center_gap=2.29;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=11;sb=1;est_wb=25;est_sb=3;lf=0.71;df=1.01;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 301,
+        "sentence_count": 16,
+        "avg_sentence_len": 18.81,
+        "avg_word_len": 6.45,
+        "syllable_count": 648,
+        "complex_word_count": 37,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 5.61,
+        "flesch_kincaid_grade": 17.15,
+        "ari": 18.35,
+        "coleman_liau": 20.54,
+        "gunning_fog": 12.44
+      },
+      "distance_to_target": 0.04,
+      "fidelity": {
+        "overall": 0.9625,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 12,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 800,
+        "completion_tokens": 3251,
+        "total_tokens": 4051,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9625,
+    "entity_recall": 0.9167,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 12,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 800,
+    "completion_tokens": 3251,
+    "total_tokens": 4051,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:11:46.444Z"
+}

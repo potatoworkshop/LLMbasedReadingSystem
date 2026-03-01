@@ -1,0 +1,59 @@
+{
+  "article_id": "944a5355-3a99-431d-aca6-aff202a0d82a",
+  "topic": "climate adaptation",
+  "level": 4,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate adaptation denotes deliberate adjustments in physical, ecological and institutional systems to moderate harm or exploit emergent opportunities from climatic change. Contemporary adaptation scholarship differentiates incremental measures, such as infrastructure retrofitting, from transformational strategies including managed retreat and land-use reconfiguration. Practitioners emphasise resilience-building, adaptive capacity enhancement and the preservation of ecosystem services to sustain livelihoods under divergent climate projections. Uncertainty in regional projections and nonlinear threshold responses complicate decision-making and necessitate flexible, iterative management frameworks.",
+    "Ecosystem-based adaptation employs restoration, urban greening and wetland conservation to regulate hydrology, sequester carbon and reduce exposure to extreme precipitation. Engineering solutions, including flood defenses and drainage redesign, often require integration with nature-based measures to avoid maladaptation and unintended consequences. Policy instruments such as anticipatory finance, insurance pools and zoning reform facilitate risk transfer but must address equity, affordability and administrative capacity constraints. Scenario-driven planning and downscaling of climate models enable localised assessments but introduce epistemic ambiguity that practitioners must communicate transparently.",
+    "Fiscal limitations, fragmented governance and short-term political horizons impede sustained investment in adaptation infrastructure and capacity-building interventions. Moreover, adaptation actions can generate trade-offs across sectors and scales, producing cumulative impacts that disproportionately affect marginalised communities. Assessments must therefore integrate socio-economic vulnerability metrics, exposure mapping and ecological thresholds to identify limits to adaptation and potential cascade effects. Institutional learning, legal reform and participatory processes are essential to mitigate maladaptation and to legitimise difficult choices such as relocation.",
+    "Effective adaptation requires iterative monitoring, transdisciplinary knowledge exchange and the mainstreaming of climate considerations into sectoral planning and budgetary cycles. Prioritising low-regret interventions, flexible finance mechanisms and community-driven projects enhances robustness while preserving options for future transformational responses. Research should focus on downscaled hydrological modeling, evapotranspiration dynamics and metrics for measuring adaptive capacity across heterogeneous landscapes. Ultimately, equitable, anticipatory and evidence-based adaptation can reduce vulnerability, sustain ecosystem services and support resilient socio-ecological systems in an increasingly uncertain climate."
+  ],
+  "metrics": {
+    "word_count": 325,
+    "sentence_count": 16,
+    "avg_sentence_len": 20.31,
+    "avg_word_len": 7.58,
+    "syllable_count": 861,
+    "complex_word_count": 84,
+    "complex_word_ratio": 0.26,
+    "flesch_reading_ease": -37.91,
+    "flesch_kincaid_grade": 23.59,
+    "ari": 24.44,
+    "coleman_liau": 27.32,
+    "gunning_fog": 18.46
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l4_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:01:28.361Z",
+    "effective_target_words": 300,
+    "length_compensation_factor": 1,
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 25
+  },
+  "token_usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 3050,
+    "total_tokens": 3230,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:01:28.361Z"
+}

@@ -1,0 +1,58 @@
+{
+  "article_id": "e65afa41-0f0c-4a07-b85e-c2cfd520fd0f",
+  "topic": "marine ecosystems",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "The Dynamic Complexity of Marine Ecosystems",
+  "article": [
+    "Marine ecosystems represent the most expansive and intricate biological networks on our planet, covering more than seventy percent of the Earth's surface. These aquatic environments are categorized primarily by their salinity levels and depth, ranging from shallow coastal estuaries to the profound darkness of the abyssal plains. Within these zones, a delicate equilibrium exists between biotic components, such as diverse fish populations and microscopic phytoplankton, and abiotic factors like water temperature and nutrient availability. This balance ensures the continuous cycling of carbon and oxygen, which is essential for global climate regulation.",
+    "Coral reefs, often described as the rainforests of the sea, illustrate the profound interdependence found in marine habitats. Although they occupy less than one percent of the ocean floor, they support approximately twenty-five percent of all known marine species. These structures are built by colonies of tiny polyps that secrete calcium carbonate, providing essential shelter and breeding grounds for countless organisms. However, these vibrant communities are increasingly vulnerable to thermal stress. Even a slight elevation in sea temperatures can trigger bleaching events, where corals expel their symbiotic algae, leading to widespread ecosystem collapse if the conditions do not stabilize.",
+    "Beyond the coastal fringes, the open ocean facilitates massive migrations and complex food webs that sustain commercial fisheries and apex predators. Nutrient upwelling, a process where cold, mineral-rich water rises to the surface, fuels the growth of primary producers. This biological productivity forms the foundation of the marine food chain, supporting everything from small crustaceans to massive cetaceans. Human activities, including industrial overfishing and plastic pollution, now threaten these remote regions. Preserving the integrity of marine biodiversity is not merely an environmental concern but a necessity for human survival, as the oceans provide food security and economic stability for billions of people worldwide."
+  ],
+  "metrics": {
+    "word_count": 295,
+    "sentence_count": 14,
+    "avg_sentence_len": 21.07,
+    "avg_word_len": 5.99,
+    "syllable_count": 587,
+    "complex_word_count": 33,
+    "complex_word_ratio": 0.11,
+    "flesch_reading_ease": 17.11,
+    "flesch_kincaid_grade": 16.11,
+    "ari": 17.33,
+    "coleman_liau": 18.04,
+    "gunning_fog": 12.9
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "marine_ecosystems_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:42:57.748Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 5
+  },
+  "token_usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 370,
+    "total_tokens": 572,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:42:57.748Z"
+}

@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-03-01T12:27:37.534Z",
+  "config_path": "experiments\\ch5\\configs\\adjust_main_n8_master.json",
+  "total_jobs": 240,
+  "batch_size": 10,
+  "total_micro_batches": 24,
+  "parallel_batches": 4
+}

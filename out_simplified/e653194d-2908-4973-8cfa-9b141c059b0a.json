@@ -1,0 +1,288 @@
+{
+  "article_id": "e653194d-2908-4973-8cfa-9b141c059b0a",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems represent an intricate tapestry of biological interactions and geochemical cycles, functioning as the primary regulatory mechanisms for the planet’s biosphere. These aquatic environments are bifurcated into distinct horizontal and vertical zones, each characterized by unique abiotic stressors such as hydrostatic pressure, thermal stratification, and photon penetration. In the euphotic zone, phytoplankton serve as the fundamental engine of primary productivity, sequestering atmospheric carbon through photosynthesis and initiating the complex energy transfers that sustain higher trophic levels. This biological pump facilitates the downward flux of organic matter, effectively bridging the surface waters with the abyssal depths through a process known as marine snow.\n\nBeneath the sunlit surface, the benthic environment operates under conditions of perpetual darkness and extreme pressure, yet it remains inextricably linked to the pelagic realm. Benthic-pelagic coupling describes the bidirectional exchange of mass, energy, and nutrients between the water column and the seafloor. Detritivores and decomposers residing in the sediment process the descending organic detritus, recycling essential nutrients like nitrogen and phosphorus back into the water column. This nutrient regeneration is vital for maintaining the productivity of coastal ecosystems, where upwelling events transport these enriched waters back to the surface, thereby stimulating further phytoplankton blooms and ensuring ecological continuity.\n\nHowever, these delicate equilibrium states are increasingly threatened by anthropogenic perturbations, including ocean acidification and thermal expansion. As the absorption of anthropogenic carbon dioxide lowers the oceanic pH, calcifying organisms such as scleractinian corals and pteropods face significant physiological challenges in maintaining their calcium carbonate structures. The resulting degradation of coral reef architectures leads to a catastrophic loss of biodiversity and the destabilization of complex food webs. Furthermore, rising sea temperatures disrupt the historical patterns of thermal stratification, potentially stifling the vertical mixing necessary for nutrient replenishment. Understanding these multifaceted interactions is imperative for developing robust conservation strategies aimed at preserving the resilience of global marine biodiversity.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb09",
+    "sample_id": "generated_0ae1cae6-1308-47f1-b1d7-c27541b36b95_to_l1_r5_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "0ae1cae6-1308-47f1-b1d7-c27541b36b95",
+    "source_dataset": "generated",
+    "source_file": "0ae1cae6-1308-47f1-b1d7-c27541b36b95.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems represent an intricate tapestry of biological interactions and geochemical cycles, functioning as the primary regulatory mechanisms for the planet’s biosphere. These aquatic environments are bifurcated into distinct horizontal and vertical zones, each characterized by unique abiotic stressors such as hydrostatic pressure, thermal stratification, and photon penetration. In the euphotic zone, phytoplankton serve as the fundamental engine of primary productivity, sequestering atmospheric carbon through photosynthesis and initiating the complex energy transfers that sustain higher trophic levels. This biological pump facilitates the downward flux of organic matter, effectively bridging the surface waters with the abyssal depths through a process known as marine snow.\n\nBeneath the sunlit surface, the benthic environment operates under conditions of perpetual darkness and extreme pressure, yet it remains inextricably linked to the pelagic realm. Benthic-pelagic coupling describes the bidirectional exchange of mass, energy, and nutrients between the water column and the seafloor. Detritivores and decomposers residing in the sediment process the descending organic detritus, recycling essential nutrients like nitrogen and phosphorus back into the water column. This nutrient regeneration is vital for maintaining the productivity of coastal ecosystems, where upwelling events transport these enriched waters back to the surface, thereby stimulating further phytoplankton blooms and ensuring ecological continuity.\n\nHowever, these delicate equilibrium states are increasingly threatened by anthropogenic perturbations, including ocean acidification and thermal expansion. As the absorption of anthropogenic carbon dioxide lowers the oceanic pH, calcifying organisms such as scleractinian corals and pteropods face significant physiological challenges in maintaining their calcium carbonate structures. The resulting degradation of coral reef architectures leads to a catastrophic loss of biodiversity and the destabilization of complex food webs. Furthermore, rising sea temperatures disrupt the historical patterns of thermal stratification, potentially stifling the vertical mixing necessary for nutrient replenishment. Understanding these multifaceted interactions is imperative for developing robust conservation strategies aimed at preserving the resilience of global marine biodiversity.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 311,
+    "sentence_count": 13,
+    "avg_sentence_len": 23.92,
+    "avg_word_len": 6.68,
+    "syllable_count": 711,
+    "complex_word_count": 60,
+    "complex_word_ratio": 0.19,
+    "flesch_reading_ease": -10.86,
+    "flesch_kincaid_grade": 20.72,
+    "ari": 21.99,
+    "coleman_liau": 22.23,
+    "gunning_fog": 17.29
+  },
+  "final_metrics": {
+    "word_count": 311,
+    "sentence_count": 13,
+    "avg_sentence_len": 23.92,
+    "avg_word_len": 6.68,
+    "syllable_count": 711,
+    "complex_word_count": 60,
+    "complex_word_ratio": 0.19,
+    "flesch_reading_ease": -10.86,
+    "flesch_kincaid_grade": 20.72,
+    "ari": 21.99,
+    "coleman_liau": 22.23,
+    "gunning_fog": 17.29
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=13.5575;dir=simpler;est_wb=80;est_sb=5",
+      "metrics": {
+        "word_count": 311,
+        "sentence_count": 13,
+        "avg_sentence_len": 23.92,
+        "avg_word_len": 6.68,
+        "syllable_count": 711,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -10.86,
+        "flesch_kincaid_grade": 20.72,
+        "ari": 21.99,
+        "coleman_liau": 22.23,
+        "gunning_fog": 17.29
+      },
+      "distance_to_target": 13.5575,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5575;center_gap=13;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.72;df=2.10;af=1.0000;pg=13.5575;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 311,
+        "sentence_count": 13,
+        "avg_sentence_len": 23.92,
+        "avg_word_len": 6.68,
+        "syllable_count": 711,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -10.86,
+        "flesch_kincaid_grade": 20.72,
+        "ari": 21.99,
+        "coleman_liau": 22.23,
+        "gunning_fog": 17.29
+      },
+      "distance_to_target": 13.5575,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5575;center_gap=13;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.72;df=2.10;af=1.0000;pg=13.5575;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 311,
+        "sentence_count": 13,
+        "avg_sentence_len": 23.92,
+        "avg_word_len": 6.68,
+        "syllable_count": 711,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -10.86,
+        "flesch_kincaid_grade": 20.72,
+        "ari": 21.99,
+        "coleman_liau": 22.23,
+        "gunning_fog": 17.29
+      },
+      "distance_to_target": 13.5575,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5575;center_gap=13;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.72;df=2.10;af=1.0000;pg=13.5575;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 311,
+        "sentence_count": 13,
+        "avg_sentence_len": 23.92,
+        "avg_word_len": 6.68,
+        "syllable_count": 711,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -10.86,
+        "flesch_kincaid_grade": 20.72,
+        "ari": 21.99,
+        "coleman_liau": 22.23,
+        "gunning_fog": 17.29
+      },
+      "distance_to_target": 13.5575,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5575;center_gap=13;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=5;lf=0.72;df=2.10;af=1.0000;pg=13.5575;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 311,
+        "sentence_count": 13,
+        "avg_sentence_len": 23.92,
+        "avg_word_len": 6.68,
+        "syllable_count": 711,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.19,
+        "flesch_reading_ease": -10.86,
+        "flesch_kincaid_grade": 20.72,
+        "ari": 21.99,
+        "coleman_liau": 22.23,
+        "gunning_fog": 17.29
+      },
+      "distance_to_target": 13.5575,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 8,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 8,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:27.689Z"
+}

@@ -1,0 +1,288 @@
+{
+  "article_id": "87c0a4fd-f16d-4b71-bcb8-6d947480afdb",
+  "mode": "difficulty_adjust",
+  "original_article": "Human history has always been a story of how we live with the weather. For thousands of years, people built homes and grew food based on the local climate. However, the world is now changing faster than ever before. Scientists agree that the Earth is getting warmer because of human activity. This change brings bigger storms, more heat, and rising seas. While many people work hard to stop these changes by using less oil and coal, we must also learn to live with the changes that are already happening. This process is called climate adaptation. It is not about stopping the heat, but about making our world safer as the heat increases. Adaptation is a practical way to protect our homes, our food, and our future. By planning ahead, we can reduce the damage caused by a changing environment.\n\nCities are at the front of this new challenge because so many people live there. Many major cities sit near the ocean, which makes them very weak against rising sea levels. To fix this, engineers are building large walls and gates to keep the salt water out. In some places, they are even creating sponge cities. These are areas with lots of parks and special soil that can soak up heavy rain like a sponge. This prevents streets from flooding and keeps the water clean. In very hot cities, workers are painting roofs white to reflect the sun and planting more trees to provide shade. These simple steps help keep people cool without using too much electricity for air conditioning. By changing the way we build our streets and buildings, we can make sure that our cities remain comfortable places to live even as the temperature rises.\n\nFarming is another area where adaptation is very important. Farmers depend on steady rain and predictable seasons to grow the food we eat. When the weather changes, crops can die from too much sun or too much water. To solve this, scientists are developing new types of seeds that can grow even when there is very little rain. Some farmers are also changing when they plant their crops to match the new seasons. In some parts of the world, people are building large tanks to catch rainwater during the wet months so they can use it during the dry months. These methods help ensure that there is always enough food for everyone. Teaching farmers these new skills is a key part of staying safe in a warming world. It shows that we can find smart ways to work with nature instead of fighting against it.\n\nFinally, adaptation is about more than just building walls or planting seeds; it is about how we think. It requires governments and ordinary people to work together to prepare for the future. This might mean moving houses away from dangerous riverbanks or creating better warning systems for big storms. It also means protecting natural areas like forests and wetlands, which act as a shield against bad weather. While adaptation costs money today, it saves much more money and many lives in the long run. We cannot ignore the changes happening around us, but we do not have to be afraid of them. If we are smart and prepared, we can build a world that is strong enough to handle whatever the future brings. Taking these steps now will make the world a better place for the next generation.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_1eff4d7a-8ebe-4111-8851-32b0a55876be_to_l3_r5_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "1eff4d7a-8ebe-4111-8851-32b0a55876be",
+    "source_dataset": "generated",
+    "source_file": "1eff4d7a-8ebe-4111-8851-32b0a55876be.json",
+    "source_level": 2
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Human history has always been a story of how we live with the weather. For thousands of years, people built homes and grew food based on the local climate. However, the world is now changing faster than ever before. Scientists agree that the Earth is getting warmer because of human activity. This change brings bigger storms, more heat, and rising seas. While many people work hard to stop these changes by using less oil and coal, we must also learn to live with the changes that are already happening. This process is called climate adaptation. It is not about stopping the heat, but about making our world safer as the heat increases. Adaptation is a practical way to protect our homes, our food, and our future. By planning ahead, we can reduce the damage caused by a changing environment.\n\nCities are at the front of this new challenge because so many people live there. Many major cities sit near the ocean, which makes them very weak against rising sea levels. To fix this, engineers are building large walls and gates to keep the salt water out. In some places, they are even creating sponge cities. These are areas with lots of parks and special soil that can soak up heavy rain like a sponge. This prevents streets from flooding and keeps the water clean. In very hot cities, workers are painting roofs white to reflect the sun and planting more trees to provide shade. These simple steps help keep people cool without using too much electricity for air conditioning. By changing the way we build our streets and buildings, we can make sure that our cities remain comfortable places to live even as the temperature rises.\n\nFarming is another area where adaptation is very important. Farmers depend on steady rain and predictable seasons to grow the food we eat. When the weather changes, crops can die from too much sun or too much water. To solve this, scientists are developing new types of seeds that can grow even when there is very little rain. Some farmers are also changing when they plant their crops to match the new seasons. In some parts of the world, people are building large tanks to catch rainwater during the wet months so they can use it during the dry months. These methods help ensure that there is always enough food for everyone. Teaching farmers these new skills is a key part of staying safe in a warming world. It shows that we can find smart ways to work with nature instead of fighting against it.\n\nFinally, adaptation is about more than just building walls or planting seeds; it is about how we think. It requires governments and ordinary people to work together to prepare for the future. This might mean moving houses away from dangerous riverbanks or creating better warning systems for big storms. It also means protecting natural areas like forests and wetlands, which act as a shield against bad weather. While adaptation costs money today, it saves much more money and many lives in the long run. We cannot ignore the changes happening around us, but we do not have to be afraid of them. If we are smart and prepared, we can build a world that is strong enough to handle whatever the future brings. Taking these steps now will make the world a better place for the next generation.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 569,
+    "sentence_count": 36,
+    "avg_sentence_len": 15.81,
+    "avg_word_len": 4.56,
+    "syllable_count": 808,
+    "complex_word_count": 13,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 70.66,
+    "flesch_kincaid_grade": 7.33,
+    "ari": 7.96,
+    "coleman_liau": 9.15,
+    "gunning_fog": 7.24
+  },
+  "final_metrics": {
+    "word_count": 569,
+    "sentence_count": 36,
+    "avg_sentence_len": 15.81,
+    "avg_word_len": 4.56,
+    "syllable_count": 808,
+    "complex_word_count": 13,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 70.66,
+    "flesch_kincaid_grade": 7.33,
+    "ari": 7.96,
+    "coleman_liau": 9.15,
+    "gunning_fog": 7.24
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=3.0800;dir=harder;est_wb=80;est_sb=13",
+      "metrics": {
+        "word_count": 569,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.81,
+        "avg_word_len": 4.56,
+        "syllable_count": 808,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 70.66,
+        "flesch_kincaid_grade": 7.33,
+        "ari": 7.96,
+        "coleman_liau": 9.15,
+        "gunning_fog": 7.24
+      },
+      "distance_to_target": 3.08,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=3.0800;center_gap=3.49;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=13;est_wb=80;est_sb=13;lf=0.97;df=2.10;af=1.0000;pg=3.0800;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 569,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.81,
+        "avg_word_len": 4.56,
+        "syllable_count": 808,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 70.66,
+        "flesch_kincaid_grade": 7.33,
+        "ari": 7.96,
+        "coleman_liau": 9.15,
+        "gunning_fog": 7.24
+      },
+      "distance_to_target": 3.08,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=3.0800;center_gap=3.49;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=13;est_wb=80;est_sb=13;lf=0.97;df=2.10;af=1.0000;pg=3.0800;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 569,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.81,
+        "avg_word_len": 4.56,
+        "syllable_count": 808,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 70.66,
+        "flesch_kincaid_grade": 7.33,
+        "ari": 7.96,
+        "coleman_liau": 9.15,
+        "gunning_fog": 7.24
+      },
+      "distance_to_target": 3.08,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=3.0800;center_gap=3.49;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=13;est_wb=80;est_sb=13;lf=0.97;df=2.10;af=1.0000;pg=3.0800;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 569,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.81,
+        "avg_word_len": 4.56,
+        "syllable_count": 808,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 70.66,
+        "flesch_kincaid_grade": 7.33,
+        "ari": 7.96,
+        "coleman_liau": 9.15,
+        "gunning_fog": 7.24
+      },
+      "distance_to_target": 3.08,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=3.0800;center_gap=3.49;mode=both;dominant=sentence;dir_changed=0;wb=52;sb=13;est_wb=80;est_sb=13;lf=0.97;df=2.10;af=1.0000;pg=3.0800;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 569,
+        "sentence_count": 36,
+        "avg_sentence_len": 15.81,
+        "avg_word_len": 4.56,
+        "syllable_count": 808,
+        "complex_word_count": 13,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 70.66,
+        "flesch_kincaid_grade": 7.33,
+        "ari": 7.96,
+        "coleman_liau": 9.15,
+        "gunning_fog": 7.24
+      },
+      "distance_to_target": 3.08,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 15,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 15,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:48:58.416Z"
+}

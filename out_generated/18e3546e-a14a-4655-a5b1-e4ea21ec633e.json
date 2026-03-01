@@ -1,0 +1,60 @@
+{
+  "article_id": "18e3546e-a14a-4655-a5b1-e4ea21ec633e",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Adapting to Climate Change",
+  "article": [
+    "Climate change brings big shifts to our planet. Temperatures rise around the world. Sea levels climb higher each year. Storms grow stronger and more frequent. Droughts last longer in many places. These changes harm people, animals, and plants. But adaptation helps them cope. Adaptation means making changes to live well in new conditions. It differs from mitigation, which tries to slow climate change. Adaptation focuses on dealing with effects that already happen.",
+    "Many living things adapt in nature. Birds shift their migration paths to find food and warmer spots. Some insects move to higher mountains as low areas get too hot. Plants change when they flower. They bloom earlier in spring to match new insect cycles. Coral reefs face warmer oceans. Some corals expel algae and bleach white. Yet tough corals survive and even thrive in warmer waters. Fish stocks move to cooler seas. This forces fishing fleets to travel farther. Forests in Canada expand north as the tundra warms. Trees take root where permafrost melts. These natural shifts show life’s power to adjust. But not all species keep up. Some face extinction if changes come too fast.",
+    "Humans adapt in smart ways too. Farmers plant drought-resistant crops like sorghum and millet. They use drip irrigation to save water. In California, this cuts water use by half. Coastal cities build sea walls and barriers. The Netherlands has done this for centuries with dikes. They now plan even taller ones as seas rise. Miami pumps floodwater from streets. It raises roads to stay dry. In Bangladesh, people build floating homes and farms. These rise with floodwaters and stay safe. Urban areas plant more trees for shade. Green roofs cool buildings in hot summers. Cities like Singapore use them widely. Insurance firms change policies for flood risks. Governments create plans to move people from danger zones.",
+    "Success stories inspire hope. Ethiopia grows new seed types that yield well in dry soil. Crop output rose thirty percent in some areas. Australia restores wetlands to hold floodwater. This protects towns downstream. Small island nations share knowledge on rising seas. They plant mangroves as natural barriers. These trees slow waves and trap sediment. International aid helps poor countries build skills. The Green Climate Fund supports projects in Africa and Asia. It funds solar power and water systems. Yet challenges remain. Wealthy nations adapt faster with money and tech. Poorer places lag behind. They need more help to catch up. Fast change tests all efforts.",
+    "Adaptation works best with mitigation. Cutting emissions slows warming and buys time. Both together build a safer future. Communities learn from each other. They share ideas and tools. Education spreads knowledge on risks and fixes. Schools teach kids about climate action. This builds a generation ready to adapt. Research tracks changes and tests new methods. Satellites watch ice melt and sea rise. Models predict future weather patterns. These tools guide smart choices. In the end, adaptation turns threats into chances. It helps the world stay strong amid change."
+  ],
+  "metrics": {
+    "word_count": 499,
+    "sentence_count": 71,
+    "avg_sentence_len": 7.03,
+    "avg_word_len": 5.08,
+    "syllable_count": 748,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 72.89,
+    "flesch_kincaid_grade": 4.84,
+    "ari": 6,
+    "coleman_liau": 9.85,
+    "gunning_fog": 3.93
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_grok_b02",
+    "sample_id": "climate_adaptation_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:40:07.923Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 3,
+    "within_preferred_range": false,
+    "distance_to_target_words": 101
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 3302,
+    "total_tokens": 4307,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:40:07.924Z"
+}

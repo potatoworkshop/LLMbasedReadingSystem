@@ -1,0 +1,207 @@
+{
+  "article_id": "3ce753a8-2355-432e-b740-ba6d18bbf227",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation plays a big role in daily life. It helps people travel around cities and towns without using their own cars. Buses, trains, subways, and trams are common types. These services run on set routes and schedules. Millions of people use them each day. They make travel fast and easy. Cities depend on public transport to keep traffic light and streets clear.\n\nBuses are the most widely used form of public transport. They travel on regular roads and stop at marked bus stops. People pay a fare when they get on. Trains run on special tracks and can hold hundreds of passengers. Subways go underground in busy areas to avoid road traffic. Trams share streets with cars but have their own lines in some places. Each type connects different parts of the city. Schedules help riders plan their trips well.\n\nPublic transportation offers many clear benefits. First, it costs less than driving a car. Riders save money on fuel, insurance, and parking. Second, it reduces harm to the environment. One bus can replace many cars, which cuts down on pollution and fuel use. Third, it eases traffic jams. When more people use buses or trains, fewer cars fill the roads. This makes trips quicker for everyone. Studies show big cities with good public transport have cleaner air and happier people.\n\nEven with these advantages, public transport has some problems. Crowds can make rides uncomfortable during rush hours. Bad weather or repairs sometimes cause delays. But cities work hard to fix these issues. They buy more vehicles and build new routes. Electric buses are becoming popular because they produce no exhaust. Apps now let riders check real-time schedules and avoid waits. In the future, public transport will grow even better. It will help cities handle more people in a smart way.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "b34c8ac4-2a6f-4581-a8e4-f65f01c1040e_to_l2"
+  },
+  "source": {
+    "source_article_id": "b34c8ac4-2a6f-4581-a8e4-f65f01c1040e",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "b34c8ac4-2a6f-4581-a8e4-f65f01c1040e.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation plays a significant role in daily life. It enables people to travel around cities and towns without relying on personal cars. Buses, trains, subways, and trams represent common types. These services operate on fixed routes and schedules. Millions of people use them each day. They make travel swift and convenient. Cities depend on public transport to maintain light traffic and clear streets.\n\nBuses are the most widely used form of public transport. They travel on regular roads and stop at marked bus stops. People pay a fare when they board. Trains run on dedicated tracks and can carry hundreds of passengers. Subways travel underground in busy areas to avoid road traffic. Trams share streets with cars but have their own lines in some places. Each type connects different parts of the city. Schedules help riders plan their trips effectively.\n\nPublic transportation offers many clear benefits. First, it costs less than driving a car. Riders save money on fuel, insurance, and parking. Second, it reduces environmental harm. One bus can replace many cars, which lowers pollution and fuel use. Third, it eases traffic congestion. When more people use buses or trains, fewer cars crowd the roads. This makes trips quicker for everyone. Studies show big cities with good public transport have cleaner air and happier residents.\n\nEven with these advantages, public transport faces some challenges. Crowds can make rides uncomfortable during rush hours. Bad weather or repairs sometimes cause delays. But cities work hard to address these issues. They purchase more vehicles and build new routes. Electric buses are becoming popular because they produce no exhaust. Apps now let riders check real-time schedules and avoid waits. In the future, public transport will improve further. It will help cities manage more people efficiently.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 302,
+    "sentence_count": 33,
+    "avg_sentence_len": 9.15,
+    "avg_word_len": 4.79,
+    "syllable_count": 440,
+    "complex_word_count": 4,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 74.29,
+    "flesch_kincaid_grade": 5.17,
+    "ari": 5.73,
+    "coleman_liau": 9.16,
+    "gunning_fog": 4.19
+  },
+  "final_metrics": {
+    "word_count": 294,
+    "sentence_count": 33,
+    "avg_sentence_len": 8.91,
+    "avg_word_len": 5.16,
+    "syllable_count": 468,
+    "complex_word_count": 7,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 63.12,
+    "flesch_kincaid_grade": 6.67,
+    "ari": 7.33,
+    "coleman_liau": 11.22,
+    "gunning_fog": 4.52
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 302,
+        "sentence_count": 33,
+        "avg_sentence_len": 9.15,
+        "avg_word_len": 4.79,
+        "syllable_count": 440,
+        "complex_word_count": 4,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 74.29,
+        "flesch_kincaid_grade": 5.17,
+        "ari": 5.73,
+        "coleman_liau": 9.16,
+        "gunning_fog": 4.19
+      },
+      "distance_to_target": 0.3445,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 24,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 721,
+        "completion_tokens": 1419,
+        "total_tokens": 2140,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 294,
+        "sentence_count": 33,
+        "avg_sentence_len": 8.91,
+        "avg_word_len": 5.16,
+        "syllable_count": 468,
+        "complex_word_count": 7,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 63.12,
+        "flesch_kincaid_grade": 6.67,
+        "ari": 7.33,
+        "coleman_liau": 11.22,
+        "gunning_fog": 4.52
+      },
+      "distance_to_target": 0.1526,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 24,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1442,
+        "completion_tokens": 2950,
+        "total_tokens": 4392,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 296,
+        "sentence_count": 33,
+        "avg_sentence_len": 8.97,
+        "avg_word_len": 6.16,
+        "syllable_count": 600,
+        "complex_word_count": 26,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 26.24,
+        "flesch_kincaid_grade": 11.83,
+        "ari": 12.08,
+        "coleman_liau": 17.13,
+        "gunning_fog": 7.1
+      },
+      "distance_to_target": 1.0218,
+      "fidelity": {
+        "overall": 0.7525,
+        "entity_recall": 0.5833,
+        "number_recall": 1,
+        "keyword_recall": 0.7,
+        "entity_total": 24,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2155,
+        "completion_tokens": 3873,
+        "total_tokens": 6028,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 24,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 2155,
+    "completion_tokens": 3873,
+    "total_tokens": 6028,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:35:27.382Z"
+}

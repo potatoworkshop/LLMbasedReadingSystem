@@ -1,0 +1,250 @@
+{
+  "article_id": "58d21173-2a2b-4147-b738-1685371bc89d",
+  "mode": "difficulty_adjust",
+  "original_article": "Virtually every child, the world over, plays. The drive to play is so intense that children will do so in any circumstances, for instance when they have no real toys, or when parents do not actively encourage the behavior. In the eyes of a young child, running, pretending, and building are fun. Researchers and educators know that these playful activities benefit the development of the whole child across social, cognitive, physical, and emotional domains. Indeed, play is such an instrumental component to healthy child development that the United Nations High Commission on Human Rights (1989) recognized play as a fundamental right of every child.\n\nYet, while experts continue to expound a powerful argument for the importance of play in children's lives, the actual time children spend playing continues to decrease. Today, children play eight hours less each week than their counterparts did two decades ago (Elkind 2008). Under pressure of rising academic standards, play is being replaced by test preparation in kindergartens and grade schools, and parents who aim to give their preschoolers a leg up are led to believe that flashcards and educational 'toys' are the path to success. Our society has created a false dichotomy between play and learning.\n\nThrough play, children learn to regulate their behavior, lay the foundations for later learning in science and mathematics, figure out the complex negotiations of social relationships, build a repertoire of creative problem-solving skills, and so much more. There is also an important role for adults in guiding children through playful learning opportunities.\n\nFull consensus on a formal definition of play continues to elude the researchers and theorists who study it. Definitions range from discrete descriptions of various types of play such as physical, construction, language, or symbolic play (Miller & Almon 2009), to lists of broad criteria, based on observations and attitudes, that are meant to capture the essence of all play behaviors (e.g. Rubin et al. 1983).\n\nA majority of the contemporary definitions of play focus on several key criteria. The founder of the National Institute for Play, Stuart Brown, has described play as 'anything that spontaneously is done for its own sake'. More specifically, he says it 'appears purposeless, produces pleasure and joy, [and] leads one to the next stage of mastery' (as quoted in Tippett 2008). Similarly, Miller and Almon (2009) say that play includes 'activities that are freely chosen and directed by children and arise from intrinsic motivation'. Often, play is defined along a continuum as more or less playful using the following set of behavioral and dispositional criteria (e.g. Rubin et al. 1983).\n\nPlay is pleasurable: Children must enjoy the activity or it is not play. It is intrinsically motivated: Children engage in play simply for the satisfaction the behavior itself brings. It has no extrinsically motivated function or goal. Play is process oriented: When children play, the means are more important than the ends. It is freely chosen, spontaneous and voluntary. If a child is pressured, they will likely not think of the activity as play. Play is actively engaged: Players must be physically and/or mentally involved in the activity. Play is non-literal. It involves make-believe.\n\nAccording to this view, children's playful behaviors can range in degree from 0% to 100% playful. Rubin and colleagues did not assign greater weight to any one dimension in determining playfulness; however, other researchers have suggested that process orientation and a lack of obvious functional purpose may be the most important aspects of play (e.g. Pellegrini 2009).\n\nFrom the perspective of a continuum, play can thus blend with other motives and attitudes that are less playful, such as work. Unlike play, work is typically not viewed as enjoyable and it is extrinsically motivated (i.e. it is goal oriented). Researcher Joan Goodman (1994) suggested that hybrid forms of work and play are not a detriment to learning; rather, they can provide optimal contexts for learning. For example, a child may be engaged in a difficult, goal-directed activity set up by their teacher, but they may still be actively engaged and intrinsically motivated. At this mid-point between play and work, the child's motivation, coupled with guidance from an adult, can create robust opportunities for playful learning.\n\nCritically, recent research supports the idea that adults can facilitate children's learning while maintaining a playful approach in interactions known as 'guided play' (Fisher et al. 2011). The adult's role in play varies as a function of their educational goals and the child's developmental level (Hirsch-Pasek et al. 2009).\n\nGuided play takes two forms. At a very basic level, adults can enrich the child's environment by providing objects or experiences that promote aspects of a curriculum. In the more direct form of guided play, parents or other adults can support children's play by joining in the fun as a co-player, raising thoughtful questions, commenting on children's discoveries, or encouraging further exploration or new facets to the child's activity. Although playful learning can be somewhat structured, it must also be child-centered (Nicolopolou et al. 2006). Play should stem from the child's own desire.\n\nBoth free and guided play are essential elements in a child-centered approach to playful learning. Intrinsically motivated free play provides the child with true autonomy, while guided play is an avenue through which parents and educators can provide more targeted learning experiences. In either case, play should be actively engaged, it should be predominantly child-directed, and it must be fun.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb04",
+    "sample_id": "questions_ielts_14_test3_passage3_527cnj_to_l2_r5_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "ielts_14_test3_passage3_527cnj",
+    "source_dataset": "questions",
+    "source_file": "ielts_14_test3_passage3_527cnj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Almost every child, around the world, plays. The need to play is so strong that children will do so in any circumstances, for example when they have no real toys, or when parents do not actively help the actions. In the eyes of a young child, running, pretend play, and building are fun. Specialists and teachers know that these play activities help the development of the whole child in social, mental, physical, and emotional areas. In fact, the United Nations High Commission on Human Rights (1989) said play is a basic right of every child.\n\nYet, while experts continue to make a argue for the value of play in children's lives, the actual time children spend playing keeps falling. Nowadays, children play eight hours less per week than other children did 20 years ago (Elkind 2008). Because of stricter school standards, play has been replaced by test preparation in kindergartens and elementary schools, and parents who want their young children to get ahead are made to believe that flashcards and learning 'toys' are the way to do well. Our society has created an unnatural gap between play and learning.\n\nBy playing, children learn to control their behavior, lay the foundation for later learning in science and math, work out the complex social interactions, build a group of creative problem-solving skills, and much more. There is also an important role for adults in guiding children through playful learning opportunities.\n\nResearchers and thinkers still do not fully agree on an exact definition of play. Definitions range from clear descriptions of different types of play such as physical, building, language, or symbolic play (Miller & Almon 2009), to lists of general standards, based on observations and opinions, that aim to show the core of all play behaviors (e.g. Rubin et al. 1983).\n\nMost of the current definitions of play emphasize several key criteria. The founder of the National Institute for Play, Stuart Brown, described play as 'anything that naturally is done for its own sake'. More specifically, he says it 'appears without a clear purpose, brings joy, [and] helps people develop new skills' (as quoted in Tippett 2008). Similarly, Miller and Almon (2009) say that play involves 'activities that are freely chosen and directed by children and arise from internal motivation'. Often, play is defined along a scale as more or less playful using the following set of behavioral and personal criteria (e.g. Rubin et al. 1983).\n\nPlay is fun: Children must enjoy the activity or it is not play. It is intrinsically motivated: Children take part in play simply for the enjoyment the behavior itself brings. It has no externally motivated function or goal. Play is process-focused: When children play, the means are more important than the ends. It is freely chosen, unplanned and voluntary. If a child is forced, they will probably not think of the activity as play. Play is actively involved: Players must be physically and/or mentally involved in the activity. Play is non-literal. It involves make-believe.\n\nAccording to this view, children's playful behaviors can range in degree from 0% to 100% playful. Rubin and colleagues did not assign greater weight to any one dimension in determining playfulness; however, other researchers have suggested that process orientation and a lack of obvious functional purpose may be the most important aspects of play (e.g. Pellegrini 2009).\n\nFrom the perspective of a continuum, play can thus blend with other motives and attitudes that are less playful, such as work. Unlike play, work is typically not viewed as enjoyable and it is extrinsically motivated (i.e. it is goal oriented). Researcher Joan Goodman (1994) suggested that hybrid forms of work and play are not a detriment to learning; rather, they can provide optimal contexts for learning. For example, a child may be engaged in a difficult, goal-directed activity set up by their teacher, but they may still be actively engaged and intrinsically motivated. At this mid-point between play and work, the child's motivation, coupled with guidance from an adult, can create robust opportunities for playful learning.\n\nCritically, recent research supports the idea that adults can facilitate children's learning while maintaining a playful approach in interactions known as 'guided play' (Fisher et al. 2011). The adult's role in play varies as a function of their educational goals and the child's developmental level (Hirsch-Pasek et al. 2009).\n\nGuided play takes two forms. At a very basic level, adults can enrich the child's environment by providing objects or experiences that promote aspects of a curriculum. In the more direct form of guided play, parents or other adults can support children's play by joining in the fun as a co-player, raising thoughtful questions, commenting on children's discoveries, or encouraging further exploration or new facets to the child's activity. Although playful learning can be somewhat structured, it must also be child-centered (Nicolopolou et al. 2006). Play should stem from the child's own desire.\n\nBoth free and guided play are essential elements in a child-centered approach to playful learning. Intrinsically motivated free play provides the child with true autonomy, while guided play is an avenue through which parents and educators can provide more targeted learning experiences. In either case, play should be actively engaged, it should be predominantly child-directed, and it must be fun.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Grade Mean 8-10",
+    "rewrite_guidance": "Push readability-grade metrics toward the 8-10 band with moderately complex wording and sentence structures.",
+    "mean_target": [
+      8,
+      10
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        8,
+        10
+      ],
+      "ari": [
+        8,
+        10
+      ],
+      "coleman_liau": [
+        8,
+        10
+      ],
+      "gunning_fog": [
+        8,
+        10
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 913,
+    "sentence_count": 57,
+    "avg_sentence_len": 16.02,
+    "avg_word_len": 5.13,
+    "syllable_count": 1547,
+    "complex_word_count": 67,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 47.23,
+    "flesch_kincaid_grade": 10.65,
+    "ari": 10.73,
+    "coleman_liau": 12.5,
+    "gunning_fog": 9.34
+  },
+  "final_metrics": {
+    "word_count": 889,
+    "sentence_count": 57,
+    "avg_sentence_len": 15.6,
+    "avg_word_len": 4.98,
+    "syllable_count": 1447,
+    "complex_word_count": 55,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 53.3,
+    "flesch_kincaid_grade": 9.7,
+    "ari": 9.81,
+    "coleman_liau": 11.57,
+    "gunning_fog": 8.71
+  },
+  "hit_target": true,
+  "rounds_used": 4,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC (word-only) — alter connective and phrasing words to simplify sentence flow|applied_edits=26|tier=dist_1_to_2;dist=1.8050;center_gap=1.24;mode=word_only;dominant=word;dir_changed=0;wb=80;sb=8;est_wb=80;est_sb=6;lf=1.23;df=1.80;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 904,
+        "sentence_count": 57,
+        "avg_sentence_len": 15.86,
+        "avg_word_len": 5.06,
+        "syllable_count": 1507,
+        "complex_word_count": 63,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 49.71,
+        "flesch_kincaid_grade": 10.27,
+        "ari": 10.34,
+        "coleman_liau": 12.09,
+        "gunning_fog": 9.13
+      },
+      "distance_to_target": 1.4575,
+      "fidelity": {
+        "overall": 0.9663,
+        "entity_recall": 0.925,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1591,
+        "completion_tokens": 9760,
+        "total_tokens": 11351,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED: mix of sentence-level simplification and targeted word swaps to reduce lexical complexity|applied_edits=19|tier=dist_1_to_2;dist=1.4575;center_gap=0.91;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=18;est_wb=80;est_sb=5;lf=1.23;df=1.63;af=3.0000;pg=1.8050;pd=0.3475;af_fb=0",
+      "metrics": {
+        "word_count": 895,
+        "sentence_count": 57,
+        "avg_sentence_len": 15.7,
+        "avg_word_len": 5.01,
+        "syllable_count": 1475,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 51.47,
+        "flesch_kincaid_grade": 9.98,
+        "ari": 10,
+        "coleman_liau": 11.75,
+        "gunning_fog": 8.96
+      },
+      "distance_to_target": 1.1725,
+      "fidelity": {
+        "overall": 0.955,
+        "entity_recall": 0.9,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3172,
+        "completion_tokens": 18408,
+        "total_tokens": 21580,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Lexical-focused: replace higher-level vocabulary with more common synonyms (word-only substitutions).|applied_edits=51|tier=dist_1_to_2;dist=1.1725;center_gap=0.67;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=15;est_wb=80;est_sb=5;lf=1.22;df=1.49;af=3.0000;pg=1.4575;pd=0.2850;af_fb=0",
+      "metrics": {
+        "word_count": 891,
+        "sentence_count": 57,
+        "avg_sentence_len": 15.63,
+        "avg_word_len": 4.99,
+        "syllable_count": 1456,
+        "complex_word_count": 58,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 52.72,
+        "flesch_kincaid_grade": 9.79,
+        "ari": 9.88,
+        "coleman_liau": 11.64,
+        "gunning_fog": 8.86
+      },
+      "distance_to_target": 1.0425,
+      "fidelity": {
+        "overall": 0.955,
+        "entity_recall": 0.9,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4720,
+        "completion_tokens": 30475,
+        "total_tokens": 35195,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Variant 1 — Lexical substitutions: swap higher-frequency and academic words for more common synonyms across the article (word-only edits).|applied_edits=52|tier=dist_1_to_2;dist=1.0425;center_gap=0.6;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=15;est_wb=80;est_sb=5;lf=1.22;df=1.42;af=3.0000;pg=1.1725;pd=0.1300;af_fb=0",
+      "metrics": {
+        "word_count": 889,
+        "sentence_count": 57,
+        "avg_sentence_len": 15.6,
+        "avg_word_len": 4.98,
+        "syllable_count": 1447,
+        "complex_word_count": 55,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 53.3,
+        "flesch_kincaid_grade": 9.7,
+        "ari": 9.81,
+        "coleman_liau": 11.57,
+        "gunning_fog": 8.71
+      },
+      "distance_to_target": 0.9475,
+      "fidelity": {
+        "overall": 0.9437,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 40,
+        "number_total": 9,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6262,
+        "completion_tokens": 42476,
+        "total_tokens": 48738,
+        "llm_calls": 4
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9437,
+    "entity_recall": 0.875,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 40,
+    "number_total": 9,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 6262,
+    "completion_tokens": 42476,
+    "total_tokens": 48738,
+    "llm_calls": 4
+  },
+  "transformed_at": "2026-03-01T13:57:16.749Z"
+}

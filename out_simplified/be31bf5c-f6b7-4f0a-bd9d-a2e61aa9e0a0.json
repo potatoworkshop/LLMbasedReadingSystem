@@ -1,0 +1,288 @@
+{
+  "article_id": "be31bf5c-f6b7-4f0a-bd9d-a2e61aa9e0a0",
+  "mode": "difficulty_adjust",
+  "original_article": "The genesis of transcontinental commerce in antiquity was not merely a peripheral economic endeavor but rather the fundamental architecture upon which the globalization of the pre-modern world was constructed. These intricate networks, most notably the Silk Road and the maritime spice routes, facilitated a profound synthesis of disparate civilizations, transcending the rudimentary exchange of tangible commodities. While silk, lapis lazuli, and exotic aromatics served as the primary incentives for hazardous expeditions across the Eurasian landmass, the true significance of these corridors resided in their capacity to act as conduits for intellectual and spiritual dissemination. The arduous topography of the Central Asian steppes and the treacherous currents of the Indian Ocean necessitated a sophisticated logistical framework, fostering the evolution of cosmopolitan entrepôts that functioned as crucibles for linguistic, technological, and religious hybridization. Consequently, the structural integrity of empires often hinged upon their ability to secure these arterial paths, as the flow of wealth and information became inextricably linked to geopolitical hegemony.\n\nFrom a historiographical perspective, the Silk Road represents a paradigmatic shift in human connectivity, characterized by a series of intermittent relays rather than a singular, monolithic highway. This decentralized paradigm allowed for the incremental transmission of innovations, such as papermaking and sericulture, which fundamentally altered the socio-economic trajectories of the Mediterranean and East Asian spheres. The navigational prowess of the Austronesian and Arab mariners further expanded these horizons, integrating the monsoon-driven maritime circuits into a cohesive global system. Such interactions were frequently mediated by intermediary polities whose prosperity was predicated upon their mastery of the specialized vernaculars and diplomatic protocols required for cross-cultural negotiation. The resulting interdependence created a fragile yet resilient equilibrium, wherein a disturbance in one geographical sector—be it a dynastic transition or a localized pandemic—reverberated across the entire network, illustrating the nascent complexity of international relations long before the advent of modern telecommunications.\n\nMoreover, the environmental and demographic ramifications of these ancient trade routes were substantial, precipitating the inadvertent diffusion of biological agents and agricultural techniques. The movement of seeds and livestock across climatic zones enhanced food security and dietary diversity, yet simultaneously facilitated the catastrophic spread of zoonotic diseases, which periodically decimated urban populations and destabilized political structures. This duality of connectivity—the simultaneous enrichment and endangerment of societies—underscores the profound ambivalence of the ancient mercantile experience. As merchants navigated the precarious balance between profit and peril, they inadvertently laid the groundwork for the modern world's institutional frameworks, including rudimentary banking systems and maritime insurance. Ultimately, the legacy of these ancient routes is not confined to the archaeological remnants of caravanserais or sunken vessels; rather, it persists in the contemporary global consciousness as a testament to the enduring human impulse toward integration and the relentless pursuit of horizons beyond the immediate periphery of the known world.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb06",
+    "sample_id": "generated_0abb6f8a-2252-4304-a020-1cdf392abadd_to_l1_r4_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "0abb6f8a-2252-4304-a020-1cdf392abadd",
+    "source_dataset": "generated",
+    "source_file": "0abb6f8a-2252-4304-a020-1cdf392abadd.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Long distance trade started during old ago. It was not only a side economic work. It helped make the joined early world. Those networks, such as the Silk Road and the spice routes, joined distant societies. They did more than move goods. Silk, lapis lazuli, and odd perfumes led risky journeys across Eurasia. But the main value of these routes was that they carried ideas and religions. The Central Asian steppes were tough to cross. The Indian Ocean had strong currents. Traders needed careful plans. This led to busy market towns where languages, tools, and religions met and mixed. Because of this, empires often rose or fell based on control of these main routes. Money and information moved along them, and that flow was tied to political power.\n\nHistorians saw, the Silk Road was a big change in how people connected. It was a set of short routes, not one long, single road. This spread-out system let ideas travel step by step. New ideas like papermaking and silk farming moved along these links and changed the economies of the Mediterranean and East Asia. Skilled Austronesian and Arab sailors expanded trade. They brought the monsoon sea routes into a larger, connected system. Middle states often handled these contacts. They became rich by learning local languages and diplomatic rules for dealing with different peoples. This dependence on each other made a fragile but strong balance. A shock in one place—such as a change of rulers or a local disease outbreak—could ripple across the network. This shows how complex international ties were long before modern communications.\n\nAlso, these trade routes had big effects on the environment and populations. They accidentally spread germs and farming methods. Moving seeds and animals across climates improved food supplies and diets. At the same time, it helped spread diseases carried by animals. Those diseases sometimes killed many city people and hurt governments. This two-sided result—bringing both benefits and dangers—shows the mixed nature of ancient trade. While traders tried to balance profit and risk, they also helped create early forms of modern institutions. These included simple banks and sea insurance. Finally, the legacy of these routes is more than old caravan inns or sunken ships. It remains today in global thought as proof of people's wish to connect and to keep exploring beyond what they knew.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 468,
+    "sentence_count": 15,
+    "avg_sentence_len": 31.2,
+    "avg_word_len": 6.44,
+    "syllable_count": 1067,
+    "complex_word_count": 93,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -17.71,
+    "flesch_kincaid_grade": 23.48,
+    "ari": 24.5,
+    "coleman_liau": 21.12,
+    "gunning_fog": 20.43
+  },
+  "final_metrics": {
+    "word_count": 393,
+    "sentence_count": 34,
+    "avg_sentence_len": 11.56,
+    "avg_word_len": 4.93,
+    "syllable_count": 616,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 62.5,
+    "flesch_kincaid_grade": 7.41,
+    "ari": 7.59,
+    "coleman_liau": 10.65,
+    "gunning_fog": 6.05
+  },
+  "hit_target": true,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC: split long sentences and shorten complex sentences while keeping original facts and entities|applied_edits=15|tier=coarse_jump;dist=15.3825;dir=simpler;est_wb=80;est_sb=6",
+      "metrics": {
+        "word_count": 394,
+        "sentence_count": 34,
+        "avg_sentence_len": 11.59,
+        "avg_word_len": 5.05,
+        "syllable_count": 632,
+        "complex_word_count": 19,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 59.37,
+        "flesch_kincaid_grade": 7.86,
+        "ari": 8.17,
+        "coleman_liau": 11.36,
+        "gunning_fog": 6.56
+      },
+      "distance_to_target": 1.4875,
+      "fidelity": {
+        "overall": 0.7269,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 988,
+        "completion_tokens": 7872,
+        "total_tokens": 8860,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=BALANCED: mix of lexical simplifications and phrasing shifts (word-only)|applied_edits=20|tier=dist_1_to_2;dist=1.4875;center_gap=0.82;mode=word_only;dominant=word;dir_changed=0;wb=20;sb=1;est_wb=66;est_sb=4;lf=0.81;df=1.64;af=0.2500;pg=15.3825;pd=13.8950;af_fb=0",
+      "metrics": {
+        "word_count": 392,
+        "sentence_count": 34,
+        "avg_sentence_len": 11.53,
+        "avg_word_len": 4.97,
+        "syllable_count": 618,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 61.76,
+        "flesch_kincaid_grade": 7.51,
+        "ari": 7.74,
+        "coleman_liau": 10.85,
+        "gunning_fog": 6.14
+      },
+      "distance_to_target": 1.06,
+      "fidelity": {
+        "overall": 0.7269,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1891,
+        "completion_tokens": 15432,
+        "total_tokens": 17323,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_1_to_2;dist=1.0600;center_gap=0.7;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=10;est_wb=56;est_sb=6;lf=0.81;df=1.43;af=2.4795;pg=1.4875;pd=0.4275;af_fb=0",
+      "metrics": {
+        "word_count": 392,
+        "sentence_count": 34,
+        "avg_sentence_len": 11.53,
+        "avg_word_len": 4.97,
+        "syllable_count": 618,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 61.76,
+        "flesch_kincaid_grade": 7.51,
+        "ari": 7.74,
+        "coleman_liau": 10.85,
+        "gunning_fog": 6.14
+      },
+      "distance_to_target": 1.06,
+      "fidelity": {
+        "overall": 0.7269,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2789,
+        "completion_tokens": 25747,
+        "total_tokens": 28536,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "no_qualified_variants|tier=dist_1_to_2;dist=1.0600;center_gap=0.7;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=56;est_sb=6;lf=0.81;df=1.43;af=1.0000;pg=1.0600;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 392,
+        "sentence_count": 34,
+        "avg_sentence_len": 11.53,
+        "avg_word_len": 4.97,
+        "syllable_count": 618,
+        "complex_word_count": 15,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 61.76,
+        "flesch_kincaid_grade": 7.51,
+        "ari": 7.74,
+        "coleman_liau": 10.85,
+        "gunning_fog": 6.14
+      },
+      "distance_to_target": 1.06,
+      "fidelity": {
+        "overall": 0.7269,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3687,
+        "completion_tokens": 37428,
+        "total_tokens": 41115,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC-FOCUSED (word-only): target verbs, connectors, and function words to simplify sentence flow while keeping all sentences intact.|applied_edits=15|tier=dist_1_to_2;dist=1.0600;center_gap=0.7;mode=word_only;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=56;est_sb=6;lf=0.81;df=1.43;af=1.0000;pg=1.0600;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 393,
+        "sentence_count": 34,
+        "avg_sentence_len": 11.56,
+        "avg_word_len": 4.93,
+        "syllable_count": 616,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 62.5,
+        "flesch_kincaid_grade": 7.41,
+        "ari": 7.59,
+        "coleman_liau": 10.65,
+        "gunning_fog": 6.05
+      },
+      "distance_to_target": 0.925,
+      "fidelity": {
+        "overall": 0.7269,
+        "entity_recall": 0.6154,
+        "number_recall": 1,
+        "keyword_recall": 0.5,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4585,
+        "completion_tokens": 45719,
+        "total_tokens": 50304,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.7269,
+    "entity_recall": 0.6154,
+    "number_recall": 1,
+    "keyword_recall": 0.5,
+    "entity_total": 13,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 4585,
+    "completion_tokens": 45719,
+    "total_tokens": 50304,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-03-01T13:09:55.320Z"
+}

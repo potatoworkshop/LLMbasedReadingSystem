@@ -1,0 +1,60 @@
+{
+  "article_id": "56927827-7f44-4610-be83-3d9bde7ee4af",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate adaptation refers to actions that reduce harm from changing climate conditions. These actions help communities, nature, and economies cope with new risks. Adaptation differs from mitigation, which focuses on cutting greenhouse gas emissions. Both strategies are needed to address long-term climate challenges. Governments, businesses, and citizens all play a role in adaptation planning.",
+    "Coastal areas often use sea walls, restored wetlands, and setback rules to reduce flooding. In dry regions, farmers shift crops, improve soil management, and harvest rainwater. Cities increase green spaces and change building codes to lower heat risks. Early warning systems and evacuation plans save lives during extreme events. Natural solutions like reforestation provide benefits for biodiversity and people. These measures often bring economic benefits and new job opportunities.",
+    "Adapting to climate change presents practical and social challenges across regions. Many vulnerable communities lack funds and technical support for effective measures. Choosing who benefits and who bears costs raises ethical and political questions. Long-term plans must balance immediate needs with future uncertainties and limited budgets. Monitoring outcomes helps policymakers adjust strategies as conditions change over time. International cooperation can help poorer nations access finance and technology for adaptation. Transparent planning and local participation lead to more equitable and durable solutions.",
+    "Investing in adaptation can reduce disaster losses and protect key services such as water supply. Nature-based approaches often cost less and provide multiple benefits simultaneously. For example, mangroves shield coasts while supporting fisheries and storing carbon. Insurance and risk transfer tools help spread financial losses after extreme events. Private investment responds to clear signals from stable policies and well-designed incentives. Together, these approaches build resilience across sectors and communities over time.",
+    "Policy makers must integrate adaptation into urban planning, agriculture, and infrastructure budgets. Local knowledge and scientific research together improve the fit of actions to place. Education and public engagement build support for sometimes difficult choices. Monitoring, evaluation, and learning allow continuous improvement and better use of resources. Climate adaptation is not a one-time fix but an ongoing process. Early action reduces costs and protects the most vulnerable people first. Well-designed adaptation can create fairer and more secure futures for everyone. Effective responses combine local initiative, solid science, and sustained finance streams. Countries that act now will face fewer losses and adapt more smoothly later. Adaptation is a practical path toward safer communities and a stable economy."
+  ],
+  "metrics": {
+    "word_count": 397,
+    "sentence_count": 34,
+    "avg_sentence_len": 11.68,
+    "avg_word_len": 6.08,
+    "syllable_count": 780,
+    "complex_word_count": 39,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 28.77,
+    "flesch_kincaid_grade": 12.15,
+    "ari": 13.06,
+    "coleman_liau": 17.43,
+    "gunning_fog": 8.6
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:57:58.587Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 97
+  },
+  "token_usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 3086,
+    "total_tokens": 3268,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T19:57:58.588Z"
+}

@@ -1,0 +1,288 @@
+{
+  "article_id": "1331be19-0674-4f72-8b14-582f08d6e81d",
+  "mode": "difficulty_adjust",
+  "original_article": "The ancient world was interwoven by an extensive lattice of trade routes that propelled the dissemination of commodities, innovations, and ideologies across vast Eurasian expanses and beyond. Foremost among these were the overland Silk Road, which meandered from the Han Dynasty heartlands in China through Central Asian steppes to Mediterranean termini, and the maritime networks of the Indian Ocean that linked East Africa, the Arabian Peninsula, India, and Southeast Asia. Complementing these were ancillary pathways such as the Incense Route traversing arid Nabataean territories and the Amber Road facilitating exchanges between Baltic shores and Italic realms. These conduits, operational from the second millennium BCE onward, transcended mere mercantile pursuits; they constituted arteries of civilization, fostering economic interdependence while engendering profound cultural metamorphoses through the perpetual flux of peoples, pathogens, and paradigms.\n\nThe Silk Road epitomized the apogee of terrestrial commerce, sustaining vigorous exchange for over a millennium from circa 130 BCE until the fourteenth century CE. Camel caravans, hardy against desiccation and altitude, traversed formidable topographies including the Taklamakan Desert's shifting dunes, the Pamir Plateau's vertiginous passes, and the formidable Hexi Corridor. Entrepôts such as Samarkand, Bukhara, and Dunhuang functioned as crucibles of transaction, where barter predominated alongside nascent monetary systems evinced by overstamped Roman denarii and Chinese kaiyuan tongbao coins. Silk, the eponymous filament derived from Bombyx mori silkworms—a guarded Chinese secret until Byzantine espionage circa 550 CE—commanded astronomical valuations in Roman markets, often equivalent to gold by weight. Spices like cinnamon and cassia, alongside ferrous wares, lapis lazuli, and equines, amplified the route's lucrative repertoire, while intrepid Sogdian intermediaries, polyglot virtuosi of arbitrage, orchestrated the logistical symphony amid perennial perils of predation and privation.\n\nMaritime counterparts, leveraging monsoon predictability, burgeoned contemporaneous with terrestrial vigor, supplanting them in efficacy by late antiquity. Dhows and lateen-rigged vessels, precursors to medieval cogs, navigated from Roman Berenike to Muziris in Kerala, ferrying pepper, cloves, ivory, and cotton textiles integral to imperial opulence. The Incense Route, bifurcating from Yemen's frankincense groves via Petra's rock-hewn facades to Gaza's emporia, supplied myrrh and balsam indispensable for Judeo-Hellenic cultic observances and mummification rites. Navigational sophistication, chronicled in the Periplus of the Erythraean Sea—an anonymous first-century CE vademecum—integrated stellar azimuths, monsoon cadences, and coastal hydrography, mitigating capsize risks in cyclone-prone littorals. These aqueous avenues not only truncated transit durations but democratized bulk cargoes unattainable overland, catalyzing entrepôt proliferation at Aksum, Rhapta, and Oc Eo.\n\nThe ramifications of these trade nexuses reverberated across geopolitical, socioeconomic, and sociocultural spectra. Intermediary polities such as Parthia, Kushan, and Sasanian Persia amassed fortunes via octroi duties and monopolistic waystations, underwriting monumental infrastructures like the Grand Canal precursors and qanat aqueducts. Culturally, Buddhism's proselytization from Gandhara to Chang'an, Hellenistic coinage imitations in Bactria, and Nestorian Christian enclaves in Tangut domains exemplified syncretic efflorescence. Linguistic chimeras, exemplified by Tocharian hybrids and Prakrit koines, alongside hybrid iconographies fusing Greco-Buddhist Gandharan friezes, underscored the routes' catalytic role in premodern globalization. Pathogen vectors, including variola and Yersinia pestis precursors, inadvertently traversed alongside, presaging pandemics that reshaped demographics.\n\nNotwithstanding their splendor, ancient trade corridors confronted inexorable adversities: climatic oscillations precipitating desertification, nomadic incursions disrupting nodal securities, and endogenous epidemics eroding caravan viability. The Pax Mongolica transiently revitalized Silk Road throughput circa 1271-1368 CE under Khubilai's aegis, yet Ottoman territorial consolidations, Portuguese caravel interlopers, and the catastrophic fourteenth-century bubonic plague cascades precipitated inexorable atrophy. Vestiges persist in etymological fossils—'serendipity' from Sinhalese isles—and contemporary Belt and Road initiatives, affirming these primordial pathways as foundational to global interconnectivity paradigms.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_1fff278e-2ec5-4c58-86b2-9ca8f453367b_to_l3_r6_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "1fff278e-2ec5-4c58-86b2-9ca8f453367b",
+    "source_dataset": "generated",
+    "source_file": "1fff278e-2ec5-4c58-86b2-9ca8f453367b.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The ancient world was interwoven by an extensive lattice of trade routes that propelled the dissemination of commodities, innovations, and ideologies across vast Eurasian expanses and beyond. Foremost among these were the overland Silk Road, which meandered from the Han Dynasty heartlands in China through Central Asian steppes to Mediterranean termini, and the maritime networks of the Indian Ocean that linked East Africa, the Arabian Peninsula, India, and Southeast Asia. Complementing these were ancillary pathways such as the Incense Route traversing arid Nabataean territories and the Amber Road facilitating exchanges between Baltic shores and Italic realms. These conduits, operational from the second millennium BCE onward, transcended mere mercantile pursuits; they constituted arteries of civilization, fostering economic interdependence while engendering profound cultural metamorphoses through the perpetual flux of peoples, pathogens, and paradigms.\n\nThe Silk Road epitomized the apogee of terrestrial commerce, sustaining vigorous exchange for over a millennium from circa 130 BCE until the fourteenth century CE. Camel caravans, hardy against desiccation and altitude, traversed formidable topographies including the Taklamakan Desert's shifting dunes, the Pamir Plateau's vertiginous passes, and the formidable Hexi Corridor. Entrepôts such as Samarkand, Bukhara, and Dunhuang functioned as crucibles of transaction, where barter predominated alongside nascent monetary systems evinced by overstamped Roman denarii and Chinese kaiyuan tongbao coins. Silk, the eponymous filament derived from Bombyx mori silkworms—a guarded Chinese secret until Byzantine espionage circa 550 CE—commanded astronomical valuations in Roman markets, often equivalent to gold by weight. Spices like cinnamon and cassia, alongside ferrous wares, lapis lazuli, and equines, amplified the route's lucrative repertoire, while intrepid Sogdian intermediaries, polyglot virtuosi of arbitrage, orchestrated the logistical symphony amid perennial perils of predation and privation.\n\nMaritime counterparts, leveraging monsoon predictability, burgeoned contemporaneous with terrestrial vigor, supplanting them in efficacy by late antiquity. Dhows and lateen-rigged vessels, precursors to medieval cogs, navigated from Roman Berenike to Muziris in Kerala, ferrying pepper, cloves, ivory, and cotton textiles integral to imperial opulence. The Incense Route, bifurcating from Yemen's frankincense groves via Petra's rock-hewn facades to Gaza's emporia, supplied myrrh and balsam indispensable for Judeo-Hellenic cultic observances and mummification rites. Navigational sophistication, chronicled in the Periplus of the Erythraean Sea—an anonymous first-century CE vademecum—integrated stellar azimuths, monsoon cadences, and coastal hydrography, mitigating capsize risks in cyclone-prone littorals. These aqueous avenues not only truncated transit durations but democratized bulk cargoes unattainable overland, catalyzing entrepôt proliferation at Aksum, Rhapta, and Oc Eo.\n\nThe ramifications of these trade nexuses reverberated across geopolitical, socioeconomic, and sociocultural spectra. Intermediary polities such as Parthia, Kushan, and Sasanian Persia amassed fortunes via octroi duties and monopolistic waystations, underwriting monumental infrastructures like the Grand Canal precursors and qanat aqueducts. Culturally, Buddhism's proselytization from Gandhara to Chang'an, Hellenistic coinage imitations in Bactria, and Nestorian Christian enclaves in Tangut domains exemplified syncretic efflorescence. Linguistic chimeras, exemplified by Tocharian hybrids and Prakrit koines, alongside hybrid iconographies fusing Greco-Buddhist Gandharan friezes, underscored the routes' catalytic role in premodern globalization. Pathogen vectors, including variola and Yersinia pestis precursors, inadvertently traversed alongside, presaging pandemics that reshaped demographics.\n\nNotwithstanding their splendor, ancient trade corridors confronted inexorable adversities: climatic oscillations precipitating desertification, nomadic incursions disrupting nodal securities, and endogenous epidemics eroding caravan viability. The Pax Mongolica transiently revitalized Silk Road throughput circa 1271-1368 CE under Khubilai's aegis, yet Ottoman territorial consolidations, Portuguese caravel interlopers, and the catastrophic fourteenth-century bubonic plague cascades precipitated inexorable atrophy. Vestiges persist in etymological fossils—'serendipity' from Sinhalese isles—and contemporary Belt and Road initiatives, affirming these primordial pathways as foundational to global interconnectivity paradigms.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 594,
+    "sentence_count": 22,
+    "avg_sentence_len": 27,
+    "avg_word_len": 6.74,
+    "syllable_count": 1381,
+    "complex_word_count": 93,
+    "complex_word_ratio": 0.16,
+    "flesch_reading_ease": -17.26,
+    "flesch_kincaid_grade": 22.37,
+    "ari": 23.82,
+    "coleman_liau": 22.74,
+    "gunning_fog": 17.06
+  },
+  "final_metrics": {
+    "word_count": 594,
+    "sentence_count": 22,
+    "avg_sentence_len": 27,
+    "avg_word_len": 6.74,
+    "syllable_count": 1381,
+    "complex_word_count": 93,
+    "complex_word_ratio": 0.16,
+    "flesch_reading_ease": -17.26,
+    "flesch_kincaid_grade": 22.37,
+    "ari": 23.82,
+    "coleman_liau": 22.74,
+    "gunning_fog": 17.06
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=10.4975;dir=simpler;est_wb=80;est_sb=8",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 22,
+        "avg_sentence_len": 27,
+        "avg_word_len": 6.74,
+        "syllable_count": 1381,
+        "complex_word_count": 93,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -17.26,
+        "flesch_kincaid_grade": 22.37,
+        "ari": 23.82,
+        "coleman_liau": 22.74,
+        "gunning_fog": 17.06
+      },
+      "distance_to_target": 10.4975,
+      "fidelity": {
+        "overall": 0.9671,
+        "entity_recall": 0.9268,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=10.4975;center_gap=10.08;mode=both;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=8;lf=0.99;df=2.10;af=1.0000;pg=10.4975;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 22,
+        "avg_sentence_len": 27,
+        "avg_word_len": 6.74,
+        "syllable_count": 1381,
+        "complex_word_count": 93,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -17.26,
+        "flesch_kincaid_grade": 22.37,
+        "ari": 23.82,
+        "coleman_liau": 22.74,
+        "gunning_fog": 17.06
+      },
+      "distance_to_target": 10.4975,
+      "fidelity": {
+        "overall": 0.9671,
+        "entity_recall": 0.9268,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=10.4975;center_gap=10.08;mode=both;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=8;lf=0.99;df=2.10;af=1.0000;pg=10.4975;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 22,
+        "avg_sentence_len": 27,
+        "avg_word_len": 6.74,
+        "syllable_count": 1381,
+        "complex_word_count": 93,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -17.26,
+        "flesch_kincaid_grade": 22.37,
+        "ari": 23.82,
+        "coleman_liau": 22.74,
+        "gunning_fog": 17.06
+      },
+      "distance_to_target": 10.4975,
+      "fidelity": {
+        "overall": 0.9671,
+        "entity_recall": 0.9268,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=10.4975;center_gap=10.08;mode=both;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=8;lf=0.99;df=2.10;af=1.0000;pg=10.4975;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 22,
+        "avg_sentence_len": 27,
+        "avg_word_len": 6.74,
+        "syllable_count": 1381,
+        "complex_word_count": 93,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -17.26,
+        "flesch_kincaid_grade": 22.37,
+        "ari": 23.82,
+        "coleman_liau": 22.74,
+        "gunning_fog": 17.06
+      },
+      "distance_to_target": 10.4975,
+      "fidelity": {
+        "overall": 0.9671,
+        "entity_recall": 0.9268,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=10.4975;center_gap=10.08;mode=both;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=8;lf=0.99;df=2.10;af=1.0000;pg=10.4975;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 22,
+        "avg_sentence_len": 27,
+        "avg_word_len": 6.74,
+        "syllable_count": 1381,
+        "complex_word_count": 93,
+        "complex_word_ratio": 0.16,
+        "flesch_reading_ease": -17.26,
+        "flesch_kincaid_grade": 22.37,
+        "ari": 23.82,
+        "coleman_liau": 22.74,
+        "gunning_fog": 17.06
+      },
+      "distance_to_target": 10.4975,
+      "fidelity": {
+        "overall": 0.9671,
+        "entity_recall": 0.9268,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9671,
+    "entity_recall": 0.9268,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 82,
+    "number_total": 4,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:02.930Z"
+}

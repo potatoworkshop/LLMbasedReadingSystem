@@ -1,6 +1,11 @@
+import type { LlmResponse, StructuredOutputSchema } from "./llmAdapter";
+
 const defaultBaseUrl = "http://localhost:11434";
 
-export const callOllama = async (prompt: string) => {
+export const callOllama = async (
+  prompt: string,
+  structuredOutput?: StructuredOutputSchema
+): Promise<LlmResponse> => {
   const baseUrl = process.env.OLLAMA_BASE_URL || defaultBaseUrl;
   const model = process.env.OLLAMA_MODEL;
 
@@ -15,7 +20,7 @@ export const callOllama = async (prompt: string) => {
       model,
       messages: [{ role: "user", content: prompt }],
       stream: false,
-      format: "json"
+      format: structuredOutput ? structuredOutput.schema : "json",
     }),
   });
 
@@ -26,6 +31,9 @@ export const callOllama = async (prompt: string) => {
 
   const data = (await response.json()) as {
     message?: { content?: string };
+    model?: string;
+    prompt_eval_count?: number;
+    eval_count?: number;
   };
 
   const content = data.message?.content;
@@ -33,5 +41,22 @@ export const callOllama = async (prompt: string) => {
     throw new Error("Ollama response missing content");
   }
 
-  return content;
+  const promptTokens =
+    typeof data.prompt_eval_count === "number" ? data.prompt_eval_count : null;
+  const completionTokens =
+    typeof data.eval_count === "number" ? data.eval_count : null;
+
+  return {
+    content,
+    provider: "ollama",
+    model: data.model ?? model,
+    usage: {
+      prompt_tokens: promptTokens,
+      completion_tokens: completionTokens,
+      total_tokens:
+        typeof promptTokens === "number" && typeof completionTokens === "number"
+          ? promptTokens + completionTokens
+          : null,
+    },
+  };
 };

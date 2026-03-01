@@ -1,0 +1,214 @@
+{
+  "article_id": "b530ee33-ad38-4038-bb26-281c56a6ef66",
+  "mode": "difficulty_adjust",
+  "original_article": "The marine environment constitutes the most expansive and intricate biome on Earth, functioning as a sophisticated network of biological interactions and geochemical cycles that regulate the global climate. At the fundamental level of this aquatic hierarchy are the primary producers, predominantly microscopic phytoplankton, which harness solar radiation through photosynthesis to convert inorganic carbon into organic matter. This process, known as primary productivity, serves as the cornerstone for the entire pelagic food web, sustaining a diverse array of organisms ranging from zooplankton to apex predators. However, the efficacy of this energy transfer is contingent upon specific abiotic factors, including nutrient availability, thermal stratification, and light penetration, all of which are increasingly susceptible to anthropogenic perturbations. As carbon dioxide concentrations rise within the atmosphere, the oceans absorb a significant portion of this excess gas, leading to a phenomenon termed ocean acidification. This chemical shift reduces the saturation state of calcium carbonate, thereby hindering the calcification processes of marine organisms such as scleractinian corals and various mollusks, which are essential for maintaining the structural integrity of reef ecosystems.\n\nBeyond the sunlit epipelagic zone lies the profound complexity of the benthic and deep-sea environments, where life has adapted to extreme hydrostatic pressure and the absence of photosynthetic potential. In these abyssal regions, biological communities often rely on marine snow—a continuous shower of organic detritus originating from the upper layers of the water column. Furthermore, hydrothermal vent systems represent unique biological hotspots where chemosynthetic bacteria derive energy from the oxidation of hydrogen sulfide, bypassing the requirement for sunlight entirely. These ecosystems demonstrate the remarkable resilience and evolutionary plasticity of marine life; nevertheless, they remain vulnerable to emerging industrial interests, such as deep-sea mining for polymetallic nodules. The potential disruption of these fragile habitats could lead to irreversible biodiversity loss and the impairment of nutrient cycling mechanisms that have remained stable for millennia. The interconnectedness of these vertical layers implies that disturbances in the deep sea may eventually manifest as ecological imbalances within the more accessible coastal fisheries upon which human populations depend.\n\nCoastal ecosystems, particularly mangroves, seagrass meadows, and salt marshes, function as critical transitional zones that provide indispensable ecosystem services, including carbon sequestration and shoreline stabilization. These blue carbon habitats possess an extraordinary capacity to store atmospheric carbon within their anaerobic sediments, surpassing the sequestration rates of many terrestrial forests. Despite their ecological significance, these regions are currently experiencing unprecedented rates of degradation due to coastal development, pollution, and rising sea levels. The loss of these natural buffers exacerbates the vulnerability of inland areas to storm surges and diminishes the nursery grounds for numerous commercially significant fish species. Addressing these challenges requires a comprehensive understanding of marine spatial planning and the implementation of robust conservation strategies that transcend national jurisdictions. Ultimately, the preservation of marine ecosystems necessitates a paradigm shift in how global societies perceive the ocean, moving from a view of inexhaustible resources to one of a finite, delicate system requiring rigorous stewardship and scientific oversight.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_1d07bc5b-d510-4384-8583-aad7baff6773_to_l3_r4_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "1d07bc5b-d510-4384-8583-aad7baff6773",
+    "source_dataset": "generated",
+    "source_file": "1d07bc5b-d510-4384-8583-aad7baff6773.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The marine environment forms the largest and large ecosystem on Earth, acting as a complex network of life chains and chemical cycles that manage the global climate. At the basic level of this aquatic hierarchy are the main producers, mostly microscopic plankton, which capture sunlight through photosynthesis to convert non-living carbon into organic matter. This process, known as primary productivity, serves as the basis for the entire ocean food web, feeding a wide array of organisms ranging from zooplankton to top predators. But energy transfer depends on certain factors. These are nutrient supply, water layering, and light depth. Humans now change them more. As carbon dioxide levels rise within the atmosphere, the oceans absorb a large portion of this excess gas, leading to a event known as ocean acidifying. Change lowers calcium carbonate amount. Stops shell building in corals and mollusks. Key for reef strength.\n\nBeyond the sunlit epipelagic zone lies the great complexity of the benthic and deep-sea environments, where life has adapted to extreme deep pressure and the lack of light-made energy. Deep communities depend on marine snow. It is dead matter raining from surface waters. Furthermore, hydrothermal vent systems represent unique biological hotspots where chemical-making bacteria obtain energy from the oxidation of hydrogen sulfide, bypassing the requirement for sunlight entirely. These ecosystems demonstrate the amazing hardiness and evolutionary plasticity of marine life; nevertheless, they remain exposed to emerging industrial interests, such as deep-sea mining for polymetallic nodules. The potential upset of these fragile habitats could lead to lasting species loss and the harm of nutrient cycling mechanisms that have remained stable for millennia. Deep changes affect coastal fish through links. People need coastal fisheries.\n\nCoastal ecosystems, particularly mangroves, seagrass meadows, and salt marshes, function as critical transitional zones that provide vital ecosystem services, including carbon trapping and shoreline stabilization. They trap lots of carbon in mud without oxygen. More than many forests. Despite their nature value, these regions are currently experiencing unprecedented rates of loss due to coastal development, pollution, and rising sea levels. No buffers mean more storm damage inland. Fewer places for fish to grow. We need ocean planning and border-crossing protection. View oceans as finite systems. They require science and care, not as unlimited resources.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 496,
+    "sentence_count": 18,
+    "avg_sentence_len": 27.56,
+    "avg_word_len": 6.44,
+    "syllable_count": 1094,
+    "complex_word_count": 85,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -7.73,
+    "flesch_kincaid_grade": 21.18,
+    "ari": 22.68,
+    "coleman_liau": 20.99,
+    "gunning_fog": 17.88
+  },
+  "final_metrics": {
+    "word_count": 377,
+    "sentence_count": 27,
+    "avg_sentence_len": 13.96,
+    "avg_word_len": 5.58,
+    "syllable_count": 683,
+    "complex_word_count": 28,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 39.4,
+    "flesch_kincaid_grade": 11.23,
+    "ari": 11.85,
+    "coleman_liau": 14.91,
+    "gunning_fog": 8.56
+  },
+  "hit_target": true,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced lexical and syntactic changes|applied_edits=23|tier=coarse_jump;dist=9.6825;dir=simpler;est_wb=80;est_sb=7",
+      "metrics": {
+        "word_count": 456,
+        "sentence_count": 21,
+        "avg_sentence_len": 21.71,
+        "avg_word_len": 6.11,
+        "syllable_count": 944,
+        "complex_word_count": 66,
+        "complex_word_ratio": 0.14,
+        "flesch_reading_ease": 9.66,
+        "flesch_kincaid_grade": 17.31,
+        "ari": 18.2,
+        "coleman_liau": 18.76,
+        "gunning_fog": 14.48
+      },
+      "distance_to_target": 6.1875,
+      "fidelity": {
+        "overall": 0.95,
+        "entity_recall": 0.8889,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1201,
+        "completion_tokens": 11259,
+        "total_tokens": 12460,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach: combining lexical word substitutions with syntactic sentence splits and restructurings for both dimensions|applied_edits=27|tier=dist_gt_2;dist=6.1875;center_gap=5.66;mode=both;dominant=word;dir_changed=0;wb=52;sb=8;est_wb=80;est_sb=8;lf=0.87;df=2.10;af=1.7704;pg=9.6825;pd=3.4950;af_fb=0",
+      "metrics": {
+        "word_count": 422,
+        "sentence_count": 24,
+        "avg_sentence_len": 17.58,
+        "avg_word_len": 5.8,
+        "syllable_count": 813,
+        "complex_word_count": 46,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 26,
+        "flesch_kincaid_grade": 14,
+        "ari": 14.66,
+        "coleman_liau": 16.6,
+        "gunning_fog": 11.39
+      },
+      "distance_to_target": 3.1625,
+      "fidelity": {
+        "overall": 0.95,
+        "entity_recall": 0.8889,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2435,
+        "completion_tokens": 19877,
+        "total_tokens": 22312,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced lexical and syntactic simplification|applied_edits=17|tier=dist_gt_2;dist=3.1625;center_gap=2.35;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=80;est_sb=3;lf=0.84;df=2.10;af=1.0455;pg=6.1875;pd=3.0250;af_fb=0",
+      "metrics": {
+        "word_count": 377,
+        "sentence_count": 27,
+        "avg_sentence_len": 13.96,
+        "avg_word_len": 5.58,
+        "syllable_count": 683,
+        "complex_word_count": 28,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 39.4,
+        "flesch_kincaid_grade": 11.23,
+        "ari": 11.85,
+        "coleman_liau": 14.91,
+        "gunning_fog": 8.56
+      },
+      "distance_to_target": 0.6375,
+      "fidelity": {
+        "overall": 0.83,
+        "entity_recall": 0.6667,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 9,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3616,
+        "completion_tokens": 25271,
+        "total_tokens": 28887,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.83,
+    "entity_recall": 0.6667,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 9,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3616,
+    "completion_tokens": 25271,
+    "total_tokens": 28887,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-03-01T13:09:54.416Z"
+}

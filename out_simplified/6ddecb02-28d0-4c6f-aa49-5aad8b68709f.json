@@ -1,0 +1,288 @@
+{
+  "article_id": "6ddecb02-28d0-4c6f-aa49-5aad8b68709f",
+  "mode": "difficulty_adjust",
+  "original_article": "In the Anthropocene epoch, characterized by profound anthropogenic perturbations to the Earth's climatic equilibrium, the imperative of climate adaptation has ascended to paramount salience as a counterpoise to mitigation stratagems. Whereas mitigation aspires to attenuate greenhouse gas effusions and thereby forestall radiative forcing, adaptation acknowledges the inexorability of residual climatic perturbations—manifesting as amplified thermal anomalies, erratic hydrometeorological regimes, and inexorable sea-level encroachment—and endeavors to engender societal and ecological resilience. This paradigm shift necessitates the assimilation of adaptive precepts into multifaceted policy architectures, particularly in latitudinal bands and littoral precincts disproportionately encumbered by these inexorable transformations, where socioeconomic frailties amplify existential perils.\n\nContemporary adaptation repertoires encompass a panoply of interventions, from infrastructural bulwarking to agroecological refashionings and urban recalibrations. Exemplifying this ingenuity, the Dutch Delta Programme integrates probabilistic modeling with hydraulic engineering to fortify polders against surging fluvial and marine incursions, while Bangladesh's cyclone early-warning constellations and mangrove afforestation initiatives have demonstrably curtailed mortality from cyclonic tempests. In agrarian heartlands, the promulgation of drought-tolerant genotypes and precision irrigation apparatuses has mitigated yield volatilities amid desiccating precipitation deficits, underscoring the synergies between biotechnological innovation and indigenous agronomic erudition.\n\nNotwithstanding these strides, formidable impediments beset the scalably efficacious deployment of adaptation paradigms. Socioeconomic asymmetries engender disparate adaptive capacities, with indigent cohorts in least developed polities bereft of pecuniary and technological sinews requisite for resilient metamorphosis. Polycentric governance interstices further exacerbate coordination lacunae, as subnational exigencies often clash with supranational accords like the Paris Agreement. Moreover, epistemic uncertainties in downscaled climate projections confound anticipatory planning, compelling a probabilistic ethos in risk appraisal.\n\nProspectively, the ontogeny of climate adaptation will pivot upon technological disruptors—such as genomic editing for resilient biomes and geospatial analytics for anticipatory governance—interwoven with equitable resource apportionments. Absent assiduous redress of these fault lines, adaptation risks entrenching extant inequities, thereby imperiling the conviviality of human flourishing amid inexorable climatic flux.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_35befef3-7876-4a93-a39e-9b2c271bc8f9_to_l5_r4_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "35befef3-7876-4a93-a39e-9b2c271bc8f9",
+    "source_dataset": "generated",
+    "source_file": "35befef3-7876-4a93-a39e-9b2c271bc8f9.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In the Anthropocene epoch, characterized by profound anthropogenic perturbations to the Earth's climatic equilibrium, the imperative of climate adaptation has ascended to paramount salience as a counterpoise to mitigation stratagems. Whereas mitigation aspires to attenuate greenhouse gas effusions and thereby forestall radiative forcing, adaptation acknowledges the inexorability of residual climatic perturbations—manifesting as amplified thermal anomalies, erratic hydrometeorological regimes, and inexorable sea-level encroachment—and endeavors to engender societal and ecological resilience. This paradigm shift necessitates the assimilation of adaptive precepts into multifaceted policy architectures, particularly in latitudinal bands and littoral precincts disproportionately encumbered by these inexorable transformations, where socioeconomic frailties amplify existential perils.\n\nContemporary adaptation repertoires encompass a panoply of interventions, from infrastructural bulwarking to agroecological refashionings and urban recalibrations. Exemplifying this ingenuity, the Dutch Delta Programme integrates probabilistic modeling with hydraulic engineering to fortify polders against surging fluvial and marine incursions, while Bangladesh's cyclone early-warning constellations and mangrove afforestation initiatives have demonstrably curtailed mortality from cyclonic tempests. In agrarian heartlands, the promulgation of drought-tolerant genotypes and precision irrigation apparatuses has mitigated yield volatilities amid desiccating precipitation deficits, underscoring the synergies between biotechnological innovation and indigenous agronomic erudition.\n\nNotwithstanding these strides, formidable impediments beset the scalably efficacious deployment of adaptation paradigms. Socioeconomic asymmetries engender disparate adaptive capacities, with indigent cohorts in least developed polities bereft of pecuniary and technological sinews requisite for resilient metamorphosis. Polycentric governance interstices further exacerbate coordination lacunae, as subnational exigencies often clash with supranational accords like the Paris Agreement. Moreover, epistemic uncertainties in downscaled climate projections confound anticipatory planning, compelling a probabilistic ethos in risk appraisal.\n\nProspectively, the ontogeny of climate adaptation will pivot upon technological disruptors—such as genomic editing for resilient biomes and geospatial analytics for anticipatory governance—interwoven with equitable resource apportionments. Absent assiduous redress of these fault lines, adaptation risks entrenching extant inequities, thereby imperiling the conviviality of human flourishing amid inexorable climatic flux.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 315,
+    "sentence_count": 12,
+    "avg_sentence_len": 26.25,
+    "avg_word_len": 7.59,
+    "syllable_count": 849,
+    "complex_word_count": 89,
+    "complex_word_ratio": 0.28,
+    "flesch_reading_ease": -47.83,
+    "flesch_kincaid_grade": 26.45,
+    "ari": 27.45,
+    "coleman_liau": 27.7,
+    "gunning_fog": 21.8
+  },
+  "final_metrics": {
+    "word_count": 315,
+    "sentence_count": 12,
+    "avg_sentence_len": 26.25,
+    "avg_word_len": 7.59,
+    "syllable_count": 849,
+    "complex_word_count": 89,
+    "complex_word_ratio": 0.28,
+    "flesch_reading_ease": -47.83,
+    "flesch_kincaid_grade": 26.45,
+    "ari": 27.45,
+    "coleman_liau": 27.7,
+    "gunning_fog": 21.8
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.9500;center_gap=8.23;mode=both;dominant=word;dir_changed=0;wb=80;sb=5;est_wb=77;est_sb=3;lf=0.72;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 315,
+        "sentence_count": 12,
+        "avg_sentence_len": 26.25,
+        "avg_word_len": 7.59,
+        "syllable_count": 849,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.28,
+        "flesch_reading_ease": -47.83,
+        "flesch_kincaid_grade": 26.45,
+        "ari": 27.45,
+        "coleman_liau": 27.7,
+        "gunning_fog": 21.8
+      },
+      "distance_to_target": 2.95,
+      "fidelity": {
+        "overall": 0.9357,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 14,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.9500;center_gap=8.23;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=77;est_sb=3;lf=0.72;df=2.10;af=1.0000;pg=2.9500;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 315,
+        "sentence_count": 12,
+        "avg_sentence_len": 26.25,
+        "avg_word_len": 7.59,
+        "syllable_count": 849,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.28,
+        "flesch_reading_ease": -47.83,
+        "flesch_kincaid_grade": 26.45,
+        "ari": 27.45,
+        "coleman_liau": 27.7,
+        "gunning_fog": 21.8
+      },
+      "distance_to_target": 2.95,
+      "fidelity": {
+        "overall": 0.9357,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 14,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.9500;center_gap=8.23;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=77;est_sb=3;lf=0.72;df=2.10;af=1.0000;pg=2.9500;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 315,
+        "sentence_count": 12,
+        "avg_sentence_len": 26.25,
+        "avg_word_len": 7.59,
+        "syllable_count": 849,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.28,
+        "flesch_reading_ease": -47.83,
+        "flesch_kincaid_grade": 26.45,
+        "ari": 27.45,
+        "coleman_liau": 27.7,
+        "gunning_fog": 21.8
+      },
+      "distance_to_target": 2.95,
+      "fidelity": {
+        "overall": 0.9357,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 14,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.9500;center_gap=8.23;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=77;est_sb=3;lf=0.72;df=2.10;af=1.0000;pg=2.9500;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 315,
+        "sentence_count": 12,
+        "avg_sentence_len": 26.25,
+        "avg_word_len": 7.59,
+        "syllable_count": 849,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.28,
+        "flesch_reading_ease": -47.83,
+        "flesch_kincaid_grade": 26.45,
+        "ari": 27.45,
+        "coleman_liau": 27.7,
+        "gunning_fog": 21.8
+      },
+      "distance_to_target": 2.95,
+      "fidelity": {
+        "overall": 0.9357,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 14,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.9500;center_gap=8.23;mode=both;dominant=word;dir_changed=0;wb=52;sb=5;est_wb=77;est_sb=3;lf=0.72;df=2.10;af=1.0000;pg=2.9500;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 315,
+        "sentence_count": 12,
+        "avg_sentence_len": 26.25,
+        "avg_word_len": 7.59,
+        "syllable_count": 849,
+        "complex_word_count": 89,
+        "complex_word_ratio": 0.28,
+        "flesch_reading_ease": -47.83,
+        "flesch_kincaid_grade": 26.45,
+        "ari": 27.45,
+        "coleman_liau": 27.7,
+        "gunning_fog": 21.8
+      },
+      "distance_to_target": 2.95,
+      "fidelity": {
+        "overall": 0.9357,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 14,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9357,
+    "entity_recall": 0.8571,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 14,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:55.217Z"
+}

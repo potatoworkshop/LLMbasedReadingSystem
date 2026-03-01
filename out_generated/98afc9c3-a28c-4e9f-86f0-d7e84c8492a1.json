@@ -1,0 +1,59 @@
+{
+  "article_id": "98afc9c3-a28c-4e9f-86f0-d7e84c8492a1",
+  "topic": "ancient trade routes",
+  "level": 2,
+  "target_words": 300,
+  "lang": "en",
+  "title": "The Network of Ancient Trade",
+  "article": [
+    "Long ago, people did not have the technology to travel across the world in a single day. Instead, they used a huge network of paths called trade routes to move goods between distant lands. These routes connected different groups of people and allowed them to share items they could not find at home. Traders would travel for many months across hot deserts and over high mountains to reach their destinations. They often moved in large groups called caravans to stay safe from danger. This system of exchange changed the world forever by bringing new resources to every corner of the globe.",
+    "The most famous of these paths was the Silk Road. It was not just one road, but a series of many paths that linked China to the Mediterranean Sea. Chinese merchants carried valuable silk, which was very popular in the Roman Empire. In return, they received gold, silver, and fine glassware. However, luxury goods were not the only things that moved along these routes. People also traded common items like salt, paper, and iron tools. Because the journey was so long and difficult, goods often became much more expensive as they moved further away from their original source.",
+    "Trade routes also played a major role in the spread of ideas and culture. When merchants met in busy market towns, they shared more than just products. They talked about their religions, their music, and their art. They also shared important inventions. For example, the secret of making paper moved from China to the Middle East and then to Europe because of these early travelers. New types of food and plants also moved between continents, which changed what people ate in different parts of the world. In this way, trade helped different societies learn from one another.",
+    "Today, we use ships and planes to move goods quickly, but the ancient trade routes were the start of our global world. They proved that people have always wanted to explore and connect with others. Even though the travel was slow and risky, the rewards were very high. These early paths built the foundation for modern business and international relations. By looking back at these ancient routes, we can see how the desire for trade has shaped human history for thousands of years."
+  ],
+  "metrics": {
+    "word_count": 379,
+    "sentence_count": 25,
+    "avg_sentence_len": 15.16,
+    "avg_word_len": 4.75,
+    "syllable_count": 564,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 65.55,
+    "flesch_kincaid_grade": 7.88,
+    "ari": 8.52,
+    "coleman_liau": 10.17,
+    "gunning_fog": 6.59
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "ancient_trade_routes_l2_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:40:04.692Z",
+    "effective_target_words": 390,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 351,
+      "upper": 468
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 79
+  },
+  "token_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 454,
+    "total_tokens": 657,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:40:04.692Z"
+}

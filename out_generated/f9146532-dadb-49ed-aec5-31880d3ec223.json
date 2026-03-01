@@ -1,0 +1,60 @@
+{
+  "article_id": "f9146532-dadb-49ed-aec5-31880d3ec223",
+  "topic": "ancient trade routes",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes",
+  "article": [
+    "Ancient trade routes were paths used by people to move goods and ideas. They linked towns, cities and farms. Traders walked, rode animals or sailed boats. Routes could be long or short. Still, they made life more varied and rich for many people along the way.",
+    "The Silk Road is one well known route that ran across Asia. Caravans carried silk, spices, tea and glass. Traders stopped at towns to rest and trade. The sea lanes in the Indian Ocean also held many ships. These ships moved wood, metal, beads and cloth. Ports grew into busy cities. People there sold food and tools. They also learned to work with new craft skills.",
+    "Trade routes did more than move goods. They also moved words, art and ideas. New crops and animals spread to other lands. For example, a fruit or grain might start in one place and become common in another. Craftsmen learned new methods. Priests and teachers spread beliefs. In time, people mixed styles of art and dress. As a result, many regions show signs of this deep contact in their history and life today.",
+    "The routes needed rules and skills to work well. Leaders set taxes and laws to keep trade safe. Guides and maps helped travelers find water and shelter. Traders kept records with marks or simple lists. These simple acts built trust. When trust grew, trade grew as well. Small markets became large centers of exchange. The growth of cities often followed the rise of trade.",
+    "Today we study ancient trade routes to learn how the world was linked in the past. Old roads and ports tell us about the goods people used. They also show how ideas spread and how people lived. This study can help us see links between past and present ways of life. It can also help us plan for the future, since trade still shapes who we are and how people meet and share things across the world."
+  ],
+  "metrics": {
+    "word_count": 326,
+    "sentence_count": 34,
+    "avg_sentence_len": 9.59,
+    "avg_word_len": 4.41,
+    "syllable_count": 425,
+    "complex_word_count": 0,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 86.81,
+    "flesch_kincaid_grade": 3.53,
+    "ari": 4.13,
+    "coleman_liau": 7.03,
+    "gunning_fog": 3.84
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "ancient_trade_routes_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:11:27.291Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 2,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 26
+  },
+  "token_usage": {
+    "prompt_tokens": 366,
+    "completion_tokens": 3686,
+    "total_tokens": 4052,
+    "llm_calls": 2
+  },
+  "generated_at": "2026-02-25T20:11:27.291Z"
+}

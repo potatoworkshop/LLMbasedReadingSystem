@@ -1,0 +1,176 @@
+{
+  "article_id": "6e1d9939-23a8-45d2-82db-961ceb5a7464",
+  "mode": "difficulty_adjust",
+  "original_article": "For millennia, the coconut has been central to the lives of Polynesian and Asian peoples. In the western world, on the other hand, coconuts have always been exotic and unusual, sometimes rare. The Italian merchant traveller Marco Polo apparently saw coconuts in South Asia in the late 13th century, and among the mid-14th-century travel writings of Sir John Mandeville there is mention of 'great Notes of Ynde' (great Nuts of India). Today, images of palm-fringed tropical beaches are clichés in the west to sell holidays, chocolate bars, fizzy drinks and even romance.\n\nTypically, we envisage coconuts as brown cannonballs that, when opened, provide sweet white flesh. But we see only part of the fruit and none of the plant from which they come. The coconut palm has a smooth, slender, grey trunk, up to 30 metres tall. This is an important source of timber for building houses, and is increasingly being used as a replacement for endangered hardwoods in the furniture construction industry. The trunk is surmounted by a rosette of leaves, each of which may be up to six metres long. The leaves have hard veins in their centres which, in many parts of the world, are used as brushes after the green part of the leaf has been stripped away. Immature coconut flowers are tightly clustered together among the leaves at the top of the trunk. The flower stems may be tapped for their sap to produce a drink, and the sap can also be reduced by boiling to produce a type of sugar used for cooking.\n\nCoconut palms produce as many as seventy fruits per year, weighing more than a kilogram each. The wall of the fruit has three layers: a waterproof outer layer, a fibrous middle layer and a hard, inner layer. The thick fibrous middle layer produces coconut fibre, 'coir', which has numerous uses and is particularly important in manufacturing ropes. The woody innermost layer, the shell, with its three prominent 'eyes', surrounds the seed. An important product obtained from the shell is charcoal, which is widely used in various industries as well as in the home as a cooking fuel. When broken in half, the shells are also used as bowls in many parts of Asia.\n\nInside the shell are the nutrients (endosperm) needed by the developing seed. Initially, the endosperm is a sweetish liquid, coconut water, which is enjoyed as a drink, but also provides the hormones which encourage other plants to grow more rapidly and produce higher yields. As the fruit matures, the coconut water gradually solidifies to form the brilliant white, fat-rich, edible flesh or meat. Dried coconut flesh, 'copra', is made into coconut oil and coconut milk, which are widely used in cooking in different parts of the world, as well as in cosmetics. A derivative of coconut fat, glycerine, acquired strategic importance in a quite different sphere, as Alfred Nobel introduced the world to his nitroglycerine-based invention: dynamite.\n\nTheir biology would appear to make coconuts the great maritime voyagers and coastal colonizers of the plant world. The large, energy-rich fruits are able to float in water and tolerate salt, but cannot remain viable indefinitely; studies suggest after about 110 days at sea they are no longer able to germinate. Literally cast onto desert island shores, with little more than sand to grow in and exposed to the full glare of the tropical sun, coconut seeds are able to germinate and root. The air pocket in the seed, created as the endosperm solidifies, protects the embryo. In addition, the fibrous fruit wall that helped it to float during the voyage stores moisture that can be taken up by the roots of the coconut seedling as it starts to grow.\n\nThere have been centuries of academic debate over the origins of the coconut. There were no coconut palms in West Africa, the Caribbean or the east coast of the Americas before the voyages of the European explorers Vasco da Gama and Columbus in the late 15th and early 16th centuries. 16th century trade and human migration patterns reveal that Arab traders and European sailors are likely to have moved coconuts from South and Southeast Asia to Africa and then across the Atlantic to the east coast of America. But the origin of coconuts discovered along the west coast of America by 16th century sailors has been the subject of centuries of discussion. Two diametrically opposed origins have been proposed: that they came from Asia, or that they were native to America. Both suggestions have problems In Asia, there is a large degree of coconut diversity and evidence of millennia of human use - but there are no relatives growing in the wild. In America, there are close coconut relatives, but no evidence that coconuts are indigenous. These problems have led to the intriguing suggestion that coconuts originated on coral islands in the Pacific and were dispersed from there.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+    "run_tag": "replace_gemini_fast80_deepseek_v32",
+    "batch_id": "replace_gemini_fast80_deepseek_v32_mb01",
+    "sample_id": "questions_ielts_13_test3_passage1_41igvj_to_l1_r5_deepseek_deepseek-v3.2"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test3_passage1_41igvj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test3_passage1_41igvj.json"
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "For thousands of years, the coconut has been important to Polynesian and Asian peoples. In the western world, coconuts have historically been perceived as exotic and unfamiliar, at times even rare commodities. The Italian traveler Marco Polo likely saw coconuts in South Asia in the late 13th century. The mid-14th-century writings of Sir John Mandeville mention 'great Nuts of India'. Today, pictures of tropical beaches with palm trees are common in the west. They are used to sell holidays, candy, soda, and even romance.\n\nWe usually picture coconuts as brown, round balls. When opened, they have sweet white meat inside. But we only see part of the fruit. We do not see the source plant, the coconut palm, which possesses a smooth, thin, grey trunk that can reach heights of up to 30 metres. This trunk is an important wood for building houses. It is also used more and more to replace rare hardwoods in making furniture. The top of the trunk has a circle of leaves. Each leaf can be up to six metres long. The leaves have hard veins in the center. In many parts of the world, people use these veins as brushes. They do this after removing the green part of the leaf. Young coconut flowers are grouped tightly together. They are among the leaves at the top of the trunk. People can collect sap from the flower stems to make a drink. The sap can also be boiled down to make a type of sugar for cooking.\n\nA coconut palm can produce up to seventy fruits each year. Each fruit weighs more than a kilogram. The fruit wall has three layers. There is a waterproof outer layer, a stringy middle layer, and a hard inner layer. The thick, stringy middle layer makes coconut fibre, called 'coir'. Coir has many uses. It is very important for making ropes. The woody inside layer is the shell. It has three noticeable 'eyes'. The shell surrounds the seed. An important product derived from the shell is charcoal, a material with extensive industrial applications as well as domestic use for cooking fuel. When broken in half, the shells are used as bowls. This happens in many parts of Asia.\n\nInside the shell are the nutrients the growing seed needs. At first, the endosperm is a sweet liquid called coconut water. People enjoy it as a drink. It also has hormones. These hormones help other plants grow faster and produce more. As the fruit grows, the coconut water slowly becomes solid. It forms bright white, fatty meat that can be eaten. Dried coconut meat, termed 'copra', is processed into coconut oil and coconut milk, which find global use in both culinary and cosmetic contexts. A product from coconut fat is glycerine. Glycerine became very important in a different area. Alfred Nobel introduced the world to his invention, dynamite. It was based on nitroglycerine.\n\nTheir biology seems to make coconuts great ocean travelers. They are coastal settlers in the plant world. The large fruits are full of energy. They can float in water and handle salt. But they cannot stay alive forever. Studies suggest that after about 110 days at sea, they can no longer sprout. Thrown onto desert island shores, coconut seeds can sprout and take root. They have little more than sand to grow in. They are out in the bright tropical sun. An air pocket forms in the seed as the endosperm becomes solid. This air pocket protects the baby plant. Also, the stringy fruit wall helped it float. This wall stores moisture. The roots of the young coconut plant can take up this moisture as it starts to grow.\n\nScholars have debated the origins of the coconut for centuries. Before the late 15th and early 16th centuries, there were no coconut palms in West Africa, the Caribbean, or the east coast of the Americas. This was before the voyages of explorers Vasco da Gama and Columbus. Trade and migration patterns in the 16th century show something. Arab traders and European sailors likely moved coconuts. They moved them from South and Southeast Asia to Africa. Then they moved them across the Atlantic to the east coast of America. But people have discussed for centuries where coconuts on the west coast of America came from. 16th century sailors found them there. Two completely different origins have been suggested. One is that they came from Asia. The other is that they were native to America. Both suggestions have problems. In Asia, there is a large variety of coconuts. There is also evidence of thousands of years of human use. But no wild relatives grow there. In America, there are close relatives of the coconut. But there is no evidence that coconuts are native there. These problems have led to an interesting suggestion. It is that coconuts first grew on coral islands in the Pacific. They were spread from there.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 823,
+    "sentence_count": 36,
+    "avg_sentence_len": 22.86,
+    "avg_word_len": 4.75,
+    "syllable_count": 1317,
+    "complex_word_count": 26,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 48.25,
+    "flesch_kincaid_grade": 12.21,
+    "ari": 12.35,
+    "coleman_liau": 10.81,
+    "gunning_fog": 10.41
+  },
+  "final_metrics": {
+    "word_count": 820,
+    "sentence_count": 81,
+    "avg_sentence_len": 10.12,
+    "avg_word_len": 4.6,
+    "syllable_count": 1231,
+    "complex_word_count": 14,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 69.56,
+    "flesch_kincaid_grade": 6.07,
+    "ari": 5.29,
+    "coleman_liau": 8.31,
+    "gunning_fog": 4.73
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC changes (sentence replacements/splits/merges)|applied_edits=36|tier=coarse_jump;dist=4.4450;dir=simpler;est_wb=80;est_sb=13",
+      "metrics": {
+        "word_count": 824,
+        "sentence_count": 89,
+        "avg_sentence_len": 9.26,
+        "avg_word_len": 4.52,
+        "syllable_count": 1217,
+        "complex_word_count": 9,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 72.49,
+        "flesch_kincaid_grade": 5.45,
+        "ari": 4.47,
+        "coleman_liau": 7.56,
+        "gunning_fog": 4.14
+      },
+      "distance_to_target": 1.595,
+      "fidelity": {
+        "overall": 0.895,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 42,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1623,
+        "completion_tokens": 7954,
+        "total_tokens": 9577,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=SYNTACTIC changes|applied_edits=4|tier=dist_1_to_2;dist=1.5950;center_gap=2.31;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=22;sb=12;est_wb=80;est_sb=32;lf=1.17;df=1.70;af=0.5596;pg=4.4450;pd=2.8500;af_fb=0",
+      "metrics": {
+        "word_count": 820,
+        "sentence_count": 81,
+        "avg_sentence_len": 10.12,
+        "avg_word_len": 4.6,
+        "syllable_count": 1231,
+        "complex_word_count": 14,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.56,
+        "flesch_kincaid_grade": 6.07,
+        "ari": 5.29,
+        "coleman_liau": 8.31,
+        "gunning_fog": 4.73
+      },
+      "distance_to_target": 0.9,
+      "fidelity": {
+        "overall": 0.895,
+        "entity_recall": 0.8333,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 42,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3021,
+        "completion_tokens": 8898,
+        "total_tokens": 11919,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.895,
+    "entity_recall": 0.8333,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 42,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "deepseek/deepseek-v3.2",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3021,
+    "completion_tokens": 8898,
+    "total_tokens": 11919,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T17:31:10.372Z"
+}

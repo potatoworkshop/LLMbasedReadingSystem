@@ -1,0 +1,152 @@
+{
+  "experiment_id": "ch5_replace_gemini_fast80_deepseek_v32_20260301",
+  "run_tag": "replace_gemini_fast80_deepseek_v32",
+  "batch_id": "replace_gemini_fast80_deepseek_v32_mb05",
+  "micro_batch_index": 5,
+  "total_jobs": 10,
+  "success_count": 5,
+  "fail_count": 5,
+  "generated_at": "2026-03-01T17:45:44.005Z",
+  "records": [
+    {
+      "ts": "2026-03-01T17:18:36.133Z",
+      "ok": true,
+      "micro_batch_index": 5,
+      "index": 2,
+      "total": 10,
+      "article_id": "e74fe231-efe9-4fd0-a161-47bb068322f4",
+      "sample_id": "generated_039cb4b4-1508-481e-abd4-522e76f3ccf3_to_l1_r2_deepseek_deepseek-v3.2",
+      "target_level": 1,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "039cb4b4-1508-481e-abd4-522e76f3ccf3",
+        "source_dataset": "generated",
+        "source_file": "039cb4b4-1508-481e-abd4-522e76f3ccf3.json",
+        "source_level": 1
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 1,
+      "token_usage": {
+        "prompt_tokens": 1053,
+        "completion_tokens": 397,
+        "total_tokens": 1450,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 42792
+    },
+    {
+      "ts": "2026-03-01T17:31:13.220Z",
+      "ok": true,
+      "micro_batch_index": 5,
+      "index": 5,
+      "total": 10,
+      "article_id": "9361ad94-714e-40e2-a8cb-222382d7f65e",
+      "sample_id": "generated_0ae1cae6-1308-47f1-b1d7-c27541b36b95_to_l1_r5_deepseek_deepseek-v3.2",
+      "target_level": 1,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "0ae1cae6-1308-47f1-b1d7-c27541b36b95",
+        "source_dataset": "generated",
+        "source_file": "0ae1cae6-1308-47f1-b1d7-c27541b36b95.json",
+        "source_level": 4
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.735,
+      "token_usage": {
+        "prompt_tokens": 2139,
+        "completion_tokens": 5637,
+        "total_tokens": 7776,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 142963
+    },
+    {
+      "ts": "2026-03-01T17:41:52.287Z",
+      "ok": true,
+      "micro_batch_index": 5,
+      "index": 8,
+      "total": 10,
+      "article_id": "7938f360-4685-4bcf-b696-54744abdcd33",
+      "sample_id": "generated_0c413512-f7ee-4e64-b5f2-e35d46dc7ad7_to_l1_r8_deepseek_deepseek-v3.2",
+      "target_level": 1,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "0c413512-f7ee-4e64-b5f2-e35d46dc7ad7",
+        "source_dataset": "generated",
+        "source_file": "0c413512-f7ee-4e64-b5f2-e35d46dc7ad7.json",
+        "source_level": 2
+      },
+      "hit_target": true,
+      "rounds_used": 1,
+      "fidelity_overall": 0.9908,
+      "token_usage": {
+        "prompt_tokens": 1071,
+        "completion_tokens": 836,
+        "total_tokens": 1907,
+        "llm_calls": 1
+      },
+      "elapsed_ms": 25083
+    },
+    {
+      "ts": "2026-03-01T17:43:25.615Z",
+      "ok": true,
+      "micro_batch_index": 5,
+      "index": 9,
+      "total": 10,
+      "article_id": "933a1f31-d1f1-4c86-b8c6-765a4994ef83",
+      "sample_id": "generated_0c812562-e605-4eec-9b15-fa0701517dd0_to_l2_r1_deepseek_deepseek-v3.2",
+      "target_level": 2,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "0c812562-e605-4eec-9b15-fa0701517dd0",
+        "source_dataset": "generated",
+        "source_file": "0c812562-e605-4eec-9b15-fa0701517dd0.json",
+        "source_level": 2
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.9786,
+      "token_usage": {
+        "prompt_tokens": 1839,
+        "completion_tokens": 4030,
+        "total_tokens": 5869,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 93328
+    },
+    {
+      "ts": "2026-03-01T17:45:44.004Z",
+      "ok": true,
+      "micro_batch_index": 5,
+      "index": 10,
+      "total": 10,
+      "article_id": "1caa1975-7b42-4337-bf16-a17d7337256e",
+      "sample_id": "generated_0c8587eb-b6e0-484b-8c70-807e3266c714_to_l2_r2_deepseek_deepseek-v3.2",
+      "target_level": 2,
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "source": {
+        "source_article_id": "0c8587eb-b6e0-484b-8c70-807e3266c714",
+        "source_dataset": "generated",
+        "source_file": "0c8587eb-b6e0-484b-8c70-807e3266c714.json",
+        "source_level": 4
+      },
+      "hit_target": true,
+      "rounds_used": 2,
+      "fidelity_overall": 0.9415,
+      "token_usage": {
+        "prompt_tokens": 2566,
+        "completion_tokens": 7334,
+        "total_tokens": 9900,
+        "llm_calls": 2
+      },
+      "elapsed_ms": 138389
+    }
+  ]
+}

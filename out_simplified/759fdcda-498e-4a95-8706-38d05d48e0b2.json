@@ -1,0 +1,286 @@
+{
+  "article_id": "759fdcda-498e-4a95-8706-38d05d48e0b2",
+  "mode": "difficulty_adjust",
+  "original_article": "Can computers really create works of art?\n\nThe Painting Fool is one of a growing number of computer programs which, so their makers claim, possess creative talents. Classical music by an artificial composer has had audiences enraptured, and even tricked them into believing a human was behind the score. Artworks painted by a robot have sold for thousands of dollars and been hung in prestigious galleries. And software has been built which creates art that could not have been imagined by the programmer.\n\nHuman beings are the only species to perform sophisticated creative acts regularly. If we can break this process down into computer code, where does that leave human creativity? 'This is a question at the very core of humanity,' says Geraint Wiggins, a computational creativity researcher at Goldsmiths, University of London. 'It scares a lot of people. They are worried that it is taking something special away from what it means to be human.'\n\nTo some extent, we are all familiar with computerised art. The question is: where does the work of the artist stop and the creativity of the computer begin? Consider one of the oldest machine artists, Aaron, a robot that has had paintings exhibited in London's Tate Modern and the San Francisco Museum of Modern Art. Aaron can pick up a paintbrush and paint on canvas on its own. Impressive perhaps, but it is still little more than a tool to realise the programmer's own creative ideas.\n\nSimon Colton, the designer of the Painting Fool, is keen to make sure his creation doesn't attract the same criticism. Unlike earlier 'artists' such as Aaron, the Painting Fool only needs minimal direction and can come up with its own concepts by going online for material. The software runs its own web searches and trawls through social media sites. It is now beginning to display a kind of imagination too, creating pictures from scratch. One of its original works is a series of f'zzy landscapes, depicting trees and sky. While some might say they have a mechanical look, Colton argues that such reactions arise from people's double standards towards software-produced and human-produced art. After all, he says, consider that the Painting Fool painted the landscapes without referring to a photo. 'If a child painted a new scene from its head, you'd say it has a certain level of imagination,' he points out. The same should be true of a machine.' Software bugs can also lead to unexpected results. Some of the Painting Fool's paintings of a chair came out in black and white, thanks to a technical glitch. This gives the work an eerie, ghostlike quality. Human artists like the renowned Ellsworth Kelly are lauded for limiting their colour palette - so why should computers be any different?\n\nResearchers like Colton don't believe it is right to measure machine creativity directly to that of humans who 'have had millennia to develop our skills'. Others, though, are fascinated by the prospect that a computer might create something as original and subtle as our best artists. So far, only one has come close. Composer David Cope invented a program called Experiments in Musical Intelligence, or EMI. Not only did EMI create compositions in Cope's style, but also that of the most revered classical composers, including Bach, Chopin and Mozart. Audiences were moved to tears, and EMI even fooled classical music experts into thinking they were hearing genuine Bach. Not everyone was impressed however. Some, such as Wiggins, have blasted Cope's work as pseudoscience, and condemned him for his deliberately vague explanation of how the software worked. Meanwhile, Douglas Hofstadter of Indiana University said EMI created replicas which still rely completely on the original artist's creative impulses. When audiences found out the truth they were often outraged with Cope, and one music lover even tried to punch him. Amid such controversy, Cope destroyed EMI's vital databases.\n\nBut why did so many people love the music, yet recoil when they discovered how it was composed? A study by computer scientist David Moffat of Glasgow Caledonian University provides a clue. He asked both expert musicians and non-experts to assess six compositions. The participants weren't told beforehand whether the tunes were composed by humans or computers, but were asked to guess, and then rate how much they liked each one. People who thought the composer was a computer tended to dislike the piece more than those who believed it was human. This was true even among the experts, who might have been expected to be more objective in their analyses.\n\nWhere does this prejudice come from? Paul Bloom of Yale University has a suggestion: he reckons part of the pleasure we get from art stems from the creative process behind the work. This can give it an 'irresistible essence', says Bloom. Meanwhile, experiments by Justin Kruger of New York University have shown that people's enjoyment of an artwork increases if they think more time and effort was needed to create it. Similarly, Colton thinks that when people experience art, they wonder what the artist might have been thinking or what the artist is trying to tel them. It seems obvious, therefore, that with computers producing art, this speculation is cut short - there's nothing to explore. But as technology becomes increasingly complex, finding those greater depths in computer art could become possible. This is precisely why Colton asks the Painting Fool to tap into online social networks for its inspiration: hopefully this way it will choose themes that will already be meaningful to us.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_test_decoupled_20260228",
+    "batch_id": "test_grok_decoupled",
+    "sample_id": "ielts_13_test1_passage3_91iewj_to_l2"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test1_passage3_91iewj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test1_passage3_91iewj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Can computers really make art?\n\nThe Painting Fool is one of a growing number of computer programs that makers claim have creative skills. Classical music by a computer has excited crowds, even tricking them into believing a human made the music. Art painted by a robot has sold for thousands of dollars. It has been hung in famous galleries. And software has been built. It generates art unimaginable by the programmer.\n\nHumans alone frequently do hard creative acts. If we can break this process down into computer code, where does that leave human creativity? 'This is a question at the very core of humanity,' says Geraint Wiggins, a computer creativity researcher at Goldsmiths, University of London. 'It scares many people. They fear it takes something special away from what it means to be human.'\n\nTo some extent, we all spot computer-generated art. The question remains: where does the artist's work end and the computer's creativity begin? Consider one of the earliest machine artists, Aaron, a robot whose paintings have appeared in London's Tate Modern and the San Francisco Museum of Modern Art. Aaron can hold a paintbrush and paint on canvas by itself. Impressive perhaps, but it remains just a tool doing the programmer's creative ideas.\n\nSimon Colton, creator of the Painting Fool, seeks to ensure his invention avoids similar criticisms. Unlike earlier 'artists' like Aaron, the Painting Fool requires minimal guidance. It generates its own ideas by accessing online information. The software conducts its own web searches and scans social media sites. It now demonstrates a form of imagination, creating images from scratch. One recent series features fuzzy landscapes depicting trees and sky. While some claim a mechanical appearance, Colton attributes such opinions to double standards between software-generated and human-made art. After all, he notes, the Painting Fool produced these landscapes without referencing photos. 'If a child painted a new scene from its head, you'd say it has some imagination,' he observes. The same should hold for machines. Software glitches can yield unexpected outcomes. Some Painting Fool depictions of a chair emerged in black and white from a technical error. This imparts a eerie, spectral quality. Renowned human artists like Ellsworth Kelly earn acclaim for sparse palettes—why deny computers the same?\n\nResearchers like Colton deem it unfair to equate machine creativity directly with humans, who 'have had thousands of years to hone our skills.' Others anticipate computers crafting works as innovative and exquisite as our finest artists. Thus far, only one has approached that mark. Composer David Cope developed Experiments in Musical Intelligence, or EMI. EMI not only replicated Cope's style but also those of premier classical composers like Bach, Chopin, and Mozart. Audiences wept, and it deceived experts into mistaking it for authentic Bach. Not all approved, however. Critics like Wiggins denounced Cope's efforts as pseudoscience, faulting his intentional vagueness on the software's mechanics. Meanwhile, Douglas Hofstadter of Indiana University argued EMI produced derivatives wholly reliant on original creators' ingenuity. Upon discovering the source, audiences often raged at Cope; one fan even attempted to strike him. Amid controversies, Cope erased EMI's core data files.\n\nBut why did many adore the music yet recoil upon learning its origin? A study by computer specialist David Moffat of Glasgow Caledonian University offers insight. He had professional musicians and laypeople assess six pieces without initial disclosure of human or machine authorship. Participants guessed origins before rating appeal. Those attributing pieces to computers liked them less than those deeming them human-made—even experts, expected to judge impartially.\n\nWhence this bias? Paul Bloom of Yale posits that art's pleasure partly derives from inferring its creative process, imbuing an 'irresistible essence.' Tests by Justin Kruger of New York University reveal heightened enjoyment when viewers perceive greater effort in creation. Similarly, Colton believes viewers ponder artists' thoughts or intentions. Evidently, machine art halts such speculation abruptly—lacking depths to probe. Yet advancing technology may unveil those layers. Precisely why Colton employs social sites for the Painting Fool's inspirations: to select resonant themes.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "ari": [
+        5,
+        9
+      ],
+      "coleman_liau": [
+        7,
+        11
+      ],
+      "gunning_fog": [
+        7,
+        11
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 925,
+    "sentence_count": 53,
+    "avg_sentence_len": 17.45,
+    "avg_word_len": 4.92,
+    "syllable_count": 1485,
+    "complex_word_count": 41,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 53.3,
+    "flesch_kincaid_grade": 10.16,
+    "ari": 10.46,
+    "coleman_liau": 11.43,
+    "gunning_fog": 8.75
+  },
+  "final_metrics": {
+    "word_count": 676,
+    "sentence_count": 54,
+    "avg_sentence_len": 12.52,
+    "avg_word_len": 5.39,
+    "syllable_count": 1207,
+    "complex_word_count": 37,
+    "complex_word_ratio": 0.05,
+    "flesch_reading_ease": 43.08,
+    "flesch_kincaid_grade": 10.36,
+    "ari": 10.22,
+    "coleman_liau": 13.53,
+    "gunning_fog": 7.2
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_hit_target|tier=dist_1_to_2;dist=1.5247;center_gap=2.12;mode=word_only;dominant=word;dir_changed=0;wb=50;sb=8;lf=1.24;df=1.66;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 908,
+        "sentence_count": 53,
+        "avg_sentence_len": 17.13,
+        "avg_word_len": 4.46,
+        "syllable_count": 1285,
+        "complex_word_count": 17,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.72,
+        "flesch_kincaid_grade": 7.79,
+        "ari": 8.13,
+        "coleman_liau": 8.69,
+        "gunning_fog": 7.6
+      },
+      "distance_to_target": 0.4012,
+      "fidelity": {
+        "overall": 0.9318,
+        "entity_recall": 0.8929,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1487,
+        "completion_tokens": 3984,
+        "total_tokens": 5471,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_lt_1;dist=0.4012;center_gap=0.94;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=5;sb=1;lf=1.23;df=1.10;af=0.3571;pg=1.5247;pd=1.1235;af_fb=0",
+      "metrics": {
+        "word_count": 906,
+        "sentence_count": 54,
+        "avg_sentence_len": 16.78,
+        "avg_word_len": 4.46,
+        "syllable_count": 1285,
+        "complex_word_count": 18,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.82,
+        "flesch_kincaid_grade": 7.69,
+        "ari": 7.98,
+        "coleman_liau": 8.68,
+        "gunning_fog": 7.51
+      },
+      "distance_to_target": 0.3789,
+      "fidelity": {
+        "overall": 0.9318,
+        "entity_recall": 0.8929,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2906,
+        "completion_tokens": 8611,
+        "total_tokens": 11517,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_lt_1;dist=0.3789;center_gap=0.89;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=39;sb=9;lf=1.23;df=1.09;af=3.0000;pg=0.4012;pd=0.0223;af_fb=0",
+      "metrics": {
+        "word_count": 905,
+        "sentence_count": 59,
+        "avg_sentence_len": 15.34,
+        "avg_word_len": 4.46,
+        "syllable_count": 1283,
+        "complex_word_count": 18,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 71.33,
+        "flesch_kincaid_grade": 7.12,
+        "ari": 7.24,
+        "coleman_liau": 8.49,
+        "gunning_fog": 6.93
+      },
+      "distance_to_target": 0.4601,
+      "fidelity": {
+        "overall": 0.9318,
+        "entity_recall": 0.8929,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4322,
+        "completion_tokens": 16023,
+        "total_tokens": 20345,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_lt_1;dist=0.4601;center_gap=0.9;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=42;sb=9;lf=1.23;df=1.13;af=3.0000;pg=0.3789;pd=0.0812;af_fb=0",
+      "metrics": {
+        "word_count": 675,
+        "sentence_count": 54,
+        "avg_sentence_len": 12.5,
+        "avg_word_len": 5.45,
+        "syllable_count": 1220,
+        "complex_word_count": 39,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 41.24,
+        "flesch_kincaid_grade": 10.61,
+        "ari": 10.49,
+        "coleman_liau": 13.88,
+        "gunning_fog": 7.31
+      },
+      "distance_to_target": 2.3283,
+      "fidelity": {
+        "overall": 0.9459,
+        "entity_recall": 0.9464,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5746,
+        "completion_tokens": 19344,
+        "total_tokens": 25090,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_gt_2;dist=2.3283;center_gap=2.76;mode=word_budget_3;dominant=word;dir_changed=1;wb=14;sb=11;lf=1.06;df=2.06;af=1.2463;pg=0.4601;pd=1.8682;af_fb=0",
+      "metrics": {
+        "word_count": 676,
+        "sentence_count": 54,
+        "avg_sentence_len": 12.52,
+        "avg_word_len": 5.39,
+        "syllable_count": 1207,
+        "complex_word_count": 37,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 43.08,
+        "flesch_kincaid_grade": 10.36,
+        "ari": 10.22,
+        "coleman_liau": 13.53,
+        "gunning_fog": 7.2
+      },
+      "distance_to_target": 2.1782,
+      "fidelity": {
+        "overall": 0.9459,
+        "entity_recall": 0.9464,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6943,
+        "completion_tokens": 24545,
+        "total_tokens": 31488,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9459,
+    "entity_recall": 0.9464,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 56,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 6943,
+    "completion_tokens": 24545,
+    "total_tokens": 31488,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-02-28T14:23:45.561Z"
+}

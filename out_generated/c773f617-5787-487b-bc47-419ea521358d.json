@@ -1,0 +1,59 @@
+{
+  "article_id": "c773f617-5787-487b-bc47-419ea521358d",
+  "topic": "marine ecosystems",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Marine Ecosystems: Structure, Function and Threats",
+  "article": [
+    "Marine ecosystems cover vast areas of the planet and support a remarkable diversity of life. Ranging from coastal estuaries to the deep ocean, these systems provide essential services such as food production, climate regulation and nutrient cycling. Ecologists study the interactions among organisms, their physical environment and the chemical processes that sustain them. Understanding these relationships is crucial for managing resources and predicting responses to environmental change.",
+    "Different zones within marine ecosystems have distinct characteristics and communities. Sunlit surface waters host phytoplankton that perform photosynthesis and form the base of many food webs, while coral reefs shelter complex assemblages of fish and invertebrates. The open ocean is dominated by mobile predators and migratory species, whereas benthic habitats on the sea floor support detritivores and filter feeders. Each habitat contributes uniquely to regional biodiversity and to human economies through fisheries, tourism and coastal protection. Vegetated coastal ecosystems such as mangroves and seagrasses sequester carbon and stabilize sediments, reducing erosion.",
+    "However, marine ecosystems face multiple anthropogenic pressures that disrupt these functions. Overfishing alters trophic structures, removing key species and reducing resilience. Pollution, especially nutrient runoff, leads to eutrophication and hypoxic zones that can cause mass mortalities. Rising atmospheric carbon dioxide drives ocean warming and acidification, which stress calcifying organisms such as corals and some plankton. Microplastic pollution and chemical contaminants accumulate in food chains, posing health risks to wildlife and humans. Invasive species and habitat destruction further degrade system integrity and complicate restoration efforts.",
+    "Conservation strategies combine protected areas, sustainable fisheries management and pollution control to rebuild ecosystem health. Restoration projects, including coral transplantation and mangrove reforestation, aim to restore services and buffer coasts against storms. Long-term monitoring and interdisciplinary research are needed to evaluate interventions under changing climatic conditions. Ultimately, effective stewardship requires cooperation between scientists, policy makers and local communities to balance use and preservation. Policies such as catch limits, pollution taxes and marine spatial planning support sustainable outcomes, while community-based management often yields locally adapted solutions."
+  ],
+  "metrics": {
+    "word_count": 329,
+    "sentence_count": 20,
+    "avg_sentence_len": 16.45,
+    "avg_word_len": 6.64,
+    "syllable_count": 727,
+    "complex_word_count": 49,
+    "complex_word_ratio": 0.15,
+    "flesch_reading_ease": 3.2,
+    "flesch_kincaid_grade": 16.9,
+    "ari": 18.08,
+    "coleman_liau": 21.45,
+    "gunning_fog": 12.54
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:29:07.439Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 29
+  },
+  "token_usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 2931,
+    "total_tokens": 3111,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:29:07.440Z"
+}

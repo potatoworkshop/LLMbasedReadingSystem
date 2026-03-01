@@ -1,0 +1,620 @@
+{
+  "article_id": "36498c76-34de-4a5c-a7e6-9fbaa9b80054",
+  "mode": "difficulty_adjust",
+  "original_article": "Can computers really create works of art?\n\nThe Painting Fool is one of a growing number of computer programs which, so their makers claim, possess creative talents. Classical music by an artificial composer has had audiences enraptured, and even tricked them into believing a human was behind the score. Artworks painted by a robot have sold for thousands of dollars and been hung in prestigious galleries. And software has been built which creates art that could not have been imagined by the programmer.\n\nHuman beings are the only species to perform sophisticated creative acts regularly. If we can break this process down into computer code, where does that leave human creativity? 'This is a question at the very core of humanity,' says Geraint Wiggins, a computational creativity researcher at Goldsmiths, University of London. 'It scares a lot of people. They are worried that it is taking something special away from what it means to be human.'\n\nTo some extent, we are all familiar with computerised art. The question is: where does the work of the artist stop and the creativity of the computer begin? Consider one of the oldest machine artists, Aaron, a robot that has had paintings exhibited in London's Tate Modern and the San Francisco Museum of Modern Art. Aaron can pick up a paintbrush and paint on canvas on its own. Impressive perhaps, but it is still little more than a tool to realise the programmer's own creative ideas.\n\nSimon Colton, the designer of the Painting Fool, is keen to make sure his creation doesn't attract the same criticism. Unlike earlier 'artists' such as Aaron, the Painting Fool only needs minimal direction and can come up with its own concepts by going online for material. The software runs its own web searches and trawls through social media sites. It is now beginning to display a kind of imagination too, creating pictures from scratch. One of its original works is a series of f'zzy landscapes, depicting trees and sky. While some might say they have a mechanical look, Colton argues that such reactions arise from people's double standards towards software-produced and human-produced art. After all, he says, consider that the Painting Fool painted the landscapes without referring to a photo. 'If a child painted a new scene from its head, you'd say it has a certain level of imagination,' he points out. The same should be true of a machine.' Software bugs can also lead to unexpected results. Some of the Painting Fool's paintings of a chair came out in black and white, thanks to a technical glitch. This gives the work an eerie, ghostlike quality. Human artists like the renowned Ellsworth Kelly are lauded for limiting their colour palette - so why should computers be any different?\n\nResearchers like Colton don't believe it is right to measure machine creativity directly to that of humans who 'have had millennia to develop our skills'. Others, though, are fascinated by the prospect that a computer might create something as original and subtle as our best artists. So far, only one has come close. Composer David Cope invented a program called Experiments in Musical Intelligence, or EMI. Not only did EMI create compositions in Cope's style, but also that of the most revered classical composers, including Bach, Chopin and Mozart. Audiences were moved to tears, and EMI even fooled classical music experts into thinking they were hearing genuine Bach. Not everyone was impressed however. Some, such as Wiggins, have blasted Cope's work as pseudoscience, and condemned him for his deliberately vague explanation of how the software worked. Meanwhile, Douglas Hofstadter of Indiana University said EMI created replicas which still rely completely on the original artist's creative impulses. When audiences found out the truth they were often outraged with Cope, and one music lover even tried to punch him. Amid such controversy, Cope destroyed EMI's vital databases.\n\nBut why did so many people love the music, yet recoil when they discovered how it was composed? A study by computer scientist David Moffat of Glasgow Caledonian University provides a clue. He asked both expert musicians and non-experts to assess six compositions. The participants weren't told beforehand whether the tunes were composed by humans or computers, but were asked to guess, and then rate how much they liked each one. People who thought the composer was a computer tended to dislike the piece more than those who believed it was human. This was true even among the experts, who might have been expected to be more objective in their analyses.\n\nWhere does this prejudice come from? Paul Bloom of Yale University has a suggestion: he reckons part of the pleasure we get from art stems from the creative process behind the work. This can give it an 'irresistible essence', says Bloom. Meanwhile, experiments by Justin Kruger of New York University have shown that people's enjoyment of an artwork increases if they think more time and effort was needed to create it. Similarly, Colton thinks that when people experience art, they wonder what the artist might have been thinking or what the artist is trying to tel them. It seems obvious, therefore, that with computers producing art, this speculation is cut short - there's nothing to explore. But as technology becomes increasingly complex, finding those greater depths in computer art could become possible. This is precisely why Colton asks the Painting Fool to tap into online social networks for its inspiration: hopefully this way it will choose themes that will already be meaningful to us.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_small_adjust_questions_20260227_172813",
+    "run_tag": "debug_small",
+    "batch_id": "adj_q_small_20260227_172813",
+    "sample_id": "ielts_13_test1_passage3_91iewj_to_l2"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test1_passage3_91iewj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test1_passage3_91iewj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Can computers really create works of art?\n\nThe Painting Fool is one of many computer programs. Their makers claim these programs have creative skills. An artificial composer made classical music. It excited audiences. It even tricked them into thinking a human wrote the score. A robot painted artworks. They sold for thousands of dollars. They hung in top galleries. Software can create art the programmer never dreamed of.\n\nHumans are the only species that does complex creative acts often. What if we turn this into computer code? What does that mean for human creativity? 'This is a question at the very core of humanity,' says Geraint Wiggins. He studies computational creativity at Goldsmiths, University of London. 'It scares a lot of people. They worry it takes something special from being human.'\n\nWe all know some computer art. Where does the artist's work end? Where does the computer's creativity start? Think of Aaron. It is one of the oldest machine artists. Aaron is a robot. Its paintings showed in London's Tate Modern and the San Francisco Museum of Modern Art. Aaron picks up a paintbrush. It paints on canvas alone. This is impressive. But it is just a tool for the programmer's ideas.\n\nSimon Colton designed the Painting Fool. He wants to avoid the same criticism. Unlike Aaron, the Painting Fool needs little guidance. It finds its own ideas online. The software does web searches. It checks social media sites. Now it shows some imagination. It creates pictures from nothing. One work is a series of fuzzy landscapes. They show trees and sky. Some say they look mechanical. Colton says people judge computer art and human art by double standards. The Painting Fool made the landscapes without photos. 'If a child painted a new scene from its head, you'd say it has imagination,' he says. 'The same should be true of a machine.' Bugs can create surprises. Some Painting Fool chair paintings are black and white. A glitch caused this. It gives an eerie, ghostlike look. Artists like Ellsworth Kelly get praise for using few colors. Why not computers?\n\nResearchers like Colton say do not compare machine creativity to humans. Humans 'have had millennia to develop our skills.' Others like the idea of computers making original art like our best artists. So far, one came close. Composer David Cope made Experiments in Musical Intelligence, or EMI. EMI wrote music in Cope's style. It also did styles of Bach, Chopin and Mozart. Audiences cried. EMI fooled experts into thinking it was real Bach. Not all liked it. Wiggins called Cope's work pseudoscience. He criticized Cope's vague explanations of the software. Douglas Hofstadter of Indiana University said EMI makes copies. They rely fully on the original artist's ideas. People got mad at Cope when they learned the truth. One music fan tried to punch him. In the controversy, Cope destroyed EMI's key databases.\n\nWhy did people love the music but pull back when they learned how it was made? A study by David Moffat gives a clue. He is a computer scientist at Glasgow Caledonian University. He asked expert musicians and non-experts to judge six pieces. They did not know if humans or computers made them. They guessed and rated how much they liked each. People who thought a computer made it liked it less. They liked human-made ones more. This happened even with experts.\n\nWhere does this bias come from? Paul Bloom of Yale University has a suggestion. He says part of art's pleasure comes from the creative process. It gives an 'irresistible essence,' says Bloom. Justin Kruger of New York University did experiments. People enjoy art more if they think it took time and effort. Colton says people wonder what the artist thought. Or what the artist tries to tell them. Computers cut that short. There is nothing to explore. But complex technology may change this. People could find deeper meaning in computer art. Colton has the Painting Fool use online social networks. This gives it inspiration. Hopefully, it picks themes meaningful to us.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "ari": [
+        5,
+        9
+      ],
+      "coleman_liau": [
+        7,
+        11
+      ],
+      "gunning_fog": [
+        7,
+        11
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 925,
+    "sentence_count": 53,
+    "avg_sentence_len": 17.45,
+    "avg_word_len": 4.92,
+    "syllable_count": 1485,
+    "complex_word_count": 41,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 53.3,
+    "flesch_kincaid_grade": 10.16,
+    "ari": 10.46,
+    "coleman_liau": 11.43,
+    "gunning_fog": 8.75
+  },
+  "final_metrics": {
+    "word_count": 681,
+    "sentence_count": 90,
+    "avg_sentence_len": 7.57,
+    "avg_word_len": 4.75,
+    "syllable_count": 1047,
+    "complex_word_count": 27,
+    "complex_word_ratio": 0.04,
+    "flesch_reading_ease": 69.09,
+    "flesch_kincaid_grade": 5.5,
+    "ari": 4.75,
+    "coleman_liau": 8.25,
+    "gunning_fog": 4.61
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 646,
+        "sentence_count": 92,
+        "avg_sentence_len": 7.02,
+        "avg_word_len": 4.71,
+        "syllable_count": 963,
+        "complex_word_count": 18,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 73.59,
+        "flesch_kincaid_grade": 4.74,
+        "ari": 4.28,
+        "coleman_liau": 7.7,
+        "gunning_fog": 3.92
+      },
+      "distance_to_target": 0.366,
+      "fidelity": {
+        "overall": 0.8977,
+        "entity_recall": 0.8393,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1671,
+        "completion_tokens": 2436,
+        "total_tokens": 4107,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 1,
+      "attempt": 2,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 681,
+        "sentence_count": 90,
+        "avg_sentence_len": 7.57,
+        "avg_word_len": 4.75,
+        "syllable_count": 1047,
+        "complex_word_count": 27,
+        "complex_word_ratio": 0.04,
+        "flesch_reading_ease": 69.09,
+        "flesch_kincaid_grade": 5.5,
+        "ari": 4.75,
+        "coleman_liau": 8.25,
+        "gunning_fog": 4.61
+      },
+      "distance_to_target": 0.232,
+      "fidelity": {
+        "overall": 0.9579,
+        "entity_recall": 0.9286,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3342,
+        "completion_tokens": 5488,
+        "total_tokens": 8830,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 633,
+        "sentence_count": 55,
+        "avg_sentence_len": 11.51,
+        "avg_word_len": 5.78,
+        "syllable_count": 1222,
+        "complex_word_count": 45,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 31.83,
+        "flesch_kincaid_grade": 11.68,
+        "ari": 11.53,
+        "coleman_liau": 15.59,
+        "gunning_fog": 7.45
+      },
+      "distance_to_target": 1.0496,
+      "fidelity": {
+        "overall": 0.9337,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4794,
+        "completion_tokens": 8299,
+        "total_tokens": 13093,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 673,
+        "sentence_count": 60,
+        "avg_sentence_len": 11.22,
+        "avg_word_len": 6.34,
+        "syllable_count": 1440,
+        "complex_word_count": 76,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 14.43,
+        "flesch_kincaid_grade": 14.03,
+        "ari": 14.05,
+        "coleman_liau": 18.85,
+        "gunning_fog": 9
+      },
+      "distance_to_target": 1.8056,
+      "fidelity": {
+        "overall": 0.9016,
+        "entity_recall": 0.8036,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 6246,
+        "completion_tokens": 10495,
+        "total_tokens": 16741,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 596,
+        "sentence_count": 47,
+        "avg_sentence_len": 12.68,
+        "avg_word_len": 6.25,
+        "syllable_count": 1265,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 14.4,
+        "flesch_kincaid_grade": 14.4,
+        "ari": 14.34,
+        "coleman_liau": 18.61,
+        "gunning_fog": 9.1
+      },
+      "distance_to_target": 1.8455,
+      "fidelity": {
+        "overall": 0.9157,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 7698,
+        "completion_tokens": 13365,
+        "total_tokens": 21063,
+        "llm_calls": 5
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 603,
+        "sentence_count": 45,
+        "avg_sentence_len": 13.4,
+        "avg_word_len": 6.42,
+        "syllable_count": 1312,
+        "complex_word_count": 70,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 9.16,
+        "flesch_kincaid_grade": 15.31,
+        "ari": 15.51,
+        "coleman_liau": 19.75,
+        "gunning_fog": 10
+      },
+      "distance_to_target": 2.1219,
+      "fidelity": {
+        "overall": 0.8716,
+        "entity_recall": 0.8036,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 9150,
+        "completion_tokens": 16142,
+        "total_tokens": 25292,
+        "llm_calls": 6
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 554,
+        "sentence_count": 47,
+        "avg_sentence_len": 11.79,
+        "avg_word_len": 5.87,
+        "syllable_count": 1093,
+        "complex_word_count": 42,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 27.96,
+        "flesch_kincaid_grade": 12.29,
+        "ari": 12.13,
+        "coleman_liau": 16.23,
+        "gunning_fog": 7.75
+      },
+      "distance_to_target": 1.2242,
+      "fidelity": {
+        "overall": 0.9398,
+        "entity_recall": 0.9107,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 10602,
+        "completion_tokens": 18991,
+        "total_tokens": 29593,
+        "llm_calls": 7
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 651,
+        "sentence_count": 45,
+        "avg_sentence_len": 14.47,
+        "avg_word_len": 6.27,
+        "syllable_count": 1377,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 13.2,
+        "flesch_kincaid_grade": 15.01,
+        "ari": 15.32,
+        "coleman_liau": 19.01,
+        "gunning_fog": 10.15
+      },
+      "distance_to_target": 1.9915,
+      "fidelity": {
+        "overall": 0.9077,
+        "entity_recall": 0.8393,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 12054,
+        "completion_tokens": 21815,
+        "total_tokens": 33869,
+        "llm_calls": 8
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 660,
+        "sentence_count": 42,
+        "avg_sentence_len": 15.71,
+        "avg_word_len": 5.78,
+        "syllable_count": 1270,
+        "complex_word_count": 52,
+        "complex_word_ratio": 0.08,
+        "flesch_reading_ease": 28.09,
+        "flesch_kincaid_grade": 13.24,
+        "ari": 13.65,
+        "coleman_liau": 16.3,
+        "gunning_fog": 9.44
+      },
+      "distance_to_target": 1.397,
+      "fidelity": {
+        "overall": 0.9118,
+        "entity_recall": 0.8929,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 13506,
+        "completion_tokens": 24489,
+        "total_tokens": 37995,
+        "llm_calls": 9
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 694,
+        "sentence_count": 60,
+        "avg_sentence_len": 11.57,
+        "avg_word_len": 6.2,
+        "syllable_count": 1458,
+        "complex_word_count": 75,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 17.36,
+        "flesch_kincaid_grade": 13.71,
+        "ari": 13.58,
+        "coleman_liau": 18.12,
+        "gunning_fog": 8.95
+      },
+      "distance_to_target": 1.6745,
+      "fidelity": {
+        "overall": 0.9057,
+        "entity_recall": 0.8571,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 14958,
+        "completion_tokens": 26751,
+        "total_tokens": 41709,
+        "llm_calls": 10
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 730,
+        "sentence_count": 72,
+        "avg_sentence_len": 10.14,
+        "avg_word_len": 5.97,
+        "syllable_count": 1478,
+        "complex_word_count": 64,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 25.26,
+        "flesch_kincaid_grade": 12.26,
+        "ari": 11.76,
+        "coleman_liau": 16.38,
+        "gunning_fog": 7.56
+      },
+      "distance_to_target": 1.2462,
+      "fidelity": {
+        "overall": 0.9318,
+        "entity_recall": 0.8929,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 16410,
+        "completion_tokens": 29145,
+        "total_tokens": 45555,
+        "llm_calls": 11
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 605,
+        "sentence_count": 43,
+        "avg_sentence_len": 14.07,
+        "avg_word_len": 6.06,
+        "syllable_count": 1243,
+        "complex_word_count": 61,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 18.74,
+        "flesch_kincaid_grade": 14.14,
+        "ari": 14.14,
+        "coleman_liau": 17.72,
+        "gunning_fog": 9.66
+      },
+      "distance_to_target": 1.7071,
+      "fidelity": {
+        "overall": 0.9137,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 17862,
+        "completion_tokens": 31857,
+        "total_tokens": 49719,
+        "llm_calls": 12
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 720,
+        "sentence_count": 44,
+        "avg_sentence_len": 16.36,
+        "avg_word_len": 6.26,
+        "syllable_count": 1535,
+        "complex_word_count": 84,
+        "complex_word_ratio": 0.12,
+        "flesch_reading_ease": 9.86,
+        "flesch_kincaid_grade": 15.95,
+        "ari": 16.24,
+        "coleman_liau": 19.21,
+        "gunning_fog": 11.21
+      },
+      "distance_to_target": 2.1965,
+      "fidelity": {
+        "overall": 0.9137,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 19314,
+        "completion_tokens": 33952,
+        "total_tokens": 53266,
+        "llm_calls": 13
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better_regenerate",
+      "metrics": {
+        "word_count": 646,
+        "sentence_count": 43,
+        "avg_sentence_len": 15.02,
+        "avg_word_len": 6.3,
+        "syllable_count": 1385,
+        "complex_word_count": 71,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 10.21,
+        "flesch_kincaid_grade": 15.57,
+        "ari": 15.73,
+        "coleman_liau": 19.25,
+        "gunning_fog": 10.41
+      },
+      "distance_to_target": 2.1199,
+      "fidelity": {
+        "overall": 0.9077,
+        "entity_recall": 0.8393,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 56,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 20766,
+        "completion_tokens": 36887,
+        "total_tokens": 57653,
+        "llm_calls": 14
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9579,
+    "entity_recall": 0.9286,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 56,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 20766,
+    "completion_tokens": 36887,
+    "total_tokens": 57653,
+    "llm_calls": 14
+  },
+  "transformed_at": "2026-02-27T15:42:22.865Z"
+}

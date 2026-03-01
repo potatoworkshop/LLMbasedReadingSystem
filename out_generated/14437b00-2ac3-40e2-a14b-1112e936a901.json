@@ -1,0 +1,57 @@
+{
+  "article_id": "14437b00-2ac3-40e2-a14b-1112e936a901",
+  "topic": "ancient trade routes",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Ancient Trade Routes: Paths of Exchange",
+  "article": [
+    "Long ago, people needed goods from far places. They made paths across lands and seas. These paths were trade routes. Trade routes joined cities and countries. Traders carried silk, spices, gold, and salt. They also shared stories and skills. This trade made the world feel smaller.",
+    "The Silk Road was the most famous route. It started in China and ended near the Mediterranean Sea. The road crossed mountains, deserts, and rivers. From China came soft silk cloth. Traders took it to Rome and India. In return, they got strong horses and bright glass. Camels helped carry loads through dry lands. Cities like Samarkand grew rich on this road.",
+    "Another key route was the Incense Route. It ran through hot deserts in Arabia. Merchants sold sweet-smelling incense and spices. These came from India and Africa. People in Egypt and Rome wanted them for temples and homes. Boats helped move goods across the Red Sea. This route linked Africa, Asia, and Europe.",
+    "Trade routes did more than move goods. They spread new foods like rice and oranges. Ideas about math and art traveled too. Big cities rose along the paths. Markets buzzed with people from many lands. Trade brought peace at times, but also fights over control. In the end, these routes changed how people lived and worked."
+  ],
+  "metrics": {
+    "word_count": 217,
+    "sentence_count": 29,
+    "avg_sentence_len": 7.48,
+    "avg_word_len": 4.69,
+    "syllable_count": 300,
+    "complex_word_count": 1,
+    "complex_word_ratio": 0,
+    "flesch_reading_ease": 82.28,
+    "flesch_kincaid_grade": 3.64,
+    "ari": 4.39,
+    "coleman_liau": 7.8,
+    "gunning_fog": 3.18
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "ancient_trade_routes_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:06:47.304Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 83
+  },
+  "token_usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 2023,
+    "total_tokens": 3031,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:06:47.304Z"
+}

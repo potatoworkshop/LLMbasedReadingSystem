@@ -1,0 +1,287 @@
+{
+  "article_id": "49211286-5a44-470c-a391-7ae4fdc48a3d",
+  "mode": "difficulty_adjust",
+  "original_article": "Across cultures, wisdom has been considered one of the most revered human qualities. Although the truly wise may seem few and far between, empirical research examining wisdom suggests that it isn't an exceptional trait possessed by a small handful of bearded philosophers after all – in fact, the latest studies suggest that most of us have the ability to make wise decisions, given the right context.\n\n'It appears that experiential, situational, and cultural factors are even more powerful in shaping wisdom than previously imagined,' says Associate Professor Igor Grossmann of the University of Waterloo in Ontario, Canada. 'Recent empirical findings from cognitive, developmental, social, and personality psychology cumulatively suggest that people's ability to reason wisely varies dramatically across experiential and situational contexts. Understanding the role of suchcontextual factors offers unique insights into understanding wisdom in daily life, as well as how it can be enhanced and taught.'\n\nIt seems that it's not so much that some people simply possess wisdom and others lack it, but that our ability to reason wisely depends on a variety of external factors. 'It is impossible to characterize thought processes attributed to wisdom without considering the role of contextual factors,' explains Grossmann. 'In other words, wisdom is not solely an “inner quality” but rather unfolds as a function of situations people happen to be in. Some situations are more likely to promote wisdom than others.'\n\nComing up with a definition of wisdom is challenging, but Grossmann and his colleagues have identified four key characteristics as part of a framework of wise reasoning. One is intellectual humility or recognition of the limits of our own knowledge, and another is appreciation of perspectives wider than the issue at hand. Sensitivity to the possibility of change in social relations is also key, along with compromise or integration of different attitudes and beliefs.\n\nGrossmann and his colleagues have also found that one of the most reliable ways to support wisdom in our own day-to-day decisions is to look at scenarios from a third-party perspective, as though giving advice to a friend. Research suggests that when adopting a first-person viewpoint we focus on 'the focal features of the environment' and when we adopt a third-person, 'observer' viewpoint we reason more broadly and focus more on interpersonal and moral ideals such as justice and impartiality. Looking at problems from this more expansive viewpoint appears to foster cognitive processes related to wise decisions.\n\nWhat are we to do, then, when confronted with situations like a disagreement with a spouse or negotiating a contract at work, that require us to take a personal stake? Grossmann argues that even when we aren't able to change the situation, we can still evaluate these experiences from different perspectives.\n\nFor example, in one experiment that took place during the peak of a recent economic recession, graduating college seniors were asked to reflect on their job prospects. The students were instructed to imagine their career either 'as if you were a distant observer' or 'before your own eyes as if you were right there'. Participants in the group assigned to the 'distant observer' role displayed more wisdom-related reasoning (intellectual humility and recognition of change) than did participants in the control group.\n\nIn another study, couples in long-term romantic relationships were instructed to visualize an unresolved relationship conflict either through the eyes of an outsider or from their own perspective. Participants then discussed an incident with their partner for 10 minutes, after which they wrote down their thoughts about it. Couples in the 'other's eyes' condition were significantly more likely to rely on wise reasoning – recognizing others' perspectives and searching for a compromise – compared to the couples in the egocentric condition.\n\n'Ego-decentering promotes greater focus on others and enables a bigger picture, conceptual view of the experience, affording recognition of intellectual humility and change,' says Grossmann.\n\nWe might associate wisdom with intelligence or particular personality traits, but research shows only a small positive relationship between wise thinking and crystallized intelligence and the personality traits of openness and agreeableness. 'It is remarkable how much people can vary in their wisdom from one situation to the next, and how much stronger such contextual effects are for understanding the relationship between wise judgment and its social and affective outcomes as compared to the generalized “traits”,' Grossmann explains. 'That is, knowing how wisely a person behaves in a given situation is more informative for understanding their emotions or likelihood to forgive [or] retaliate as compared to knowing whether the person may be wise “in general”.'",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb08",
+    "sample_id": "questions_ielts_16_test2_passage3_027mtj_to_l4_r5_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "ielts_16_test2_passage3_027mtj",
+    "source_dataset": "questions",
+    "source_file": "ielts_16_test2_passage3_027mtj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Across cultures, wisdom has been considered one of the most revered human qualities. Although the truly wise may seem few and far between, empirical research examining wisdom suggests that it isn't an exceptional trait possessed by a small handful of bearded philosophers after all – in fact, the latest studies suggest that most of us have the ability to make wise decisions, given the right context.\n\n'It appears that experiential, situational, and cultural factors are even more powerful in shaping wisdom than previously imagined,' says Associate Professor Igor Grossmann of the University of Waterloo in Ontario, Canada. 'Recent empirical findings from cognitive, developmental, social, and personality psychology cumulatively suggest that people's ability to reason wisely varies dramatically across experiential and situational contexts. Understanding the role of suchcontextual factors offers unique insights into understanding wisdom in daily life, as well as how it can be enhanced and taught.'\n\nIt seems that it's not so much that some people simply possess wisdom and others lack it, but that our ability to reason wisely depends on a variety of external factors. 'It is impossible to characterize thought processes attributed to wisdom without considering the role of contextual factors,' explains Grossmann. 'In other words, wisdom is not solely an “inner quality” but rather unfolds as a function of situations people happen to be in. Some situations are more likely to promote wisdom than others.'\n\nComing up with a definition of wisdom is challenging, but Grossmann and his colleagues have identified four key characteristics as part of a framework of wise reasoning. One is intellectual humility or recognition of the limits of our own knowledge, and another is appreciation of perspectives wider than the issue at hand. Sensitivity to the possibility of change in social relations is also key, along with compromise or integration of different attitudes and beliefs.\n\nGrossmann and his colleagues have also found that one of the most reliable ways to support wisdom in our own day-to-day decisions is to look at scenarios from a third-party perspective, as though giving advice to a friend. Research suggests that when adopting a first-person viewpoint we focus on 'the focal features of the environment' and when we adopt a third-person, 'observer' viewpoint we reason more broadly and focus more on interpersonal and moral ideals such as justice and impartiality. Looking at problems from this more expansive viewpoint appears to foster cognitive processes related to wise decisions.\n\nWhat are we to do, then, when confronted with situations like a disagreement with a spouse or negotiating a contract at work, that require us to take a personal stake? Grossmann argues that even when we aren't able to change the situation, we can still evaluate these experiences from different perspectives.\n\nFor example, in one experiment that took place during the peak of a recent economic recession, graduating college seniors were asked to reflect on their job prospects. The students were instructed to imagine their career either 'as if you were a distant observer' or 'before your own eyes as if you were right there'. Participants in the group assigned to the 'distant observer' role displayed more wisdom-related reasoning (intellectual humility and recognition of change) than did participants in the control group.\n\nIn another study, couples in long-term romantic relationships were instructed to visualize an unresolved relationship conflict either through the eyes of an outsider or from their own perspective. Participants then discussed an incident with their partner for 10 minutes, after which they wrote down their thoughts about it. Couples in the 'other's eyes' condition were significantly more likely to rely on wise reasoning – recognizing others' perspectives and searching for a compromise – compared to the couples in the egocentric condition.\n\n'Ego-decentering promotes greater focus on others and enables a bigger picture, conceptual view of the experience, affording recognition of intellectual humility and change,' says Grossmann.\n\nWe might associate wisdom with intelligence or particular personality traits, but research shows only a small positive relationship between wise thinking and crystallized intelligence and the personality traits of openness and agreeableness. 'It is remarkable how much people can vary in their wisdom from one situation to the next, and how much stronger such contextual effects are for understanding the relationship between wise judgment and its social and affective outcomes as compared to the generalized “traits”,' Grossmann explains. 'That is, knowing how wisely a person behaves in a given situation is more informative for understanding their emotions or likelihood to forgive [or] retaliate as compared to knowing whether the person may be wise “in general”.'",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 766,
+    "sentence_count": 28,
+    "avg_sentence_len": 27.36,
+    "avg_word_len": 5.34,
+    "syllable_count": 1378,
+    "complex_word_count": 68,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 26.88,
+    "flesch_kincaid_grade": 16.31,
+    "ari": 17.42,
+    "coleman_liau": 14.54,
+    "gunning_fog": 14.49
+  },
+  "final_metrics": {
+    "word_count": 766,
+    "sentence_count": 28,
+    "avg_sentence_len": 27.36,
+    "avg_word_len": 5.34,
+    "syllable_count": 1378,
+    "complex_word_count": 68,
+    "complex_word_ratio": 0.09,
+    "flesch_reading_ease": 26.88,
+    "flesch_kincaid_grade": 16.31,
+    "ari": 17.42,
+    "coleman_liau": 14.54,
+    "gunning_fog": 14.49
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.6900;center_gap=3.07;mode=both;dominant=word;dir_changed=0;wb=80;sb=10;est_wb=80;est_sb=6;lf=1.13;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 766,
+        "sentence_count": 28,
+        "avg_sentence_len": 27.36,
+        "avg_word_len": 5.34,
+        "syllable_count": 1378,
+        "complex_word_count": 68,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 26.88,
+        "flesch_kincaid_grade": 16.31,
+        "ari": 17.42,
+        "coleman_liau": 14.54,
+        "gunning_fog": 14.49
+      },
+      "distance_to_target": 2.69,
+      "fidelity": {
+        "overall": 0.9795,
+        "entity_recall": 0.9545,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 22,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.6900;center_gap=3.07;mode=both;dominant=word;dir_changed=0;wb=52;sb=10;est_wb=80;est_sb=6;lf=1.13;df=2.10;af=1.0000;pg=2.6900;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 766,
+        "sentence_count": 28,
+        "avg_sentence_len": 27.36,
+        "avg_word_len": 5.34,
+        "syllable_count": 1378,
+        "complex_word_count": 68,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 26.88,
+        "flesch_kincaid_grade": 16.31,
+        "ari": 17.42,
+        "coleman_liau": 14.54,
+        "gunning_fog": 14.49
+      },
+      "distance_to_target": 2.69,
+      "fidelity": {
+        "overall": 0.9795,
+        "entity_recall": 0.9545,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 22,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.6900;center_gap=3.07;mode=both;dominant=word;dir_changed=0;wb=52;sb=10;est_wb=80;est_sb=6;lf=1.13;df=2.10;af=1.0000;pg=2.6900;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 766,
+        "sentence_count": 28,
+        "avg_sentence_len": 27.36,
+        "avg_word_len": 5.34,
+        "syllable_count": 1378,
+        "complex_word_count": 68,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 26.88,
+        "flesch_kincaid_grade": 16.31,
+        "ari": 17.42,
+        "coleman_liau": 14.54,
+        "gunning_fog": 14.49
+      },
+      "distance_to_target": 2.69,
+      "fidelity": {
+        "overall": 0.9795,
+        "entity_recall": 0.9545,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 22,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.6900;center_gap=3.07;mode=both;dominant=word;dir_changed=0;wb=52;sb=10;est_wb=80;est_sb=6;lf=1.13;df=2.10;af=1.0000;pg=2.6900;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 766,
+        "sentence_count": 28,
+        "avg_sentence_len": 27.36,
+        "avg_word_len": 5.34,
+        "syllable_count": 1378,
+        "complex_word_count": 68,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 26.88,
+        "flesch_kincaid_grade": 16.31,
+        "ari": 17.42,
+        "coleman_liau": 14.54,
+        "gunning_fog": 14.49
+      },
+      "distance_to_target": 2.69,
+      "fidelity": {
+        "overall": 0.9795,
+        "entity_recall": 0.9545,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 22,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=2.6900;center_gap=3.07;mode=both;dominant=word;dir_changed=0;wb=52;sb=10;est_wb=80;est_sb=6;lf=1.13;df=2.10;af=1.0000;pg=2.6900;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 766,
+        "sentence_count": 28,
+        "avg_sentence_len": 27.36,
+        "avg_word_len": 5.34,
+        "syllable_count": 1378,
+        "complex_word_count": 68,
+        "complex_word_ratio": 0.09,
+        "flesch_reading_ease": 26.88,
+        "flesch_kincaid_grade": 16.31,
+        "ari": 17.42,
+        "coleman_liau": 14.54,
+        "gunning_fog": 14.49
+      },
+      "distance_to_target": 2.69,
+      "fidelity": {
+        "overall": 0.9795,
+        "entity_recall": 0.9545,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 22,
+        "number_total": 1,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9795,
+    "entity_recall": 0.9545,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 22,
+    "number_total": 1,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:50:02.978Z"
+}

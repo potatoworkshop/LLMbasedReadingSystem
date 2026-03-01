@@ -1,0 +1,59 @@
+{
+  "article_id": "388e6d31-3617-47aa-9b0f-94e7df01272e",
+  "topic": "climate adaptation",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Climate Adaptation: Strategies and Challenges",
+  "article": [
+    "Climate adaptation refers to adjustments in human and natural systems to reduce harm from climate change. Unlike mitigation, which seeks to limit greenhouse gas emissions, adaptation accepts that some warming is already occurring. Decision makers now prioritise adaptation because even optimistic emissions scenarios still project increased heat, floods, and droughts. Adaptation can be incremental, such as raising road levels, or transformative, like redesigning cities around water. Both approaches require planning that anticipates future conditions rather than relying on past experience alone.",
+    "Infrastructure modifications include flood barriers, elevated housing, and improved drainage to cope with more intense rainfall. In agriculture, shifts in planting dates, drought-resistant crops, and better soil management increase resilience and secure food supplies. Coastal communities combine hard engineering with nature-based solutions, such as wetland restoration, to reduce erosion and protect biodiversity. However, adaptation involves trade-offs, costs, and ethical questions about who gains and who bears residual risk.",
+    "Implementation is complicated by uncertain projections, limited finance, and competing development priorities at multiple scales. Local knowledge and stakeholder participation can improve relevance and equity, but require capacity building and inclusive governance arrangements. Adaptive management — monitoring outcomes and adjusting actions over time — helps planners cope with surprises and learning. Public-private partnerships and innovative finance instruments, such as resilience bonds, mobilise resources for large projects that governments cannot afford alone. Yet small-scale interventions often deliver rapid benefits and can be scaled up when effective and supported by evidence.",
+    "Monitoring, clear indicators, and transparent reporting enable accountability and guide future investment choices. Mainstreaming adaptation into development plans reduces duplication and creates co-benefits for health, livelihoods, and long-term sustainability. International cooperation is essential because many risks cross borders and poorer countries bear disproportionate burdens of loss and damage. Policymakers who adopt flexible, inclusive, and evidence-based strategies will improve resilience and reduce future costs. Effective adaptation depends on timely data, scientific research, and sustained political commitment at all levels."
+  ],
+  "metrics": {
+    "word_count": 322,
+    "sentence_count": 19,
+    "avg_sentence_len": 16.95,
+    "avg_word_len": 6.5,
+    "syllable_count": 684,
+    "complex_word_count": 43,
+    "complex_word_ratio": 0.13,
+    "flesch_reading_ease": 9.92,
+    "flesch_kincaid_grade": 16.09,
+    "ari": 17.64,
+    "coleman_liau": 20.66,
+    "gunning_fog": 12.12
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:59:47.572Z",
+    "effective_target_words": 315,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 284,
+      "upper": 378
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 22
+  },
+  "token_usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 2804,
+    "total_tokens": 2984,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T19:59:47.572Z"
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "rewrite_extreme_2026-02-28T19-20-23-762Z",
+  "generated_at": "2026-02-28T19:20:26.881Z",
+  "model": "openai/gpt-5-mini",
+  "source_dir": "out_questions",
+  "max_sources": 2,
+  "total_jobs": 4,
+  "success_count": 0,
+  "fail_count": 4,
+  "mode_summary": {
+    "simpler": {
+      "n": 0,
+      "mean_delta_fk": null,
+      "mean_delta_fre": null,
+      "mean_delta_asl": null,
+      "mean_delta_cwr": null
+    },
+    "harder": {
+      "n": 0,
+      "mean_delta_fk": null,
+      "mean_delta_fre": null,
+      "mean_delta_asl": null,
+      "mean_delta_cwr": null
+    }
+  }
+}

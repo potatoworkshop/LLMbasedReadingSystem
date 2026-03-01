@@ -1,0 +1,288 @@
+{
+  "article_id": "d3d3242c-4af5-4bb9-a045-31314ca04b47",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems are places in the sea where living things and the water around them work together. They include many kinds of areas such as shallow coasts, coral reefs, mangrove forests, and the deep open ocean. Each area has its own mix of plants, animals, and tiny life. These groups of life form links. For example, small plants and animals in the water feed fish, and fish feed larger animals. The links make the whole system work. When one part changes, other parts can change too.\n\nCoastal zones are near the shore and often have more life than open waters. Mangroves and seagrass beds grow in shallow water and protect the land. They shelter young fish and other small animals. Coral reefs rise from the sea floor and form bright, busy homes for many species. The open ocean is large and seems empty at times, yet it holds huge numbers of tiny plants called phytoplankton. These tiny plants use sunlight to make food. They also help to remove carbon dioxide from the air. The deep sea is dark but rich with strange life. Some deep animals use chemicals from the earth to make food. Each part of the ocean supports life in a different way.\n\nMarine ecosystems give people many goods and services that we use every day. Fish and shellfish are key sources of food for millions of people around the world. Wetlands and mangroves protect coasts from waves and storms. They also trap sand and keep water clear. Oceans help to regulate the climate by moving heat around the planet. Phytoplankton in the surface waters take in carbon and help to slow the build up of greenhouse gases. People also gain work and income from the sea through fishing, tourism, and shipping. For many communities, the sea is part of their culture and way of life. Therefore, keeping marine ecosystems healthy is important for both nature and human life.\n\nHowever, these systems face several serious threats from human activities. Overfishing removes too many adults of many fish species. When adult numbers fall, young fish have fewer adults to help protect habitat and to keep the food web in balance. Pollution is another major threat. Plastic waste, oil spills, and run off from farms and cities can harm animals and plants. For example, plastic can trap turtles and birds, and chemical run off can cause algal blooms that reduce oxygen in the water. Climate change is warming the sea and altering currents. Warmer water can bleach corals and change where fish can live. Sea levels are rising and this can drown coastal habitats like mangroves. Habitat loss from coastal building and dredging also reduces places for species to live and breed.\n\nPeople can take clear and practical steps to protect marine ecosystems. One step is to use less plastic and to dispose of waste carefully. This helps to keep plastic out of the sea. Another step is to fish in a controlled way so fish stocks can recover. Governments and groups can set fishing limits and protect breeding areas. Protecting key places as marine reserves gives wildlife a safe space to grow. Restoring habitats such as mangroves and seagrass beds can rebuild natural coast protection and nursery areas. In addition, reducing greenhouse gas emissions will slow warming and support long term ocean health. Local communities, scientists, and leaders must work together. When they do, people can keep the many benefits of marine life for future generations. Small actions by many people can add up to large change and help protect the sea we all depend on.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb09",
+    "sample_id": "generated_039cb4b4-1508-481e-abd4-522e76f3ccf3_to_l1_r2_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "039cb4b4-1508-481e-abd4-522e76f3ccf3",
+    "source_dataset": "generated",
+    "source_file": "039cb4b4-1508-481e-abd4-522e76f3ccf3.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems are places in the sea where living things and the water around them work together. They include many kinds of areas such as shallow coasts, coral reefs, mangrove forests, and the deep open ocean. Each area has its own mix of plants, animals, and tiny life. These groups of life form links. For example, small plants and animals in the water feed fish, and fish feed larger animals. The links make the whole system work. When one part changes, other parts can change too.\n\nCoastal zones are near the shore and often have more life than open waters. Mangroves and seagrass beds grow in shallow water and protect the land. They shelter young fish and other small animals. Coral reefs rise from the sea floor and form bright, busy homes for many species. The open ocean is large and seems empty at times, yet it holds huge numbers of tiny plants called phytoplankton. These tiny plants use sunlight to make food. They also help to remove carbon dioxide from the air. The deep sea is dark but rich with strange life. Some deep animals use chemicals from the earth to make food. Each part of the ocean supports life in a different way.\n\nMarine ecosystems give people many goods and services that we use every day. Fish and shellfish are key sources of food for millions of people around the world. Wetlands and mangroves protect coasts from waves and storms. They also trap sand and keep water clear. Oceans help to regulate the climate by moving heat around the planet. Phytoplankton in the surface waters take in carbon and help to slow the build up of greenhouse gases. People also gain work and income from the sea through fishing, tourism, and shipping. For many communities, the sea is part of their culture and way of life. Therefore, keeping marine ecosystems healthy is important for both nature and human life.\n\nHowever, these systems face several serious threats from human activities. Overfishing removes too many adults of many fish species. When adult numbers fall, young fish have fewer adults to help protect habitat and to keep the food web in balance. Pollution is another major threat. Plastic waste, oil spills, and run off from farms and cities can harm animals and plants. For example, plastic can trap turtles and birds, and chemical run off can cause algal blooms that reduce oxygen in the water. Climate change is warming the sea and altering currents. Warmer water can bleach corals and change where fish can live. Sea levels are rising and this can drown coastal habitats like mangroves. Habitat loss from coastal building and dredging also reduces places for species to live and breed.\n\nPeople can take clear and practical steps to protect marine ecosystems. One step is to use less plastic and to dispose of waste carefully. This helps to keep plastic out of the sea. Another step is to fish in a controlled way so fish stocks can recover. Governments and groups can set fishing limits and protect breeding areas. Protecting key places as marine reserves gives wildlife a safe space to grow. Restoring habitats such as mangroves and seagrass beds can rebuild natural coast protection and nursery areas. In addition, reducing greenhouse gas emissions will slow warming and support long term ocean health. Local communities, scientists, and leaders must work together. When they do, people can keep the many benefits of marine life for future generations. Small actions by many people can add up to large change and help protect the sea we all depend on.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 597,
+    "sentence_count": 47,
+    "avg_sentence_len": 12.7,
+    "avg_word_len": 4.73,
+    "syllable_count": 881,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 69.1,
+    "flesch_kincaid_grade": 6.78,
+    "ari": 7.19,
+    "coleman_liau": 9.66,
+    "gunning_fog": 5.88
+  },
+  "final_metrics": {
+    "word_count": 597,
+    "sentence_count": 47,
+    "avg_sentence_len": 12.7,
+    "avg_word_len": 4.73,
+    "syllable_count": 881,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 69.1,
+    "flesch_kincaid_grade": 6.78,
+    "ari": 7.19,
+    "coleman_liau": 9.66,
+    "gunning_fog": 5.88
+  },
+  "hit_target": true,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.3775;center_gap=0.51;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=3;est_wb=61;est_sb=9;lf=1.00;df=1.09;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 597,
+        "sentence_count": 47,
+        "avg_sentence_len": 12.7,
+        "avg_word_len": 4.73,
+        "syllable_count": 881,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.1,
+        "flesch_kincaid_grade": 6.78,
+        "ari": 7.19,
+        "coleman_liau": 9.66,
+        "gunning_fog": 5.88
+      },
+      "distance_to_target": 0.3775,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.3775;center_gap=0.51;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=3;est_wb=61;est_sb=9;lf=1.00;df=1.09;af=1.0000;pg=0.3775;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 597,
+        "sentence_count": 47,
+        "avg_sentence_len": 12.7,
+        "avg_word_len": 4.73,
+        "syllable_count": 881,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.1,
+        "flesch_kincaid_grade": 6.78,
+        "ari": 7.19,
+        "coleman_liau": 9.66,
+        "gunning_fog": 5.88
+      },
+      "distance_to_target": 0.3775,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.3775;center_gap=0.51;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=3;est_wb=61;est_sb=9;lf=1.00;df=1.09;af=1.0000;pg=0.3775;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 597,
+        "sentence_count": 47,
+        "avg_sentence_len": 12.7,
+        "avg_word_len": 4.73,
+        "syllable_count": 881,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.1,
+        "flesch_kincaid_grade": 6.78,
+        "ari": 7.19,
+        "coleman_liau": 9.66,
+        "gunning_fog": 5.88
+      },
+      "distance_to_target": 0.3775,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.3775;center_gap=0.51;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=3;est_wb=61;est_sb=9;lf=1.00;df=1.09;af=1.0000;pg=0.3775;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 597,
+        "sentence_count": 47,
+        "avg_sentence_len": 12.7,
+        "avg_word_len": 4.73,
+        "syllable_count": 881,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.1,
+        "flesch_kincaid_grade": 6.78,
+        "ari": 7.19,
+        "coleman_liau": 9.66,
+        "gunning_fog": 5.88
+      },
+      "distance_to_target": 0.3775,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.3775;center_gap=0.51;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=3;est_wb=61;est_sb=9;lf=1.00;df=1.09;af=1.0000;pg=0.3775;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 597,
+        "sentence_count": 47,
+        "avg_sentence_len": 12.7,
+        "avg_word_len": 4.73,
+        "syllable_count": 881,
+        "complex_word_count": 12,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 69.1,
+        "flesch_kincaid_grade": 6.78,
+        "ari": 7.19,
+        "coleman_liau": 9.66,
+        "gunning_fog": 5.88
+      },
+      "distance_to_target": 0.3775,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 28,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 28,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:15.520Z"
+}

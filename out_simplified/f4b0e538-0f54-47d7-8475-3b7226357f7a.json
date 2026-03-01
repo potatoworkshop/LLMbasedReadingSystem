@@ -1,0 +1,288 @@
+{
+  "article_id": "f4b0e538-0f54-47d7-8475-3b7226357f7a",
+  "mode": "difficulty_adjust",
+  "original_article": "In the inexorable march toward hyper-urbanization, wherein over half of the global populace now congregates within sprawling metropolises, public transportation emerges not merely as a logistical expedient but as an indispensable bulwark against the pernicious specter of congestion and environmental degradation. This intricate web of subways, buses, trams, and ferries, meticulously engineered to ferry multitudes across labyrinthine cityscapes, mitigates the deleterious externalities attendant upon private vehicular proliferation—namely, exacerbated air pollution, astronomical fuel consumption, and the erosion of communal thoroughfares into gridlocked morasses. Empirical analyses, such as those disseminated by the International Transport Forum, underscore that efficacious public transit regimes can attenuate urban carbon emissions by upwards of 40 percent, thereby furnishing a pragmatic paradigm for sustainable mobility amid escalating anthropogenic pressures.\n\nHistorically, the ascendancy of public transportation has been inextricably yoked to the vicissitudes of industrialization and technological innovation. From the nascent horse-drawn omnibuses of 19th-century London to the electrified subterranean networks that burrowed beneath Paris and New York during the Belle Époque, these systems have perpetually redefined the contours of urban habitability. The advent of high-speed rail corridors, epitomized by Japan's Shinkansen since 1964, exemplifies how infrastructural audacity can compress temporal distances, fostering economic agglomeration while obviating the exigencies of aerial conveyance. Yet, this evolutionary trajectory has not been devoid of tribulations; recurrent underfunding and politicized mismanagement have engendered dilapidated fleets and protracted commutes, perpetuating socioeconomic disparities wherein affluent suburbs luxuriate in automotive autonomy at the expense of proletarian precincts.\n\nProspectively, the confluence of digital ubiquity and automaton ingenuity portends a renaissance for public transit, wherein predictive algorithms orchestrate real-time flux optimizations and autonomous shuttles supplant human fallibility. Initiatives like Singapore's Smart Nation blueprint, integrating bimodal transport with pervasive sensorium, herald an era of hyper-efficient, equitable peregrination. Nonetheless, realizing this utopian vista necessitates resolute policy interventions: augmented fiscal allocations, intermodal synergies, and populist incentives to eclipse the seductive hegemony of personal automobiles. Ultimately, public transportation's transcendence from mere conveyance to societal linchpin hinges upon a collective resolve to recalibrate urban paradigms toward inclusivity and ecological stewardship.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb10",
+    "sample_id": "generated_23e68211-0ca0-4ca3-bbd5-c133ca9884b9_to_l3_r8_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "23e68211-0ca0-4ca3-bbd5-c133ca9884b9",
+    "source_dataset": "generated",
+    "source_file": "23e68211-0ca0-4ca3-bbd5-c133ca9884b9.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "In the inexorable march toward hyper-urbanization, wherein over half of the global populace now congregates within sprawling metropolises, public transportation emerges not merely as a logistical expedient but as an indispensable bulwark against the pernicious specter of congestion and environmental degradation. This intricate web of subways, buses, trams, and ferries, meticulously engineered to ferry multitudes across labyrinthine cityscapes, mitigates the deleterious externalities attendant upon private vehicular proliferation—namely, exacerbated air pollution, astronomical fuel consumption, and the erosion of communal thoroughfares into gridlocked morasses. Empirical analyses, such as those disseminated by the International Transport Forum, underscore that efficacious public transit regimes can attenuate urban carbon emissions by upwards of 40 percent, thereby furnishing a pragmatic paradigm for sustainable mobility amid escalating anthropogenic pressures.\n\nHistorically, the ascendancy of public transportation has been inextricably yoked to the vicissitudes of industrialization and technological innovation. From the nascent horse-drawn omnibuses of 19th-century London to the electrified subterranean networks that burrowed beneath Paris and New York during the Belle Époque, these systems have perpetually redefined the contours of urban habitability. The advent of high-speed rail corridors, epitomized by Japan's Shinkansen since 1964, exemplifies how infrastructural audacity can compress temporal distances, fostering economic agglomeration while obviating the exigencies of aerial conveyance. Yet, this evolutionary trajectory has not been devoid of tribulations; recurrent underfunding and politicized mismanagement have engendered dilapidated fleets and protracted commutes, perpetuating socioeconomic disparities wherein affluent suburbs luxuriate in automotive autonomy at the expense of proletarian precincts.\n\nProspectively, the confluence of digital ubiquity and automaton ingenuity portends a renaissance for public transit, wherein predictive algorithms orchestrate real-time flux optimizations and autonomous shuttles supplant human fallibility. Initiatives like Singapore's Smart Nation blueprint, integrating bimodal transport with pervasive sensorium, herald an era of hyper-efficient, equitable peregrination. Nonetheless, realizing this utopian vista necessitates resolute policy interventions: augmented fiscal allocations, intermodal synergies, and populist incentives to eclipse the seductive hegemony of personal automobiles. Ultimately, public transportation's transcendence from mere conveyance to societal linchpin hinges upon a collective resolve to recalibrate urban paradigms toward inclusivity and ecological stewardship.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 344,
+    "sentence_count": 11,
+    "avg_sentence_len": 31.27,
+    "avg_word_len": 6.94,
+    "syllable_count": 847,
+    "complex_word_count": 78,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -33.21,
+    "flesch_kincaid_grade": 25.66,
+    "ari": 26.88,
+    "coleman_liau": 24.04,
+    "gunning_fog": 21.58
+  },
+  "final_metrics": {
+    "word_count": 344,
+    "sentence_count": 11,
+    "avg_sentence_len": 31.27,
+    "avg_word_len": 6.94,
+    "syllable_count": 847,
+    "complex_word_count": 78,
+    "complex_word_ratio": 0.23,
+    "flesch_reading_ease": -33.21,
+    "flesch_kincaid_grade": 25.66,
+    "ari": 26.88,
+    "coleman_liau": 24.04,
+    "gunning_fog": 21.58
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=13.5400;dir=simpler;est_wb=80;est_sb=4",
+      "metrics": {
+        "word_count": 344,
+        "sentence_count": 11,
+        "avg_sentence_len": 31.27,
+        "avg_word_len": 6.94,
+        "syllable_count": 847,
+        "complex_word_count": 78,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -33.21,
+        "flesch_kincaid_grade": 25.66,
+        "ari": 26.88,
+        "coleman_liau": 24.04,
+        "gunning_fog": 21.58
+      },
+      "distance_to_target": 13.54,
+      "fidelity": {
+        "overall": 0.9437,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5400;center_gap=13.71;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.76;df=2.10;af=1.0000;pg=13.5400;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 344,
+        "sentence_count": 11,
+        "avg_sentence_len": 31.27,
+        "avg_word_len": 6.94,
+        "syllable_count": 847,
+        "complex_word_count": 78,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -33.21,
+        "flesch_kincaid_grade": 25.66,
+        "ari": 26.88,
+        "coleman_liau": 24.04,
+        "gunning_fog": 21.58
+      },
+      "distance_to_target": 13.54,
+      "fidelity": {
+        "overall": 0.9437,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5400;center_gap=13.71;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.76;df=2.10;af=1.0000;pg=13.5400;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 344,
+        "sentence_count": 11,
+        "avg_sentence_len": 31.27,
+        "avg_word_len": 6.94,
+        "syllable_count": 847,
+        "complex_word_count": 78,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -33.21,
+        "flesch_kincaid_grade": 25.66,
+        "ari": 26.88,
+        "coleman_liau": 24.04,
+        "gunning_fog": 21.58
+      },
+      "distance_to_target": 13.54,
+      "fidelity": {
+        "overall": 0.9437,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5400;center_gap=13.71;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.76;df=2.10;af=1.0000;pg=13.5400;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 344,
+        "sentence_count": 11,
+        "avg_sentence_len": 31.27,
+        "avg_word_len": 6.94,
+        "syllable_count": 847,
+        "complex_word_count": 78,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -33.21,
+        "flesch_kincaid_grade": 25.66,
+        "ari": 26.88,
+        "coleman_liau": 24.04,
+        "gunning_fog": 21.58
+      },
+      "distance_to_target": 13.54,
+      "fidelity": {
+        "overall": 0.9437,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=13.5400;center_gap=13.71;mode=both;dominant=word;dir_changed=0;wb=52;sb=4;est_wb=80;est_sb=4;lf=0.76;df=2.10;af=1.0000;pg=13.5400;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 344,
+        "sentence_count": 11,
+        "avg_sentence_len": 31.27,
+        "avg_word_len": 6.94,
+        "syllable_count": 847,
+        "complex_word_count": 78,
+        "complex_word_ratio": 0.23,
+        "flesch_reading_ease": -33.21,
+        "flesch_kincaid_grade": 25.66,
+        "ari": 26.88,
+        "coleman_liau": 24.04,
+        "gunning_fog": 21.58
+      },
+      "distance_to_target": 13.54,
+      "fidelity": {
+        "overall": 0.9437,
+        "entity_recall": 0.875,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 16,
+        "number_total": 2,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9437,
+    "entity_recall": 0.875,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 16,
+    "number_total": 2,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:09.396Z"
+}

@@ -1,0 +1,58 @@
+{
+  "article_id": "1679e35f-e594-4859-a7ba-551d81fc8369",
+  "topic": "public transportation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Public Transportation in Cities",
+  "article": [
+    "Public transportation helps people move around cities every day. It includes buses, trains, subways, and trams. Millions of riders use these services. They go to work, school, or shops. Public transport is fast and easy. It keeps roads less crowded.",
+    "Buses travel on streets. They stop at many places for riders. Trains run on tracks between cities or towns. Subways go under the ground. This keeps them away from traffic. Trams share roads with cars but have their own paths. Each type fits different trips. Buses are good for short rides. Trains work best for longer ones.",
+    "Public transportation brings big benefits. It saves money. A bus ticket costs less than driving a car. You do not pay for gas or parking. It helps the air stay clean. One bus takes many cars off the road. This cuts down pollution. It also stops traffic jams. Riders feel safe with trained drivers.",
+    "Some cities face problems with public transport. Rides can get too full at busy times. Delays happen from rain or fixes. But leaders are helping. They buy new buses and build more tracks. Apps now show when the next bus comes.",
+    "In the future, public transport will improve. Electric buses will run with no dirty smoke. Smart trains will go even faster. More people will use them. Cities will be greener and easier to live in."
+  ],
+  "metrics": {
+    "word_count": 227,
+    "sentence_count": 35,
+    "avg_sentence_len": 6.49,
+    "avg_word_len": 4.53,
+    "syllable_count": 311,
+    "complex_word_count": 2,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 84.35,
+    "flesch_kincaid_grade": 3.11,
+    "ari": 3.16,
+    "coleman_liau": 6.29,
+    "gunning_fog": 2.95
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "public_transportation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:03:02.640Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 73
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2792,
+    "total_tokens": 3797,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:03:02.641Z"
+}

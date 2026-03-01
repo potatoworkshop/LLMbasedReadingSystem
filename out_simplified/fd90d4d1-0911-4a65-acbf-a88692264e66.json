@@ -1,0 +1,140 @@
+{
+  "article_id": "fd90d4d1-0911-4a65-acbf-a88692264e66",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems, encompassing approximately 71 percent of Earth's surface, constitute a mosaic of profoundly interdependent biotic and abiotic components that underpin global biogeochemical cycles and sustain unparalleled biodiversity. From the photic epipelagic zone, where phytoplankton harness solar irradiance through photosynthesis to form the foundational trophic level, to the aphotic abyssal plains harboring chemosynthetic communities around hydrothermal vents, these aquatic realms exhibit remarkable adaptive radiations. The ocean's vertical stratification—delimited by thermoclines and haloclines—facilitates distinct zonations, such as the mesopelagic 'twilight zone,' where diel vertical migrations of myriads of zooplankton and nekton redistribute nutrients and organic matter, thereby fueling both surface productivity and benthic detritivory. This dynamic flux, modulated by gyres, upwellings, and frontal systems, exemplifies the ocean's role as a thermostat for planetary climate, sequestering anthropogenic carbon dioxide while releasing dimethyl sulfide that seeds stratospheric aerosols. Yet, the ostensibly inexhaustible productivity of marine realms belies their fragility, as keystone species like diatoms and gelatinous zooplankton orchestrate cascading effects across food webs, rendering the system susceptible to perturbations that propagate nonlinearly through reticulate networks of symbiosis and predation.\n\nIn coral reef ecosystems, paradigmatic of shallow tropical marine habitats, scleractinian corals engage in obligatory mutualisms with dinoflagellate symbionts (Symbiodinium spp.), which not only supply up to 90 percent of the holobiont's energetic requirements via translocation of photosynthates but also confer resilience against environmental stressors through polyphenism. These calcifying metazoans, engineering vast biogenic structures that amplify habitat heterogeneity, support over 25 percent of marine species despite occupying less than 0.1 percent of seafloor area. However, the reef's trophic pyramid, encompassing herbivorous parrotfishes that curtail macroalgal overgrowth and piscivorous groupers that regulate invertebrate populations, is increasingly destabilized by anthropogenic pressures. Similarly, in temperate kelp forests dominated by macroalgae such as Macrocystis pyrifera, canopy-forming fronds attenuate wave energy, fostering understory biodiversity while exporting detritus to abyssal carbon sinks; trophic cascades initiated by the extirpation of top predators like sea otters precipitate phase shifts toward urchin barrens, underscoring the non-equilibrium dynamics inherent to these systems.\n\nPelagic ecosystems, spanning the vast oligotrophic gyres to nutrient-enriched eastern boundary currents, reveal even greater complexity through size-structured food webs where mesozooplankton grazing on picophytoplankton cascades to piscivory by tunas and billfishes. Microbial loops, involving bacterioplankton and viral lysis, recycle dissolved organic matter, sustaining secondary production in regimes of chronic nutrient limitation. Deep-sea hadal trenches, subjected to extremes of hydrostatic pressure exceeding 1000 atmospheres, harbor endemic megafauna adapted via piezotolerance and bioluminescence, their communities sustained by marine snow flux and chemolithoautotrophy. Across these domains, functional redundancy among taxa ostensibly buffers perturbations, yet empirical studies from long-term observatories like the Bermuda Atlantic Time-series Study (BATS) document regime shifts precipitated by El Niño-Southern Oscillation (ENSO) variability, wherein weakened upwelling curtails primary production, propagating deficits through higher trophic levels.\n\nAnthropogenic forcings exacerbate intrinsic vulnerabilities: ocean acidification, driven by pCO2 equilibration, impairs calcifiers' aragonite saturation states, while thermal anomalies induce coral bleaching and jellyfish proliferations that shortcut energy transfer. Overexploitation depletes forage fish stocks, eliciting fishery-induced evolution, and eutrophication fosters hypoxic dead zones via microbial respiration of anthropogenic nitrogen. Plastic microdebris, ingested across taxa, disrupts endocrine function and bioaccumulates persistent pollutants. Mitigation imperatives encompass marine protected areas (MPAs) that restore biomass pyramids, as evidenced by Palau's no-take zones, and blue carbon initiatives leveraging seagrass meadows and mangrove forests. International frameworks like the UN Convention on Biological Diversity and high-seas treaty negotiations aim to curtail biodiversity loss, yet realizing ecosystem-based management demands integrating predictive modeling of nonlinear dynamics with adaptive governance attuned to socio-ecological feedbacks.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb07",
+    "sample_id": "generated_3a38f5cc-c812-475e-912f-eaeacafff3d0_to_l5_r8_openai_gpt-5-mini"
+  },
+  "source": {
+    "source_article_id": "3a38f5cc-c812-475e-912f-eaeacafff3d0",
+    "source_dataset": "generated",
+    "source_file": "3a38f5cc-c812-475e-912f-eaeacafff3d0.json",
+    "source_level": 5
+  },
+  "request_meta": {
+    "target_level": 5,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems cover about 71 percent of Earth's surface. They form a patchwork of interdependent living and nonliving parts that support global biogeochemical cycles and sustain very high biodiversity. From the sunlit epipelagic zone, where phytoplankton harness solar irradiance through photosynthesis to form the foundational trophic level, to the aphotic abyssal plains harboring chemosynthetic communities around hydrothermal vents, these aquatic realms exhibit remarkable adaptive radiations. The ocean's vertical stratification—delimited by thermoclines and haloclines—facilitates distinct zonations, such as the mesopelagic 'twilight zone,' where daily vertical migrations of many zooplankton and swimming animals redistribute nutrients and organic matter, thereby fueling both surface productivity and benthic detritivory. Gyres, upwellings, and fronts shape this dynamic flux. The ocean thus acts as a planetary thermostat: it absorbs human carbon dioxide and releases dimethyl sulfide that helps seed aerosols in the stratosphere. Yet, the seemingly endless productivity of marine realms belies their fragility, as keystone species like diatoms and gelatinous zooplankton orchestrate cascading effects across food webs, rendering the system susceptible to perturbations that propagate nonlinearly through reticulate networks of symbiosis and predation.\n\nCoral reef ecosystems are typical shallow tropical habitats. Scleractinian corals form essential partnerships with dinoflagellate symbionts (Symbiodinium spp.). These symbionts supply up to 90 percent of the coral holobiont's energy by moving photosynthates to the host and help the corals resist stress through flexible traits. These calcifying metazoans, engineering vast biogenic structures that increase habitat variety, support over 25 percent of marine species despite occupying less than 0.1 percent of seafloor area. However, the reef's food pyramid is increasingly destabilized by human pressures. Herbivorous parrotfishes reduce macroalgal overgrowth. Fish-eating groupers help control invertebrates. Similarly, temperate kelp forests led by macroalgae such as Macrocystis pyrifera have canopy fronds that reduce wave energy and support understory biodiversity. They also send detritus to deep carbon sinks. If top predators like sea otters are removed, cascading effects can shift forests to urchin barrens, showing these systems can be unstable.\n\nOpen-ocean ecosystems, spanning the vast oligotrophic gyres to nutrient-enriched eastern boundary currents, reveal even greater complexity through size-structured food webs where mesozooplankton grazing on picophytoplankton cascades to piscivory by tunas and billfishes. Microbial loops with bacteria and viruses recycle dissolved organic matter. This recycling supports secondary production where nutrients remain low. Deep-sea hadal trenches, subjected to extremes of hydrostatic pressure exceeding 1000 atmospheres, harbor endemic megafauna adapted via tolerance of high pressure and bioluminescence, their communities sustained by marine snow flux and chemolithoautotrophy. Across these domains, functional redundancy among taxa ostensibly buffers perturbations, yet empirical studies from long-term observatories like the Bermuda Atlantic Time-series Study (BATS) document regime shifts precipitated by El Niño-Southern Oscillation (ENSO) variability, wherein weakened upwelling curtails primary production, propagating deficits through higher trophic levels.\n\nHuman forces worsen natural vulnerabilities. Ocean acidification from rising CO2 reduces aragonite saturation and harms calcifying organisms. Warm anomalies cause coral bleaching and jellyfish blooms that shortcut energy transfer. Overexploitation depletes forage fish stocks, eliciting fishery-induced evolution, and eutrophication fosters hypoxic dead zones via microbial respiration of anthropogenic nitrogen. Plastic microdebris, ingested across taxa, disrupts endocrine function and bioaccumulates persistent pollutants. Mitigation actions include marine protected areas (MPAs) that help rebuild biomass structure, as seen in Palau's no-take zones. They also include blue carbon projects that protect seagrass meadows and mangrove forests. International frameworks such as the UN Convention on Biological Diversity and high-seas treaty talks aim to curb biodiversity loss. To implement ecosystem-based management, we must combine predictive models of complex dynamics with adaptive governance that responds to social-ecological feedbacks.",
+  "target_level": 5,
+  "profile": {
+    "level": 5,
+    "label": "Grade Mean 14+",
+    "rewrite_guidance": "Push readability-grade metrics above 14 with very advanced vocabulary and dense, highly complex syntax.",
+    "mean_target": [
+      14,
+      20
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        14,
+        20
+      ],
+      "ari": [
+        14,
+        20
+      ],
+      "coleman_liau": [
+        14,
+        20
+      ],
+      "gunning_fog": [
+        14,
+        20
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 596,
+    "sentence_count": 20,
+    "avg_sentence_len": 29.8,
+    "avg_word_len": 6.95,
+    "syllable_count": 1423,
+    "complex_word_count": 118,
+    "complex_word_ratio": 0.2,
+    "flesch_reading_ease": -25.4,
+    "flesch_kincaid_grade": 24.21,
+    "ari": 26.23,
+    "coleman_liau": 24.1,
+    "gunning_fog": 19.84
+  },
+  "final_metrics": {
+    "word_count": 599,
+    "sentence_count": 33,
+    "avg_sentence_len": 18.15,
+    "avg_word_len": 6.45,
+    "syllable_count": 1291,
+    "complex_word_count": 81,
+    "complex_word_ratio": 0.14,
+    "flesch_reading_ease": 6.08,
+    "flesch_kincaid_grade": 16.92,
+    "ari": 18.02,
+    "coleman_liau": 20.49,
+    "gunning_fog": 12.67
+  },
+  "hit_target": true,
+  "rounds_used": 1,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced approach combining lexical simplification and sentence splitting to reach a simpler, clearer register while keeping all facts intact.|applied_edits=16|tier=dist_gt_2;dist=2.1983;center_gap=6.43;mode=both;dominant=word;dir_changed=0;wb=80;sb=6;est_wb=80;est_sb=3;lf=1.00;df=2.00;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 599,
+        "sentence_count": 33,
+        "avg_sentence_len": 18.15,
+        "avg_word_len": 6.45,
+        "syllable_count": 1291,
+        "complex_word_count": 81,
+        "complex_word_ratio": 0.14,
+        "flesch_reading_ease": 6.08,
+        "flesch_kincaid_grade": 16.92,
+        "ari": 18.02,
+        "coleman_liau": 20.49,
+        "gunning_fog": 12.67
+      },
+      "distance_to_target": 0.0083,
+      "fidelity": {
+        "overall": 0.9281,
+        "entity_recall": 0.8846,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 26,
+        "number_total": 5,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1412,
+        "completion_tokens": 10334,
+        "total_tokens": 11746,
+        "llm_calls": 1
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9281,
+    "entity_recall": 0.8846,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 26,
+    "number_total": 5,
+    "keyword_total": 20
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 1412,
+    "completion_tokens": 10334,
+    "total_tokens": 11746,
+    "llm_calls": 1
+  },
+  "transformed_at": "2026-03-01T13:25:21.641Z"
+}

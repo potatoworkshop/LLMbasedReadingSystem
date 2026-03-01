@@ -1,0 +1,177 @@
+{
+  "article_id": "e6f1ba1c-74d7-4688-9a11-22807d11ecf1",
+  "mode": "difficulty_adjust",
+  "original_article": "The ancient world was interwoven by an extensive lattice of trade routes that propelled the dissemination of commodities, innovations, and ideologies across vast Eurasian expanses and beyond. Foremost among these were the overland Silk Road, which meandered from the Han Dynasty heartlands in China through Central Asian steppes to Mediterranean termini, and the maritime networks of the Indian Ocean that linked East Africa, the Arabian Peninsula, India, and Southeast Asia. Complementing these were ancillary pathways such as the Incense Route traversing arid Nabataean territories and the Amber Road facilitating exchanges between Baltic shores and Italic realms. These conduits, operational from the second millennium BCE onward, transcended mere mercantile pursuits; they constituted arteries of civilization, fostering economic interdependence while engendering profound cultural metamorphoses through the perpetual flux of peoples, pathogens, and paradigms.\n\nThe Silk Road epitomized the apogee of terrestrial commerce, sustaining vigorous exchange for over a millennium from circa 130 BCE until the fourteenth century CE. Camel caravans, hardy against desiccation and altitude, traversed formidable topographies including the Taklamakan Desert's shifting dunes, the Pamir Plateau's vertiginous passes, and the formidable Hexi Corridor. Entrepôts such as Samarkand, Bukhara, and Dunhuang functioned as crucibles of transaction, where barter predominated alongside nascent monetary systems evinced by overstamped Roman denarii and Chinese kaiyuan tongbao coins. Silk, the eponymous filament derived from Bombyx mori silkworms—a guarded Chinese secret until Byzantine espionage circa 550 CE—commanded astronomical valuations in Roman markets, often equivalent to gold by weight. Spices like cinnamon and cassia, alongside ferrous wares, lapis lazuli, and equines, amplified the route's lucrative repertoire, while intrepid Sogdian intermediaries, polyglot virtuosi of arbitrage, orchestrated the logistical symphony amid perennial perils of predation and privation.\n\nMaritime counterparts, leveraging monsoon predictability, burgeoned contemporaneous with terrestrial vigor, supplanting them in efficacy by late antiquity. Dhows and lateen-rigged vessels, precursors to medieval cogs, navigated from Roman Berenike to Muziris in Kerala, ferrying pepper, cloves, ivory, and cotton textiles integral to imperial opulence. The Incense Route, bifurcating from Yemen's frankincense groves via Petra's rock-hewn facades to Gaza's emporia, supplied myrrh and balsam indispensable for Judeo-Hellenic cultic observances and mummification rites. Navigational sophistication, chronicled in the Periplus of the Erythraean Sea—an anonymous first-century CE vademecum—integrated stellar azimuths, monsoon cadences, and coastal hydrography, mitigating capsize risks in cyclone-prone littorals. These aqueous avenues not only truncated transit durations but democratized bulk cargoes unattainable overland, catalyzing entrepôt proliferation at Aksum, Rhapta, and Oc Eo.\n\nThe ramifications of these trade nexuses reverberated across geopolitical, socioeconomic, and sociocultural spectra. Intermediary polities such as Parthia, Kushan, and Sasanian Persia amassed fortunes via octroi duties and monopolistic waystations, underwriting monumental infrastructures like the Grand Canal precursors and qanat aqueducts. Culturally, Buddhism's proselytization from Gandhara to Chang'an, Hellenistic coinage imitations in Bactria, and Nestorian Christian enclaves in Tangut domains exemplified syncretic efflorescence. Linguistic chimeras, exemplified by Tocharian hybrids and Prakrit koines, alongside hybrid iconographies fusing Greco-Buddhist Gandharan friezes, underscored the routes' catalytic role in premodern globalization. Pathogen vectors, including variola and Yersinia pestis precursors, inadvertently traversed alongside, presaging pandemics that reshaped demographics.\n\nNotwithstanding their splendor, ancient trade corridors confronted inexorable adversities: climatic oscillations precipitating desertification, nomadic incursions disrupting nodal securities, and endogenous epidemics eroding caravan viability. The Pax Mongolica transiently revitalized Silk Road throughput circa 1271-1368 CE under Khubilai's aegis, yet Ottoman territorial consolidations, Portuguese caravel interlopers, and the catastrophic fourteenth-century bubonic plague cascades precipitated inexorable atrophy. Vestiges persist in etymological fossils—'serendipity' from Sinhalese isles—and contemporary Belt and Road initiatives, affirming these primordial pathways as foundational to global interconnectivity paradigms.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb03",
+    "sample_id": "generated_1fff278e-2ec5-4c58-86b2-9ca8f453367b_to_l3_r6_x-ai_grok-4.1-fast"
+  },
+  "source": {
+    "source_article_id": "1fff278e-2ec5-4c58-86b2-9ca8f453367b",
+    "source_dataset": "generated",
+    "source_file": "1fff278e-2ec5-4c58-86b2-9ca8f453367b.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 3,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "The ancient world had a large web of trade routes. These routes transported goods, new ideas, and beliefs across Eurasia and beyond. The most important was the land Silk Road. It ran from central China in the Han Dynasty through Central Asian plains to the Mediterranean. Indian Ocean sea routes connected East Africa, the Arabian Peninsula, India, and Southeast Asia. Other paths helped too. They included the Incense Route across dry Nabataean lands. The Amber Road allowed trade between Baltic coasts and Italian areas. These routes started in the second millennium BCE. They did more than trading goods. They were the main supports of civilizations. They built economic links. They caused big cultural changes from moving people, diseases, and ideas.\n\nThe Silk Road reached the height of land trade. It kept busy trade going for over 1000 years. This was from about 130 BCE to the 14th century CE. Camel groups were tough against dryness and high places. They crossed hard landscapes. These included shifting dunes in the Taklamakan Desert, steep passes in the Pamir Plateau, and the Hexi Corridor. Places like Samarkand, Bukhara, and Dunhuang were trade centers. Barter was common there. Early money systems started too. Examples are re-stamped Roman denarii and Chinese kaiyuan tongbao coins. Silk came from Bombyx mori silkworms. China kept it secret until Byzantines stole it around 550 CE. It had very high prices in Roman markets, worth as much as gold by weight. Spices like cinnamon and cassia, alongside ferrous wares, lapis lazuli, and equines, increased the route's money-making repertoire, while intrepid Sogdian middlemen, polyglot virtuosi of arbitrage, orchestrated the logistical symphony amid constant perils of predation and privation.\n\nSea routes grew at the same time as land routes. They used steady monsoons. By late ancient times, they worked better than land routes. Dhows and lateen-rigged vessels, early forms to medieval cogs, navigated from Roman Berenike to Muziris in Kerala, ferrying pepper, cloves, ivory, and cotton textiles integral to imperial wealth. From Yemen frankincense fields, the Incense Route split. It carved through Petra to Gaza ports. It delivered myrrh and balsam. These were vital for temple rites and mummies. The Periplus of the Erythraean Sea recorded navigation skills. This first-century guide used stars, monsoons, and sea charts. It helped avoid flips in storm areas. These sea paths cut travel time. They made shipping large loads possible, unlike land. This led to more trade centers at Aksum, Rhapta, and Oc Eo.\n\nThe results of these trade nexuses rippled across geopolitical, socioeconomic, and sociocultural spectra. Intermediary nations such as Parthia, Kushan, and Sasanian Persia amassed fortunes via octroi duties and monopolistic waystations, underwriting monumental infrastructures like the Grand Canal precursors and qanat aqueducts. Culturally, Buddhism's missionary work from Gandhara to Chang'an, Hellenistic coinage imitations in Bactria, and Nestorian Christian enclaves in Tangut domains exemplified syncretic flowering. Linguistic chimeras, exemplified by Tocharian hybrids and Prakrit koines, alongside hybrid iconographies fusing Greco-Buddhist Gandharan friezes, underscored the routes' catalytic role in premodern globalization. Pathogen vectors, including variola and Yersinia pestis precursors, inadvertently traversed alongside, presaging pandemics that reshaped demographics.\n\nEven with their glory, trade routes met harsh troubles. Weather swings grew deserts. Nomads broke security. Diseases cut caravan strength. The Pax Mongolica transiently revitalized Silk Road throughput circa 1271-1368 CE under Khubilai's aegis, yet Ottoman territorial consolidations, Portuguese caravel interlopers, and the catastrophic fourteenth-century bubonic plague cascades precipitated inexorable atrophy. Vestiges persist in etymological fossils—'serendipity' from Sinhalese isles—and contemporary Belt and Road initiatives, affirming these primordial pathways as foundational to global interconnectivity paradigms.",
+  "target_level": 3,
+  "profile": {
+    "level": 3,
+    "label": "Grade Mean 10-12",
+    "rewrite_guidance": "Push readability-grade metrics toward the 10-12 band with denser wording and longer sentence structures.",
+    "mean_target": [
+      10,
+      12
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        10,
+        12
+      ],
+      "ari": [
+        10,
+        12
+      ],
+      "coleman_liau": [
+        10,
+        12
+      ],
+      "gunning_fog": [
+        10,
+        12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 594,
+    "sentence_count": 22,
+    "avg_sentence_len": 27,
+    "avg_word_len": 6.74,
+    "syllable_count": 1381,
+    "complex_word_count": 93,
+    "complex_word_ratio": 0.16,
+    "flesch_reading_ease": -17.26,
+    "flesch_kincaid_grade": 22.37,
+    "ari": 23.82,
+    "coleman_liau": 22.74,
+    "gunning_fog": 17.06
+  },
+  "final_metrics": {
+    "word_count": 594,
+    "sentence_count": 52,
+    "avg_sentence_len": 11.42,
+    "avg_word_len": 5.71,
+    "syllable_count": 1113,
+    "complex_word_count": 41,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 36.72,
+    "flesch_kincaid_grade": 10.98,
+    "ari": 11.15,
+    "coleman_liau": 15.16,
+    "gunning_fog": 7.33
+  },
+  "hit_target": true,
+  "rounds_used": 2,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Primary syntactic changes (sentence splits and restructures for shorter sentences)|applied_edits=10|tier=coarse_jump;dist=10.4975;dir=simpler;est_wb=80;est_sb=8",
+      "metrics": {
+        "word_count": 600,
+        "sentence_count": 44,
+        "avg_sentence_len": 13.64,
+        "avg_word_len": 6.04,
+        "syllable_count": 1217,
+        "complex_word_count": 62,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 21.4,
+        "flesch_kincaid_grade": 13.66,
+        "ari": 13.85,
+        "coleman_liau": 17.56,
+        "gunning_fog": 9.59
+      },
+      "distance_to_target": 2.665,
+      "fidelity": {
+        "overall": 0.8987,
+        "entity_recall": 0.8415,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1532,
+        "completion_tokens": 7523,
+        "total_tokens": 9055,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_variant|strategy=Balanced lexical and syntactic simplification|applied_edits=17|tier=dist_gt_2;dist=2.6650;center_gap=2.31;mode=both;dominant=word;dir_changed=0;wb=27;sb=5;est_wb=80;est_sb=10;lf=1.00;df=2.10;af=0.3402;pg=10.4975;pd=7.8325;af_fb=0",
+      "metrics": {
+        "word_count": 594,
+        "sentence_count": 52,
+        "avg_sentence_len": 11.42,
+        "avg_word_len": 5.71,
+        "syllable_count": 1113,
+        "complex_word_count": 41,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 36.72,
+        "flesch_kincaid_grade": 10.98,
+        "ari": 11.15,
+        "coleman_liau": 15.16,
+        "gunning_fog": 7.33
+      },
+      "distance_to_target": 0.155,
+      "fidelity": {
+        "overall": 0.8932,
+        "entity_recall": 0.8293,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 82,
+        "number_total": 4,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3132,
+        "completion_tokens": 15686,
+        "total_tokens": 18818,
+        "llm_calls": 2
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8932,
+    "entity_recall": 0.8293,
+    "number_recall": 1,
+    "keyword_recall": 0.85,
+    "entity_total": 82,
+    "number_total": 4,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3132,
+    "completion_tokens": 15686,
+    "total_tokens": 18818,
+    "llm_calls": 2
+  },
+  "transformed_at": "2026-03-01T13:14:06.902Z"
+}

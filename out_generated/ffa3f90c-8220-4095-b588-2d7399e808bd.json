@@ -1,0 +1,58 @@
+{
+  "article_id": "ffa3f90c-8220-4095-b588-2d7399e808bd",
+  "topic": "marine ecosystems",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Oceans Full of Life: Marine Ecosystems",
+  "article": [
+    "Marine ecosystems are big parts of the ocean. They are home to plants and animals. These areas cover over 70 percent of Earth. Salt water makes them special. Many types exist. Some are near the shore. Others are deep down.",
+    "Coral reefs are bright and full of life. Tiny animals called polyps make the coral. They build hard homes. Fish swim in and out. Sea turtles eat plants there. Sharks hunt for food. Reefs also stop big waves from hitting land. This helps beaches stay safe.",
+    "In the open ocean, plankton floats on top. Plankton are very small plants and animals. Small fish eat them. Bigger fish eat the small fish. Whales eat lots of small sea life. This food chain links everyone. It keeps the ocean in balance.",
+    "Marine ecosystems help all life on Earth. They make half of our oxygen. People get food from fish and seaweed. Oceans clean dirty water. They fight warming from gases. Without them, life would change a lot.",
+    "People hurt these ecosystems. Boats spill oil. Too much fishing takes too many fish. Trash fills the water. Warm water kills coral. We can help. Clean beaches. Eat less fish. Protect big ocean areas. This saves life in the sea."
+  ],
+  "metrics": {
+    "word_count": 205,
+    "sentence_count": 38,
+    "avg_sentence_len": 5.39,
+    "avg_word_len": 4.42,
+    "syllable_count": 276,
+    "complex_word_count": 3,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 87.46,
+    "flesch_kincaid_grade": 2.4,
+    "ari": 2.11,
+    "coleman_liau": 4.73,
+    "gunning_fog": 2.74
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:11:04.413Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 95
+  },
+  "token_usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 2123,
+    "total_tokens": 3128,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:11:04.414Z"
+}

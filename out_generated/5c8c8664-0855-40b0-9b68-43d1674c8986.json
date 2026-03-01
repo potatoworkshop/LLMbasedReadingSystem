@@ -1,0 +1,57 @@
+{
+  "article_id": "5c8c8664-0855-40b0-9b68-43d1674c8986",
+  "topic": "marine ecosystems",
+  "level": 3,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Diversity and Resilience in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems form the largest habitable space on Earth, covering over 70 percent of the planet's surface and supporting unparalleled biodiversity. These dynamic environments range from shallow coastal zones teeming with life to the profound darkness of abyssal plains. Interconnected through ocean currents, they regulate global climate by absorbing carbon dioxide and generating half of the world's oxygen via phytoplankton photosynthesis. Within these waters, intricate food webs sustain everything from microscopic plankton to massive blue whales, demonstrating nature's remarkable efficiency.",
+    "Coral reefs stand as one of the most productive marine habitats, often called the rainforests of the sea. Polyps, tiny invertebrates, build calcium carbonate skeletons that form vast underwater cities. In a mutualistic relationship, these polyps host photosynthetic algae, or zooxanthellae, which provide essential nutrients while gaining protection. This symbiosis supports thousands of fish species, sea turtles, and sharks, fostering biodiversity hotspots that rival tropical forests. However, reefs occupy less than one percent of the ocean floor yet harbor a quarter of all marine life.",
+    "Contrastingly, the open ocean's pelagic zone features vast expanses where sunlight penetrates only surface layers. Here, seasonal plankton blooms initiate productivity cascades, nourishing krill swarms that feed migratory predators like tuna and seabirds. Deeper hydrothermal vents reveal chemosynthetic ecosystems, where bacteria convert chemical energy from Earth's interior into food, independent of sunlight. These unique communities include giant tube worms and eyeless shrimp, adapted to extreme pressures and temperatures.",
+    "Despite their resilience, marine ecosystems face severe threats from anthropogenic pressures. Overfishing depletes apex predators, disrupting balance, while plastic pollution and nutrient runoff cause dead zones. Climate change exacerbates issues through warming waters and acidification, triggering mass coral bleaching. International efforts, such as marine protected areas and sustainable aquaculture, aim to mitigate these impacts and restore equilibrium for future generations."
+  ],
+  "metrics": {
+    "word_count": 293,
+    "sentence_count": 17,
+    "avg_sentence_len": 17.24,
+    "avg_word_len": 6.39,
+    "syllable_count": 604,
+    "complex_word_count": 37,
+    "complex_word_ratio": 0.13,
+    "flesch_reading_ease": 14.94,
+    "flesch_kincaid_grade": 15.46,
+    "ari": 17.26,
+    "coleman_liau": 20.03,
+    "gunning_fog": 11.95
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "marine_ecosystems_l3_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:12:41.741Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 7
+  },
+  "token_usage": {
+    "prompt_tokens": 334,
+    "completion_tokens": 843,
+    "total_tokens": 1177,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T19:12:41.742Z"
+}

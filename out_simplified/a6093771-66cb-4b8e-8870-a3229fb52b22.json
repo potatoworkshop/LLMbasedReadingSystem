@@ -1,0 +1,287 @@
+{
+  "article_id": "a6093771-66cb-4b8e-8870-a3229fb52b22",
+  "mode": "difficulty_adjust",
+  "original_article": "According to a leading business consultancy, 3–14% of the global workforce will need to switch to a different occupation within the next 10–15 years, and all workers will need to adapt as their occupations evolve alongside increasingly capable machines. Automation – or 'embodied artificial intelligence' (AI) – is one aspect of the disruptive effects of technology on the labour market. 'Disembodied AI', like the algorithms running in our smartphones, is another.\n\nDr Stella Pachidi from Cambridge Judge Business School believes that some of the most fundamental changes are happening as a result of the 'algorithmication' of jobs that are dependent on data rather than on production – the so-called knowledge economy. Algorithms are capable of learning from data to undertake tasks that previously needed human judgement, such as reading legal contracts, analysing medical scans and gathering market intelligence.\n\n'In many cases, they can outperform humans,' says Pachidi. 'Organisations are attracted to using algorithms because they want to make choices based on what they consider is “perfect information”, as well as to reduce costs and enhance productivity.'\n\n'But these enhancements are not without consequences,' says Pachidi. 'If routine cognitive tasks are taken over by AI, how do professions develop their future experts?' she asks. 'One way of learning about a job is “legitimate peripheral participation” – a novice stands next to experts and learns by observation. If this isn't happening, then you need to find new ways to learn.'\n\nAnother issue is the extent to which the technology influences or even controls the workforce. For over two years, Pachidi monitored a telecommunications company. 'The way telecoms salespeople work is through personal and frequent contact with clients, using the benefit of experience to assess a situation and reach a decision. However, the company had started using a[n] … algorithm that defined when account managers should contact certain customers about which kinds of campaigns and what to offer them.'\n\nThe algorithm – usually built by external designers – often becomes the keeper of knowledge, she explains. In cases like this, Pachidi believes, a short-sighted view begins to creep into working practices whereby workers learn through the 'algorithm's eyes' and become dependent on its instructions. Alternative explorations – where experimentation and human instinct lead to progress and new ideas – are effectively discouraged.\n\nPachidi and colleagues even observed people developing strategies to make the algorithm work to their own advantage. 'We are seeing cases where workers feed the algorithm with false data to reach their targets,' she reports.\n\nIt's scenarios like these that many researchers are working to avoid. Their objective is to make AI technologies more trustworthy and transparent, so that organisations and individuals understand how AI decisions are made. In the meantime, says Pachidi, 'We need to make sure we fully understand the dilemmas that this new world raises regarding expertise, occupational boundaries and control.'\n\nEconomist Professor Hamish Low believes that the future of work will involve major transitions across the whole life course for everyone: 'The traditional trajectory of full-time education followed by full-time work followed by a pensioned retirement is a thing of the past,' says Low. Instead, he envisages a multistage employment life: one where retraining happens across the life course, and where multiple jobs and no job happen by choice at different stages.\n\nOn the subject of job losses, Low believes the predictions are founded on a fallacy: 'It assumes that the number of jobs is fixed. If in 30 years, half of 100 jobs are being carried out by robots, that doesn't mean we are left with just 50 jobs for humans. The number of jobs will increase: we would expect there to be 150 jobs.'\n\nDr Ewan McGaughey, at Cambridge's Centre for Business Research and King's College London, agrees that 'apocalyptic' views about the future of work are misguided. 'It's the laws that restrict the supply of capital to the job market, not the advent of new technologies that causes unemployment.'\n\nHis recently published research answers the question of whether automation, AI and robotics will mean a 'jobless future' by looking at the causes of unemployment. 'History is clear that change can mean redundancies. But social policies can tackle this through retraining and redeployment.'\n\nHe adds: 'If there is going to be change to jobs as a result of AI and robotics then I'd like to see governments seizing the opportunity to improve policy to enforce good job security. We can “reprogramme” the law to prepare for a fairer future of work and leisure.' McGaughey's findings are a call to arms to leaders of organisations, governments and banks to pre-empt the coming changes with bold new policies that guarantee full employment, fair incomes and a thriving economic democracy.\n\n'The promises of these new technologies are astounding. They deliver humankind the capacity to live in a way that nobody could have once imagined,' he adds. 'Just as the industrial revolution brought people past subsistence agriculture, and the corporate revolution enabled mass production, a third revolution has been pronounced. But it will not only be one of technology. The next revolution will be social.'",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb08",
+    "sample_id": "questions_ielts_16_test1_passage3_c27ldj_to_l4_r2_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "ielts_16_test1_passage3_c27ldj",
+    "source_dataset": "questions",
+    "source_file": "ielts_16_test1_passage3_c27ldj.json"
+  },
+  "request_meta": {
+    "target_level": 4,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "According to a leading business consultancy, 3–14% of the global workforce will need to switch to a different occupation within the next 10–15 years, and all workers will need to adapt as their occupations evolve alongside increasingly capable machines. Automation – or 'embodied artificial intelligence' (AI) – is one aspect of the disruptive effects of technology on the labour market. 'Disembodied AI', like the algorithms running in our smartphones, is another.\n\nDr Stella Pachidi from Cambridge Judge Business School believes that some of the most fundamental changes are happening as a result of the 'algorithmication' of jobs that are dependent on data rather than on production – the so-called knowledge economy. Algorithms are capable of learning from data to undertake tasks that previously needed human judgement, such as reading legal contracts, analysing medical scans and gathering market intelligence.\n\n'In many cases, they can outperform humans,' says Pachidi. 'Organisations are attracted to using algorithms because they want to make choices based on what they consider is “perfect information”, as well as to reduce costs and enhance productivity.'\n\n'But these enhancements are not without consequences,' says Pachidi. 'If routine cognitive tasks are taken over by AI, how do professions develop their future experts?' she asks. 'One way of learning about a job is “legitimate peripheral participation” – a novice stands next to experts and learns by observation. If this isn't happening, then you need to find new ways to learn.'\n\nAnother issue is the extent to which the technology influences or even controls the workforce. For over two years, Pachidi monitored a telecommunications company. 'The way telecoms salespeople work is through personal and frequent contact with clients, using the benefit of experience to assess a situation and reach a decision. However, the company had started using a[n] … algorithm that defined when account managers should contact certain customers about which kinds of campaigns and what to offer them.'\n\nThe algorithm – usually built by external designers – often becomes the keeper of knowledge, she explains. In cases like this, Pachidi believes, a short-sighted view begins to creep into working practices whereby workers learn through the 'algorithm's eyes' and become dependent on its instructions. Alternative explorations – where experimentation and human instinct lead to progress and new ideas – are effectively discouraged.\n\nPachidi and colleagues even observed people developing strategies to make the algorithm work to their own advantage. 'We are seeing cases where workers feed the algorithm with false data to reach their targets,' she reports.\n\nIt's scenarios like these that many researchers are working to avoid. Their objective is to make AI technologies more trustworthy and transparent, so that organisations and individuals understand how AI decisions are made. In the meantime, says Pachidi, 'We need to make sure we fully understand the dilemmas that this new world raises regarding expertise, occupational boundaries and control.'\n\nEconomist Professor Hamish Low believes that the future of work will involve major transitions across the whole life course for everyone: 'The traditional trajectory of full-time education followed by full-time work followed by a pensioned retirement is a thing of the past,' says Low. Instead, he envisages a multistage employment life: one where retraining happens across the life course, and where multiple jobs and no job happen by choice at different stages.\n\nOn the subject of job losses, Low believes the predictions are founded on a fallacy: 'It assumes that the number of jobs is fixed. If in 30 years, half of 100 jobs are being carried out by robots, that doesn't mean we are left with just 50 jobs for humans. The number of jobs will increase: we would expect there to be 150 jobs.'\n\nDr Ewan McGaughey, at Cambridge's Centre for Business Research and King's College London, agrees that 'apocalyptic' views about the future of work are misguided. 'It's the laws that restrict the supply of capital to the job market, not the advent of new technologies that causes unemployment.'\n\nHis recently published research answers the question of whether automation, AI and robotics will mean a 'jobless future' by looking at the causes of unemployment. 'History is clear that change can mean redundancies. But social policies can tackle this through retraining and redeployment.'\n\nHe adds: 'If there is going to be change to jobs as a result of AI and robotics then I'd like to see governments seizing the opportunity to improve policy to enforce good job security. We can “reprogramme” the law to prepare for a fairer future of work and leisure.' McGaughey's findings are a call to arms to leaders of organisations, governments and banks to pre-empt the coming changes with bold new policies that guarantee full employment, fair incomes and a thriving economic democracy.\n\n'The promises of these new technologies are astounding. They deliver humankind the capacity to live in a way that nobody could have once imagined,' he adds. 'Just as the industrial revolution brought people past subsistence agriculture, and the corporate revolution enabled mass production, a third revolution has been pronounced. But it will not only be one of technology. The next revolution will be social.'",
+  "target_level": 4,
+  "profile": {
+    "level": 4,
+    "label": "Grade Mean 12-14",
+    "rewrite_guidance": "Push readability-grade metrics toward the 12-14 band with advanced vocabulary and complex sentence structures.",
+    "mean_target": [
+      12,
+      14
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        12,
+        14
+      ],
+      "ari": [
+        12,
+        14
+      ],
+      "coleman_liau": [
+        12,
+        14
+      ],
+      "gunning_fog": [
+        12,
+        14
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 860,
+    "sentence_count": 43,
+    "avg_sentence_len": 20,
+    "avg_word_len": 5.15,
+    "syllable_count": 1475,
+    "complex_word_count": 58,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 41.44,
+    "flesch_kincaid_grade": 12.45,
+    "ari": 12.83,
+    "coleman_liau": 13,
+    "gunning_fog": 10.7
+  },
+  "final_metrics": {
+    "word_count": 860,
+    "sentence_count": 43,
+    "avg_sentence_len": 20,
+    "avg_word_len": 5.15,
+    "syllable_count": 1475,
+    "complex_word_count": 58,
+    "complex_word_ratio": 0.07,
+    "flesch_reading_ease": 41.44,
+    "flesch_kincaid_grade": 12.45,
+    "ari": 12.83,
+    "coleman_liau": 13,
+    "gunning_fog": 10.7
+  },
+  "hit_target": true,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.7550;center_gap=1.01;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=7;est_wb=47;est_sb=13;lf=1.20;df=1.28;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 860,
+        "sentence_count": 43,
+        "avg_sentence_len": 20,
+        "avg_word_len": 5.15,
+        "syllable_count": 1475,
+        "complex_word_count": 58,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 41.44,
+        "flesch_kincaid_grade": 12.45,
+        "ari": 12.83,
+        "coleman_liau": 13,
+        "gunning_fog": 10.7
+      },
+      "distance_to_target": 0.755,
+      "fidelity": {
+        "overall": 0.9565,
+        "entity_recall": 0.9032,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 31,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.7550;center_gap=1.01;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=7;est_wb=47;est_sb=13;lf=1.20;df=1.28;af=1.0000;pg=0.7550;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 860,
+        "sentence_count": 43,
+        "avg_sentence_len": 20,
+        "avg_word_len": 5.15,
+        "syllable_count": 1475,
+        "complex_word_count": 58,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 41.44,
+        "flesch_kincaid_grade": 12.45,
+        "ari": 12.83,
+        "coleman_liau": 13,
+        "gunning_fog": 10.7
+      },
+      "distance_to_target": 0.755,
+      "fidelity": {
+        "overall": 0.9565,
+        "entity_recall": 0.9032,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 31,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.7550;center_gap=1.01;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=7;est_wb=47;est_sb=13;lf=1.20;df=1.28;af=1.0000;pg=0.7550;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 860,
+        "sentence_count": 43,
+        "avg_sentence_len": 20,
+        "avg_word_len": 5.15,
+        "syllable_count": 1475,
+        "complex_word_count": 58,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 41.44,
+        "flesch_kincaid_grade": 12.45,
+        "ari": 12.83,
+        "coleman_liau": 13,
+        "gunning_fog": 10.7
+      },
+      "distance_to_target": 0.755,
+      "fidelity": {
+        "overall": 0.9565,
+        "entity_recall": 0.9032,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 31,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.7550;center_gap=1.01;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=7;est_wb=47;est_sb=13;lf=1.20;df=1.28;af=1.0000;pg=0.7550;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 860,
+        "sentence_count": 43,
+        "avg_sentence_len": 20,
+        "avg_word_len": 5.15,
+        "syllable_count": 1475,
+        "complex_word_count": 58,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 41.44,
+        "flesch_kincaid_grade": 12.45,
+        "ari": 12.83,
+        "coleman_liau": 13,
+        "gunning_fog": 10.7
+      },
+      "distance_to_target": 0.755,
+      "fidelity": {
+        "overall": 0.9565,
+        "entity_recall": 0.9032,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 31,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_lt_1;dist=0.7550;center_gap=1.01;mode=sentence_budget_1;dominant=sentence;dir_changed=0;wb=40;sb=7;est_wb=47;est_sb=13;lf=1.20;df=1.28;af=1.0000;pg=0.7550;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 860,
+        "sentence_count": 43,
+        "avg_sentence_len": 20,
+        "avg_word_len": 5.15,
+        "syllable_count": 1475,
+        "complex_word_count": 58,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 41.44,
+        "flesch_kincaid_grade": 12.45,
+        "ari": 12.83,
+        "coleman_liau": 13,
+        "gunning_fog": 10.7
+      },
+      "distance_to_target": 0.755,
+      "fidelity": {
+        "overall": 0.9565,
+        "entity_recall": 0.9032,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 31,
+        "number_total": 8,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9565,
+    "entity_recall": 0.9032,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 31,
+    "number_total": 8,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:50.064Z"
+}

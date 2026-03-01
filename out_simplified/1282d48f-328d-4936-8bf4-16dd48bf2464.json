@@ -1,0 +1,288 @@
+{
+  "article_id": "1282d48f-328d-4936-8bf4-16dd48bf2464",
+  "mode": "difficulty_adjust",
+  "original_article": "Marine ecosystems encompass a diverse array of environments, ranging from the sunlit euphotic zone of the open ocean to the aphotic depths of the abyssal plain, and include structurally complex coastal habitats such as coral reefs, mangroves and seagrass meadows. Primary production in these systems is dominated by phytoplankton in pelagic realms and by macroalgae and seagrasses in shallow coastal areas, and the spatial distribution of productivity reflects gradients in light availability, nutrient supply and water column stability. Biologically, marine communities are commonly partitioned into functional groups—primary producers, heterotrophic microbes, benthic invertebrates, and nektonic predators—whose interactions generate food webs characterised by substantial energy transfer inefficiencies and frequent trophic cascades. The structural integrity of these ecosystems depends on keystone taxa; for example, reef-building corals and seagrasses provide three-dimensional habitat that enhances biodiversity and mediates sediment dynamics, whereas filter-feeders influence particulate organic matter fluxes and water clarity.\n\nThe functioning of marine ecosystems is underpinned by biogeochemical cycles and physical processes that connect disparate habitats across temporal and spatial scales, and anthropogenic modification of these linkages often precipitates system-level change. Upwelling events, driven by wind patterns and coastal geomorphology, inject deep, nutrient-rich waters into the euphotic zone, stimulating phytoplankton blooms and supporting high secondary productivity, while mesoscale eddies and thermohaline circulation redistribute heat, carbon and biota globally. Microbial loops, encompassing bacteria and protozoa, recycle dissolved organic matter and control nutrient remineralisation, thereby influencing the stoichiometry of available nutrients and the composition of primary producer assemblages. Connectivity between pelagic and benthic domains occurs through vertical fluxes of particulate organic carbon and through the life-history movements of fish and invertebrates, with larval dispersal shaping population genetics and the capacity for recolonisation after disturbance.\n\nContemporary pressures—chiefly climate change, overexploitation, nutrient enrichment and pollution—have amplified the frequency and magnitude of ecological perturbations, and cumulatively these stressors erode resilience and alter ecosystem trajectories. Elevated sea surface temperatures increase metabolic rates but also precipitate coral bleaching and shifts in species distributions toward higher latitudes, while ocean acidification reduces carbonate ion availability, compromising calcification in corals, molluscs and some planktonic taxa. Excessive nutrient loading from agriculture and sewage induces eutrophication, promoting harmful algal blooms and subsequent hypoxia as microbial decomposition depletes dissolved oxygen in bottom waters, thereby creating dead zones intolerant of most macrofauna. Overfishing truncates trophic structures, often removing apex predators and enabling mesopredator release or herbivore decline, which can facilitate regime shifts such as the transition from coral-dominated to algal-dominated communities; concurrently, persistent contaminants and microplastics introduce sublethal physiological stressors that can reduce reproductive success and bioaccumulate along food chains.\n\nMaintaining the provisioning, regulating and cultural services of marine ecosystems will require integrated management that reconciles conservation science with socio-economic realities, and contemporary strategies emphasise adaptive, multi-scalar interventions. Marine protected areas, when designed with attention to connectivity and enforced to limit extractive activities, can safeguard critical habitats and provide demographic reservoirs for exploited populations, but their efficacy depends on adequate spatial coverage and compliance. Fisheries management incorporating precautionary harvest limits, gear restrictions, and ecosystem-based assessments aims to reduce overcapacity and prevent trophic collapse, whereas restoration techniques—such as coral gardening, seagrass transplantation and artificial reefs—seek to accelerate recovery of structural habitats. Addressing global drivers like climate change and ocean acidification necessitates mitigation of greenhouse gas emissions, complemented by local measures to reduce nutrient and pollutant inputs, thereby enhancing the capacity of marine ecosystems to absorb disturbances and to sustain human well-being over the long term.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_main_n8_20260301",
+    "run_tag": "main_n8",
+    "batch_id": "main_n8_mb09",
+    "sample_id": "generated_0c073ba2-1279-4572-a200-bd170c99d332_to_l1_r7_google_gemini-3-flash-preview"
+  },
+  "source": {
+    "source_article_id": "0c073ba2-1279-4572-a200-bd170c99d332",
+    "source_dataset": "generated",
+    "source_file": "0c073ba2-1279-4572-a200-bd170c99d332.json",
+    "source_level": 4
+  },
+  "request_meta": {
+    "target_level": 1,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Marine ecosystems encompass a diverse array of environments, ranging from the sunlit euphotic zone of the open ocean to the aphotic depths of the abyssal plain, and include structurally complex coastal habitats such as coral reefs, mangroves and seagrass meadows. Primary production in these systems is dominated by phytoplankton in pelagic realms and by macroalgae and seagrasses in shallow coastal areas, and the spatial distribution of productivity reflects gradients in light availability, nutrient supply and water column stability. Biologically, marine communities are commonly partitioned into functional groups—primary producers, heterotrophic microbes, benthic invertebrates, and nektonic predators—whose interactions generate food webs characterised by substantial energy transfer inefficiencies and frequent trophic cascades. The structural integrity of these ecosystems depends on keystone taxa; for example, reef-building corals and seagrasses provide three-dimensional habitat that enhances biodiversity and mediates sediment dynamics, whereas filter-feeders influence particulate organic matter fluxes and water clarity.\n\nThe functioning of marine ecosystems is underpinned by biogeochemical cycles and physical processes that connect disparate habitats across temporal and spatial scales, and anthropogenic modification of these linkages often precipitates system-level change. Upwelling events, driven by wind patterns and coastal geomorphology, inject deep, nutrient-rich waters into the euphotic zone, stimulating phytoplankton blooms and supporting high secondary productivity, while mesoscale eddies and thermohaline circulation redistribute heat, carbon and biota globally. Microbial loops, encompassing bacteria and protozoa, recycle dissolved organic matter and control nutrient remineralisation, thereby influencing the stoichiometry of available nutrients and the composition of primary producer assemblages. Connectivity between pelagic and benthic domains occurs through vertical fluxes of particulate organic carbon and through the life-history movements of fish and invertebrates, with larval dispersal shaping population genetics and the capacity for recolonisation after disturbance.\n\nContemporary pressures—chiefly climate change, overexploitation, nutrient enrichment and pollution—have amplified the frequency and magnitude of ecological perturbations, and cumulatively these stressors erode resilience and alter ecosystem trajectories. Elevated sea surface temperatures increase metabolic rates but also precipitate coral bleaching and shifts in species distributions toward higher latitudes, while ocean acidification reduces carbonate ion availability, compromising calcification in corals, molluscs and some planktonic taxa. Excessive nutrient loading from agriculture and sewage induces eutrophication, promoting harmful algal blooms and subsequent hypoxia as microbial decomposition depletes dissolved oxygen in bottom waters, thereby creating dead zones intolerant of most macrofauna. Overfishing truncates trophic structures, often removing apex predators and enabling mesopredator release or herbivore decline, which can facilitate regime shifts such as the transition from coral-dominated to algal-dominated communities; concurrently, persistent contaminants and microplastics introduce sublethal physiological stressors that can reduce reproductive success and bioaccumulate along food chains.\n\nMaintaining the provisioning, regulating and cultural services of marine ecosystems will require integrated management that reconciles conservation science with socio-economic realities, and contemporary strategies emphasise adaptive, multi-scalar interventions. Marine protected areas, when designed with attention to connectivity and enforced to limit extractive activities, can safeguard critical habitats and provide demographic reservoirs for exploited populations, but their efficacy depends on adequate spatial coverage and compliance. Fisheries management incorporating precautionary harvest limits, gear restrictions, and ecosystem-based assessments aims to reduce overcapacity and prevent trophic collapse, whereas restoration techniques—such as coral gardening, seagrass transplantation and artificial reefs—seek to accelerate recovery of structural habitats. Addressing global drivers like climate change and ocean acidification necessitates mitigation of greenhouse gas emissions, complemented by local measures to reduce nutrient and pollutant inputs, thereby enhancing the capacity of marine ecosystems to absorb disturbances and to sustain human well-being over the long term.",
+  "target_level": 1,
+  "profile": {
+    "level": 1,
+    "label": "Grade Mean 6-8",
+    "rewrite_guidance": "Push readability-grade metrics toward the 6-8 band with simpler wording and shorter sentences.",
+    "mean_target": [
+      6,
+      8
+    ],
+    "targets": {
+      "flesch_kincaid_grade": [
+        6,
+        8
+      ],
+      "ari": [
+        6,
+        8
+      ],
+      "coleman_liau": [
+        6,
+        8
+      ],
+      "gunning_fog": [
+        6,
+        8
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 584,
+    "sentence_count": 16,
+    "avg_sentence_len": 36.5,
+    "avg_word_len": 6.82,
+    "syllable_count": 1370,
+    "complex_word_count": 101,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -28.67,
+    "flesch_kincaid_grade": 26.33,
+    "ari": 28.95,
+    "coleman_liau": 23.5,
+    "gunning_fog": 21.52
+  },
+  "final_metrics": {
+    "word_count": 584,
+    "sentence_count": 16,
+    "avg_sentence_len": 36.5,
+    "avg_word_len": 6.82,
+    "syllable_count": 1370,
+    "complex_word_count": 101,
+    "complex_word_ratio": 0.17,
+    "flesch_reading_ease": -28.67,
+    "flesch_kincaid_grade": 26.33,
+    "ari": 28.95,
+    "coleman_liau": 23.5,
+    "gunning_fog": 21.52
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=coarse_jump;dist=18.0750;dir=simpler;est_wb=80;est_sb=6",
+      "metrics": {
+        "word_count": 584,
+        "sentence_count": 16,
+        "avg_sentence_len": 36.5,
+        "avg_word_len": 6.82,
+        "syllable_count": 1370,
+        "complex_word_count": 101,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -28.67,
+        "flesch_kincaid_grade": 26.33,
+        "ari": 28.95,
+        "coleman_liau": 23.5,
+        "gunning_fog": 21.52
+      },
+      "distance_to_target": 18.075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=18.0750;center_gap=18.6;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.99;df=2.10;af=1.0000;pg=18.0750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 584,
+        "sentence_count": 16,
+        "avg_sentence_len": 36.5,
+        "avg_word_len": 6.82,
+        "syllable_count": 1370,
+        "complex_word_count": 101,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -28.67,
+        "flesch_kincaid_grade": 26.33,
+        "ari": 28.95,
+        "coleman_liau": 23.5,
+        "gunning_fog": 21.52
+      },
+      "distance_to_target": 18.075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=18.0750;center_gap=18.6;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.99;df=2.10;af=1.0000;pg=18.0750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 584,
+        "sentence_count": 16,
+        "avg_sentence_len": 36.5,
+        "avg_word_len": 6.82,
+        "syllable_count": 1370,
+        "complex_word_count": 101,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -28.67,
+        "flesch_kincaid_grade": 26.33,
+        "ari": 28.95,
+        "coleman_liau": 23.5,
+        "gunning_fog": 21.52
+      },
+      "distance_to_target": 18.075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"The specified schema produces a constraint that has too many states for serving.  Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=18.0750;center_gap=18.6;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.99;df=2.10;af=1.0000;pg=18.0750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 584,
+        "sentence_count": 16,
+        "avg_sentence_len": 36.5,
+        "avg_word_len": 6.82,
+        "syllable_count": 1370,
+        "complex_word_count": 101,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -28.67,
+        "flesch_kincaid_grade": 26.33,
+        "ari": 28.95,
+        "coleman_liau": 23.5,
+        "gunning_fog": 21.52
+      },
+      "distance_to_target": 18.075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:OpenRouter error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"A schema in GenerationConfig in the request exceeds the maximum allowed nesting depth.\\\",\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false}},\"user_id\":\"user_2ucsQoVypE4nfHEPP9gy81ynVpZ\"}|tier=dist_gt_2;dist=18.0750;center_gap=18.6;mode=both;dominant=word;dir_changed=0;wb=52;sb=6;est_wb=80;est_sb=6;lf=0.99;df=2.10;af=1.0000;pg=18.0750;pd=0.0000;af_fb=1",
+      "metrics": {
+        "word_count": 584,
+        "sentence_count": 16,
+        "avg_sentence_len": 36.5,
+        "avg_word_len": 6.82,
+        "syllable_count": 1370,
+        "complex_word_count": 101,
+        "complex_word_ratio": 0.17,
+        "flesch_reading_ease": -28.67,
+        "flesch_kincaid_grade": 26.33,
+        "ari": 28.95,
+        "coleman_liau": 23.5,
+        "gunning_fog": 21.52
+      },
+      "distance_to_target": 18.075,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 13,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "llm_calls": 0
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 1,
+    "entity_recall": 1,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 13,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "llm_calls": 0
+  },
+  "transformed_at": "2026-03-01T12:49:35.670Z"
+}

@@ -1,0 +1,282 @@
+{
+  "article_id": "ae01e193-f67e-49fc-9564-2de6d89d9caf",
+  "mode": "difficulty_adjust",
+  "original_article": "Cinnamon is a sweet, fragrant spice produced from the inner bark of trees of the genus Cinnamomum, which is native to the Indian sub-continent. It was known in biblical times, and is mentioned in several books of the Bible, both as an ingredient that was mixed with oils for anointing people's bodies, and also as a token indicating friendship among lovers and friends. In ancient Rome, mourners attending funerals burnt cinnamon to create a pleasant scent. Most often, however, the spice found its primary use as an additive to food and drink. In the Middle Ages, Europeans who could afford the spice used it to flavour food, particularly meat, and to impress those around them with their ability to purchase an expensive condiment from the 'exotic' East. At a banquet, a host would offer guests a plate with various spices piled upon it as a sign of the wealth at his or her disposal. Cinnamon was also reported to have health benefits, and was thought to cure various ailments, such as indigestion.\n\nToward the end of the Middle Ages, the European middle classes began to desire the lifestyle of the elite, including their consumption of spices. This led to a growth in demand for cinnamon and other spices. At that time, cinnamon was transported by Arab merchants, who closely guarded the secret of the source of the spice from potential rivals. They took it from India, where it was grown, on camels via an overland route to the Mediterranean. Their journey ended when they reached Alexandria. European traders sailed there to purchase their supply of cinnamon, then brought it back to Venice. The spice then travelled from that great trading city to markets all around Europe. Because the overland trade route allowed for only small quantities of the spice to reach Europe, and because Venice had a virtual monopoly of the trade, the Venetians could set the price of cinnamon exorbitantly high. These prices, coupled with the increasing demand, spurred the search for new routes to Asia by Europeans eager to take part in the spice trade.\n\nSeeking the high profits promised by the cinnamon market, Portuguese traders arrived on the island of Ceylon in the Indian Ocean toward the end of the 15th century. Before Europeans arrived on the island, the state had organized the cultivation of cinnamon. People belonging to the ethnic group called the Salagama would peel the bark off young shoots of the cinnamon plant in the rainy season, when the wet bark was more pliable. During the peeling process, they curled the bark into the 'stick' shape still associated with the spice today. The Salagama then gave the finished product to the king as a form of tribute. When the Portuguese arrived, they needed to increase production significantly, and so enslaved many other members of the Ceylonese native population, forcing them to work in cinnamon harvesting. In 1518, the Portuguese built a fort on Ceylon, which enabled them to protect the island, so helping them to develop a monopoly in the cinnamon trade and generate very high profits. In the late 16th century, for example, they enjoyed a tenfold profit when shipping cinnamon over a journey of eight days from Ceylon to India.\n\nWhen the Dutch arrived off the coast of southern Asia at the very beginning of the 17th century, they set their sights on displacing the Portuguese as kings of cinnamon. The Dutch allied themselves with Kandy, an inland kingdom on Ceylon. In return for payments of elephants and cinnamon, they protected the native king from the Portuguese. By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories. By 1658, they had permanently expelled the Portuguese from the island, thereby gaining control of the lucrative cinnamon trade.\n\nIn order to protect their hold on the market, the Dutch, like the Portuguese before them, treated the native inhabitants harshly. Because of the need to boost production and satisfy Europe's ever-increasing appetite for cinnamon, the Dutch began to alter the harvesting practices of the Ceylonese. Over time, the supply of cinnamon trees on the island became nearly exhausted, due to systematic stripping of the bark. Eventually, the Dutch began cultivating their own cinnamon trees to supplement the diminishing number of wild trees available for use.\n\nThen, in 1796, the English arrived on Ceylon, thereby displacing the Dutch from their control of the cinnamon monopoly. By the middle of the 19th century, production of cinnamon reached 1,000 tons a year, after a (lower grade quality of the spice became acceptable to European tastes. By that time, (cinnamon was being grown in other parts of the Indian Ocean region and in the West Indies, Brazil, and Guyana. Not only was a monopoly of cinnamon becoming impossible, but the spice trade overall was diminishing in economic potential, and was eventually superseded by the rise of trade in coffee, tea, chocolate, and sugar.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_small_adjust_questions_20260227_010721",
+    "run_tag": "debug_small",
+    "batch_id": "adj_q_small_20260227_010721",
+    "sample_id": "ielts_13_test2_passage1_21iffj_to_l2"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test2_passage1_21iffj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test2_passage1_21iffj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Cinnamon is a sweet, fragrant spice. It comes from the inner bark of trees in the genus Cinnamomum. These trees grow in the Indian sub-continent. People knew cinnamon in biblical times. The Bible mentions it in several books. They mixed it with oils to anoint bodies. It also showed friendship between lovers and friends. In ancient Rome, mourners burned cinnamon at funerals. This made a pleasant scent. Most often, people used it in food and drink. In the Middle Ages, rich Europeans flavored food with it. They used it on meat. They wanted to impress others. They bought this costly spice from the East. At banquets, hosts gave guests a plate of spices. This showed their wealth. Cinnamon was said to help health. People thought it cured problems like indigestion.\n\nToward the end of the Middle Ages, middle-class Europeans wanted elite lifestyles. This included using spices. Demand grew for cinnamon and other spices. Arab merchants brought cinnamon then. They kept the source secret from rivals. They took it from India by camel over land to the Mediterranean. Their trip ended at Alexandria. Europeans sailed there to buy it. They took it back to Venice. From Venice, it went to markets across Europe. The land route brought only small amounts. Venice controlled the trade. So Venetians set very high prices. Rising demand and high prices pushed Europeans to find new routes to Asia. They wanted in on the spice trade.\n\nPortuguese traders sought big profits from cinnamon. They reached Ceylon in the Indian Ocean near the end of the 15th century. Before Europeans came, the state grew cinnamon. The Salagama ethnic group peeled bark from young shoots. They did this in the rainy season. Wet bark was easier to peel. They rolled it into sticks, like today. They gave it to the king as tribute. Portuguese needed more production. So they enslaved many natives. They forced them to harvest cinnamon. In 1518, Portuguese built a fort on Ceylon. This helped protect the island. It let them control the cinnamon trade. They made huge profits. In the late 16th century, they got ten times profit. This was on eight-day trips from Ceylon to India.\n\nDutch ships came to southern Asia in early 17th century. They wanted to replace Portuguese in cinnamon trade. Dutch allied with Kandy, an inland kingdom on Ceylon. They got elephants and cinnamon. In return, they protected the king from Portuguese. By 1640, Dutch took Portuguese factories. By 1658, they drove Portuguese off the island for good. This gave Dutch control of the rich cinnamon trade.\n\nDutch treated natives harshly to hold the market. Like Portuguese before them. They needed more production for Europe's growing demand. Dutch changed how Ceylonese harvested cinnamon. This nearly used up all cinnamon trees. They stripped bark from them. Later, Dutch grew their own trees. This added to the few wild ones left.\n\nIn 1796, English came to Ceylon. They took over from Dutch cinnamon control. By mid-19th century, production hit 1,000 tons a year. This was after lower-grade spice pleased Europeans. By then, cinnamon grew in other Indian Ocean areas. It also grew in West Indies, Brazil, and Guyana. No one could hold a cinnamon monopoly. Spice trade lost value. Trade in coffee, tea, chocolate, and sugar took over.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "ari": [
+        5,
+        9
+      ],
+      "coleman_liau": [
+        7,
+        11
+      ],
+      "gunning_fog": [
+        7,
+        11
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 824,
+    "sentence_count": 37,
+    "avg_sentence_len": 22.27,
+    "avg_word_len": 4.87,
+    "syllable_count": 1329,
+    "complex_word_count": 27,
+    "complex_word_ratio": 0.03,
+    "flesch_reading_ease": 47.78,
+    "flesch_kincaid_grade": 12.13,
+    "ari": 12.63,
+    "coleman_liau": 11.49,
+    "gunning_fog": 10.22
+  },
+  "final_metrics": {
+    "word_count": 552,
+    "sentence_count": 75,
+    "avg_sentence_len": 7.36,
+    "avg_word_len": 4.75,
+    "syllable_count": 831,
+    "complex_word_count": 6,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 72,
+    "flesch_kincaid_grade": 5.04,
+    "ari": 4.62,
+    "coleman_liau": 8.11,
+    "gunning_fog": 3.38
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:No JSON object found",
+      "metrics": {
+        "word_count": 824,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.27,
+        "avg_word_len": 4.87,
+        "syllable_count": 1329,
+        "complex_word_count": 27,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 47.78,
+        "flesch_kincaid_grade": 12.13,
+        "ari": 12.63,
+        "coleman_liau": 11.49,
+        "gunning_fog": 10.22
+      },
+      "distance_to_target": 0.7319,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1558,
+        "completion_tokens": 31263,
+        "total_tokens": 32821,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "simpler",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 824,
+        "sentence_count": 37,
+        "avg_sentence_len": 22.27,
+        "avg_word_len": 4.87,
+        "syllable_count": 1329,
+        "complex_word_count": 27,
+        "complex_word_ratio": 0.03,
+        "flesch_reading_ease": 47.78,
+        "flesch_kincaid_grade": 12.13,
+        "ari": 12.63,
+        "coleman_liau": 11.49,
+        "gunning_fog": 10.22
+      },
+      "distance_to_target": 0.7319,
+      "fidelity": {
+        "overall": 1,
+        "entity_recall": 1,
+        "number_recall": 1,
+        "keyword_recall": 1,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3116,
+        "completion_tokens": 32593,
+        "total_tokens": 35709,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 552,
+        "sentence_count": 75,
+        "avg_sentence_len": 7.36,
+        "avg_word_len": 4.75,
+        "syllable_count": 831,
+        "complex_word_count": 6,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 72,
+        "flesch_kincaid_grade": 5.04,
+        "ari": 4.62,
+        "coleman_liau": 8.11,
+        "gunning_fog": 3.38
+      },
+      "distance_to_target": 0.346,
+      "fidelity": {
+        "overall": 0.8384,
+        "entity_recall": 0.8409,
+        "number_recall": 0.8571,
+        "keyword_recall": 0.8,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4674,
+        "completion_tokens": 34015,
+        "total_tokens": 38689,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 552,
+        "sentence_count": 75,
+        "avg_sentence_len": 7.36,
+        "avg_word_len": 4.75,
+        "syllable_count": 831,
+        "complex_word_count": 6,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 72,
+        "flesch_kincaid_grade": 5.04,
+        "ari": 4.62,
+        "coleman_liau": 8.11,
+        "gunning_fog": 3.38
+      },
+      "distance_to_target": 0.346,
+      "fidelity": {
+        "overall": 0.8384,
+        "entity_recall": 0.8409,
+        "number_recall": 0.8571,
+        "keyword_recall": 0.8,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5983,
+        "completion_tokens": 36087,
+        "total_tokens": 42070,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "llm_error:JSON missing article",
+      "metrics": {
+        "word_count": 552,
+        "sentence_count": 75,
+        "avg_sentence_len": 7.36,
+        "avg_word_len": 4.75,
+        "syllable_count": 831,
+        "complex_word_count": 6,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 72,
+        "flesch_kincaid_grade": 5.04,
+        "ari": 4.62,
+        "coleman_liau": 8.11,
+        "gunning_fog": 3.38
+      },
+      "distance_to_target": 0.346,
+      "fidelity": {
+        "overall": 0.8384,
+        "entity_recall": 0.8409,
+        "number_recall": 0.8571,
+        "keyword_recall": 0.8,
+        "entity_total": 44,
+        "number_total": 7,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 7292,
+        "completion_tokens": 38176,
+        "total_tokens": 45468,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8384,
+    "entity_recall": 0.8409,
+    "number_recall": 0.8571,
+    "keyword_recall": 0.8,
+    "entity_total": 44,
+    "number_total": 7,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 7292,
+    "completion_tokens": 38176,
+    "total_tokens": 45468,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-02-26T23:18:58.780Z"
+}

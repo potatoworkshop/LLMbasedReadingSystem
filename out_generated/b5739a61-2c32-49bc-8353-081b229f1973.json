@@ -1,0 +1,59 @@
+{
+  "article_id": "b5739a61-2c32-49bc-8353-081b229f1973",
+  "topic": "marine ecosystems",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Life in the Sea: An Overview of Marine Ecosystems",
+  "article": [
+    "Marine ecosystems cover most of the planet and support a great variety of life. They range from shallow coastal areas to the deep sea. Each area has its own physical features and living communities. Coastal zones include estuaries, mangroves and coral reefs. These zones often lie where land and ocean meet. The open ocean forms a vast, mostly blue environment that stretches from the surface to great depths. Light, temperature and pressure change with depth. These changes create distinct layers or zones. Near the shore, plants and animals usually find more food and shelter. In the open ocean, life must adapt to fewer nutrients and more space. Deep sea habitats are dark and cold, and host organisms that survive on slow food inputs. Despite their differences, all marine ecosystems are linked by currents, the movement of water, and the exchange of nutrients and energy.",
+    "At the base of marine food webs are tiny plants and bacteria that use sunlight or chemical energy. Phytoplankton are microscopic plants that live near the surface. They perform photosynthesis and make organic matter from sunlight and carbon dioxide. In some areas, bacteria use chemical energy from the sea floor to support life without light. The abundance of phytoplankton depends on light and nutrients such as nitrogen and iron. Upwelling zones bring cold, nutrient-rich water to the surface and support high productivity. Coral reefs may sit in clear, warm water that has low nutrients, but they support rich diversity through close biological recycling. Small animals called zooplankton feed on phytoplankton, and they in turn feed larger animals. Fish, marine mammals, birds and larger invertebrates occupy higher levels in the food web. Energy and nutrients move through these levels, and they support fish stocks and other resources that people value.",
+    "Human activities now affect marine ecosystems at many scales. Pollution reaches the sea from rivers, the air and direct dumping. Plastics are a visible form of pollution that harms animals through ingestion and entanglement. Nutrient runoff from farms and cities can cause algal blooms. When these blooms die, their decay can remove oxygen and create dead zones where few animals survive. Overfishing removes large numbers of fish and can alter food webs and habitat structure. Some fishing methods also damage the sea floor and non-target species. Climate change is a major and growing threat. Rising sea temperatures change species distributions and can lead to mass bleaching of coral. Ocean acidification, caused by increased carbon dioxide, affects organisms that build shells and skeletons. Sea level rise threatens coastal wetlands and mangroves. Together, these pressures reduce biodiversity and weaken the services that healthy seas provide, such as food, coastal protection and recreation.",
+    "Efforts to conserve marine ecosystems use a mix of policy, science and local action. Marine protected areas set aside places where human activity is limited. Well-designed protected areas can allow habitats and species to recover and spill benefits to nearby areas. Sustainable fishing rules, such as catch limits and gear restrictions, aim to keep fish stocks healthy and reduce harm to other species. Measures to reduce pollution include better waste management, limits on nutrient runoff and bans on some plastics. Restoration projects work to rebuild damaged habitats, like replanting seagrass beds or restoring oyster reefs. Scientific monitoring, using satellites and simple field work, helps managers track changes and adapt policies. Community involvement is also important. Local fishers, coastal residents and Indigenous groups often hold valuable knowledge and can help manage resources sustainably. No single action will solve all problems. A combination of protected areas, fisheries management, pollution control and climate action gives the best chance for healthy seas. If people act now, marine ecosystems have a good prospect for recovery and for continuing to support life on Earth."
+  ],
+  "metrics": {
+    "word_count": 624,
+    "sentence_count": 46,
+    "avg_sentence_len": 13.57,
+    "avg_word_len": 5.34,
+    "syllable_count": 1064,
+    "complex_word_count": 35,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 48.81,
+    "flesch_kincaid_grade": 9.82,
+    "ari": 10.53,
+    "coleman_liau": 13.44,
+    "gunning_fog": 7.67
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:28:23.608Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 24
+  },
+  "token_usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 9991,
+    "total_tokens": 10537,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:28:23.609Z"
+}

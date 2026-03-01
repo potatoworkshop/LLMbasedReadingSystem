@@ -7,6 +7,18 @@ type TransformResponse = {
   article: string;
 };
 
+const TRANSFORM_RESPONSE_SCHEMA = {
+  name: "lexical_transform_response",
+  schema: {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      article: { type: "string" },
+    },
+    required: ["article"],
+  },
+} as const;
+
 const buildPrompt = (article: string, mode: TransformMode) => {
   const direction =
     mode === "simplify"
@@ -38,7 +50,6 @@ const buildPrompt = (article: string, mode: TransformMode) => {
     direction,
     "Rules:",
     ...rules,
-    'Return STRICT JSON: {"article":"..."}',
     "Text to transform:",
     article,
   ].join("\n");
@@ -57,7 +68,9 @@ export const transformArticle = async (
   mode: TransformMode
 ) => {
   const prompt = buildPrompt(article, mode);
-  const raw = await getLlmResponse(prompt);
+  const raw = await getLlmResponse(prompt, {
+    structured_output: TRANSFORM_RESPONSE_SCHEMA,
+  });
   const parsed = extractJson(raw);
 
   if (!isTransformResponse(parsed)) {

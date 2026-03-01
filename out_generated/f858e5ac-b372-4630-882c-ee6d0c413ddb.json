@@ -1,0 +1,59 @@
+{
+  "article_id": "f858e5ac-b372-4630-882c-ee6d0c413ddb",
+  "topic": "climate adaptation",
+  "level": 2,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Adapting to a Changing Climate",
+  "article": [
+    "Climate adaptation means making changes so people, towns, and nature can cope with a changing climate. It covers actions to reduce harm from impacts like heat, floods, droughts, and storms. Adaptation differs from mitigation, which aims to limit future warming. Both are needed, but adaptation focuses on living with current and expected changes. For many communities, adaptation is already a daily task. Farmers change planting dates, cities improve drainage, and families prepare for heat waves. The need for adaptation rises with more frequent and intense weather events. Small and poor communities are often the most vulnerable. They lack the money and systems to recover after disasters. This makes planning and support from governments and donors vital. Clear plans help match local needs with the right solutions. The rest of this passage explains common approaches and the main challenges.",
+    "Physical measures are the most visible form of adaptation. Governments build sea walls, levees, and storm surge barriers to protect coastal towns. Cities invest in green roofs, cool pavements, and tree planting to reduce heat. These actions lower immediate risk and can protect lives and property. Nature-based solutions also play a key role. Restoring wetlands and mangroves can absorb flood waters and reduce wave energy. Reforestation can stabilise slopes and slow runoff after heavy rains. Farmers use climate-smart agriculture to cope with shifting weather. They plant drought-tolerant seeds, rotate crops, and use water-saving irrigation. Early warning systems and better weather forecasts allow people to act before disasters strike. Simple alerts can cut losses and save lives when people respond quickly. Technology helps, but it must be matched to local conditions and knowledge.",
+    "Good adaptation relies on planning, finance, and participation. Planning starts with risk assessment and mapping of hazards. Officials need data on temperature, rainfall, and sea-level trends. They should also consult local people who know the land and its risks. Funding is a common constraint. Adaptation projects need steady finance for construction, maintenance, and training. International funds and national budgets are often used together to pay for large projects. Private finance can also help when projects create jobs or protect assets. Equity matters in every plan. Women, the elderly, and low-income groups often face greater harm from climate impacts. Policies should aim to reduce these inequalities and protect the most vulnerable. Community engagement improves success. When local people take part in decisions, projects are more likely to fit needs and last longer.",
+    "There are several challenges to successful adaptation. First, uncertainty about future climate conditions makes planning harder. Planners must prepare for a range of possible futures, which can raise costs. Second, adaptation can have trade-offs. A project that protects one area may shift risk to another. For example, a sea wall can reduce flooding at one site but increase erosion nearby. Third, monitoring and learning are essential but often weak. Without good monitoring, it is hard to know which actions actually work. Adaptive management, where plans are revised as new information appears, helps to cope with uncertainty. Examples of successful adaptation include floodplain restoration in Europe and community-based water projects in Africa. These projects combined science, local knowledge, and sustained funding to reduce risk. In the long term, adaptation should be part of development planning. This makes investments resilient and avoids repeating past mistakes. While adaptation cannot remove all risks, careful planning and fair policies can greatly reduce harm and help societies thrive despite a changing climate."
+  ],
+  "metrics": {
+    "word_count": 575,
+    "sentence_count": 51,
+    "avg_sentence_len": 11.27,
+    "avg_word_len": 5.46,
+    "syllable_count": 989,
+    "complex_word_count": 35,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 49.88,
+    "flesch_kincaid_grade": 9.1,
+    "ari": 9.94,
+    "coleman_liau": 13.69,
+    "gunning_fog": 6.94
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "climate_adaptation_l2_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:59:11.999Z",
+    "effective_target_words": 780,
+    "length_compensation_factor": 1.3,
+    "length_bounds": {
+      "lower": 702,
+      "upper": 936
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 2,
+    "within_preferred_range": false,
+    "distance_to_target_words": 25
+  },
+  "token_usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 5844,
+    "total_tokens": 6390,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T19:59:12.000Z"
+}

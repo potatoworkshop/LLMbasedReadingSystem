@@ -1,0 +1,207 @@
+{
+  "article_id": "b1dca79c-ede1-4743-996e-e49881ce3e0b",
+  "mode": "difficulty_adjust",
+  "original_article": "Climate change affects the whole world. Temperatures are rising. Storms are getting stronger. Sea levels go up. Droughts last longer in some places. Floods hit others hard. These changes hurt people. They harm animals and plants too. Farmers lose their crops. Homes get washed away. Many people face danger. So, we must adapt to these changes. Adaptation means making smart changes in how we live and work. It helps us stay safe and keep going. Adaptation is different from mitigation. Mitigation tries to slow climate change. Adaptation deals with problems we see now. For example, cities build higher walls to stop floods. This protects homes and roads. Adaptation saves lives. It also saves money in the long run. Everyone can play a part. Governments make plans. People change daily habits. Together, we build a stronger future.\n\nFarmers adapt in many ways. They pick seeds that grow well in hot, dry weather. These seeds need less water. Farmers also use drip systems to save water. This way, crops grow even when rain is scarce. In Africa, some farmers plant trees around fields. Trees give shade. They stop soil from washing away. Yields go up. Food stays on the table. Cities adapt too. They plant green roofs on buildings. Green roofs cool the air. They hold rain water. This cuts down on floods. Parks and trees make shade. People feel cooler in summer. Heat waves hurt less. Coastal towns build sea walls. They raise roads and homes. This fights rising seas. Islands like Kiribati plan to move people. They find new safe land. These steps work because leaders plan ahead. They listen to experts. They use science to guide choices.\n\nPeople in homes adapt every day. They use fans and open windows to stay cool. They paint homes white to reflect heat. Insulated walls keep heat out. In winter, they trap warmth inside. Water saving starts at home. Short showers use less water. Low-flow taps help too. Rain barrels catch roof water for gardens. This cuts water bills. Schools teach kids these ways. Children learn to recycle. They plant school gardens. This builds good habits early. Businesses adapt by going green. Factories use less energy. They switch to solar power. Offices have bike racks. Workers walk or bike to work. This cuts car use. It lowers pollution. Governments help with laws and money. They fund new tech. They build strong bridges and dams. Bangladesh shows success. They raise homes on stilts. They dig ponds for fish during floods. Lives are saved. Crops recover fast.\n\nSuccess stories give hope. The Netherlands fights the sea with dikes. These big walls hold back water. Pumps remove extra water fast. Their land stays dry. Australia helps the Great Barrier Reef. They cut farm runoff. Cleaner water aids coral. It fights bleaching from heat. Vietnam plants mangroves along shores. Mangroves block storm waves. They grow fish too. Nature and people win. These places adapt well because they act early. They work as teams. Local people join in. Experts share knowledge. Money comes from home and abroad. Challenges remain. Poor places need more help. Rich nations must share tech and funds. Adaptation costs money now. But it stops bigger losses later.\n\nThe future can be bright with good adaptation. We must speed up efforts. Learn from wins and fails. Use new tools like apps for weather alerts. Train more people in green jobs. Kids grow up ready for change. World leaders meet to plan. They set goals like the Paris Agreement. But adaptation needs local action too. You can start today. Plant a tree. Save energy. Talk to friends. Every step counts. Climate change is here. We can live with it. Adaptation makes us strong. It keeps our world livable for all.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "e5d4c1ea-c70a-4db0-9c4f-cf5699085a2d_to_l2"
+  },
+  "source": {
+    "source_article_id": "e5d4c1ea-c70a-4db0-9c4f-cf5699085a2d",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "e5d4c1ea-c70a-4db0-9c4f-cf5699085a2d.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Climate change impacts the entire world. Temperatures continue to rise steadily. Storms grow more intense and frequent. Sea levels rise steadily higher. Droughts endure longer in some regions. Floods strike other areas with greater force. These shifts harm people directly. They damage animals and plants as well. Farmers lose entire crops to harsh weather. Homes wash away in raging waters. Many people confront serious dangers. Thus, we must adapt to these changes. Adaptation involves smart adjustments in daily life and work. It helps us stay safe and keep thriving. Adaptation differs from mitigation. Mitigation seeks to slow down climate change. Adaptation tackles the problems we face today. For example, cities erect taller walls against floods. This protects homes and roads effectively. Adaptation saves lives. It also saves money over the long term. Everyone has a role to play. Governments develop detailed plans. People alter everyday habits. Together, we create a stronger future.\n\nFarmers adapt through various smart strategies. They select seeds that thrive in hot, dry conditions. These seeds require less water overall. Farmers install drip irrigation systems to conserve water. This allows crops to grow despite scarce rainfall. In Africa, some farmers plant trees around their fields. Trees provide essential shade. They prevent soil erosion from heavy rains. Crop yields increase noticeably. Food security improves steadily. Cities adapt in innovative ways too. They install green roofs on buildings. Green roofs cool surrounding air effectively. They capture rainwater to reduce flooding. Parks and trees offer vital shade. People stay cooler during summer heat. Heat waves become less deadly. Coastal towns construct sturdy sea walls. They elevate roads and homes above rising waters. This combats encroaching seas. Islands like Kiribati prepare to relocate residents. They identify new safe lands. These measures succeed because leaders plan carefully. They consult experts regularly. They rely on science to inform decisions.\n\nPeople adapt at home every single day. They use fans and open windows to cool interiors. They paint houses white to reflect sunlight. Insulated walls block summer heat outside. In winter, those walls retain indoor warmth. Water conservation begins right at home. Short showers consume far less water. Low-flow faucets assist greatly too. Rain barrels collect rooftop water for gardens. This reduces monthly water bills. Schools teach children these vital practices. Kids learn to recycle materials properly. They establish school gardens together. This instills lifelong good habits. Businesses adapt by embracing green practices. Factories reduce energy consumption significantly. They transition to solar power sources. Offices provide bike racks for employees. Workers choose to walk or bike to work. This decreases car usage and pollution. Governments support through laws and funding. They invest in advanced technologies. They construct resilient bridges and dams. Bangladesh demonstrates clear success. They elevate homes on sturdy stilts. They excavate ponds for fish farming during floods. Lives get saved routinely. Crops recover swiftly afterward.\n\nSuccess stories inspire widespread hope. The Netherlands battles the sea using massive dikes. These enormous walls hold back surging water. Powerful pumps remove excess water quickly. Their low-lying land remains dry and protected. Australia aids the Great Barrier Reef. They reduce farm runoff into oceans. Cleaner waters support healthy coral growth. This combats heat-induced bleaching effectively. Vietnam plants mangroves along vulnerable shores. Mangroves buffer powerful storm waves. They also nurture fish populations. Both nature and communities benefit greatly. These regions adapt successfully because they act early. They collaborate as unified teams. Local residents participate actively. Experts disseminate crucial knowledge. Funding arrives from domestic and international sources. Challenges persist nonetheless. Impoverished areas require additional support. Wealthy nations should share technology and funds. Adaptation demands upfront investment. Yet it prevents far greater losses in the future.\n\nA bright future awaits with effective adaptation. We must accelerate our collective efforts now. Learn valuable lessons from both successes and failures. Employ modern tools like apps for weather alerts. Train more workers for sustainable green jobs. Children will grow up prepared for ongoing changes. World leaders convene to strategize. They establish targets like the Paris Agreement. However, adaptation requires local initiatives too. You can begin today with simple actions. Plant a tree in your community. Conserve energy at every opportunity. Discuss these issues with friends. Every action truly counts. Climate change has arrived already. We can coexist with it successfully. Adaptation strengthens our resilience. It ensures our world remains livable for everyone.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 625,
+    "sentence_count": 121,
+    "avg_sentence_len": 5.17,
+    "avg_word_len": 4.7,
+    "syllable_count": 860,
+    "complex_word_count": 12,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 85.18,
+    "flesch_kincaid_grade": 2.66,
+    "ari": 3.29,
+    "coleman_liau": 6.11,
+    "gunning_fog": 2.83
+  },
+  "final_metrics": {
+    "word_count": 723,
+    "sentence_count": 119,
+    "avg_sentence_len": 6.08,
+    "avg_word_len": 5.75,
+    "syllable_count": 1300,
+    "complex_word_count": 44,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 48.55,
+    "flesch_kincaid_grade": 8,
+    "ari": 8.68,
+    "coleman_liau": 13.12,
+    "gunning_fog": 4.86
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 589,
+        "sentence_count": 35,
+        "avg_sentence_len": 16.83,
+        "avg_word_len": 6.31,
+        "syllable_count": 1191,
+        "complex_word_count": 60,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 18.69,
+        "flesch_kincaid_grade": 14.83,
+        "ari": 16.72,
+        "coleman_liau": 19.57,
+        "gunning_fog": 10.81
+      },
+      "distance_to_target": 1.5143,
+      "fidelity": {
+        "overall": 0.8538,
+        "entity_recall": 0.7639,
+        "number_recall": 1,
+        "keyword_recall": 0.8,
+        "entity_total": 72,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1133,
+        "completion_tokens": 2649,
+        "total_tokens": 3782,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 574,
+        "sentence_count": 33,
+        "avg_sentence_len": 17.39,
+        "avg_word_len": 5.93,
+        "syllable_count": 1069,
+        "complex_word_count": 41,
+        "complex_word_ratio": 0.07,
+        "flesch_reading_ease": 31.62,
+        "flesch_kincaid_grade": 13.17,
+        "ari": 15.22,
+        "coleman_liau": 17.39,
+        "gunning_fog": 9.81
+      },
+      "distance_to_target": 1.1147,
+      "fidelity": {
+        "overall": 0.8925,
+        "entity_recall": 0.8056,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 72,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2266,
+        "completion_tokens": 5177,
+        "total_tokens": 7443,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance",
+      "metrics": {
+        "word_count": 723,
+        "sentence_count": 119,
+        "avg_sentence_len": 6.08,
+        "avg_word_len": 5.75,
+        "syllable_count": 1300,
+        "complex_word_count": 44,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 48.55,
+        "flesch_kincaid_grade": 8,
+        "ari": 8.68,
+        "coleman_liau": 13.12,
+        "gunning_fog": 4.86
+      },
+      "distance_to_target": 0.3542,
+      "fidelity": {
+        "overall": 0.9525,
+        "entity_recall": 0.9167,
+        "number_recall": 1,
+        "keyword_recall": 0.95,
+        "entity_total": 72,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3399,
+        "completion_tokens": 6722,
+        "total_tokens": 10121,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9525,
+    "entity_recall": 0.9167,
+    "number_recall": 1,
+    "keyword_recall": 0.95,
+    "entity_total": 72,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3399,
+    "completion_tokens": 6722,
+    "total_tokens": 10121,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:38:48.976Z"
+}

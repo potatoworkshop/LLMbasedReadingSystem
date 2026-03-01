@@ -1,0 +1,60 @@
+{
+  "article_id": "dfa4a07a-6ca9-4d03-a644-6166c5371140",
+  "topic": "climate adaptation",
+  "level": 1,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Living with a Changing World",
+  "article": [
+    "The world is getting warmer because of climate change. This change brings more rain, bigger storms, and hotter days. People must find new ways to live in this changing world. We call these changes climate adaptation. It means we adjust how we build our homes and how we grow our food. Adaptation helps us stay safe when the weather becomes very strong or dangerous. It is a smart way to prepare for the future.",
+    "Cities are now changing to handle more water. Many big cities are near the ocean. When the sea rises, it can flood streets and houses. To stop this, some places build tall walls by the water. These walls keep the sea out. Other cities build parks that can hold extra rain. Instead of flooding the roads, the water goes into the soil. This keeps the city dry and safe for everyone who lives there. These ideas are simple but they save many lives.",
+    "Farming is also changing because of the heat. Some plants cannot grow when it is too hot or too dry. Farmers are now choosing different seeds. They plant crops that do not need much water. They also use new tools to save every drop of rain. In some places, farmers build giant shades over their plants. These shades keep the sun from burning the food. By changing how they work, farmers can still provide food for the whole world.",
+    "People are also making their homes better for the heat. In hot countries, people paint their roofs white. White paint reflects the sunlight away from the house. This keeps the inside cool without using much electricity. Other people plant trees around their homes. The trees give shade and keep the air fresh. These small steps make a big difference for families. When we plan ahead, we can live well even as the planet changes.",
+    "Adaptation is about being ready for tomorrow. It is not just about fixing problems after they happen. It is about building a world that is strong and flexible. Governments and regular people must work together on these goals. If we learn to adapt, we can protect our nature and our homes. Education helps us understand these new ways of living. Together, we can find many ways to stay safe in a warmer world."
+  ],
+  "metrics": {
+    "word_count": 383,
+    "sentence_count": 39,
+    "avg_sentence_len": 9.82,
+    "avg_word_len": 4.42,
+    "syllable_count": 515,
+    "complex_word_count": 5,
+    "complex_word_ratio": 0.01,
+    "flesch_reading_ease": 83.11,
+    "flesch_kincaid_grade": 4.11,
+    "ari": 4.3,
+    "coleman_liau": 7.18,
+    "gunning_fog": 4.45
+  },
+  "model": "google/gemini-3-flash-preview",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gemini_b02",
+    "sample_id": "climate_adaptation_l1_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:35:28.623Z",
+    "effective_target_words": 420,
+    "length_compensation_factor": 1.4,
+    "length_bounds": {
+      "lower": 378,
+      "upper": 504
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 83
+  },
+  "token_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 468,
+    "total_tokens": 668,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T20:35:28.624Z"
+}

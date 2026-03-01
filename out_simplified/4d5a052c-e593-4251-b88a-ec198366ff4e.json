@@ -1,0 +1,286 @@
+{
+  "article_id": "4d5a052c-e593-4251-b88a-ec198366ff4e",
+  "mode": "difficulty_adjust",
+  "original_article": "New Zealand is a small country of four million inhabitants, a long-haul flight from all the major tourist-generating markets of the world. Tourism currently makes up 9% of the country's gross domestic product, and is the country`s largest export sector. Unlike other export sectors, which make products and then sell them overseas, tourism brings its customers to New Zealand. The product is the country itself - the people, the places and the experiences. In 1999, Tourism New Zealand launched a campaign to communicate a new brand position to the world. The campaign focused on New Zealand's scenic beauty, exhilarating outdoor activities and authentic Maori culture, and it made New Zealand one of the strongest national brands in the world.\n\nA key feature of the campaign was the website www.newzealand.com, which provided potential visitors to New Zealand with a single gateway to everything the destination had to offer. The heart of the website was a database of tourism services operators, both those based in New Zealand and those based abroad which offered tourism services to the country. Any tourism-related business could be listed by filling in a simple form. This meant that even the smallest bed and breakfast address or specialist activity provider could gain a web presence with access to an audience of long-haul visitors. In addition, because participating businesses were able to update the details they gave on a regular basis, the information provided remained accurate. And to maintain and improve standards, Tourism New Zealand organised a scheme whereby organisations appearing on the website underwent an independent evaluation against a set of agreed national standards of quality. As part of this, the effect of each business on the environment was considered.\n\nTo communicate the New Zealand experience, the site also carried features relating to famous people and places. One of the most popular was an interview with former New Zealand All Blacks rugby captain Tana Umaga. Another feature that attracted a lot of attention was an interactive journey through a number of the locations chosen for blockbuster films which had made use of New Zealand's stunning scenery as a backdrop. As the site developed, additional features were added to help independent travellers devise their own customised itineraries. To make it easier to plan motoring holidays, the site catalogued the most popular driving routes in the country, highlighting different routes according to the season and indicating distances and times.\n\nLater, a Travel Planner feature was added, which allowed visitors to click and `bookmark, places or attractions they were interested in, and then view the results on a map. The Travel Planner offered suggested routes and public transport options between the chosen locations. There were also links to accommodation in the area. By registering with the website, users could save their Travel Plan and return to it later, or print it out to take on the visit. The website also had a `Your Words` section where anyone could submit a blog of their New Zealand travels for possible inclusion on the website.\n\nThe Tourism New Zealand website won two Webby awards for online achievement and innovation. More importantly perhaps, the growth of tourism to New Zealand was impressive. Overall tourism expenditure increased by an average of 6.9% per year between 1999 and 2004. From Britain, visits to New Zealand grew at an average annual rate of 13% between 2002 and 2006, compared to a rate of 4% overall for British visits abroad.\n\nThe website was set up to allow both individuals and travel organisations to create itineraries and travel packages to suit their own needs and interests. On the website, visitors can search for activities not solely by geographical location, but also by the particular nature of the activity. This is important as research shows that activities are the key driver of visitor satisfaction, contributing 74% to visitor satisfaction, while transport and accommodation account for the remaining 26%. The more activities that visitors undertake, the more satisfied they will be. It has also been found that visitors enjoy cultural activities most when they are interactive, such as visiting a marae (meeting ground) to learn about traditional Maori life. Many long-haul travellers enjoy such learning experiences, which provide them with stories to take home to their friends and family. In addition, it appears that visitors to New Zealand don't want to be `one of the crowd' and find activities that involve only a few people more special and meaningful.\n\nIt could be argued that New Zealand is not a typical destination. New Zealand is a small country with a visitor economy composed mainly of small businesses. It is generally perceived as a safe English-speaking country with a reliable transport infrastructure. Because of the long-haul flight,most visitors stay for longer (average 20 days) and want to see as much of the country as possible on what is often seen as a once-in-a-lifetime visit. However, the underlying lessons apply anywhere - the effectiveness of a strong brand, a strategy based on unique experiences and a comprehensive and user-friendly website.",
+  "max_rounds": 5,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_test_decoupled_20260228",
+    "batch_id": "test_grok_decoupled",
+    "sample_id": "ielts_13_test1_passage1_b1idvj_to_l2"
+  },
+  "source": {
+    "source_article_id": "ielts_13_test1_passage1_b1idvj",
+    "source_dataset": "questions",
+    "source_file": "ielts_13_test1_passage1_b1idvj.json"
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 5,
+    "fidelity_threshold": 0.72
+  },
+  "article": "New Zealand has four million people and lies far from major tourist hubs, so visitors need long flights to arrive. Tourism accounts for 9% of the country's gross domestic product and is the leading export, while other exports are goods sold overseas. Tourism draws people to New Zealand, where the product is the country itself, including people, places, and experiences. In 1999, Tourism New Zealand launched a campaign that introduced a new brand worldwide. The campaign featured stunning scenery, thrilling outdoor adventures, and authentic Maori culture, thus establishing New Zealand as a top brand.\n\nThe campaign featured a central website, www.newzealand.com, offering a single gateway to all New Zealand attractions that prospective visitors accessed often. The core element was a directory of tourism businesses, some operated in New Zealand and others were overseas, selling trips there. Any tourism business could join; they filled out a simple form, so small bed-and-breakfast places got an online presence, and special activity providers did the same to reach long-haul travelers. Businesses updated their details often to keep accuracy, as Tourism New Zealand ran a check system where listed businesses got reviewed by an independent panel that used national quality standards and checked environmental impact too.\n\nThe site showed New Zealand experiences and gave details on key people and landmarks. A popular feature was an interview with Tana Umaga, former captain of the New Zealand All Blacks rugby team. Another draw was a virtual tour of film locations; blockbuster movies used New Zealand's great scenery there. Later, the site added more tools; it helped solo travelers plan personal trips, and for road trips, it showed top driving routes listed by season along with distances and times.\n\nLater, they added Travel Planner; visitors could click to save liked places, which it showed on a map, and it gave route ideas, listed bus services between spots, and linked to nearby stays. Users signed up to save plans; they could get them back later or print for the trip. The site had a 'Your Words' spot; travelers sent blogs, and pick ones went on the site.\n\nThe Tourism New Zealand website won two Webby awards; it won for online excellence and new ideas. Tourism to New Zealand grew fast; visitor spending rose 6.9% each year from 1999 to 2004. Visits from Britain grew 13% a year from 2002 to 2006; that beat the 4% rise for all British trips abroad.\n\nThe site helped people and groups plan custom trips; on the site, search activities by type, not just location, and this matters a lot. Studies show activities comprise 74% of visitor joy, while transport and lodging make 26%. More focus on activities makes guests happier. Visitors like real cultural events, like going to a marae to learn Maori ways; long-haul travelers love this most, as it gives good stories for home. Visitors hate crowds; they like small group events that feel special.\n\nSome say New Zealand stands out from usual spots; it is small, and its tourism is mostly small businesses. People see it as safe; English is main, and transport runs well. Long flights mean average stays of 20 days; travelers want full visits, and they see it as one special trip. Yet these ideas work anywhere; use a strong brand, tie it to special experiences, and make a full, easy website.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "ari": [
+        5,
+        9
+      ],
+      "coleman_liau": [
+        7,
+        11
+      ],
+      "gunning_fog": [
+        7,
+        11
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 849,
+    "sentence_count": 42,
+    "avg_sentence_len": 20.21,
+    "avg_word_len": 5.05,
+    "syllable_count": 1444,
+    "complex_word_count": 51,
+    "complex_word_ratio": 0.06,
+    "flesch_reading_ease": 42.43,
+    "flesch_kincaid_grade": 12.36,
+    "ari": 12.47,
+    "coleman_liau": 12.44,
+    "gunning_fog": 10.49
+  },
+  "final_metrics": {
+    "word_count": 562,
+    "sentence_count": 31,
+    "avg_sentence_len": 18.13,
+    "avg_word_len": 4.82,
+    "syllable_count": 859,
+    "complex_word_count": 9,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 59.13,
+    "flesch_kincaid_grade": 9.52,
+    "ari": 10.32,
+    "coleman_liau": 10.89,
+    "gunning_fog": 7.89
+  },
+  "hit_target": false,
+  "rounds_used": 5,
+  "history": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_gt_2;dist=2.6805;center_gap=3.94;mode=both;dominant=word;dir_changed=0;wb=52;sb=15;lf=1.19;df=2.10;af=na;pg=na;pd=na;af_fb=0",
+      "metrics": {
+        "word_count": 575,
+        "sentence_count": 98,
+        "avg_sentence_len": 5.87,
+        "avg_word_len": 4.45,
+        "syllable_count": 801,
+        "complex_word_count": 7,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 83.03,
+        "flesch_kincaid_grade": 3.14,
+        "ari": 2.48,
+        "coleman_liau": 5.34,
+        "gunning_fog": 2.83
+      },
+      "distance_to_target": 2.7211,
+      "fidelity": {
+        "overall": 0.8924,
+        "entity_recall": 0.8276,
+        "number_recall": 1,
+        "keyword_recall": 0.85,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1405,
+        "completion_tokens": 1828,
+        "total_tokens": 3233,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_gt_2;dist=2.7211;center_gap=5.02;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=52;sb=12;lf=0.98;df=2.10;af=3.0000;pg=2.6805;pd=0.0406;af_fb=0",
+      "metrics": {
+        "word_count": 549,
+        "sentence_count": 87,
+        "avg_sentence_len": 6.31,
+        "avg_word_len": 5.83,
+        "syllable_count": 1064,
+        "complex_word_count": 34,
+        "complex_word_ratio": 0.06,
+        "flesch_reading_ease": 36.47,
+        "flesch_kincaid_grade": 9.74,
+        "ari": 9.19,
+        "coleman_liau": 13.79,
+        "gunning_fog": 5
+      },
+      "distance_to_target": 2.3735,
+      "fidelity": {
+        "overall": 0.8714,
+        "entity_recall": 0.7586,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2507,
+        "completion_tokens": 3430,
+        "total_tokens": 5937,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "attempt": 1,
+      "direction": "simpler",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_gt_2;dist=2.3735;center_gap=2.81;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=52;sb=12;lf=0.96;df=2.09;af=3.0000;pg=2.7211;pd=0.3476;af_fb=0",
+      "metrics": {
+        "word_count": 551,
+        "sentence_count": 85,
+        "avg_sentence_len": 6.48,
+        "avg_word_len": 4.8,
+        "syllable_count": 846,
+        "complex_word_count": 8,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 70.36,
+        "flesch_kincaid_grade": 5.06,
+        "ari": 4.42,
+        "coleman_liau": 7.86,
+        "gunning_fog": 3.17
+      },
+      "distance_to_target": 1.5193,
+      "fidelity": {
+        "overall": 0.8869,
+        "entity_recall": 0.7931,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3589,
+        "completion_tokens": 8645,
+        "total_tokens": 12234,
+        "llm_calls": 3
+      }
+    },
+    {
+      "round": 4,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_1_to_2;dist=1.5193;center_gap=3.62;mode=sentence_budget_1;dominant=sentence;dir_changed=1;wb=28;sb=5;lf=0.96;df=1.66;af=1.7786;pg=2.3735;pd=0.8542;af_fb=0",
+      "metrics": {
+        "word_count": 552,
+        "sentence_count": 81,
+        "avg_sentence_len": 6.81,
+        "avg_word_len": 4.83,
+        "syllable_count": 851,
+        "complex_word_count": 8,
+        "complex_word_ratio": 0.01,
+        "flesch_reading_ease": 69.49,
+        "flesch_kincaid_grade": 5.26,
+        "ari": 4.73,
+        "coleman_liau": 8.27,
+        "gunning_fog": 3.31
+      },
+      "distance_to_target": 1.3701,
+      "fidelity": {
+        "overall": 0.8869,
+        "entity_recall": 0.7931,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 4665,
+        "completion_tokens": 11547,
+        "total_tokens": 16212,
+        "llm_calls": 4
+      }
+    },
+    {
+      "round": 5,
+      "attempt": 1,
+      "direction": "harder",
+      "accepted": true,
+      "reason": "accepted_better_distance|tier=dist_1_to_2;dist=1.3701;center_gap=3.4;mode=sentence_only;dominant=sentence;dir_changed=0;wb=45;sb=29;lf=0.96;df=1.59;af=3.0000;pg=1.5193;pd=0.1492;af_fb=0",
+      "metrics": {
+        "word_count": 562,
+        "sentence_count": 31,
+        "avg_sentence_len": 18.13,
+        "avg_word_len": 4.82,
+        "syllable_count": 859,
+        "complex_word_count": 9,
+        "complex_word_ratio": 0.02,
+        "flesch_reading_ease": 59.13,
+        "flesch_kincaid_grade": 9.52,
+        "ari": 10.32,
+        "coleman_liau": 10.89,
+        "gunning_fog": 7.89
+      },
+      "distance_to_target": 1.2592,
+      "fidelity": {
+        "overall": 0.8869,
+        "entity_recall": 0.7931,
+        "number_recall": 1,
+        "keyword_recall": 0.9,
+        "entity_total": 29,
+        "number_total": 11,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 5767,
+        "completion_tokens": 15513,
+        "total_tokens": 21280,
+        "llm_calls": 5
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.8869,
+    "entity_recall": 0.7931,
+    "number_recall": 1,
+    "keyword_recall": 0.9,
+    "entity_total": 29,
+    "number_total": 11,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 5767,
+    "completion_tokens": 15513,
+    "total_tokens": 21280,
+    "llm_calls": 5
+  },
+  "transformed_at": "2026-02-28T13:19:49.007Z"
+}

@@ -1,0 +1,207 @@
+{
+  "article_id": "db377ee1-1729-4b05-8f9a-0e3916478eb3",
+  "mode": "difficulty_adjust",
+  "original_article": "Public transportation plays a big role in daily life. It helps millions of people move from one place to another. Buses, trains, subways, and trams are common forms. These systems run on fixed routes and schedules. People choose public transport for many reasons. It is often cheaper than driving a car. Parking in cities can be hard and costly. Also, public transport reduces traffic jams. When more people use buses or trains, fewer cars are on the roads. This makes travel faster for everyone. Cities around the world rely on these systems. For example, London has a famous underground train called the Tube. New York City has subways that never stop. In Tokyo, trains carry huge crowds every day. These examples show how public transport keeps cities running smoothly. Without it, life would be much harder.\n\nPublic transportation comes in many types. Buses are the most common. They go almost everywhere in a city. Trains connect different parts of a country. High-speed trains like Japan's Shinkansen travel very fast. Subways run under the ground. They avoid traffic above. Trams or streetcars move on tracks in streets. Some cities use ferries for water travel. Bicycles and bike-sharing programs are also part of public transport in many places. Each type has its own benefits. Buses are flexible and reach small streets. Trains carry many passengers at once. Subways are quick in busy areas. Governments build and run these systems. They spend money to keep them safe and clean. Tickets cost little compared to taxis. Students and old people often get discounts. This makes public transport fair for all. Next, let's look at why it helps the environment.\n\nPublic transportation brings many good things to society. First, it helps the planet. Buses and trains use less fuel than cars. One bus can replace many cars. This cuts down pollution and greenhouse gases. Cities with good public transport have cleaner air. People breathe better. Second, it saves money. Governments spend less on new roads. People save on gas and car repairs. Families without cars live well. Third, it makes cities fairer. Poor people can go to jobs and schools easily. No one feels left out. Public transport also builds community. People meet on buses or trains. They talk and share stories. During rush hour, systems get crowded. But new tech helps. Apps show when the next bus comes. Contactless cards make paying fast. Electric buses are coming soon. They make no noise or smoke. Solar power charges some trains. These changes make public transport better. In the future, self-driving buses may join the fleet. This will make travel even safer.\n\nDespite the benefits, public transport faces problems. Some areas have few buses or trains. People in the countryside wait a long time. Delays happen because of bad weather or repairs. Crowds make rides uncomfortable. Safety worries some riders, especially at night. Crime on late trains is a issue in big cities. To fix this, cities add more lights and cameras. They hire more staff too. Funding is another challenge. Building new lines costs billions. Taxes pay for it, but not all agree. Still, most experts say public transport is worth it. Studies show it boosts the economy. Jobs grow near train stations. Shops do better with more visitors. Tourists love easy travel. Cities like Singapore and Zurich lead the way. They mix buses, trains, and bikes well. Other places copy them. In the end, good public transport makes life better for all. It connects people and protects the earth. More cities plan big changes ahead.",
+  "max_rounds": 3,
+  "fidelity_threshold": 0.72,
+  "experiment": {
+    "experiment_id": "ch5_e3g_modelcmp_20260226",
+    "run_tag": "pilot",
+    "batch_id": "adj_g_grok_b01",
+    "sample_id": "e0598ace-77d9-423b-a159-3cc71e8abb37_to_l2"
+  },
+  "source": {
+    "source_article_id": "e0598ace-77d9-423b-a159-3cc71e8abb37",
+    "source_dataset": "generated_exp_ch5",
+    "source_file": "e0598ace-77d9-423b-a159-3cc71e8abb37.json",
+    "source_level": 1
+  },
+  "request_meta": {
+    "target_level": 2,
+    "max_rounds": 3,
+    "fidelity_threshold": 0.72
+  },
+  "article": "Public transportation plays a big role in daily life. It helps millions of people move from one place to another. Buses, trains, subways, and trams are common forms. These systems run on fixed routes and schedules. People choose public transport for many reasons. It is often cheaper than driving a car. Parking in cities can be hard and costly. Also, public transport reduces traffic jams. When more people use buses or trains, fewer cars are on the roads. This makes travel faster for everyone. Cities around the world rely on these systems. For example, London has a famous underground train called the Tube. New York City has subways that never stop. In Tokyo, trains carry huge crowds every day. These examples show how public transport keeps cities running smoothly. Without it, life would be much harder.\n\nPublic transportation comes in many types. Buses are the most common. They go almost everywhere in a city. Trains connect different parts of a country. High-speed trains like Japan's Shinkansen travel very fast. Subways run under the ground. They avoid traffic above. Trams or streetcars move on tracks in streets. Some cities use ferries for water travel. Bicycles and bike-sharing programs are also part of public transport in many places. Each type has its own benefits. Buses are flexible and reach small streets. Trains carry many passengers at once. Subways are quick in busy areas. Governments build and run these systems. They spend money to keep them safe and clean. Tickets cost little compared to taxis. Students and old people often get discounts. This makes public transport fair for all. Next, let's look at why it helps the environment.\n\nPublic transportation brings many good things to society. First, it helps the planet. Buses and trains use less fuel than cars. One bus can replace many cars. This cuts down pollution and greenhouse gases. Cities with good public transport have cleaner air. People breathe better. Second, it saves money. Governments spend less on new roads. People save on gas and car repairs. Families without cars live well. Third, it makes cities fairer. Poor people can go to jobs and schools easily. No one feels left out. Public transport also builds community. People meet on buses or trains. They talk and share stories. During rush hour, systems get crowded. But new tech helps. Apps show when the next bus comes. Contactless cards make paying fast. Electric buses are coming soon. They make no noise or smoke. Solar power charges some trains. These changes make public transport better. In the future, self-driving buses may join the fleet. This will make travel even safer.\n\nDespite the benefits, public transport faces problems. Some areas have few buses or trains. People in the countryside wait a long time. Delays happen because of bad weather or repairs. Crowds make rides uncomfortable. Safety worries some riders, especially at night. Crime on late trains is a issue in big cities. To fix this, cities add more lights and cameras. They hire more staff too. Funding is another challenge. Building new lines costs billions. Taxes pay for it, but not all agree. Still, most experts say public transport is worth it. Studies show it boosts the economy. Jobs grow near train stations. Shops do better with more visitors. Tourists love easy travel. Cities like Singapore and Zurich lead the way. They mix buses, trains, and bikes well. Other places copy them. In the end, good public transport makes life better for all. It connects people and protects the earth. More cities plan big changes ahead.",
+  "target_level": 2,
+  "profile": {
+    "level": 2,
+    "label": "Easy",
+    "rewrite_guidance": "Use common vocabulary and mostly short-to-medium sentences with minimal subordination.",
+    "targets": {
+      "flesch_kincaid_grade": [
+        6.5,
+        8.5
+      ],
+      "flesch_reading_ease": [
+        60,
+        75
+      ],
+      "avg_sentence_len": [
+        10,
+        16
+      ],
+      "complex_word_ratio": [
+        0.05,
+        0.12
+      ]
+    }
+  },
+  "original_metrics": {
+    "word_count": 594,
+    "sentence_count": 86,
+    "avg_sentence_len": 6.91,
+    "avg_word_len": 4.81,
+    "syllable_count": 867,
+    "complex_word_count": 9,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 76.34,
+    "flesch_kincaid_grade": 4.33,
+    "ari": 4.68,
+    "coleman_liau": 8.2,
+    "gunning_fog": 3.37
+  },
+  "final_metrics": {
+    "word_count": 594,
+    "sentence_count": 86,
+    "avg_sentence_len": 6.91,
+    "avg_word_len": 4.81,
+    "syllable_count": 867,
+    "complex_word_count": 9,
+    "complex_word_ratio": 0.02,
+    "flesch_reading_ease": 76.34,
+    "flesch_kincaid_grade": 4.33,
+    "ari": 4.68,
+    "coleman_liau": 8.2,
+    "gunning_fog": 3.37
+  },
+  "hit_target": false,
+  "rounds_used": 3,
+  "history": [
+    {
+      "round": 1,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 553,
+        "sentence_count": 86,
+        "avg_sentence_len": 6.43,
+        "avg_word_len": 6.64,
+        "syllable_count": 1200,
+        "complex_word_count": 56,
+        "complex_word_ratio": 0.1,
+        "flesch_reading_ease": 16.73,
+        "flesch_kincaid_grade": 12.52,
+        "ari": 13.04,
+        "coleman_liau": 18.62,
+        "gunning_fog": 6.62
+      },
+      "distance_to_target": 1.3724,
+      "fidelity": {
+        "overall": 0.7564,
+        "entity_recall": 0.6364,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 55,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 1088,
+        "completion_tokens": 2035,
+        "total_tokens": 3123,
+        "llm_calls": 1
+      }
+    },
+    {
+      "round": 2,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 516,
+        "sentence_count": 82,
+        "avg_sentence_len": 6.29,
+        "avg_word_len": 6.77,
+        "syllable_count": 1142,
+        "complex_word_count": 56,
+        "complex_word_ratio": 0.11,
+        "flesch_reading_ease": 13.21,
+        "flesch_kincaid_grade": 12.98,
+        "ari": 13.58,
+        "coleman_liau": 19.28,
+        "gunning_fog": 6.86
+      },
+      "distance_to_target": 1.4944,
+      "fidelity": {
+        "overall": 0.7482,
+        "entity_recall": 0.6182,
+        "number_recall": 1,
+        "keyword_recall": 0.6,
+        "entity_total": 55,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 2176,
+        "completion_tokens": 3525,
+        "total_tokens": 5701,
+        "llm_calls": 2
+      }
+    },
+    {
+      "round": 3,
+      "direction": "harder",
+      "accepted": false,
+      "reason": "rejected_not_better",
+      "metrics": {
+        "word_count": 542,
+        "sentence_count": 35,
+        "avg_sentence_len": 15.49,
+        "avg_word_len": 5.94,
+        "syllable_count": 1024,
+        "complex_word_count": 29,
+        "complex_word_ratio": 0.05,
+        "flesch_reading_ease": 31.28,
+        "flesch_kincaid_grade": 12.74,
+        "ari": 14.29,
+        "coleman_liau": 17.22,
+        "gunning_fog": 8.33
+      },
+      "distance_to_target": 1.0087,
+      "fidelity": {
+        "overall": 0.8582,
+        "entity_recall": 0.8182,
+        "number_recall": 1,
+        "keyword_recall": 0.7,
+        "entity_total": 55,
+        "number_total": 0,
+        "keyword_total": 20
+      },
+      "token_usage": {
+        "prompt_tokens": 3264,
+        "completion_tokens": 5535,
+        "total_tokens": 8799,
+        "llm_calls": 3
+      }
+    }
+  ],
+  "fidelity": {
+    "overall": 0.9918,
+    "entity_recall": 0.9818,
+    "number_recall": 1,
+    "keyword_recall": 1,
+    "entity_total": 55,
+    "number_total": 0,
+    "keyword_total": 20
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "token_usage": {
+    "prompt_tokens": 3264,
+    "completion_tokens": 5535,
+    "total_tokens": 8799,
+    "llm_calls": 3
+  },
+  "transformed_at": "2026-02-26T18:40:37.557Z"
+}

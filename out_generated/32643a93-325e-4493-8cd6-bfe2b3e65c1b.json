@@ -1,0 +1,59 @@
+{
+  "article_id": "32643a93-325e-4493-8cd6-bfe2b3e65c1b",
+  "topic": "marine ecosystems",
+  "level": 3,
+  "target_words": 600,
+  "lang": "en",
+  "title": "Dynamics and Threats in Marine Ecosystems",
+  "article": [
+    "Marine ecosystems encompass a mosaic of habitats that range from sunlit coastal shallows to the dark abyssal plains of the open ocean. Coastal systems such as mangroves, salt marshes and seagrass meadows lie at the interface of land and sea and provide nursery areas for many species. Coral reefs form structurally complex islands of biodiversity in tropical waters, while pelagic zones support vast assemblies of plankton and migratory fishes. Benthic communities live on or within the seabed and often perform essential biogeochemical functions, including nutrient recycling and carbon sequestration. These varied habitats deliver ecosystem services that sustain human societies: they supply seafood, protect shorelines from storm damage, sequester carbon, and underpin tourism industries. Understanding the structural and functional diversity of marine ecosystems is therefore critical for managing both biological resources and the environmental processes on which coastal populations depend.",
+    "At the foundation of marine food webs are primary producers: phytoplankton in the open ocean and macrophytes such as seagrass and macroalgae in shallow waters. These autotrophs convert sunlight and dissolved nutrients into organic matter that feeds a broad spectrum of consumers, from small zooplankton and filter-feeding invertebrates to large predatory fishes and marine mammals. Trophic interactions can produce cascading effects; for example, the removal of apex predators may allow mid-level consumers to proliferate and overgraze primary producers, altering habitat structure and productivity. Keystone species, including certain predators and habitat-forming corals or kelps, exert an influence disproportionate to their abundance and therefore contribute strongly to ecosystem resilience. Connectivity among habitats through larval dispersal and seasonal migrations further stabilizes populations, permitting recolonisation after disturbances and maintaining genetic exchange across broad spatial scales.",
+    "Human activities have amplified pressures on marine systems, frequently producing synergistic and sometimes irreversible impacts. Overfishing and destructive fishing methods, such as bottom trawling, reduce biomass and eliminate structurally important species. Coastal development and land-use change increase sedimentation and nutrient runoff, which can smother benthic habitats and trigger harmful algal blooms. Pollution from plastics and persistent chemicals accumulates in food webs and poses health risks to wildlife and people alike. Climate change presents a multifaceted threat: ocean warming drives coral bleaching and shifts species distributions, while ocean acidification reduces carbonate availability, impairing shell and skeleton formation in many organisms. Deoxygenation of coastal waters, often linked to nutrient enrichment, creates ‘dead zones’ where most marine life cannot survive. When these stressors act together, they can push ecosystems past tipping points into degraded states that are difficult to reverse.",
+    "Conservation and management responses must therefore be multifaceted and adaptive. Marine protected areas (MPAs), when well designed and enforced, can rebuild stocks and preserve habitat complexity, yet they function best within networks that account for larval connectivity and species movements. Sustainable fisheries management—using science-based quotas, gear restrictions and bycatch reduction—can prevent population collapses. Restoring habitat-forming species, such as mangroves and seagrasses, enhances carbon storage and improves coastal resilience. Broader measures to reduce nutrient runoff, limit plastic pollution and cut greenhouse gas emissions are essential to mitigate systemic threats. Effective solutions also require integrating social and economic considerations, engaging local communities, and strengthening international cooperation, because many marine challenges cross political boundaries and demand collective action."
+  ],
+  "metrics": {
+    "word_count": 530,
+    "sentence_count": 24,
+    "avg_sentence_len": 22.08,
+    "avg_word_len": 6.42,
+    "syllable_count": 1120,
+    "complex_word_count": 54,
+    "complex_word_ratio": 0.1,
+    "flesch_reading_ease": 5.64,
+    "flesch_kincaid_grade": 17.96,
+    "ari": 19.83,
+    "coleman_liau": 20.58,
+    "gunning_fog": 12.91
+  },
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_modelcmp_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_gpt5mini_b02",
+    "sample_id": "marine_ecosystems_l3_w600_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T20:30:11.926Z",
+    "effective_target_words": 630,
+    "length_compensation_factor": 1.05,
+    "length_bounds": {
+      "lower": 567,
+      "upper": 756
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 3,
+    "selected_attempt": 1,
+    "within_preferred_range": false,
+    "distance_to_target_words": 70
+  },
+  "token_usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 4726,
+    "total_tokens": 5266,
+    "llm_calls": 3
+  },
+  "generated_at": "2026-02-25T20:30:11.927Z"
+}

@@ -1,0 +1,57 @@
+{
+  "article_id": "ef0e7d6f-f37a-492c-9a6b-a198fe57e9c4",
+  "topic": "ancient trade routes",
+  "level": 4,
+  "target_words": 300,
+  "lang": "en",
+  "title": "Intercontinental Trade Networks of Antiquity",
+  "article": [
+    "Ancient trade routes formed the sinews of pre-modern globalization, weaving a tapestry of economic interdependence across Eurasia and beyond. These conduits, often spanning thousands of kilometers through deserts, mountains, and oceans, facilitated the bidirectional flow of luxury goods, raw materials, and intangible innovations. Merchants navigated perilous terrains, evading bandits and natural hazards, sustained by oases and waystations that doubled as cultural entrepôts. The vitality of these networks underpinned the prosperity of empires, from Han China to the Roman dominion, engendering fiscal surpluses that funded monumental architecture and military expansions.",
+    "Preeminent among terrestrial arteries was the Silk Road, a convoluted nexus extending approximately 6,500 kilometers from Chang'an (modern Xi'an) to Antioch and beyond. Caravans laden with shimmering silks, aromatic spices, fine porcelain, and nephrite jade traversed the Taklamakan Desert and Pamir Plateau, bartering for Levantine glassware, Bactrian horses, and Mediterranean coral. Institutional safeguards, including Sassanid postal relays and Tang dynasty edicts, mitigated risks, while nomadic intermediaries like the Sogdians dominated arbitrage. This route not only disseminated sericulture techniques westward but also propagated metallurgical advancements, such as Damascus steel precursors.",
+    "Maritime counterparts amplified these exchanges, with monsoon winds propelling dhows and lateens from the Red Sea to the Malabar Coast and Spice Islands. The Incense Route, radiating from Sabaean Yemen, channeled frankincense and myrrh to Petra's rock-hewn emporia, whence Nabataean camels relayed them to Gaza's harbors. Roman triremes and Aksumite vessels further integrated East African ivory and Ethiopian gold into this matrix, fostering entrepôts like Berenike and Muza. Such oceanic ventures democratized pepper and cloves, staples that inflamed European palates and economies.",
+    "The repercussions transcended commerce, catalyzing paradigmatic shifts in technology, religion, and aesthetics. Papermaking migrated from China via Samarkand, revolutionizing Byzantine scriptoria, while Nestorian Christianity infiltrated Mongol steppes. Conversely, these conduits precipitated ecological exchanges, introducing cosmopolitan flora and fauna, and geopolitical frictions over chokepoints like the Malabar Straits. Thus, ancient trade routes incarnated a proto-global order, whose legacies inform contemporary supply chains and intercultural dialogues."
+  ],
+  "metrics": {
+    "word_count": 330,
+    "sentence_count": 16,
+    "avg_sentence_len": 20.63,
+    "avg_word_len": 6.5,
+    "syllable_count": 727,
+    "complex_word_count": 41,
+    "complex_word_ratio": 0.12,
+    "flesch_reading_ease": -0.48,
+    "flesch_kincaid_grade": 18.45,
+    "ari": 19.5,
+    "coleman_liau": 20.98,
+    "gunning_fog": 13.22
+  },
+  "model": "x-ai/grok-4.1-fast",
+  "provider": "openrouter",
+  "experiment": {
+    "experiment_id": "ch5_e1_20260225",
+    "run_tag": "pilot",
+    "batch_id": "gen_b01",
+    "sample_id": "ancient_trade_routes_l4_w300_r1"
+  },
+  "request_meta": {
+    "requested_at": "2026-02-25T19:09:12.985Z",
+    "length_bounds": {
+      "lower": 270,
+      "upper": 360
+    }
+  },
+  "generation_meta": {
+    "max_attempts": 3,
+    "attempts_used": 1,
+    "selected_attempt": 1,
+    "within_preferred_range": true,
+    "distance_to_target_words": 30
+  },
+  "token_usage": {
+    "prompt_tokens": 334,
+    "completion_tokens": 1125,
+    "total_tokens": 1459,
+    "llm_calls": 1
+  },
+  "generated_at": "2026-02-25T19:09:12.986Z"
+}
