@@ -41,6 +41,8 @@ temp/
 # Docs: keep only the thesis deliverable under version control
 docs/**
 !docs/
+!docs/SEFI/
+!docs/SEFI/**
 !docs/Thesis/
 docs/Thesis/**
 !docs/Thesis/Thesis.docx
