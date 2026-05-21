@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 server/node_modules/
+.venv/
 
 # Build outputs
 .next/
@@ -36,3 +37,10 @@ Thumbs.db
 tmp/
 temp/
 *.tmp
+
+# Docs: keep only the thesis deliverable under version control
+docs/**
+!docs/
+!docs/Thesis/
+docs/Thesis/**
+!docs/Thesis/Thesis.docx
